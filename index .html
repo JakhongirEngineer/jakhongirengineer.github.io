@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principia Forge — Mobile Apps</title>
+    <meta name="description" content="Principia Forge builds productivity apps for people who mean business. Maker of Maqsad.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=DM+Mono:wght@400;500&display=swap');
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --teal: #2DD4BF;
+            --indigo: #6366F1;
+            --purple: #A855F7;
+            --pink: #EC4899;
+            --deep-space: #0F1117;
+            --surface: #161822;
+            --surface-light: #1E2030;
+            --text: #E8E9ED;
+            --text-muted: #9094A6;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'DM Sans', -apple-system, sans-serif;
+            background: var(--deep-space);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        /* ── Ambient glow ── */
+        body::before {
+            content: '';
+            position: fixed;
+            top: -40%;
+            left: 50%;
+            translate: -50% 0;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(ellipse, rgba(99,102,241,.08) 0%, rgba(45,212,191,.04) 40%, transparent 70%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        main {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 640px;
+            padding: 0 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            gap: 48px;
+        }
+
+        /* ── Brand ── */
+        .brand {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 56px;
+            height: 56px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, var(--teal), var(--indigo), var(--purple));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'DM Mono', monospace;
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+            letter-spacing: -1px;
+            box-shadow: 0 4px 24px rgba(99,102,241,.25);
+        }
+
+        .brand h1 {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -.02em;
+            color: var(--text);
+        }
+
+        .brand p {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        /* ── App card ── */
+        .apps {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .app-card {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px 20px;
+            background: var(--surface);
+            border: 1px solid rgba(255,255,255,.06);
+            border-radius: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: background .2s, border-color .2s, translate .2s;
+        }
+
+        .app-card:hover {
+            background: var(--surface-light);
+            border-color: rgba(99,102,241,.2);
+            translate: 0 -2px;
+        }
+
+        .app-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--teal), var(--indigo));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 22px;
+        }
+
+        .app-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .app-info h2 {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: -.01em;
+        }
+
+        .app-info p {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .arrow {
+            color: var(--text-muted);
+            font-size: 18px;
+            transition: translate .2s, color .2s;
+        }
+
+        .app-card:hover .arrow {
+            translate: 3px 0;
+            color: var(--teal);
+        }
+
+        /* ── Footer ── */
+        footer {
+            font-size: 12px;
+            color: var(--text-muted);
+            padding-bottom: 32px;
+        }
+
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color .15s;
+        }
+
+        footer a:hover {
+            color: var(--teal);
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 480px) {
+            main { padding: 0 16px; gap: 40px; }
+            .app-card { padding: 14px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="brand">
+            <div class="logo">PF</div>
+            <h1>Principia Forge</h1>
+            <p>Apps that respect your time.</p>
+        </div>
+
+        <div class="apps">
+            <a href="/maqsad/" class="app-card">
+                <div class="app-icon">🎯</div>
+                <div class="app-info">
+                    <h2>Maqsad</h2>
+                    <p>Focus timer, tasks & productivity — built for you</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <footer>
+            <a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a>
+        </footer>
+    </main>
+</body>
+</html>
