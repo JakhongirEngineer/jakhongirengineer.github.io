@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqsad — Focus Timer & Tasks</title>
+    <style>
+        :root {
+            --bg: #0f1019;
+            --surface: #1a1b26;
+            --text: #e0e0e6;
+            --muted: #9a9ab0;
+            --accent: #5b9cf5;
+            --border: rgba(255,255,255,0.06);
+            --teal: #2dd4bf;
+            --indigo: #6366f1;
+            --purple: #a855f7;
+            --pink: #ec4899;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 72px 24px 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, var(--teal), var(--indigo), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+        .hero .tagline {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 480px;
+            margin: 0 auto 32px;
+        }
+        .badge-link {
+            display: inline-block;
+        }
+        .badge-link img {
+            height: 56px;
+        }
+
+        /* Content */
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text);
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        @media (max-width: 520px) {
+            .features { grid-template-columns: 1fr; }
+        }
+        .feature {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .feature-icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .feature-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .feature-desc {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Data section */
+        .data-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+        .data-section h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .data-section p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .data-section ul {
+            color: var(--muted);
+            font-size: 14px;
+            padding-left: 20px;
+            margin-bottom: 8px;
+        }
+        .data-section ul li {
+            margin-bottom: 4px;
+        }
+
+        /* Links */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Legal links */
+        .legal-links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .legal-links a {
+            font-size: 14px;
+            color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="hero-icon">🎯</div>
+    <h1>Maqsad</h1>
+    <p class="tagline">Your goals, your focus, your time. A premium task manager and Pomodoro timer built for students and professionals.</p>
+    <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.principiaforge.maqsad" target="_blank" rel="noopener">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a>
+</div>
+
+<div class="content">
+
+    <h2>What is Maqsad?</h2>
+    <p>Maqsad is a productivity app that combines task management with a Pomodoro focus timer. Organize your tasks into categories, set reminders, track your focus streaks, and stay on top of your schedule — all in one app.</p>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">✅</div>
+            <div class="feature-title">Task Management</div>
+            <div class="feature-desc">Create, organize, and categorize tasks. Set due dates, subtasks, and recurring schedules.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🍅</div>
+            <div class="feature-title">Pomodoro Timer</div>
+            <div class="feature-desc">Stay focused with timed work sessions, short and long breaks, and ambient focus sounds.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🔔</div>
+            <div class="feature-title">Reminders</div>
+            <div class="feature-desc">Notification and alarm reminders with repeating intervals so you never miss a deadline.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📊</div>
+            <div class="feature-title">Analytics</div>
+            <div class="feature-desc">Track daily focus time, completed tasks, streaks, and category breakdowns.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📅</div>
+            <div class="feature-title">Calendar Sync</div>
+            <div class="feature-desc">Sync tasks with Google Calendar to see everything in one place.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">☁️</div>
+            <div class="feature-title">Cloud Backup</div>
+            <div class="feature-desc">Back up your data to Google Drive. Restore anytime on any device.</div>
+        </div>
+    </div>
+
+    <h2>How Maqsad Uses Your Data</h2>
+
+    <div class="data-section">
+        <h3>Local-first by design</h3>
+        <p>All your tasks, focus sessions, and settings are stored locally on your device. We do not operate any servers that store your personal data.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>Google Services (optional, user-initiated)</h3>
+        <p>If you sign in with Google, the App can access:</p>
+        <ul>
+            <li><strong>Google Drive</strong> (app-specific folder only) — to back up and restore your task data. The App cannot access any other files on your Drive.</li>
+            <li><strong>Google Calendar</strong> (events) — to sync your tasks as calendar events. The App only creates, updates, and deletes events for tasks managed within Maqsad.</li>
+        </ul>
+        <p>Both features require explicit opt-in in the App's settings. You can revoke access at any time by signing out or through your Google Account permissions.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>Third-party services</h3>
+        <p>The App uses Firebase Crashlytics for anonymous crash reporting and RevenueCat for subscription management. No personally identifiable information is shared. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </div>
+
+    <h2>Available on Android</h2>
+    <p>Maqsad is available on the Google Play Store. Supports 20+ languages including English, Russian, Uzbek, Kazakh, Kyrgyz, Tajik, Turkmen, Turkish, and more.</p>
+
+    <div class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:principiaforge@gmail.com">Contact Us</a>
+    </div>
+
+</div>
+
+<div class="footer">
+    &copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.
+</div>
+
+</body>
+</html>
