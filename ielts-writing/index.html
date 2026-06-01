@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS writing — Train the skills. Let your AI grade.</title>
+    <meta name="description" content="IELTS writing is an all-in-one, offline-first IELTS Writing trainer: structured lessons, spaced repetition, interactive games, and challenges — with one-tap handoff to your own AI for grading.">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+
+        :root {
+            --bg: #0f1310;
+            --surface: #161c17;
+            --surface-light: #1d251e;
+            --text: #e8ebe6;
+            --muted: #9aa69a;
+            --accent: #b9e096;
+            --accent-strong: #cdeeb0;
+            --border: rgba(185,224,150,0.10);
+            --mark: #b9e096;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 72px 24px 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .logo {
+            width: 84px;
+            height: 84px;
+            margin: 0 auto 20px;
+            border-radius: 20px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+        }
+        .logo .mark {
+            font-family: 'IBM Plex Mono', monospace;
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
+            color: #11160f;
+            background: var(--mark);
+            padding: 1px 8px;
+            border-radius: 4px;
+            line-height: 1.3;
+        }
+        .logo .sub {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 16px;
+            font-style: italic;
+            color: var(--text);
+        }
+        .hero h1 {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 38px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+        .hero h1 .hl {
+            background: linear-gradient(transparent 62%, var(--mark) 62%, var(--mark) 92%, transparent 92%);
+            padding: 0 4px;
+        }
+        .hero .tagline {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 520px;
+            margin: 0 auto 16px;
+        }
+        .positioning {
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            color: var(--accent);
+            margin-bottom: 32px;
+            text-transform: uppercase;
+        }
+        .badge-link { display: inline-block; }
+        .badge-link img { height: 56px; }
+
+        /* Content */
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text);
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+        h2:first-child { margin-top: 0; }
+        p {
+            color: var(--muted);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        @media (max-width: 520px) {
+            .features { grid-template-columns: 1fr; }
+        }
+        .feature {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .feature-icon { font-size: 28px; margin-bottom: 8px; }
+        .feature-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .feature-desc {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Data section */
+        .data-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+        .data-section h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .data-section p { font-size: 14px; margin-bottom: 8px; }
+        .data-section ul {
+            color: var(--muted);
+            font-size: 14px;
+            padding-left: 20px;
+            margin-bottom: 8px;
+        }
+        .data-section ul li { margin-bottom: 4px; }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .legal-links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .legal-links a { font-size: 14px; color: var(--accent); }
+
+        .disclaimer {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            max-width: 600px;
+            margin: 32px auto 0;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="logo">
+        <span class="mark">IELTS</span>
+        <span class="sub">writing</span>
+    </div>
+    <h1><span class="hl">IELTS writing</span></h1>
+    <p class="tagline">The all-in-one IELTS Writing trainer — structured lessons, spaced repetition, interactive games, and challenges, with one-tap handoff to your own AI for grading.</p>
+    <p class="positioning">AI grades your essays. We train the skills.</p>
+    <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltswriting" target="_blank" rel="noopener">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a>
+</div>
+
+<div class="content">
+
+    <h2>What is IELTS writing?</h2>
+    <p>IELTS writing is an offline-first practice app for IELTS Writing Task 1 and Task 2. It does the things AI does badly — a structured curriculum, spaced repetition, forced deliberate practice, and offline reliability — and hands grading off to the AI you already use. Write in a distraction-free studio, then send your essay to ChatGPT, Claude, or Gemini in one tap; the app turns the feedback into drills you actually remember.</p>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">📚</div>
+            <div class="feature-title">Structured Curriculum</div>
+            <div class="feature-desc">A guided path from Band 5 to Band 7+, with lessons, model essays, and an idea bank for every common topic.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🔁</div>
+            <div class="feature-title">Spaced Repetition</div>
+            <div class="feature-desc">Collocations, sentence patterns, and corrections resurface at the right moment so they stick for exam day.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🎮</div>
+            <div class="feature-title">Interactive Games</div>
+            <div class="feature-desc">Bite-size drills with adaptive difficulty turn grammar, vocabulary, and cohesion into quick, repeatable practice.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">✍️</div>
+            <div class="feature-title">Writing Studio</div>
+            <div class="feature-desc">A focused editor with an on-device linter, word targets, and undo history — everything stays on your phone.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🤖</div>
+            <div class="feature-title">One-Tap AI Handoff</div>
+            <div class="feature-desc">Send your essay to your own AI for grading, then log the band score and turn the feedback into review cards.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🔥</div>
+            <div class="feature-title">Challenges & Streaks</div>
+            <div class="feature-desc">Daily prompts, streaks, and themed challenges keep the deliberate practice going day after day.</div>
+        </div>
+    </div>
+
+    <h2>How IELTS writing uses your data</h2>
+
+    <div class="data-section">
+        <h3>Offline-first by design</h3>
+        <p>Your essays, review history, decks, progress, and settings are stored locally on your device. The app has no backend and does not upload your writing. You can export and import your data as a file at any time, entirely under your control.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>Bring your own AI</h3>
+        <p>The app contains no AI and never sends your essays anywhere on its own. When you use the grading handoff, the app simply copies your essay so you can paste it into the AI tool you choose (ChatGPT, Claude, Gemini, or another). Anything you share with that tool is handled under that provider's own privacy policy.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>Optional Google Sign-In</h3>
+        <p>Signing in with Google is optional and skippable. If you choose to sign in, the app uses your name and email to personalize the experience. See our <a href="privacy.html">Privacy Policy</a> for how this is handled and how to delete it.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>Third-party services</h3>
+        <p>The app uses Firebase Crashlytics and Firebase Analytics to fix bugs and understand which features help learners, and RevenueCat to manage Pro subscriptions. No essays or personal writing are shared with these services. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </div>
+
+    <h2>Available on Android</h2>
+    <p>IELTS writing is built for Android, with iOS planned. Free to use, with an optional Pro upgrade that unlocks premium features and content.</p>
+
+    <div class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:principiaforge@gmail.com">Contact Us</a>
+    </div>
+
+    <p class="disclaimer">IELTS is a registered trademark of the British Council, IDP: IELTS Australia, and Cambridge University Press &amp; Assessment. IELTS writing is an independent study app and is not affiliated with, endorsed by, or connected to these organizations. Band scores shown in the app are practice estimates and do not predict or guarantee official IELTS results.</p>
+
+</div>
+
+<div class="footer">
+    &copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.
+</div>
+
+</body>
+</html>
