@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouScore — IELTS Score Calculator</title>
+    <meta name="description" content="A free, private IELTS score calculator and practice journal. Calculate your overall band, track every practice test, and reach your target score — all on your device.">
+    <style>
+        :root {
+            --bg: #0f1019;
+            --surface: #1a1b26;
+            --text: #e0e0e6;
+            --muted: #9a9ab0;
+            --accent: #5b9cf5;
+            --border: rgba(255,255,255,0.06);
+            --teal: #2dd4bf;
+            --indigo: #6366f1;
+            --purple: #a855f7;
+            --pink: #ec4899;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 72px 24px 48px;
+            border-bottom: 1px solid var(--border);
+        }
+        .hero-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, var(--teal), var(--indigo), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+        .hero .tagline {
+            font-size: 18px;
+            color: var(--muted);
+            max-width: 520px;
+            margin: 0 auto 32px;
+        }
+        .badge-link {
+            display: inline-block;
+        }
+        .badge-link img {
+            height: 56px;
+        }
+
+        /* Content */
+        .content {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text);
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            color: var(--muted);
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        @media (max-width: 520px) {
+            .features { grid-template-columns: 1fr; }
+        }
+        .feature {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .feature-icon {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .feature-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .feature-desc {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Data section */
+        .data-section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+        .data-section h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .data-section p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .data-section ul {
+            color: var(--muted);
+            font-size: 14px;
+            padding-left: 20px;
+            margin-bottom: 8px;
+        }
+        .data-section ul li {
+            margin-bottom: 4px;
+        }
+
+        /* Sibling apps */
+        .apps {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 24px 0;
+        }
+        @media (max-width: 520px) {
+            .apps { grid-template-columns: 1fr; }
+        }
+        .app-card {
+            display: block;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            color: inherit;
+        }
+        .app-card:hover {
+            border-color: rgba(255,255,255,0.14);
+            text-decoration: none;
+        }
+        .app-card .app-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        .app-card .app-desc {
+            font-size: 13px;
+            color: var(--muted);
+            line-height: 1.5;
+        }
+
+        /* Links */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Legal links */
+        .legal-links {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .legal-links a {
+            font-size: 14px;
+            color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="hero-icon">📈</div>
+    <h1>YouScore</h1>
+    <p class="tagline">Calculate your IELTS band, track every practice test, and reach your target score — free, private, and fully offline.</p>
+    <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.principiaforge.youscore" target="_blank" rel="noopener">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a>
+</div>
+
+<div class="content">
+
+    <h2>What is YouScore?</h2>
+    <p>YouScore is a free IELTS score calculator and practice journal. Work out your overall band with the official half-band rounding rule — with the arithmetic shown so you trust the number — log every practice test, watch your trend climb toward your goal, and see exactly which skill to focus on next. Everything happens on your device, and it works fully offline.</p>
+
+    <div class="features">
+        <div class="feature">
+            <div class="feature-icon">🧮</div>
+            <div class="feature-title">IELTS Band Calculator</div>
+            <div class="feature-desc">Enter Listening, Reading, Writing and Speaking to get your overall band, rounded the official way. Academic &amp; General Training, with raw-score to band conversion for Listening and Reading.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📒</div>
+            <div class="feature-title">Practice Journal</div>
+            <div class="feature-desc">Save every mock test and skill score in one place. Filter by test type and revisit any attempt.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">📈</div>
+            <div class="feature-title">Insights &amp; Trends</div>
+            <div class="feature-desc">A clean chart tracks your progress against your target band, highlights the one skill that raises your overall the most, and shows how ready you are for test day.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🎯</div>
+            <div class="feature-title">Goals</div>
+            <div class="feature-desc">Set an overall target and a minimum for each skill, add your exam date, and see the gap you still need to close.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">⏰</div>
+            <div class="feature-title">Gentle Reminders</div>
+            <div class="feature-desc">Optional exam countdown (30, 14, 7, 3 and 1 days out) and a low-pressure nudge to keep your practice current. No spam.</div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">🔒</div>
+            <div class="feature-title">Private &amp; Offline</div>
+            <div class="feature-desc">No account, no ads, no tracking. Your data stays on your device and the app works fully offline.</div>
+        </div>
+    </div>
+
+    <h2>How YouScore Uses Your Data</h2>
+
+    <div class="data-section">
+        <h3>Local-first by design</h3>
+        <p>Everything you enter — practice scores, goals, your exam date, and settings — is stored locally on your device. We do not operate any servers that store your data, and nothing is uploaded.</p>
+    </div>
+
+    <div class="data-section">
+        <h3>No accounts, no tracking</h3>
+        <p>YouScore has no sign-in, no advertising or analytics SDKs, and no third-party trackers. It works fully offline; the only network use is when you tap a link to open the Google Play Store. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </div>
+
+    <h2>An Independent Study Aid</h2>
+    <div class="data-section">
+        <p>YouScore is not affiliated with, endorsed by, or connected to IELTS, the British Council, IDP: IELTS Australia, or Cambridge English. "IELTS" is a trademark of its respective owners.</p>
+        <p>The band scores YouScore shows are <strong>indicative estimates to help you track your progress — not official results and not a prediction of your official IELTS score</strong>.</p>
+    </div>
+
+    <h2>From the Principia Forge Family</h2>
+    <p>YouScore is one of a small family of focused IELTS tools. Each opens its own Google Play page — nothing is bundled, and no data is shared between apps.</p>
+    <div class="apps">
+        <a class="app-card" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltswriting" target="_blank" rel="noopener">
+            <div class="app-title">YouWrite ↗</div>
+            <div class="app-desc">Real, criteria-based feedback on your IELTS writing.</div>
+        </a>
+        <a class="app-card" href="https://play.google.com/store/apps/details?id=com.principiaforge.maqsad" target="_blank" rel="noopener">
+            <div class="app-title">YouPlan ↗</div>
+            <div class="app-desc">Plan and pace your IELTS prep into a routine.</div>
+        </a>
+    </div>
+
+    <h2>Available on Android</h2>
+    <p>YouScore is Android-first and available on the Google Play Store. Free, with no ads and no in-app purchases.</p>
+
+    <div class="legal-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:principiaforge@gmail.com">Contact Us</a>
+    </div>
+
+</div>
+
+<div class="footer">
+    &copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.
+</div>
+
+</body>
+</html>
