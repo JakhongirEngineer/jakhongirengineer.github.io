@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Taklifnoma — Jahongirbek va Shahnozaxon</title>
+
+<!-- progressive enhancement: mark JS available + arm the envelope gate before paint -->
+<script>
+(function(){
+  var d = document.documentElement;
+  d.className += " js";
+  try{
+    var open = new URLSearchParams(location.search).get("open");
+    if(open !== "1"){ d.className += " gate-armed"; }
+  }catch(e){ d.className += " gate-armed"; }
+})();
+</script>
+
+<meta name="description" content="Jahongirbek va Shahnozaxonning to'y marosimiga taklifnoma. 1-avgust 2026, shanba, soat 12:00. Farg'ona viloyati, O'zbekiston tumani, O'qchi qishlog'i.">
+<meta name="theme-color" content="#FBF2F1">
+<meta name="format-detection" content="telephone=no">
+<link rel="canonical" href="https://jakhongirengineer.github.io/wedding-invitation/">
+
+<!-- Open Graph / social share (absolute URLs) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="uz_UZ">
+<meta property="og:site_name" content="Taklifnoma">
+<meta property="og:title" content="Taklifnoma — Jahongirbek va Shahnozaxon">
+<meta property="og:description" content="Hayotimizdagi eng baxtli kunni biz bilan birga nishonlashga taklif etamiz. 1-avgust 2026, shanba, soat 12:00.">
+<meta property="og:url" content="https://jakhongirengineer.github.io/wedding-invitation/">
+<meta property="og:image" content="https://jakhongirengineer.github.io/wedding-invitation/photos/main_photo.jpg">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="960">
+<meta property="og:image:alt" content="Jahongirbek va Shahnozaxon">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Taklifnoma — Jahongirbek va Shahnozaxon">
+<meta name="twitter:description" content="Hayotimizdagi eng baxtli kunni biz bilan birga nishonlashga taklif etamiz. 1-avgust 2026, shanba, soat 12:00.">
+<meta name="twitter:image" content="https://jakhongirengineer.github.io/wedding-invitation/photos/main_photo.jpg">
+
+<!-- inline SVG favicon: two interlocking gold rings -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%23FBF2F1'/%3E%3Ccircle%20cx='26'%20cy='36'%20r='13'%20fill='none'%20stroke='%23C6A667'%20stroke-width='3.4'/%3E%3Ccircle%20cx='40'%20cy='30'%20r='13'%20fill='none'%20stroke='%23A67C3D'%20stroke-width='3.4'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="photos/main_photo.jpg">
+
+<style>
+:root{
+  --blush:#FBF2F1; --blush-2:#FCF4F1; --blush-3:#FDF6F2;
+  --cream:#FFFCFA; --cream-2:#FBF4EE;
+  --rose:#BE6A7C; --rose-deep:#6B4550; --rose-soft:#D98CA0;
+  --sage:#8FA688; --gold:#C6A667; --gold-deep:#A67C3D; --ink:#4A3138;
+  --foil:linear-gradient(105deg,#a67c3d 0%,#cfa456 30%,#ecd49a 50%,#cfa456 70%,#a67c3d 100%);
+  --foil-soft:linear-gradient(105deg,#b98a44,#e6c98a,#b98a44);
+  --hairline:rgba(198,166,103,.5);
+  --shadow-lg:0 42px 90px -44px rgba(107,69,80,.55);
+  --shadow-md:0 26px 56px -34px rgba(107,69,80,.45);
+  --col:520px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  min-height:100vh;
+  color:var(--rose-deep);
+  font-family:'Cormorant Garamond',Georgia,serif;
+  font-size:18px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+img{max-width:100%}
+::selection{background:rgba(190,106,124,.22)}
+
+/* scroll lock while the envelope gate is closed */
+html.gate-armed, html.gate-armed body{overflow:hidden;height:100%;touch-action:none}
+
+/* ---- fixed decorative backdrop ---- */
+.bg{position:fixed;inset:0;z-index:-3;
+  background:
+    radial-gradient(120% 78% at 18% -6%, #FFFFFF 0%, rgba(255,255,255,0) 46%),
+    radial-gradient(90% 70% at 92% 4%, #FCEEF0 0%, rgba(252,238,240,0) 52%),
+    radial-gradient(120% 90% at 50% 108%, #F6E7E4 0%, rgba(246,231,228,0) 55%),
+    linear-gradient(180deg,#FBF2F1 0%,#FCF4F1 46%,#FDF6F2 100%);
+}
+/* oversized faint monogram watermark */
+.mono{position:fixed;inset:0;z-index:-2;overflow:hidden;pointer-events:none;display:flex;align-items:center;justify-content:center}
+.mono span{font-family:'Great Vibes',cursive;font-size:min(78vw,560px);line-height:1;color:rgba(198,166,103,.07);transform:translateY(-2%)}
+/* fine paper grain */
+.grain{position:fixed;inset:0;z-index:40;pointer-events:none;opacity:.05;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size:140px 140px}
+
+/* ---- petals ---- */
+.petals{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;opacity:0;transition:opacity 1.6s ease}
+body.opened .petals{opacity:1}
+.petal{position:absolute;top:-8vh;background:radial-gradient(120% 120% at 35% 25%,#fffdfb,#fbeff0 72%);border:none;
+  border-radius:64% 36% 62% 38% / 72% 68% 32% 28%;opacity:0;
+  box-shadow:inset 0 0 5px rgba(190,106,124,.10);
+  animation-name:fall;animation-timing-function:linear;animation-iteration-count:infinite;will-change:transform,opacity}
+.petal.b{background:radial-gradient(120% 120% at 35% 25%,#fdf3f4,#f6dde1 72%)}
+.petal.c{background:radial-gradient(120% 120% at 35% 25%,#fdf8ef,#efe1c9 72%)}
+@keyframes fall{
+  0%{transform:translateY(-8vh) translateX(0) rotate(0deg);opacity:0}
+  8%{opacity:.75} 86%{opacity:.5}
+  100%{transform:translateY(114vh) translateX(var(--x,24px)) rotate(var(--r,300deg));opacity:0}
+}
+
+/* ---- layout ---- */
+.wrap{position:relative;z-index:1;max-width:var(--col);margin:0 auto;
+  padding-left:max(20px,env(safe-area-inset-left));
+  padding-right:max(20px,env(safe-area-inset-right));
+  padding-bottom:calc(56px + env(safe-area-inset-bottom))}
+section,header,footer{position:relative}
+.eyebrow{font-family:'Jost',sans-serif;font-weight:400;font-size:clamp(11px,3vw,12px);
+  letter-spacing:.4em;text-transform:uppercase;margin:0}
+
+/* foil text with safe fallback */
+.foil{color:var(--gold-deep)}
+@supports ((-webkit-background-clip:text) or (background-clip:text)){
+  .foil{background:var(--foil);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+}
+/* small informational eyebrow labels: solid dark gold for AA contrast */
+.eyebrow.foil,.gate-eyebrow.foil{background:none;-webkit-text-fill-color:#8A6530;color:#8A6530}
+
+/* ---- reveal / stagger ---- */
+.js .reveal{opacity:0;transform:translateY(28px);
+  transition:opacity .95s ease, transform 1.05s cubic-bezier(.2,.75,.25,1), filter 1s ease;will-change:opacity,transform}
+.js .reveal.r-scale{transform:translateY(18px) scale(.965)}
+.js .reveal.r-blur{filter:blur(9px);transform:translateY(16px)}
+.js .reveal.stagger{transform:none;filter:none}
+.js .reveal.in{opacity:1;transform:none;filter:none}
+.js .stagger>*{opacity:0;transform:translateY(16px);transition:opacity .75s ease, transform .85s cubic-bezier(.2,.75,.25,1)}
+.js .stagger.in>*{opacity:1;transform:none}
+.js .stagger.in>*:nth-child(2){transition-delay:.09s}
+.js .stagger.in>*:nth-child(3){transition-delay:.18s}
+.js .stagger.in>*:nth-child(4){transition-delay:.27s}
+
+/* ---- ornaments ---- */
+.orn{display:block;margin:0 auto}
+.orn .leaf{fill:var(--sage)} .orn .stem{stroke:var(--sage);stroke-width:1.4;fill:none;stroke-linecap:round} .orn .bud{fill:var(--rose)}
+.rule{display:flex;align-items:center;justify-content:center;gap:14px;margin:clamp(30px,7vw,46px) auto;max-width:250px;color:var(--gold)}
+.rule::before,.rule::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,var(--gold-deep))}
+.rule::after{background:linear-gradient(90deg,var(--gold-deep),transparent)}
+.rule .dia{width:9px;height:9px;background:var(--foil-soft);transform:rotate(45deg);border-radius:1px;box-shadow:0 0 0 3px rgba(198,166,103,.14)}
+
+/* ---- hero ---- */
+.hero{text-align:center;padding:clamp(56px,15vw,86px) 4px 12px}
+.hero .eyebrow{color:var(--gold-deep);margin-bottom:16px}
+.hero-photo{position:relative;width:min(300px,80%);margin:22px auto 4px}
+.arch-echo{position:absolute;inset:-8% -10% -4%;z-index:0;border-radius:50%;
+  background:url("photos/main_photo.jpg") 50% 30%/cover;filter:blur(36px) saturate(1.18);opacity:.3;transform:scale(1.04)}
+.arch-mat{position:relative;z-index:1;padding:8px;border-radius:999px 999px 22px 22px;
+  background:linear-gradient(160deg,#fffdfb,#fbf1ec);box-shadow:var(--shadow-lg)}
+.arch{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:999px 999px 15px 15px;
+  border:1px solid var(--gold);background:var(--blush);box-shadow:inset 0 0 0 1px rgba(255,255,255,.55)}
+.arch img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:48% 30%;
+  transform-origin:48% 30%;animation:kb 24s ease-in-out infinite alternate;will-change:transform}
+@keyframes kb{0%{transform:scale(1.28)}100%{transform:scale(1.42) translateY(-2%)}}
+.names{display:flex;flex-direction:column;align-items:center;gap:0;margin:26px 0 6px}
+.nm{font-family:'Great Vibes',cursive;font-size:clamp(50px,15vw,78px);color:var(--rose);line-height:.94}
+.amp{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;font-size:clamp(18px,5vw,22px);
+  letter-spacing:.08em;margin:2px 0}
+.subtitle{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:clamp(19px,5.4vw,23px);color:var(--rose-deep);letter-spacing:.02em;margin-top:8px}
+.hero-date{font-family:'Jost',sans-serif;font-weight:300;font-size:clamp(12px,3.4vw,13.5px);
+  letter-spacing:.18em;color:var(--rose-deep);margin-top:18px}
+.hero-date b{font-weight:400;color:var(--ink)}
+.scrollcue{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin-top:22px;
+  -webkit-appearance:none;appearance:none;
+  color:var(--gold-deep);background:none;border:none;cursor:pointer;padding:0}
+.js .scrollcue svg{animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0);opacity:.6}50%{transform:translateY(6px);opacity:1}}
+
+/* ---- invite ---- */
+.invite{padding:clamp(24px,6vw,40px) 0 0}
+.invite-card{position:relative;text-align:center;padding:clamp(34px,8vw,48px) clamp(22px,6vw,34px);
+  background:linear-gradient(160deg,#fffdfb,#fdf6f1);border:1px solid var(--hairline);border-radius:20px;
+  box-shadow:var(--shadow-md)}
+.corner{position:absolute;width:32px;height:32px;color:var(--gold);opacity:.85}
+.corner svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round}
+.corner.tl{top:11px;left:11px}
+.corner.tr{top:11px;right:11px;transform:scaleX(-1)}
+.corner.bl{bottom:11px;left:11px;transform:scaleY(-1)}
+.corner.br{bottom:11px;right:11px;transform:scale(-1)}
+.invite .eyebrow{color:var(--gold-deep);margin-bottom:14px}
+.greet{font-family:'Great Vibes',cursive;font-size:clamp(34px,9vw,44px);color:var(--rose);line-height:1.05;margin:0 0 14px;word-break:break-word}
+.invite-body{font-size:clamp(18px,5vw,21px);line-height:1.72;color:var(--rose-deep);max-width:31ch;margin:0 auto}
+
+/* ---- poetic accent ---- */
+.poem{text-align:center;padding:clamp(6px,2vw,10px) 8px}
+.poem p{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:clamp(23px,7vw,30px);color:var(--rose-deep);line-height:1.35;margin:0;letter-spacing:.01em}
+.poem .spark{color:var(--gold-deep);font-style:normal;margin:0 6px}
+
+/* ---- countdown ---- */
+.cd{text-align:center;padding:6px 0}
+.cd .eyebrow{color:var(--gold-deep);margin-bottom:8px}
+.cd-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:clamp(21px,6vw,26px);color:var(--rose);margin:0 0 22px}
+.cd-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(8px,2.6vw,13px);max-width:380px;margin:0 auto}
+.cd-cell{position:relative;background:linear-gradient(160deg,#fffdfb,#fbf3ed);
+  border:1px solid var(--hairline);border-radius:14px;padding:clamp(13px,3.6vw,17px) 4px clamp(10px,3vw,13px);
+  box-shadow:0 16px 34px -26px rgba(107,69,80,.5)}
+.cd-cell::before{content:"";position:absolute;inset:3px;border-radius:11px;border:1px solid rgba(198,166,103,.18);pointer-events:none}
+.cd-win{display:block;position:relative;height:1.06em;overflow:hidden;
+  font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(28px,8.5vw,38px);color:var(--ink);
+  font-variant-numeric:tabular-nums;font-feature-settings:"tnum"}
+.cd-roll{display:block;position:absolute;left:0;right:0;top:0;line-height:1.06em;
+  transition:transform .55s cubic-bezier(.7,0,.2,1), opacity .55s ease}
+.cd-roll.enter{transform:translateY(108%);opacity:0}
+.cd-roll.leave{transform:translateY(-108%);opacity:0}
+.cd-lbl{display:block;font-family:'Jost',sans-serif;font-size:clamp(9.5px,2.8vw,11px);
+  letter-spacing:.14em;text-transform:uppercase;color:var(--rose-deep);margin-top:9px}
+.cd-note{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(14px,4vw,16px);
+  color:var(--rose-deep);opacity:.85;margin:18px 0 0}
+.cd-msg{font-family:'Great Vibes',cursive;font-size:clamp(38px,11vw,52px);color:var(--rose);padding:12px 0}
+
+/* ---- supporting photo moment ---- */
+.moment{padding:clamp(8px,3vw,16px) 0 0;text-align:center}
+.moment .eyebrow{color:var(--gold-deep);margin-bottom:16px}
+.moment-frame{position:relative;width:min(430px,100%);margin:0 auto;padding:9px;border-radius:22px;
+  background:linear-gradient(160deg,#fffdfb,#fbf1ec);box-shadow:var(--shadow-lg)}
+.moment-clip{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:15px;border:1px solid var(--gold);background:var(--blush)}
+.moment-clip img{position:absolute;left:0;top:-11%;width:100%;height:122%;object-fit:cover;object-position:50% 42%;will-change:transform}
+.moment-cap{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(16px,4.6vw,19px);
+  color:var(--rose-deep);margin:20px auto 0;max-width:30ch;line-height:1.6}
+.moment-cap b{font-weight:600;font-style:normal;color:var(--ink)}
+
+/* ---- details ---- */
+.details{padding:4px clamp(2px,2vw,8px)}
+.detail-row{display:flex;gap:15px;align-items:flex-start;padding:clamp(15px,4vw,19px) 4px;
+  border-bottom:1px solid rgba(190,106,124,.14)}
+.detail-row:last-child{border-bottom:none}
+.d-ico{flex:none;width:30px;height:30px;color:var(--rose);margin-top:1px}
+.d-ico svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:1.35;stroke-linecap:round;stroke-linejoin:round}
+.d-key{font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--rose-deep);margin-bottom:4px}
+.d-val{font-size:clamp(17px,4.6vw,19px);line-height:1.5;color:var(--ink)}
+
+/* ---- map ---- */
+.map{text-align:center;padding:6px 0 0}
+.map .eyebrow{color:var(--gold-deep);margin-bottom:8px}
+.map-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:clamp(21px,6vw,26px);color:var(--rose);margin:0 0 20px}
+.map-frame{position:relative;height:340px;border-radius:20px;overflow:hidden;
+  border:1px solid var(--gold);box-shadow:var(--shadow-md);background:var(--cream-2)}
+.map-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
+.map-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;
+  color:var(--rose-deep);transition:opacity .6s ease}
+.map-ph::before{content:"";position:absolute;inset:0;
+  background:linear-gradient(100deg,transparent 20%,rgba(255,255,255,.6) 50%,transparent 80%);
+  background-size:220% 100%;animation:shim 1.6s ease-in-out infinite}
+.map-ph .pin{color:var(--rose);opacity:.7}
+.map-ph .pin svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:1.3}
+.map-ph span{position:relative;font-family:'Jost',sans-serif;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase}
+.map-frame.loaded .map-ph{opacity:0;pointer-events:none}
+@keyframes shim{0%{background-position:120% 0}100%{background-position:-120% 0}}
+
+/* ---- action groups (map buttons + calendar) ---- */
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:12px 22px;border-radius:999px;
+  -webkit-appearance:none;appearance:none;
+  font-family:'Jost',sans-serif;font-size:13px;font-weight:400;letter-spacing:.05em;text-decoration:none;cursor:pointer;
+  color:var(--rose);background:transparent;border:1px solid var(--rose);
+  transition:background .25s ease,color .25s ease,transform .12s ease,box-shadow .25s ease}
+.btn svg{width:17px;height:17px;flex:none;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.btn:hover{background:var(--rose);color:var(--cream)}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:var(--rose);color:var(--cream);border-color:var(--rose);box-shadow:0 14px 26px -16px rgba(190,106,124,.8)}
+.btn.primary:hover{background:#a9576a}
+.btn.gold{border-color:var(--gold-deep);color:var(--gold-deep)}
+.btn.gold:hover{background:var(--gold-deep);color:#fff}
+.btn.copied{background:var(--sage);border-color:var(--sage);color:#fff}
+
+/* ---- calendar ---- */
+.cal{text-align:center;padding:6px 0 0}
+.cal .eyebrow{color:var(--gold-deep);margin-bottom:8px}
+.cal-title{font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:500;
+  font-size:clamp(21px,6vw,26px);color:var(--rose);margin:0 0 6px}
+.cal-note{font-size:clamp(15px,4vw,17px);color:var(--rose-deep);opacity:.85;margin:0 auto 6px;max-width:34ch}
+
+/* ---- footer ---- */
+.foot{text-align:center;padding:clamp(40px,10vw,58px) 8px 12px}
+.foot-line{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(20px,5.6vw,24px);
+  color:var(--rose-deep);margin:18px 0 6px}
+.foot-names{font-family:'Great Vibes',cursive;font-size:clamp(34px,10vw,44px);color:var(--rose);line-height:1}
+.foot-heart{margin-top:14px;color:var(--rose-soft)}
+
+/* ---- envelope gate ---- */
+.gate{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;
+  padding:calc(24px + env(safe-area-inset-top)) 22px calc(24px + env(safe-area-inset-bottom));
+  background:
+    radial-gradient(120% 60% at 50% -8%, #fffaf5 0%, rgba(255,250,245,0) 55%),
+    radial-gradient(100% 80% at 50% 108%, #F4E4E3 0%, rgba(244,228,227,0) 60%),
+    linear-gradient(180deg,#FBF2F1,#F7EAE8);
+  transition:opacity .8s ease, transform .9s ease}
+html.js.gate-armed .gate{display:flex}
+.gate[hidden]{display:none!important}
+.gate.out{opacity:0;transform:scale(1.06)}
+.gate-inner{position:relative;width:100%;max-width:360px;display:flex;flex-direction:column;align-items:center;gap:26px;text-align:center}
+.gate-eyebrow{font-family:'Jost',sans-serif;font-size:12px;letter-spacing:.36em;text-transform:uppercase}
+.gate-hint{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(20px,6vw,25px);margin:0}
+.gate-sub{font-family:'Jost',sans-serif;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--rose);opacity:.75;margin-top:-14px}
+.gate.go .gate-hint,.gate.go .gate-sub,.gate.go .gate-eyebrow{opacity:0;transition:opacity .5s ease}
+
+.env-stage{perspective:1200px;width:min(300px,78vw)}
+.env{position:relative;width:100%;aspect-ratio:7/5;transform-style:preserve-3d}
+.env-back{position:absolute;inset:0;border-radius:12px;z-index:1;overflow:hidden;
+  background:linear-gradient(160deg,#fdf5ef,#f6e7df);
+  border:1px solid var(--hairline);box-shadow:inset 0 0 40px rgba(166,124,61,.12)}
+.env-inside{position:absolute;left:0;right:0;top:0;height:54%;z-index:4;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;
+  opacity:0;transition:opacity .55s ease .4s}
+.gate.go .env-inside{opacity:1}
+.env-inside .il-mono{font-family:'Great Vibes',cursive;font-size:34px;line-height:1}
+.env-inside .il-cap{font-family:'Jost',sans-serif;font-size:9.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold-deep)}
+.env-front{position:absolute;left:0;right:0;bottom:0;height:58%;z-index:3;border-radius:0 0 12px 12px;
+  background:linear-gradient(160deg,#fffdfb,#f7ebe4);
+  clip-path:polygon(0 22%,50% 0,100% 22%,100% 100%,0 100%);
+  box-shadow:0 -1px 0 rgba(198,166,103,.4)}
+.env-front::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(160deg,transparent 40%,rgba(166,124,61,.08));border-radius:0 0 12px 12px}
+.env-flap{position:absolute;left:0;right:0;top:0;height:60%;z-index:5;transform-origin:top center;
+  background:linear-gradient(160deg,#fffdfb,#f3e4db);
+  clip-path:polygon(0 0,100% 0,50% 100%);
+  box-shadow:0 6px 12px -8px rgba(107,69,80,.4);
+  transition:transform .85s cubic-bezier(.7,0,.25,1)}
+.env-flap::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(160deg,rgba(255,255,255,.5),transparent 55%);clip-path:polygon(0 0,100% 0,50% 100%)}
+.gate.go .env-flap{transform:rotateX(-172deg)}
+.env-glow{position:absolute;left:50%;top:40%;width:62%;height:62%;transform:translate(-50%,-50%) scale(.4);z-index:2;
+  border-radius:50%;background:radial-gradient(circle,rgba(246,235,203,.78),rgba(246,235,203,0) 70%);opacity:0;pointer-events:none}
+.gate.go .env-glow{opacity:1;transform:translate(-50%,-50%) scale(1.1);transition:opacity 1s ease .3s, transform 1.1s ease .3s}
+
+.seal{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);z-index:6;
+  width:74px;height:74px;border-radius:50%;border:none;cursor:pointer;padding:0;
+  -webkit-appearance:none;appearance:none;
+  background:radial-gradient(circle at 38% 34%, #e9cf92 0%, #c9a55c 38%, #a97e3c 72%, #8a6530 100%);
+  box-shadow:0 10px 22px -8px rgba(107,69,80,.6), inset 0 2px 4px rgba(255,255,255,.5), inset 0 -4px 8px rgba(89,63,26,.5);
+  transition:transform .6s cubic-bezier(.6,-0.2,.3,1.4), opacity .55s ease}
+.seal::before{content:"";position:absolute;inset:6px;border-radius:50%;border:1px dashed rgba(89,63,26,.45)}
+.seal-mono{position:relative;font-family:'Great Vibes',cursive;font-size:29px;color:#5a3f1c;line-height:1;
+  text-shadow:0 1px 0 rgba(255,255,255,.4),0 -1px 1px rgba(60,40,12,.5)}
+.js .seal{animation:sealpulse 2.6s ease-in-out infinite}
+.seal:hover{transform:translate(-50%,-50%) scale(1.05)}
+.gate.go .seal{opacity:0;transform:translate(-50%,-30%) scale(.55) rotate(-8deg);animation:none}
+@keyframes sealpulse{0%,100%{box-shadow:0 10px 22px -8px rgba(107,69,80,.6), inset 0 2px 4px rgba(255,255,255,.5), inset 0 -4px 8px rgba(89,63,26,.5), 0 0 0 0 rgba(198,166,103,.5)}
+  50%{box-shadow:0 10px 22px -8px rgba(107,69,80,.6), inset 0 2px 4px rgba(255,255,255,.5), inset 0 -4px 8px rgba(89,63,26,.5), 0 0 0 14px rgba(198,166,103,0)}}
+
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* focus */
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+.btn:focus-visible{outline-offset:4px}
+.seal:focus-visible{outline:2px solid var(--gold-deep);outline-offset:5px}
+
+/* ---- reduced motion ---- */
+@media (prefers-reduced-motion: reduce){
+  .petals{display:none}
+  .arch img{animation:none;transform:scale(1.3)}
+  .moment-clip img{top:0;height:100%}
+  .js .scrollcue svg{animation:none}
+  .js .seal{animation:none}
+  .map-ph::before{animation:none}
+  .gate{transition:none}
+  .gate .env-flap,.gate .seal,.gate .env-inside,.gate .env-glow{transition:none}
+  .cd-roll{transition:none}
+  .js .reveal,.js .stagger>*{opacity:1!important;transform:none!important;filter:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"></div>
+<div class="mono" aria-hidden="true"><span>&amp;</span></div>
+
+<div class="petals" aria-hidden="true">
+  <span class="petal"   style="left:5%;width:13px;height:13px;animation-duration:15s;animation-delay:-2s;--x:26px;--r:300deg"></span>
+  <span class="petal b" style="left:14%;width:10px;height:10px;animation-duration:18s;animation-delay:-9s;--x:-20px;--r:260deg"></span>
+  <span class="petal c" style="left:23%;width:16px;height:16px;animation-duration:13s;animation-delay:-5s;--x:34px;--r:340deg"></span>
+  <span class="petal"   style="left:32%;width:11px;height:11px;animation-duration:17s;animation-delay:-12s;--x:-28px;--r:220deg"></span>
+  <span class="petal b" style="left:43%;width:14px;height:14px;animation-duration:14s;animation-delay:-1s;--x:22px;--r:310deg"></span>
+  <span class="petal"   style="left:52%;width:9px;height:9px;animation-duration:19s;animation-delay:-7s;--x:-16px;--r:280deg"></span>
+  <span class="petal c" style="left:61%;width:15px;height:15px;animation-duration:13.5s;animation-delay:-3.5s;--x:30px;--r:330deg"></span>
+  <span class="petal b" style="left:70%;width:11px;height:11px;animation-duration:16.5s;animation-delay:-10s;--x:-24px;--r:250deg"></span>
+  <span class="petal"   style="left:79%;width:13px;height:13px;animation-duration:14.5s;animation-delay:-6s;--x:20px;--r:300deg"></span>
+  <span class="petal c" style="left:88%;width:17px;height:17px;animation-duration:12.5s;animation-delay:-2.5s;--x:-32px;--r:350deg"></span>
+  <span class="petal b" style="left:94%;width:10px;height:10px;animation-duration:17.5s;animation-delay:-8s;--x:18px;--r:270deg"></span>
+  <span class="petal"   style="left:37%;width:12px;height:12px;animation-duration:20s;animation-delay:-14s;--x:-22px;--r:240deg"></span>
+</div>
+
+<div class="wrap">
+
+  <header class="hero reveal">
+    <p class="eyebrow foil">Taklifnoma</p>
+    <svg class="orn" width="118" height="34" viewBox="0 0 118 34" aria-hidden="true">
+      <path class="stem" d="M59 30 C59 20 59 12 59 6"/>
+      <path class="leaf" d="M59 15 C47 11 39 13 32 8 C41 15 50 17 59 18 Z"/>
+      <path class="leaf" d="M59 15 C71 11 79 13 86 8 C77 15 68 17 59 18 Z"/>
+      <path class="leaf" d="M59 22 C50 19 44 20 38 16 C45 22 52 23 59 24 Z"/>
+      <path class="leaf" d="M59 22 C68 19 74 20 80 16 C73 22 66 23 59 24 Z"/>
+      <circle class="bud" cx="59" cy="6" r="3"/>
+    </svg>
+
+    <div class="hero-photo">
+      <div class="arch-echo" aria-hidden="true"></div>
+      <div class="arch-mat">
+        <div class="arch">
+          <img src="photos/main_photo.jpg" width="1280" height="960" decoding="async"
+               alt="Jahongirbek va Shahnozaxon nikoh kunida, oq atirgullar bilan">
+        </div>
+      </div>
+    </div>
+
+    <h1 class="names">
+      <span class="nm">Jahongirbek</span>
+      <span class="amp foil">va</span>
+      <span class="nm">Shahnozaxon</span>
+    </h1>
+    <p class="subtitle">To'y marosimi</p>
+    <p class="hero-date"><b>1-AVGUST 2026</b> &nbsp;·&nbsp; SHANBA &nbsp;·&nbsp; 12:00</p>
+
+    <button class="scrollcue" id="scrollcue" type="button" aria-label="Pastga o'tish">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </header>
+
+  <section class="invite reveal r-scale" id="invite" aria-labelledby="greetHead">
+    <div class="invite-card">
+      <span class="corner tl" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 38 C4 20 20 4 38 4"/><path d="M4 26 C10 24 16 18 18 12"/><circle cx="6" cy="34" r="1.6" fill="currentColor" stroke="none"/></svg></span>
+      <span class="corner tr" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 38 C4 20 20 4 38 4"/><path d="M4 26 C10 24 16 18 18 12"/><circle cx="6" cy="34" r="1.6" fill="currentColor" stroke="none"/></svg></span>
+      <span class="corner bl" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 38 C4 20 20 4 38 4"/><path d="M4 26 C10 24 16 18 18 12"/><circle cx="6" cy="34" r="1.6" fill="currentColor" stroke="none"/></svg></span>
+      <span class="corner br" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 38 C4 20 20 4 38 4"/><path d="M4 26 C10 24 16 18 18 12"/><circle cx="6" cy="34" r="1.6" fill="currentColor" stroke="none"/></svg></span>
+      <p class="eyebrow foil">Sizni taklif etamiz</p>
+      <h2 class="greet" id="greetHead">Aziz mehmon!</h2>
+      <p class="invite-body">Hayotimizdagi eng baxtli kunni biz bilan birga nishonlashga taklif etamiz.</p>
+    </div>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="poem reveal r-blur">
+    <p>Ikki qalb <span class="spark" aria-hidden="true">—</span> bir taqdir</p>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="cd reveal" aria-labelledby="cdTitle">
+    <p class="eyebrow foil">Saqlab qo'ying</p>
+    <h2 class="cd-title" id="cdTitle">To'yga qancha qoldi?</h2>
+    <div id="cdbody">
+      <div class="cd-grid stagger reveal" aria-hidden="true">
+        <div class="cd-cell"><span class="cd-win" id="wd"><span class="cd-roll">--</span></span><span class="cd-lbl">kun</span></div>
+        <div class="cd-cell"><span class="cd-win" id="wh"><span class="cd-roll">--</span></span><span class="cd-lbl">soat</span></div>
+        <div class="cd-cell"><span class="cd-win" id="wm"><span class="cd-roll">--</span></span><span class="cd-lbl">daqiqa</span></div>
+        <div class="cd-cell"><span class="cd-win" id="ws"><span class="cd-roll">--</span></span><span class="cd-lbl">soniya</span></div>
+      </div>
+      <p class="cd-note">1-avgust 2026, soat 12:00 (+05:00)</p>
+    </div>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="moment reveal r-scale" aria-labelledby="momentCap">
+    <p class="eyebrow foil">Nikoh guvohnomasi</p>
+    <div class="moment-frame">
+      <div class="moment-clip">
+        <img id="momentImg" src="photos/supporting_photo.jpg" width="960" height="1280" loading="lazy" decoding="async"
+             alt="Nikoh guvohnomasi oq atirgullar dastasi ustida, kelinning oltin uzukli qo'li bilan">
+      </div>
+    </div>
+    <p class="moment-cap" id="momentCap">Nikohimiz <b>2026-yil 8-iyul</b> kuni rasman qayd etildi. Endi esa bu quvonchni siz bilan baham ko'rmoqchimiz.</p>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="details reveal stagger" aria-label="Marosim tafsilotlari">
+    <div class="detail-row">
+      <span class="d-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4"/></svg></span>
+      <div><div class="d-key">Sana</div><div class="d-val">1-avgust, 2026-yil (shanba)</div></div>
+    </div>
+    <div class="detail-row">
+      <span class="d-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+      <div><div class="d-key">Vaqt</div><div class="d-val">Soat 12:00 da</div></div>
+    </div>
+    <div class="detail-row">
+      <span class="d-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+      <div><div class="d-key">Manzil</div><div class="d-val">Farg'ona viloyati, O'zbekiston tumani, O'qchi qishlog'i, Soybo'yi mahallasi, <span style="white-space:nowrap">29-uy</span></div></div>
+    </div>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="map reveal" aria-labelledby="mapTitle">
+    <p class="eyebrow foil">Manzil</p>
+    <h2 class="map-title" id="mapTitle">Sizni shu yerda kutamiz</h2>
+    <div class="map-frame" id="mapFrame">
+      <div class="map-ph" id="mapPh">
+        <span class="pin" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span>
+        <span>Xarita yuklanmoqda…</span>
+      </div>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="https://yandex.com/maps/?ll=70.987886%2C40.336189&amp;z=17&amp;pt=70.987886%2C40.336189" target="_blank" rel="noopener" aria-label="Manzilni Yandex xaritada ochish">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        Yandex xarita
+      </a>
+      <a class="btn gold" href="https://www.google.com/maps/search/?api=1&amp;query=40.336189%2C70.987886" target="_blank" rel="noopener" aria-label="Manzilni Google xaritada ochish">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+        Google xarita
+      </a>
+      <button class="btn" type="button" id="copyBtn" aria-label="Manzilni nusxalash">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+        <span class="btn-txt" aria-live="polite">Manzilni nusxalash</span>
+      </button>
+    </div>
+  </section>
+
+  <div class="rule reveal" aria-hidden="true"><span class="dia"></span></div>
+
+  <section class="cal reveal" aria-labelledby="calTitle">
+    <p class="eyebrow foil">Eslatma</p>
+    <h2 class="cal-title" id="calTitle">Taqvimga qo'shish</h2>
+    <p class="cal-note">Bu quvonchli kunni unutib qo'ymang.</p>
+    <div class="actions">
+      <a class="btn primary" id="gcalBtn"
+         href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Jahongirbek%20va%20Shahnozaxon%20to%27yi&amp;dates=20260801T070000Z%2F20260801T120000Z&amp;location=Farg%27ona%20viloyati%2C%20O%27zbekiston%20tumani%2C%20O%27qchi%20qishlog%27i%2C%20Soybo%27yi%20mahallasi%2C%2029-uy&amp;details=Sizni%20to%27y%20marosimimizga%20taklif%20etamiz."
+         target="_blank" rel="noopener" aria-label="Google Taqvimga qo'shish">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18M8 3v4M16 3v4M9 15l2 2 4-4"/></svg>
+        Google Taqvim
+      </a>
+      <button class="btn gold" type="button" id="icsBtn" aria-label="Taqvim faylini (.ics) yuklab olish">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0l-4-4m4 4l4-4"/><path d="M5 19h14"/></svg>
+        .ics fayl
+      </button>
+    </div>
+  </section>
+
+  <footer class="foot reveal">
+    <svg class="orn" width="118" height="34" viewBox="0 0 118 34" aria-hidden="true">
+      <path class="stem" d="M59 4 C59 14 59 22 59 28"/>
+      <path class="leaf" d="M59 19 C47 15 39 17 32 12 C41 19 50 21 59 22 Z"/>
+      <path class="leaf" d="M59 19 C71 15 79 17 86 12 C77 19 68 21 59 22 Z"/>
+      <circle class="bud" cx="59" cy="28" r="3"/>
+    </svg>
+    <p class="foot-line">Sizni kutib qolamiz</p>
+    <div class="foot-names">Jahongirbek &amp; Shahnozaxon</div>
+    <div class="foot-heart" aria-hidden="true">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M12 20s-7-4.7-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.3-7 10-7 10z"/></svg>
+    </div>
+  </footer>
+
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- Envelope gate (shown only with JS + when armed) -->
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-label="Taklifnoma konverti">
+  <div class="gate-inner">
+    <p class="gate-eyebrow foil">Jahongirbek &amp; Shahnozaxon</p>
+    <div class="env-stage">
+      <div class="env">
+        <div class="env-back"></div>
+        <div class="env-inside">
+          <span class="il-mono foil">J &amp; S</span>
+          <span class="il-cap">Taklifnoma</span>
+        </div>
+        <div class="env-glow" aria-hidden="true"></div>
+        <div class="env-front" aria-hidden="true"></div>
+        <div class="env-flap" aria-hidden="true"></div>
+        <button class="seal" id="seal" type="button" aria-label="Taklifnomani ochish">
+          <span class="seal-mono" aria-hidden="true">J&amp;S</span>
+        </button>
+      </div>
+    </div>
+    <p class="gate-hint foil">Taklifnomani ochish</p>
+    <span class="gate-sub">Ochish uchun muhrni bosing</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var doc = document, html = doc.documentElement, body = doc.body;
+  var byId = function(id){ return doc.getElementById(id); };
+  var reduce = false;
+  try{ reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches; }catch(e){}
+
+  var TARGET  = new Date("2026-08-01T12:00:00+05:00").getTime();
+  var ADDRESS = "Farg'ona viloyati, O'zbekiston tumani, O'qchi qishlog'i, Soybo'yi mahallasi, 29-uy";
+  var MAP_SRC = "https://yandex.com/map-widget/v1/?ll=70.987886%2C40.336189&z=16&pt=70.987886,40.336189,pm2rdm";
+
+  /* ---------- guest personalization (XSS-safe) ---------- */
+  try{
+    var mehmon = new URLSearchParams(location.search).get("mehmon");
+    if(mehmon){
+      mehmon = mehmon.trim().replace(/\s+/g," ");
+      if(mehmon.length > 40) mehmon = mehmon.slice(0,40).trim();
+      if(mehmon){ byId("greetHead").textContent = "Hurmatli " + mehmon + "!"; }
+    }
+  }catch(e){}
+
+  /* ---------- reveals ---------- */
+  var revealsStarted = false;
+  function startReveals(){
+    if(revealsStarted) return; revealsStarted = true;
+    var nodes = doc.querySelectorAll(".reveal");
+    if(!("IntersectionObserver" in window)){
+      for(var i=0;i<nodes.length;i++) nodes[i].classList.add("in");
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.14, rootMargin: "0px 0px -6% 0px" });
+    nodes.forEach(function(el){ io.observe(el); });
+  }
+
+  /* ---------- envelope gate ---------- */
+  var gate = byId("gate"), seal = byId("seal"), wrap = doc.querySelector(".wrap");
+  var armed = html.classList.contains("gate-armed");
+  var opened = false;
+
+  function focusPage(){
+    var h = doc.querySelector(".hero h1");
+    if(h){ h.setAttribute("tabindex","-1"); try{ h.focus({preventScroll:true}); }catch(e){ h.focus(); } }
+  }
+
+  function openGate(){
+    if(opened) return; opened = true;
+    body.classList.add("opened");
+    startReveals();
+    var finish = function(){
+      html.classList.remove("gate-armed");
+      if(gate){ gate.setAttribute("hidden",""); }
+      if(wrap){ wrap.removeAttribute("aria-hidden"); wrap.removeAttribute("inert"); }
+      focusPage();
+    };
+    if(!gate){ finish(); return; }
+    if(reduce){
+      gate.classList.add("out");
+      setTimeout(finish, 560);
+    }else{
+      gate.classList.add("go");                 // flap opens, seal breaks, glow
+      setTimeout(function(){ gate.classList.add("out"); }, 900); // gate parts away
+      setTimeout(finish, 1650);
+    }
+  }
+
+  if(armed && gate){
+    if(wrap){ wrap.setAttribute("aria-hidden","true"); wrap.setAttribute("inert",""); }
+    if(seal){
+      seal.addEventListener("click", openGate);
+      try{ seal.focus({preventScroll:true}); }catch(e){}
+    }
+    // keep keyboard focus inside the dialog until it is dismissed
+    gate.addEventListener("keydown", function(e){
+      if(opened) return;
+      if(e.key === "Tab" || e.keyCode === 9){
+        e.preventDefault();
+        if(seal){ try{ seal.focus({preventScroll:true}); }catch(err){ seal.focus(); } }
+      }
+    });
+    // tapping anywhere on the envelope also opens
+    var stage = gate.querySelector(".env-stage");
+    if(stage){ stage.addEventListener("click", openGate); }
+  }else{
+    // gate skipped (?open=1 or no-JS-armed): reveal page immediately
+    body.classList.add("opened");
+    if(gate){ gate.setAttribute("hidden",""); }
+    startReveals();
+  }
+
+  /* ---------- countdown with rolling digits ---------- */
+  function pad(n){ return n < 10 ? "0" + n : "" + n; }
+  var wd = byId("wd"), wh = byId("wh"), wm = byId("wm"), ws = byId("ws"), cdbody = byId("cdbody");
+
+  function roll(win, val){
+    var cur = win.querySelector(".cd-roll");
+    if(!cur || cur.textContent === val) return;
+    if(reduce){ cur.textContent = val; return; }
+    // avoid piling up if a previous roll is still animating
+    var stale = win.querySelectorAll(".cd-roll");
+    if(stale.length > 1){ var last = stale[stale.length-1]; last.className = "cd-roll"; last.textContent = val; for(var i=0;i<stale.length-1;i++){ if(stale[i].parentNode) stale[i].parentNode.removeChild(stale[i]); } return; }
+    var nx = doc.createElement("span");
+    nx.className = "cd-roll enter";
+    nx.textContent = val;
+    win.appendChild(nx);
+    void nx.offsetWidth;                 // reflow so the transition runs
+    cur.classList.add("leave");
+    nx.classList.remove("enter");
+    var done = function(){ if(cur && cur.parentNode) cur.parentNode.removeChild(cur); };
+    cur.addEventListener("transitionend", done, { once:true });
+    setTimeout(done, 650);
+  }
+
+  function tick(){
+    var diff = TARGET - Date.now();
+    if(diff <= 0){
+      if(cdbody){ cdbody.innerHTML = '<div class="cd-msg">Baxtli kun keldi!</div>'; }
+      return false;
+    }
+    roll(wd, String(Math.floor(diff / 86400000)));
+    roll(wh, pad(Math.floor(diff % 86400000 / 3600000)));
+    roll(wm, pad(Math.floor(diff % 3600000 / 60000)));
+    roll(ws, pad(Math.floor(diff % 60000 / 1000)));
+    return true;
+  }
+  if(wd && tick()){
+    var timer = setInterval(function(){ if(!tick()) clearInterval(timer); }, 1000);
+  }
+
+  /* ---------- lazy Yandex map ---------- */
+  var mapFrame = byId("mapFrame"), mapPh = byId("mapPh"), mapLoaded = false;
+  function loadMap(){
+    if(mapLoaded || !mapFrame) return; mapLoaded = true;
+    var f = doc.createElement("iframe");
+    f.setAttribute("src", MAP_SRC);
+    f.setAttribute("title", "To'y manzili xaritada");
+    f.setAttribute("loading", "lazy");
+    f.setAttribute("allowfullscreen", "");
+    f.setAttribute("referrerpolicy", "no-referrer-when-downgrade");
+    f.addEventListener("load", function(){ mapFrame.classList.add("loaded"); });
+    mapFrame.appendChild(f);
+    // fallback in case the load event never fires (the iframe still paints above the placeholder)
+    setTimeout(function(){ mapFrame.classList.add("loaded"); }, 8000);
+  }
+  if(mapFrame){
+    if("IntersectionObserver" in window){
+      var mio = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ if(e.isIntersecting){ loadMap(); mio.disconnect(); } });
+      }, { rootMargin: "300px 0px" });
+      mio.observe(mapFrame);
+    }else{
+      loadMap();
+    }
+  }
+
+  /* ---------- copy address ---------- */
+  var copyBtn = byId("copyBtn");
+  if(copyBtn){
+    var txtEl = copyBtn.querySelector(".btn-txt");
+    var original = txtEl ? txtEl.textContent : "";
+    var revertT;
+    function flash(msg, ok){
+      if(txtEl) txtEl.textContent = msg;
+      copyBtn.classList.toggle("copied", !!ok);
+      clearTimeout(revertT);
+      revertT = setTimeout(function(){
+        if(txtEl) txtEl.textContent = original;
+        copyBtn.classList.remove("copied");
+      }, 1900);
+    }
+    function legacyCopy(){
+      try{
+        var ta = doc.createElement("textarea");
+        ta.value = ADDRESS; ta.setAttribute("readonly","");
+        ta.style.position = "fixed"; ta.style.top = "-9999px"; ta.style.opacity = "0";
+        body.appendChild(ta); ta.focus(); ta.select();
+        var okc = doc.execCommand("copy");
+        body.removeChild(ta);
+        flash(okc ? "Nusxalandi!" : "Nusxa olinmadi", okc);
+      }catch(err){ flash("Nusxa olinmadi", false); }
+    }
+    copyBtn.addEventListener("click", function(){
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(ADDRESS).then(function(){ flash("Nusxalandi!", true); }, legacyCopy);
+      }else{ legacyCopy(); }
+    });
+  }
+
+  /* ---------- .ics download ---------- */
+  var icsBtn = byId("icsBtn");
+  if(icsBtn){
+    var esc = function(s){ return String(s).replace(/([\\;,])/g,"\\$1").replace(/\n/g,"\\n"); };
+    icsBtn.addEventListener("click", function(){
+      var lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Taklifnoma//Jahongirbek va Shahnozaxon//UZ",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        "BEGIN:VEVENT",
+        "UID:2026-08-01-jahongirbek-shahnozaxon@wedding.invite",
+        "DTSTAMP:20260716T000000Z",
+        "DTSTART:20260801T070000Z",
+        "DTEND:20260801T120000Z",
+        "SUMMARY:" + esc("Jahongirbek va Shahnozaxon to'yi"),
+        "LOCATION:" + esc(ADDRESS),
+        "GEO:40.336189;70.987886",
+        "DESCRIPTION:" + esc("Sizni to'y marosimimizga taklif etamiz."),
+        "END:VEVENT",
+        "END:VCALENDAR"
+      ];
+      var blob = new Blob([lines.join("\r\n")], { type: "text/calendar;charset=utf-8" });
+      var url = URL.createObjectURL(blob);
+      var a = doc.createElement("a");
+      a.href = url; a.download = "jahongirbek-shahnozaxon-toy.ics";
+      doc.body.appendChild(a); a.click(); doc.body.removeChild(a);
+      setTimeout(function(){ URL.revokeObjectURL(url); }, 1500);
+    });
+  }
+
+  /* ---------- scroll cue ---------- */
+  var cue = byId("scrollcue");
+  if(cue){
+    cue.addEventListener("click", function(){
+      var t = byId("invite");
+      if(t) t.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    });
+  }
+
+  /* ---------- gentle parallax on the supporting photo ---------- */
+  var pImg = byId("momentImg");
+  if(pImg && !reduce){
+    var ticking = false;
+    var apply = function(){
+      ticking = false;
+      var r = pImg.getBoundingClientRect();
+      var vh = window.innerHeight || html.clientHeight;
+      if(r.bottom < -60 || r.top > vh + 60) return;
+      var progress = (r.top + r.height/2 - vh/2) / (vh/2); // -1..1 through center
+      if(progress > 1) progress = 1; if(progress < -1) progress = -1;
+      pImg.style.transform = "translateY(" + (progress * -16).toFixed(2) + "px)";
+    };
+    var onScroll = function(){ if(!ticking){ ticking = true; requestAnimationFrame(apply); } };
+    window.addEventListener("scroll", onScroll, { passive:true });
+    window.addEventListener("resize", onScroll, { passive:true });
+    apply();
+  }
+})();
+</script>
+</body>
+</html>
