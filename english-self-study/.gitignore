@@ -1,0 +1,7 @@
+# Media library (~3.4 GB) — never commit; served from object storage (see specs/03-architecture.md)
+content/
+
+# OS/junk files
+.DS_Store
+BBThumbs.dat
+Thumbs.db

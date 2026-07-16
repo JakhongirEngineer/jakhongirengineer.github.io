@@ -1,0 +1,96 @@
+/* styles.css — everything beyond the critical shell inlined in index.html.
+   Design tokens (--bg, --teal, …) are defined there on :root; consumed here. */
+
+/* ---- Focus: visible everywhere, never removed without a replacement (a11y §8) ---- */
+:focus-visible {
+  outline: 2px solid var(--teal-bright);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+:focus:not(:focus-visible) { outline: none; }
+
+/* ---- Top bar: language segmented toggle (04 §3 — the "graduation" control) ---- */
+.seg {
+  display: inline-flex; align-items: center; gap: 2px;
+  min-height: 44px; padding: 0 10px;
+  border: 1px solid var(--border-strong); border-radius: 999px;
+  background: transparent; color: var(--muted);
+  font: 600 13px/1 inherit; letter-spacing: .02em; cursor: pointer;
+}
+.seg__opt { padding: 4px 6px; border-radius: 999px; }
+.seg__sep { opacity: .4; }
+/* The active side reflects <html lang>, which the toggle flips (04 §10). */
+html[lang="uz"] .seg__opt[data-lang="uz"],
+html[lang="en"] .seg__opt[data-lang="en"] { color: var(--on-teal); background: var(--teal); }
+
+/* ---- Nav items (bottom nav + desktop top-bar links, one builder in app.js) ---- */
+.bottomnav__item, .toplink {
+  display: flex; align-items: center; justify-content: center;
+  gap: 6px; text-decoration: none; cursor: pointer;
+  color: var(--muted); background: transparent; border: 0;
+  font: 600 12px/1.3 inherit;
+}
+.bottomnav__item {
+  flex: 1 1 0; flex-direction: column; gap: 3px;
+  min-height: var(--bottomnav-h); padding: 8px 4px;
+}
+.toplink { padding: 8px 12px; min-height: 44px; border-radius: 10px; font-size: 15px; }
+.navicon { display: inline-flex; }
+.navicon svg { width: 24px; height: 24px; }
+.toplink .navicon svg { width: 20px; height: 20px; }
+
+.bottomnav__item.is-active, .toplink.is-active { color: var(--teal); }
+.bottomnav__item.is-active { position: relative; }
+.bottomnav__item.is-active::before {
+  content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+  width: 28px; height: 3px; border-radius: 0 0 3px 3px; background: var(--teal);
+}
+.toplink.is-active { background: color-mix(in srgb, var(--teal) 12%, transparent); }
+
+.iconbtn:hover, .toplink:hover, .bottomnav__item:hover, .seg:hover,
+.menu__link:hover { color: var(--teal); }
+
+/* ---- Menu / sections sheet (opened by the top-bar menu and the "More" nav item) ---- */
+.menu { position: fixed; inset: 0; z-index: 40; display: flex; align-items: flex-end; }
+.menu[hidden] { display: none; }
+.menu__backdrop { position: absolute; inset: 0; background: var(--scrim); }
+.menu__panel {
+  position: relative; width: 100%; max-height: 80vh; overflow-y: auto;
+  background: var(--surface); box-shadow: var(--shadow-md);
+  border-radius: 16px 16px 0 0;
+  padding: 4px 12px calc(12px + env(safe-area-inset-bottom));
+  animation: sheet-up 200ms ease-out;
+}
+@keyframes sheet-up { from { transform: translateY(16px); opacity: 0; } to { transform: none; opacity: 1; } }
+.menu__head { display: flex; align-items: center; justify-content: space-between; padding: 8px 4px; }
+.menu__title { font: 700 18px/1.25 inherit; color: var(--ink); }
+.menu__nav { display: flex; flex-direction: column; padding-bottom: 4px; }
+.menu__link {
+  display: block; min-height: 48px; padding: 12px 8px;
+  color: var(--text); text-decoration: none; border-radius: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.menu__nav .menu__link:last-child { border-bottom: 0; }
+.menu__link.is-active { color: var(--teal); font-weight: 700; }
+
+@media (min-width: 720px) {
+  .menu { align-items: flex-start; justify-content: flex-start; }
+  .menu__panel { width: 300px; margin: 8px; border-radius: 12px; max-height: calc(100dvh - 16px); }
+}
+
+/* ---- Placeholder screens (S0 renders these; real screens land in later slices) ---- */
+.screen { animation: fade-in 200ms ease-out; }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+.screen__title { font: 700 24px/1.25 inherit; color: var(--ink); }
+.placeholder { margin-top: 12px; max-width: 66ch; color: var(--muted); font-size: 17px; }
+.placeholder--meta { margin-top: 8px; }
+.placeholder code {
+  padding: 2px 6px; border-radius: 6px;
+  background: color-mix(in srgb, var(--teal) 12%, transparent); color: var(--teal);
+  font-size: 15px;
+}
+
+/* ---- Reduced motion: disable all non-essential animation (a11y §8) ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+}

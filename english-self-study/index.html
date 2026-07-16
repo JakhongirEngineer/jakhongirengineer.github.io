@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>YouSpeak — ingliz tilini mustaqil oʻrganish</title>
+  <meta name="description" content="Oʻzbek tilida ingliz tilini mustaqil oʻrganish — bepul, roʻyxatdan oʻtishsiz.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#FFFDF9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1A1816" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2016%2016'%3E%3Ctext%20y='14'%20font-size='14'%3E%F0%9F%8E%A7%3C/text%3E%3C/svg%3E">
+
+  <!-- No-flash: apply the persisted theme + language BEFORE first paint, synchronously,
+       so light never flashes before dark and <html lang> is correct from byte one
+       (04 §7.5). Reads only settings.* of the canonical ess.progress.v1 key (03 §6.3). -->
+  <script>
+    try {
+      var s = (JSON.parse(localStorage.getItem("ess.progress.v1") || "{}") || {}).settings || {};
+      if (s.theme === "dark" || s.theme === "light") document.documentElement.setAttribute("data-theme", s.theme);
+      if (s.uiLang === "en") document.documentElement.setAttribute("lang", "en"); // Uzbek is the default (03 §8)
+    } catch (e) {}
+  </script>
+
+  <!-- Critical CSS: design tokens (both themes) + reset + shell skeleton, inlined so the
+       shell paints without a round-trip and the theme is correct on first paint (03 §8).
+       The rest lives in styles.css. -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body, h1, p { margin: 0; }
+
+    /* Light is the default (04 §7.1); the [data-theme] override wins in BOTH directions,
+       and the media query supplies dark only when the user hasn't chosen a theme. */
+    :root {
+      --bg: #FFFDF9; --surface: #FFFFFF;
+      --ink: #1C1917; --text: #292524; --muted: #6F675E;
+      --border: #E7E5E4; --border-strong: #D6D3D1;
+      --teal: #0F766E; --teal-bright: #14B8A6; --on-teal: #FFFFFF;
+      --indigo: #4F46E5; --amber: #B45309; --amber-bright: #D97706;
+      --green: #15803D; --red: #DC2626;
+      --shadow-sm: 0 1px 2px rgba(28,25,23,.06);
+      --shadow-md: 0 6px 20px rgba(28,25,23,.10);
+      --scrim: rgba(28,25,23,.45);
+      --topbar-h: 56px; --bottomnav-h: 64px;
+      color-scheme: light;
+    }
+    /* Dark tokens (04 §7.2, warm-dark, family teal returns bright). Applied for the manual
+       override and, via the media query below, for the no-explicit-choice case. */
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #1A1816; --surface: #242019;
+      --ink: #F5F3EF; --text: #F5F3EF; --muted: #A8A29E;
+      --border: #3A342B; --border-strong: #4A4237;
+      --teal: #2DD4BF; --teal-bright: #2DD4BF; --on-teal: #0B1211;
+      --indigo: #A5B4FC; --amber: #FBBF24; --amber-bright: #FBBF24;
+      --green: #4ADE80; --red: #F87171;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,.30);
+      --shadow-md: 0 6px 20px rgba(0,0,0,.45);
+      --scrim: rgba(0,0,0,.55);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme]) {
+        color-scheme: dark;
+        --bg: #1A1816; --surface: #242019;
+        --ink: #F5F3EF; --text: #F5F3EF; --muted: #A8A29E;
+        --border: #3A342B; --border-strong: #4A4237;
+        --teal: #2DD4BF; --teal-bright: #2DD4BF; --on-teal: #0B1211;
+        --indigo: #A5B4FC; --amber: #FBBF24; --amber-bright: #FBBF24;
+        --green: #4ADE80; --red: #F87171;
+        --shadow-sm: 0 1px 2px rgba(0,0,0,.30);
+        --shadow-md: 0 6px 20px rgba(0,0,0,.45);
+        --scrim: rgba(0,0,0,.55);
+      }
+    }
+
+    body {
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      /* 0 KB system font stack (04 §7.3) — renders oʻ/gʻ (U+02BB) correctly, no download. */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    /* Skip link — first focusable element (04 §3, a11y §8). */
+    .skip-link {
+      position: absolute; left: 8px; top: -60px; z-index: 60;
+      padding: 10px 16px; border-radius: 8px;
+      background: var(--teal); color: var(--on-teal);
+      text-decoration: none; font-weight: 600;
+      transition: top 150ms ease-out;
+    }
+    .skip-link:focus { top: 8px; }
+
+    /* Top bar — 56px, sticky (04 §3). */
+    .topbar {
+      position: sticky; top: 0; z-index: 20;
+      display: flex; align-items: center; gap: 8px;
+      height: var(--topbar-h); padding: 0 8px;
+      background: var(--bg); /* solid fallback where color-mix is unsupported */
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+    }
+    .topbar__ctx { flex: 1 1 auto; min-width: 0; font-weight: 600; font-size: 18px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topbar__actions { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; }
+
+    /* 44px+ tap targets everywhere (P2, a11y §8). */
+    .iconbtn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; padding: 0;
+      border: 0; border-radius: 10px; background: transparent; color: var(--text);
+      cursor: pointer;
+    }
+    .iconbtn svg { width: 24px; height: 24px; }
+
+    .main { max-width: 720px; margin: 0 auto; padding: 24px 16px;
+      padding-bottom: calc(var(--bottomnav-h) + 24px + env(safe-area-inset-bottom)); }
+
+    /* Persistent single-<audio> mount (03 §7). Hidden in S0 — no track is ever loaded;
+       populated by the docked player in S3. */
+    .player { position: fixed; left: 0; right: 0; bottom: 0; z-index: 15; }
+    .player[hidden] { display: none; }
+
+    /* Bottom nav — mobile only, thumb zone (04 §3, P1). */
+    .bottomnav {
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 16;
+      display: flex; align-items: stretch;
+      min-height: var(--bottomnav-h);
+      padding-bottom: env(safe-area-inset-bottom);
+      background: var(--surface); border-top: 1px solid var(--border);
+    }
+    .toplinks { display: none; }
+
+    @media (min-width: 720px) {
+      .bottomnav { display: none; }
+      .toplinks { display: flex; gap: 4px; }
+      .main { padding: 32px 24px; padding-bottom: 48px; }
+    }
+  </style>
+
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a id="skip" class="skip-link" href="#main">Asosiy kontentga oʻtish</a>
+
+  <header id="topbar" class="topbar">
+    <button id="navBtn" class="iconbtn topbar__nav" type="button" aria-label="Menyu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <span id="ctx" class="topbar__ctx">YouSpeak</span>
+    <nav id="toplinks" class="toplinks" aria-label="Asosiy menyu"></nav>
+    <div class="topbar__actions">
+      <button id="langToggle" class="seg" type="button" aria-label="Tilni almashtirish">
+        <span class="seg__opt" data-lang="uz">UZ</span><span class="seg__sep" aria-hidden="true">|</span><span class="seg__opt" data-lang="en">EN</span>
+      </button>
+      <button id="themeToggle" class="iconbtn" type="button" aria-label="Mavzu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16a8 8 0 000-16z" fill="currentColor" stroke="none"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="main" tabindex="-1"></main>
+
+  <!-- persistent docked-player mount (hidden in S0) -->
+  <div id="player" class="player" role="region" aria-label="Audio pleer" hidden></div>
+
+  <nav id="bottomnav" class="bottomnav" aria-label="Asosiy menyu"></nav>
+
+  <div id="menu" class="menu" hidden>
+    <div class="menu__backdrop" data-close></div>
+    <div class="menu__panel" role="dialog" aria-modal="true" aria-label="Menyu">
+      <div class="menu__head">
+        <span id="menuTitle" class="menu__title">Menyu</span>
+        <button id="menuClose" class="iconbtn" type="button" data-close aria-label="Yopish">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <nav id="menuNav" class="menu__nav" aria-label="Boʻlimlar"></nav>
+    </div>
+  </div>
+
+  <script type="module" src="assets/app.js?v=1"></script>
+</body>
+</html>
