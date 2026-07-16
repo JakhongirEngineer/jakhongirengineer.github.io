@@ -157,8 +157,12 @@ english-self-study/                 # → principiaforge.com/english-self-study/
     lessons/  core-01.json … supp-6min-180315.json … supp-pod-0004.json   (committed)
     i18n/  ui.uz.json  ui.en.json
   sw.js  manifest.webmanifest       # PHASE 2 (app-shell PWA)
-  scripts/  extract.mjs  stage-media.mjs  build-index.mjs  manifest.mjs    # dev-only Node
+  scripts/                          # dev-only Node pipeline (OFFLINE; NEVER served)
+    lib/  util.mjs  normalise.mjs  pdf.mjs  markdown.mjs   # reusable modules (normaliser reused by S7/S13)
+    extract.mjs  compile-grammar.mjs  build-index.mjs  stage-media.mjs  manifest.mjs  validate.mjs
+  authoring/  grammar/<id>.md        # committed authoring source (Grammar-Spark Markdown → grammar.bodyHtml)
   content/                          # READ-ONLY source — .gitignored, NEVER deployed
+  _media_staging/  data/raw/         # generated & .gitignored (staging copies + raw PDF text)
   package.json  .gitignore
 ```
 (`content/` is already git-ignored per the app `.gitignore`.)
@@ -175,7 +179,7 @@ english-self-study/                 # → principiaforge.com/english-self-study/
 
 | Tool | Version | Role |
 |------|---------|------|
-| Node.js | 20 LTS or 22 LTS | run the offline scripts |
+| Node.js | 20 / 22 / 24 LTS (`engines: ">=20"`) | run the offline scripts (dev env is Node 24 LTS as of mid-2026; scripts use only Node 20+ ESM/`fs` APIs) |
 | `pdfjs-dist` | ≥ 4.x | extract selectable text from PDFs → draft JSON |
 | `markdown-it` | ≥ 14.x | precompile authored Uzbek grammar Markdown → **sanitized HTML at build time** (so runtime ships zero markdown code) |
 | `rclone` | ≥ 1.6x (CLI) | resumable bulk media upload to R2/B2 |
@@ -191,11 +195,12 @@ english-self-study/                 # → principiaforge.com/english-self-study/
 All stages are **offline**; `content/` is read-only; the app never parses a PDF at runtime. The inventories confirm every PDF has a clean selectable text layer (no OCR).
 
 ### 5.1 Stages
-1. **Extract** — `scripts/extract.mjs` (`pdfjs-dist`) pulls text per PDF into `data/raw/<id>.txt`. It **globs by numeric prefix / keyword, never hardcoded filenames** (the inventories document heavy irregularity — see §5.3).
-2. **Curate (the human/AI value-add)** — turn raw text into `data/lessons/<id>.json`: strip the AJ Hoge copyright/logo boilerplate header; split MINI_STORY into `{q,a}` pairs (detect the italic answer via `pdfjs` per-span font names, regex fallback); pull VOCAB terms and **author Uzbek glosses**; write **original Uzbek grammar prose** (never reproduce Murphy's pages); pick YouTube IDs; author 6-Minute quiz MCQs from the built-in `a)/b)/c)` + revealed answer.
-3. **Stage media** — `scripts/stage-media.mjs` copies `content/` → `_media_staging/` under the clean key scheme (§2.5), resolving all filename chaos.
+All filename-chaos resolution lives in one reused module, `scripts/lib/normalise.mjs` (§5.3); every stage globs through it and **never hardcodes a source filename**. The whole pipeline is **deterministic** (skip-write-if-identical, date-stable `generated`) so re-runs are byte-identical and leave `content/` untouched.
+1. **Extract** — `scripts/extract.mjs` (`pdfjs-dist`) pulls text per PDF into `data/raw/<id>/<component>.txt` (a directory per lesson id: `main`/`vocab`/`ministory`/`pov` for AJ; `transcript` for supp). It also writes curation drafts alongside: `ministory.pairs.json` (the parsed `{q,a}` loop) and `<component>.para.json` (reflowed read-along paragraphs). Globs by numeric prefix / keyword (§5.3). `data/raw/` is generated + git-ignored.
+2. **Curate (the human/AI value-add)** — produce `data/lessons/<id>.json`: strip the AJ Hoge copyright/logo boilerplate (in the AJ PDFs this is an *image* with no text layer, so the only text-boilerplate is the title line); embed the extracted `{q,a}` MINI_STORY pairs (the italic answer is detected via `pdfjs` per-span font-run pairing, `?`-boundary heuristic — see §5.3); pull VOCAB terms and **author Uzbek glosses** as chunks; write **original Uzbek grammar prose** (never reproduce Murphy's pages) as restricted Markdown in `authoring/grammar/<id>.md`, then **`scripts/compile-grammar.mjs`** renders it via `markdown-it` → **sanitized** `grammar.bodyHtml` (03 §4); pick YouTube IDs (or `id:null` until the owner supplies one); author 6-Minute quiz MCQs.
+3. **Stage media** — `scripts/stage-media.mjs` **copies** (never moves) `content/` → `_media_staging/<clean-key>` (§2.5), resolving all filename chaos; `--all --dry-run` resolves & lists every source (proving the normaliser at scale). `_media_staging/` is git-ignored.
 4. **Build index** — `scripts/build-index.mjs` emits the lean `data/index.json` catalogue from the per-lesson files.
-5. **Validate** — `scripts/manifest.mjs` asserts every `path` in every lesson JSON resolves to a staged/uploaded key; fails loudly on typos before deploy.
+5. **Validate** — `scripts/manifest.mjs` asserts every media `path` in every lesson JSON resolves to a staged key and fails loudly on typos; `scripts/validate.mjs` checks every `data/lessons/<id>.json` against §6.2 and `data/index.json` against §6.1. Both exit non-zero on any violation, before deploy.
 
 ### 5.2 Base-URL config (the one knob that makes the bucket interchangeable)
 ```js
@@ -254,15 +259,18 @@ Covers every owner-required section. Blocks are optional per source and the UI r
   "slug": "kaizen", "title": "Kaizen", "titleUz": "Kayzen — kichik qadamlar",
   "level": "A2-B1", "tags": ["mindset", "habits"],
   "intro": { "uz": "Bu darsda …", "en": "In this lesson …" },
+  "canDo": { "uz": "Dars oxirida ayta olasiz: …", "en": "By the end you can …" },  // measurable can-do goal, section ⓿ (04 §4.3.1)
 
   "grammar": {                                    // explained in Uzbek where it helps
     "unit": "past-simple",
     "titleUz": "Oʻtgan oddiy zamon (Past Simple)",
-    "bodyHtml": "<p>…</p>",                       // precompiled from Markdown, sanitized (§4)
+    "bodyHtml": "<p>…</p>",                       // precompiled from authoring/grammar/<id>.md, sanitized (§4)
     "contrastUz": "Oʻzbekcha -di qoʻshimchasi bilan solishtiring …",
+    "errorFixUz": "❌ … ✅ …",                     // 20-sec "Xato tuzatish" L1-trap card (02 §2/§6; 04 §4.3.6; also the spaced micro-card seed)
     "examples": [ { "en": "I worked yesterday.", "uz": "Men kecha ishladim." } ],
-    "exercises": [
-      { "type": "gap-fill", "prompt": "I ___ (go) home.", "answer": "went", "hintUz": "irregular: go→went" }
+    "exercises": [                                // type: "gap-fill" (auto-checked) | "say-true" (spoken honor-check, answer:null — 04 §4.3.6)
+      { "type": "gap-fill", "prompt": "I ___ (go) home.", "answer": "went", "hintUz": "irregular: go→went" },
+      { "type": "say-true", "promptUz": "O'zingiz haqingizda rost gap ayting …", "answer": null }
     ],
     "reference": { "book": "Essential Grammar in Use", "unit": 11,
                    "downloadPath": "grammar/essential-grammar-in-use.pdf" }
@@ -306,6 +314,8 @@ Covers every owner-required section. Blocks are optional per source and the UI r
   ]
 }
 ```
+**Fields added in S1** (implemented + validated on `core-09`): `canDo:{uz,en}` (the section-⓿ measurable goal, 04 §4.3.1) and `grammar.errorFixUz` (the "Xato tuzatish" L1-trap card, 04 §4.3.6) — both required by the UI spec and previously implicit; and the `grammar.exercises[].type:"say-true"` variant (a spoken honor-check drill with `answer:null`). All are additive and backward-compatible.
+
 **Supplementary shapes:** `source:"6min"` lessons key by `YYMMDD` (`supp-6min-180315`), use `audio.main` = the episode mp3, carry a `quiz` block, and omit `ministory`/`pov`. `source:"englishpod"` lessons key by ID (`supp-pod-0004`), expose `audio.dg`/`audio.pr`/`audio.rv`, carry a `dialogue` block, and omit `ministory`/`pov`.
 
 ### 6.3 localStorage progress — `ess.progress.v1` (the CANONICAL schema; versioned, debounced, migratable)

@@ -1,0 +1,24 @@
+{
+  "name": "english-self-study-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OFFLINE dev-only content pipeline for the YouSpeak English self-study site. Turns the read-only content/ library (messy AJ Hoge / EnglishPod / 6 Minute English PDFs + filenames) into validated lesson JSON + the lean catalogue. NONE of this is served (buildless deploy-from-branch); the app ships only static files (see specs/03-architecture.md §5).",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "extract": "node scripts/extract.mjs",
+    "compile-grammar": "node scripts/compile-grammar.mjs",
+    "stage": "node scripts/stage-media.mjs",
+    "index": "node scripts/build-index.mjs",
+    "manifest": "node scripts/manifest.mjs",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/extract.mjs && node scripts/compile-grammar.mjs && node scripts/build-index.mjs && node scripts/stage-media.mjs && node scripts/manifest.mjs && node scripts/validate.mjs",
+    "dry-run": "node scripts/stage-media.mjs --all --dry-run"
+  },
+  "devDependencies": {
+    "markdown-it": "^14.1.0",
+    "pdfjs-dist": "^4.10.38"
+  }
+}

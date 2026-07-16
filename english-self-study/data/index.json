@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-07-16",
+  "lessons": [
+    {
+      "id": "core-09",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 9,
+      "slug": "kaizen",
+      "title": "Kaizen",
+      "titleUz": "Kayzen — kichik qadamlar",
+      "level": "A2-B1",
+      "tags": [
+        "mindset",
+        "habits",
+        "past-simple"
+      ],
+      "grammarUnit": "past-simple-be",
+      "durationSec": 2904,
+      "hasPov": true,
+      "hasQuiz": false,
+      "hasDialogue": false,
+      "youtubeCount": 1
+    }
+  ]
+}

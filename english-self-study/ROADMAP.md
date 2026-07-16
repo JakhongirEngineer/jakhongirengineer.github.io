@@ -22,14 +22,14 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S1**
+## Current slice → **S2** (S1 complete, pending owner commit)
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
 | Slice | Title | Status |
 |---|---|---|
 | **S0** | Scaffold + hello-world deploy | **DONE** |
-| S1 | Content pipeline & data model (prove on 1 lesson) | TODO |
+| S1 | Content pipeline & data model (prove on 1 lesson) | DONE |
 | S2 | Media hosting — R2 + custom domain + fallback ladder | TODO |
 | S3 | Core lesson page with audio (the centerpiece) | TODO |
 | S4 | Speak It Yourself — recording + IndexedDB | TODO |
@@ -64,13 +64,13 @@ This file is the single running checklist — **update it every session** (tick 
 **Goal:** offline Node scripts turn the messy source PDFs/filenames into one **validated** lesson JSON + the lean catalogue — de-risking PDF extraction, filename chaos, and the data model before any authoring at scale.
 **Specs:** `03 §5` (stages), `03 §5.3` (filename normalisation), `03 §6.1`–`§6.2` (index + lesson schema), `02 §10` (build notes), `02 §2` (mini-story `{prompt,answer}` parsing), `01` + `inventory/*`.
 
-- [ ] `scripts/extract.mjs` (`pdfjs-dist`) → `data/raw/<id>.txt`, globbing by numeric prefix/keyword — **never hardcoded filenames** (`03 §5.1`, `03 §5.3`).
-- [ ] Filename normaliser handles the documented chaos: AJ `1_/2_/3_/4_` prefixes, missing `_MAIN`/`_VOCAB` (05,07,08,19,20), `.mp3.mp3`/`..mp3` (11,24,27), case drift (`MINI_Story`), ALL-CAPS PDF regime 19–30, `Exitement` typo; EP trailing `" u"` + `B`-prefix probe (both `B{ID}` and `{ID}`); 6ME key-by-`YYMMDD` + slug-from-title + dedupe `(1)` (`03 §5.3`, `02 §10`).
-- [ ] Curate one core lesson to `data/lessons/core-09.json` (has POV): strip boilerplate; MINI_STORY → `{prompt,answer}` pairs; VOCAB → chunks; **original Uzbek** Grammar Spark (`grammar.bodyHtml`, precompiled + sanitized); `pov` present; nulls encode gaps (`03 §6.2`).
-- [ ] `scripts/stage-media.mjs` → `_media_staging/<clean-key>` (`aj-hoge/09/main.mp3` …); `scripts/build-index.mjs` → `data/index.json`; `scripts/manifest.mjs` fails on any missing/typo'd key (`03 §5.1`).
-- [ ] `package.json` (Node 20/22, dev-only deps `pdfjs-dist`, `markdown-it`); `content/`, `_media_staging/`, `data/raw/` git-ignored / non-served.
+- [x] `scripts/extract.mjs` (`pdfjs-dist`) → `data/raw/<id>/<component>.txt` (+ `ministory.pairs.json` / `*.para.json` curation drafts), globbing by numeric prefix/keyword via `scripts/lib/normalise.mjs` — **never hardcoded filenames** (`03 §5.1`, `03 §5.3`).
+- [x] Filename normaliser (`scripts/lib/normalise.mjs`, reused by S7/S13) handles the documented chaos: AJ `1_/2_/3_/4_` prefixes, missing `_MAIN`/`_VOCAB` (05,07,08,19,20), `.mp3.mp3`/`..mp3` (11,24,27), case drift (`MINI_Story`), ALL-CAPS PDF regime 19–30, `Exitement` typo; EP trailing `" u"` + `B`-prefix probe (both `B{ID}` and `{ID}`); 6ME key-by-`YYMMDD` + slug-from-title + dedupe `(1)` (`03 §5.3`, `02 §10`). **Proven on all 30 AJ lessons** (audio 30/30/30/21, PDF 30/30/30/22) + 28 EP + 143 6ME via `stage-media.mjs --all --dry-run`.
+- [x] Curate one core lesson to `data/lessons/core-09.json` (has POV): boilerplate stripped; MINI_STORY → 36 `{q,a}` pairs; VOCAB → 12 chunks + Uzbek glosses; **original Uzbek** Grammar Spark (was/were, Murphy U10 — `grammar.bodyHtml` precompiled from `authoring/grammar/core-09.md` via `markdown-it` + sanitized); `pov` present (audio+text); nulls encode gaps (`03 §6.2`). 43 KB raw / 12.8 KB gzip.
+- [x] `scripts/stage-media.mjs` → `_media_staging/<clean-key>` (`aj-hoge/09/main.mp3` …, copy not move); `scripts/build-index.mjs` → `data/index.json`; `scripts/manifest.mjs` + `scripts/validate.mjs` fail loudly (exit 1) on any missing/typo'd key or schema violation (`03 §5.1`).
+- [x] `package.json` (`type:module`, `engines >=20`, dev-only deps `pdfjs-dist` 4.10.38, `markdown-it` 14.3.0); `content/`, `_media_staging/`, `data/raw/`, `node_modules/` git-ignored / non-served.
 
-**Done when:** `core-09.json` + `index.json` validate against the schema, the manifest passes for that lesson's keys, and re-running the scripts is deterministic and leaves `content/` untouched.
+**Done when:** `core-09.json` + `index.json` validate against the schema ✓, the manifest passes for that lesson's keys ✓, and re-running the scripts is deterministic (byte-identical 2nd run ✓) and leaves `content/` untouched ✓. *(git commit deferred to the owner; no browser surface in this offline slice.)*
 
 ## S2 — Media hosting: R2 + custom domain + fallback ladder
 

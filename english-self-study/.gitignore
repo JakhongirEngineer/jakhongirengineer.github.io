@@ -1,6 +1,11 @@
 # Media library (~3.4 GB) — never commit; served from object storage (see specs/03-architecture.md)
 content/
 
+# Dev-only content pipeline (offline; NOT served — see specs/03-architecture.md §5)
+node_modules/
+_media_staging/
+data/raw/
+
 # OS/junk files
 .DS_Store
 BBThumbs.dat
