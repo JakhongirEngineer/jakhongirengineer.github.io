@@ -22,7 +22,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S2** (S1 complete, pending owner commit)
+## Current slice → **S3** (S2 complete — verified in browser; pending owner commit + owner $0 usage alert)
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -30,7 +30,7 @@ This file is the single running checklist — **update it every session** (tick 
 |---|---|---|
 | **S0** | Scaffold + hello-world deploy | **DONE** |
 | S1 | Content pipeline & data model (prove on 1 lesson) | DONE |
-| S2 | Media hosting — R2 + custom domain + fallback ladder | TODO |
+| S2 | Media hosting — R2 + custom domain + fallback ladder | **DONE** |
 | S3 | Core lesson page with audio (the centerpiece) | TODO |
 | S4 | Speak It Yourself — recording + IndexedDB | TODO |
 | S5 | Progress engine + Home dashboard + Curriculum map | TODO |
@@ -78,13 +78,14 @@ This file is the single running checklist — **update it every session** (tick 
 **Specs:** `03 §2` (all), `03 §2.3` (CORS/download matrix), `03 §2.4` (bucket config + custom domain), `03 §2.5` (upload), `03 §9` (fallback ladder), `00 §6` (infra risks & mitigations).
 **Precondition (owner):** Cloudflare R2 needs a card on file + the `principiaforge.com` DNS zone on Cloudflare (free move, doesn't disturb Pages). If refused → drop to the GitHub Releases escape hatch (no card/DNS). Mark **BLOCKED** if neither is available.
 
-- [ ] R2 bucket `ess-media`; CORS policy + `Cache-Control: public, max-age=31536000, immutable` per `03 §2.4`.
-- [ ] Custom domain `media.principiaforge.com` attached (never ship `r2.dev` — throttled, `03 §2.4`); `config.js` `MEDIA_BASE` points at it.
-- [ ] Upload S1's staged media via `rclone copy … --header-upload "Cache-Control:…immutable"` (`03 §2.5`).
-- [ ] Verify in browser: `<audio>` **streams** + **seeks** (HTTP Range) and **downloads** (baseline `<a download>`; R2 `fetch→blob` progress upgrade) (`03 §2.3`).
-- [ ] Set a $0 usage alert; document the one-line fallback ladder R2 → **B2+Cloudflare** (`MEDIA_BASE` re-point) → **GitHub Releases** (flat-key resolver) (`03 §9`).
+- [x] R2 bucket `english-self-study` (EEUR, public access); CORS policy (prod + localhost dev origins) set via the Cloudflare REST API + `Cache-Control: public, max-age=31536000, immutable`, per `03 §2.4` — policy read back, and the immutable header verified on the served object.
+- [x] Custom domain `media.principiaforge.com` attached & live (never ship `r2.dev` — throttled, `03 §2.4`); `config.js` `MEDIA_BASE` points at it (proven one-line swap).
+- [x] Upload S1's staged media (lesson 09 + shared grammar PDF = 9 keys) via `rclone copy … --header-upload "Cache-Control:…immutable"` (`03 §2.5`); remote listing == staged keys and every manifest key for core-09 present.
+- [x] Verified in browser (headless Chrome) + curl: `<audio>` **streams** (metadata + playback advances) + **seeks** (scrub to mid-file, playback resumes) via HTTP Range `206 Content-Range`, and **downloads** (baseline `<a download>` + R2 `fetch→blob` cross-origin Blob) (`03 §2.3`); GET is `200` with the immutable `Cache-Control`, and the CORS header + preflight are returned.
+- [x] Documented the one-line fallback ladder R2 → **B2+Cloudflare** (`MEDIA_BASE` re-point) → **GitHub Releases** (flat-key resolver), incl. the `r2.dev` emergency-only note (`03 §9`).
+- [ ] (owner) Set a $0 / free-tier usage alert in the Cloudflare dashboard — cannot be set with an R2-scoped API token.
 
-**Done when:** a MAIN track streams and scrubs from `media.principiaforge.com`, downloads to disk, egress reads $0, and switching `MEDIA_BASE` is proven to be a one-line change.
+**Done when:** a MAIN track streams and scrubs from `media.principiaforge.com`, downloads to disk, egress reads $0, and switching `MEDIA_BASE` is proven to be a one-line change. *(Met 2026-07-17: streams + scrubs + `fetch→blob` download verified in headless Chrome; curl confirms `200`/immutable, `206` Range, CORS + preflight. R2 egress is $0 by design. The git commit and the owner $0-usage-alert are deferred to the owner.)*
 
 ## S3 — Core lesson page with audio (THE CENTERPIECE)
 

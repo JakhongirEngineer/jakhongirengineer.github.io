@@ -10,7 +10,7 @@ export const MEDIA_BASE = "https://media.principiaforge.com"; // R2 custom domai
 // Fallback #1 — Backblaze B2 behind Cloudflare: same key scheme + CORS, so keep
 //   MEDIA_BASE identical and just re-point the origin/DNS (03 §2, decision 1a).
 // Escape hatch — GitHub Releases (no card/DNS): flat keys, one-line resolver swap (03 §2.3):
-//   const REL = "https://github.com/<user>/ess-media/releases/download/media-v1";
+//   const REL = "https://github.com/<user>/english-self-study/releases/download/media-v1";
 //   export const mediaUrl = (k) => `${REL}/${k.replaceAll("/", "__")}`;
 
 export const mediaUrl = (path) => `${MEDIA_BASE}/${path}`;

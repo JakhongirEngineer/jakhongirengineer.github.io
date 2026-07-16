@@ -27,7 +27,7 @@ Measured/verified facts settled the two genuine factual disputes; the framework/
 |---|----------|--------|----------------|
 | 1 | Media hosting (~1.7–2.9 GB mp3/pdf) | **Cloudflare R2** + custom domain `media.principiaforge.com` | 10 GB free, **$0 egress forever**, HTTP Range streaming, configurable CORS, edge-cached |
 | 1a | Media fallback #1 | **Backblaze B2 behind Cloudflare** | Bandwidth Alliance = free egress; same CORS abilities → literal `MEDIA_BASE` swap |
-| 1b | Media escape hatch | **GitHub Releases** (separate `ess-media` repo) | No card, no DNS; streaming + `<a download>` both work (assets send `Content-Disposition`); flat-key variant of the resolver |
+| 1b | Media escape hatch | **GitHub Releases** (separate `english-self-study` media repo) | No card, no DNS; streaming + `<a download>` both work (assets send `Content-Disposition`); flat-key variant of the resolver |
 | 2 | App hosting | **GitHub Pages**, subfolder `principiaforge.com/english-self-study/` | Repo, custom domain, and 4 sibling apps already live here; app is a few hundred KB once media is offloaded |
 | 3 | Deploy pipeline | **Buildless deploy-from-branch** — commit app files, `git push` publishes | Zero CI, matches sibling apps, no PAT/second repo/Jekyll workarounds |
 | 4 | Framework | **None — vanilla ES-module SPA** (hash router, native `<audio>`, localStorage) | Lessons are data; smallest possible JS is the winning move for cheap Androids on slow networks |
@@ -89,10 +89,16 @@ R2 free-tier numbers confirmed against Cloudflare's pricing page: 10 GB Standard
 
 ### 2.4 R2 bucket configuration
 
+**Bucket:** `english-self-study` — location `EEUR`, public access enabled. *(The working name in earlier drafts was `ess-media`; the bucket actually provisioned in S2 is `english-self-study`.)* The CORS policy below is applied via the **Cloudflare REST API** (`PUT /accounts/{account_id}/r2/buckets/english-self-study/cors`, R2-scoped bearer token) using its `{ "rules": [{ "allowed": { "origins", "methods", "headers" }, "exposeHeaders", "maxAgeSeconds" }] }` shape; the S3 `PutBucketCors` call (identical policy, the S3 shape shown here) is the equivalent fallback. Localhost dev origins are included so local `fetch→blob` download testing works from `python3 -m http.server 8000`.
+
 ```jsonc
 // R2 CORS policy — enables the fetch→blob download + optional PWA "save offline"
 [{
-  "AllowedOrigins": ["https://principiaforge.com"],
+  "AllowedOrigins": [
+    "https://principiaforge.com",       // production (GitHub Pages custom domain)
+    "http://localhost:8000",            // local dev (python3 -m http.server 8000)
+    "http://127.0.0.1:8000"
+  ],
   "AllowedMethods": ["GET", "HEAD"],
   "AllowedHeaders": ["Range"],
   "ExposeHeaders": ["Content-Length", "Content-Range", "Accept-Ranges"],
@@ -112,7 +118,7 @@ Cache-Control: public, max-age=31536000, immutable   // media keys are content-s
 node scripts/stage-media.mjs           # content/  ->  _media_staging/<clean-key>
 
 # 2) Bulk upload to R2 (S3-compatible), resumable, with immutable caching
-rclone copy ./_media_staging r2:ess-media \
+rclone copy ./_media_staging r2:english-self-study \
   --transfers=8 --s3-no-check-bucket \
   --header-upload "Cache-Control: public, max-age=31536000, immutable"
 
@@ -208,7 +214,7 @@ All filename-chaos resolution lives in one reused module, `scripts/lib/normalise
 export const MEDIA_BASE = "https://media.principiaforge.com";      // R2 custom domain (primary)
 // fallback #1 (B2 behind Cloudflare): "https://media.principiaforge.com"  // same — just re-point DNS/origin
 // escape hatch (GitHub Releases, flat keys):
-//   const REL = "https://github.com/<user>/ess-media/releases/download/media-v1";
+//   const REL = "https://github.com/<user>/english-self-study/releases/download/media-v1";
 //   export const mediaUrl = (k) => `${REL}/${k.replaceAll("/", "__")}`;
 export const mediaUrl = (path) => `${MEDIA_BASE}/${path}`;         // path = lesson JSON "path"
 ```
@@ -439,7 +445,7 @@ Read on load; if `schemaVersion` ≠ current, run `migrate(prev)` (or discard gr
 
 **Infra risks & mitigations:**
 - **R2 requires a credit card on file + a Cloudflare DNS zone.** Mitigation: set a $0 usage alert; the DNS move is free and doesn't disturb Pages. If the owner refuses both, the **GitHub Releases escape hatch** needs neither — a one-line resolver swap (flat keys), with the §2.3 download behaviour (plain `<a>` works; `fetch→blob` does not).
-- **`r2.dev` is rate-throttled / "not for production".** Mitigation: always use the `media.principiaforge.com` custom domain (mandatory, §2.4).
+- **`r2.dev` is rate-throttled / "not for production".** Mitigation: always use the `media.principiaforge.com` custom domain (mandatory, §2.4). The bucket's managed dev URL — `https://pub-8a5df78f6b1c4d2bb18948845c57c53a.r2.dev` — is recorded here as **emergency-fallback documentation ONLY** (custom-domain-outage triage): it is throttled and 429s under load, and it **must NEVER appear in shipped code or `config.js`** — `MEDIA_BASE` always stays the custom domain.
 - **Free-tier changes.** R2's 10 GB / $0-egress terms verified July 2026 (no expiry). B2+Cloudflare Bandwidth Alliance verified active 2026. **Netlify is disqualified for new accounts** (post-4-Sep-2025 credit model ≈ 15 GB/mo then suspended) — do not use it for media or as the app host on a fresh account.
 - **PDF extraction needs human review** (italic-answer detection, boilerplate stripping, filename chaos) — but it's a one-time 60-lesson pass the author must touch anyway to add Uzbek.
 

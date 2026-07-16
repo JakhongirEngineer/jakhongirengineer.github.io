@@ -6,6 +6,10 @@ node_modules/
 _media_staging/
 data/raw/
 
+# Secrets — never commit (R2 credentials live here)
+.env
+*.env
+
 # OS/junk files
 .DS_Store
 BBThumbs.dat
