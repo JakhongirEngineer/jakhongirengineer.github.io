@@ -1,6 +1,13 @@
 /* styles.css — everything beyond the critical shell inlined in index.html.
    Design tokens (--bg, --teal, …) are defined there on :root; consumed here. */
 
+/* ---- The `hidden` attribute must always win. Component classes below set
+   display:flex/inline-flex (.drill__check, .drill__beat, .drill__reveal/.btn,
+   .gx__self …); each ties or beats a plain [hidden] on specificity + source
+   order, so a toggled `hidden` needs !important to actually hide the element
+   (the toggled step-sequence of the mini-story drill, 04 §5.6, depends on it). */
+[hidden] { display: none !important; }
+
 /* ---- Focus: visible everywhere, never removed without a replacement (a11y §8) ---- */
 :focus-visible {
   outline: 2px solid var(--teal-bright);
@@ -89,6 +96,239 @@ html[lang="en"] .seg__opt[data-lang="en"] { color: var(--on-teal); background: v
   background: color-mix(in srgb, var(--teal) 12%, transparent); color: var(--teal);
   font-size: 15px;
 }
+
+/* ---- S3: core lesson page (04 §4.3) + docked player (04 §5.1) + components ----
+   Tokens (--bg, --teal, …) are defined in index.html; consumed here. */
+
+/* ---- Shared buttons / chips ---- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px; padding: 12px 18px; cursor: pointer;
+  border: 1px solid var(--border-strong); border-radius: 12px;
+  background: var(--surface); color: var(--text); font: 600 16px/1.2 inherit;
+}
+.btn--primary { background: var(--teal); color: var(--on-teal); border-color: transparent; }
+.btn--soft { background: color-mix(in srgb, var(--teal) 12%, transparent); color: var(--teal); border-color: transparent; }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+.btn svg { width: 20px; height: 20px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px; padding: 5px 10px; border-radius: 999px;
+  background: color-mix(in srgb, var(--amber) 14%, transparent); color: var(--amber);
+  font: 600 13px/1.3 inherit; white-space: nowrap;
+}
+.chip__k { color: var(--muted); font-weight: 600; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); border: 0; }
+
+/* ---- Reserve room so the fixed docked player never hides bottom content ---- */
+body.yp-has-dock .main { padding-bottom: calc(var(--bottomnav-h) + 92px + env(safe-area-inset-bottom)); }
+@media (min-width: 720px) { body.yp-has-dock .main { padding-bottom: 120px; } }
+
+/* ---- Skeleton (04 §9 — blocks, not spinners) ---- */
+.lesson-skel { display: flex; flex-direction: column; gap: 16px; }
+.skel-card { height: 96px; border-radius: 12px; background: var(--border); animation: skel 1.2s ease-in-out infinite; }
+.skel-card:nth-child(2) { height: 180px; } .skel-card:nth-child(3) { height: 140px; }
+@keyframes skel { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+
+/* ---- Sticky section strip + day-focus chip + scroll-spy (04 §4.3.2) ---- */
+.strip {
+  position: sticky; top: var(--topbar-h); z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  margin: -8px -4px 8px; padding: 8px 4px; overflow-x: auto;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.strip__glyphs { display: flex; gap: 6px; }
+.strip__g {
+  flex: 0 0 auto; width: 34px; height: 34px; border-radius: 999px; cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--border-strong); background: transparent; color: var(--muted);
+  font: 700 14px/1 inherit;
+}
+.strip__g--heart { border-color: var(--teal); color: var(--teal); }
+.strip__g.is-done { background: var(--teal); color: var(--on-teal); border-color: transparent; }
+.strip__g.is-active { outline: 2px solid var(--teal-bright); outline-offset: 1px; }
+.strip__day { flex: 0 0 auto; }
+
+/* ---- Lesson section shells + cards ---- */
+.lsec { margin-top: 28px; scroll-margin-top: calc(var(--topbar-h) + 56px); }
+.lsec__h { display: flex; align-items: center; gap: 10px; margin: 0 0 10px; font: 700 20px/1.3 inherit; color: var(--ink); }
+.lsec__num {
+  flex: 0 0 auto; width: 28px; height: 28px; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: color-mix(in srgb, var(--teal) 15%, transparent); color: var(--teal);
+  font-size: 14px; font-weight: 700;
+}
+.lsec--heart .lsec__num { background: var(--teal); color: var(--on-teal); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: var(--shadow-sm); }
+.card--heart { border: 2px solid var(--teal); background: color-mix(in srgb, var(--teal) 6%, var(--surface)); }
+
+/* ---- Section 0 — home & can-do ---- */
+.l-intro { font-size: 17px; color: var(--text); }
+.l-intro-en { margin-top: 6px; color: var(--muted); font-size: 15px; }
+.l-cando { margin-top: 14px; padding: 12px; border-radius: 10px; background: color-mix(in srgb, var(--indigo) 8%, transparent); }
+.l-cando__k { font-weight: 700; color: var(--indigo); }
+.l-cando__uz { margin-top: 4px; }
+.l-cando__en { margin-top: 4px; color: var(--muted); font-size: 15px; }
+.l-meta { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 14px; color: var(--muted); }
+.l-meta__peak { color: var(--amber); }
+.l-about { margin-bottom: 12px; color: var(--text); }
+.l-about__k { color: var(--muted); font-weight: 600; }
+
+/* ---- Inline section-player trigger (04 §4.3.3) ---- */
+.trg-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.trg {
+  flex: 1 1 auto; display: flex; align-items: center; gap: 12px; min-height: 56px;
+  padding: 8px 14px; cursor: pointer; text-align: left;
+  border: 1px solid var(--border-strong); border-radius: 12px; background: var(--surface); color: var(--text);
+}
+.trg-row--big .trg { min-height: 64px; }
+.trg[aria-pressed="true"] { border-color: var(--teal); background: color-mix(in srgb, var(--teal) 8%, var(--surface)); }
+.trg__glyph { flex: 0 0 auto; display: inline-flex; width: 40px; height: 40px; align-items: center; justify-content: center; border-radius: 999px; background: var(--teal); color: var(--on-teal); }
+.trg__glyph svg { width: 22px; height: 22px; }
+.trg__body { display: flex; flex-direction: column; gap: 2px; flex: 1 1 auto; min-width: 0; }
+.trg__label { font-weight: 600; }
+.trg__dur { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.trg__eq { display: none; gap: 2px; align-items: flex-end; height: 18px; flex: 0 0 auto; }
+.trg__eq i { width: 3px; height: 100%; border-radius: 2px; background: var(--teal); animation: eq 900ms ease-in-out infinite; }
+.trg__eq i:nth-child(2) { animation-delay: 150ms; } .trg__eq i:nth-child(3) { animation-delay: 300ms; }
+.trg.is-playing .trg__eq { display: inline-flex; }
+@keyframes eq { 0%, 100% { transform: scaleY(.35); } 50% { transform: scaleY(1); } }
+.dots { display: inline-flex; gap: 5px; align-items: center; flex: 0 0 auto; }
+.dot { width: 10px; height: 10px; border-radius: 999px; border: 1.5px solid var(--teal); }
+.dot--on { background: var(--teal); }
+
+/* ---- Download button (03 §2.3): baseline <a>, upgraded fetch→blob progress ---- */
+.dlbtn {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 14px;
+  border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface);
+  color: var(--text); text-decoration: none; font: 600 14px/1.3 inherit;
+}
+.dlbtn--wide { display: flex; margin-top: 12px; }
+.dlbtn--nudge { background: color-mix(in srgb, var(--teal) 10%, transparent); border-color: transparent; color: var(--teal); }
+.dlbtn__ic { display: inline-flex; } .dlbtn__ic svg { width: 20px; height: 20px; }
+.dlbtn__lab { flex: 1 1 auto; }
+.dlbtn__size { color: var(--muted); font-weight: 400; }
+.dlbtn__state { color: var(--teal); font-variant-numeric: tabular-nums; }
+.dlbtn.is-busy { opacity: .8; } .dlbtn.is-done .dlbtn__state { color: var(--green); }
+
+/* ---- Transcript read-along (04 §4.3.4) ---- */
+.tr { margin-top: 16px; }
+.tr__toggle { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--border-strong); border-radius: 10px; background: transparent; color: var(--text); cursor: pointer; font: 600 15px/1 inherit; }
+.tr__ic svg { width: 20px; height: 20px; }
+.tr__note { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.tr__body { margin-top: 12px; }
+.tr__p { max-width: 66ch; margin: 0 0 12px; padding: 4px 8px; border-left: 3px solid transparent; border-radius: 4px; cursor: pointer; }
+.tr__p.is-here { border-left-color: var(--teal); background: color-mix(in srgb, var(--teal) 8%, transparent); }
+
+/* ---- Vocab flip-cards (04 §5.4) ---- */
+.vocab { margin-top: 4px; }
+.vocab__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.vcard { height: 128px; cursor: pointer; perspective: 900px; border-radius: 12px; }
+.vcard__inner { position: relative; width: 100%; height: 100%; transition: transform 300ms ease; transform-style: preserve-3d; }
+.vcard.is-flipped .vcard__inner { transform: rotateY(180deg); }
+.vcard__face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow-sm); backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: auto; }
+.vcard__back { transform: rotateY(180deg); background: color-mix(in srgb, var(--indigo) 7%, var(--surface)); }
+.vcard.is-seen .vcard__front { border-color: var(--green); }
+.vcard__chunk { font: 600 17px/1.3 inherit; color: var(--ink); }
+.vcard__gloss { font-weight: 600; color: var(--indigo); }
+.vcard__ex { font-size: 14px; color: var(--muted); }
+.vcard__sound { position: absolute; right: 4px; bottom: 4px; width: 40px; height: 40px; }
+.vcard__sound svg { width: 22px; height: 22px; }
+.vcard__dot { position: absolute; right: 8px; top: 8px; width: 24px; height: 24px; padding: 0; border-radius: 999px; border: 2px solid var(--border-strong); background: transparent; cursor: pointer; }
+.vcard__dot[aria-pressed="true"] { background: var(--green); border-color: var(--green); }
+.vocab__foot { margin-top: 12px; font-size: 14px; color: var(--muted); }
+
+/* ---- Grammar Spark (04 §4.3.6) ---- */
+.gpanel__title { margin: 0 0 8px; font: 700 18px/1.35 inherit; color: var(--indigo); }
+.gpanel__sub { margin: 18px 0 8px; font: 700 15px/1.3 inherit; color: var(--ink); }
+.prose { max-width: 66ch; }
+.prose p { margin: 0 0 10px; }
+.prose h3 { margin: 16px 0 6px; font: 700 16px/1.35 inherit; color: var(--ink); }
+.prose ul { margin: 0 0 10px; padding-left: 20px; } .prose li { margin: 3px 0; }
+.prose blockquote { margin: 12px 0; padding: 10px 14px; border-left: 3px solid var(--teal); background: color-mix(in srgb, var(--teal) 6%, transparent); border-radius: 0 8px 8px 0; }
+.prose strong { color: var(--ink); }
+.callout { display: flex; gap: 10px; margin-top: 14px; padding: 12px; border-radius: 10px; }
+.callout__ic { flex: 0 0 auto; font-size: 18px; }
+.callout p { margin: 2px 0 0; } .callout strong { display: block; }
+.callout--contrast { background: color-mix(in srgb, var(--indigo) 9%, transparent); }
+.callout--contrast strong { color: var(--indigo); }
+.callout--error { background: color-mix(in srgb, var(--amber) 12%, transparent); }
+.callout--error strong { color: var(--amber); }
+.gx { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--border); }
+.gx__n { font: 700 13px/1.3 inherit; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+.gx__prompt { margin: 4px 0 10px; font-size: 17px; }
+.gx__opts { display: flex; flex-wrap: wrap; gap: 8px; }
+.gx__opt { min-height: 48px; padding: 10px 18px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface); color: var(--text); font: 600 16px/1 inherit; cursor: pointer; }
+.gx__opt.is-right { background: color-mix(in srgb, var(--green) 16%, transparent); border-color: var(--green); color: var(--green); }
+.gx__opt.is-wrong { background: color-mix(in srgb, var(--amber) 14%, transparent); border-color: var(--amber-bright); color: var(--amber); }
+.gx__answer { margin: 10px 0; padding: 8px 12px; border-radius: 8px; background: color-mix(in srgb, var(--green) 12%, transparent); }
+.gx__self { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.gx__self-lab { font-size: 14px; color: var(--muted); }
+.gx__ok, .gx__no, .drill__ok, .drill__no { width: 48px; height: 48px; border-radius: 10px; border: 1px solid var(--border-strong); background: var(--surface); font: 700 20px/1 inherit; cursor: pointer; }
+.gx__ok, .drill__ok { color: var(--green); } .gx__no, .drill__no { color: var(--red); }
+.gx__hint { margin-top: 8px; font-size: 14px; color: var(--muted); }
+.gx__fb { margin-top: 8px; font-size: 14px; min-height: 1em; }
+.gx__fb.is-right { color: var(--green); } .gx__fb.is-wrong { color: var(--amber); }
+.gpanel__ref { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); }
+.gpanel__ref-lab { font-size: 14px; color: var(--muted); margin-bottom: 4px; }
+
+/* ---- Mini-story drill (04 §5.6) — THE engine ---- */
+.heart__lead { margin-bottom: 14px; font-weight: 600; }
+.drill__count { font: 700 13px/1.3 inherit; color: var(--teal); text-transform: uppercase; letter-spacing: .03em; }
+.drill__card { margin-top: 8px; padding: 16px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); }
+.drill__q { font: 600 20px/1.4 inherit; color: var(--ink); }
+.drill__beat { display: flex; flex-direction: column; gap: 6px; margin: 14px 0; }
+.drill__beat-lab { color: var(--amber); font-weight: 700; }
+.drill__beat-bar { height: 4px; border-radius: 999px; background: color-mix(in srgb, var(--amber) 25%, transparent); }
+.drill__beat.is-run .drill__beat-bar { transform-origin: left; animation: beat 2.5s linear; }
+@keyframes beat { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+.drill__reveal { width: 100%; }
+.drill__a { margin-top: 14px; padding: 12px; border-radius: 10px; font-style: italic; font-size: 18px; background: color-mix(in srgb, var(--teal) 8%, transparent); }
+.drill__check { display: flex; align-items: center; gap: 10px; margin-top: 14px; }
+.drill__check-lab { flex: 1 1 auto; color: var(--muted); font-size: 14px; }
+.drill__reps { margin-top: 14px; font-size: 15px; color: var(--amber); font-weight: 600; }
+.drill__reps strong { font-size: 18px; font-variant-numeric: tabular-nums; }
+.drill__done { font-weight: 700; margin-bottom: 12px; }
+
+/* ---- Fun/Speak placeholders (S8/S4) + lesson check summary (S5) ---- */
+.phold { text-align: center; padding: 12px 8px; }
+.phold__body { color: var(--text); }
+.phold__teaser { margin-top: 8px; font-weight: 600; } .phold__chan { color: var(--muted); font-weight: 400; }
+.phold__hook { margin-top: 10px; color: var(--amber); font-size: 14px; }
+.phold__tag { margin-top: 10px; display: inline-block; padding: 3px 10px; border-radius: 999px; background: var(--border); color: var(--muted); font: 600 12px/1.4 inherit; }
+.check__list { list-style: none; margin: 0 0 16px; padding: 0; }
+.check__row { display: flex; align-items: center; gap: 10px; min-height: 40px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.check__box { flex: 0 0 auto; width: 24px; height: 24px; border-radius: 6px; border: 2px solid var(--border-strong); display: inline-flex; align-items: center; justify-content: center; color: var(--on-teal); }
+.check__box svg { width: 16px; height: 16px; }
+.check__row.is-done .check__box { background: var(--teal); border-color: var(--teal); }
+.check__lab { flex: 1 1 auto; }
+.check__row--gate { font-weight: 600; }
+.check__gate { font: 700 11px/1 inherit; color: var(--amber); background: color-mix(in srgb, var(--amber) 14%, transparent); padding: 4px 8px; border-radius: 999px; }
+.check__stars { font-size: 24px; margin: 4px 0 12px; letter-spacing: 2px; }
+.check__earn { width: 100%; }
+.check__reason { margin-top: 8px; font-size: 14px; color: var(--muted); text-align: center; }
+
+/* ---- Docked audio player (04 §5.1): #player fixed bottom, above the mobile nav ---- */
+.player { bottom: calc(var(--bottomnav-h) + env(safe-area-inset-bottom)); }
+@media (min-width: 720px) { .player { bottom: 0; } }
+.dock { margin: 0 8px 8px; border-radius: 14px; background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow-md); overflow: hidden; }
+.dock__row { display: flex; align-items: center; gap: 10px; padding: 8px 10px; }
+.dock__play { flex: 0 0 auto; background: var(--teal); color: var(--on-teal); }
+.dock__play svg { width: 24px; height: 24px; }
+.dock__meta { flex: 1 1 auto; min-width: 0; }
+.dock__label { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dock__mini { margin-top: 5px; height: 3px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.dock__mini-fill { display: block; height: 100%; width: 0; background: var(--teal); }
+.dock__time { flex: 0 0 auto; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dock__panel { display: none; padding: 4px 12px 14px; border-top: 1px solid var(--border); }
+.dock.is-expanded .dock__panel { display: block; }
+.dock__seekrow { display: flex; align-items: center; gap: 10px; padding-top: 10px; }
+.dock__seek { flex: 1 1 auto; width: 100%; accent-color: var(--teal); height: 32px; }
+.dock__t { flex: 0 0 auto; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.dock__controls { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 8px; }
+.dock__controls .dock__play--big { width: 56px; height: 56px; border-radius: 999px; }
+.dock__rate { min-width: 56px; height: 44px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--border-strong); background: transparent; color: var(--teal); font: 700 15px/1 inherit; cursor: pointer; font-variant-numeric: tabular-nums; }
 
 /* ---- Reduced motion: disable all non-essential animation (a11y §8) ---- */
 @media (prefers-reduced-motion: reduce) {

@@ -22,7 +22,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S3** (S2 complete — verified in browser; pending owner commit + owner $0 usage alert)
+## Current slice → **S4**
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -31,7 +31,7 @@ This file is the single running checklist — **update it every session** (tick 
 | **S0** | Scaffold + hello-world deploy | **DONE** |
 | S1 | Content pipeline & data model (prove on 1 lesson) | DONE |
 | S2 | Media hosting — R2 + custom domain + fallback ladder | **DONE** |
-| S3 | Core lesson page with audio (the centerpiece) | TODO |
+| S3 | Core lesson page with audio (the centerpiece) | **DONE** |
 | S4 | Speak It Yourself — recording + IndexedDB | TODO |
 | S5 | Progress engine + Home dashboard + Curriculum map | TODO |
 | S6 | Progress page + gamification + export/import JSON | TODO |
@@ -92,14 +92,21 @@ This file is the single running checklist — **update it every session** (tick 
 **Goal:** the nine-section AJ Hoge lesson renders end-to-end and funnels the learner to *hear a question → answer out loud*, on the one persistent audio player.
 **Specs:** `04 §4.3` (page + load-bearing behaviors), `02 §2` (9 sections, fixed order), `03 §7` (persistent audio), `04 §5.1` (player states), `04 §5.4` (vocab flip-card), `04 §5.6` (mini-story drill), `03 §6.2` (lesson JSON), `03 §2.3` (downloads).
 
-- [ ] Render sections 0–8 **top-to-bottom in fixed order**; gate on data presence (POV hidden L01–08, text-only + optional TTS for L19 — no dead UI) (`04 §4.3.1`, `03 §5.3`).
-- [ ] One persistent `<audio preload="none">` outside `<main>` + docked player (collapsed↔expanded): rate `0.75/1/1.25`, `⟲10s`/`⟳15s`, position save (~5 s debounce) + restore, `done` at ~90% → repeat-listen counter feeding the ★ gate (`03 §7`, `04 §5.1`).
-- [ ] Inline section-player triggers (Vocab/MAIN/POV) load the single `<audio>`; only one plays; active trigger shows playing state + `aria-pressed`; player persists across route changes (`04 §4.3.3`).
-- [ ] **Mini-Story drill** (elevated): Q (EN) → 2–3 s "answer NOW" beat (UZ) → tap-reveal answer → self-check `✓/✗` → advance; live rep counter; **no text input** anywhere (`02 §2`, `04 §5.6`).
-- [ ] Transcript read-along (collapsed, English-only `lang="en"`, tap-paragraph-to-highlight; replay via `⟲10s`, not fake line-seek) + 2-line Uzbek "what it's about" (`04 §4.3.4`).
-- [ ] Vocab flip-cards (front EN chunk + 🔊 Web Speech TTS w/ fallback; back UZ gloss + EN example) + "seen" toggle (`04 §5.4`).
-- [ ] Grammar Spark panel: sanitized `bodyHtml` + L1-contrast + "Xato tuzatish" error-fix card + 2–3 interactive drills (instant ✓/✗, UZ hint) + "say a true sentence" spoken prompt + optional Murphy-PDF download (`04 §4.3.6`).
-- [ ] Per-asset download buttons wired to `downloads[]`; sticky section strip (`⓿①②③❹⑤⑥⑦⑧`) + day-focus chip w/ scroll-spy. Sections **6 (Fun English)** and **7 (Speak It)** render as placeholders (built in S8 / S4).
+- [x] Render sections 0–8 **top-to-bottom in fixed order**; gate on data presence (POV hidden L01–08, text-only + optional TTS for L19 — no dead UI) (`04 §4.3.1`, `03 §5.3`).
+- [x] One persistent `<audio preload="none">` outside `<main>` + docked player (collapsed↔expanded): rate `0.75/1/1.25`, `⟲10s`/`⟳15s`, position save (~5 s debounce) + restore, `done` at ~90% → repeat-listen counter feeding the ★ gate (`03 §7`, `04 §5.1`).
+- [x] Inline section-player triggers (Vocab/MAIN/POV) load the single `<audio>`; only one plays; active trigger shows playing state + `aria-pressed`; player persists across route changes (`04 §4.3.3`).
+- [x] **Mini-Story drill** (elevated): Q (EN) → 2–3 s "answer NOW" beat (UZ) → tap-reveal answer → self-check `✓/✗` → advance; live rep counter; **no text input** anywhere (`02 §2`, `04 §5.6`).
+- [x] Transcript read-along (collapsed, English-only `lang="en"`, tap-paragraph-to-highlight; replay via `⟲10s`, not fake line-seek) + 2-line Uzbek "what it's about" (`04 §4.3.4`).
+- [x] Vocab flip-cards (front EN chunk + 🔊 Web Speech TTS w/ fallback; back UZ gloss + EN example) + "seen" toggle (`04 §5.4`).
+- [x] Grammar Spark panel: sanitized `bodyHtml` + L1-contrast + "Xato tuzatish" error-fix card + 2–3 interactive drills (instant ✓/✗, UZ hint) + "say a true sentence" spoken prompt + optional Murphy-PDF download (`04 §4.3.6`).
+- [x] Per-asset download buttons wired to `downloads[]`; sticky section strip (`⓿①②③❹⑤⑥⑦⑧`) + day-focus chip w/ scroll-spy. Sections **6 (Fun English)** and **7 (Speak It)** render as placeholders (built in S8 / S4).
+
+**Out of scope for S3 — deferred, surfaced now as honest placeholders (never a silent gap):** S3 ships **only the core lesson page** (`04 §4.3`). The other two routed screens the UI spec describes (`04 §2.1`), and the engine behind them, belong to later slices and are intentionally *not* built here:
+- **Curriculum map** (`#/lessons`, `04 §4.2`/`§5.3`) + the **single-★ award, gate *enforcement/completion*, and the Day-7 supp-chip / star updates on the map** → **S5** (progress engine). S3 renders the §8 Lesson-Check *preview* (checklist + live star-tier + the mini-story **gate row**) with the *"earn ★"* button **disabled and a clear Uzbek reason**; `#/lessons` shows the standard "keyingi bosqichda tayyorlanadi" placeholder.
+- **Supplementary lesson page** (`#/lesson/supp-…`, `04 §4.4`; quiz MCQ `§5.10`; role-play `§5.8`), incl. the S29–S30 mock-interview flow → **S7**; its paired content is authored in **S13**. With no supp JSON on disk, `#/lesson/supp-*` correctly returns the `04 §9` "dars topilmadi" not-found card.
+- **Recording** (section ⑦) → **S4**; **Fun-English facade** (section ⑥) → **S8** — both are honest, S-tagged placeholders inside the core page.
+
+S3 still **records what those later gates will read** — `lessons.<id>.listens.{main|ms|pov}` (bumped at ≈90 %) + `lessons.<id>.msAnswersAloud` — under the canonical `03 §6.3` field names, so S5's award/map light up with real data. *(This paragraph closes the verification-round-2 "supp page / curriculum map out-of-S3-scope" contract-gap flag; the core lesson page itself is complete.)*
 
 **Done when:** `#/lesson/core-09` renders every present section; MAIN streams with seek + rate + replay and keeps playing across a route change; the mini-story drill increments the live rep counter; vocab/grammar/transcript/downloads all work on the throttled rig.
 

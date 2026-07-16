@@ -177,7 +177,9 @@ english-self-study/                 # → principiaforge.com/english-self-study/
 
 ## 4. Framework & key libraries
 
-**Runtime framework: none.** One `index.html`, one `assets/app.js` (ES module, target ≤35 KB gzip), one `assets/styles.css`, and the `data/` JSON. The dynamic surface is small and bounded — an audio player, the mini-story reveal drill, a quiz, localStorage progress, a language toggle, hash routing — and **all 60 lessons are JSON, not code**, so "add a lesson" never touches the app and the JS footprint stays flat as the catalogue doubles. Shipping almost no JS is the single best lever for "loads fast on a cheap Android over a slow Uzbek network".
+**Runtime framework: none.** One `index.html`, `assets/*.js` (ES modules, each ≤35 KB — split noted below), one `assets/styles.css`, and the `data/` JSON. The dynamic surface is small and bounded — an audio player, the mini-story reveal drill, a quiz, localStorage progress, a language toggle, hash routing — and **all 60 lessons are JSON, not code**, so "add a lesson" never touches the app and the JS footprint stays flat as the catalogue doubles. Shipping almost no JS is the single best lever for "loads fast on a cheap Android over a slow Uzbek network".
+
+> **S3 amendment — app.js split into ES modules.** When the core lesson page landed (S3), the single `app.js` was split (per the ≤35 KB-per-file budget, not by minifying readability away) into: `core.js` (shared `el`/`icon`/`t`/settings + localStorage primitives), `app.js` (shell + hash router + i18n bootstrap), `player.js` (the one persistent `<audio>` + docked bar), `progress.js` (the `ess.progress.v1` read/write surface), and `lesson.js` (the nine-section page). `app.js` statically imports `core`+`player` (the persistent shell) and **dynamically imports `lesson.js` only on the `#/lesson/:id` route**, so Home/Map first paint never pays for the lesson renderer. Measured raw: app 11 KB · core 5.6 KB · player 9.6 KB · progress 4.1 KB · lesson 31 KB (each within budget); first-paint JS ≈ 11 KB gzip, `lesson.js` +9 KB gzip lazy. `styles.css` ≈ 5.2 KB gzip (budget ≤15 KB gzip, §8).
 
 **Runtime dependencies: zero.** No React/Vue (40–120 KB runtime for a catalogue), no Svelte (reintroduces a build + compiler), no router lib (hash routing is ~20 lines), no audio lib (native `HTMLAudioElement`), no i18n lib (two flat dicts), no date/util libs (native `Intl`), no icon font (inline SVG / emoji).
 
@@ -275,7 +277,8 @@ Covers every owner-required section. Blocks are optional per source and the UI r
     "errorFixUz": "❌ … ✅ …",                     // 20-sec "Xato tuzatish" L1-trap card (02 §2/§6; 04 §4.3.6; also the spaced micro-card seed)
     "examples": [ { "en": "I worked yesterday.", "uz": "Men kecha ishladim." } ],
     "exercises": [                                // type: "gap-fill" (auto-checked) | "say-true" (spoken honor-check, answer:null — 04 §4.3.6)
-      { "type": "gap-fill", "prompt": "I ___ (go) home.", "answer": "went", "hintUz": "irregular: go→went" },
+      // gap-fill: optional "options":[…] renders a tap-to-answer MCQ (instant ✓/✗); when omitted, the UI falls back to a reveal + honor self-check (04 §4.3.6, added S3).
+      { "type": "gap-fill", "prompt": "I ___ (go) home.", "options": ["went", "goed", "gone"], "answer": "went", "hintUz": "irregular: go→went" },
       { "type": "say-true", "promptUz": "O'zingiz haqingizda rost gap ayting …", "answer": null }
     ],
     "reference": { "book": "Essential Grammar in Use", "unit": 11,

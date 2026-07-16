@@ -49,18 +49,21 @@
       {
         "type": "gap-fill",
         "prompt": "Jan ___ very rude to everyone. (be)",
+        "options": ["was", "were"],
         "answer": "was",
         "hintUz": "u (she) → was"
       },
       {
         "type": "gap-fill",
         "prompt": "Her friends ___ sad and they cried. (be)",
+        "options": ["was", "were"],
         "answer": "were",
         "hintUz": "they → were"
       },
       {
         "type": "gap-fill",
         "prompt": "___ you happy yesterday?",
+        "options": ["Was", "Were"],
         "answer": "Were",
         "hintUz": "you → were; savol boshida"
       },
