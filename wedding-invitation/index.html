@@ -351,6 +351,36 @@ html.js.gate-armed .gate{display:flex}
 @keyframes sealpulse{0%,100%{box-shadow:0 10px 22px -8px rgba(107,69,80,.6), inset 0 2px 4px rgba(255,255,255,.5), inset 0 -4px 8px rgba(89,63,26,.5), 0 0 0 0 rgba(198,166,103,.5)}
   50%{box-shadow:0 10px 22px -8px rgba(107,69,80,.6), inset 0 2px 4px rgba(255,255,255,.5), inset 0 -4px 8px rgba(89,63,26,.5), 0 0 0 14px rgba(198,166,103,0)}}
 
+/* ---- floating music toggle ---- */
+.music-toggle{position:fixed;z-index:60;
+  right:calc(16px + env(safe-area-inset-right));
+  bottom:calc(16px + env(safe-area-inset-bottom));
+  width:48px;height:48px;min-width:44px;min-height:44px;
+  display:inline-flex;align-items:center;justify-content:center;
+  -webkit-appearance:none;appearance:none;cursor:pointer;padding:0;
+  border-radius:50%;color:var(--gold-deep);
+  background:linear-gradient(160deg,#fffdfb,#fbf3ed);
+  border:1px solid var(--hairline);
+  box-shadow:0 14px 30px -16px rgba(107,69,80,.55), inset 0 0 0 1px rgba(255,255,255,.55);
+  opacity:0;transition:transform .18s ease, box-shadow .25s ease, opacity .5s ease}
+.music-toggle[hidden]{display:none}
+.music-toggle.show{opacity:1}
+.music-toggle:hover{transform:translateY(-1px)}
+.music-toggle:active{transform:scale(.94)}
+.music-toggle svg{width:22px;height:22px;display:block;fill:none;stroke:currentColor;
+  stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.music-toggle:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
+/* diagonal slash + dimmed = paused */
+.music-toggle .mt-slash{position:absolute;left:50%;top:50%;width:26px;height:1.6px;
+  background:currentColor;border-radius:2px;transform:translate(-50%,-50%) rotate(45deg);
+  opacity:0;transition:opacity .25s ease;pointer-events:none}
+.music-toggle[aria-pressed="false"]{color:var(--rose-deep)}
+.music-toggle.show[aria-pressed="false"]{opacity:.72}
+.music-toggle[aria-pressed="false"] .mt-slash{opacity:.85}
+/* gentle pulse while playing */
+.music-toggle[aria-pressed="true"] svg{animation:mtpulse 1.9s ease-in-out infinite}
+@keyframes mtpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 /* focus */
@@ -365,6 +395,7 @@ html.js.gate-armed .gate{display:flex}
   .moment-clip img{top:0;height:100%}
   .js .scrollcue svg{animation:none}
   .js .seal{animation:none}
+  .music-toggle[aria-pressed="true"] svg{animation:none}
   .map-ph::before{animation:none}
   .gate{transition:none}
   .gate .env-flap,.gate .seal,.gate .env-inside,.gate .env-glow{transition:none}
@@ -582,6 +613,15 @@ html.js.gate-armed .gate{display:flex}
   </div>
 </div>
 
+<!-- Fon musiqasi: music/melody.mp3 -->
+<audio id="bgm" src="music/melody.mp3" loop preload="auto"></audio>
+
+<!-- Floating music toggle (shown after the gate opens) -->
+<button class="music-toggle" id="musicToggle" type="button" hidden aria-pressed="false" aria-label="Musiqani yoqish">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="18" r="2.4"/><circle cx="17.6" cy="15.6" r="2.4"/><path d="M9.4 18V6l10.6-2v11.6"/></svg>
+  <span class="mt-slash" aria-hidden="true"></span>
+</button>
+
 <script>
 (function(){
   "use strict";
@@ -621,6 +661,70 @@ html.js.gate-armed .gate{display:flex}
     nodes.forEach(function(el){ io.observe(el); });
   }
 
+  /* ---------- background music ---------- */
+  var bgm = byId("bgm"), mBtn = byId("musicToggle");
+  var TARGET_VOL = 0.55, musicOn = false, pausedByHide = false, fadeTimer = null;
+  // feature-detect volume control (iOS Safari ignores the volume property)
+  var canVolume = false;
+  if(bgm){
+    try{ bgm.volume = 0.5; canVolume = (bgm.volume === 0.5); }catch(e){ canVolume = false; }
+  }
+  function reflectMusic(){
+    if(!mBtn) return;
+    mBtn.setAttribute("aria-pressed", musicOn ? "true" : "false");
+    mBtn.setAttribute("aria-label", musicOn ? "Musiqani to'xtatish" : "Musiqani yoqish");
+  }
+  function clearFade(){ if(fadeTimer){ clearInterval(fadeTimer); fadeTimer = null; } }
+  function fadeTo(target, dur, done){
+    if(!bgm || !canVolume){ if(done) done(); return; }
+    clearFade();
+    var start = bgm.volume, t0 = Date.now();
+    fadeTimer = setInterval(function(){
+      var p = (Date.now() - t0) / dur; if(p > 1) p = 1;
+      try{ bgm.volume = start + (target - start) * p; }catch(e){}
+      if(p >= 1){ clearFade(); if(done) done(); }
+    }, 40);
+  }
+  // must be invoked synchronously inside a user gesture to satisfy autoplay policies
+  function playMusic(fadeMs){
+    if(!bgm) return;
+    clearFade();
+    if(canVolume){ try{ bgm.volume = 0; }catch(e){} }
+    var onOk = function(){ musicOn = true; reflectMusic(); fadeTo(TARGET_VOL, fadeMs); };
+    var onFail = function(){ musicOn = false; reflectMusic(); };
+    var p;
+    try{ p = bgm.play(); }catch(e){ onFail(); return; }
+    if(p && p.then){ p.then(onOk, onFail); } else { onOk(); }
+  }
+  function pauseMusic(){
+    if(!bgm) return;
+    musicOn = false; reflectMusic();
+    if(canVolume){ fadeTo(0, 450, function(){ try{ bgm.pause(); }catch(e){} }); }
+    else{ try{ bgm.pause(); }catch(e){} }
+  }
+  function showToggle(){
+    if(!mBtn) return;
+    mBtn.removeAttribute("hidden");
+    if(reduce){ mBtn.classList.add("show"); }
+    else{ requestAnimationFrame(function(){ mBtn.classList.add("show"); }); }
+  }
+  reflectMusic();
+  if(mBtn){
+    mBtn.addEventListener("click", function(){
+      if(musicOn){ pauseMusic(); } else { playMusic(600); }
+    });
+  }
+  // premium: pause when the tab is hidden, resume on return only if it was playing
+  doc.addEventListener("visibilitychange", function(){
+    if(!bgm) return;
+    if(doc.hidden){
+      if(musicOn){ pausedByHide = true; try{ bgm.pause(); }catch(e){} }
+    }else if(pausedByHide){
+      pausedByHide = false;
+      if(musicOn){ var p; try{ p = bgm.play(); }catch(e){} if(p && p.catch){ p.catch(function(){}); } }
+    }
+  });
+
   /* ---------- envelope gate ---------- */
   var gate = byId("gate"), seal = byId("seal"), wrap = doc.querySelector(".wrap");
   var armed = html.classList.contains("gate-armed");
@@ -633,12 +737,14 @@ html.js.gate-armed .gate{display:flex}
 
   function openGate(){
     if(opened) return; opened = true;
+    playMusic(2500);          // start on the seal tap — synchronous, same call stack as the gesture
     body.classList.add("opened");
     startReveals();
     var finish = function(){
       html.classList.remove("gate-armed");
       if(gate){ gate.setAttribute("hidden",""); }
       if(wrap){ wrap.removeAttribute("aria-hidden"); wrap.removeAttribute("inert"); }
+      showToggle();           // toggle appears once the gate has cleared
       focusPage();
     };
     if(!gate){ finish(); return; }
@@ -670,10 +776,11 @@ html.js.gate-armed .gate{display:flex}
     var stage = gate.querySelector(".env-stage");
     if(stage){ stage.addEventListener("click", openGate); }
   }else{
-    // gate skipped (?open=1 or no-JS-armed): reveal page immediately
+    // gate skipped (?open=1 or no-JS-armed): reveal page immediately, no autoplay
     body.classList.add("opened");
     if(gate){ gate.setAttribute("hidden",""); }
     startReveals();
+    showToggle();
   }
 
   /* ---------- countdown with rolling digits ---------- */
