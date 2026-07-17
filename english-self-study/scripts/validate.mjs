@@ -156,6 +156,14 @@ function validateLesson(id, l) {
 
   c(Array.isArray(l.funEnglish) && l.funEnglish.every((f) => isStr(f.provider) && (f.id === null || isStr(f.id)) && isStr(f.title) && isStr(f.channel)),
     "funEnglish must be an array of {provider, id:string|null, title, channel}");
+
+  // speakingPrompt — the section ⑨ Speak-It prompt (04 §4.3 ⑨/behavior 10, S4). Present on
+  // all 30 lessons; IELTS-style English prompt + Uzbek instruction (uses the week's 2 grammar
+  // topics). targetSec is OPTIONAL (~60-sec guidance; the renderer defaults to 60).
+  c(l.speakingPrompt && isStr(l.speakingPrompt.uz) && isStr(l.speakingPrompt.en),
+    "speakingPrompt must have non-empty {uz, en} (section ⑨ Speak-It prompt, 04 §4.3)");
+  if (l.speakingPrompt && "targetSec" in l.speakingPrompt)
+    c(isNum(l.speakingPrompt.targetSec) && l.speakingPrompt.targetSec > 0, "speakingPrompt.targetSec must be a positive number");
   c(Array.isArray(l.downloads) && l.downloads.length > 0 &&
     l.downloads.every((d) => isStr(d.labelUz) && isStr(d.kind) && isStr(d.path) && isNum(d.bytes)),
     "downloads must be a non-empty array of {labelUz, kind, path, bytes}");

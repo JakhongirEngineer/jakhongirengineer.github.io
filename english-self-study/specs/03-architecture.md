@@ -373,6 +373,12 @@ One file = one **whole weekly AJ Hoge lesson** (MAIN + VOCAB + MINI_STORY + POV,
       "title": "Kaizen for kids", "channel": "@EnglishSingsing" }
   ],
 
+  "speakingPrompt": {                             // ← section ⑨ Speak-It prompt (04 §4.3 ⑨ / behavior 10, S4). Present on all 30 lessons.
+    "en": "Have you ever tried to change a habit? …",  //   IELTS-style spoken prompt (English), tied to the lesson theme
+    "uz": "~60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning …",  //   Uzbek instruction line — cues the week's TWO grammar topics (02 §2)
+    "targetSec": 60                               //   OPTIONAL ~60-sec guidance (renderer defaults to 60). The recording is a MediaRecorder blob → IndexedDB keyed by lesson id; nothing uploaded (02 §8.2, §6.3 below)
+  },
+
   "downloads": [                                  // same key as streaming — one upload, two uses (AJ + EnglishPod + 6ME assets)
     { "labelUz": "Asosiy audio (MP3)",      "kind": "audio", "path": "aj-hoge/09/main.mp3",   "bytes": 33000000 },
     { "labelUz": "Matn (PDF)",              "kind": "pdf",   "path": "aj-hoge/09/main.pdf",   "bytes": 214563 },
@@ -384,6 +390,8 @@ One file = one **whole weekly AJ Hoge lesson** (MAIN + VOCAB + MINI_STORY + POV,
 **Schema v1 → v2 migration (loader must handle both; validate on load).** Three shape changes only: (1) **`grammar` object → array of two topic objects** — each element keeps the same per-topic shape (`unit`, `titleUz`, `bodyHtml`, `contrastUz`, `errorFixUz`, `examples`, `exercises`, optional `reference`) and adds `slot` + the `bandLifter`/`cefrCanDo` UI tags (02 §2/§4); v1's single `grammar{}` maps to `grammar[0]` (slot "A"), with `grammar[1]` (slot "B") authored fresh. (2) **`englishpod{}` folded in** (was the separate `source:"englishpod"` supp lesson): `audio.{dg,pr,rv}` + `dialogue` + `keyVocab`; `null` gates the section off (L15/L22). (3) **`sixmin{}` folded in** (was the separate `source:"6min"` supp lesson): `audio.main` + `quiz` + `vocab`, with the read-along in `transcripts.sixmin`. The former top-level `dialogue`/`quiz` and `audio.{dg,pr,rv}` are **removed** (they now live inside `englishpod`/`sixmin`). **Separate `supp-*` lesson files no longer exist** — all six asset groups live in one `core-NN.json`. *(The shipped `data/lessons/core-09.json` has already been rebuilt to this v2 shape as the pre-S13 design-review exemplar — a `grammar[]` array of two original topics (`present-perfect-intro` slot A + `gradual-change` slot B), `englishpod{}` (0026) and `sixmin{}` (171123), ~14.5 KB gzip, within the §8 budget; see the ROADMAP "Exemplar rebuild" note. The retired `was/were` object and Murphy-unit-10 reference are gone. The remaining 29 lessons are authored directly in v2 in S13.)*
 
 **Fields added in S1, carried into v2:** `canDo:{uz,en}` (the section-⓿ measurable goal, 04 §4.3.1); the per-topic `errorFixUz` "Xato tuzatish" L1-trap card (now inside each `grammar[]` element, 04 §4.3.6); the `grammar[].exercises[].type:"say-true"` spoken honor-check (`answer:null`).
+
+**Field added in S4:** `speakingPrompt:{en, uz, targetSec?}` — the section-⑨ Speak-It prompt (04 §4.3 ⑨ / behavior 10). The IELTS-style English prompt is tied to the lesson theme and its Uzbek instruction cues the week's two grammar topics; the learner's ~`targetSec`-second response is captured with `MediaRecorder` and stored as a blob in **IndexedDB keyed by lesson id** — **nothing is uploaded** (a hard privacy promise). Per §6.3, localStorage holds only the per-lesson `steps.record` flag + the `metrics.recordings` count, never the blob.
 
 **Budget note (§8).** A v2 weekly lesson carries two grammar topics + an EnglishPod dialogue/keyVocab + a 6ME quiz/vocab/transcript, so the file is larger than a v1 core lesson (core-09 was 12.8 KB gzip with one topic and no EP/6ME). To hold the **≤25 KB gzip** per-lesson budget (§8), the read-along `transcripts.sixmin` (and, if needed, `transcripts.main`) are stored as **trimmed paragraphs**; the *full* transcript stays available as the PDF `downloads[]` entry, never inlined. EnglishPod's `dg` dialogue is short by nature (~1 min) so `englishpod.dialogue` is cheap.
 

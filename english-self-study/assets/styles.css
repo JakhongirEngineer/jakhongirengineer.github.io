@@ -109,6 +109,7 @@ html[lang="en"] .seg__opt[data-lang="en"] { color: var(--on-teal); background: v
 }
 .btn--primary { background: var(--teal); color: var(--on-teal); border-color: transparent; }
 .btn--soft { background: color-mix(in srgb, var(--teal) 12%, transparent); color: var(--teal); border-color: transparent; }
+.btn--danger { background: color-mix(in srgb, var(--red) 14%, transparent); color: var(--red); border-color: var(--red); }
 .btn[disabled] { opacity: .5; cursor: not-allowed; }
 .btn svg { width: 20px; height: 20px; }
 .chip {
@@ -376,6 +377,71 @@ body.yp-has-dock .main { padding-bottom: calc(var(--bottomnav-h) + 92px + env(sa
 .check__stars { font-size: 24px; margin: 4px 0 12px; letter-spacing: 2px; }
 .check__earn { width: 100%; }
 .check__reason { margin-top: 8px; font-size: 14px; color: var(--muted); text-align: center; }
+
+/* ---- Speak It Yourself ⑨ (04 §4.3 ⑨ / §5.8): record → IndexedDB, nothing uploaded (S4) ---- */
+.speak__prompt { padding: 12px 14px; border-radius: 10px; border-left: 3px solid var(--teal);
+  background: color-mix(in srgb, var(--teal) 6%, transparent); }
+.speak__task-lab { font: 700 13px/1.3 inherit; color: var(--teal); text-transform: uppercase; letter-spacing: .03em; }
+.speak__task-en { margin-top: 4px; font: 600 18px/1.4 inherit; color: var(--ink); }
+.speak__task-uz { margin-top: 6px; color: var(--muted); font-size: 15px; }
+.speak__target { margin-top: 10px; }
+.speak__target-chip { background: color-mix(in srgb, var(--indigo) 12%, transparent); color: var(--indigo); }
+.speak__privacy { display: flex; gap: 6px; margin-top: 14px; padding: 8px 12px; border-radius: 10px;
+  background: color-mix(in srgb, var(--green) 10%, transparent); color: var(--green); font-size: 14px; }
+.speak__privacy-ic { flex: 0 0 auto; }
+.speak__area { margin-top: 16px; }
+
+/* idle ● + recording + stop buttons */
+.speak__rec, .speak__stop, .speak__retry { width: 100%; min-height: 56px; }
+.speak__dot { flex: 0 0 auto; width: 14px; height: 14px; border-radius: 999px; background: var(--red); }
+.speak__rec .speak__dot { background: #fff; box-shadow: 0 0 0 2px color-mix(in srgb, var(--red) 60%, transparent) inset; }
+.speak__square { flex: 0 0 auto; width: 13px; height: 13px; border-radius: 3px; background: var(--red); }
+.speak__stop { border-color: var(--red); color: var(--red); background: color-mix(in srgb, var(--red) 8%, var(--surface)); }
+
+/* recording: label + timer + live level meter */
+.speak__recbar { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.speak__reclab { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; color: var(--red); }
+.speak__dot--live { display: inline-block; width: 12px; height: 12px; border-radius: 999px; background: var(--red);
+  animation: speak-pulse 1.1s ease-in-out infinite; }
+@keyframes speak-pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+.speak__timer { font-variant-numeric: tabular-nums; font-weight: 600; color: var(--text); }
+.speak__recbar.is-enough .speak__timer { color: var(--green); }
+.speak__meter { display: flex; align-items: flex-end; gap: 4px; height: 34px; margin: 14px 0; }
+.speak__meter i { flex: 1 1 0; min-width: 4px; height: 20%; border-radius: 2px; background: var(--teal); }
+.speak__hint { margin: 8px 0 14px; font-size: 14px; color: var(--muted); }
+
+/* saved: playback + delete + re-record */
+.speak__player { padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: color-mix(in srgb, var(--teal) 5%, var(--surface)); }
+.speak__saved-lab { display: block; font-weight: 600; color: var(--green); margin-bottom: 8px; }
+.speak__playrow { display: flex; align-items: center; gap: 12px; }
+.speak__play { flex: 0 0 auto; background: var(--teal); color: var(--on-teal); }
+.speak__play svg { width: 22px; height: 22px; }
+.speak__ptime { flex: 1 1 auto; font-variant-numeric: tabular-nums; color: var(--text); }
+.speak__del { flex: 0 0 auto; font-size: 20px; color: var(--red); }
+.speak__actions { margin-top: 12px; }
+.speak__re { width: 100%; }
+
+/* graceful degradation notes (04 §9) */
+.speak__note { display: flex; gap: 8px; padding: 10px 12px; border-radius: 10px; font-size: 14px;
+  background: color-mix(in srgb, var(--muted) 10%, transparent); color: var(--text); }
+.speak__note--warn { background: color-mix(in srgb, var(--amber) 12%, transparent); color: var(--amber); }
+.speak__deny { margin-bottom: 12px; padding: 12px 14px; border-radius: 10px;
+  background: color-mix(in srgb, var(--amber) 12%, transparent); }
+.speak__deny-h { font-weight: 700; color: var(--amber); }
+.speak__deny-how { margin-top: 6px; color: var(--text); font-size: 14px; }
+.speak__ic { display: inline-flex; } .speak__ic svg { width: 20px; height: 20px; }
+
+/* inline destructive confirm (no modal) */
+.speak__confirm { padding: 12px 14px; border-radius: 12px; border: 1px solid var(--border-strong);
+  background: color-mix(in srgb, var(--amber) 8%, var(--surface)); }
+.speak__confirm-q { font-weight: 600; margin-bottom: 12px; }
+.speak__confirm-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+.speak__confirm-btns .btn { flex: 1 1 auto; }
+
+/* always-available extras */
+.speak__aloud { margin-top: 16px; padding: 10px 12px; border-radius: 10px;
+  background: color-mix(in srgb, var(--teal) 7%, transparent); color: var(--text); font-size: 14px; }
+.speak__hook { margin-top: 12px; color: var(--amber); font-size: 14px; }
 
 /* ---- Docked audio player (04 §5.1): #player fixed bottom, above the mobile nav ---- */
 .player { bottom: calc(var(--bottomnav-h) + env(safe-area-inset-bottom)); }

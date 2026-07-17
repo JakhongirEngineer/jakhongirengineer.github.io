@@ -1,14 +1,6 @@
-// lesson.js — the WEEKLY lesson page (04 §4.3), THE centerpiece. Renders the eleven
-// sections top-to-bottom in fixed pedagogical order 0→10 (02 §2), gating each on the
-// PRESENCE of its data (never dead UI): POV is absent for L01–08 / text-only for L19;
-// the EnglishPod section (⑥) is absent when englishpod:null (L15 & L22). One whole AJ
-// Hoge lesson + two grammar topics + EnglishPod + 6 Minute English, in one page.
-//
-// Built from small reusable builders (trackTrigger, vocabCards, drill, grammarPanels,
-// downloadBtn). The two heavier folded-in sections (EnglishPod ⑥ + 6ME ⑦) live in
-// lesson-episodes.js, imported LAZILY (03 §4) so each module stays within budget; their
-// builders are injected via `ctx` (no import cycle). app.js imports this only on the
-// #/lesson/:id route, so Home/Map first paint never pays for it.
+// lesson.js — the WEEKLY lesson page (04 §4.3): eleven sections in fixed order 0→10 (02 §2),
+// each gated on data PRESENCE (never dead UI). Heavy folded-in sections load lazily (03 §4):
+// EnglishPod ⑥ + 6ME ⑦ in lesson-episodes.js, the Speak-It recorder ⑨ in lesson-speak.js.
 
 import { el, icon, t, tf, fmtTime, fmtMB, DATA_BASE } from "./core.js";
 import { playTrack } from "./player.js";
@@ -22,6 +14,7 @@ const seenVocab = new Set();      // in-memory "seen" flags for the current less
 const grammarTouched = new Set(); // slots ("A"/"B") whose drills were attempted this session
 let epTouched = false;            // any EnglishPod affordance used (dialogue shown / role hidden)
 let sixTouched = false;           // 6ME quiz answer revealed
+let recordSaved = false;          // a Speak-It recording is saved for this lesson (S4)
 const live = {};                  // per-render refreshers (dots / checklist), called by refreshLive()
 
 // ---- Web Speech TTS for vocab / POV read-aloud (0 KB, graceful fallback) -----
@@ -220,7 +213,7 @@ function grammarTopicCard(id, l, g, i) {
     body.append(el("h4", { class: "gpanel__sub" }, t("lesson.grammar.drills")));
     g.exercises.forEach((x, k) => body.append(grammarExercise(x, k + 1, slot)));
   }
-  // Optional Murphy-unit PDF download (comprehension only — never drilled to mastery)
+  // Optional Murphy-unit PDF download (reference only, 02 §4)
   const dl = g.reference && findDl(l, g.reference.downloadPath);
   if (dl) body.append(el("div", { class: "gpanel__ref" },
     el("p", { class: "gpanel__ref-lab" }, `📄 ${g.reference.book}${g.reference.unit ? " · Unit " + g.reference.unit : ""}`), downloadBtn(dl, "dlbtn--wide")));
@@ -342,6 +335,7 @@ function computeDone(L, present) {
   if (present.has(5)) d[5] = (L.listens.pov || 0) >= 1;
   if (present.has(6)) d[6] = epTouched || (L.listens.ep || 0) >= 1;
   if (present.has(7)) d[7] = sixTouched || (L.listens.sixmin || 0) >= 1;
+  if (present.has(9)) d[9] = recordSaved;
   return d;
 }
 function refreshLive() {
@@ -360,9 +354,10 @@ function refreshLive() {
   }
   if (live.refreshCheck) live.refreshCheck(L);
 }
-// Callbacks injected into lesson-episodes.js so an EP/6ME interaction lights the strip + checklist.
+// ctx callbacks for the lazy sections: EP/6ME/record actions light the strip + checklist.
 function markEp()  { if (!epTouched)  { epTouched  = true; refreshLive(); } }
 function markSix() { if (!sixTouched) { sixTouched = true; refreshLive(); } }
+function markRecord(saved) { recordSaved = !!saved; refreshLive(); }  // Speak-It save/delete (S4)
 
 // ---- Section 10: Lesson Check summary (honest S3 preview; S5 owns award+gate) --
 function lessonCheck(id, l, present) {
@@ -378,7 +373,7 @@ function lessonCheck(id, l, present) {
     if (present.has(5)) rows.push(["pov", tf("check.pov", L.listens.pov || 0), (L.listens.pov || 0) >= 2]);
     if (present.has(6)) rows.push(["ep", t("check.ep"), epTouched || (L.listens.ep || 0) >= 1]);
     rows.push(["sixmin", t("check.sixmin"), sixTouched || (L.listens.sixmin || 0) >= 1]);
-    rows.push(["fun", t("check.fun"), false], ["record", t("check.record"), false]);
+    rows.push(["fun", t("check.fun"), false], ["record", t("check.record"), recordSaved]);
     return rows;
   }
   function starTier(L) {
@@ -452,15 +447,17 @@ export async function renderLesson(main, id, token, alive) {
       return;
     }
   }
-  // The eleven-section weekly page folds in EnglishPod (⑥) + 6ME (⑦); load their
-  // renderer lazily (03 §4). A failure degrades: those sections are skipped.
-  let episodes = null;
-  try { episodes = await import("./lesson-episodes.js"); }
-  catch (err) { console.warn("lesson-episodes: failed to load", err); }
+  // Load the lazy folded-in sections (EnglishPod ⑥ + 6ME ⑦ + Speak-It ⑨) in PARALLEL
+  // (03 §4); a failure degrades — that section is skipped/falls back, page never breaks.
+  const [episodes, speak] = await Promise.all([
+    import("./lesson-episodes.js").catch((err) => (console.warn("lesson-episodes: failed to load", err), null)),
+    import("./lesson-speak.js").catch((err) => (console.warn("lesson-speak: failed to load", err), null)),
+  ]);
 
   if (alive && !alive()) return;   // navigated away while fetching — abandon
   currentLessonId = id;
   openLesson(id);                  // lastLessonId + started (lightweight, not the S5 engine)
+  recordSaved = snapshot(id).steps.record === true;  // persisted flag; lesson-speak reconciles w/ IndexedDB
 
   const A = l.audio || {};
   const T = l.transcripts || {};
@@ -482,7 +479,7 @@ export async function renderLesson(main, id, token, alive) {
   const ctx = { trackTrigger, downloadBtn, transcriptBlock, findDl, markEp, markSix };
 
   const frag = document.createDocumentFragment();
-  // One <h1> per screen (a11y §8); the visible title rides in the top bar (04 §4.3 wireframe).
+  // One <h1> per screen (a11y §8); the visible title rides in the top bar.
   frag.append(el("h1", { class: "visually-hidden" }, `${t("route.lesson.title")} ${l.order} · ${l.title}`));
   frag.append(sectionStrip(id, [...present].sort((a, b) => a - b)));
 
@@ -583,11 +580,13 @@ export async function renderLesson(main, id, token, alive) {
     frag.append(s);
   }
 
-  // ⑨ Speak It Yourself — honest placeholder (S4 builds recording)
+  // ⑨ Speak It Yourself — record → IndexedDB, nothing uploaded (S4); lazy, answer-aloud fallback.
   {
     const s = section(9, "lesson.sec.9");
-    s.append(el("div", { class: "card" }, placeholder("lesson.speak.body", "lesson.speak.tag",
-      el("p", { class: "phold__hook", lang: "uz" }, "💡 " + t("lesson.speak.hook")))));
+    if (speak) s.append(speak.speakSection(id, l, { markRecord }));
+    else s.append(el("div", { class: "card speak" },
+      el("p", { class: "speak__task-en", lang: "en" }, l.speakingPrompt?.en || ""),
+      el("p", { class: "speak__aloud", lang: "uz" }, "🗣️ " + t("speak.answerAloud"))));
     frag.append(s);
   }
 

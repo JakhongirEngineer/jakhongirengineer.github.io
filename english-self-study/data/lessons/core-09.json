@@ -632,6 +632,11 @@
       "channel": "@EnglishwithLucy"
     }
   ],
+  "speakingPrompt": {
+    "en": "Have you ever tried to change a habit? How long have you been working on it — and how has it changed you, little by little?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect (I have … since/for …; How long have you …?) va bosqichma-bosqich oʻzgarish (better and better; get + qiyosiy daraja).",
+    "targetSec": 60
+  },
   "downloads": [
     {
       "labelUz": "Asosiy audio (MP3)",

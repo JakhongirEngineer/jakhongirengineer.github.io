@@ -34,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S4**  *(specs amended 2026-07-17 for the curriculum redefinition — see the Design-change note above; no slice work started yet)*
+## Current slice → **S5**
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -44,7 +44,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S1 | Content pipeline & data model (prove on 1 lesson) | DONE |
 | S2 | Media hosting — R2 + custom domain + fallback ladder | **DONE** |
 | S3 | Core lesson page with audio (the centerpiece) | **DONE** |
-| S4 | Speak It Yourself — recording + IndexedDB | TODO |
+| S4 | Speak It Yourself — recording + IndexedDB | **DONE** |
 | S5 | Progress engine + Home dashboard + Curriculum map | TODO |
 | S6 | Progress page + gamification + export/import JSON | TODO |
 | S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | TODO |
@@ -127,10 +127,10 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** learners record a 60-sec spoken response locally (nothing uploaded), replay/delete it, and the data feeds the star model and the L1↔L30 growth proof.
 **Specs:** `04 §4.3` ⑨ (+ behavior 10), `04 §5.8` (record button states), `02 §8.2` (blobs → IndexedDB), `03 §6` (storage split), `02 §6` (re-record L1 @ L30), `04 §9` (mic-denied / IndexedDB-unavailable).
 
-- [ ] Section ⑨ "O'zingni sinab ko'r": IELTS-style prompt (**using the week's two grammar topics**) + `MediaRecorder` → **IndexedDB** (keyed by lesson id); localStorage holds only the `record:true` flag + count (`02 §8.2`, `03 §6`).
-- [ ] Record button states idle `●` → recording (timer/waveform) → saved (playback + `🗑` delete) (`04 §5.8`).
-- [ ] "Nothing is uploaded — faqat siz" privacy reassurance (UZ); re-record-L1-at-L30 hook copy.
-- [ ] Graceful degradation: mic-permission-denied → Uzbek how-to-enable note + keep the shadow/answer-aloud alternatives (not a dead button); IndexedDB unavailable → in-session only, never blocks the lesson (`04 §9`).
+- [x] Section ⑨ "O'zingni sinab ko'r": IELTS-style prompt (**using the week's two grammar topics**) + `MediaRecorder` → **IndexedDB** (keyed by lesson id); localStorage holds only the `record:true` flag + count (`02 §8.2`, `03 §6`).
+- [x] Record button states idle `●` → recording (timer/waveform) → saved (playback + `🗑` delete) (`04 §5.8`).
+- [x] "Nothing is uploaded — faqat siz" privacy reassurance (UZ); re-record-L1-at-L30 hook copy.
+- [x] Graceful degradation: mic-permission-denied → Uzbek how-to-enable note + keep the shadow/answer-aloud alternatives (not a dead button); IndexedDB unavailable → in-session only, never blocks the lesson (`04 §9`).
 
 **Done when:** a recording captures, saves to IndexedDB, survives reload, plays back and deletes; denying the mic leaves the section usable; a saved recording bumps the `recordings` count.
 

@@ -5,6 +5,8 @@
 //   • lessons.<id>.listens.{main|ms|pov}  — repeat-listen counters (bumped at ~90%)
 //   • lessons.<id>.msAnswersAloud         — mini-story spoken reps (+ metrics.speakingReps rollup)
 //   • lessons.<id>.audio.<key>.{posSec,done} — resume position + done flag
+//   • lessons.<id>.steps.record + metrics.recordings — Speak-It flag/count (S4; the audio
+//                                            blob itself lives in IndexedDB, 02 §8.2, §6.3)
 //   • lastLessonId, lessons.<id>.{status,startedAt}
 // Everything is wrapped so private-mode / quota failures degrade silently (04 §9).
 
@@ -48,6 +50,7 @@ function ensureLesson(o, id) {
   const L = o.lessons[id];
   if (!L.listens) L.listens = { main: 0, ms: 0, pov: 0, ep: 0, sixmin: 0 };
   else for (const k of ["main", "ms", "pov", "ep", "sixmin"]) if (typeof L.listens[k] !== "number") L.listens[k] = 0;
+  if (!L.steps || typeof L.steps !== "object") L.steps = {};  // S4 reads/writes steps.record
   if (!L.audio) L.audio = {};
   if (typeof L.msAnswersAloud !== "number") L.msAnswersAloud = 0;
   return L;
@@ -114,4 +117,46 @@ export function bumpMsAnswer(id) {
     total = L.msAnswersAloud;
   });
   return total;
+}
+
+// ---- Speak-It recordings (S4, 03 §6.3 / 02 §8.2) ----------------------------
+// The audio BLOB lives in IndexedDB (keyed by lesson id, in lesson-speak.js). Here we
+// keep ONLY the lightweight per-lesson `steps.record` flag + the `metrics.recordings`
+// count. metrics.recordings = the number of lessons that currently hold a saved
+// recording (re-recording a lesson replaces its blob, so the count is unchanged); the
+// L1↔L30 comparison (02 §6/§8.4) needs recordings from two different lessons.
+
+// A recording was persisted for this lesson. Idempotent: only the FIRST save for a
+// lesson bumps the count (a replace/re-record doesn't double-count). Returns the count.
+export function setRecording(id) {
+  let count = 0;
+  update((o) => {
+    const L = ensureLesson(o, id);
+    if (L.steps.record !== true) {
+      L.steps.record = true;
+      o.metrics.recordings = (o.metrics.recordings || 0) + 1;
+    }
+    count = o.metrics.recordings || 0;
+  });
+  return count;
+}
+
+// This lesson's recording was deleted. Decrements the count only if it was set (floor 0).
+export function clearRecording(id) {
+  let count = 0;
+  update((o) => {
+    const L = ensureLesson(o, id);
+    if (L.steps.record === true) {
+      L.steps.record = false;
+      o.metrics.recordings = Math.max(0, (o.metrics.recordings || 0) - 1);
+    }
+    count = o.metrics.recordings || 0;
+  });
+  return count;
+}
+
+// Is a recording flagged for this lesson? (the localStorage view — the IndexedDB blob
+// is the real store; lesson-speak reconciles the two on load.)
+export function hasRecordingFlag(id) {
+  return snapshot(id).steps.record === true;
 }
