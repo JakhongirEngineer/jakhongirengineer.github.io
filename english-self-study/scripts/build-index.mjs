@@ -12,27 +12,39 @@ import {
   step, ok, info, fail,
 } from "./lib/util.mjs";
 
+// order → phase (02 §1): 1 Poydevor (01–10) · 2 Sur'at (11–20) · 3 Ravonlik (21–30).
+const phaseFor = (order) => (order <= 10 ? 1 : order <= 20 ? 2 : 3);
+
+// Sum every audio node the weekly lesson carries: the AJ set (audio.*) + the
+// EnglishPod dg/pr/rv + the 6ME main (03 §6.1 durationSec).
+function totalDurationSec(l) {
+  let s = 0;
+  if (l.audio) for (const a of Object.values(l.audio)) if (a && a.durationSec) s += a.durationSec;
+  if (l.englishpod && l.englishpod.audio) for (const a of Object.values(l.englishpod.audio)) if (a && a.durationSec) s += a.durationSec;
+  if (l.sixmin && l.sixmin.audio) for (const a of Object.values(l.sixmin.audio)) if (a && a.durationSec) s += a.durationSec;
+  return s;
+}
+
 function catalogueEntry(l) {
-  const durationSec = l.audio
-    ? Object.values(l.audio).reduce((s, a) => s + (a && a.durationSec ? a.durationSec : 0), 0)
-    : 0;
   const hasPov = !!(l.audio && l.audio.pov) ||
     !!(l.transcripts && Array.isArray(l.transcripts.pov) && l.transcripts.pov.length);
+  // grammarUnits — the TWO topic slugs (was single grammarUnit); [] never null (03 §6.1).
+  const grammarUnits = Array.isArray(l.grammar) ? l.grammar.map((g) => g && g.unit).filter(Boolean) : [];
   return {
     id: l.id,
-    track: l.track,
-    source: l.source,
+    track: l.track,               // always "core" (the supp track is retired, 03 §6.1)
+    source: l.source,             // always "aj-hoge"
     order: l.order,
     slug: l.slug,
     title: l.title,
     titleUz: l.titleUz,
     level: l.level,
+    phase: phaseFor(l.order),
     tags: Array.isArray(l.tags) ? l.tags : [],
-    grammarUnit: l.grammar && l.grammar.unit ? l.grammar.unit : null,
-    durationSec,
+    grammarUnits,
+    durationSec: totalDurationSec(l),
     hasPov,
-    hasQuiz: Array.isArray(l.quiz) && l.quiz.length > 0,
-    hasDialogue: Array.isArray(l.dialogue) && l.dialogue.length > 0,
+    hasEnglishPod: l.englishpod != null,     // false where englishpod:null (L15 & L22)
     youtubeCount: Array.isArray(l.funEnglish)
       ? l.funEnglish.filter((f) => f && f.provider === "youtube").length
       : 0,

@@ -15,7 +15,7 @@ Give Uzbek self-learners a free, private, phone-friendly path from "I studied En
 
 ## 2. Target students
 
-The audience is Uzbek self-learners at **elementary+ (CEFR ~A2, reaching B1)** who have usually studied grammar-translation English at school, can read a little, but **cannot speak** — the exact skill they want most. Many aim, eventually, at IELTS or a CEFR certificate. Two representative personas:
+The audience is Uzbek self-learners who **can already follow AJ Hoge's talks** (CEFR **~A2+ listening, aiming B1→B2 speaking** — past the copula and bare present simple) and have usually studied grammar-translation English at school, can read a little, but **cannot speak** — the exact skill they want most. Many aim, eventually, at IELTS or a CEFR certificate. Two representative personas:
 
 - **Dilnoza, 19 — student in Tashkent, on a budget phone.** Preparing for IELTS on a tight timeline and a tighter budget. Studies on a low-end Android over patchy mobile data, often on the metro or in a dormitory. Cannot pay for a course or a tutor, and cannot afford to burn her data allowance on a heavy site. Needs: pages that load fast and cheap, the ability to *download* a lesson's audio once and listen passively offline, a clear "what do I do today" path, and an honest sense of how her practice maps to the IELTS Speaking bands.
 
@@ -40,8 +40,8 @@ Both share the defining traits the whole product optimizes for: **cheap device, 
 ## 4. Scope / non-goals
 
 **In scope (v1):**
-- 30 AJ Hoge core lessons (the spine) + 30 EnglishPod / 6 Minute English supplementary lessons, on one continuous Murphy-based grammar spine taught briefly in Uzbek.
-- Per-lesson interactive experience: Grammar Spark, vocabulary with Uzbek glosses, deep-listening MAIN with read-along transcript, the mini-story answer-aloud drill, POV grammar stories (where present), embedded YouTube "Fun English", speak-it-yourself prompts with local mic recording, and a lesson check.
+- **30 weekly lessons** (the AJ Hoge spine) — each is *one whole AJ Hoge lesson (MAIN + VOCAB + MINI_STORY + POV, never divided) + two original grammar topics + one EnglishPod episode + one 6 Minute English episode*, all as sections inside one lesson page; on an **original B1→B2 grammar spine** taught briefly in Uzbek (the *Essential Grammar in Use* / Murphy book is retired to an **optional download**, not the source). There are no separate supplementary lessons.
+- Per-lesson interactive experience: **two Grammar Sparks (A/B)**, vocabulary with Uzbek glosses, deep-listening MAIN with read-along transcript, the mini-story answer-aloud drill, POV grammar stories (where present), an **EnglishPod conversation section** (shadow + role-play) and a **6 Minute English section** (quiz + INSERT stretch), embedded YouTube "Fun English", speak-it-yourself prompts with local mic recording, and a lesson check.
 - In-site streaming **and** downloads of all media; accountless progress, stars, streaks, badges; a Study Methodology page and an honest IELTS/CEFR alignment page.
 
 **Non-goals (explicitly out):**
@@ -103,7 +103,7 @@ The `specs/` set is layered root → what → how. Read in order:
 |---|---|
 | **[00-overview.md](00-overview.md)** (this file) | SDD root: vision, target students/personas, product principles, scope & non-goals, success criteria, risks (incl. licensing), and this spec map. |
 | **[01-content-inventory.md](01-content-inventory.md)** | Short index of the raw content library — one paragraph + a stats table per content area — linking to the four detailed inventories below. The feasibility ground truth everything else is built on. |
-| **[02-curriculum.md](02-curriculum.md)** | The learning design: goals & audience, the Effortless-English method + SLA rationale, the 3 phases (Poydevor/Sur'at/Ravonlik), core & supplementary lesson templates, the full 30-lesson core table (AJ folder → Murphy unit → vocab chunks → Fun English channel → POV gating), the 30 supplementary lessons with real on-disk filenames, the 7-day activity cycle, pace tracks, the Study Methodology page outline, IELTS/CEFR alignment, the star/streak/badge progress model, and the exact Uzbek bilingual policy. |
+| **[02-curriculum.md](02-curriculum.md)** | The learning design: goals & audience, the Effortless-English method + SLA rationale, the 3 phases (Poydevor/Sur'at/Ravonlik), the **weekly lesson template** (one whole AJ set + two original grammar topics + EnglishPod + 6 Minute English, all in one page), the **30×2 original B1→B2 grammar syllabus** (AJ folder → two grammar topics → Fun English → POV gating), the **episode weave** (one EnglishPod + one 6ME per lesson, with real on-disk filenames), the 7-day activity cycle, pace tracks, the Study Methodology page outline, IELTS/CEFR alignment, the star/streak/badge progress model, and the exact Uzbek bilingual policy. |
 | **[03-architecture.md](03-architecture.md)** | The technical build: media hosting & CDN (Cloudflare R2 + fallback ladder), app hosting & buildless deploy, framework choice (vanilla ES-module SPA, zero runtime deps), the **content build pipeline** (offline PDF→JSON extraction, media staging/upload, filename normalisation), the versioned JSON data model + `localStorage`/`IndexedDB` schemas, client architecture (hash router, persistent audio, mini-story drill, YouTube facade, i18n, offline/PWA), the performance budget, and the risks & fallbacks. |
 | `specs/inventory/*.md` | Four detailed content inventories (AJ Hoge, 6 Minute English, EnglishPod, grammar book) — measured file counts, sizes, durations, transcript structure, filename quirks, and per-source build recommendations. Indexed by 01. |
 

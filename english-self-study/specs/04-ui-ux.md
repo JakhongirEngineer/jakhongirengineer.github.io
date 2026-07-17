@@ -48,7 +48,7 @@ The audience is **adults** who were failed by grammar-translation schooling and 
 The audio and the spoken answer are the stars. Chrome recedes: quiet header, no ads, no popups, no notification nags beyond the one gentle daily banner (02 §8.3). One clear next action per screen.
 
 ### P7 — Predictable & consistent
-The **nine lesson sections appear in the same fixed order every time** (02 §2); the same control means the same thing on every page; the docked player behaves identically everywhere. Predictability lets a lone A2 learner build a habit without re-learning the UI each week.
+The **eleven lesson sections appear in the same fixed order every time** (02 §2); the same control means the same thing on every page; the docked player behaves identically everywhere. Predictability lets a lone A2 learner build a habit without re-learning the UI each week.
 
 ---
 
@@ -62,9 +62,8 @@ Hash routing (03 §7) — zero server config, works under the `/english-self-stu
 |---|---|---|---|
 | `#/` | **Home / Dashboard** | home/landing | Continue where you left off; hero metrics; today's review; start here (first run) |
 | `#/method` | **How to Study** | how-to-study | The methodology page (02 §6) — Uzbek-primary, the lone learner's manual |
-| `#/lessons` | **Curriculum Map** | lesson list/curriculum map | The 3-phase path; all 30 core + 30 paired supplementary; pick a lesson |
-| `#/lesson/core-09` | **Core lesson** | core lesson page | The 9-section AJ Hoge lesson (the centerpiece) |
-| `#/lesson/supp-pod-0004` · `#/lesson/supp-6min-180315` | **Supplementary lesson** | supplementary lesson page | EnglishPod (speaking) / 6 Minute English (listening) template |
+| `#/lessons` | **Curriculum Map** | lesson list/curriculum map | The 3-phase path; all **30 weekly lessons**; pick a lesson |
+| `#/lesson/core-09` | **Weekly lesson** | lesson page | The **eleven-section** weekly lesson — one whole AJ Hoge lesson + 2 grammar topics + EnglishPod + 6 Minute English (the centerpiece) |
 | `#/progress` | **Progress** | (part of home/landing) | Badges, CEFR ladder, IELTS-topic coverage grid, streak calendar, export/import |
 | `#/ielts` | **IELTS & CEFR** | (from 02 §7) | Honest alignment + "am I ready for a mock?" |
 | `#/grammar` · `#/grammar/past-simple` | **Grammar Reference** | (from 03 routing) | Read-only index of Grammar Sparks + irregular-verb / spelling cards |
@@ -93,18 +92,16 @@ english-self-study/  (principiaforge.com/english-self-study/)
 │   ├─ What to do when you struggle · FAQ
 │
 ├─ #/lessons  Curriculum Map
-│   ├─ Phase 1 — Poydevor (A2)      L01–L10  (+ S01–S09 paired, Day 7)
-│   ├─ Phase 2 — Sur'at (A2→B1)     L11–L20  (+ S10–S19)
-│   ├─ Phase 3 — Ravonlik (B1→B2)   L21–L30  (+ S20–S30)
-│   └─ each core card → #/lesson/core-NN ; each supp chip → #/lesson/supp-…
+│   ├─ Phase 1 — Poydevor (A2→B1)   L01–L10
+│   ├─ Phase 2 — Sur'at (B1)        L11–L20
+│   ├─ Phase 3 — Ravonlik (B1→B2)   L21–L30
+│   └─ each card → #/lesson/core-NN  (one weekly lesson; EP+6ME live inside it)
 │
-├─ #/lesson/core-NN  Core Lesson  (9 sections, fixed order — see §4.3)
-│   0 Lesson Home & Can-Do Goal   1 Grammar Spark (UZ)   2 Vocabulary
-│   3 Deep Listening — MAIN        4 Mini-Story Loop ★    5 POV Story (L09–30)
-│   6 Fun English (YouTube facade) 7 Speak It Yourself (mic)  8 Lesson Check
-│
-├─ #/lesson/supp-…  Supplementary Lesson
-│   ├─ EnglishPod (8 steps, speaking)   or   6 Minute English (8 steps, listening)
+├─ #/lesson/core-NN  Weekly Lesson  (11 sections, fixed order — see §4.3)
+│   0 Lesson Home & Can-Do Goal     1 Grammar Spark — 2 topics (UZ)   2 Vocabulary
+│   3 Deep Listening — MAIN          4 Mini-Story Loop ★    5 POV Story (L09–30)
+│   6 EnglishPod — Conversation (L15/L22 gated off)   7 6 Minute English
+│   8 Fun English (YouTube facade)   9 Speak It Yourself (mic)   10 Lesson Check
 │
 ├─ #/progress   Badges · CEFR ladder · IELTS-topic grid · Streak calendar · Export/Import
 ├─ #/ielts      IELTS & CEFR alignment (honest framing)
@@ -208,7 +205,7 @@ ASCII sketches are drawn at ~phone width. `[ ]` = button, `( )` = radio/toggle, 
 
 ### 4.2 Curriculum Map — `#/lessons`
 
-> **Slice:** built in **S5** (progress engine + map). **Not part of S3** — S3 ships only the core lesson page (§4.3), so `#/lessons` stays the standard "keyingi bosqichda" placeholder until S5. The **paired Day-7 supp chip / star** on each card is likewise an S5 map feature fed by S7 supp completions.
+> **Slice:** built in **S5** (progress engine + map). **Not part of S3** — S3 ships only the lesson page (§4.3), so `#/lessons` stays the standard "keyingi bosqichda" placeholder until S5. Each card's **EnglishPod / 6 Minute English availability badges** read from `index.json` (`hasEnglishPod`, §6.1 / 03 §6.1); those sections *inside* the lesson are built in **S7**.
 
 The 3-phase "path" (02 §8.3 visualization). Vertical, scroll-down = progress-forward. **No hard locks** (free-study ethos, learner autonomy) — but the *recommended next* lesson is highlighted and the speaking-gate rule is stated inline so learners self-pace honestly.
 
@@ -216,29 +213,35 @@ The 3-phase "path" (02 §8.3 visualization). Vertical, scroll-down = progress-fo
 ┌───────────────────────────────────────────┐
 │  Darslar xaritasi / Curriculum Map          │
 │                                             │
-│  ▁▁▁ 1-BOSQICH · POYDEVOR · A2 ▁▁▁          │  phase header (phase color)
+│  ▁▁▁ 1-BOSQICH · POYDEVOR · A2→B1 ▁▁▁       │  phase header (phase color)
 │  "O'zim, oilam va kunlik hayotim haqida"    │  the phase can-do
 │  ▓▓▓▓▓▓▓░░░  7/10 dars                       │  phase progress bar
 │                                             │
 │  ┌───────────────────────────────────────┐ │
-│  │ ⭐⭐⭐  01 · Intro / Kirish        [A2] │ │  lesson card (§5.3)
-│  │        Grammar: am/is/are               │ │
-│  │        ↳ S01 Nationalities  ✓           │ │  paired Day-7 supp (02 §5)
+│  │ ⭐⭐⭐  01 · Intro / Kirish        [B1] │ │  lesson card (§5.3)
+│  │        Grammatika: present simple ·     │ │  the week's TWO grammar topics
+│  │        chastota ravishlari              │ │
+│  │        🎙️ EnglishPod   📻 6 Minute      │ │  in-lesson section badges (02 §2)
 │  └───────────────────────────────────────┘ │
 │  ┌───────────────────────────────────────┐ │
-│  │ ⭐⭐☆  02 · Emotional Mastery    [A2] │ │
-│  │        Grammar: am/is/are? + short ans  │ │
-│  │        ↳ S02 Relatives  ○               │ │
+│  │ ⭐⭐☆  02 · Emotional Mastery    [B1] │ │
+│  │        Grammatika: present cont. vs     │ │
+│  │        simple · -ed/-ing sifatlari      │ │
+│  │        🎙️ EnglishPod   📻 6 Minute      │ │
 │  └───────────────────────────────────────┘ │
 │  ┌───────────────────────────────────────┐ │
-│  │ ◔ ‹next› 09 · Kaizen             [A2] │ │  ← recommended-next ring
-│  │        Grammar: was/were · POV debut    │ │    (pulses gently once)
+│  │ ◔ ‹next› 09 · Kaizen             [B1] │ │  ← recommended-next ring
+│  │        Grammatika: present perfect ·    │ │    (pulses gently once)
+│  │        bosqichma-bosqich · POV debut    │ │
+│  │        🎙️ EnglishPod   📻 6 Minute      │ │
 │  └───────────────────────────────────────┘ │
 │  ┌───────────────────────────────────────┐ │
-│  │ ○  10 · Reading Power            [A2] │ │  not started (empty ring)
+│  │ ○  15 · Taoism                   [B1] │ │  not started (empty ring)
+│  │        Grammatika: might/may · passive 1│ │
+│  │        📻 6 Minute  (EnglishPod yo'q)    │ │  ← EP gated off (englishPod:null)
 │  └───────────────────────────────────────┘ │
 │                                             │
-│  ▁▁▁ 2-BOSQICH · SUR'AT · A2→B1 ▁▁▁         │
+│  ▁▁▁ 2-BOSQICH · SUR'AT · B1 ▁▁▁            │
 │  🔒→ soft: "9-darsni tugating" hint only    │  no hard lock, gentle guidance
 │  … (L11–L20) …                              │
 │                                             │
@@ -249,17 +252,17 @@ The 3-phase "path" (02 §8.3 visualization). Vertical, scroll-down = progress-fo
 
 - Each phase carries its **Uzbek name, CEFR tag, "by the end I can…" line, and a progress bar** (02 §1).
 - **CEFR badges** (A2 ✓ / B1 ✓ / B2 in progress) render at phase boundaries as the learner crosses them (02 §7).
-- Supplementary lessons appear as a **thin child chip under their paired core card** (Day-7 reward placement, 02 §5) — not a separate list, so the pairing is legible.
+- Each card shows the week's **two grammar topics** (the day-1/day-3 hooks) and small **🎙️ EnglishPod / 📻 6 Minute** badges for the in-lesson sections (02 §2). On **L15 & L22** the EnglishPod badge is absent (`hasEnglishPod:false`, §6.1) — there is no separate supplementary list anymore; every asset lives inside its weekly lesson.
 
-### 4.3 CORE Lesson Page — `#/lesson/core-NN` — THE CENTERPIECE
+### 4.3 Weekly Lesson Page — `#/lesson/core-NN` — THE CENTERPIECE
 
-The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** (02 §2). The page is long and scrollable; a **sticky section-progress strip** under the top bar lets the learner jump, and the **docked player** rides along at the bottom. Sections 4 (Mini-Story) and 5 (POV) are visually elevated as the "heart."
+One page = one **whole weekly AJ Hoge lesson** wrapped with two grammar topics + EnglishPod + 6 Minute English (02 §2). The **eleven sections** render **top-to-bottom in the fixed pedagogical order 0→10**. The shipped S3 look & feel is **approved and extended, not redesigned** — this adds a second Grammar-Spark card (①) and the EnglishPod (⑥) + 6 Minute English (⑦) sections; nothing is removed and no existing section is re-styled. The page is long and scrollable; a **sticky section-progress strip** under the top bar lets the learner jump, and the **docked player** rides along at the bottom. Section ❹ (Mini-Story) is the visually elevated "heart"; ⑤ (POV) stays elevated as the grammar-acquisition engine.
 
 ```
 ┌───────────────────────────────────────────┐
 │ ←  Dars 9 / Lesson 9              [UZ|EN]   │  top bar
 ├───────────────────────────────────────────┤
-│ ⓿①②③❹⑤⑥⑦⑧   Bugun: 4-kun ⭐            │  sticky section strip +
+│ ⓿①②③❹⑤⑥⑦⑧⑨❿  Bugun: 4-kun ⭐         │  sticky section strip (11) +
 │  (done sections filled; tap = scroll-to)    │  today's day-focus chip
 ╞═════════════════════════════════════════════╡
 
@@ -276,23 +279,28 @@ The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** 
   │    -ng, ovozingizni baland qiling!     │  (stand, smile, big voice)
   └───────────────────────────────────────┘
 
-  ①  GRAMMATIKA (o'zbekcha) / GRAMMAR SPARK
+  ①  GRAMMATIKA (o'zbekcha) — A va B / GRAMMAR SPARK — 2 topics
   ┌───────────────────────────────────────┐
-  │ Oʻtgan oddiy zamon — was / were        │  UZBEK explanation
+  │ [ A ]  [ B ]    ← two tabs/cards (§5.11)│  grammar[0]=A (kun 1–2), grammar[1]=B (3–4)
+  ├───────────────────────────────────────┤
+  │ A · Present perfect: since / How long  │  UZBEK explanation (grammar[0])
+  │ 🏷️ IELTS Part 1 · B1 can-do            │  band-lifter / CEFR tag (02 §2/§4)
   │ [ prose … bodyHtml, sanitized ]        │
   │                                        │
-  │ ⚠️ Xato tuzatish: Uzbekcha "edi" bitta │  L1-contrast + error-fix card
-  │ soʻz; English uses was (I/he) / were   │  (the spaced micro-card seed)
-  │ (you/we/they).                         │
+  │ ⚠️ Xato tuzatish: Oʻzbekcha '-gan' har │  per-topic L1-contrast + error-fix
+  │ doim ham present perfect emas …        │  (the spaced micro-card seed)
   │                                        │
-  │  Mashq 1/3:  I ___ happy yesterday.    │  interactive drill
-  │   [ was ]  [ were ]  [ am ]            │  tap-to-answer → instant ✓/✗
+  │  Mashq 1/3:  I ___ English since 2020. │  interactive drill
+  │   [ have studied ] [ studied ] [ study]│  tap-to-answer → instant ✓/✗
   │                                        │
-  │  ✍️ O'zingiz haqingizda rost gap ayting│  "say a true sentence" drill
-  │     (ovoz chiqarib):  "Yesterday I…"   │
+  │  ✍️ Oʻzingiz haqingizda rost gap ayting│  "say a true sentence" drill
+  │     (ovoz chiqarib): "I have … since …"│
   │                                        │
-  │  📄 Murphy Unit 10 (PDF)   [ Yuklash ] │  optional book download
+  │  📄 Murphy Unit 16 (PDF)  [ Yuklash ]  │  OPTIONAL reference download only
   └───────────────────────────────────────┘
+  (Tab B → grammar[1]: "bosqichma-bosqich   │  identical card shape for topic B;
+   oʻzgarish", its own band-lifter tag,     │  its own Xato tuzatish + drills +
+   drills, say-true, optional download.)    │  "say a true sentence"
 
   ②  SO'ZLAR / VOCABULARY
   ┌───────────────────────────────────────┐
@@ -352,7 +360,32 @@ The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** 
   │  (same story, past tense)              │   (gated on presence, 03 §5.3)
   └───────────────────────────────────────┘
 
-  ⑥  ZAVQ BILAN / FUN ENGLISH
+  ⑥  SUHBAT / ENGLISHPOD — CONVERSATION   (L15 & L22: hidden — englishPod:null)
+  ┌───────────────────────────────────────┐   ← the SPEAKING half (02 §2/§3; §4.4)
+  │  Mavzu (2 satr) + taxmin savoli         │   bilingual warm-up
+  │  ▷ Dialog (dg · ~1 min) — avval matnsiz │   listen cold for gist
+  │  ▤ Matn + Key Vocabulary (EN + UZ gloss)│   we ADD the Uzbek gloss (02 §3.3)
+  │    resolution — "vaʼda / niyat"          │
+  │  ▷ Izoh (pr · ~10 min)  [Sprint: skip]  │   hosts' explanation
+  │  🗣️ Shadow — qatorma-qator takrorlang    │   shadowing (§5.8)
+  │  🎭 Rol o'yin: A → B (ovoz chiqarib)     │   role-play = the speaking win
+  │    [ hide A ] [ hide B ]  (opt. record)  │
+  │  ▷ Takror (rv) + o'z-o'zini tekshirish  │   review recap
+  └───────────────────────────────────────┘
+
+  ⑦  TINGLASH MASHQI / 6 MINUTE ENGLISH    (all 30 — the B1→B2 stretch)
+  ┌───────────────────────────────────────┐   ← the LISTENING/IELTS half (02 §2/§3)
+  │  Oldindan savol (MCQ) — bilingual        │   pre-listening quiz Q (§5.10)
+  │    "How much …?"  ( )a ( )b ( )c         │
+  │  🔮 Taxmin → ▷ ~6 min (matnsiz)          │   predict + gist listen, hidden
+  │  ✅ Javobni ochish + o'zini tekshirish   │   reveal + self-check
+  │  So'zlar: 6 ta target + Uzbek gloss      │   6-word pack + UZ (02 §3.5)
+  │  ▷ Qayta tinglang + ▤ matn               │   again WITH transcript
+  │    ⭐ INSERT bo'laklariga e'tibor bering  │   vox-pops = the B2 accent stretch
+  │  → Speak-It (⑨) uchun ozuqa              │   feeds the 60-sec recording
+  └───────────────────────────────────────┘
+
+  ⑧  ZAVQ BILAN / FUN ENGLISH
   ┌───────────────────────────────────────┐
   │  ┌─────────────────────────────────┐  │   YOUTUBE FACADE (§5.9)
   │  │        [thumbnail]   ▶           │  │   static <img> + play glyph;
@@ -361,10 +394,11 @@ The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** 
   │  📺 Watch-task: 3 ta yangi so'zni yozing│   one tiny task, no test
   └───────────────────────────────────────┘
 
-  ⑦  O'ZINGNI SINAB KO'R / SPEAK IT YOURSELF
+  ⑨  O'ZINGNI SINAB KO'R / SPEAK IT YOURSELF
   ┌───────────────────────────────────────┐
   │  Vazifa: "Have you ever wanted to      │   IELTS-style prompt
-  │  change a habit?" — 60 soniya gapiring. │
+  │  change a habit?" — 60 soniya gapiring, │
+  │  shu haftaning 2 grammatikasidan foyd. │   USE this week's two grammar topics
   │                                        │
   │      ●  [ Yozib olish / Record ]       │   mic → IndexedDB (03 §6, local)
   │      (nothing is uploaded — faqat siz)  │   privacy reassurance, UZ
@@ -374,16 +408,18 @@ The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** 
   │     qayta eshiting!                    │
   └───────────────────────────────────────┘
 
-  ⑧  DARSNI YAKUNLASH / LESSON CHECK
+  ❿  DARSNI YAKUNLASH / LESSON CHECK
   ┌───────────────────────────────────────┐
-  │  ☑ Grammatika                          │   CHECKLIST → STARS (§5.7)
+  │  ☑ Grammatika A                        │   CHECKLIST → STARS (§5.7)
+  │  ☑ Grammatika B                        │
   │  ☑ So'zlar ko'rildi                    │
   │  ☑ MAIN ×3 tinglandi                   │
   │  ☑ Mini-story ×2 OVOZ CHIQARIB  ← GATE │   mandatory speaking gate (02 §8)
-  │  ☐ POV ×2                              │
-  │  ☐ Fun English                         │
-  │  ☐ Yozib oldim (recording)             │
-  │  ☐ Qo'shimcha dars / Supplementary     │
+  │  ☐ POV ×2                              │   (omitted L01–08)
+  │  ☐ EnglishPod (shadow + rol)           │   → 2★  (auto ✓ on L15/L22)
+  │  ☐ 6 Minute English (MCQ + so'zlar)    │   → 3★
+  │  ☐ Fun English                         │   → 2★
+  │  ☐ Yozib oldim (recording)             │   → 2★ (2nd recording → 3★)
   │                                        │
   │  Hozirgi daraja:  ⭐⭐☆  (Strong)      │   live star state
   │  +40 XP · 🎧 +34 daqiqa · 🔥 12-kun    │   what this session earned
@@ -395,73 +431,70 @@ The nine sections render **top-to-bottom in the fixed pedagogical order 0→8** 
 
 **Lesson-page behaviors — the load-bearing details:**
 
-1. **Section order is fixed and never reordered** (02 §2). Sections gate on *presence of data*, not on a config toggle: POV renders only when `audio.pov` (or a POV transcript) exists (03 §5.3, §6.2) — for L01–08 the section is **absent, not greyed** (no dead UI); for L19 it renders as text-only with an optional TTS "read aloud" button and **no audio transport**.
-2. **Sticky section strip** (`⓿①②③❹⑤⑥⑦⑧`) sits directly under the top bar. Filled glyphs = sections whose checklist step is done; the current section highlights on scroll (IntersectionObserver); tapping a glyph smooth-scrolls to it. It doubles as an at-a-glance completion readout. The **day-of-cycle chip** ("Bugun: 4-kun") is a soft suggestion, not a constraint — it just tells the learner which sections to prioritize *today* per the 7-day rotation (02 §2).
+1. **Section order is fixed and never reordered** (02 §2). Sections gate on *presence of data*, not on a config toggle: **POV** renders only when `audio.pov` (or a POV transcript) exists (03 §5.3, §6.2) — for L01–08 the section is **absent, not greyed** (no dead UI); for L19 it renders as text-only with an optional TTS "read aloud" button and **no audio transport**. **EnglishPod (⑥)** gates the same way — rendered only when `englishpod` is present; on **L15 & L22** (`englishPod:null`) the whole section is **absent, not greyed** (02 §5), and its Lesson-Check step auto-satisfies. **6 Minute English (⑦)** is present on all 30 lessons.
+2. **Sticky section strip** (`⓿①②③❹⑤⑥⑦⑧⑨❿` — eleven glyphs) sits directly under the top bar; on an EnglishPod-gated lesson the ⑥ glyph is dropped so the strip stays contiguous. Filled glyphs = sections whose checklist step is done; the current section highlights on scroll (IntersectionObserver); tapping a glyph smooth-scrolls to it. It doubles as an at-a-glance completion readout. The **day-of-cycle chip** ("Bugun: 4-kun") is a soft suggestion, not a constraint — it just tells the learner which sections to prioritize *today* per the 7-day rotation (02 §2).
 3. **Sticky / docked audio player behavior (the key interaction):**
-   - Each audio section (Vocab, MAIN, Mini-story, POV) shows an **inline "section player" trigger** — a labelled play button + duration + repeat-counter. Tapping it **loads that track into the one persistent `<audio>`** (03 §7) and starts playback.
+   - Each audio section (Vocab, MAIN, Mini-story, POV, **EnglishPod `dg`/`pr`/`rv`, 6 Minute English**) shows an **inline "section player" trigger** — a labelled play button + duration + repeat-counter. Tapping it **loads that track into the one persistent `<audio>`** (03 §7) and starts playback.
    - The **docked player** (bottom) then reveals, showing the active track's title, scrubber, time, and transport. **It persists across route changes** — the learner can scroll away, open the map, even open another lesson, and the MAIN keeps playing (the "download-and-listen-passively" behavior, in-app).
    - Only **one track plays at a time**; loading a new section's audio replaces the current source and the previously-active inline trigger returns to its idle state. The active section's inline trigger shows a **playing state** (animated equalizer glyph, `aria-pressed`).
    - Position is saved to `localStorage` on throttled `timeupdate` (~5 s) and restored on return; a track passing ~90% marks `done` and **increments the repeat-listen counter** feeding the ★ gate (03 §6.3, 02 §8.1).
    - **Transcript is read-along, not time-synced** — an honest, consistent resolution of *02's "tap a line to replay"* against *03's "PDFs carry no timestamps"* (03 §6.2). The learner taps a paragraph to **highlight/keep their place**; audio re-listening uses the player's **⟲10 s / ⟲15 s replay** (the shadowing control, 03 §7), not per-line seek. This ships now with zero fake precision; if word-level timing data is ever authored, line-seek becomes a pure enhancement.
 4. **Transcript display:** collapsed by default (bandwidth + focus — 02 §2 wants ears before eyes); a `[Ko'rsat / Show]` toggle reveals it. Rendered **English-only, `lang="en"`** (immersion, 02 §9), comfortable measure (66ch), 1.6 line-height, generous paragraph spacing. A small "what it's about" 2-line **Uzbek** summary sits above it for orientation (02 §9).
 5. **Vocab cards with Uzbek:** flip-cards (§5.4) — front = English chunk + a 🔊 (Web Speech API TTS, 0 KB, graceful fallback to the VOCAB section player where TTS is unavailable); back = Uzbek gloss + English example sentence. Chunks/collocations, never bare words (02 §2). A "seen" toggle feeds the vocab-reviewed checklist step.
-6. **Grammar panel (Uzbek):** the Uzbek prose (`grammar.bodyHtml`, precompiled + sanitized, 03 §4), an explicit **L1-contrast callout**, an **⚠️ "Xato tuzatish" error-fix card** (the L1-trap that also recurs as a spaced micro-card, 02 §2/§6), 2–3 **interactive drills** with instant ✓/✗ and an Uzbek hint on wrong — a gap-fill with an `options[]` array renders as a **tap-to-answer MCQ** (green ✓ / amber-not-red wrong + `hintUz`); a gap-fill without options falls back to a **reveal + honor self-check**; `say-true` is a spoken honor-check (no text input anywhere) *(S3: the `options[]` field is optional, 03 §6.2; core-09's was/were drills carry it)* — a closing **"say a true sentence about yourself" spoken** prompt, and an **optional Murphy-unit PDF download** (never the drill-to-mastery treatment — comprehension only, 02 §1).
-7. **YouTube embed:** click-to-load facade (§5.9, 03 §7) — a static thumbnail + play glyph; the `youtube-nocookie.com` iframe is injected only on tap. Never hardcode a video ID in code — it comes from lesson JSON (`funEnglish[].id`) so a dead video is a data fix, not a code change (02 §4).
-8. **Download buttons per asset:** every playable/readable asset carries a **download control** wired to the lesson JSON `downloads[]` (03 §6.2). Baseline is `<a href download>`; on the R2/B2 path it upgrades to one-click-with-progress via `fetch→blob` (03 §2.3), showing states **Download → 37% → Saved ✓ (offline)**. Labels are Uzbek + a size hint (e.g., *"Asosiy audio · MP3 · 33 MB"*) so a learner on metered data decides consciously.
-9. **Mark-complete control:** the **Lesson Check** checklist (§5.7). Steps are honor-system checkboxes (02 §8.1); the **speaking gate is enforced in the UI** — the *"Complete / earn ★1"* button is **disabled with a clear Uzbek reason** (*"Avval mini-story savollariga ovoz chiqarib javob bering"*) until the mini-story-aloud step is checked. Completing awards stars, logs listening minutes + speaking reps + XP, updates streak/badges, and schedules `reviewDue` (02 §8, 03 §6.3).
+6. **Grammar panel (Uzbek) — TWO topics (①):** a two-card / two-tab panel over the `grammar[]` array (A = `grammar[0]`, Days 1–2; B = `grammar[1]`, Days 3–4, §5.11). Each card renders the Uzbek prose (`grammar[i].bodyHtml`, precompiled + sanitized, 03 §4), a **🏷️ band-lifter / CEFR can-do tag** (`bandLifter`/`cefrCanDo`, 02 §2/§4), an explicit **L1-contrast callout**, its own **⚠️ "Xato tuzatish" error-fix card** (`grammar[i].errorFixUz` — the L1-trap that also recurs as a spaced micro-card, 02 §2/§6), 2–3 **interactive drills** with instant ✓/✗ and an Uzbek hint on wrong — a gap-fill with an `options[]` array renders as a **tap-to-answer MCQ** (green ✓ / amber-not-red wrong + `hintUz`); a gap-fill without options falls back to a **reveal + honor self-check**; `say-true` is a spoken honor-check (no text input anywhere) *(the `options[]` field is optional, 03 §6.2)* — a closing **"say a true sentence about yourself" spoken** prompt, and an **optional Murphy-unit PDF download** when `reference` is present (Murphy is reference-only, never the drill-to-mastery treatment — comprehension only, 02 §1/§4). Both cards (`grammarA` + `grammarB`) must be reviewed for the 1★ minimum (02 §8.1).
+7. **EnglishPod section (⑥) — the SPEAKING half** *(built S7; reuses §5.8)*: warm-up → `dg` cold listen → transcript + **Key Vocabulary with our added Uzbek gloss** → `pr` explanation *(skippable on Sprint)* → **shadow** line-by-line → **role-play** Role A then B (a `dialogue` role-play line with a "hide this role" toggle, §5.8) → `rv` recap. Rendered only when `englishpod` is present (gated off L15/L22, behavior 1). The full 8-beat flow is specified in §4.4.
+8. **6 Minute English section (⑦) — the LISTENING/IELTS half** *(built S7; reuses §5.10)*: pre-listening **MCQ** (from `sixmin.quiz`, §5.10) → predict → gist listen (transcript hidden) → reveal answer + self-check → the **6 target words with Uzbek gloss** → re-listen with `transcripts.sixmin` shown, flagging the **`INSERT` vox-pop** clips as the hardest B2 accent stretch → feeds the Speak-It 60-sec recording (⑨). The full 8-beat flow is specified in §4.4.
+9. **YouTube embed (⑧):** click-to-load facade (§5.9, 03 §7) — a static thumbnail + play glyph; the `youtube-nocookie.com` iframe is injected only on tap. Never hardcode a video ID in code — it comes from lesson JSON (`funEnglish[].id`) so a dead video is a data fix, not a code change (02 §4).
+10. **Speak-It (⑨):** the IELTS-style prompt explicitly asks the learner to **use this week's two grammar topics** in a 60-sec recording (02 §2); mic → IndexedDB, nothing uploaded (built S4).
+11. **Download buttons per asset:** every playable/readable asset (AJ set + EnglishPod `dg`/`pr`/`rv` + 6ME) carries a **download control** wired to the lesson JSON `downloads[]` (03 §6.2). Baseline is `<a href download>`; on the R2/B2 path it upgrades to one-click-with-progress via `fetch→blob` (03 §2.3), showing states **Download → 37% → Saved ✓ (offline)**. Labels are Uzbek + a size hint (e.g., *"Asosiy audio · MP3 · 33 MB"*) so a learner on metered data decides consciously.
+12. **Mark-complete control:** the **Lesson Check** checklist (§5.7). Steps are honor-system checkboxes (02 §8.1); the **speaking gate is enforced in the UI** — the *"Complete / earn ★1"* button is **disabled with a clear Uzbek reason** (*"Avval mini-story savollariga ovoz chiqarib javob bering"*) until the mini-story-aloud step is checked. 1★ needs both grammar topics + vocab + MAIN×3 + the gate; **EnglishPod + Fun + a recording lift to 2★; 6 Minute English + a second recording lift to 3★** (02 §8.1). Completing awards stars, logs listening minutes + speaking reps + XP, updates streak/badges, and schedules `reviewDue` (02 §8, 03 §6.3).
 
-### 4.4 Supplementary Lesson Page — `#/lesson/supp-…`
+### 4.4 In-lesson EnglishPod & 6 Minute English sections (rendered inside §4.3, ⑥ & ⑦)
 
-> **Slice:** built in **S7** (both templates + quiz MCQ §5.10 + role-play §5.8 + the S29–S30 mock-interview flow); the paired supp JSON is authored in **S13**. **Not part of S3.** Until then, with no supp JSON on disk, `#/lesson/supp-*` correctly returns the §9 "dars topilmadi" not-found card (the router sends every `#/lesson/:id` through the same loader as the core page).
+> **These are sections *inside* the weekly lesson, not separate pages** — there is no `#/lesson/supp-*` route anymore; every `#/lesson/:id` is a weekly lesson. Completion is **not** a separate star: the EnglishPod flow satisfies `steps.ep` and the 6ME flow satisfies `steps.sixmin` in the *same lesson's* Lesson-Check (§5.7, 02 §8.1). Both reuse the weekly lesson's shell, docked player, and download/transcript components.
 
-Lighter, single-sitting, the **Day-7 reward** (02 §3, §5). Two templates chosen by `source`. No new grammar; single-star (done / not done, 02 §8.1). Same shell, same docked player, same download/transcript components.
+> **Slice:** built in **S7** (both section flows + quiz MCQ §5.10 + role-play §5.8), lazily imported as `lesson-episodes.js` (03 §4); authored across all 30 lessons in **S13**. **Not part of S3** — until S7, sections ⑥/⑦ render as honest S-tagged placeholders inside the lesson page.
 
-**EnglishPod — speaking-focused (8 steps, `source:"englishpod"`, exposes `dg`/`pr`/`rv`):**
+**EnglishPod section — the SPEAKING half (7 beats; present unless `englishPod:null`, i.e. hidden on L15 & L22).** Consolidates the week's AJ theme with a real conversation; no new grammar (02 §3):
 
 ```
+  ⑥  SUHBAT / ENGLISHPOD — CONVERSATION
 ┌───────────────────────────────────────────┐
-│ ←  Qo'shimcha / Supplementary · S22   [○]  │
-│  The Office — I need an assistant!          │
-│  🔗 Bog'liq: Lesson 23 (savollar, ish)      │  which core it recycles
-├───────────────────────────────────────────┤
-│ ① Mavzu / Warm-up  (bilingual, 2 lines + a  │
-│    prediction question)                     │
-│ ② ▷ Dialog (dg · ~1 min) — avval matnisiz   │  listen cold for gist
+│ ① Mavzu / Warm-up (bilingual, 2 lines + a   │
+│    prediction question tied to the AJ theme)│
+│ ② ▷ Dialog (dg · ~1 min) — avval matnsiz    │  listen cold for gist
 │ ③ ▤ Matn + Key Vocabulary (EN + UZ gloss)   │  we ADD the Uzbek gloss
-│    understaffed — "yetarli xodim yo'q"       │  (02 §3, verified)
+│    understaffed — "yetarli xodim yo'q"       │  (02 §3, verified) — englishpod.keyVocab
 │ ④ ▷ Izoh (pr · ~10 min)  [Sprint'da skip]   │  hosts' explanation
-│ ⑤ 🗣️ Shadow — qatorma-qator takrorlang      │  shadowing
+│ ⑤ 🗣️ Shadow — qatorma-qator takrorlang      │  shadowing (§5.8)
 │ ⑥ 🎭 Rol o'yin: A → B  (ovoz chiqarib)      │  role-play = the speaking win
-│    [ hide A ] [ hide B ]  (optional record) │
-│ ⑦ ▷ Takror (rv) + o'z-o'zini tekshirish     │  review track + self-quiz
-│ ⑧ [ ✓ Bajarildi / Mark complete ]           │  honor speaking check
+│    [ hide A ] [ hide B ]  (optional record) │  (§5.8 dialogue role-play line)
+│ ⑦ ▷ Takror (rv) + o'z-o'zini tekshirish     │  review recap
 └───────────────────────────────────────────┘
+   → completing shadow + one role played sets steps.ep (→ 2★, §5.7)
 ```
 
-**6 Minute English — listening-focused (8 steps, `source:"6min"`, carries a `quiz`):**
+**6 Minute English section — the LISTENING/IELTS half (7 beats; on all 30 lessons).** BBC accents + built-in quiz; the B1→B2 stretch (02 §3):
 
 ```
+  ⑦  TINGLASH MASHQI / 6 MINUTE ENGLISH
 ┌───────────────────────────────────────────┐
-│ ←  Qo'shimcha / Supplementary · S16   [○]  │
-│  Sugar (BBC 6 Minute English)               │
-│  🔗 Bog'liq: Lesson 15/21 (should, health)  │
-├───────────────────────────────────────────┤
-│ ① Mavzu + oldindan savol (MCQ) — bilingual  │  pre-listening quiz Q
+│ ① Mavzu + oldindan savol (MCQ) — bilingual  │  pre-listening quiz Q (sixmin.quiz)
 │    "How much sugar…?"  ( )a ( )b ( )c        │
 │ ② 🔮 Taxmin qiling (predict)                │
 │ ③ ▷ Bir marta tinglang (~6 min) — matnsiz   │  gist, transcript hidden
 │ ④ ✅ Javobni ochish → o'zini tekshirish     │  reveal + self-check
-│ ⑤ So'zlar: 6 ta target + Uzbek gloss        │  6-word pack + UZ
-│ ⑥ ▷ Qayta tinglang + ▤ matn                 │  again WITH transcript;
+│ ⑤ So'zlar: 6 ta target + Uzbek gloss        │  6-word pack + UZ (sixmin.vocab)
+│ ⑥ ▷ Qayta tinglang + ▤ matn                 │  again WITH transcripts.sixmin;
 │    ⭐ INSERT bo'laklariga e'tibor bering     │  flag vox-pop = B2 accent stretch
-│ ⑦ 🗣️ Speak It: 60s IELTS-savoliga javob (●) │  record 60-sec answer
-│ ⑧ [ ✓ Bajarildi / Mark complete ]           │
+│ ⑦ 🗣️ → Speak-It (⑨): 60s IELTS-savoliga (●) │  feeds the weekly recording
 └───────────────────────────────────────────┘
+   → listen + quiz answered + 6-word pack reviewed sets steps.sixmin (→ 3★, §5.7)
 ```
 
-- The **quiz MCQ** (§5.10) shows options, locks a choice, then on ⑤ reveals the answer with an **Uzbek explanation** (`explanationUz`, 03 §6.2) — trains "listen for a specific answer" (02 §7).
+- The **quiz MCQ** (§5.10) shows options, locks a choice, then on ④ reveals the answer with an **Uzbek explanation** (`explanationUz`, 03 §6.2) — trains "listen for a specific answer" (02 §7).
 - The **`INSERT` vox-pop** stretch is explicitly flagged in ⑥ as the hardest, most IELTS-like audio (02 §3, §7).
-- **S29–S30 (Interview Skills)** use the EnglishPod template but stitch **multiple dialogues** into a mock-interview flow and surface a *"this bridges to a real/paid mock"* note (02 §5).
+- **Interview-Skills bridge:** the six EnglishPod *Interview Skills* dialogues are woven into the self-presentation lessons' ⑥ sections (**L04, L18, L19, L26, L27, L29**) and climax at the **L30 capstone**, forming the IELTS-interview bridge; the `#/ielts` page (§4.7) surfaces the *"this bridges to a real/paid mock"* guidance (02 §0.5/§5).
 
 ### 4.5 How to Study — `#/method`
 
@@ -541,7 +574,7 @@ Everything the accountless system knows about the learner, made visible and **po
 
 ### 4.7 IELTS & CEFR — `#/ielts`  ·  4.8 Grammar Reference — `#/grammar`  ·  4.9 About — `#/about`
 
-- **`#/ielts`** (bilingual, 02 §7): the honest "this builds the competence IELTS measures; it is *not* a cram course" statement up front; the Phase→CEFR→IELTS table; the Speaking-criterion→feature map; a plain "**Am I ready for a mock?**" checklist (finished Phase 3, comfortable with S29–S30). Links to the coverage grid.
+- **`#/ielts`** (bilingual, 02 §7): the honest "this builds the competence IELTS measures; it is *not* a cram course" statement up front; the Phase→CEFR→IELTS table; the Speaking-criterion→feature map; a plain "**Am I ready for a mock?**" checklist (finished Phase 3, comfortable with the woven Interview-Skills EnglishPod conversations that climax at the L30 capstone, 02 §5). Links to the coverage grid.
 - **`#/grammar`** (03 routing): a read-only **index of all Grammar Sparks** grouped by the 4-tier internal grouping, each linking to its lesson; plus standalone **irregular-verbs** and **spelling** reference cards (Murphy App 2/3/5, re-authored, 02 §10). Not a drill surface — a lookup.
 - **`#/about`**: what this is; the Effortless-English method credit; the **honest free/no-login promise**; the **licensing note** (media is the owner's responsibility, sits in a swappable bucket — 03 §9); contact (`principiaforge@gmail.com`); link back to the Principia Forge family.
 
@@ -576,8 +609,8 @@ Wraps a lesson's completion. **Ring** = fraction of checklist steps done; **star
 | Not started | `○` empty ring | `status: none` |
 | In progress | `◔ ◑ ◕` partial ring | `inProgress` — any step done, gate not yet met |
 | Complete | `⭐☆☆` full ring, 1 gold star | `complete` — gate met, advances |
-| Strong | `⭐⭐☆` | + Fun English + 1 recording |
-| Mastered | `⭐⭐⭐` gold-filled ring | + supplementary + 2nd recording |
+| Strong | `⭐⭐☆` | + EnglishPod done + Fun English + 1 recording |
+| Mastered | `⭐⭐⭐` gold-filled ring | + 6 Minute English done + 2nd recording |
 | Review due | ring + `🔁` badge | `reviewDue ≤ today` |
 
 `role="img"` with an Uzbek+English `aria-label` (e.g., *"2 yulduzdan 3, kuchli / 2 of 3 stars, strong"*) — never color-only (P5, a11y §8).
@@ -585,13 +618,15 @@ Wraps a lesson's completion. **Ring** = fraction of checklist steps done; **star
 ### 5.3 Lesson card (curriculum map)
 ```
 ┌───────────────────────────────────────┐
-│ ⭐⭐☆  02 · Emotional Mastery    [A2] │  ← stars · number · title · level chip
-│        Grammar: am/is/are? + short ans  │  ← grammar unit (the day-1 hook)
-│        ↳ S02 Relatives  ○               │  ← paired Day-7 supp chip
+│ ⭐⭐☆  02 · Emotional Mastery    [B1] │  ← stars · number · title · level chip
+│        Grammatika: present cont. vs     │  ← the week's TWO grammar topics
+│        simple · -ed/-ing sifatlari      │     (from index.json grammarUnits[])
+│        🎙️ EnglishPod   📻 6 Minute      │  ← in-lesson section badges
 └───────────────────────────────────────┘
 ```
 - Left accent bar in the **phase color**. Whole card is one 48px+ tap target → `#/lesson/core-NN`.
-- Variants: **recommended-next** (pulses once, `‹next›` tag), **review-due** (`🔁`), **locked-soft** (never disabled — a gentle hint line, taps still work). Data from `index.json` (03 §6.1) — no per-lesson fetch needed to render the map.
+- The two **grammar topics** come from `grammarUnits[]` and the **🎙️/📻 badges** from `hasEnglishPod`/(6ME always present) (index.json, 03 §6.1) — no per-lesson fetch needed to render the map. On **L15 & L22** the 🎙️ badge is omitted (`hasEnglishPod:false`).
+- Variants: **recommended-next** (pulses once, `‹next›` tag), **review-due** (`🔁`), **locked-soft** (never disabled — a gentle hint line, taps still work).
 
 ### 5.4 Vocab flip-card
 ```
@@ -611,8 +646,8 @@ Wraps a lesson's completion. **Ring** = fraction of checklist steps done; **star
 Renders `ministory.pairs` (03 §6.2). Per pair: show question (EN) → **2–3 s "answer NOW" beat** (a subtle countdown, UZ label) → `[Javobni ko'rsatish]` reveal → italic answer (EN) → **self-check `[✓] [✗]`** → auto-advance. A **live "spoken aloud today" counter** and a progress `n/total`. **No text input anywhere** (typing kills automaticity, 02 §2). Reveal is `aria-live="polite"`. The `✓` increments `speakingReps` / `msAnswersAloud`.
 
 ### 5.7 Lesson Check (checklist + star award + mark-complete)
-- **Checkbox rows** for each step present in this lesson (POV/supp rows omitted when absent). Each row: label (bilingual) + state; the **Mini-Story-aloud row is marked `← GATE`** and styled as required.
-- **Live star readout** updates as boxes tick.
+- **Checkbox rows** for the 10 steps (03 §6.3): `grammarA`, `grammarB`, `vocab`, `main`, `ministory`, `pov`, `ep`, `sixmin`, `fun`, `record`. Rows absent in a lesson are **omitted, not greyed** — **POV** on L01–08, **EnglishPod** on L15/L22 (where `ep` auto-satisfies, 02 §8.1). Each row: label (bilingual) + state; the **Mini-Story-aloud row is marked `← GATE`** and styled as required.
+- **Star tiers** (02 §8.1): **1★** = `grammarA`+`grammarB`+`vocab`+MAIN×3+ministory×2 (gate)+POV×2 (if present); **2★** = +`ep`+`fun`+one recording; **3★** = +`sixmin`+a second recording. **Live star readout** updates as boxes tick.
 - **Primary "earn ★" button** is **disabled with a visible Uzbek reason** until the gate row is checked (02 §8.1). On tap: writes `stars`/`status`/`steps`, logs `listeningMinutes`+`speakingReps`+`xp`, updates `streak`+`badges`, sets `reviewDue` (+1/3/7/14). A brief, reduced-motion-safe celebration (star fills + one praise line).
 
 ### 5.8 Other components (summarized)
@@ -636,7 +671,10 @@ Renders `ministory.pairs` (03 §6.2). Per pair: show question (EN) → **2–3 s
 Static thumbnail (`<img loading="lazy">`, or a CSS-gradient placeholder if the thumbnail host is also to be avoided) + centered `▶` + title/channel caption. On tap → inject a `youtube-nocookie.com` iframe with `title`, `loading="lazy"`, and focus moved into it. Saves ~1 MB/embed pre-tap (03 §7). Fallback if the iframe fails/blocked: a plain "Open on YouTube" link.
 
 ### 5.10 Quiz MCQ (6 Minute English)
-`quiz[]` (03 §6.2): stem (bilingual framing allowed, options `lang="en"`), single-select, reveal-on-command with `answerIndex` and `explanationUz`. Correct = green ✓ + label; chosen-wrong = amber outline + ✗ + the Uzbek explanation. Feeds the 6ME checklist.
+`sixmin.quiz[]` (03 §6.2): stem (bilingual framing allowed, options `lang="en"`), single-select, reveal-on-command with `answerIndex` and `explanationUz`. Correct = green ✓ + label; chosen-wrong = amber outline + ✗ + the Uzbek explanation. Rendered inside the weekly lesson's 6ME section (§4.4 ⑦); feeds the `sixmin` step.
+
+### 5.11 Grammar two-topic panel (§4.3 ①)
+Renders the `grammar[]` array (exactly two topics, 03 §6.2) as **two tabs / stacked cards** — **A** (`grammar[0]`, the Days 1–2 topic) and **B** (`grammar[1]`, Days 3–4). Each card is identical in shape: `bodyHtml` (sanitized), a **🏷️ band-lifter / CEFR-can-do tag** (`bandLifter`/`cefrCanDo`), the L1-contrast callout, its own **⚠️ "Xato tuzatish"** error-fix card (`errorFixUz`), the 2–3 interactive drills (gap-fill MCQ / reveal + honor / `say-true` spoken), and an **optional** Murphy-PDF download when `reference` is present. Ticking a card feeds its `grammarA` / `grammarB` step (§5.7); **both** are needed for 1★. On mobile the two collapse into an accordion so the page stays single-column (P1).
 
 ---
 
@@ -803,7 +841,7 @@ Every one degrades gracefully — **the lesson never becomes a dead screen** (03
 | **Slow network** | any fetch in flight | Skeleton blocks matching final layout; `preload="none"` so audio never preloads; images lazy. No blocking spinner on first paint. |
 | **Lesson JSON 404 / malformed** | bad id or parse error | Friendly "dars topilmadi / lesson not found" card + `[Darslarga qaytish]`; log to console; never a white screen. |
 | **Import file invalid** | bad/older JSON on import | Validation message + `migrate()` attempt for older `schemaVersion`; refuse with a clear reason rather than corrupting current progress (03 §6.3). |
-| **Course complete (L30)** | Phase 3 done | Celebration: B2-in-progress CEFR badge, printable "30 Core Lessons" certificate, and the **re-record-Lesson-1** prompt with the L1↔L30 comparison player (02 §8.3, §6). |
+| **Course complete (L30)** | Phase 3 done | Celebration: B2-in-progress CEFR badge, printable "30 Lessons" certificate, and the **re-record-Lesson-1** prompt with the L1↔L30 comparison player (02 §8.3, §6). |
 
 ---
 
@@ -817,4 +855,4 @@ Every one degrades gracefully — **the lesson never becomes a dead screen** (03
 ---
 
 ### One-line summary
-A **warm, light-first, mobile-first single-column UI** — system-font, 0 KB, thumb-zone controls — built on one persistent audio player and a fixed nine-section lesson page whose entire hierarchy funnels the learner to *answer out loud*, wrapped in a forgiving stars/streak/coverage progress layer that celebrates **listening minutes and speaking reps** (never speed), rendered bilingually with load-bearing `lang` attributes, AA-contrast tokens in both themes, and graceful degradation on every media/storage failure — all implementable inside the buildless, framework-free, `MEDIA_BASE`-swappable envelope fixed by `03-architecture.md`.
+A **warm, light-first, mobile-first single-column UI** — system-font, 0 KB, thumb-zone controls — built on one persistent audio player and a fixed eleven-section weekly lesson page (one whole AJ Hoge lesson + two grammar topics + EnglishPod + 6 Minute English) whose entire hierarchy funnels the learner to *answer out loud*, wrapped in a forgiving stars/streak/coverage progress layer that celebrates **listening minutes and speaking reps** (never speed), rendered bilingually with load-bearing `lang` attributes, AA-contrast tokens in both themes, and graceful degradation on every media/storage failure — all implementable inside the buildless, framework-free, `MEDIA_BASE`-swappable envelope fixed by `03-architecture.md`.

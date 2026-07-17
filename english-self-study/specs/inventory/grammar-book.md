@@ -2,8 +2,8 @@
 
 **File:** `content/grammar_book/Essential-Grammar-in-Use.pdf` (~15.5 MB, ~300 pages)
 **Edition:** 2nd Edition, "with answers", Cambridge University Press.
-**Level:** Elementary (CEFR ~A1 late → A2, reaching into low B1). Author states it is "not for complete beginners" but for learners "beyond the very earliest stages." This maps well onto our A2–B1 Uzbek audience.
-**Units:** 114 units, each self-contained, organized by grammatical category, **not** by difficulty. The author explicitly says "Do not study all the units in order" — pick what you need. This is a green light for us to **re-sequence** units by spoken frequency.
+**Level:** Elementary (CEFR ~A1 late → A2, reaching into low B1). Author states it is "not for complete beginners" but for learners "beyond the very earliest stages." **This tier is BELOW our redefined audience** — Uzbek learners who can already follow AJ Hoge are past the copula / bare-present-simple floor and are climbing B1→B2. So the book is **not the syllabus**; it is an **optional reference download only** (see "How this book feeds the ORIGINAL grammar syllabus" below and `specs/02-curriculum.md` §4).
+**Units:** 114 units, each self-contained, organized by grammatical category, **not** by difficulty. The author explicitly says "Do not study all the units in order" — pick what you need. Because the units are modular, the book works as a **pick-and-consult reference** while we author our **own** original topics — it is not itself re-sequenced into the on-site syllabus.
 **Copyright note:** This is a copyrighted Cambridge title. Do not reproduce pages verbatim on the public site. Use it as a **reference/source** to author our own Uzbek-explained grammar sections and original exercises. It can be offered as a downloadable file the way the rest of the media library is, but the on-site grammar sections must be our own prose.
 
 ---
@@ -210,63 +210,17 @@ Uzbek is an agglutinative, SOV, largely head-final language with **no articles, 
 
 ---
 
-## Proposed speaking-first curriculum: ~40 priority units, re-ordered
+## How this book feeds the ORIGINAL grammar syllabus (Murphy retired as the ladder)
 
-Ordered by **spoken frequency and communicative payoff for an A2→B1 learner who wants to talk**, NOT by book order. Grouped into 6 tiers that can map onto our lesson modules and run in parallel with the AJ Hoge core (30 lessons) + supplementary listening lessons. Units in **bold** are the highest-leverage / hardest-for-Uzbek and deserve the most Uzbek-language explanation.
+**The Murphy elementary ladder is retired as the course syllabus.** The redefined curriculum is pitched at learners who can already follow AJ Hoge — solid A2+ listening, climbing **B1→B2** speaking. That audience is **past** the tier this book teaches (am/is/are, bare present simple, have got, do-support from zero), so the 114-unit ladder is **NOT** the lesson plan and its units are **not** mapped one-to-one onto lessons. On-site grammar is **60 ORIGINAL topics — two per weekly lesson, B1→B2** — authored for this course and specified in `specs/02-curriculum.md` §4. The book is offered only as an **optional reference download** alongside the media library, never as the source of the on-site grammar.
 
-### Tier 1 — Survival core (talk about self & now)
-1. **Unit 1 — am/is/are** (fix dropped copula immediately)
-2. **Unit 2 — am/is/are questions**
-3. **Unit 9 — I have / I've got** (possession — Uzbek `bor`/`yo'q`)
-4. **Unit 5 — present simple (I work/like)** — stress **3rd-person -s**
-5. **Unit 6 — present simple negative (don't/doesn't)** — **do-support**
-6. **Unit 7 — Do you…? (present simple questions)** — **do-support**
-7. Unit 3 — present continuous (I am doing)
-8. Unit 4 — present continuous questions
-9. **Unit 8 — present continuous vs present simple**
+**What this book DOES contribute (its real, lasting value):**
+1. **The 10 L1-interference clusters above** — the pain-point audit is the single most valuable output of this inventory. Our original B1→B2 topics are chosen and sequenced to hit these Uzbek-specific traps (articles, present-perfect/aspect, prepositions-as-chunks, countability, do-support depth, SOV word order), and every explanation contrasts the Uzbek structure explicitly. `02 §4`'s "Uzbek L1 pain-point coverage" maps each cluster to the lesson(s) that fix it.
+2. **The appendices as reusable data** — irregular verbs (App 2/3) and the -s/-ing/-ed spelling rules (App 5) become interactive reference cards / lookup tables in the app (these are language facts, not the book's copyrighted prose).
+3. **The exercise-ladder model** — form drill → gap-fill with word bank → picture/scrambled-word production → **"write/say a true sentence about yourself."** Our interactive drills copy this shape; the last, personalized-production type becomes the speak-aloud / record-yourself prompt where grammar meets the site's speaking goal.
+4. **A source to consult while authoring** — the modular units are a place to check how a form is presented, never text to lift (the book is copyrighted; see the note at the top).
 
-### Tier 2 — Talking about the past & future (essential for any conversation/IELTS Part 1)
-10. Unit 10 — was/were
-11. **Unit 11 — past simple (worked/went)** + irregular verbs (Appendix 2/3)
-12. **Unit 12 — past simple negative & questions (didn't / Did you?)**
-13. **Unit 27 — I'm going to …** (plans)
-14. **Unit 28 — will/shall** (predictions/decisions)
-15. Unit 26 — present continuous for future (What are you doing tomorrow?)
-
-### Tier 3 — Modals & functional language (the glue of real conversation)
-16. **Unit 31 — can and could** (ability/permission/requests)
-17. **Unit 34 — I have to …** (obligation)
-18. **Unit 32 — must / mustn't / needn't**
-19. **Unit 33 — should** (advice — huge for speaking)
-20. **Unit 35 — Would you like…? / I'd like…** (offers, politeness)
-21. Unit 30 — might (possibility)
-
-### Tier 4 — Present perfect & experience talk (the B1 gateway)
-22. **Unit 15 — I have done (present perfect)**
-23. **Unit 17 — Have you ever…?** (experiences — direct speaking payoff)
-24. **Unit 16 — I've just / already / haven't … yet**
-25. **Unit 19 — for / since / ago**
-26. **Unit 20 — present perfect vs past simple** (the hard contrast)
-
-### Tier 5 — Nouns, articles, quantity (accuracy the Uzbek ear misses)
-27. **Unit 64 — a/an**
-28. **Unit 68 — a/an and the**
-29. **Unit 69 — the …**
-30. Unit 65 — singular & plural
-31. Unit 66/67 — countable/uncountable (a car / some money) *(treat as one lesson)*
-32. Unit 82 — a lot / much / many
-33. Unit 75 — some and any
-
-### Tier 6 — Questions, connectors, description, prepositions (fluency & range)
-34. **Unit 46 — What/Which/How question words** (+ Unit 44 subject/object questions)
-35. Unit 58/59 — pronouns & possessives (**he/she/it gender**) *(one lesson)*
-36. **Units 96 + 99–101 — prepositions of time & place (in/at/on, to/in/at)** *(bundle as one heavy lesson)*
-37. Unit 86/87/89 — comparatives & superlatives *(one lesson — very common in speech)*
-38. Unit 109 — and/but/or/so/because (connectors — instant fluency boost)
-39. Unit 111 — if (first conditional)
-40. Unit 93 — adverbs of frequency word order (always/usually/often)
-
-> This yields ~40 focused lessons (some units bundled), a clean fit for pairing one grammar focus with each of the ~30 AJ Hoge core lessons plus spillover into the supplementary listening lessons. Deprioritized for later/optional: passive (21–22), reported speech (49), 2nd conditional (112), relative clauses (113–114), phrasal verbs (107–108), reflexives (62), most of the -body/-thing pronoun set (76–81), and the finer preposition/adverb units (102–106, 90–91, 94–95). These matter for exam writing but are lower spoken-frequency at A2–B1.
+**The A2-level Murphy staples are demoted, not taught.** Dropped copula, third-person `-s`, he/she/it gender, and have / have got sit **below** this course's B1 grammar floor yet still leak into speech, so `02 §4` handles them as **spaced "Xato tuzatish" (error-fix) micro-cards**, not as standalone grammar topics. The rest of what the old elementary ladder front-loaded (basic present/past forms) is assumed known and only *sharpened* where it still leaks at speaking speed (e.g. the present-simple / 3rd-person diagnostic in L01).
 
 ---
 
@@ -275,5 +229,5 @@ Ordered by **spoken frequency and communicative payoff for an A2→B1 learner wh
 - **Do not embed book pages.** Author our own short Uzbek explanations per lesson; optionally offer the whole PDF as a downloadable reference alongside the media library (same delivery mechanism as mp3/pdf assets — off-repo host).
 - **Reuse the appendices as data tables:** irregular verbs (App 2/3) and spelling rules for -s/-ing/-ed (App 5) can become interactive reference cards / lookup tables in the app.
 - **Model our interactive exercises on the book's exercise ladder:** form drill → gap-fill with word bank → picture/scrambled-word production → **"write/say a true sentence about yourself."** The last type is where grammar meets the site's speaking goal — turn these into speak-aloud / record-yourself prompts.
-- **Cross-reference footers** in each unit give a ready-made prerequisite graph for sequencing and "next lesson" suggestions.
+- **Cross-reference footers** in each unit reveal how grammar points depend on each other — useful intel when we sequence our **own** original B1→B2 topics and wire "next topic" suggestions (not a map of Murphy units onto lessons).
 - Every Uzbek explanation for the 10 hard-point areas above should explicitly **contrast the Uzbek structure** (e.g. "Uzbekcha `-da` = in / at / on") so learners understand *why* the English feels strange.

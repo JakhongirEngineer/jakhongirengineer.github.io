@@ -18,10 +18,25 @@ import {
 } from "./lib/util.mjs";
 import {
   AJ_COMPONENTS, resolveByLessonMeta, resolveAllAj, listEnglishPodIds, resolveEnglishPod,
-  listSixMinDates, resolveSixMin, sharedAssetMap,
+  listSixMinDates, resolveSixMin, resolveCoreEpisodes, sharedAssetMap,
 } from "./lib/normalise.mjs";
 
+// clean-key → source-path for one EnglishPod episode's dg/pr/rv + transcript.
+function addEnglishPodKeys(out, ep) {
+  if (!ep) return;
+  for (const s of ["dg", "pr", "rv"]) if (ep.audio[s]) out.set(ep.audio[s].key, ep.audio[s].src);
+  if (ep.pdf) out.set(ep.pdf.key, ep.pdf.src);
+}
+// clean-key → source-path for one 6ME episode's audio + transcript.
+function addSixMinKeys(out, sm) {
+  if (!sm) return;
+  if (sm.audio.main) out.set(sm.audio.main.key, sm.audio.main.src);
+  if (sm.pdf) out.set(sm.pdf.key, sm.pdf.src);
+}
+
 // clean-key → source-path for one resolved lesson's media (all present components).
+// A weekly core lesson (aj-hoge) also folds in its paired EnglishPod + 6ME episode
+// (02 §2/§5), so their media is staged from the same call (03 §5.1).
 function lessonMediaKeys(meta, resolved) {
   const out = new Map();
   if (meta.source === "aj-hoge") {
@@ -29,22 +44,27 @@ function lessonMediaKeys(meta, resolved) {
       if (resolved.audio[c]) out.set(resolved.audio[c].key, resolved.audio[c].src);
       if (resolved.pdf[c]) out.set(resolved.pdf[c].key, resolved.pdf[c].src);
     }
+    const { englishpod, sixmin } = resolveCoreEpisodes(meta.ajNumber);  // 02 §5 weave
+    addEnglishPodKeys(out, englishpod);   // null on L15/L22 → no-op (section gated off)
+    addSixMinKeys(out, sixmin);
   } else if (meta.source === "englishpod") {
-    for (const s of ["dg", "pr", "rv"]) if (resolved.audio[s]) out.set(resolved.audio[s].key, resolved.audio[s].src);
-    if (resolved.pdf) out.set(resolved.pdf.key, resolved.pdf.src);
+    addEnglishPodKeys(out, resolved);
   } else if (meta.source === "6min") {
-    if (resolved.audio.main) out.set(resolved.audio.main.key, resolved.audio.main.src);
-    if (resolved.pdf) out.set(resolved.pdf.key, resolved.pdf.src);
+    addSixMinKeys(out, resolved);
   }
   return out;
 }
 
-// every media key a lesson JSON points at (03 §6.2): audio.*, downloads[], grammar ref.
+// every media key a lesson JSON points at (03 §6.2 v2): audio.*, englishpod.audio.*,
+// sixmin.audio.*, downloads[], and each grammar[].reference.
 function referencedKeys(lesson) {
   const keys = new Set();
   if (lesson.audio) for (const a of Object.values(lesson.audio)) if (a && a.path) keys.add(a.path);
+  if (lesson.englishpod?.audio) for (const a of Object.values(lesson.englishpod.audio)) if (a && a.path) keys.add(a.path);
+  if (lesson.sixmin?.audio) for (const a of Object.values(lesson.sixmin.audio)) if (a && a.path) keys.add(a.path);
   if (Array.isArray(lesson.downloads)) for (const d of lesson.downloads) if (d.path) keys.add(d.path);
-  if (lesson.grammar?.reference?.downloadPath) keys.add(lesson.grammar.reference.downloadPath);
+  const grammar = Array.isArray(lesson.grammar) ? lesson.grammar : lesson.grammar ? [lesson.grammar] : [];
+  for (const g of grammar) if (g?.reference?.downloadPath) keys.add(g.reference.downloadPath);
   return keys;
 }
 

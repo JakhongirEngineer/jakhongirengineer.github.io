@@ -1,12 +1,14 @@
-// lesson.js — the CORE lesson page (04 §4.3), THE centerpiece. Renders the nine
-// sections top-to-bottom in fixed pedagogical order 0→8 (02 §2), gating each on the
-// PRESENCE of its data (never dead UI): POV is absent for L01–08, text-only for L19.
-// Built from small reusable component builders (trackTrigger, vocabCards, drill,
-// grammarPanel, downloadBtn) so S4/S7/S8 can extend the page and S13 can author 59
-// more lessons against the same components.
+// lesson.js — the WEEKLY lesson page (04 §4.3), THE centerpiece. Renders the eleven
+// sections top-to-bottom in fixed pedagogical order 0→10 (02 §2), gating each on the
+// PRESENCE of its data (never dead UI): POV is absent for L01–08 / text-only for L19;
+// the EnglishPod section (⑥) is absent when englishpod:null (L15 & L22). One whole AJ
+// Hoge lesson + two grammar topics + EnglishPod + 6 Minute English, in one page.
 //
-// Dynamically imported by app.js only on the #/lesson/:id route, so first paint on
-// Home/Map never pays for it.
+// Built from small reusable builders (trackTrigger, vocabCards, drill, grammarPanels,
+// downloadBtn). The two heavier folded-in sections (EnglishPod ⑥ + 6ME ⑦) live in
+// lesson-episodes.js, imported LAZILY (03 §4) so each module stays within budget; their
+// builders are injected via `ctx` (no import cycle). app.js imports this only on the
+// #/lesson/:id route, so Home/Map first paint never pays for it.
 
 import { el, icon, t, tf, fmtTime, fmtMB, DATA_BASE } from "./core.js";
 import { playTrack } from "./player.js";
@@ -17,7 +19,9 @@ const cache = {};                 // fetched lesson JSON, keyed by id (avoids re
 let currentLessonId = null;
 let observer = null;              // scroll-spy IntersectionObserver
 const seenVocab = new Set();      // in-memory "seen" flags for the current lesson (S5 persists steps)
-let grammarTouched = false;       // any grammar drill attempted this session
+const grammarTouched = new Set(); // slots ("A"/"B") whose drills were attempted this session
+let epTouched = false;            // any EnglishPod affordance used (dialogue shown / role hidden)
+let sixTouched = false;           // 6ME quiz answer revealed
 const live = {};                  // per-render refreshers (dots / checklist), called by refreshLive()
 
 // ---- Web Speech TTS for vocab / POV read-aloud (0 KB, graceful fallback) -----
@@ -145,12 +149,12 @@ function vocabCards(id, vocab, vocabAudio) {
   return el("div", { class: "vocab" }, grid, el("div", { class: "vocab__foot" }, seenLabel));
 }
 
-// ---- Grammar Spark drills (04 §4.3.6) ---------------------------------------
-function grammarExercise(x, n) {
+// ---- Grammar Spark drills (04 §4.3.6) — slot ("A"/"B") flags the topic touched -
+function grammarExercise(x, n, slot) {
   const wrap = el("div", { class: "gx" });
   const head = el("p", { class: "gx__n" }, tf("lesson.grammar.exN", n));
   const feedback = el("p", { class: "gx__fb", "aria-live": "polite" });
-  const touched = () => { if (!grammarTouched) { grammarTouched = true; refreshLive(); } };
+  const touched = () => { if (!grammarTouched.has(slot)) { grammarTouched.add(slot); refreshLive(); } };
 
   if (x.type === "say-true") {                                   // spoken honor-check
     wrap.append(head, el("p", { class: "gx__prompt", lang: "uz" }, el("span", { "aria-hidden": "true" }, "🗣️ "), x.promptUz || t("lesson.grammar.sayTrue")));
@@ -196,26 +200,52 @@ function grammarExercise(x, n) {
   return wrap;
 }
 
-function grammarPanel(id, l) {
-  const g = l.grammar;
-  const panel = el("div", { class: "gpanel" });
-  panel.append(el("h3", { class: "gpanel__title", lang: "uz" }, g.titleUz));
-  panel.append(el("div", { class: "prose", lang: "uz", html: g.bodyHtml })); // precompiled + sanitized (validate.mjs)
-  if (g.contrastUz) panel.append(el("div", { class: "callout callout--contrast", lang: "uz" },
+// One grammar topic card (03 §6.2 v2 grammar[] element) — §5.11.
+function grammarTopicCard(id, l, g, i) {
+  const slot = g.slot || (i === 0 ? "A" : "B");
+  const body = el("div", { class: "gcard__body" });
+  // 🏷️ band-lifter / CEFR can-do tags (02 §2/§4)
+  const tags = el("div", { class: "gtags" });
+  if (g.bandLifter) tags.append(el("span", { class: "gtag gtag--band" }, el("span", { "aria-hidden": "true" }, "🏷️ "), g.bandLifter));
+  if (g.cefrCanDo) tags.append(el("span", { class: "gtag gtag--cefr" }, g.cefrCanDo));
+  if (tags.children.length) body.append(tags);
+  body.append(el("div", { class: "prose", lang: "uz", html: g.bodyHtml })); // precompiled + sanitized (validate.mjs)
+  if (g.contrastUz) body.append(el("div", { class: "callout callout--contrast", lang: "uz" },
     el("span", { class: "callout__ic", "aria-hidden": "true" }, "🔀"),
     el("div", null, el("strong", null, t("lesson.grammar.contrast")), el("p", null, g.contrastUz))));
-  if (g.errorFixUz) panel.append(el("div", { class: "callout callout--error", lang: "uz" },
+  if (g.errorFixUz) body.append(el("div", { class: "callout callout--error", lang: "uz" },
     el("span", { class: "callout__ic", "aria-hidden": "true" }, "⚠️"),
     el("div", null, el("strong", null, t("lesson.grammar.errorFix")), el("p", null, g.errorFixUz))));
   if (Array.isArray(g.exercises) && g.exercises.length) {
-    panel.append(el("h4", { class: "gpanel__sub" }, t("lesson.grammar.drills")));
-    g.exercises.forEach((x, i) => panel.append(grammarExercise(x, i + 1)));
+    body.append(el("h4", { class: "gpanel__sub" }, t("lesson.grammar.drills")));
+    g.exercises.forEach((x, k) => body.append(grammarExercise(x, k + 1, slot)));
   }
   // Optional Murphy-unit PDF download (comprehension only — never drilled to mastery)
-  const ref = g.reference;
-  const dl = ref && findDl(l, ref.downloadPath);
-  if (dl) panel.append(el("div", { class: "gpanel__ref" },
-    el("p", { class: "gpanel__ref-lab" }, `📄 ${ref.book}${ref.unit ? " · Unit " + ref.unit : ""}`), downloadBtn(dl, "dlbtn--wide")));
+  const dl = g.reference && findDl(l, g.reference.downloadPath);
+  if (dl) body.append(el("div", { class: "gpanel__ref" },
+    el("p", { class: "gpanel__ref-lab" }, `📄 ${g.reference.book}${g.reference.unit ? " · Unit " + g.reference.unit : ""}`), downloadBtn(dl, "dlbtn--wide")));
+
+  // Accordion header (A open by default; both single-column on mobile, 04 §5.11).
+  const open = i === 0;
+  const chev = el("span", { class: "gcard__chev", html: icon(open ? "collapse" : "expand") });
+  const head = el("button", { class: "gcard__head", type: "button", "aria-expanded": String(open) },
+    el("span", { class: "gcard__slot" }, slot),
+    el("span", { class: "gcard__titles" },
+      el("span", { class: "gcard__title", lang: "uz" }, g.titleUz),
+      el("span", { class: "gcard__days" }, t(slot === "A" ? "lesson.grammar.slotDaysA" : "lesson.grammar.slotDaysB"))),
+    chev);
+  if (!open) body.hidden = true;
+  head.addEventListener("click", () => {
+    const show = body.hidden;
+    body.hidden = !show; head.setAttribute("aria-expanded", String(show));
+    chev.innerHTML = icon(show ? "collapse" : "expand");
+  });
+  return el("div", { class: "gcard" }, head, body);
+}
+
+function grammarPanels(id, l) {
+  const panel = el("div", { class: "gpanel" });
+  (Array.isArray(l.grammar) ? l.grammar : []).forEach((g, i) => panel.append(grammarTopicCard(id, l, g, i)));
   return panel;
 }
 
@@ -243,9 +273,6 @@ function ministoryDrill(id, pairs) {
     el("span", { lang: "uz" }, t("drill.repsPre") + " "), repsN, el("span", { lang: "uz" }, " " + t("drill.repsPost")));
   const restart = el("button", { class: "btn btn--soft", type: "button" }, t("drill.restart"));
 
-  // `move`: keep the keyboard/SR journey inside the drill on every step (a11y §8).
-  // Never true on first paint — the drill sits far down the page, so stealing focus
-  // there would yank the viewport off the top of the lesson.
   function show(move) {
     if (i >= total) { live_.hidden = true; end.hidden = false; if (move) restart.focus(); return; }
     counter.textContent = tf("drill.count", i + 1, total);
@@ -255,7 +282,6 @@ function ministoryDrill(id, pairs) {
     beat.classList.remove("is-run"); void beat.offsetWidth; beat.classList.add("is-run"); // restart the 2.5s beat
     if (move) reveal.focus();                        // next Q: land on the reveal control
   }
-  // Reveal hides itself; move focus to the ✓ so the self-check is reachable without re-Tabbing.
   reveal.addEventListener("click", () => { answer.hidden = false; reveal.hidden = true; beat.hidden = true; check.hidden = false; ok.focus(); });
   ok.addEventListener("click", () => { repsN.textContent = String(bumpMsAnswer(id)); refreshLive(); i++; show(true); });
   no.addEventListener("click", () => { i++; show(true); });
@@ -311,9 +337,11 @@ function dots(n, max) {
 }
 function computeDone(L, present) {
   const d = { 0: true, 3: (L.listens.main || 0) >= 1, 4: (L.msAnswersAloud || 0) >= 1 };
-  if (present.has(1)) d[1] = grammarTouched;
+  if (present.has(1)) d[1] = grammarTouched.has("A") && grammarTouched.has("B");
   if (present.has(2)) d[2] = seenVocab.size > 0;
   if (present.has(5)) d[5] = (L.listens.pov || 0) >= 1;
+  if (present.has(6)) d[6] = epTouched || (L.listens.ep || 0) >= 1;
+  if (present.has(7)) d[7] = sixTouched || (L.listens.sixmin || 0) >= 1;
   return d;
 }
 function refreshLive() {
@@ -321,7 +349,7 @@ function refreshLive() {
   const L = snapshot(currentLessonId);
   document.querySelectorAll("#main [data-dots]").forEach((elm) => {
     const key = elm.dataset.dots, max = +elm.dataset.dotsMax;
-    const n = key === "main" ? (L.listens.main || 0) : key === "ms" ? (L.listens.ms || 0) : (L.listens.pov || 0);
+    const n = L.listens[key] || 0;                 // key is a listens.* field (main|ms|pov|ep|sixmin)
     elm.replaceChildren(...dots(Math.min(n, max), max));
     elm.setAttribute("aria-label", tf("lesson.listened", Math.min(n, max), max));
   });
@@ -332,24 +360,31 @@ function refreshLive() {
   }
   if (live.refreshCheck) live.refreshCheck(L);
 }
+// Callbacks injected into lesson-episodes.js so an EP/6ME interaction lights the strip + checklist.
+function markEp()  { if (!epTouched)  { epTouched  = true; refreshLive(); } }
+function markSix() { if (!sixTouched) { sixTouched = true; refreshLive(); } }
 
-// ---- Section 8: Lesson Check summary (honest S3 preview; S5 owns award+gate) --
+// ---- Section 10: Lesson Check summary (honest S3 preview; S5 owns award+gate) --
 function lessonCheck(id, l, present) {
   const body = el("div", { class: "check__body" });
   function rowsFor(L) {
     const rows = [
-      ["grammar", t("check.grammar"), grammarTouched],
+      ["grammarA", t("check.grammarA"), grammarTouched.has("A")],
+      ["grammarB", t("check.grammarB"), grammarTouched.has("B")],
       ["vocab", t("check.vocab"), seenVocab.size > 0],
       ["main", tf("check.main", L.listens.main || 0), (L.listens.main || 0) >= 3],
       ["ministory", tf("check.ministory", L.msAnswersAloud || 0), (L.msAnswersAloud || 0) >= 2, true], // GATE
     ];
     if (present.has(5)) rows.push(["pov", tf("check.pov", L.listens.pov || 0), (L.listens.pov || 0) >= 2]);
-    rows.push(["fun", t("check.fun"), false], ["record", t("check.record"), false], ["supp", t("check.supp"), false]);
+    if (present.has(6)) rows.push(["ep", t("check.ep"), epTouched || (L.listens.ep || 0) >= 1]);
+    rows.push(["sixmin", t("check.sixmin"), sixTouched || (L.listens.sixmin || 0) >= 1]);
+    rows.push(["fun", t("check.fun"), false], ["record", t("check.record"), false]);
     return rows;
   }
   function starTier(L) {
-    const base = grammarTouched && seenVocab.size > 0 && (L.listens.main || 0) >= 3 && (L.msAnswersAloud || 0) >= 2 && (!present.has(5) || (L.listens.pov || 0) >= 2);
-    return base ? 1 : 0; // 2★/3★ need recordings + supp (S4/S7); gate-first honesty
+    const base = grammarTouched.has("A") && grammarTouched.has("B") && seenVocab.size > 0 &&
+      (L.listens.main || 0) >= 3 && (L.msAnswersAloud || 0) >= 2 && (!present.has(5) || (L.listens.pov || 0) >= 2);
+    return base ? 1 : 0; // 2★/3★ need recordings + fun (S4/S8); gate-first honesty
   }
   function render(L) {
     const gateMet = (L.msAnswersAloud || 0) >= 2;
@@ -362,7 +397,7 @@ function lessonCheck(id, l, present) {
     });
     const tier = starTier(L);
     const stars = el("p", { class: "check__stars", role: "img", "aria-label": tf("check.starsAria", tier) },
-      "⭐☆☆".slice(0, 1).repeat(0), tier >= 1 ? "⭐" : "☆", tier >= 2 ? "⭐" : "☆", tier >= 3 ? "⭐" : "☆");
+      tier >= 1 ? "⭐" : "☆", tier >= 2 ? "⭐" : "☆", tier >= 3 ? "⭐" : "☆");
     const btn = el("button", { class: "btn btn--primary check__earn", type: "button", disabled: "" },
       el("span", { "aria-hidden": "true" }, "⭐ "), t("check.earn"));
     const reason = el("p", { class: "check__reason", lang: "uz" }, gateMet ? t("check.laterS5") : t("check.gateReason"));
@@ -373,7 +408,7 @@ function lessonCheck(id, l, present) {
   return body;
 }
 
-// ---- Fun English (⑥) + Speak It (⑦): honest S3 placeholders (S8 / S4) --------
+// ---- Fun English (⑧) + Speak It (⑨): honest S3 placeholders (S8 / S4) --------
 function placeholder(bodyKey, tagKey, extra) {
   return el("div", { class: "phold" },
     el("p", { class: "phold__body", lang: "uz" }, t(bodyKey)),
@@ -398,7 +433,7 @@ function notFound(main) {
 export async function renderLesson(main, id, token, alive) {
   // Teardown any previous lesson's scroll-spy so observers don't stack.
   if (observer) { observer.disconnect(); observer = null; }
-  if (id !== currentLessonId) { seenVocab.clear(); grammarTouched = false; }
+  if (id !== currentLessonId) { seenVocab.clear(); grammarTouched.clear(); epTouched = false; sixTouched = false; }
   live.refreshCheck = null; live.present = null;
 
   main.replaceChildren(skeleton());
@@ -417,6 +452,12 @@ export async function renderLesson(main, id, token, alive) {
       return;
     }
   }
+  // The eleven-section weekly page folds in EnglishPod (⑥) + 6ME (⑦); load their
+  // renderer lazily (03 §4). A failure degrades: those sections are skipped.
+  let episodes = null;
+  try { episodes = await import("./lesson-episodes.js"); }
+  catch (err) { console.warn("lesson-episodes: failed to load", err); }
+
   if (alive && !alive()) return;   // navigated away while fetching — abandon
   currentLessonId = id;
   openLesson(id);                  // lastLessonId + started (lightweight, not the S5 engine)
@@ -424,15 +465,21 @@ export async function renderLesson(main, id, token, alive) {
   const A = l.audio || {};
   const T = l.transcripts || {};
   const povMode = A.pov ? "audio" : (T.pov ? "text" : null);
+  const hasEp = episodes && l.englishpod != null;
+  const hasSix = episodes && l.sixmin != null;
   const present = new Set([0]);
-  if (l.grammar && l.grammar.bodyHtml) present.add(1);
+  if (Array.isArray(l.grammar) && l.grammar.length && l.grammar.every((g) => g.bodyHtml)) present.add(1);
   if (Array.isArray(l.vocab) && l.vocab.length) present.add(2);
   if (A.main) present.add(3);
   if (l.ministory && Array.isArray(l.ministory.pairs) && l.ministory.pairs.length) present.add(4);
   if (povMode) present.add(5);
-  if (Array.isArray(l.funEnglish) && l.funEnglish.length) present.add(6);
-  present.add(7); present.add(8);
+  if (hasEp) present.add(6);
+  if (hasSix) present.add(7);
+  if (Array.isArray(l.funEnglish) && l.funEnglish.length) present.add(8);
+  present.add(9); present.add(10);
   live.present = present;
+
+  const ctx = { trackTrigger, downloadBtn, transcriptBlock, findDl, markEp, markSix };
 
   const frag = document.createDocumentFragment();
   // One <h1> per screen (a11y §8); the visible title rides in the top bar (04 §4.3 wireframe).
@@ -442,7 +489,9 @@ export async function renderLesson(main, id, token, alive) {
   // ⓿ Lesson Home & Can-Do goal
   {
     const s = section(0, "lesson.sec.0");
-    const totalMin = Math.round(Object.values(A).filter(Boolean).reduce((m, a) => m + (a.durationSec || 0), 0) / 60);
+    const audios = [A.main, A.vocab, A.ministory, A.pov,
+      l.englishpod?.audio?.dg, l.englishpod?.audio?.pr, l.englishpod?.audio?.rv, l.sixmin?.audio?.main];
+    const totalMin = Math.round(audios.filter(Boolean).reduce((m, a) => m + (a.durationSec || 0), 0) / 60);
     s.append(el("div", { class: "card" },
       el("p", { class: "l-intro", lang: "uz" }, l.intro?.uz || l.titleUz),
       l.intro?.en ? el("p", { class: "l-intro-en", lang: "en" }, l.intro.en) : null,
@@ -456,8 +505,8 @@ export async function renderLesson(main, id, token, alive) {
     frag.append(s);
   }
 
-  // ① Grammar Spark
-  if (present.has(1)) { const s = section(1, "lesson.sec.1"); s.append(el("div", { class: "card" }, grammarPanel(id, l))); frag.append(s); }
+  // ① Grammar Spark — TWO topics (A + B)
+  if (present.has(1)) { const s = section(1, "lesson.sec.1"); s.append(el("div", { class: "card" }, grammarPanels(id, l))); frag.append(s); }
 
   // ② Vocabulary
   if (present.has(2)) {
@@ -511,26 +560,40 @@ export async function renderLesson(main, id, token, alive) {
     s.append(card); frag.append(s);
   }
 
-  // ⑥ Fun English — honest placeholder (S8 builds the facade)
+  // ⑥ EnglishPod — Conversation (the speaking half; hidden when englishpod:null)
   if (present.has(6)) {
     const s = section(6, "lesson.sec.6");
+    s.append(episodes.englishPodSection(id, l, ctx));
+    frag.append(s);
+  }
+
+  // ⑦ 6 Minute English — Listening Stretch (all 30 lessons)
+  if (present.has(7)) {
+    const s = section(7, "lesson.sec.7");
+    s.append(episodes.sixMinSection(id, l, ctx));
+    frag.append(s);
+  }
+
+  // ⑧ Fun English — honest placeholder (S8 builds the facade)
+  if (present.has(8)) {
+    const s = section(8, "lesson.sec.8");
     const f = l.funEnglish[0];
     const teaser = f ? el("p", { class: "phold__teaser" }, el("span", { lang: "en" }, f.title), f.channel ? el("span", { class: "phold__chan", lang: "en" }, " · " + f.channel) : null) : null;
     s.append(el("div", { class: "card" }, placeholder("lesson.fun.body", "lesson.fun.tag", teaser)));
     frag.append(s);
   }
 
-  // ⑦ Speak It Yourself — honest placeholder (S4 builds recording)
+  // ⑨ Speak It Yourself — honest placeholder (S4 builds recording)
   {
-    const s = section(7, "lesson.sec.7");
+    const s = section(9, "lesson.sec.9");
     s.append(el("div", { class: "card" }, placeholder("lesson.speak.body", "lesson.speak.tag",
       el("p", { class: "phold__hook", lang: "uz" }, "💡 " + t("lesson.speak.hook")))));
     frag.append(s);
   }
 
-  // ⑧ Lesson Check — summary preview (S5 owns star award + gate enforcement)
+  // ❿ Lesson Check — summary preview (S5 owns star award + gate enforcement)
   {
-    const s = section(8, "lesson.sec.8");
+    const s = section(10, "lesson.sec.10");
     s.append(el("div", { class: "card" }, lessonCheck(id, l, present)));
     frag.append(s);
   }

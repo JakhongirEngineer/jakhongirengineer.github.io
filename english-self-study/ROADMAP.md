@@ -3,6 +3,18 @@
 Spec-Driven Development (SDD) progress tracker. We build the site one **slice** at a time.
 This file is the single running checklist — **update it every session** (tick deliverables, set the board row, move the *Current slice* pointer).
 
+> ### Design change — 2026-07-17 · owner curriculum redefinition
+> The owner **redefined the curriculum** (`specs/02-curriculum.md` fully rewritten). The elementary Murphy *Essential Grammar in Use* ladder is **retired** — anyone who can follow AJ Hoge is past `am/is/are`; Murphy is now an **optional download only**, and on-site grammar is **original**, authored B1→B2 for this audience. The **lesson shape changed:** each of the **30 weekly lessons** is now *one whole AJ Hoge lesson (MAIN + VOCAB + MINI_STORY + POV — **never divided/cropped**) + two original grammar topics + one EnglishPod episode + one 6 Minute English episode*, all rendered as sections **inside one lesson page** (a week's worth of study). **There are no separate supplementary lessons and no `supp-*` routes** — EnglishPod & 6ME fold in as sections ⑥/⑦; EnglishPod is `null`-gated on L15 & L22. Lesson ids/routes are unchanged (`core-NN`); the shipped lesson-page **look & feel is approved and extended, not redesigned**.
+> **Specs amended in place:** `02` (rewritten by the owner), `03` (§6.1 index, §6.2 lesson JSON → schemaVersion **2**, §6.3 progress steps, §5 pipeline, §3 layout, §4 module note, §8 budget), `04` (§2 routes, §4.2 map, §4.3 eleven-section page, §4.4 EP/6ME section flows, §5 components), `00` (§4/§7), `01`. `content/` untouched. The `data/lessons/core-09.json` + `data/index.json` exemplar has since been rebuilt to the v2 shape as a design-review artifact (see the "Exemplar rebuild" note below); authoring the remaining 29 weekly lessons + regenerating the full index stays scoped to **S13**.
+> **Re-scoped below:** **S7** (was "Supplementary lesson pages") → *EnglishPod + 6ME in-lesson sections at scale + quiz/role-play components*; **S13** (author 30 weekly lessons incl. **60 original grammar topics**); **S5** map deliverable adjusted. *This amendment is **pre-S4** work — the Current-slice pointer stays **S4**.*
+
+> ### Exemplar rebuild — 2026-07-17 · L09 end-to-end design-review artifact (NOT a slice sign-off)
+> To let the owner review the redefined weekly lesson end-to-end, the **`core-09` exemplar was rebuilt to the v2 shape** ahead of the slices that own this work. This is a **review artifact, not S7/S13 completion** — those boxes stay **TODO** (they cover all 30 lessons / 60 grammar topics / full media). What landed for L09 only:
+> - **Original grammar** (retired the elementary `was/were`): `authoring/grammar/core-09-a.md` (present-perfect first-contact — since/for/How long, B1) + `-b.md` (gradual change — better and better / get + comparative, B1→B2), each with L1-contrast, "Xato tuzatish", band-lifter/CEFR tags, options[] MCQ drills + a say-true prompt.
+> - **Pipeline (v2):** episode weave added to `normalise.mjs`; `extract.mjs` now emits the paired EP+6ME; `compile-grammar.mjs` fills `grammar[0/1].bodyHtml` from `-a/-b.md`; `data/lessons/core-09.json` regenerated in the v2 schema (grammar array of 2, `englishpod{}`, `sixmin{}`); `validate.mjs`/`build-index.mjs`/`stage-media.mjs`/`manifest.mjs` updated for v2 — deterministic, validate + manifest pass.
+> - **Media:** L09's EnglishPod **0026** (dg/pr/rv + transcript) and 6ME **171123** *(Getting fitter)* audio+transcript uploaded to R2 with the immutable `Cache-Control`; serve `200` + `206` Range from `media.principiaforge.com`.
+> - **Lesson page:** `lesson.js` extended to the eleven-section order with a two-topic Grammar accordion; the EnglishPod (⑥) + 6ME (⑦) sections live in a lazily-imported `lesson-episodes.js` (shadow/role-play + quiz MCQ). Verified in headless Chrome (mobile 360×800): all sections render, EP/6ME stream from R2, both grammar exercise sets + the quiz work, drill + player unaffected, **zero console errors**. Budgets (gzip) hold: first-paint JS ~9.3 KB, `lesson.js` 10.3 KB lazy, `lesson-episodes.js` 3.0 KB lazy, `styles.css` 6.2 KB, `core-09.json` 14.5 KB.
+
 ---
 
 ## How we work (the SDD loop)
@@ -22,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S4**
+## Current slice → **S4**  *(specs amended 2026-07-17 for the curriculum redefinition — see the Design-change note above; no slice work started yet)*
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -35,7 +47,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S4 | Speak It Yourself — recording + IndexedDB | TODO |
 | S5 | Progress engine + Home dashboard + Curriculum map | TODO |
 | S6 | Progress page + gamification + export/import JSON | TODO |
-| S7 | Supplementary lessons (EnglishPod + 6 Minute English) | TODO |
+| S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | TODO |
 | S8 | Fun English embeds (YouTube facade + curation) | TODO |
 | S9 | How to Study (methodology) page | TODO |
 | S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | TODO |
@@ -66,7 +78,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 - [x] `scripts/extract.mjs` (`pdfjs-dist`) → `data/raw/<id>/<component>.txt` (+ `ministory.pairs.json` / `*.para.json` curation drafts), globbing by numeric prefix/keyword via `scripts/lib/normalise.mjs` — **never hardcoded filenames** (`03 §5.1`, `03 §5.3`).
 - [x] Filename normaliser (`scripts/lib/normalise.mjs`, reused by S7/S13) handles the documented chaos: AJ `1_/2_/3_/4_` prefixes, missing `_MAIN`/`_VOCAB` (05,07,08,19,20), `.mp3.mp3`/`..mp3` (11,24,27), case drift (`MINI_Story`), ALL-CAPS PDF regime 19–30, `Exitement` typo; EP trailing `" u"` + `B`-prefix probe (both `B{ID}` and `{ID}`); 6ME key-by-`YYMMDD` + slug-from-title + dedupe `(1)` (`03 §5.3`, `02 §10`). **Proven on all 30 AJ lessons** (audio 30/30/30/21, PDF 30/30/30/22) + 28 EP + 143 6ME via `stage-media.mjs --all --dry-run`.
-- [x] Curate one core lesson to `data/lessons/core-09.json` (has POV): boilerplate stripped; MINI_STORY → 36 `{q,a}` pairs; VOCAB → 12 chunks + Uzbek glosses; **original Uzbek** Grammar Spark (was/were, Murphy U10 — `grammar.bodyHtml` precompiled from `authoring/grammar/core-09.md` via `markdown-it` + sanitized); `pov` present (audio+text); nulls encode gaps (`03 §6.2`). 43 KB raw / 12.8 KB gzip.
+- [x] Curate one core lesson to `data/lessons/core-09.json` (has POV): boilerplate stripped; MINI_STORY → 36 `{q,a}` pairs; VOCAB → 12 chunks + Uzbek glosses; **original Uzbek** Grammar Spark (**v1 single-object shape** — was/were, Murphy U10, `grammar.bodyHtml` precompiled from `authoring/grammar/core-09.md` via `markdown-it` + sanitized); `pov` present (audio+text); nulls encode gaps (`03 §6.2`). 43 KB raw / 12.8 KB gzip. *(Records the **original v1 S1 delivery**. `core-09.json` has since been **rebuilt to the v2 shape** — a two-topic `grammar[]` (present-perfect + gradual-change) compiled from `core-09-a.md` / `core-09-b.md`, plus folded-in `englishpod`/`sixmin`, 14.5 KB gzip; the single `core-09.md` and the was/were + Murphy-U10 grammar were retired. See the "Exemplar rebuild" note above and S13.)*
 - [x] `scripts/stage-media.mjs` → `_media_staging/<clean-key>` (`aj-hoge/09/main.mp3` …, copy not move); `scripts/build-index.mjs` → `data/index.json`; `scripts/manifest.mjs` + `scripts/validate.mjs` fail loudly (exit 1) on any missing/typo'd key or schema violation (`03 §5.1`).
 - [x] `package.json` (`type:module`, `engines >=20`, dev-only deps `pdfjs-dist` 4.10.38, `markdown-it` 14.3.0); `content/`, `_media_staging/`, `data/raw/`, `node_modules/` git-ignored / non-served.
 
@@ -113,9 +125,9 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 ## S4 — Speak It Yourself: recording + IndexedDB
 
 **Goal:** learners record a 60-sec spoken response locally (nothing uploaded), replay/delete it, and the data feeds the star model and the L1↔L30 growth proof.
-**Specs:** `04 §4.3` ⑦, `04 §5.8` (record button states), `02 §8.2` (blobs → IndexedDB), `03 §6` (storage split), `02 §6` (re-record L1 @ L30), `04 §9` (mic-denied / IndexedDB-unavailable).
+**Specs:** `04 §4.3` ⑨ (+ behavior 10), `04 §5.8` (record button states), `02 §8.2` (blobs → IndexedDB), `03 §6` (storage split), `02 §6` (re-record L1 @ L30), `04 §9` (mic-denied / IndexedDB-unavailable).
 
-- [ ] Section 7 "O'zingni sinab ko'r": IELTS-style prompt + `MediaRecorder` → **IndexedDB** (keyed by lesson id); localStorage holds only the `record:true` flag + count (`02 §8.2`, `03 §6`).
+- [ ] Section ⑨ "O'zingni sinab ko'r": IELTS-style prompt (**using the week's two grammar topics**) + `MediaRecorder` → **IndexedDB** (keyed by lesson id); localStorage holds only the `record:true` flag + count (`02 §8.2`, `03 §6`).
 - [ ] Record button states idle `●` → recording (timer/waveform) → saved (playback + `🗑` delete) (`04 §5.8`).
 - [ ] "Nothing is uploaded — faqat siz" privacy reassurance (UZ); re-record-L1-at-L30 hook copy.
 - [ ] Graceful degradation: mic-permission-denied → Uzbek how-to-enable note + keep the shadow/answer-aloud alternatives (not a dead button); IndexedDB unavailable → in-session only, never blocks the lesson (`04 §9`).
@@ -131,7 +143,7 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 - [ ] **Star model + gate** (`04 §5.7`, `02 §8.1`): Lesson Check checklist → 1★/2★/3★; the **"earn ★" button is disabled with a clear Uzbek reason until the mini-story-aloud step is checked**; completing logs listening-minutes + speaking-reps + XP, sets `reviewDue` (+1/3/7/14).
 - [ ] Streak (study-day = any real action; speaking streak; **1 free freeze/week**; forgiving **5/7 weekly goal**) (`02 §8.3`).
 - [ ] Home: first-run onboarding (pick pace + "Start Lesson 1") vs returning (**Continue card** restoring lesson + day-of-cycle focus; **hero metrics — listening minutes biggest**; weekly ring; Review-today cards only when due) (`04 §4.1`).
-- [ ] Curriculum map: 3 phases (Poydevor/Sur'at/Ravonlik) with Uzbek name + CEFR tag + can-do + progress bar; lesson cards (stars · number · title · level · grammar · paired supp chip); **recommended-next ring**; **soft locks only** (hint, never disabled) (`04 §4.2`, `§5.3`).
+- [ ] Curriculum map: 3 phases (Poydevor/Sur'at/Ravonlik) with Uzbek name + CEFR tag + can-do + progress bar; lesson cards (stars · number · title · level · **the week's two grammar topics** · **🎙️ EnglishPod / 📻 6 Minute badges** from `hasEnglishPod`, no separate supp chip); **recommended-next ring**; **soft locks only** (hint, never disabled) (`04 §4.2`, `§5.3`).
 
 **Done when:** completing `core-09` (gate enforced) awards a star, Home's Continue + minutes + streak update, the map card shows the star, and all of it survives a reload.
 
@@ -148,26 +160,27 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 
 **Done when:** the Progress page shows live metrics/badges/coverage/streak; exporting then importing JSON on a "fresh" browser restores progress exactly; a mis-versioned import is refused without corrupting current data.
 
-## S7 — Supplementary lessons (EnglishPod + 6 Minute English)
+## S7 — EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play)
 
-**Goal:** the Day-7 reward lessons ship — EnglishPod (speaking: shadow + role-play) and 6 Minute English (listening: quiz + INSERT stretch) — as single-star, single-sitting pages.
-**Specs:** `02 §3` (supp templates), `02 §5` (30-lesson supp table + on-disk filenames), `04 §4.4` (supp pages), `04 §5.10` (quiz MCQ), `04 §5.8` (dialogue role-play), `03 §6.2` (supp JSON shapes), `02 §7` (INSERT / listening map).
+**Goal:** the two authentic-volume sections render **inside** the weekly lesson page — EnglishPod (speaking: shadow + role-play) as section ⑥, 6 Minute English (listening: quiz + INSERT stretch) as section ⑦ — *not* as separate pages. They add reps + volume and lift a lesson to 2★/3★, with EnglishPod `null`-gated (hidden) on L15 & L22.
+**Specs:** `02 §3` (in-lesson EP/6ME flows), `02 §5` (episode weave + on-disk filenames), `04 §4.3` ⑥/⑦ (+ behaviors 7–8), `04 §4.4` (the two section flows), `04 §5.10` (quiz MCQ), `04 §5.8` (dialogue role-play), `03 §6.2` (`englishpod{}` / `sixmin{}` blocks), `03 §4` (lazy `lesson-episodes.js`), `02 §7` (INSERT / listening map).
 
-- [ ] Extend the pipeline to emit `supp-pod-*` (`dg/pr/rv` + `dialogue`) and `supp-6min-*` (`audio.main` + `quiz`) JSON per the verified filenames (`02 §5`, `03 §6.2`).
-- [ ] EnglishPod template (8 steps): warm-up → `dg` cold → transcript + **Key Vocab with added Uzbek gloss** → `pr` → shadow → **role-play (hide a role)** → `rv` self-quiz → mark complete (`02 §3`, `04 §4.4`).
-- [ ] 6ME template (8 steps): MCQ pre-listen → predict → gist listen (hidden) → reveal + self-check → 6-word vocab + UZ gloss → re-listen with transcript (**flag `INSERT` vox-pop as the B2 stretch**) → 60-sec record → mark complete (`02 §3`, `02 §7`).
-- [ ] Quiz MCQ component (select → lock → reveal ✓ / amber-not-red wrong + `explanationUz`) + dialogue role-play component (`04 §5.10`, `§5.8`).
-- [ ] Single-star done model wired to progress; paired chip on the map links correctly; **S29–S30 stitch multiple Interview-Skills dialogues into a mock-interview flow** with the "bridges to a real mock" note (`02 §5`, `04 §4.4`).
+- [ ] Extend the pipeline to emit, **inside each `core-NN.json`**, the **`englishpod{}`** block (`dg/pr/rv` + `dialogue` + Uzbek-glossed `keyVocab`; **`null` for L15 & L22**) and the **`sixmin{}`** block (`audio.main` + `quiz` + Uzbek-glossed `vocab` + trimmed `transcripts.sixmin`), per the verified §5 weave filenames — no `supp-*` files (`03 §6.2`, `02 §5`).
+- [ ] EnglishPod section ⑥ (7 beats): warm-up → `dg` cold → transcript + **Key Vocab + added Uzbek gloss** → `pr` (Sprint-skippable) → shadow → **role-play (hide a role)** → `rv`; the whole section is gated off when `englishPod:null` (`02 §3`, `04 §4.4`).
+- [ ] 6ME section ⑦ (7 beats): MCQ pre-listen → predict → gist listen (hidden) → reveal + self-check → 6-word vocab + UZ gloss → re-listen with transcript (**flag `INSERT` vox-pop as the B2 stretch**) → feeds the Speak-It 60-sec recording (`02 §3`, `02 §7`).
+- [ ] Quiz MCQ component (select → lock → reveal ✓ / amber-not-red wrong + `explanationUz`) + dialogue role-play component, split into a lazily-imported **`lesson-episodes.js`** so every JS module stays within the ≤35 KB budget (`04 §5.10`, `§5.8`, `03 §4`).
+- [ ] Wire `steps.ep` (→ 2★, **auto-true on L15/L22**) and `steps.sixmin` (→ 3★) into the weekly star model + `listens.{ep,sixmin}` (`02 §8.1`, `03 §6.3`); the map's 🎙️/📻 badges reflect availability.
+- [ ] **Interview-Skills bridge:** the six EnglishPod *Interview Skills* dialogues sit in the ⑥ sections of **L04/L18/L19/L26/L27/L29** and climax at the **L30 capstone**; surface the "bridges to a real/paid mock" note on `#/ielts` (`02 §5`, `04 §4.4`/`§4.7`).
 
-**Done when:** one EnglishPod and one 6ME supplementary lesson play and complete end-to-end (quiz + role-play + record where applicable), and their Day-7 chips update on the map.
+**Done when:** on one lesson the EnglishPod ⑥ and 6ME ⑦ sections play and complete end-to-end **inside** the lesson page (quiz + role-play + shadowing + record), a `null`-gated lesson (L15/L22) hides ⑥ with `ep` auto-satisfied, and `steps.ep`/`steps.sixmin` lift the star tier.
 
 ## S8 — Fun English embeds (YouTube facade + curation)
 
 **Goal:** section 6 shows a zero-byte-until-tapped YouTube facade, and each lesson's video pick is data, not code.
-**Specs:** `03 §7` (facade = the biggest first-paint win), `04 §5.9` (facade component), `04 §4.3` ⑥, `02 §4` (theme → channel per lesson).
+**Specs:** `03 §7` (facade = the biggest first-paint win), `04 §5.9` (facade component), `04 §4.3` ⑧ (+ behavior 9), `02 §4` (theme → channel per lesson).
 
 - [ ] Facade component: lazy thumbnail (or CSS-gradient placeholder) + `▶` + title/channel; inject `youtube-nocookie.com` iframe **only on tap**, move focus in, `title` set (`04 §5.9`).
-- [ ] Reads `funEnglish[]` from lesson JSON — **never hardcode a video ID** (a dead video is a JSON fix) (`04 §4.3.7`); one tiny watch-task, no test.
+- [ ] Reads `funEnglish[]` from lesson JSON — **never hardcode a video ID** (a dead video is a JSON fix) (`04 §4.3` behavior 9); one tiny watch-task, no test.
 - [ ] Fallback: iframe blocked/failed → "YouTube'da ochish" link; watch-task text stays (`04 §9`).
 - [ ] Curate the video picks per the `02 §4` channel/theme map (owner supplies exact IDs → data).
 
@@ -222,17 +235,18 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 
 ## S13 — Content authoring completion + launch checklist
 
-**Goal:** all 60 lessons authored and validated, full media uploaded, privacy honoured, and the site launched at $0 recurring cost.
-**Specs:** `02 §4` (30 core) + `02 §5` (30 supp), `02 §6`/`§9` (Uzbek prose & policy), `03 §2.5` (full upload), `03 §9` + `00 §6` (licensing), `00 §5` (success criteria), `00 §4` (non-goals incl. no identifying analytics), `03 §8` (final budget check).
+**Goal:** all **30 weekly lessons** authored and validated (each = one whole AJ set + **two original grammar topics** + folded EnglishPod + folded 6ME = **60 original grammar topics** total), full media uploaded, privacy honoured, and the site launched at $0 recurring cost.
+**Specs:** `02 §4` (30×2 grammar topics) + `02 §5` (episode weave), `02 §6`/`§9` (Uzbek prose & policy), `03 §6.2` (v2 shape), `03 §2.5` (full upload), `03 §9` + `00 §6` (licensing), `00 §5` (success criteria), `00 §4` (non-goals incl. no identifying analytics), `03 §8` (final budget check).
 **Precondition (owner):** the media **licensing decision** is the owner's to make (`00 §6`, `03 §9`). Architecture keeps takedown trivial (swappable bucket); this slice ships the app, not legal clearance.
 
-- [ ] Author all 30 core lessons: original Uzbek Grammar Spark prose, chunk glosses, mini-story pairs, POV gating (09–30; L19 text-only), Fun-English picks (`02 §4`).
-- [ ] Author all 30 supplementary lessons with added Uzbek glosses + 6ME quiz MCQs + the S29–S30 Interview-Skills mock (`02 §5`).
+- [ ] Author all 30 weekly lessons in the §6.2 **v2** shape: **60 original Uzbek Grammar-Spark topics** (`authoring/grammar/<id>-A.md` + `<id>-B.md`, each with band-lifter/CEFR tag + "Xato tuzatish" card, `02 §4`), chunk glosses, mini-story pairs, POV gating (09–30; L19 text-only), Fun-English picks.
+- [ ] Author every lesson's folded **EnglishPod** (`dg/pr/rv` + dialogue + Uzbek-glossed Key Vocab; `null` on L15/L22) and **6ME** (quiz MCQ + 6-word Uzbek gloss + trimmed transcript) sections; wire the **Interview-Skills bridge** across L04/18/19/26/27/29 → L30 capstone (`02 §5`).
+- [x] **S1 exemplar already migrated to v2** — `data/lessons/core-09.json` + its `data/index.json` entry were rebuilt to the `03 §6.2` v2 shape (grammar[] of 2, `englishpod{}`, `sixmin{}`) ahead of this slice as the design-review artifact (see the top-of-file "Exemplar rebuild" note); the retired `was/were` + Murphy-U10 ref are gone. `data/index.json` is regenerated by `build-index.mjs` to cover all 30 lessons as they are authored above — no separate migration step remains.
 - [ ] Stage + upload the **full** media payload to R2; `scripts/manifest.mjs` passes with **zero missing keys** (`03 §2.5`, `03 §5.1`).
 - [ ] Privacy/analytics: **no PII / no identifying analytics** (`00 §4`); if any, a cookieless privacy-friendly counter only. `robots`/no-prerender confirms **no transcript is baked into crawlable HTML** (`03 §9`).
 - [ ] Launch QA: cross-device export/import smoke test; full run-through on a real budget Android; licensing note live on About; final deploy + budget re-check (`00 §5`, `03 §8`).
 
-**Done when:** all 60 lessons are complete and manifest-validated, media is fully uploaded and streaming/downloading at $0, no analytics identifies a person, and the site is live and pleasant on a cheap Android over slow 3G.
+**Done when:** all 30 weekly lessons are complete (incl. the 60 grammar topics + folded EnglishPod/6ME) and manifest-validated, all lesson JSON + `data/index.json` are in the v2 shape (the core-09 exemplar was migrated pre-S13), media is fully uploaded and streaming/downloading at $0, no analytics identifies a person, and the site is live and pleasant on a cheap Android over slow 3G.
 
 ---
 

@@ -109,16 +109,16 @@ Every transcript follows the same 3-part layout:
 
 ---
 
-## 5. Mapping to supplementary lessons
+## 5. Mapping into the weekly lesson (the EnglishPod section ⑥)
 
-**Recommendation: one EnglishPod episode = one supplementary lesson.** Each episode is already a self-contained micro-unit (dialogue + key vocab + supplementary vocab + 3 audio tracks) — a perfect lesson-sized chunk. 28 episodes → up to 28 supplementary lessons, which combined with 146 BBC 6-Minute episodes comfortably covers the "~30 supplementary lessons" target (EnglishPod can supply the conversational/speaking-focused half; BBC the listening/topical half).
+**One EnglishPod episode = the EnglishPod section (⑥) of one weekly lesson — NOT a separate lesson.** The redefined curriculum has **no separate supplementary lessons**: EnglishPod folds *inside* each weekly lesson page as its **speaking half**, paired with a 6 Minute English section as the listening half (see `specs/02-curriculum.md` §2–§3 and the fixed weave in §5). Each episode is already a self-contained micro-unit (dialogue + key vocab + supplementary vocab + 3 audio tracks) that drops cleanly into that one section. The **28 episodes map onto the 30 weekly lessons, each used exactly once**; the two most abstract "inner-power" weeks — **L15 (Taoism) and L22 (Art of Power)** — carry `englishPod: null` and the section is **hidden by data-presence gating** (the same mechanism that already gates POV on L01–08).
 
-**Grouping:** topics are uneven (work=7, people=6, food=3; but animals/economy/finance/hometown/music/shopping/weather=1 each), so topic-based grouping would produce lopsided units. Better to treat each episode as a standalone lesson and use the topic only as a tag/filter.
+**Grouping / selection:** topics are uneven (work=7, people=6, food=3; but animals/economy/finance/hometown/music/shopping/weather=1 each), so topic is used only as a **tag/filter**, never to bundle episodes — each episode is placed on the single week whose AJ theme it best resonates with (the *Interview Skills 3–9* arc clusters into the self-presentation weeks and the L30 capstone).
 
 **Value for SPEAKING (the site's core need):**
 - The `dg` track is a short (~1 min), natural, two-speaker conversation — ideal for **shadowing** (listen-and-repeat) and **role-play** (learner reads role A or B). This is the single most speaking-useful asset in the whole content library after AJ Hoge's mini-stories.
 - The dialogues model real conversational moves: making suggestions, disagreeing politely, small talk — directly transferable to speaking practice and interview/CEFR-style tasks.
-- Suggested lesson flow: (1) listen to `dg`, (2) read transcript + Uzbek-glossed Key Vocabulary, (3) listen to `pr` for explanation, (4) shadow the `dg` line-by-line, (5) role-play one side, (6) `rv` as vocab review. Pair with AJ Hoge mini-story Q&A technique for automatic speaking.
+- **In-lesson section flow (⑥):** (1) listen to `dg` cold, (2) read transcript + Uzbek-glossed Key Vocabulary, (3) listen to `pr` for explanation *(skippable on Sprint)*, (4) shadow the `dg` line-by-line, (5) role-play Role A then Role B, (6) `rv` as vocab review. Pair with the AJ Hoge mini-story answer-aloud technique for automatic speaking.
 
 ## 6. Hosting note
 487 MB of mp3 cannot live in the git repo / GitHub Pages. EnglishPod media must be hosted externally (R2 / other free host) and streamed + offered for download, same as the rest of `content/`.

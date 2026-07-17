@@ -2,7 +2,7 @@
 
 **Status:** decided. This is the synthesis of two independent proposals (simplicity-first vs. rich-experience-first), judged and merged into one decisive spec. Where the proposals disagreed on facts, the disagreement was resolved by measuring the content and verifying free-tier terms on the web (July 2026); those resolutions are noted inline.
 
-**One-sentence framing:** the site is a *static content catalogue* (60 lesson JSON files + a fixed renderer) with a little local state (audio position, progress, language). All heavy media (~1.7–2.9 GB) lives off-repo on a zero-egress object store behind one swappable URL constant. No backend, no login, no build step in the deploy path.
+**One-sentence framing:** the site is a *static content catalogue* (30 weekly-lesson JSON files + a fixed renderer) with a little local state (audio position, progress, language). All heavy media (~1.7–2.9 GB) lives off-repo on a zero-egress object store behind one swappable URL constant. No backend, no login, no build step in the deploy path.
 
 ---
 
@@ -160,13 +160,13 @@ english-self-study/                 # → principiaforge.com/english-self-study/
   assets/  app.js  styles.css       # the entire "framework" (vanilla ES modules)
   data/
     index.json                      # generated lean catalogue (committed)
-    lessons/  core-01.json … supp-6min-180315.json … supp-pod-0004.json   (committed)
+    lessons/  core-01.json … core-30.json     # 30 weekly lessons only — no supp-* files (EP+6ME fold in, §6.2) (committed)
     i18n/  ui.uz.json  ui.en.json
   sw.js  manifest.webmanifest       # PHASE 2 (app-shell PWA)
   scripts/                          # dev-only Node pipeline (OFFLINE; NEVER served)
     lib/  util.mjs  normalise.mjs  pdf.mjs  markdown.mjs   # reusable modules (normaliser reused by S7/S13)
     extract.mjs  compile-grammar.mjs  build-index.mjs  stage-media.mjs  manifest.mjs  validate.mjs
-  authoring/  grammar/<id>.md        # committed authoring source (Grammar-Spark Markdown → grammar.bodyHtml)
+  authoring/  grammar/<id>-A.md  grammar/<id>-B.md   # committed source: the two Grammar-Spark topics per lesson (Markdown → grammar[0/1].bodyHtml)
   content/                          # READ-ONLY source — .gitignored, NEVER deployed
   _media_staging/  data/raw/         # generated & .gitignored (staging copies + raw PDF text)
   package.json  .gitignore
@@ -177,9 +177,9 @@ english-self-study/                 # → principiaforge.com/english-self-study/
 
 ## 4. Framework & key libraries
 
-**Runtime framework: none.** One `index.html`, `assets/*.js` (ES modules, each ≤35 KB — split noted below), one `assets/styles.css`, and the `data/` JSON. The dynamic surface is small and bounded — an audio player, the mini-story reveal drill, a quiz, localStorage progress, a language toggle, hash routing — and **all 60 lessons are JSON, not code**, so "add a lesson" never touches the app and the JS footprint stays flat as the catalogue doubles. Shipping almost no JS is the single best lever for "loads fast on a cheap Android over a slow Uzbek network".
+**Runtime framework: none.** One `index.html`, `assets/*.js` (ES modules, each ≤35 KB — split noted below), one `assets/styles.css`, and the `data/` JSON. The dynamic surface is small and bounded — an audio player, the mini-story reveal drill, a quiz, localStorage progress, a language toggle, hash routing — and **all 30 weekly lessons are JSON, not code**, so "add a lesson" never touches the app and the JS footprint stays flat as the lessons are authored. Shipping almost no JS is the single best lever for "loads fast on a cheap Android over a slow Uzbek network".
 
-> **S3 amendment — app.js split into ES modules.** When the core lesson page landed (S3), the single `app.js` was split (per the ≤35 KB-per-file budget, not by minifying readability away) into: `core.js` (shared `el`/`icon`/`t`/settings + localStorage primitives), `app.js` (shell + hash router + i18n bootstrap), `player.js` (the one persistent `<audio>` + docked bar), `progress.js` (the `ess.progress.v1` read/write surface), and `lesson.js` (the nine-section page). `app.js` statically imports `core`+`player` (the persistent shell) and **dynamically imports `lesson.js` only on the `#/lesson/:id` route**, so Home/Map first paint never pays for the lesson renderer. Measured raw: app 11 KB · core 5.6 KB · player 9.6 KB · progress 4.1 KB · lesson 31 KB (each within budget); first-paint JS ≈ 11 KB gzip, `lesson.js` +9 KB gzip lazy. `styles.css` ≈ 5.2 KB gzip (budget ≤15 KB gzip, §8).
+> **S3 amendment — app.js split into ES modules.** When the core lesson page landed (S3), the single `app.js` was split (per the ≤35 KB-per-file budget, not by minifying readability away) into: `core.js` (shared `el`/`icon`/`t`/settings + localStorage primitives), `app.js` (shell + hash router + i18n bootstrap), `player.js` (the one persistent `<audio>` + docked bar), `progress.js` (the `ess.progress.v1` read/write surface), and `lesson.js` (the lesson page). `app.js` statically imports `core`+`player` (the persistent shell) and **dynamically imports `lesson.js` only on the `#/lesson/:id` route**, so Home/Map first paint never pays for the lesson renderer. Measured raw at S3 (the nine-section page then): app 11 KB · core 5.6 KB · player 9.6 KB · progress 4.1 KB · lesson 31 KB (each within budget); first-paint JS ≈ 11 KB gzip, `lesson.js` +9 KB gzip lazy. `styles.css` ≈ 5.2 KB gzip (budget ≤15 KB gzip, §8). *(Curriculum redefinition: the lesson page grows to the eleven-section weekly shape — a second Grammar-Spark card + the EnglishPod and 6ME sections (04 §4.3). Since lesson.js was already near the 35 KB raw ceiling, **S7 splits the two new sections into a lazily-imported `lesson-episodes.js`** (EnglishPod shadow/role-play §5.8 + 6ME quiz §5.10), keeping every module within the ≤35 KB budget.)*
 
 **Runtime dependencies: zero.** No React/Vue (40–120 KB runtime for a catalogue), no Svelte (reintroduces a build + compiler), no router lib (hash routing is ~20 lines), no audio lib (native `HTMLAudioElement`), no i18n lib (two flat dicts), no date/util libs (native `Intl`), no icon font (inline SVG / emoji).
 
@@ -204,11 +204,11 @@ All stages are **offline**; `content/` is read-only; the app never parses a PDF 
 
 ### 5.1 Stages
 All filename-chaos resolution lives in one reused module, `scripts/lib/normalise.mjs` (§5.3); every stage globs through it and **never hardcodes a source filename**. The whole pipeline is **deterministic** (skip-write-if-identical, date-stable `generated`) so re-runs are byte-identical and leave `content/` untouched.
-1. **Extract** — `scripts/extract.mjs` (`pdfjs-dist`) pulls text per PDF into `data/raw/<id>/<component>.txt` (a directory per lesson id: `main`/`vocab`/`ministory`/`pov` for AJ; `transcript` for supp). It also writes curation drafts alongside: `ministory.pairs.json` (the parsed `{q,a}` loop) and `<component>.para.json` (reflowed read-along paragraphs). Globs by numeric prefix / keyword (§5.3). `data/raw/` is generated + git-ignored.
-2. **Curate (the human/AI value-add)** — produce `data/lessons/<id>.json`: strip the AJ Hoge copyright/logo boilerplate (in the AJ PDFs this is an *image* with no text layer, so the only text-boilerplate is the title line); embed the extracted `{q,a}` MINI_STORY pairs (the italic answer is detected via `pdfjs` per-span font-run pairing, `?`-boundary heuristic — see §5.3); pull VOCAB terms and **author Uzbek glosses** as chunks; write **original Uzbek grammar prose** (never reproduce Murphy's pages) as restricted Markdown in `authoring/grammar/<id>.md`, then **`scripts/compile-grammar.mjs`** renders it via `markdown-it` → **sanitized** `grammar.bodyHtml` (03 §4); pick YouTube IDs (or `id:null` until the owner supplies one); author 6-Minute quiz MCQs.
+1. **Extract** — `scripts/extract.mjs` (`pdfjs-dist`) pulls text per PDF into `data/raw/<id>/<component>.txt`, **one directory per weekly lesson id** that now aggregates all of that week's assets: `main`/`vocab`/`ministory`/`pov` (the AJ set) **+ `englishpod`** (the paired EnglishPod dialogue, from §5's weave) **+ `sixmin`** (the paired 6ME transcript). It also writes curation drafts alongside: `ministory.pairs.json` (the parsed `{q,a}` loop), `englishpod.dialogue.json` (speaker-split lines), and `<component>.para.json` (reflowed read-along paragraphs). Globs by numeric prefix / keyword and resolves the EnglishPod-ID / 6ME-`YYMMDD` picks from the §5 weave (§5.3). `data/raw/` is generated + git-ignored.
+2. **Curate (the human/AI value-add)** — produce `data/lessons/<id>.json` in the §6.2 **v2** shape: strip the AJ Hoge copyright/logo boilerplate (in the AJ PDFs this is an *image* with no text layer, so the only text-boilerplate is the title line); embed the extracted `{q,a}` MINI_STORY pairs (the italic answer is detected via `pdfjs` per-span font-run pairing, `?`-boundary heuristic — see §5.3); pull VOCAB terms and **author Uzbek glosses** as chunks; write **two original Uzbek grammar topics** (never reproduce Murphy's pages) as restricted Markdown in **`authoring/grammar/<id>-A.md`** and **`<id>-B.md`**, then **`scripts/compile-grammar.mjs`** renders each via `markdown-it` → **sanitized** `grammar[0].bodyHtml` / `grammar[1].bodyHtml` (03 §4), tagging each topic's `slot`/`bandLifter`/`cefrCanDo`/`errorFixUz` per 02 §4; build the **`englishpod{}`** block (`dialogue` from the split draft + **Uzbek gloss added** to the PDF's Key Vocabulary) — set `englishpod:null` for L15 & L22 (§5); build the **`sixmin{}`** block (the PDF's ready-made MCQ → `quiz`, the 6 target words + **Uzbek gloss**, `transcripts.sixmin` trimmed to hold the §8 budget); pick YouTube IDs (or `id:null` until the owner supplies one).
 3. **Stage media** — `scripts/stage-media.mjs` **copies** (never moves) `content/` → `_media_staging/<clean-key>` (§2.5), resolving all filename chaos; `--all --dry-run` resolves & lists every source (proving the normaliser at scale). `_media_staging/` is git-ignored.
-4. **Build index** — `scripts/build-index.mjs` emits the lean `data/index.json` catalogue from the per-lesson files.
-5. **Validate** — `scripts/manifest.mjs` asserts every media `path` in every lesson JSON resolves to a staged key and fails loudly on typos; `scripts/validate.mjs` checks every `data/lessons/<id>.json` against §6.2 and `data/index.json` against §6.1. Both exit non-zero on any violation, before deploy.
+4. **Build index** — `scripts/build-index.mjs` emits the lean `data/index.json` catalogue (§6.1) from the per-lesson files — deriving `grammarUnits` (both slots), `phase`, `hasPov`, and `hasEnglishPod` (`false` where `englishpod:null`).
+5. **Validate** — `scripts/manifest.mjs` asserts every media `path` in every lesson JSON (AJ + `englishpod.audio.*` + `sixmin.audio.*` + `downloads[]`) resolves to a staged key and fails loudly on typos; `scripts/validate.mjs` checks every `data/lessons/<id>.json` against §6.2 **v2** (grammar is a 2-element array; `englishpod` is an object-or-null; `sixmin` is present) and `data/index.json` against §6.1. Both exit non-zero on any violation, before deploy.
 
 ### 5.2 Base-URL config (the one knob that makes the bucket interchangeable)
 ```js
@@ -231,61 +231,85 @@ Every lesson stores **relative keys** (`"aj-hoge/01/main.mp3"`); streaming and d
 
 ## 6. Data model
 
-### 6.1 `data/index.json` — lean catalogue (loaded once; budget ≤40 KB for 60 lessons)
+### 6.1 `data/index.json` — lean catalogue (loaded once; budget ≤40 KB for 30 lessons)
+There are now **30 weekly lessons only** — the separate `supp-*` catalogue entries are retired (EnglishPod & 6ME are sections *inside* each lesson, §6.2). `track` is therefore always `"core"` and `source` always `"aj-hoge"`; both are kept (constant) so existing readers/`validate.mjs` need no field-shape change.
 ```jsonc
 {
-  "schemaVersion": 1,
-  "generated": "2026-07-16",
+  "schemaVersion": 1,             // index is REGENERATED by build-index.mjs, not migrated — fields updated in place (no version bump)
+  "generated": "2026-07-17",
   "lessons": [
     {
       "id": "core-01",            // stable primary key
-      "track": "core",            // "core" (AJ Hoge) | "supp" (6min/EnglishPod)
-      "source": "aj-hoge",        // "aj-hoge" | "6min" | "englishpod"
+      "track": "core",            // always "core" (the 30 AJ-Hoge weekly lessons; the "supp" track is retired)
+      "source": "aj-hoge",        // always "aj-hoge"
       "order": 1,
       "slug": "intro",
       "title": "Introduction",
       "titleUz": "Kirish",
-      "level": "A2",              // "A2" | "A2-B1" | "B1" | "B1-B2"
+      "level": "B1",              // "A2" | "A2-B1" | "B1" | "B1-B2" (grammar spine now runs B1→B2, 02 §1)
+      "phase": 1,                 // 1 Poydevor | 2 Sur'at | 3 Ravonlik — for the map's phase grouping (04 §4.2)
       "tags": ["mindset", "method"],
-      "grammarUnit": "present-simple",  // links §6.2 grammar; null if none
-      "durationSec": 2652,        // sum of this lesson's audio
-      "hasPov": false,
-      "hasQuiz": false,
-      "hasDialogue": false,
-      "youtubeCount": 1
+      "grammarUnits": ["present-simple-habits", "frequency-adverbs"],  // ← the TWO topic slugs (was single grammarUnit); [] never null
+      "durationSec": 2652,        // sum of this lesson's audio (AJ set + EnglishPod dg/pr/rv + 6ME)
+      "hasPov": false,            // POV present (audio or text) — false for L01–08
+      "hasEnglishPod": true,      // EnglishPod section present — false for L15 & L22 (englishPod:null, §6.2)
+      "youtubeCount": 1           // 6 Minute English is present on all 30, so no flag is needed
     }
   ]
 }
 ```
 
-### 6.2 `data/lessons/<id>.json` — full lesson (lazy-loaded on navigation; budget ≤25 KB)
-Covers every owner-required section. Blocks are optional per source and the UI renders only those present (AJ Hoge → `ministory`/`vocab`/`pov`; EnglishPod → `dialogue`; 6 Minute → `quiz`).
+### 6.2 `data/lessons/<id>.json` — full lesson (lazy-loaded on navigation; budget ≤25 KB gzip, §8)
+One file = one **whole weekly AJ Hoge lesson** (MAIN + VOCAB + MINI_STORY + POV, never divided) wrapped with **two original grammar topics + one EnglishPod episode + one 6 Minute English episode** as in-lesson sections (02 §2). Sections render only when their data is present: POV (audio+text) for L09–30, text-only for L19 (`audio.pov:null`, `transcripts.pov` present); the `englishpod` block is **`null` for L15 & L22** (section gated off — the same data-presence gate used for POV). *(Key casing: the schema keys are lowercase `englishpod` / `sixmin` — matching the R2 media prefixes `englishpod/` `sixmin/` (§2.5) and the progress steps; 02's prose calls these `englishPod` / `sixMinute`, the same blocks.)* **`schemaVersion` is bumped `1 → 2`** for the new shape — see the migration note below.
 ```jsonc
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,                             // ← bumped from 1 (grammar→array; +englishpod/+sixmin); migrate note below
   "id": "core-09", "track": "core", "source": "aj-hoge", "order": 9,
   "slug": "kaizen", "title": "Kaizen", "titleUz": "Kayzen — kichik qadamlar",
-  "level": "A2-B1", "tags": ["mindset", "habits"],
+  "level": "B1", "tags": ["mindset", "habits"],
   "intro": { "uz": "Bu darsda …", "en": "In this lesson …" },
   "canDo": { "uz": "Dars oxirida ayta olasiz: …", "en": "By the end you can …" },  // measurable can-do goal, section ⓿ (04 §4.3.1)
 
-  "grammar": {                                    // explained in Uzbek where it helps
-    "unit": "past-simple",
-    "titleUz": "Oʻtgan oddiy zamon (Past Simple)",
-    "bodyHtml": "<p>…</p>",                       // precompiled from authoring/grammar/<id>.md, sanitized (§4)
-    "contrastUz": "Oʻzbekcha -di qoʻshimchasi bilan solishtiring …",
-    "errorFixUz": "❌ … ✅ …",                     // 20-sec "Xato tuzatish" L1-trap card (02 §2/§6; 04 §4.3.6; also the spaced micro-card seed)
-    "examples": [ { "en": "I worked yesterday.", "uz": "Men kecha ishladim." } ],
-    "exercises": [                                // type: "gap-fill" (auto-checked) | "say-true" (spoken honor-check, answer:null — 04 §4.3.6)
-      // gap-fill: optional "options":[…] renders a tap-to-answer MCQ (instant ✓/✗); when omitted, the UI falls back to a reveal + honor self-check (04 §4.3.6, added S3).
-      { "type": "gap-fill", "prompt": "I ___ (go) home.", "options": ["went", "goed", "gone"], "answer": "went", "hintUz": "irregular: go→went" },
-      { "type": "say-true", "promptUz": "O'zingiz haqingizda rost gap ayting …", "answer": null }
-    ],
-    "reference": { "book": "Essential Grammar in Use", "unit": 11,
-                   "downloadPath": "grammar/essential-grammar-in-use.pdf" }
-  },
+  "grammar": [                                    // ← ARRAY of exactly TWO original topics (02 §2/§4). grammar[0]=Grammar A (Days 1–2), grammar[1]=Grammar B (Days 3–4)
+    {
+      "slot": "A",                                //   "A" | "B" — drives the "Grammatika: A va B" two-card panel (04 §4.3.6)
+      "unit": "present-perfect-intro",            //   stable slug → #/grammar/<unit>
+      "titleUz": "Present perfect bilan tanishuv: since / How long",
+      "titleEn": "Present perfect — first contact",
+      "bandLifter": "IELTS Part 1 — talk about what you've done up to now",  // 02 §2/§4 UI tag: the IELTS band-lifter this topic earns
+      "cefrCanDo": "B1: I can say how long I have been doing something",      // 02 §2/§4 UI tag: the felt CEFR can-do
+      "bodyHtml": "<p>…</p>",                     //   precompiled from authoring/grammar/<id>-A.md, sanitized (§4)
+      "contrastUz": "Oʻzbekcha '-gan' bilan solishtiring …",                 // explicit L1 contrast
+      "errorFixUz": "❌ … ✅ …",                   //   20-sec "Xato tuzatish" L1-trap card, PER TOPIC (02 §2/§6; 04 §4.3.6; also the spaced micro-card seed)
+      "examples": [ { "en": "I have studied since 2020.", "uz": "Men 2020-yildan beri oʻqiyman." } ],
+      "exercises": [                              //   type: "gap-fill" (auto-checked) | "say-true" (spoken honor-check, answer:null — 04 §4.3.6)
+        // gap-fill: optional "options":[…] renders a tap-to-answer MCQ (instant ✓/✗); when omitted, the UI falls back to a reveal + honor self-check (04 §4.3.6, added S3).
+        { "type": "gap-fill", "prompt": "I ___ English since 2020.", "options": ["have studied", "studied", "study"], "answer": "have studied", "hintUz": "since + past point → present perfect" },
+        { "type": "say-true", "promptUz": "Oʻzingiz haqingizda rost gap ayting: 'I have … since …'", "answer": null }
+      ],
+      "reference": { "book": "Essential Grammar in Use", "unit": 16,          // OPTIONAL — Murphy is download-only reference, never the on-site source (02 §4)
+                     "downloadPath": "grammar/essential-grammar-in-use.pdf" }
+    },
+    {
+      "slot": "B",
+      "unit": "gradual-change",
+      "titleUz": "Bosqichma-bosqich oʻzgarish: better and better; get + comparative",
+      "titleEn": "Gradual change — comparative-and-comparative",
+      "bandLifter": "IELTS Part 2 — describe how something changed over time",
+      "cefrCanDo": "B1→B2: I can describe a gradual trend",
+      "bodyHtml": "<p>…</p>",                     //   from authoring/grammar/<id>-B.md
+      "contrastUz": "…",
+      "errorFixUz": "❌ … ✅ …",
+      "examples": [ { "en": "My English is getting better and better.", "uz": "Inglizcham tobora yaxshilanmoqda." } ],
+      "exercises": [
+        { "type": "gap-fill", "prompt": "It gets ___ (good) and ___ (good).", "answer": "better and better", "hintUz": "comparative-and-comparative" },
+        { "type": "say-true", "promptUz": "Oʻzingiz haqingizda rost gap ayting …", "answer": null }
+      ]
+      // "reference" omitted when there is no matching optional Murphy unit
+    }
+  ],
 
-  "audio": {                                      // AJ Hoge components; nulls encode inventory gaps
+  "audio": {                                      // AJ Hoge components (the never-divided set); nulls encode inventory gaps
     "main":      { "path": "aj-hoge/09/main.mp3",      "durationSec": 1290, "bytes": 33000000, "transcriptKey": "main" },
     "vocab":     { "path": "aj-hoge/09/vocab.mp3",     "durationSec": 620,  "bytes": 9900000,  "transcriptKey": "vocab" },
     "ministory": { "path": "aj-hoge/09/ministory.mp3", "durationSec": 900,  "bytes": 14000000, "transcriptKey": null },
@@ -294,38 +318,74 @@ Covers every owner-required section. Blocks are optional per source and the UI r
   },
 
   "transcripts": {                                // READ-ALONG, not time-synced (PDFs carry no timestamps)
-    "main":  ["para 1 …", "para 2 …"],
-    "vocab": ["…"],
-    "pov":   ["…"]
+    "main":   ["para 1 …", "para 2 …"],
+    "vocab":  ["…"],
+    "pov":    ["…"],
+    "sixmin": ["para 1 …", "para 2 …"]            // the 6ME episode read-along (referenced by sixmin.audio.main.transcriptKey)
+    // EnglishPod's transcript IS its structured `englishpod.dialogue` (below), so it needs no entry here
   },
 
-  "ministory": {                                  // the core speaking drill (AJ Hoge)
+  "ministory": {                                  // the core speaking drill (AJ Hoge) — the mandatory gate
     "audioKey": "ministory",
     "pairs": [ { "q": "Did Hiro want to change?", "a": "Yes, he wanted to change." } ]
   },
 
-  "vocab": [
+  "vocab": [                                      // AJ Hoge VOCAB glossary (chunks + Uzbek gloss)
     { "en": "improve", "pos": "v", "uz": "yaxshilamoq",
       "defEn": "to make better", "example": "I want to improve my English." }
   ],
 
-  "dialogue": null,                               // EnglishPod: [{ "speaker":"A", "en":"…", "uz":"" }]  (shadowing / role-play)
-  "quiz": null,                                   // 6 Minute: [{ "q":"…", "options":["a","b","c"], "answerIndex":1, "explanationUz":"…" }]
+  "englishpod": {                                 // ← in-lesson SPEAKING section (02 §2 ⑥, §3). `null` for L15 & L22 → section gated OFF (same gate as POV)
+    "id": "0026",
+    "title": "Daily Life – New Year's Resolution",
+    "titleUz": "Kundalik hayot – Yangi yil vaʼdasi",
+    "warmup": { "uz": "Mavzu: yangi yil vaʼdalari …", "en": "Topic warm-up + a prediction question" },  // bilingual, 2 lines (02 §3.1)
+    "audio": {                                    //   dg=~1-min dialogue (cold + shadow) · pr=~10-min hosts' explanation (skippable on Sprint) · rv=~6-min recap
+      "dg": { "path": "englishpod/0026/dg.mp3", "durationSec": 62,  "bytes": 1000000 },
+      "pr": { "path": "englishpod/0026/pr.mp3", "durationSec": 600, "bytes": 9600000 },
+      "rv": { "path": "englishpod/0026/rv.mp3", "durationSec": 360, "bytes": 5800000 }
+    },
+    "dialogue": [                                 //   shadow + role-play (hide one role, 04 §5.8); this IS the EnglishPod transcript
+      { "speaker": "A", "en": "…" },
+      { "speaker": "B", "en": "…" }
+    ],
+    "keyVocab": [                                 //   PDF "Key Vocabulary" + OUR added Uzbek gloss (02 §3.3)
+      { "en": "resolution", "uz": "vaʼda / niyat", "defEn": "a firm decision to do something" }
+    ]
+  },
+
+  "sixmin": {                                     // ← in-lesson LISTENING/IELTS section (02 §2 ⑦, §3). Present on ALL 30 lessons
+    "date": "171123",
+    "title": "Getting fitter",
+    "titleUz": "Jismonan baquvvatroq boʻlish",
+    "audio": { "main": { "path": "sixmin/171123/audio.mp3", "durationSec": 360, "bytes": 5800000, "transcriptKey": "sixmin" } },
+    "quiz": [                                     //   the PDF's ready-made pre-listening MCQ (02 §3.1; answer revealed near the end) — 04 §5.10
+      // "qUz" is OPTIONAL — the bilingual stem framing (04 §5.10 "stem bilingual framing allowed"); options stay English-only.
+      { "q": "…", "qUz": "…", "options": ["a","b","c"], "answerIndex": 1, "explanationUz": "…" }
+    ],
+    "vocab": [                                    //   the 6 target words + OUR added Uzbek gloss (02 §3.5)
+      { "en": "…", "uz": "…", "defEn": "…" }
+    ]
+  },
 
   "funEnglish": [
     { "provider": "youtube", "id": "XXXXXXXXXXX",
       "title": "Kaizen for kids", "channel": "@EnglishSingsing" }
   ],
 
-  "downloads": [                                  // same key as streaming — one upload, two uses
-    { "labelUz": "Asosiy audio (MP3)", "kind": "audio", "path": "aj-hoge/09/main.mp3", "bytes": 33000000 },
-    { "labelUz": "Matn (PDF)",         "kind": "pdf",   "path": "aj-hoge/09/main.pdf", "bytes": 214563 }
+  "downloads": [                                  // same key as streaming — one upload, two uses (AJ + EnglishPod + 6ME assets)
+    { "labelUz": "Asosiy audio (MP3)",      "kind": "audio", "path": "aj-hoge/09/main.mp3",   "bytes": 33000000 },
+    { "labelUz": "Matn (PDF)",              "kind": "pdf",   "path": "aj-hoge/09/main.pdf",   "bytes": 214563 },
+    { "labelUz": "EnglishPod dialog (MP3)", "kind": "audio", "path": "englishpod/0026/dg.mp3","bytes": 1000000 },
+    { "labelUz": "6 Minute English (MP3)",  "kind": "audio", "path": "sixmin/171123/audio.mp3","bytes": 5800000 }
   ]
 }
 ```
-**Fields added in S1** (implemented + validated on `core-09`): `canDo:{uz,en}` (the section-⓿ measurable goal, 04 §4.3.1) and `grammar.errorFixUz` (the "Xato tuzatish" L1-trap card, 04 §4.3.6) — both required by the UI spec and previously implicit; and the `grammar.exercises[].type:"say-true"` variant (a spoken honor-check drill with `answer:null`). All are additive and backward-compatible.
+**Schema v1 → v2 migration (loader must handle both; validate on load).** Three shape changes only: (1) **`grammar` object → array of two topic objects** — each element keeps the same per-topic shape (`unit`, `titleUz`, `bodyHtml`, `contrastUz`, `errorFixUz`, `examples`, `exercises`, optional `reference`) and adds `slot` + the `bandLifter`/`cefrCanDo` UI tags (02 §2/§4); v1's single `grammar{}` maps to `grammar[0]` (slot "A"), with `grammar[1]` (slot "B") authored fresh. (2) **`englishpod{}` folded in** (was the separate `source:"englishpod"` supp lesson): `audio.{dg,pr,rv}` + `dialogue` + `keyVocab`; `null` gates the section off (L15/L22). (3) **`sixmin{}` folded in** (was the separate `source:"6min"` supp lesson): `audio.main` + `quiz` + `vocab`, with the read-along in `transcripts.sixmin`. The former top-level `dialogue`/`quiz` and `audio.{dg,pr,rv}` are **removed** (they now live inside `englishpod`/`sixmin`). **Separate `supp-*` lesson files no longer exist** — all six asset groups live in one `core-NN.json`. *(The shipped `data/lessons/core-09.json` has already been rebuilt to this v2 shape as the pre-S13 design-review exemplar — a `grammar[]` array of two original topics (`present-perfect-intro` slot A + `gradual-change` slot B), `englishpod{}` (0026) and `sixmin{}` (171123), ~14.5 KB gzip, within the §8 budget; see the ROADMAP "Exemplar rebuild" note. The retired `was/were` object and Murphy-unit-10 reference are gone. The remaining 29 lessons are authored directly in v2 in S13.)*
 
-**Supplementary shapes:** `source:"6min"` lessons key by `YYMMDD` (`supp-6min-180315`), use `audio.main` = the episode mp3, carry a `quiz` block, and omit `ministory`/`pov`. `source:"englishpod"` lessons key by ID (`supp-pod-0004`), expose `audio.dg`/`audio.pr`/`audio.rv`, carry a `dialogue` block, and omit `ministory`/`pov`.
+**Fields added in S1, carried into v2:** `canDo:{uz,en}` (the section-⓿ measurable goal, 04 §4.3.1); the per-topic `errorFixUz` "Xato tuzatish" L1-trap card (now inside each `grammar[]` element, 04 §4.3.6); the `grammar[].exercises[].type:"say-true"` spoken honor-check (`answer:null`).
+
+**Budget note (§8).** A v2 weekly lesson carries two grammar topics + an EnglishPod dialogue/keyVocab + a 6ME quiz/vocab/transcript, so the file is larger than a v1 core lesson (core-09 was 12.8 KB gzip with one topic and no EP/6ME). To hold the **≤25 KB gzip** per-lesson budget (§8), the read-along `transcripts.sixmin` (and, if needed, `transcripts.main`) are stored as **trimmed paragraphs**; the *full* transcript stays available as the PDF `downloads[]` entry, never inlined. EnglishPod's `dg` dialogue is short by nature (~1 min) so `englishpod.dialogue` is cheap.
 
 ### 6.3 localStorage progress — `ess.progress.v1` (the CANONICAL schema; versioned, debounced, migratable)
 
@@ -362,38 +422,36 @@ Covers every owner-required section. Blocks are optional per source and the UI r
   "badges":      ["first-step", "streak-7", "a2-foundation"],  // earned badge ids (02 §8.3 table) → gallery + earn-toast
   "ieltsTopics": { "family": 1, "food": 2 },       // per-topic practice counts → the ~20-cell coverage grid (04 §4.6)
 
-  "lessons": {                                     // ONE map, keyed by the real lesson id from index.json (03 §6.1) — core AND supp
-    "core-09": {                                   // ── CORE entry (full shape) ──
+  "lessons": {                                     // ONE map, keyed by the real lesson id from index.json (03 §6.1) — 30 weekly lessons only (supp-* entries retired)
+    "core-09": {                                   // ── WEEKLY-LESSON entry (full shape) ──
       "status":         "complete",                //   "none" | "inProgress" | "complete" | "mastered"   (04 §5.2)
       "stars":          1,                          //  0–3 — the 1★/2★/3★ tier (02 §8.1)
-      "steps": {                                    //  the Lesson-Check checklist — 8 keys (04 §5.7); rows absent in a lesson just stay false
-        "grammar":   true,  "vocab":     true,
-        "main":      true,  "ministory": true,      //  ministory = the MANDATORY speaking GATE (02 §8.1): no ★ can be earned while this is false
-        "pov":       false, "fun":       false,
-        "record":    false, "supp":      false      //  record → unlocks 2★ ; supp (paired lesson done) → unlocks 3★
+      "steps": {                                    //  the Lesson-Check checklist — 10 keys (04 §5.7); rows absent in a lesson just stay false
+        "grammarA":  true,  "grammarB":  true,      //  the TWO original topics (02 §2/§4) — both needed for 1★
+        "vocab":     true,  "main":      true,
+        "ministory": true,                          //  ministory = the MANDATORY speaking GATE (02 §8.1): no ★ can be earned while this is false
+        "pov":       false,                         //  only when present (L09–30)
+        "ep":        false, "sixmin":    false,     //  EnglishPod / 6 Minute English — in-lesson sections. ep auto-true on L15/L22 (englishPod:null). ep→2★, sixmin→3★
+        "fun":       false, "record":    false      //  fun + record + ep → unlock 2★ ; sixmin + a 2nd recording → unlock 3★ (02 §8.1)
       },
-      "listens":        { "main": 3, "ms": 2, "pov": 0 },   //  listen counts backing the "MAIN ×3 / MS ×2" 1★ rule (02 §8.1)
+      "listens":        { "main": 3, "ms": 2, "pov": 0, "ep": 0, "sixmin": 0 },  //  listen counts backing the "MAIN ×3 / MS ×2" 1★ rule + EP/6ME done (02 §8.1)
       "msAnswersAloud": 45,                         //  this lesson's spoken reps (rolls up into metrics.speakingReps)
       "startedAt":      1752000000000,              //  first opened (ms) → status:inProgress
       "completedAt":    1752100000000,              //  1★ reached (ms); null until the gate + the 1★ minimum are met
       "reviewDue":      "2026-07-19",               //  spaced review, +1/3/7/14 from completedAt (02 §8.3); Home surfaces it when ≤ today
-      "audio": {                                    //  resume position per component; keys mirror the lesson JSON audio.* (03 §6.2)
+      "audio": {                                    //  resume position per component; keys mirror the lesson JSON audio.* + englishpod.audio.* + sixmin.audio.* (03 §6.2)
         "main":      { "posSec": 300.4, "done": true },     //  done past ~90% → bumps listens + feeds the ★ gate
-        "ministory": { "posSec": 0,     "done": false }
+        "ministory": { "posSec": 0,     "done": false },
+        "dg":        { "posSec": 0,     "done": false },    //  EnglishPod dialogue
+        "sixmin":    { "posSec": 0,     "done": false }     //  6ME episode
       }
-    },
-    "supp-pod-0004": {                             // ── SUPPLEMENTARY entry (single-star done model, 02 §8.1) ──
-      "status":      "complete",                    //  supp tops out at "complete" (max 1★). Key = the REAL supp id (03 §6.1) — never "supp-01"
-      "stars":       1,
-      "steps":       { "dg": true, "vocab": true, "shadow": true, "roleplay": true },  // keys match the template — EnglishPod here; 6ME = {listen,quiz,vocab,record} (02 §3/§8.1)
-      "completedAt": 1752200000000,
-      "reviewDue":   null,
-      "audio":       { "dg": { "posSec": 0, "done": true } }
     }
   }
 }
 ```
 Read on load; if `schemaVersion` ≠ current, run `migrate(prev)` (or discard gracefully → a clean default object). All reads/writes wrapped in `try/catch` (private mode / quota exceeded); `timeupdate` position writes debounced (~5 s). Import (04 §4.6) validates `schemaVersion`, attempts `migrate()`, and shows a diff-preview before it overwrites.
+
+> **Curriculum-redefinition note (no version bump).** The step set changed with the redefinition — `grammar` split into `grammarA`/`grammarB`, `ep`/`sixmin` added, `supp` dropped, and the separate `supp-*` lesson entries removed (EnglishPod & 6ME are now sub-steps of their weekly lesson). This stays **`schemaVersion: 1`**: the change predates launch, and the reader already treats any absent step key as `false`, so legacy dev data (a lone `steps.grammar`, an orphan `steps.supp`, or a stray `supp-*` entry) is simply ignored — normalised opportunistically on write (`grammar`→`grammarA`, orphans pruned) rather than via a migration. The 02 §8.2 illustrative excerpt matches this (still `schemaVersion: 1`).
 
 ---
 
@@ -432,11 +490,11 @@ Read on load; if `schemaVersion` ≠ current, run `migrate(prev)` (or discard gr
 | `styles.css` | ≤ 15 KB | one file, no CSS framework |
 | `app.js` | ≤ 35 KB | vanilla, zero runtime deps |
 | `index.json` | ≤ 40 KB | lean fields only; full lesson lazy-loaded |
-| per-lesson JSON | ≤ 25 KB | fetched on navigation |
+| per-lesson JSON | ≤ 25 KB | fetched on navigation; the v2 weekly shape (2 grammar topics + EnglishPod + 6ME) holds this by trimming inlined read-along transcripts — full text stays PDF-download-only (§6.2) |
 | Web fonts | **0 KB** | **system font stack** (no Google Fonts `@import`) |
 | YouTube (pre-tap) | **0 KB** | facade thumbnail → iframe only on click |
 
-**Tactics:** system fonts (kill the sibling apps' render-blocking third-party font request); YouTube facade; `<audio preload="none">`; lazy per-lesson fetch + `loading="lazy"` images; inline SVG / emoji (no icon font); `immutable` long-cache on media (R2) + manual `?v=N` cache-bust on `app.js`; host-applied gzip/brotli (JSON compresses ~5–8×). Because content is JSON and the renderer is fixed, JS stays flat from 30 → 60+ lessons.
+**Tactics:** system fonts (kill the sibling apps' render-blocking third-party font request); YouTube facade; `<audio preload="none">`; lazy per-lesson fetch + `loading="lazy"` images; inline SVG / emoji (no icon font); `immutable` long-cache on media (R2) + manual `?v=N` cache-bust on `app.js`; host-applied gzip/brotli (JSON compresses ~5–8×). Because content is JSON and the renderer is fixed, JS stays flat as the 30 weekly lessons are authored (and would stay flat past 30).
 
 ---
 

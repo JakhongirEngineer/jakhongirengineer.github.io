@@ -13,8 +13,10 @@ import { lsGetObj, lsSetObj } from "./core.js";
 const now = () => Date.now();
 const today = () => new Date().toISOString().slice(0, 10);
 
-// key (lesson JSON audio.*) → the listens.* field that backs the 1★ rule (02 §8.1).
-const LISTEN_FIELD = { main: "main", ministory: "ms", pov: "pov" };
+// key (lesson JSON audio.* / englishpod.audio.* / sixmin.audio.*) → the listens.*
+// field that backs the ★ rules (02 §8.1). EnglishPod `dg` feeds `ep`; the 6ME main
+// feeds `sixmin`. pr/rv are explanation/recap — not listen-counted.
+const LISTEN_FIELD = { main: "main", ministory: "ms", pov: "pov", dg: "ep", sixmin: "sixmin" };
 
 function ensure(o) {
   o.schemaVersion = 1;
@@ -26,19 +28,26 @@ function ensure(o) {
   return o;
 }
 
+// The curriculum-redefinition step set (03 §6.3, no version bump): grammar split
+// into grammarA/grammarB, ep/sixmin folded in, supp dropped. Any absent step key
+// reads as false, so legacy dev data (a lone `grammar`, an orphan `supp`) is simply
+// ignored; the new default carries the current shape.
+function defaultLesson() {
+  return {
+    status: "none", stars: 0,
+    steps: { grammarA: false, grammarB: false, vocab: false, main: false, ministory: false,
+             pov: false, ep: false, sixmin: false, fun: false, record: false },
+    listens: { main: 0, ms: 0, pov: 0, ep: 0, sixmin: 0 },
+    msAnswersAloud: 0,
+    startedAt: null, completedAt: null, reviewDue: null, audio: {},
+  };
+}
+
 function ensureLesson(o, id) {
-  if (!o.lessons[id]) {
-    o.lessons[id] = {
-      status: "none", stars: 0,
-      steps: { grammar: false, vocab: false, main: false, ministory: false,
-               pov: false, fun: false, record: false, supp: false },
-      listens: { main: 0, ms: 0, pov: 0 },
-      msAnswersAloud: 0,
-      startedAt: null, completedAt: null, reviewDue: null, audio: {},
-    };
-  }
+  if (!o.lessons[id]) o.lessons[id] = defaultLesson();
   const L = o.lessons[id];
-  if (!L.listens) L.listens = { main: 0, ms: 0, pov: 0 };
+  if (!L.listens) L.listens = { main: 0, ms: 0, pov: 0, ep: 0, sixmin: 0 };
+  else for (const k of ["main", "ms", "pov", "ep", "sixmin"]) if (typeof L.listens[k] !== "number") L.listens[k] = 0;
   if (!L.audio) L.audio = {};
   if (typeof L.msAnswersAloud !== "number") L.msAnswersAloud = 0;
   return L;

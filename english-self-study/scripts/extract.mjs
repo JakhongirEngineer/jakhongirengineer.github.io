@@ -15,8 +15,26 @@ import {
   RAW_DIR, parseLessonId, curatedLessonIds, writeTextFile, writeJson, reflowParagraphs,
   step, ok, info, warn, fail, relRoot,
 } from "./lib/util.mjs";
-import { resolveByLessonMeta } from "./lib/normalise.mjs";
+import { resolveByLessonMeta, resolveCoreEpisodes } from "./lib/normalise.mjs";
 import { pdfPlainText, parseMiniStory } from "./lib/pdf.mjs";
+
+// Best-effort speaker split for the EnglishPod dialogue draft (a curation aid,
+// 03 §5.1). The dg transcript lines start with a role tag ("A:", "B:", "Jerry:")
+// — we group the region between the "Dialog"/"Dialogue" header and the "Key
+// Vocabulary" / "Language Takeaway" section. Curation refines this by hand.
+function splitEnglishPodDialogue(text) {
+  const lines = text.replace(/\r/g, "").split("\n").map((l) => l.trim()).filter(Boolean);
+  const startAt = lines.findIndex((l) => /^dialog(ue)?\b/i.test(l));
+  const endAt = lines.findIndex((l) => /^(key vocabulary|language takeaway|vocabulary|supplementary)/i.test(l));
+  const region = lines.slice(startAt >= 0 ? startAt + 1 : 0, endAt >= 0 ? endAt : lines.length);
+  const out = [];
+  for (const l of region) {
+    const m = /^([A-Za-z][\w .'-]{0,24}?):\s*(.+)$/.exec(l);
+    if (m) out.push({ speaker: m[1], en: m[2].trim() });
+    else if (out.length) out[out.length - 1].en += " " + l;   // wrapped line
+  }
+  return out;
+}
 
 // id → ordered list of {component, pdf:{src,key}} for the transcript PDFs.
 function transcriptPdfs(meta, resolved) {
@@ -53,6 +71,27 @@ async function extractLesson(id) {
     const parsed = await parseMiniStory(resolved.pdf.ministory.src);
     writeJson(join(outDir, "ministory.pairs.json"), { pairs: parsed.pairs });
     ok(`${id}: ${parsed.pairs.length} mini-story {q,a} pairs, ${parsed.statements.length} statements`);
+  }
+
+  // A weekly core lesson also folds in ONE EnglishPod + ONE 6ME episode (02 §2/§5).
+  // Extract their transcript PDFs into the same data/raw/<id>/ dir + curation
+  // drafts (englishpod.dialogue.json speaker-split, sixmin.para.json read-along).
+  if (meta.source === "aj-hoge") {
+    const { englishpod, sixmin } = resolveCoreEpisodes(meta.ajNumber);
+    if (englishpod?.pdf) {
+      const epText = await pdfPlainText(englishpod.pdf.src);
+      writeTextFile(join(outDir, "englishpod.txt"), epText);
+      writeJson(join(outDir, "englishpod.dialogue.json"), { id: englishpod.id, lines: splitEnglishPodDialogue(epText) });
+      info(`${id}/englishpod.txt  ←  ${relRoot(englishpod.pdf.src)}  (EP ${englishpod.id})`);
+    } else if (englishpod === null) {
+      info(`${id}: EnglishPod gated off (englishpod:null per 02 §5)`);
+    }
+    if (sixmin?.pdf) {
+      const sixText = await pdfPlainText(sixmin.pdf.src);
+      writeTextFile(join(outDir, "sixmin.txt"), sixText);
+      writeJson(join(outDir, "sixmin.para.json"), { date: sixmin.date, paragraphs: reflowParagraphs(sixText) });
+      info(`${id}/sixmin.txt  ←  ${relRoot(sixmin.pdf.src)}  (6ME ${sixmin.date})`);
+    }
   }
 }
 

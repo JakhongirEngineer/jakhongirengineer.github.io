@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "id": "core-09",
   "track": "core",
   "source": "aj-hoge",
@@ -7,79 +7,160 @@
   "slug": "kaizen",
   "title": "Kaizen",
   "titleUz": "Kayzen — kichik qadamlar",
-  "level": "A2-B1",
+  "level": "B1",
   "tags": [
     "mindset",
     "habits",
-    "past-simple"
+    "present-perfect",
+    "gradual-change"
   ],
   "intro": {
-    "uz": "Kayzen — har kuni kichik qadamlar bilan katta oʻzgarishga erishish. Bu darsda oʻtgan zamon feʼli was/were bilan tanishamiz va Jan haqidagi hikoyani tinglaymiz.",
-    "en": "Kaizen — reaching big change through tiny daily steps. In this lesson we meet the past tense of “to be” (was / were) and listen to the story of Jan."
+    "uz": "Kayzen — har kuni kichik qadamlar bilan katta oʻzgarishga erishish. Bu haftaning ikki grammatik mavzusi: oʻtmishdan hozirgacha davom etadigan ish (present perfect — since / How long) va bosqichma-bosqich oʻzgarish (better and better). Jan haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Kaizen — reaching big change through tiny daily steps. This week's two grammar topics: actions that run from the past up to now (present perfect — since / How long) and gradual change (better and better). You'll hear both in the POV story about Jan."
   },
   "canDo": {
-    "uz": "Dars oxirida “Was Jan rude?” kabi savollarga toʻxtamasdan, ovoz chiqarib javob bera olasiz.",
-    "en": "By the end you can answer questions like “Was Jan rude?” out loud, without pausing."
+    "uz": "Dars oxirida “How long have you …?” savoliga toʻxtamasdan javob bera olasiz va bosqichma-bosqich oʻzgarishni (“better and better”) tasvirlab bera olasiz.",
+    "en": "By the end you can answer “How long have you …?” out loud without pausing, and describe a gradual change (“better and better”)."
   },
-  "grammar": {
-    "unit": "past-simple-be",
-    "titleUz": "Oʻtgan zamonda “boʻlmoq” — was / were",
-    "bodyHtml": "<p>Ingliz tilida hozirgi zamondagi <strong>am / is / are</strong> oʻtgan zamonda faqat ikkita soʻzga aylanadi: <strong>was</strong> va <strong>were</strong>. Bu darsdagi hikoyada Jan qanday odam <em>boʻlgani</em> haqida gapiramiz — &quot;Jan rude <strong>edi</strong>&quot;, &quot;uning doʻstlari xafa <strong>edi</strong>&quot; — shuning uchun aynan shu ikki soʻz kerak boʻladi.</p>\n<h3>Qachon <em>was</em>, qachon <em>were</em>?</h3>\n<p>Qoida juda sodda, uni bir marta tushunib olsangiz kifoya:</p>\n<ul>\n<li><strong>I, he, she, it → was</strong> — <em>I <strong>was</strong> tired. Jan <strong>was</strong> rude. It <strong>was</strong> difficult.</em></li>\n<li><strong>you, we, they → were</strong> — <em>You <strong>were</strong> right. We <strong>were</strong> happy. Her friends <strong>were</strong> sad.</em></li>\n</ul>\n<p>Yaʼni birlikda (men, u) <strong>was</strong>, koʻplikda va <em>you</em> bilan <strong>were</strong>. Boshqa hech qanday qoʻshimcha yodlash shart emas.</p>\n<h3>Boʻlishsiz shakl</h3>\n<p>Feʼldan keyin <strong>not</strong> qoʻshiladi: <strong>was not (wasn't)</strong>, <strong>were not (weren't)</strong>.</p>\n<ul>\n<li><em>Jan <strong>wasn't</strong> kind at first.</em> — Jan avval mehribon emas edi.</li>\n<li><em>They <strong>weren't</strong> happy.</em> — Ular xursand emas edi.</li>\n</ul>\n<h3>Savol berish</h3>\n<p>Soʻroqda <strong>was/were</strong> gap boshiga chiqadi:</p>\n<ul>\n<li><em><strong>Was</strong> Jan gentle and kind?</em> — Jan muloyim va mehribon edimi?</li>\n<li><em><strong>Were</strong> her zingers kind?</em> — Uning achchiq gaplari yoqimli edimi?</li>\n</ul>\n<p>Qisqa javobda ham xuddi shu soʻz takrorlanadi: <em>Yes, she <strong>was</strong>. / No, they <strong>weren't</strong>.</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> grammatikani yodlash emas, <em>sezish</em> muhim. Mini-hikoyani va POV hikoyani koʻp marta tinglang — <em>was</em> va <em>were</em> quloqqa tabiiy eshitila boshlaydi. Grammatika faqat hikoya tushunarli boʻlishi uchun.</p>\n</blockquote>",
-    "contrastUz": "Oʻzbekchada bitta “edi” soʻzi barcha shaxslar uchun ishlaydi: men rude edim, u rude edi, ular rude edi. Inglizchada esa shaxsga qarab was yoki were tanlanadi — “edi” ikkiga boʻlinadi.",
-    "errorFixUz": "❌ They was happy. ✅ They were happy. Oʻzbek oʻquvchilar koʻplik uchun ham was ishlatib yuboradi. Yodda tuting: you / we / they bilan doim were.",
-    "examples": [
-      {
-        "en": "Jan was rude.",
-        "uz": "Jan qoʻpol edi."
-      },
-      {
-        "en": "Her friends were unhappy.",
-        "uz": "Uning doʻstlari xafa edi."
-      },
-      {
-        "en": "Was Jan gentle and kind?",
-        "uz": "Jan muloyim va mehribon edimi?"
-      },
-      {
-        "en": "No, they weren't happy.",
-        "uz": "Yoʻq, ular xursand emas edi."
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-intro",
+      "titleUz": "Present perfect bilan tanishuv: since / for / How long",
+      "titleEn": "Present perfect — first contact",
+      "bandLifter": "IELTS Part 1 — talk about how long you have done something",
+      "cefrCanDo": "B1: I can say how long I have been doing something (for / since)",
+      "bodyHtml": "<p>Bu darsning POV hikoyasida bir jumla qayta-qayta yangraydi: <em>&quot;Since she was a child Jan <strong>has been</strong> rude. How long <strong>has</strong> Jan <strong>been</strong> rude?&quot;</em> Bu — <strong>present perfect</strong> (hozirgi tugallangan zamon). Uni yodlamaymiz; POV va mini-hikoyani tinglab, quloq bilan sezasiz. Bu yerda faqat bitta narsani ochamiz — bu zamon <strong>nima maʼno beradi</strong> va nega u kerak.</p>\n<h3>Maʼnosi: oʻtmishda boshlanib, hozirgacha davom etayotgan ish</h3>\n<p>Present perfect — oʻtmish bilan hozirni bogʻlaydigan <strong>koʻprik</strong>. Ish oʻtmishning bir nuqtasida boshlangan va <strong>hozir ham davom etmoqda</strong> (yoki natijasi hozir ham seziladi). Aynan Kayzenning gʻoyasi: kichik ish oʻtmishda boshlanadi, kunlar oʻtadi, natija bugungacha yigʻilib boradi.</p>\n<ul>\n<li><em>Jan <strong>has been</strong> rude <strong>since</strong> she was a child.</em> — Jan bolaligidan beri qoʻpol (hozir ham).</li>\n<li><em>I <strong>have studied</strong> English <strong>for</strong> three years.</em> — Men uch yildan beri ingliz tili oʻrganaman (hali ham davom etmoqda).</li>\n</ul>\n<p>Shakli sodda: <strong>have / has + V3</strong> — feʼlning uchinchi shakli (<em>been, studied, lived, worked, known</em>). <em>I / you / we / they</em> bilan <strong>have</strong>, <em>he / she / it</em> bilan <strong>has</strong>. Nutqda koʻpincha qisqaradi: <em>I've, she's, they've</em>.</p>\n<h3>Ikki kalit soʻz — <code>since</code> va <code>for</code> (ularni adashtirmang)</h3>\n<p>Ikkalasi ham present perfect bilan tez-tez keladi, ammo <strong>butunlay boshqa</strong> narsani bildiradi:</p>\n<ul>\n<li><strong>since + boshlanish nuqtasi</strong> (qachondan beri): <em>since 2020, since Monday, since she was a child.</em> — ish <strong>qachon</strong> boshlanganini aytadi.</li>\n<li><strong>for + davomiylik</strong> (qancha vaqt): <em>for three years, for two hours, for a long time.</em> — ish <strong>qancha</strong> davom etganini aytadi.</li>\n</ul>\n<p>Savolda <strong>How long…?</strong> ishlatiladi — &quot;qachondan beri / qancha vaqt&quot;:</p>\n<ul>\n<li><em><strong>How long has</strong> Jan <strong>been</strong> rude?</em> — <em><strong>Since</strong> she was a child.</em> / <em><strong>For</strong> many years.</em></li>\n<li><em><strong>How long have</strong> you <strong>studied</strong> English?</em> — <em><strong>For</strong> three years.</em> / <em><strong>Since</strong> 2021.</em></li>\n</ul>\n<h3>Nega bu B1 belgisi va IELTSga foydali</h3>\n<p>Suhbatda &quot;Bu ish bilan qachondan beri shugʻullanasiz?&quot; degan savol doim uchraydi. <em>&quot;I have lived here <strong>for</strong> five years&quot;</em> yoki <em>&quot;I have known her <strong>since</strong> school&quot;</em> deb bemalol javob bersangiz, darajangiz koʻrinadi. Kichik farq — katta taassurot.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> grammatikani mukammal <em>bilishga</em> emas, <em>sezishga</em> harakat qiling. POVni tinglayotganda <em>has been</em>, <em>since</em>, <em>for</em> soʻzlarini shunchaki payqang. Bir necha marta eshitgach, ular quloqqa tabiiy urila boshlaydi — grammatika esa faqat hikoyani tushunish uchun xizmat qiladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida buni hozirgi zamonda aytamiz: “2020-yildan beri oʻqiyman”. Ingliz tili esa oʻtmishda boshlanib hozirgacha davom etayotgan ish uchun maxsus present perfect ishlatadi: “I have studied since 2020”. “beri” = since (boshlanish nuqtasi), “… yildan/davomida” = for (davomiylik).",
+      "errorFixUz": "❌ I study English since 2020. ✅ I have studied English since 2020. Oʻzbek oʻquvchilar since/for bilan hozirgi oddiy zamonni ishlatib yuboradi. since yoki for kelsa — present perfect (have/has + V3).",
+      "examples": [
+        {
+          "en": "Jan has been rude since she was a child.",
+          "uz": "Jan bolaligidan beri qoʻpol."
+        },
+        {
+          "en": "I have studied English for three years.",
+          "uz": "Men uch yildan beri ingliz tili oʻrganaman."
+        },
+        {
+          "en": "How long have you lived here?",
+          "uz": "Bu yerda qancha vaqtdan beri yashaysiz?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Jan ___ rude since she was a child.",
+          "options": [
+            "has been",
+            "was",
+            "is"
+          ],
+          "answer": "has been",
+          "hintUz": "since + oʻtmish nuqtasi → present perfect (has + been)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I have studied English ___ three years.",
+          "options": [
+            "for",
+            "since",
+            "from"
+          ],
+          "answer": "for",
+          "hintUz": "davomiylik (qancha vaqt) → for; “since” esa boshlanish nuqtasi uchun"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "How long ___ you known her?",
+          "options": [
+            "have",
+            "did",
+            "are"
+          ],
+          "answer": "have",
+          "hintUz": "How long + present perfect → have/has + V3"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I have … for/since …”.",
+          "answer": null,
+          "hintUz": "have/has + V3 + for/since"
+        }
+      ],
+      "reference": {
+        "book": "Essential Grammar in Use",
+        "unit": 16,
+        "downloadPath": "grammar/essential-grammar-in-use.pdf"
       }
-    ],
-    "exercises": [
-      {
-        "type": "gap-fill",
-        "prompt": "Jan ___ very rude to everyone. (be)",
-        "options": ["was", "were"],
-        "answer": "was",
-        "hintUz": "u (she) → was"
-      },
-      {
-        "type": "gap-fill",
-        "prompt": "Her friends ___ sad and they cried. (be)",
-        "options": ["was", "were"],
-        "answer": "were",
-        "hintUz": "they → were"
-      },
-      {
-        "type": "gap-fill",
-        "prompt": "___ you happy yesterday?",
-        "options": ["Was", "Were"],
-        "answer": "Were",
-        "hintUz": "you → were; savol boshida"
-      },
-      {
-        "type": "say-true",
-        "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “Yesterday I was …”",
-        "answer": null,
-        "hintUz": "I → was"
-      }
-    ],
-    "reference": {
-      "book": "Essential Grammar in Use",
-      "unit": 10,
-      "downloadPath": "grammar/essential-grammar-in-use.pdf"
+    },
+    {
+      "slot": "B",
+      "unit": "gradual-change",
+      "titleUz": "Bosqichma-bosqich oʻzgarish: better and better; get + comparative",
+      "titleEn": "Gradual change — comparative-and-comparative",
+      "bandLifter": "IELTS Part 2 — describe how something changed over time",
+      "cefrCanDo": "B1→B2: I can describe a gradual trend (better and better)",
+      "bodyHtml": "<p>Kayzen — bu <strong>bosqichma-bosqich</strong> oʻsish: har kuni bir oz yaxshiroq. Ingliz tili buni ikki chiroyli qolip bilan ifodalaydi, va ikkalasini ham shu darsda eshitasiz. MAIN talkda AJ <em>&quot;better and better answers&quot;</em> deydi, POVda esa Jan ikki yil davomida <em>&quot;nicer and nicer&quot;</em> boʻlib boradi.</p>\n<h3>1-qolip: <code>get / become + qiyosiy daraja</code> (oʻzgarishni koʻrsatadi)</h3>\n<p><strong>get</strong> yoki <strong>become</strong> feʼli &quot;holat oʻzgaryapti&quot; degan maʼnoni beradi. Undan keyin sifatning <strong>qiyosiy</strong> (comparative) shakli keladi:</p>\n<ul>\n<li><em>My English <strong>is getting better</strong>.</em> — Inglizcham yaxshilanyapti.</li>\n<li><em>The questions <strong>become easier</strong>.</em> — Savollar osonlashib boradi.</li>\n<li><em>It <strong>is getting harder</strong> to stop.</em> — Toʻxtash qiyinlashib boradi.</li>\n</ul>\n<p>Qiyosiy shaklni yasash: qisqa sifatga <strong>-er</strong> (<em>old → older, easy → easier</em>), uzun sifatga <strong>more</strong> (<em>difficult → more difficult</em>). Notoʻgʻri shakllarni yodda tuting: <em>good → <strong>better</strong></em>, <em>bad → <strong>worse</strong></em>.</p>\n<h3>2-qolip: <code>qiyosiy and qiyosiy</code> (tobora kuchayib borishni koʻrsatadi)</h3>\n<p>Bir xil qiyosiy soʻzni <strong>and</strong> bilan takrorlasangiz, &quot;borgan sari koʻproq&quot; degan maʼno chiqadi — jarayon toʻxtovsiz kuchayadi:</p>\n<ul>\n<li><em>better <strong>and</strong> better</em> — tobora yaxshiroq</li>\n<li><em>nicer <strong>and</strong> nicer</em> — tobora yoqimliroq</li>\n<li><em>more <strong>and</strong> more difficult</em> — borgan sari qiyinroq (uzun sifat: <em>more and more + sifat</em>)</li>\n</ul>\n<p>Kayzenning butun mohiyati shu jumlada: <em>&quot;If you practise every day, your English gets <strong>better and better</strong>.&quot;</em></p>\n<h3>Ikkalasini birga</h3>\n<ul>\n<li><em>The more you listen, the <strong>more natural</strong> it <strong>gets</strong>.</em> — Qancha koʻp tinglasangiz, shuncha tabiiy boʻlib boradi.</li>\n<li><em>Little by little, Jan <strong>became kinder and kinder</strong>.</em> — Sekin-asta Jan tobora mehribonroq boʻldi.</li>\n</ul>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>IELTS Part 2 da &quot;biror narsa vaqt oʻtishi bilan qanday oʻzgargani&quot;ni tasvirlash kerak boʻladi. <em>&quot;My speaking got <strong>more and more</strong> confident&quot;</em> kabi jumla — bosqichma-bosqich oʻzgarishni aniq va ravon koʻrsatadigan B1→B2 belgisidir.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qoliplarni mashq qilishning eng yaxshi yoʻli — oʻzingiz haqingizda aytish. Har kuni bir jumla: <em>&quot;My English is getting better and better.&quot;</em> Uni ovoz chiqarib ayting — miya oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha “tobora yaxshiroq” yoki “borgan sari yaxshiroq” bir soʻz bilan tugaydi. Ingliz tili sifatni takrorlaydi: “better and better”. “get/become” esa oʻzbekcha “-lashib bormoq” (yaxshilanib bormoq) maʼnosini beradi.",
+      "errorFixUz": "❌ more better / gooder and gooder. ✅ better and better. “good”ning qiyosiy shakli — “better” (more ham, -er ham qoʻshilmaydi). Uzun sifatlarda esa: “more and more difficult”.",
+      "examples": [
+        {
+          "en": "My English is getting better and better.",
+          "uz": "Inglizcham tobora yaxshilanmoqda."
+        },
+        {
+          "en": "Little by little, she became kinder and kinder.",
+          "uz": "Sekin-asta u tobora mehribonroq boʻldi."
+        },
+        {
+          "en": "The more you practise, the easier it gets.",
+          "uz": "Qancha koʻp mashq qilsangiz, shuncha osonlashadi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "With kaizen, my English is getting ___.",
+          "options": [
+            "better and better",
+            "good and good",
+            "more better"
+          ],
+          "answer": "better and better",
+          "hintUz": "good → better; “better and better” = tobora yaxshiroq"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Small daily steps make you ___ over time.",
+          "options": [
+            "stronger and stronger",
+            "strong and strong",
+            "more stronger"
+          ],
+          "answer": "stronger and stronger",
+          "hintUz": "qisqa sifat + -er, takrorlanadi: stronger and stronger"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The exercises ___ easier every week.",
+          "options": [
+            "get",
+            "gets",
+            "getting"
+          ],
+          "answer": "get",
+          "hintUz": "The exercises (koʻplik) → get + comparative (easier)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “My … is getting … and … .”",
+          "answer": null,
+          "hintUz": "get/become + qiyosiy; yoki “better and better”"
+        }
+      ]
     }
-  },
+  ],
   "audio": {
     "main": {
       "path": "aj-hoge/09/main.mp3",
@@ -139,73 +220,53 @@
       "Are you ready? Let’s go. Vocabulary for “The Kaizen Way.” Our first word from this article from this lesson is zinger, a zinger. Now a zinger is a surprise or a shock. So in the article, it came from the phrase “You want to come up with a zinger of a solution to an office problem.”",
       "So a zinger of a solution means a surprise or a shock of a solution. It means a solution that is surprising, in a good way here, of course, it can be negative. Zingers can sometimes be a little bit negative, but it has this idea of something that is surprising or something that is shocking. Something that is sudden, a zinger.",
       "Alright, our next word after zinger, our next word is summon. To summon or to summon up, sometimes we’ll say summon up, sometimes we just say summon. And in the article we had the phrase “Kaizen can help you summon your powers of inspiration.” Summon your power, to summon means to call, call something to you, right?",
-      "Like “Come here, come to me now.” Or to arouse, to arouse is another similar word to summon. Or to conjure, all of these have similar meanings. So to summon your power means to call your power “Power come to me now!” That’s the idea.",
-      "So kaizen, this method, this way of thinking, this way of improving, little small improvements, asking little small questions, it can summon your power. It calls your power to you. It gives you power. So again, to summon means to call someone or something to you. It’s kind of like saying “Come to me. Come now.” To summon, to summon.",
-      "Next we have the phrase to cough up, to cough up. Now cough up has a very direct meaning, a very physical meaning. But then it also has more of a mental idea meaning. And let me read the phrase, in the phrase it says “Although you can’t force your brain to cough up creative ideas, you can program it.”",
-      "Okay, to cough up means to give or to produce quickly, right? To make something happen quickly, to give quickly, this idea of calling up actually.",
-      "And it comes from, physically, it means if we cough we would say “cough, cough, cough”, right, so if you cough something up, imagine you eat something and then “cough” you cough it up, it comes from your stomach, up and out your mouth again. So that’s the direct physical meaning.",
-      "This idea that something is inside and then you bleah, you cough it out. It comes out of your mouth. So if you have that idea",
-      "in your mind you can see that picture. Well, imagine you’re doing that with an idea. You have an idea in your brain. If you cough it up it means, it kind of, it’s in your brain and bleah, it comes out, out of your mouth or out of your body or writing it. So it’s deep in your brain and then, bleah, you force it to come out.",
-      "So that’s that idea, coughing up, this idea of forcing something to come out of you, come out of your brain, come out of your body. So if we cough up an idea it means “I need an idea, I need an idea,” bleah, argh, got it, right? And suddenly a great idea comes out of you. That’s this idea of coughing up.",
-      "So in this section Robert Maurer is saying you cannot force, you cannot make your brain cough up ideas, right? You say “I want an idea. I want an idea.” Well, you can’t make it come out, right? Ideas come out when they want to it seems. But he says kaizen will help the ideas come out. Alright, next we have the word harsh, harsh.",
-      "In the article we had the phrase “When you use a harsh tone with yourself, fear will clog the entire creative process.” We’ll talk about clog in a minute, but let’s talk about harsh first. Harsh means very rough, too strong, very bitter. It’s really the opposite of gentle. So if you use a harsh tone, it’s like “Get me an idea now!”",
-      "That’s a very harsh tone. I’m speaking in a harsh way. Now the opposite would be gentle. I would say “Give me an idea now please.” That’s a very gentle tone. So again, harsh is the opposite of gentle when we’re talking about speaking or emotions. Harsh, arrr, very rough. Alright, and in that same sentence we have the word clog, to clog.",
-      "Now to clog means to block or to hinder, right? You stop something from happening. You block it. You prevent it. So fear will clog the creative process. It means fear will stop creativity. Fear will block it, right? If you’re harsh with yourself, if you’re too rough, then you kind of get afraid and then the creativity is blocked.",
-      "It’s clogged. Alright, next we have the word fulfill. One of the questions we asked, one of the small questions we asked was what type of work would excite and fulfill me? What would fulfill me? Now fulfill means to satisfy, right? To fulfill means make you feel good, make you feel happy, make you feel satisfied.",
-      "If you fulfill someone, you satisfy them. If you fulfill yourself, then you satisfy yourself. Alright, our next phrase is over the course of, over the course of. We had the big sentence “If you repeat the question over the course of several days or weeks, you will find an answer.”",
-      "Okay, if you repeat the question over the course of several days, over the course of several days. Well, really that just means for or during. It’s just saying a length of time, during the time of several days, for several days.",
-      "So if you repeat the question for several days, if you repeat the question during the time of several days, if you repeated the question over the course of several days, same meaning, all of them. Just means during this time, over the course of.",
-      "It means you’re doing this thing during seven days, for seven days or eight days or several days, whatever, any time period. Okay? So over the course of just talks about a time period that you’re doing something.",
-      "Alright, next is the word hippocampus. Now, this is not a really common word, you’re not going to hear it in conversation a lot. It’s a part of the brain that stores information. It’s kind of like your memory. In a computer, for example, you have a hard disc and a hard disc stores information long-term, for a long time.",
-      "Well, this part of your brain, the hippocampus is basically like your brain’s hard disc. So you’ve got a little hard disc in your brain, a little part of your brain. That’s where the information is stored. That’s where you remember stuff. So right now you’re putting vocabulary into that part of your brain. You’re storing that information.",
-      "You are remembering it. You’re keeping it. Alright so if you’re a scientist or something, maybe you need that word but most of us don’t use that word a lot. Finally, we have the verb to address, to address something. Now address is also a noun, it has a totally different meaning. So we’re going to talk about the verb.",
-      "In the article it said “Your brain will have no choice but to address the question.” Now here to address means to concentrate on, to focus on, to think about, do something about. But I like this idea of to concentrate on or to focus on. So your brain must address the problem. It must focus on the problem.",
-      "It must concentrate on the problem. To address, used as a verb. Now address also has other meanings, even when it’s used as a verb. But we’re not going to talk about all the meanings, you just need to know this meaning right now because that’s the meaning we find in this article. Alright, so to address, to focus on, to concentrate on.",
-      "Now that is all of the vocabulary for “The Kaizen Way.” Listen to it several times and then go and listen to the mini-story. As always, in every single lesson, you better be smiling! I’m going to come and check on you. I want to see that big smile. I want to see that body moving. I want to see those shoulders back, feeling strong.",
-      "Strong physiology is so important with the Effortless English system. You’ve got to do it. It is the core. It is the fundamental most important part of this learning system. Use it every single time you listen to English. Alright, that is the end of “The Kaizen Way” vocabulary lesson."
+      "So to summon your power means to call your power “Power come to me now!” That’s the idea. So again, to summon means to call someone or something to you. It’s kind of like saying “Come to me. Come now.” To summon, to summon.",
+      "Next we have the phrase to cough up, to cough up. To cough up means to give or to produce quickly, right? To make something happen quickly, to give quickly. Imagine you have an idea deep in your brain and then, bleah, you force it to come out. That’s this idea of coughing up — forcing something to come out of you.",
+      "Alright, next we have the word harsh, harsh. Harsh means very rough, too strong, very bitter. It’s really the opposite of gentle. So if you use a harsh tone, it’s like “Get me an idea now!” The opposite would be gentle: “Give me an idea now please.” Harsh, arrr, very rough.",
+      "And in that same sentence we have the word clog, to clog. To clog means to block or to hinder, right? You stop something from happening. So fear will clog the creative process. It means fear will block it. If you’re too harsh with yourself, the creativity is blocked. It’s clogged.",
+      "Next we have the word fulfill. Fulfill means to satisfy, right? To fulfill means make you feel good, make you feel happy, make you feel satisfied. If you fulfill yourself, then you satisfy yourself.",
+      "Our next phrase is over the course of. We had the sentence “If you repeat the question over the course of several days or weeks, you will find an answer.” Over the course of just means for or during — a length of time. Over the course of several days means during the time of several days.",
+      "Alright, next is the word hippocampus. It’s a part of the brain that stores information. It’s kind of like your memory — like a hard disc in a computer that stores information long-term. Right now you’re putting vocabulary into that part of your brain.",
+      "Finally, we have the verb to address, to address something. Here to address means to concentrate on, to focus on, to think about, to do something about. So your brain must address the problem — it must focus on the problem, concentrate on the problem.",
+      "Now that is all of the vocabulary for “The Kaizen Way.” Listen to it several times and then go and listen to the mini-story. As always, you better be smiling! Strong physiology is so important with the Effortless English system. Use it every single time you listen to English. Alright, that is the end of “The Kaizen Way” vocabulary lesson."
     ],
     "pov": [
-      "Hi this is AJ again and now it’s time for our new kind of lesson which I call point of view stories. Now the point of view story, or stories actually, are designed to teach you grammar intuitively. Now there are a few important things you need to know and you need to think about when you’re doing this lesson.",
-      "Or actually, there’s a few things that you need to know that you should not think about and the number one thing you should not think about are grammar rules. Do not think about grammar rules. Very important. Now I know you’ve been taught grammar rules for many years so it’s hard to get that out of your brain.",
-      "But it’s very hard to unlearn that information. Because you learned grammar in an analytical way. What that means is you intellectually learned grammar. You learned, okay, well the past progressive is this and we use it in these situations and da, da, da, da, duh…and you took all these grammar tests.",
-      "And it totally confused your brain so that when you actually speak, you don’t know how to speak with proper grammar. It comes out wrong. You take a grammar test, maybe you do very well. But when you speak your grammar sucks, it’s terrible! What’s the problem here? Well, it’s because you learned grammar rules and terms. You studied it.",
-      "You analyzed it. You memorized these rules. But you didn’t learn it intuitively, naturally. It did not get deep into your brain the way a native speaker knows grammar. So the point of view stories are designed to teach you the way a native speaker learns grammar.",
-      "And we learn grammar by listening, by understanding meaning, by understanding patterns. So when you listen to these stories, here’s the good news. Just listen. Smile. Shoulders back. Feel great and just listen. Don’t think about anything. Don’t think about rules, none of that. Just relax and enjoy the story. Notice the patterns.",
-      "You can notice the changes in vocabulary because in each story what I’m going to do is I’m going to tell this exact same story from the mini-story. So in this story you’re going to hear the same story about Jan being rude. But I’m going to tell it from a different point of view. It means from a different time.",
-      "So, for example, I might tell that story but from the future. I might say that I have an idea for a movie and the movie will happen in ten years, ten years from now. In ten years there will be a woman and she’ll be very rude. Her name will be Jan. And I’ll tell the whole story from the point of view of the future.",
-      "Of course, I’ll change some of the vocabulary, especially the verbs, in order to tell it from the future. Now all you have to do is just listen to it. Just say “Okay, this is the future” and just notice. All you have to do is just listen, notice some of the words change.",
-      "I’ll be using will, for example, and you know that that’s the future tense. But forget this idea of the future tense. Forget your grammar books. Just notice the changes in vocabulary. Sometimes I might",
-      "change the word order. Sometimes the structure might change a little bit. Just notice it. That’s all you have to do. Listen carefully. Don’t think about it. Don’t analyze it. Don’t write down rules, none of that. Listen and notice, listen, listen, listen, that’s all you need to do.",
-      "Now in the point of view stories I’m going to use two basic points of view. One is the future, which I just mentioned, and the other I call the perfect tenses and there is actually a few of them. But don’t think about that, oh my god, grammar, grammar, grammar term.",
-      "All you need to know is I’ll start most of those stories with something like “Since she was young… Since 2001…” Right, it means something started in the past and is continuing up until now. So that’s one of the points of view I’ll use and the other one will be the future.",
-      "The main mini-story, you may have noticed, most of the regular mini-stories are from the past. Right, I said Jan was very rude. She wanted to change. So I did that by design. I did it on purpose. Because most people need a lot of help, a lot of practice, a lot of listening for the past, the past, the past.",
-      "So that’s why the main mini-stories are almost always told from the past point of view. Alright, enough talking, let’s get to it. Are you ready? Let’s start with the first one.",
-      "Since she was a child Jan has always been very rude. Since she was a child Jan has been rude. How long has Jan been rude? She’s been rude since she was a child. Was she rude when she was a baby? No, no, no, not when she was a baby. Not in the very beginning, no. Just since she was a child, maybe since she was five years old.",
-      "So since she was a child she has been very rude, very harsh. And who, who has been very rude and harsh since she was a child? Well, of course, Jan. Jan has been very rude since she was a child. From being a child, maybe five or six years old, until now, all that time she has been rude. Has she always been rude?",
-      "Not always, just since she was a child. Not when she was a baby. But since she was a child, since she was six or five or seven, she has been very, very rude. She has always said rude comments to people.",
-      "Has she always done this? Has she always said rude zingers to people? Well, always meaning since she was a child, sure. Since she was a child she has always said rude zingers. Since she was a child she has always said rude zingers to friends, to family, to everyone. Since she was a child has she always said rude zingers or just sometimes?",
-      "Well, since she was a child she has always said rude zingers to everybody. But one day, she summoned all her friends. And she said “I will never be harsh to you again.” She was very friendly. She coughed up compliments to each one. She said “Oh, ugh, you’re very nice and you’re very intelligent.” She coughed them up.",
-      "It was difficult in the beginning. But then over the course of two years she was very, very kind. She was always kind during that time. Over the course of two years she was very kind, kind, kind, very friendly. And, of course, after two years everybody loved Jan. They gave her kisses. They gave her money. They gave her love.",
-      "And how did she feel? She felt very fulfilled.",
-      "Okay, so this is the end of the first POV story. Now something happened in that story and you should notice it. Don’t think about the grammar terms but just notice that something changed, I don’t know, around the middle of the story. Now the beginning of the story I was saying “Since she was a child she has been rude.",
-      "She has always said rude comments to people since she was a child.” And then I said “She summoned all her friends one day.” One day she summoned all her friends, right? Different vocabulary, different point of view, the point of view suddenly changed. So in the beginning I’m talking about since, since she was a child.",
-      "Something started in the past and then it continued. It kept happening again and again and again up until now or up until a certain time. There is a range of time there. Started in the past and then kept going over some time. But then it changed, it became a sudden one time event. She summoned her friends.",
-      "Now she didn’t keep summoning her friends every day for four years or for two years or for one year or anything like that. It just happened. She summoned her friends, boom, it was a one time event. She did it, it happened, it finished. So then I changed.",
-      "And, you know, all you grammar people already know, I started using the past tense, right? So don’t think about that, don’t worry about it. The point is that it changed.",
-      "And you’ll notice that happening in most of the POV stories when I’m starting with “Since 2003…” or “Since she was a child” you’ll notice that often, probably most of the stories I’ll start that way and then something will happen.",
-      "Suddenly I’ll talk about one single event and it will change. The point of view will change. Just notice that. In each of those point of view stories in the future, this one and all the other ones. Just notice when it changes. That’s all you need to do. You don’t need to think about the grammar.",
-      "You don’t need to think “Oh, he went from the present perfect to the past tense.” Don’t need to worry about that. Just notice the change. And notice when it happens and that’s all you need to know. Alright, our next POV story, we’re going to the future. Here we go, let’s start.",
-      "I have this idea for a movie. Let’s just imagine this is a movie idea. And it’s going to happen in ten years, ten years from now. In ten years there will be a woman. She’ll be very, very rude. This woman will always say rude comments to her friends. She’ll give zingers to her friends every day, rude, harsh zingers.",
-      "She’ll always be terrible, always harsh, always rude. How will she be? She’ll be very rude. She’ll be very harsh. What will her name be, this woman in the future? Her name will be Jan. Her name will be Jan. And Jan will be very, very rude. She’ll give rude comments to her friends all the time.",
-      "She’ll give rude zingers to her friends all the time. Her friends will cry and cry and cry. They’ll be very unhappy. But one day she’s going to change. One day she’s going to summon all her friends to her house. She’ll cough up compliments to each one. She’ll say “Oh, you’re very nice and you’re very intelligent.”",
-      "Of course, this will be very tough for her in the beginning. She’ll have to cough up the comments. But she’ll continue to be nice and kind over the course of two more years. She’ll always be kind. She’ll be super friendly during that time. And, of course, at the end of those two years everyone will love Jan.",
-      "They’re going to give her kisses. They’re going to give her money. They’re going to give her love. She’ll feel very, very fulfilled.",
-      "Alright, that’s it. So easy. Now just a couple of things to notice in these future point of view stories. One thing to notice is a little difficult to hear sometimes is this “ll” sound, its that L sound, right? Sometimes I’ll say, for example “Jan’ll be very rude.” Of course that means Jan will be very rude.",
-      "But in real conversation, normal conversation, we often will just say “ll”, we add “ll” to something for the future. Jan’ll be very happy. Jan’ll be very fulfilled. That “ll”, “ll”, “ll”. You don’t need to say that, it’s maybe difficult to pronounce so it’s okay if you can’t say it.",
-      "Just say will or gonna or going to, but you do need to be able to hear it so that you understand what’s happening. You understand someone is talking about the future, something that hasn’t happened yet. So listen for that “ll”, that “ll” is a little bit difficult to hear sometimes so you have to listen carefully.",
-      "So in these future stories listen for the “ll”, Jan’ll, they’ll. Okay? Another one is gonna. Now gonna, of course, means going to. I am going to eat this food tomorrow. Now that’s what you learned in your textbook, I’m going to. But what we actually say very often in real conversation- we say gonna. I’m gonna eat this food tomorrow.",
-      "I’m gonna go to the store tomorrow. So gonna means going to or will, it means future, future, future. Alright that is the end of the POV stories. Just listen, listen, listen. Relax. Burn your grammar textbooks. Throw them away. Get rid of them. Stop thinking about that crap. Of course, crap means what? Crap means shit.",
-      "Crap means bad stuff. You don’t want to think about that stuff. Just listen to these POV stories. Relax. Notice what’s happening in the stories but don’t think about it too much. Alright, I will see you next time."
+      "Hi this is AJ again and now it’s time for our new kind of lesson which I call point of view stories. Now the point of view story is designed to teach you grammar intuitively. There are a few things you need to know and think about when you’re doing this lesson.",
+      "The number one thing you should not think about are grammar rules. Do not think about grammar rules. Very important. I know you’ve been taught grammar rules for many years so it’s hard to get that out of your brain. You learned grammar in an analytical way — you intellectually learned it, you memorized rules, you took tests.",
+      "But you didn’t learn it intuitively, naturally. It did not get deep into your brain the way a native speaker knows grammar. So the point of view stories are designed to teach you the way a native speaker learns grammar. And we learn grammar by listening, by understanding meaning, by understanding patterns.",
+      "So when you listen to these stories, just listen. Smile. Shoulders back. Feel great and just listen. Don’t think about rules. Just relax and enjoy the story. Notice the patterns. In each story I’m going to tell this exact same story from the mini-story — the same story about Jan being rude — but from a different point of view. It means from a different time.",
+      "For example, I might tell that story but from the future. I’ll change some of the vocabulary, especially the verbs. All you have to do is just listen, notice some of the words change. I’ll be using will, for example. But forget this idea of the future tense. Forget your grammar books. Just notice the changes in vocabulary.",
+      "Now in the point of view stories I’m going to use two basic points of view. One is the future. The other I call the perfect tenses. All you need to know is I’ll start most of those stories with something like “Since she was young… Since 2001…” It means something started in the past and is continuing up until now.",
+      "Alright, enough talking, let’s get to it. Are you ready? Let’s start with the first one.",
+      "Since she was a child Jan has always been very rude. Since she was a child Jan has been rude. How long has Jan been rude? She’s been rude since she was a child. Was she rude when she was a baby? No, no, no, not when she was a baby. Just since she was a child, maybe since she was five years old.",
+      "So since she was a child she has been very rude, very harsh. And who has been very rude and harsh since she was a child? Well, of course, Jan. Jan has been very rude since she was a child. From being a child, maybe five or six years old, until now, all that time she has been rude. Has she always been rude?",
+      "Not always, just since she was a child. Since she was a child she has always said rude comments to people. Has she always said rude zingers to people? Since she was a child she has always said rude zingers to friends, to family, to everyone.",
+      "But one day, she summoned all her friends. And she said “I will never be harsh to you again.” She was very friendly. She coughed up compliments to each one. She said “Oh, you’re very nice and you’re very intelligent.” She coughed them up. It was difficult in the beginning.",
+      "But then over the course of two years she was very, very kind. She was always kind during that time. And, of course, after two years everybody loved Jan. They gave her kisses. They gave her money. They gave her love. And how did she feel? She felt very fulfilled.",
+      "Okay, so this is the end of the first POV story. Now something happened in that story and you should notice it. In the beginning I was saying “Since she was a child she has been rude.” Something started in the past and then it continued, up until now. But then it changed — it became a sudden one-time event: she summoned her friends. Boom, it happened, it finished.",
+      "And, you know, all you grammar people already know, I started using the past tense. But don’t think about that. The point is that it changed. Just notice when it changes. That’s all you need to do.",
+      "Alright, our next POV story, we’re going to the future. I have this idea for a movie. It’s going to happen in ten years. In ten years there will be a woman. She’ll be very, very rude. This woman will always say rude comments to her friends. She’ll give zingers to her friends every day.",
+      "What will her name be? Her name will be Jan. And Jan will be very, very rude. Her friends will cry and cry. But one day she’s going to change. One day she’s going to summon all her friends to her house. She’ll cough up compliments to each one. She’ll say “Oh, you’re very nice and you’re very intelligent.”",
+      "This will be tough for her in the beginning. But she’ll continue to be nice and kind over the course of two more years. And at the end of those two years everyone will love Jan. They’re going to give her kisses. They’re going to give her love. She’ll feel very, very fulfilled.",
+      "Just a couple of things to notice in these future stories. One is this “ll” sound — “Jan’ll be very rude” means “Jan will be very rude.” In real conversation we often just add “ll” for the future. Listen for that “ll”, it’s a little difficult to hear. Another one is gonna — gonna means going to, it means future.",
+      "Alright, that is the end of the POV stories. Just listen, listen, listen. Relax. Notice what’s happening in the stories but don’t think about it too much. Alright, I will see you next time."
+    ],
+    "sixmin": [
+      "Rob: Hello, I'm Rob. Welcome to 6 Minute English, where we get together to discuss an interesting topic along with six useful items of vocabulary to wrestle with.",
+      "Catherine: Hello, I'm Catherine. Today's topic is all about togetherness — because we're talking about going to the gym and why gym membership is becoming increasingly popular. So Rob, do you head off to your local gym after work?",
+      "Rob: No — I hate group exercise. I prefer to go for a run on my own. It's free, and I enjoy being outdoors. How about you, Catherine?",
+      "Catherine: I really like group exercise, Rob. I find it's very motivating.",
+      "Rob: When something is motivating it makes us want to do something. So what motivates you to go to the gym, Catherine?",
+      "Catherine: Well, I go because I really like the spin classes. If I wasn't in a class, I don't think I would push myself so hard. I need someone to shout at me — to make me go faster and get up those hills.",
+      "Rob: If you push yourself, you force yourself to try harder — you set yourself a challenge. You are part of a growing trend of people who like to work out. So, how many people are members of a gym here in the UK? Is it a) 1 in 2, b) 1 in 7, or c) 1 in 10?",
+      "Catherine: I'm going to go for 1 in 10.",
+      "Rob: We'll find out later. Now let's listen to Philip Mills, who runs the sports fitness company Les Mills. He has a theory to explain why group exercise has become so popular.",
+      "INSERT — Philip Mills, CEO of Les Mills International: As people have become more sedentary they've realised that they need to move for their health. We work about 35% more hours than we used to in the 60s, and people are too busy to play sports. Society has become fragmented and a lot of the things that used to bring people together don't exist anymore. But we're tribal animals — pack animals — and the gym has been one of the things that helps people to commune.",
+      "Catherine: Yes, our sedentary lifestyles! We do all spend too much time sitting down, don't we, Rob?",
+      "Rob: According to Philip, we're probably spending more time sitting down than we used to because we're working a lot more. Society has become fragmented — and fragmented means broken up into small pieces.",
+      "Catherine: We miss that social connectedness — that feeling of belonging to a group — because we are essentially tribal animals. And a tribe is a group of people who live together and share the same language and culture.",
+      "Rob: Even now that most of us have left tribal society behind, we still want to feel part of a group that we can commune with — which means to get close to someone or something.",
+      "Rob: Remember I asked how many people are members of a gym in the UK? You said 1 in 10 — and you were wrong, I'm afraid! Figures show that one in seven of the UK population is a member of a gym. And more and more will be signing up — total membership could soon exceed ten million for the first time."
     ]
   },
   "ministory": {
@@ -228,12 +289,8 @@
         "a": "Not to some people, to everyone. She was rude and harsh to everyone."
       },
       {
-        "q": "Why not?",
-        "a": "Well, because she was rude and harsh to everyone."
-      },
-      {
         "q": "Zinger? What’s a zinger?",
-        "a": "A zinger is something that’s surprising or shocking. So a zinger of a comment means a surprise comment. Jan always said rude zingers. She always gave rude zingers to her friends. It means rude, surprising comments. So a rude zinger would be a rude, surprising comment."
+        "a": "A zinger is something that’s surprising or shocking. So a zinger of a comment means a surprise comment. Jan always said rude zingers. It means rude, surprising comments."
       },
       {
         "q": "Were her zingers rude or funny?",
@@ -244,16 +301,12 @@
         "a": "No, not kind. Her zingers, her surprising comments were always harsh and rude."
       },
       {
-        "q": "Who always gave harsh zingers to her friends? Who always said harsh zingers to her friends?",
+        "q": "Who always gave harsh zingers to her friends?",
         "a": "Jan, Jan always gave, Jan always said harsh zingers to her friends."
       },
       {
         "q": "What kind of zingers?",
         "a": "Harsh zingers, rude zingers."
-      },
-      {
-        "q": "Who gave harsh, rude zingers?",
-        "a": "Jan, Jan always said harsh, rude zingers. Shocking, surprising, rude comments all the time."
       },
       {
         "q": "How often?",
@@ -273,19 +326,11 @@
       },
       {
         "q": "Who did she summon?",
-        "a": "Her friends, Jan summoned her friends. She called her friends “Come to my house. Come to my house.” She summoned them."
-      },
-      {
-        "q": "Who summoned all her friends to her house?",
-        "a": "Jan, Jan summoned all her friends to her house."
+        "a": "Her friends, Jan summoned her friends. She called her friends “Come to my house.” She summoned them."
       },
       {
         "q": "Which friends did she summon?",
-        "a": "Well, all of them. She summoned every friend, all of them. Jan summoned all of her friends to her house."
-      },
-      {
-        "q": "Where did she summon them to?",
-        "a": "Her house, she summoned them to her house."
+        "a": "Well, all of them. She summoned every friend. Jan summoned all of her friends to her house."
       },
       {
         "q": "Did the compliments come out easily?",
@@ -300,28 +345,16 @@
         "a": "Jan, Jan coughed up compliments to her friends."
       },
       {
-        "q": "Who did she cough up the compliments to?",
-        "a": "To her friends, she coughed up compliments to her friends or for her friends."
-      },
-      {
-        "q": "What did she do?",
-        "a": "She coughed up compliments to her friends."
-      },
-      {
-        "q": "How did she say them?",
-        "a": "Well, she coughed them up. She forced them out. It wasn’t easy, but she did it."
-      },
-      {
         "q": "Was she going to be harsh to her friends again?",
         "a": "No, she said “I will never be harsh to you again.”"
       },
       {
         "q": "How was she going to be?",
-        "a": "Well, she was going to be gentle and kind. She was going to be gentle and kind to all her friends. She was not going to be harsh every again."
+        "a": "She was going to be gentle and kind to all her friends. She was not going to be harsh ever again."
       },
       {
         "q": "Over the course of how many years did she do this?",
-        "a": "Well, over the course of two years, for two years, during two years, for two years. Over the course of two years."
+        "a": "Well, over the course of two years, for two years, during two years. Over the course of two years."
       },
       {
         "q": "Who was nice and kind over the course of two years?",
@@ -336,20 +369,12 @@
         "a": "Well, Jan became very kind. Jan gave compliments every day, all the time, over the course of two years."
       },
       {
-        "q": "Who always gave compliments over the course of two years every day?",
-        "a": "Jan, Jan always gave compliments every day to everybody, over the course of two years."
-      },
-      {
         "q": "After two years, how did Jan feel?",
         "a": "She felt fulfilled. She felt satisfied and very, very happy."
       },
       {
         "q": "Why did she feel fulfilled after two years?",
         "a": "Well, because now everybody loved her. After two years everybody loved Jan. So she felt fulfilled."
-      },
-      {
-        "q": "How did she feel?",
-        "a": "Fulfilled, she felt fulfilled. She felt satisfied and happy."
       },
       {
         "q": "Who felt fulfilled?",
@@ -443,14 +468,168 @@
       "example": "Your brain will address the question."
     }
   ],
-  "dialogue": null,
-  "quiz": null,
+  "englishpod": {
+    "id": "0026",
+    "title": "Daily Life – New Year's Resolution",
+    "titleUz": "Kundalik hayot — Yangi yil vaʼdasi",
+    "warmup": {
+      "uz": "Suhbatda bir kishi Yangi yil vaʼdasini aytadi: “parhezga oʻtaman” deydi. Kayzen esa katta vaʼda emas, kichik kunlik qadam muhim deb oʻrgatadi. Sizningcha, u vaʼdasida turadimi?",
+      "en": "In this dialogue someone shares a New Year's resolution — a big promise to change his diet. Kaizen says tiny daily steps beat big promises. Do you think he'll stick to it?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0026/dg.mp3",
+        "durationSec": 69,
+        "bytes": 581717
+      },
+      "pr": {
+        "path": "englishpod/0026/pr.mp3",
+        "durationSec": 591,
+        "bytes": 9484247
+      },
+      "rv": {
+        "path": "englishpod/0026/rv.mp3",
+        "durationSec": 404,
+        "bytes": 6504951
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "So, did I tell you about my New Year's resolution? I've decided to go on a diet."
+      },
+      {
+        "speaker": "B",
+        "en": "And you're going to completely transform your eating habits, right?"
+      },
+      {
+        "speaker": "A",
+        "en": "Exactly! I'm going to cut out all that junk I eat; no more chips, no more soda, no more fried food."
+      },
+      {
+        "speaker": "B",
+        "en": "I've heard this one before."
+      },
+      {
+        "speaker": "A",
+        "en": "But this time I'm going to stick to it. I really mean it! Trust me, Carol, I'm going to be a new man in one year's time!"
+      },
+      {
+        "speaker": "B",
+        "en": "Well, I guess we'll just have to wait and see."
+      },
+      {
+        "speaker": "A",
+        "en": "Thanks, honey, that was a great meal. I'm stuffed. Do we have any chips left?"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "New Year's resolution",
+        "uz": "Yangi yil vaʼdasi (yangi yilda biror ishni qilishga qatʼiy niyat)",
+        "defEn": "a firm decision to do something in the new year"
+      },
+      {
+        "en": "go on a diet",
+        "uz": "parhezga oʻtmoq",
+        "defEn": "to start an eating plan to lose weight"
+      },
+      {
+        "en": "transform",
+        "uz": "tubdan oʻzgartirmoq",
+        "defEn": "to change something completely"
+      },
+      {
+        "en": "cut out",
+        "uz": "butunlay tashlab yubormoq (bir narsani)",
+        "defEn": "to remove or eliminate something"
+      },
+      {
+        "en": "eating habits",
+        "uz": "ovqatlanish odatlari",
+        "defEn": "the usual ways in which you eat"
+      },
+      {
+        "en": "stick to it",
+        "uz": "vaʼdada turmoq, tashlab qoʻymay davom ettirmoq",
+        "defEn": "to continue doing something you decided to do"
+      },
+      {
+        "en": "wait and see",
+        "uz": "koʻrarmiz, kutib turaylik",
+        "defEn": "to wait patiently to find out what will happen"
+      },
+      {
+        "en": "stuffed",
+        "uz": "toʻyib ketgan, qorni liq toʻlgan",
+        "defEn": "very full; no longer hungry"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "171123",
+    "title": "Getting fitter together",
+    "titleUz": "Birgalikda baquvvatroq boʻlish",
+    "audio": {
+      "main": {
+        "path": "sixmin/171123/audio.mp3",
+        "durationSec": 380,
+        "bytes": 15203520,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many people are members of a gym here in the UK?",
+        "qUz": "Buyuk Britaniyada qancha odam sport zaliga aʼzo?",
+        "options": [
+          "1 in 2",
+          "1 in 7",
+          "1 in 10"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 1 in 7 — har 7 kishidan 1 tasi sport zaliga aʼzo. Catherine 1 in 10 dedi, lekin haqiqiy raqam undan koʻproq, va u tobora oshib bormoqda (better and better — grammatika B!)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "motivating",
+        "uz": "ilhomlantiruvchi, ragʻbat beruvchi",
+        "defEn": "making you want to do something"
+      },
+      {
+        "en": "push yourself",
+        "uz": "oʻzingizni qiynab, zoʻr berib harakat qilmoq",
+        "defEn": "to force yourself to try harder"
+      },
+      {
+        "en": "work out",
+        "uz": "sport zalida mashq qilmoq",
+        "defEn": "to exercise in order to improve your health and fitness"
+      },
+      {
+        "en": "fragmented",
+        "uz": "boʻlaklarga boʻlinib ketgan, parchalangan",
+        "defEn": "broken up into small pieces"
+      },
+      {
+        "en": "tribal / a tribe",
+        "uz": "qabilaga oid (qabila — birga yashab, bir til va madaniyatni baham koʻradigan guruh)",
+        "defEn": "relating to a tribe: a group of people who live together and share a language and culture"
+      },
+      {
+        "en": "commune",
+        "uz": "yaqinlashmoq, ruhan birga boʻlmoq",
+        "defEn": "to get close to someone or something"
+      }
+    ]
+  },
   "funEnglish": [
     {
       "provider": "youtube",
       "id": null,
-      "title": "Past-tense storytime (learn English through TV series)",
-      "channel": "@LearnEnglishWithTVSeries"
+      "title": "Kaizen: small habits, big change",
+      "channel": "@EnglishwithLucy"
     }
   ],
   "downloads": [
@@ -489,6 +668,30 @@
       "kind": "pdf",
       "path": "aj-hoge/09/pov.pdf",
       "bytes": 81758
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0026/dg.mp3",
+      "bytes": 581717
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0026/transcript.pdf",
+      "bytes": 92549
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/171123/audio.mp3",
+      "bytes": 15203520
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/171123/transcript.pdf",
+      "bytes": 323493
     },
     {
       "labelUz": "Grammatika kitobi — Murphy (PDF)",

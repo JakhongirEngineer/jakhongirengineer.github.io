@@ -15,8 +15,11 @@ import {
 function referencedKeys(lesson) {
   const refs = []; // {key, where}
   if (lesson.audio) for (const [k, a] of Object.entries(lesson.audio)) if (a && a.path) refs.push({ key: a.path, where: `audio.${k}.path` });
+  if (lesson.englishpod?.audio) for (const [k, a] of Object.entries(lesson.englishpod.audio)) if (a && a.path) refs.push({ key: a.path, where: `englishpod.audio.${k}.path` });
+  if (lesson.sixmin?.audio) for (const [k, a] of Object.entries(lesson.sixmin.audio)) if (a && a.path) refs.push({ key: a.path, where: `sixmin.audio.${k}.path` });
   if (Array.isArray(lesson.downloads)) lesson.downloads.forEach((d, i) => { if (d.path) refs.push({ key: d.path, where: `downloads[${i}].path` }); });
-  if (lesson.grammar?.reference?.downloadPath) refs.push({ key: lesson.grammar.reference.downloadPath, where: "grammar.reference.downloadPath" });
+  const grammar = Array.isArray(lesson.grammar) ? lesson.grammar : lesson.grammar ? [lesson.grammar] : [];
+  grammar.forEach((g, i) => { if (g?.reference?.downloadPath) refs.push({ key: g.reference.downloadPath, where: `grammar[${i}].reference.downloadPath` }); });
   return refs;
 }
 

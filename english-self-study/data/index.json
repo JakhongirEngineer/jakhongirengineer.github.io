@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-07-16",
+  "generated": "2026-07-17",
   "lessons": [
     {
       "id": "core-09",
@@ -10,17 +10,21 @@
       "slug": "kaizen",
       "title": "Kaizen",
       "titleUz": "Kayzen — kichik qadamlar",
-      "level": "A2-B1",
+      "level": "B1",
+      "phase": 1,
       "tags": [
         "mindset",
         "habits",
-        "past-simple"
+        "present-perfect",
+        "gradual-change"
       ],
-      "grammarUnit": "past-simple-be",
-      "durationSec": 2904,
+      "grammarUnits": [
+        "present-perfect-intro",
+        "gradual-change"
+      ],
+      "durationSec": 4348,
       "hasPov": true,
-      "hasQuiz": false,
-      "hasDialogue": false,
+      "hasEnglishPod": true,
       "youtubeCount": 1
     }
   ]

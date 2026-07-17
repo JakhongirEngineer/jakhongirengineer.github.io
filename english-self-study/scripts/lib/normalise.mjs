@@ -209,6 +209,60 @@ export function sixMinSlugFromTitle(pageOneText) {
     .slice(0, 48);
 }
 
+// ── Episode weave — which EnglishPod + 6ME belong to each core lesson ───────
+//
+// The deterministic source of truth for the 02 §5 weave: core lesson NN →
+// { ep: "<4-digit EnglishPod id>" | null, six: "<YYMMDD 6ME date>" }. All 28
+// EnglishPod episodes are used exactly once; L15 & L22 carry ep:null (section
+// gated off, 02 §5). Every 6ME date is distinct. Extract / stage-media resolve a
+// core lesson's paired episodes from here — never hardcoded per script.
+export const EPISODE_WEAVE = {
+  1:  { ep: "0263", six: "180315" },
+  2:  { ep: "0039", six: "170608" },
+  3:  { ep: "0197", six: "170831" },
+  4:  { ep: "0247", six: "170706" },
+  5:  { ep: "0007", six: "170518" },
+  6:  { ep: "0261", six: "170629" },
+  7:  { ep: "0052", six: "190131" },
+  8:  { ep: "0195", six: "161006" },
+  9:  { ep: "0026", six: "171123" },
+  10: { ep: "0140", six: "160811" },
+  11: { ep: "0188", six: "180531" },
+  12: { ep: "0200", six: "170302" },
+  13: { ep: "0176", six: "190411" },
+  14: { ep: "0110", six: "170413" },
+  15: { ep: null,   six: "170420" },  // Taoism — EnglishPod gated off (02 §5)
+  16: { ep: "0185", six: "160915" },
+  17: { ep: "0051", six: "180322" },
+  18: { ep: "0244", six: "171005" },
+  19: { ep: "0253", six: "170727" },
+  20: { ep: "0240", six: "161020" },
+  21: { ep: "0004", six: "160818" },
+  22: { ep: null,   six: "170615" },  // Art of Power — EnglishPod gated off (02 §5)
+  23: { ep: "0154", six: "180621" },
+  24: { ep: "0228", six: "180830" },
+  25: { ep: "0203", six: "180726" },
+  26: { ep: "0241", six: "181108" },
+  27: { ep: "0250", six: "180614" },
+  28: { ep: "0014", six: "170622" },
+  29: { ep: "0259", six: "160901" },
+  30: { ep: "0350", six: "170126" },
+};
+
+/**
+ * Resolve the EnglishPod + 6ME episodes paired with core lesson `n` (02 §5).
+ * @returns { englishpod: <resolveEnglishPod result> | null, sixmin: <resolveSixMin result> }
+ * `englishpod` is null on L15 & L22 (section gated off).
+ */
+export function resolveCoreEpisodes(n) {
+  const weave = EPISODE_WEAVE[n];
+  if (!weave) throw new Error(`No episode weave for core lesson ${n} (02 §5)`);
+  return {
+    englishpod: weave.ep ? resolveEnglishPod(weave.ep) : null,
+    sixmin: resolveSixMin(weave.six),
+  };
+}
+
 // ── Shared assets (not lesson-scoped) ───────────────────────────────────────
 
 /**
