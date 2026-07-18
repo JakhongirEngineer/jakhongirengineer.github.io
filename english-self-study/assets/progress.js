@@ -138,6 +138,9 @@ function update(fn) {
 // ---- Study-day → streak → weekly goal (02 §8.3) — INTERNAL, mutates o --------
 // Called by the ACTIONS (markListen, bumpMsAnswer, setRecording, addListeningMinutes,
 // completeLesson) — NOT by openLesson (merely opening must not bump the streak).
+// Returns TRUE when this study-day is a "comeback" — the first action after a ≥7-day
+// gap (02 §8.3) — so the caller's badge pass can award the Comeback badge (kindness,
+// not punishment). Every other case returns false.
 function registerStudyDay(o) {
   const s = o.streak;
   const td = today();
@@ -147,8 +150,8 @@ function registerStudyDay(o) {
     s.freezesLeftThisWeek = 1;
     o.weeklyGoal.activeDaysThisWeek = 0;
   }
-  if (s.lastActiveDate === td) return;   // already counted today — noop
-  let counted = false;
+  if (s.lastActiveDate === td) return false;   // already counted today — noop
+  let counted = false, cameBack = false;
   if (!s.lastActiveDate) {
     s.count = 1; counted = true;                                   // first ever
   } else {
@@ -156,7 +159,10 @@ function registerStudyDay(o) {
     if (gap === 1) { s.count += 1; counted = true; }               // consecutive day
     else if (gap === 2 && s.freezesLeftThisWeek > 0) {             // exactly one missing day → auto-freeze
       s.freezesLeftThisWeek -= 1; s.count += 1; counted = true;
-    } else if (gap >= 2) { s.count = 1; counted = true; }          // missed day(s) with no freeze → reset to 1
+    } else if (gap >= 2) {                                         // missed day(s) with no freeze → reset to 1
+      s.count = 1; counted = true;
+      if (gap >= 7) cameBack = true;                              // ≥7-day gap → Comeback (02 §8.3)
+    }
     // gap <= 0 (clock skew / earlier date): leave the streak untouched
   }
   if (counted) {
@@ -164,6 +170,76 @@ function registerStudyDay(o) {
     if (s.count > s.longest) s.longest = s.count;
     o.weeklyGoal.activeDaysThisWeek = Math.min((o.weeklyGoal.activeDaysThisWeek || 0) + 1, 7);
   }
+  return cameBack;
+}
+
+// ---- Badge engine (02 §8.3) — INTERNAL, mutates o.badges, returns the NEW ids ----
+// All count-based badges are DERIVED from the union object `o` (no extra counters to
+// drift). Phase/CEFR badges need the catalogue (which lessons are in which phase) and
+// so are awarded from the Progress page via awardPhaseBadges() (index-aware). Ids match
+// the 03 §6.3 examples ("first-step", "streak-7", "a2-foundation", …).
+const BADGE = {
+  FIRST: "first-step",
+  STREAK7: "streak-7", STREAK30: "streak-30", STREAK100: "streak-100",
+  LISTEN100: "deep-listener-100", LISTEN500: "deep-listener-500", LISTEN1000: "deep-listener-1000",
+  SPEAKER: "speaker", VOICE: "voice", GRAMMAR: "grammar-guru", CONVO: "conversationalist",
+  A2: "a2-foundation", B1: "b1-momentum", B2: "b2-fluency", COMEBACK: "comeback",
+};
+const PHASE_BADGE = { 1: BADGE.A2, 2: BADGE.B1, 3: BADGE.B2 };
+
+function award(o, id, out) {
+  if (!id) return;
+  if (!Array.isArray(o.badges)) o.badges = [];
+  if (!o.badges.includes(id)) { o.badges.push(id); out.push(id); }
+}
+
+// Evaluate every derivable badge; `cameBack` is the registerStudyDay comeback signal.
+function evaluateBadges(o, cameBack) {
+  const out = [];
+  const m = o.metrics || {};
+  const lessons = o.lessons || {};
+  // first-step — any lesson reached ≥1★ (02 §8.3: "complete Lesson 01"; generalised to the first authored lesson)
+  if (Object.values(lessons).some((L) => L && (L.status === "complete" || L.status === "mastered" || (L.stars || 0) >= 1)))
+    award(o, BADGE.FIRST, out);
+  // streaks — a badge, once earned, never un-earns: gate on the best-ever run
+  const best = Math.max((o.streak && o.streak.count) || 0, (o.streak && o.streak.longest) || 0);
+  if (best >= 7) award(o, BADGE.STREAK7, out);
+  if (best >= 30) award(o, BADGE.STREAK30, out);
+  if (best >= 100) award(o, BADGE.STREAK100, out);
+  // deep listener — 100 / 500 / 1000 total listening minutes
+  const min = m.listeningMinutes || 0;
+  if (min >= 100) award(o, BADGE.LISTEN100, out);
+  if (min >= 500) award(o, BADGE.LISTEN500, out);
+  if (min >= 1000) award(o, BADGE.LISTEN1000, out);
+  if ((m.speakingReps || 0) >= 100) award(o, BADGE.SPEAKER, out);   // speaker — 100 mini-story answers aloud
+  if ((m.recordings || 0) >= 10) award(o, BADGE.VOICE, out);        // voice — 10 recordings saved
+  // grammar-guru — 20 grammar drill sets across the 60 topics (each completed topic = one set)
+  // + conversationalist — 15 EnglishPod sections done. Both derived from the persisted step snapshot.
+  let sets = 0, ep = 0;
+  for (const L of Object.values(lessons)) {
+    if (!L || !L.steps) continue;
+    if (L.steps.grammarA) sets++;
+    if (L.steps.grammarB) sets++;
+    if (L.steps.ep) ep++;
+  }
+  if (sets >= 20) award(o, BADGE.GRAMMAR, out);
+  if (ep >= 15) award(o, BADGE.CONVO, out);
+  if (cameBack) award(o, BADGE.COMEBACK, out);
+  return out;
+}
+
+// A study action: register the day + evaluate badges in one pass. Returns the new badge
+// ids so the caller can dispatch the earn-toast AFTER the write lands.
+function studyDay(o) {
+  const cameBack = registerStudyDay(o);
+  return evaluateBadges(o, cameBack);
+}
+
+// Dispatch the shell earn-toast for freshly-earned badges. Guarded so the Node engine
+// harness (no `document`) is safe; the detail carries the ids the toast renders.
+function emitBadges(ids) {
+  if (!ids || !ids.length || typeof document === "undefined") return;
+  try { document.dispatchEvent(new CustomEvent("yp:badge", { detail: { ids: ids.slice() } })); } catch { /* noop */ }
 }
 
 // ---- Reads (pure — no write) ------------------------------------------------
@@ -229,27 +305,29 @@ export function savePos(id, key, posSec) {
 // feeds the ★ gate. Counts as a study-day. Returns the new listen count (for the dots).
 export function markListen(id, key) {
   const field = LISTEN_FIELD[key];
-  let count = 0;
+  let count = 0, newBadges = [];
   update((o) => {
     const L = ensureLesson(o, id);
     L.audio[key] = { ...(L.audio[key] || {}), done: true };
     if (field) { L.listens[field] = (L.listens[field] || 0) + 1; count = L.listens[field]; }
-    registerStudyDay(o);
+    newBadges = studyDay(o);
   });
+  emitBadges(newBadges);
   return count;
 }
 
 // A mini-story pair was self-checked ✓ aloud (04 §5.6). Bumps this lesson's reps and
 // the metrics.speakingReps rollup (03 §6.3). Counts as a study-day. Returns the total.
 export function bumpMsAnswer(id) {
-  let total = 0;
+  let total = 0, newBadges = [];
   update((o) => {
     const L = ensureLesson(o, id);
     L.msAnswersAloud = (L.msAnswersAloud || 0) + 1;
     o.metrics.speakingReps = (o.metrics.speakingReps || 0) + 1;
     total = L.msAnswersAloud;
-    registerStudyDay(o);
+    newBadges = studyDay(o);
   });
+  emitBadges(newBadges);
   return total;
 }
 
@@ -259,17 +337,19 @@ export function bumpMsAnswer(id) {
 export function addListeningMinutes(n) {
   const k = Math.floor(n);
   if (!(k >= 1)) return;
+  let newBadges = [];
   update((o) => {
     o.metrics.listeningMinutes = (o.metrics.listeningMinutes || 0) + k;
-    registerStudyDay(o);
+    newBadges = studyDay(o);
   });
+  emitBadges(newBadges);
 }
 
 // The star-award path (04 §5.7 / 02 §8.1). `stars` is the tier the Lesson Check
 // derived (1|2|3); `present` is the 10-boolean steps snapshot. Never downgrades.
 // Returns the updated lesson object.
 export function completeLesson(id, { stars, present } = {}) {
-  let result = null;
+  let result = null, newBadges = [];
   update((o) => {
     const L = ensureLesson(o, id);
     const prevTier = Math.max(0, Math.min(3, Math.floor(L.stars || 0))); // stored tier BEFORE this earn
@@ -289,9 +369,10 @@ export function completeLesson(id, { stars, present } = {}) {
     L.reviewDue = addDays(today(), [1, 3, 7, 14][stage]);
     L.reviewStage = Math.min(stage + 1, 3);
     o.lastLessonId = id;
-    registerStudyDay(o);
+    newBadges = studyDay(o);
     result = L;
   });
+  emitBadges(newBadges);
   return result;
 }
 
@@ -303,7 +384,7 @@ export function completeLesson(id, { stars, present } = {}) {
 // A recording was persisted for this lesson. Idempotent: only the FIRST save for a
 // lesson bumps the count (a replace/re-record doesn't double-count). Returns the count.
 export function setRecording(id) {
-  let count = 0;
+  let count = 0, newBadges = [];
   update((o) => {
     const L = ensureLesson(o, id);
     if (L.steps.record !== true) {
@@ -311,8 +392,9 @@ export function setRecording(id) {
       o.metrics.recordings = (o.metrics.recordings || 0) + 1;
     }
     count = o.metrics.recordings || 0;
-    registerStudyDay(o);
+    newBadges = studyDay(o);
   });
+  emitBadges(newBadges);
   return count;
 }
 
@@ -335,4 +417,148 @@ export function clearRecording(id) {
 // is the real store; lesson-speak reconciles the two on load.)
 export function hasRecordingFlag(id) {
   return snapshot(id).steps.record === true;
+}
+
+// ============================================================================
+// S6 — Progress page + gamification + export/import (04 §4.6/§6, 02 §7/§8.2/§8.3)
+// ============================================================================
+
+// ---- Phase / CEFR badges (02 §8.3) — index-aware, called by the Progress page ----
+// The engine can't see the catalogue, so which lessons belong to which phase (and
+// whether a phase is fully complete) is decided by progress-page.js against index.json;
+// it passes the finished phase numbers here. Awards a2-foundation / b1-momentum /
+// b2-fluency, dispatches the earn-toast, and persists ONLY when something is new
+// (so a routine Progress-page visit is not a spurious write). Returns the new ids.
+export function awardPhaseBadges(phaseNums) {
+  const o = load();
+  const out = [];
+  (Array.isArray(phaseNums) ? phaseNums : []).forEach((n) => award(o, PHASE_BADGE[n], out));
+  if (out.length) { o.updatedAt = now(); lsSetObj(o); emitBadges(out); }
+  return out;
+}
+
+// The full earned set (Home/Progress read this; the toast reads the event detail).
+export function getBadges() {
+  return (load().badges || []).slice();
+}
+
+// Derived rollups the Progress page needs for the badge-gallery "n/target" hints and the
+// hero counters — computed from the whole union so they match the engine's badge rules
+// (no index needed; index-derived phase stats are computed on the page).
+export function getProgressStats() {
+  const o = load();
+  const lessons = Object.values(o.lessons || {});
+  let completed = 0, stars = 0, grammarSets = 0, epDone = 0;
+  for (const L of lessons) {
+    if (!L) continue;
+    const st = Math.max(0, Math.min(3, Math.floor(L.stars || 0)));
+    if (L.status === "complete" || L.status === "mastered" || st >= 1) completed++;
+    stars += st;
+    if (L.steps) { if (L.steps.grammarA) grammarSets++; if (L.steps.grammarB) grammarSets++; if (L.steps.ep) epDone++; }
+  }
+  const m = o.metrics || {}, s = o.streak || {};
+  return {
+    completed, stars, grammarSets, epDone,
+    listeningMinutes: m.listeningMinutes || 0,
+    speakingReps: m.speakingReps || 0,
+    recordings: m.recordings || 0,
+    streakBest: Math.max(s.count || 0, s.longest || 0),
+  };
+}
+
+// ---- IELTS-topic coverage grid (04 §4.6, 02 §8.3) ---------------------------
+// Simple + derivable: the Progress page maps each COMPLETED lesson's index tags to the
+// ~20 IELTS topics and reconciles the counts here (max-merge, so a manual bumpTopic is
+// never lost), persisting only on change. `ieltsTopics{}` then rides along in the export
+// and feeds both the coverage grid and the #/ielts page.
+export function bumpTopic(topic, n = 1) {
+  if (!topic) return;
+  update((o) => { o.ieltsTopics[topic] = (o.ieltsTopics[topic] || 0) + Math.max(1, Math.floor(n) || 1); });
+}
+export function setTopicCoverage(counts) {
+  if (!counts || typeof counts !== "object") return {};
+  const o = load();
+  let changed = false;
+  for (const k of Object.keys(counts)) {
+    const v = Math.max(0, Math.floor(counts[k]) || 0);
+    if (v > (o.ieltsTopics[k] || 0)) { o.ieltsTopics[k] = v; changed = true; }
+  }
+  if (changed) { o.updatedAt = now(); lsSetObj(o); }
+  return { ...o.ieltsTopics };
+}
+
+// ---- Export / Import / Reset (02 §8.2, 04 §4.6/§9, 03 §6.3) ------------------
+// The only accountless way to move devices / survive a cache-clear. Export is the
+// normalised union (pretty-printed). Import is STRICT — a bad/mis-versioned file is
+// REFUSED with a clear reason and MUST NOT corrupt current data (04 §9); preview never
+// writes, apply writes only a validated + migrated object.
+export function exportProgress() {
+  return JSON.stringify(load(), null, 2);
+}
+
+// Parse + validate + migrate IN MEMORY. Refuse anything we don't understand.
+function parseImport(text) {
+  let data;
+  try { data = JSON.parse(text); } catch { return { ok: false, error: "badJson" }; }
+  if (!data || typeof data !== "object" || Array.isArray(data)) return { ok: false, error: "invalid" };
+  // Current schema is 1 (the only version). A missing / higher / non-1 version is refused
+  // rather than risk corrupting the live data (a future bump would widen this to ≤ current).
+  if (data.schemaVersion !== 1) return { ok: false, error: "badVersion" };
+  return { ok: true, data: migrate(data) };
+}
+
+// The 4 headline numbers for the diff-preview (before-vs-incoming).
+function summarize(o) {
+  const lessons = Object.values(o.lessons || {});
+  return {
+    lessons: lessons.filter((L) => L && (L.status === "complete" || L.status === "mastered" || (L.stars || 0) >= 1)).length,
+    stars: lessons.reduce((s, L) => s + Math.max(0, Math.min(3, Math.floor((L && L.stars) || 0))), 0),
+    minutes: (o.metrics && o.metrics.listeningMinutes) || 0,
+    streak: (o.streak && o.streak.count) || 0,
+  };
+}
+
+export function previewImport(text) {
+  const p = parseImport(text);
+  if (!p.ok) return { ok: false, error: p.error };
+  const a = summarize(load()), b = summarize(p.data);
+  return { ok: true, preview: {
+    lessons: { before: a.lessons, incoming: b.lessons },
+    stars:   { before: a.stars,   incoming: b.stars },
+    minutes: { before: a.minutes, incoming: b.minutes },
+    streak:  { before: a.streak,  incoming: b.streak },
+  } };
+}
+
+export function applyImport(text) {
+  const p = parseImport(text);
+  if (!p.ok) return { ok: false, error: p.error };
+  p.data.updatedAt = now();
+  return lsSetObj(p.data) ? { ok: true } : { ok: false, error: "write" };
+}
+
+// Wipe progress to a clean default but KEEP the user's settings (uiLang/theme/pace/rate)
+// so a reset never flips the UI language mid-session (kindness). The Progress page also
+// clears the IndexedDB recordings so the count can't resurrect on the next lesson visit.
+export function resetProgress() {
+  const prev = load();
+  const fresh = ensure({});
+  if (prev.settings && typeof prev.settings === "object") fresh.settings = prev.settings;
+  fresh.startedAt = today();
+  fresh.updatedAt = now();
+  lsSetObj(fresh);
+}
+
+// ---- Re-engagement banner (02 §8.3, 04 §6) ----------------------------------
+// TRUE at most once/day when the user hasn't studied today and hasn't dismissed today —
+// driven off streak.lastActiveDate + a stored o.reengageDismissed date. Kind, never guilt.
+export function shouldReengage() {
+  const o = load();
+  const td = today();
+  if (o.streak && o.streak.lastActiveDate === td) return false;   // already studied today
+  if (o.reengageDismissed === td) return false;                   // already dismissed today
+  return true;
+}
+export function dismissReengage() {
+  update((o) => { o.reengageDismissed = today(); });
 }

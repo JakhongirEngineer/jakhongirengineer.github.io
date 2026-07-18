@@ -68,9 +68,11 @@ Hash routing (03 §7) — zero server config, works under the `/english-self-stu
 | `#/ielts` | **IELTS & CEFR** | (from 02 §7) | Honest alignment + "am I ready for a mock?" |
 | `#/grammar` · `#/grammar/past-simple` | **Grammar Reference** | (from 03 routing) | Read-only index of Grammar Sparks + irregular-verb / spelling cards |
 | `#/about` | **About** | about | What this is, who made it, honest framing, credits, contact |
-| `#/settings` | **Settings** *(sheet, not full page)* | — | Language, pace track, theme, playback rate, export/import, reset |
+| `#/settings` | **Settings screen (styled as a panel)** | — | Language, pace track, theme, playback rate, export/import, reset |
 
 Unknown hash → **redirect to `#/`** (never a hard 404 on a static SPA).
+
+> **S10 (as shipped):** Settings is a **routed full screen** at `#/settings` (rendered in `<main>`, styled as a settings panel) — **not** a bottom sheet. The sheet mechanism stays reserved for the sections menu. **Shell hook:** `settings.js` requests live shell changes by dispatching a document `CustomEvent "yp:setting" {detail:{key:"uiLang"|"theme"|"rate", value}}`; `app.js` applies it (uiLang→`setLang`; theme→`applyTheme`+`saveSetting`+`updateThemeBtn`; rate→`saveSetting`, the persistent player reads `settings.rate`). `pace` has no shell involvement and is persisted directly by `settings.js` via `saveSetting`. This is the canonical way a non-shell screen requests a live shell setting change.
 
 ### 2.2 Text sitemap
 
@@ -107,7 +109,7 @@ english-self-study/  (principiaforge.com/english-self-study/)
 ├─ #/ielts      IELTS & CEFR alignment (honest framing)
 ├─ #/grammar    Grammar Reference index  → #/grammar/<unit>
 ├─ #/about      About · credits · contact
-└─ #/settings   (bottom sheet) language · pace · theme · rate · data
+└─ #/settings   (routed screen / panel) language · pace · theme · rate · data
 ```
 
 ---
@@ -492,11 +494,16 @@ One page = one **whole weekly AJ Hoge lesson** wrapped with two grammar topics +
 │    ⭐ INSERT bo'laklariga e'tibor bering     │  flag vox-pop = B2 accent stretch
 │ ⑦ 🗣️ → Speak-It (⑨): 60s IELTS-savoliga (●) │  feeds the weekly recording
 └───────────────────────────────────────────┘
-   → listen + quiz answered + 6-word pack reviewed sets steps.sixmin (→ 3★, §5.7)
+   → quiz answered + 6-word pack reviewed (honor) sets steps.sixmin — OR the gist-listen
+     counter listens.sixmin≥1 does (the S5 OR-gate) (→ 3★, §5.7)
 ```
 
 - The **quiz MCQ** (§5.10) shows options, locks a choice, then on ④ reveals the answer with an **Uzbek explanation** (`explanationUz`, 03 §6.2) — trains "listen for a specific answer" (02 §7).
 - The **`INSERT` vox-pop** stretch is explicitly flagged in ⑥ as the hardest, most IELTS-like audio (02 §3, §7).
+
+> **S7 (as shipped).** The two sections render from a lazily-imported `lesson-episodes.js` (`englishPodSection(id,l,ctx)` / `sixMinSection(id,l,ctx)`; ctx carries `trackTrigger/downloadBtn/transcriptBlock/findDl/markEp/markSix`). Refinements over the wireframe:
+> - **EnglishPod ⑥:** the `pr` beat ④ shows a **"skip on Sprint"** chip for Sprint-pace learners; each dialogue line offers an **optional per-line 🔊 replay via Web Speech TTS** (transcripts carry no timestamps per 03 §6.2, so TTS is the honest per-line replay — rendered only when available, no dead control otherwise); role-play **hide-toggles are derived per *distinct speaker*** (robust to named speakers, not hard-coded A/B), and the say-button is hidden on the currently-hidden role. `steps.ep` flips only after **both** shadow **and** one role are played (previously fired on merely opening the dialogue).
+> - **6ME ⑦:** the quiz is split into a **head** (options, shown at the prediction beat ②) and a **tail** (reveal, shown *after* the gist listen ③) so the reveal genuinely follows listening; the 6-word pack gets a **"reviewed" honor check**; `steps.sixmin` flips after quiz-answered **and** pack-reviewed (OR the gist-listen counter). **INSERT vox-pop paragraphs are visually highlighted** in the re-listen transcript, not merely noted.
 - **Interview-Skills bridge:** the six EnglishPod *Interview Skills* dialogues are woven into the self-presentation lessons' ⑥ sections (**L04, L18, L19, L26, L27, L29**) and climax at the **L30 capstone**, forming the IELTS-interview bridge; the `#/ielts` page (§4.7) surfaces the *"this bridges to a real/paid mock"* guidance (02 §0.5/§5).
 
 ### 4.5 How to Study — `#/method`
@@ -535,6 +542,8 @@ The lone learner's manual. **Uzbek-primary** (02 §6, §9). Long, scannable, car
 ```
 
 Every one of 02 §6's 13 blocks is a section here; the **Top-10-mistakes** block deep-links each cluster into the core lesson that fixes it (02 §6.11).
+
+> **S9 (as shipped).** `method.js` `renderMethod(main, seq, alive)` is code-split like `lesson.js` (`app.js` shows `screenSkeleton()`, then dynamic-imports it under an `alive()` guard). All 13 blocks of 02 §6 are authored as **inline bilingual `{uz,en}` pairs inside `method.js`** (not in the shell `ui.*.json` dicts), so the always-loaded dictionary stays lean and the prose downloads only on `#/method`. The page is **Uzbek-primary and renders the active language only**; the global UZ|EN toggle swaps to the English mirror by re-rendering (`setLang → render()` re-invokes `renderMethod`), rather than showing both languages at once. Each text node's `lang` follows the active content; **English demo/example lines** (technique demos, minimal pairs, sample sentences) stay `lang="en"` in both modes (immersion, 02 §9). Only `t("route.method.title")` is used for the single `<h1>`; everything else is inline. The sticky mini-TOC is **13 numbered jump *buttons*** (buttons + smooth-scroll that respects `prefers-reduced-motion`, not `#hash` anchors — so the hash router is never disturbed). **Block 11** deep-links each of the 10 L1 clusters to `#/lesson/core-NN` (articles→core-04, dropped copula→core-01, 3rd-person -s→core-01, do/does→core-23, present perfect→core-09, prepositions→core-02, he/she/it gender→core-01, word order→core-01, have/have got→core-12, plurals/countability→core-10); the 4 below-B1-floor clusters (dropped copula, 3rd-person -s, he/she/it gender, have/have got) are additionally badged as recurring **"Xato tuzatish"** micro-cards. Today only core-09 resolves; the rest show the graceful not-found card until S13 authors them. **Block 13 (FAQ)** is a native `<details>/<summary>` accordion (5 Q&A).
 
 ### 4.6 Progress — `#/progress`
 
@@ -575,11 +584,15 @@ Everything the accountless system knows about the learner, made visible and **po
 - **Export / Import JSON is prominent** — the *only* safe way to move devices / survive a cache-clear without accounts (02 §8.2, 03 §6). Includes copy-to-clipboard. Import validates `schemaVersion` and shows a diff-preview before overwrite.
 - The **L1-vs-L30 recording comparison** (02 §6, §8.4) is a two-button player that appears once both recordings exist — the emotional payoff of the whole course.
 
+> **S6 (as shipped).** `progress-page.js` `renderProgress(main, seq, alive)` is code-split (skeleton → dynamic import → `alive()` guard). Sections in order: **(1)** hero counters reusing `.hmetrics` (listening minutes biggest, speaking reps, **recordings**); **(2)** CEFR ladder [A2/B1/B2] derived from index phase completion — a rung is *reached* when all **authored** lessons of that phase are ≥1★, else *in progress* / *not yet* (phase 1 is always at least in-progress); **(3)** month streak calendar — because the schema logs no per-day history, the run is an **honest approximation** from the streak fields (the last `count` days up to `lastActiveDate` render ● active, a freeze used this ISO-week shows one ❄ just before the run, future days ○ upcoming — never over-claims); **(4)** badge gallery — 15 badges, earned bright / locked greyed + an "n/target" hint (`role="img"`, bilingual aria); **(5)** IELTS coverage grid — a **fixed 20-topic set** filled by mapping each **completed** lesson's index tags/theme/slug to topics via keyword matchers, reconciled into `ieltsTopics` via `setTopicCoverage` (max-merge, persisted); **(6)** L1↔L30 comparison — reads IndexedDB (`ess-recordings/recordings`), two mini players (earliest vs latest lesson by index order) only when ≥2 recordings exist, else a "record to start" hint; **(7)** Data block — Export (JSON download) · Copy (clipboard, textarea fallback) · Import (paste **or** file → Preview[before-vs-incoming diff] → Confirm overwrite) · Reset all (inline confirm). **Reset keeps settings** (uiLang/theme/pace/rate) and also clears the IndexedDB recordings store so `metrics.recordings` can't resurrect. Badge earn dispatches a shell `"yp:badge"` toast (the `app.js` listener maps ids→labels and shows one brief toast per new id).
+
 ### 4.7 IELTS & CEFR — `#/ielts`  ·  4.8 Grammar Reference — `#/grammar`  ·  4.9 About — `#/about`
 
 - **`#/ielts`** (bilingual, 02 §7): the honest "this builds the competence IELTS measures; it is *not* a cram course" statement up front; the Phase→CEFR→IELTS table; the Speaking-criterion→feature map; a plain "**Am I ready for a mock?**" checklist (finished Phase 3, comfortable with the woven Interview-Skills EnglishPod conversations that climax at the L30 capstone, 02 §5). Links to the coverage grid.
-- **`#/grammar`** (03 routing): a read-only **index of all Grammar Sparks** grouped by the 4-tier internal grouping, each linking to its lesson; plus standalone **irregular-verbs** and **spelling** reference cards (Murphy App 2/3/5, re-authored, 02 §10). Not a drill surface — a lookup.
-- **`#/about`**: what this is; the Effortless-English method credit; the **honest free/no-login promise**; the **licensing note** (media is the owner's responsibility, sits in a swappable bucket — 03 §9); contact (`principiaforge@gmail.com`); link back to the Principia Forge family.
+- **`#/grammar`** (03 routing): a read-only **index of all Grammar Sparks** grouped **by phase (Poydevor / Surʼat / Ravonlik)**, each linking to its lesson; plus standalone **irregular-verbs** and **spelling** reference cards. The cards are **original, re-authored bilingual cards** (forms + Uzbek gloss / neutral examples) — **never reproductions** of Murphy App 2/3/5 (03 §9). Not a drill surface — a lookup.
+- **`#/about`**: what this is; the Effortless-English method credit; the **honest free/no-login promise**; the **licensing note** (media is the owner's responsibility, sits in a single swappable `MEDIA_BASE` bucket, on-site grammar is original Uzbek prose, source materials remain their owners' property — 03 §9 / 00 §6); an **attributed sources list** (AJ Hoge / Effortless English · EnglishPod/Praxis · BBC 6 Minute English · Cambridge/Murphy); contact (`principiaforge@gmail.com`); link back to the Principia Forge family.
+
+> **S10 (as shipped).** `#/ielts`, `#/grammar`, `#/about` are code-split route modules (`renderIelts`/`renderGrammar`/`renderAbout`, each `(main, seq, alive)`, one `<h1>` per screen). `#/ielts` is static (honest framing + Phase→CEFR→IELTS table + criterion→feature map + **"Am I ready for a mock?"** checklist + **Interview-Skills bridge** callout — this satisfies S7's "surface the bridges-to-a-real/paid-mock note on `#/ielts`"). `#/grammar` awaits `loadIndex()` (on failure it still renders the reference cards) and groups the Grammar-Sparks index by `phase` (index.json exposes only `phase` 1/2/3 per lesson, 03 §6.1 — not a 4-tier field); it reads an optional `#/grammar/<unit>` from `location.hash` to scroll+highlight the matching topic row (`id="g-<slug>"`). The index renders whatever `loadIndex()` returns (only core-09 today; empty phases show a calm "being prepared" note) and grows as S13 authors.
 
 ---
 
@@ -666,7 +679,7 @@ Renders `ministory.pairs` (03 §6.2). Per pair: show question (EN) → **2–3 s
 - **CEFR ladder** — `[A2✓][B1◔][B2○]`.
 - **Coverage-grid cell** — one of ~20 IELTS topics; empty→filled as `ieltsTopics` increments (02 §8.3).
 - **Quiz MCQ (§5.10)** — options as 48px rows; select → lock → reveal correct (green ✓) / chosen-wrong (amber, never harsh red) + Uzbek explanation; icon+text, not color-only.
-- **Dialogue role-play line** — speaker tag + line; a "hide this role" toggle blanks one speaker's lines for role-play; optional per-line replay.
+- **Dialogue role-play line** — speaker tag + line; **one "hide this role" toggle per *distinct speaker*** (blanks that speaker's lines for role-play, robust to named speakers — not hard-coded A/B); optional **per-line replay via Web Speech TTS** (no fake timestamps, since transcripts have none — 03 §6.2), and the say-button is **hidden on the currently-hidden role** so you don't hear the line you should speak (S7).
 - **YouTube facade (§5.9).**
 - **Download button** — states Download → progress% → Saved✓/offline; size + type label.
 - **Record button** — idle `●` → recording (timer + waveform) → saved (playback + delete); "nothing uploaded" reassurance.
@@ -680,7 +693,7 @@ Renders `ministory.pairs` (03 §6.2). Per pair: show question (EN) → **2–3 s
 Static thumbnail (`<img loading="lazy">`, or a CSS-gradient placeholder if the thumbnail host is also to be avoided) + centered `▶` + title/channel caption. On tap → inject a `youtube-nocookie.com` iframe with `title`, `loading="lazy"`, and focus moved into it. Saves ~1 MB/embed pre-tap (03 §7). Fallback if the iframe fails/blocked: a plain "Open on YouTube" link.
 
 ### 5.10 Quiz MCQ (6 Minute English)
-`sixmin.quiz[]` (03 §6.2): stem (bilingual framing allowed, options `lang="en"`), single-select, reveal-on-command with `answerIndex` and `explanationUz`. Correct = green ✓ + label; chosen-wrong = amber outline + ✗ + the Uzbek explanation. Rendered inside the weekly lesson's 6ME section (§4.4 ⑦); feeds the `sixmin` step.
+`sixmin.quiz[]` (03 §6.2): stem (bilingual framing allowed, options `lang="en"`), single-select, reveal-on-command with `answerIndex` and `explanationUz`. Correct = green ✓ + label; chosen-wrong = amber outline + ✗ + the Uzbek explanation. Rendered inside the weekly lesson's 6ME section (§4.4 ⑦); feeds the `sixmin` step. **S7:** the component exposes a **head** (question + options) and a **tail** (reveal + feedback) as separate mounts, so the 6ME flow can place the options at the prediction beat ② and the reveal *after* the gist listen ③ (§4.4).
 
 ### 5.11 Grammar two-topic panel (§4.3 ①)
 Renders the `grammar[]` array (exactly two topics, 03 §6.2) as **two tabs / stacked cards** — **A** (`grammar[0]`, the Days 1–2 topic) and **B** (`grammar[1]`, Days 3–4). Each card is identical in shape: `bodyHtml` (sanitized), a **🏷️ band-lifter / CEFR-can-do tag** (`bandLifter`/`cefrCanDo`), the L1-contrast callout, its own **⚠️ "Xato tuzatish"** error-fix card (`errorFixUz`), the 2–3 interactive drills (gap-fill MCQ / reveal + honor / `say-true` spoken), and an **optional** Murphy-PDF download when `reference` is present. Ticking a card feeds its `grammarA` / `grammarB` step (§5.7); **both** are needed for 1★. On mobile the two collapse into an accordion so the page stays single-column (P1).
@@ -712,6 +725,8 @@ The storage model is the **canonical `ess.progress.v1` union in 03 §6.3** (loca
 - **Streak freeze** auto-applies (1/week) and is shown as a calm `❄` on the calendar, so a missed day doesn't read as failure (02 §8.3).
 - **Celebrations** (star fill, badge earn, phase cross → CEFR badge) are brief and **`prefers-reduced-motion`-gated**.
 - **First-run** shows all counters at 0 with encouraging copy and empty-but-hinted badge slots (§9), never a barren dashboard.
+
+> **S6 (as shipped).** The **re-engagement banner** lives on the **Home returning dashboard only** (`home.js`): once-per-day, dismissible, non-modal, kind copy that never guilts, driven by `progress.shouldReengage()` / `dismissReengage()` (the latter writes `reengageDismissed`, an ISO date, 03 §6.3). The **Comeback badge** is awarded on a ≥7-day-gap return (detected in `registerStudyDay`). **Badge-earn toast:** the engine dispatches a document `"yp:badge" {ids:[]}` from the mutating study paths and from the Progress page's `awardPhaseBadges`; the `app.js` shell listener maps each id to its bilingual label and shows one brief, non-focus-stealing toast per new id (reduced-motion collapses it to instant). Count-based badges toast immediately from the lesson page; **phase/CEFR badges** (A2/B1/B2) are index-aware and awarded when the user next opens Progress after completing a phase's last authored lesson.
 
 ---
 

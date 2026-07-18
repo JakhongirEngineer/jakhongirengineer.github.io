@@ -34,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S6**
+## Current slice → **S8**
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -46,11 +46,11 @@ This file is the single running checklist — **update it every session** (tick 
 | S3 | Core lesson page with audio (the centerpiece) | **DONE** |
 | S4 | Speak It Yourself — recording + IndexedDB | **DONE** |
 | S5 | Progress engine + Home dashboard + Curriculum map | **DONE** |
-| S6 | Progress page + gamification + export/import JSON | TODO |
-| S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | TODO |
+| S6 | Progress page + gamification + export/import JSON | **DONE** |
+| S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | **DONE** (section flows + quiz/role-play + step wiring + pipeline emission mechanism; 30-lesson authoring in S13) |
 | S8 | Fun English embeds (YouTube facade + curation) | TODO |
-| S9 | How to Study (methodology) page | TODO |
-| S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | TODO |
+| S9 | How to Study (methodology) page | **DONE** |
+| S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | **DONE** |
 | S11 | Polish, accessibility & performance pass | TODO |
 | S12 | PWA / offline (phase 2) | DEFERRED |
 | S13 | Content authoring completion + launch checklist | TODO |
@@ -152,11 +152,11 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** everything the accountless system knows is visible, motivating, and **portable** — the only safe device-move / cache-clear backup without accounts.
 **Specs:** `04 §4.6` (progress page), `04 §6` (gamification surfaces), `02 §8.2` (export/import), `02 §8.3` (badges/streak/goals), `02 §7` (CEFR ladder + coverage), `03 §6.3`.
 
-- [ ] Progress page: hero counters, **CEFR ladder** (A2✓/B1◔/B2○), **streak calendar** (with `❄` freeze), badge gallery (earned bright / locked greyed + progress hint), **IELTS-topic coverage grid** (`04 §4.6`, `§6`).
-- [ ] Badge triggers wired (First Step, streaks, Deep Listener, Speaker, Voice, Grammar Guru, phase/CEFR badges, Explorer, Comeback) with toast-on-earn (`02 §8.3`).
-- [ ] **Export / Import / Copy JSON** prominent: import validates `schemaVersion`, attempts `migrate()`, shows a diff-preview before overwrite; "reset all" with confirm (`02 §8.2`, `03 §6.3`).
-- [ ] Re-engagement banner (localStorage-driven, once/day, dismissible, **never modal/guilt**) + Comeback badge on 7+ day return (`02 §8.3`, `04 §6`).
-- [ ] L1↔L30 recording comparison player appears once two recordings exist (`04 §4.6`, `02 §6`).
+- [x] Progress page: hero counters, **CEFR ladder** (A2✓/B1◔/B2○), **streak calendar** (with `❄` freeze), badge gallery (earned bright / locked greyed + progress hint), **IELTS-topic coverage grid** (`04 §4.6`, `§6`).
+- [x] Badge triggers wired (First Step, streaks, Deep Listener, Speaker, Voice, Grammar Guru, Conversationalist, phase/CEFR, Comeback) with toast-on-earn (engine dispatches `yp:badge`; shell toast in `app.js`) (`02 §8.3`).
+- [x] **Export / Import / Copy JSON** prominent: import validates `schemaVersion`, `migrate()`, diff-preview before overwrite; "reset all" with confirm (`02 §8.2`, `03 §6.3`).
+- [x] Re-engagement banner (localStorage-driven, once/day, dismissible, **never modal/guilt**) + Comeback badge on 7+ day return (`02 §8.3`, `04 §6`).
+- [x] L1↔L30 recording comparison player appears once two recordings exist (`04 §4.6`, `02 §6`).
 
 **Done when:** the Progress page shows live metrics/badges/coverage/streak; exporting then importing JSON on a "fresh" browser restores progress exactly; a mis-versioned import is refused without corrupting current data.
 
@@ -165,12 +165,12 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the two authentic-volume sections render **inside** the weekly lesson page — EnglishPod (speaking: shadow + role-play) as section ⑥, 6 Minute English (listening: quiz + INSERT stretch) as section ⑦ — *not* as separate pages. They add reps + volume and lift a lesson to 2★/3★, with EnglishPod `null`-gated (hidden) on L15 & L22.
 **Specs:** `02 §3` (in-lesson EP/6ME flows), `02 §5` (episode weave + on-disk filenames), `04 §4.3` ⑥/⑦ (+ behaviors 7–8), `04 §4.4` (the two section flows), `04 §5.10` (quiz MCQ), `04 §5.8` (dialogue role-play), `03 §6.2` (`englishpod{}` / `sixmin{}` blocks), `03 §4` (lazy `lesson-episodes.js`), `02 §7` (INSERT / listening map).
 
-- [ ] Extend the pipeline to emit, **inside each `core-NN.json`**, the **`englishpod{}`** block (`dg/pr/rv` + `dialogue` + Uzbek-glossed `keyVocab`; **`null` for L15 & L22**) and the **`sixmin{}`** block (`audio.main` + `quiz` + Uzbek-glossed `vocab` + trimmed `transcripts.sixmin`), per the verified §5 weave filenames — no `supp-*` files (`03 §6.2`, `02 §5`).
-- [ ] EnglishPod section ⑥ (7 beats): warm-up → `dg` cold → transcript + **Key Vocab + added Uzbek gloss** → `pr` (Sprint-skippable) → shadow → **role-play (hide a role)** → `rv`; the whole section is gated off when `englishPod:null` (`02 §3`, `04 §4.4`).
-- [ ] 6ME section ⑦ (7 beats): MCQ pre-listen → predict → gist listen (hidden) → reveal + self-check → 6-word vocab + UZ gloss → re-listen with transcript (**flag `INSERT` vox-pop as the B2 stretch**) → feeds the Speak-It 60-sec recording (`02 §3`, `02 §7`).
-- [ ] Quiz MCQ component (select → lock → reveal ✓ / amber-not-red wrong + `explanationUz`) + dialogue role-play component, split into a lazily-imported **`lesson-episodes.js`** so every JS module stays within the ≤35 KB budget (`04 §5.10`, `§5.8`, `03 §4`).
-- [ ] Wire `steps.ep` (→ 2★, **auto-true on L15/L22**) and `steps.sixmin` (→ 3★) into the weekly star model + `listens.{ep,sixmin}` (`02 §8.1`, `03 §6.3`); the map's 🎙️/📻 badges reflect availability.
-- [ ] **Interview-Skills bridge:** the six EnglishPod *Interview Skills* dialogues sit in the ⑥ sections of **L04/L18/L19/L26/L27/L29** and climax at the **L30 capstone**; surface the "bridges to a real/paid mock" note on `#/ielts` (`02 §5`, `04 §4.4`/`§4.7`).
+- [~] Extend the pipeline to emit, **inside each `core-NN.json`**, the **`englishpod{}`** block (`dg/pr/rv` + `dialogue` + Uzbek-glossed `keyVocab`; **`null` for L15 & L22**) and the **`sixmin{}`** block (`audio.main` + `quiz` + Uzbek-glossed `vocab` + trimmed `transcripts.sixmin`), per the verified §5 weave filenames — no `supp-*` files (`03 §6.2`, `02 §5`). *(S7: the extract/compile MECHANISM is complete + deterministic — `extract.mjs` emits `englishpod.draft.json`/`sixmin.draft.json` incl. the L15/L22 null-gate; `compile-grammar.mjs` is batch-resilient and round-trips the folded blocks. Authoring the blocks in all 30 `core-NN.json` remains S13, line 243.)*
+- [x] EnglishPod section ⑥ (7 beats): warm-up → `dg` cold → transcript + **Key Vocab + added Uzbek gloss** → `pr` (Sprint-skippable) → shadow → **role-play (hide a role)** → `rv`; the whole section is gated off when `englishPod:null` (`02 §3`, `04 §4.4`).
+- [x] 6ME section ⑦ (7 beats): MCQ pre-listen → predict → gist listen (hidden) → reveal + self-check → 6-word vocab + UZ gloss → re-listen with transcript (**flag `INSERT` vox-pop as the B2 stretch**) → feeds the Speak-It 60-sec recording (`02 §3`, `02 §7`).
+- [x] Quiz MCQ component (select → lock → reveal ✓ / amber-not-red wrong + `explanationUz`) + dialogue role-play component, split into a lazily-imported **`lesson-episodes.js`** so every JS module stays within the ≤35 KB budget — 16 KB raw / 5.1 KB gzip (`04 §5.10`, `§5.8`, `03 §4`).
+- [x] Wire `steps.ep` (→ 2★, **auto-true on L15/L22**) and `steps.sixmin` (→ 3★) into the weekly star model + `listens.{ep,sixmin}` (`02 §8.1`, `03 §6.3`); the map's 🎙️/📻 badges reflect availability.
+- [ ] **Interview-Skills bridge:** the six EnglishPod *Interview Skills* dialogues sit in the ⑥ sections of **L04/L18/L19/L26/L27/L29** and climax at the **L30 capstone**; surface the "bridges to a real/paid mock" note on `#/ielts` (`02 §5`, `04 §4.4`/`§4.7`). *(S10 shipped the `#/ielts` bridge callout + mock-readiness checklist; placing the six dialogues into L04/18/19/26/27/29 → L30 remains S13 authoring.)*
 
 **Done when:** on one lesson the EnglishPod ⑥ and 6ME ⑦ sections play and complete end-to-end **inside** the lesson page (quiz + role-play + shadowing + record), a `null`-gated lesson (L15/L22) hides ⑥ with `ep` auto-satisfied, and `steps.ep`/`steps.sixmin` lift the star tier.
 
@@ -191,9 +191,9 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the lone learner's manual — **Uzbek-primary**, complete, so nobody gets stuck and quits.
 **Specs:** `02 §6` (13-block outline), `04 §4.5` (layout), `02 §9` (bilingual policy), `02 §2` (7-day cycle + pace tracks).
 
-- [ ] All 13 blocks (`02 §6`): how it works · 7 rules · golden rule · daily habit (7-day cycle checklist) · choose your pace (+ backward-planning table) · **speaking-alone techniques** · deep listening · peak state · vocabulary · pronunciation self-check · **top-10 Uzbek mistakes** · what to do when you struggle · FAQ.
-- [ ] Uzbek-primary with English mirror via the global UZ|EN toggle; sticky mini-TOC jump links (`04 §4.5`).
-- [ ] Top-10-mistakes block deep-links each L1 cluster into the core lesson that fixes it (`02 §6.11`).
+- [x] All 13 blocks (`02 §6`): how it works · 7 rules · golden rule · daily habit (7-day cycle checklist) · choose your pace (+ backward-planning table) · **speaking-alone techniques** · deep listening · peak state · vocabulary · pronunciation self-check · **top-10 Uzbek mistakes** · what to do when you struggle · FAQ.
+- [x] Uzbek-primary with English mirror via the global UZ|EN toggle; sticky mini-TOC jump links (`04 §4.5`).
+- [x] Top-10-mistakes block deep-links each L1 cluster into the core lesson that fixes it (`02 §6.11`).
 
 **Done when:** `#/method` renders all 13 blocks bilingually, the UZ/EN toggle swaps the mirror, and every mistake link jumps to the right lesson.
 
@@ -202,10 +202,10 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the remaining routed surfaces that complete the app.
 **Specs:** `04 §4.7` (ielts/grammar/about), `02 §7` (IELTS/CEFR alignment), `04 §2.1` (settings sheet), `03 §9` + `00 §6` (licensing note), `02 §10` (grammar appendices).
 
-- [ ] `#/ielts`: honest "builds the competence IELTS measures, *not* a cram course" framing up front + Phase→CEFR→IELTS table + criterion→feature map + "Am I ready for a mock?" checklist (`02 §7`).
-- [ ] `#/grammar`: read-only index of all Grammar Sparks (by the 4-tier grouping) linking to lessons + re-authored irregular-verb / spelling reference cards (`04 §4.7`, `02 §10`).
-- [ ] `#/about`: what it is · Effortless-English credit · honest free/no-login promise · **licensing note (media = owner's responsibility, swappable bucket)** · contact `principiaforge@gmail.com` (`04 §4.7`, `03 §9`).
-- [ ] Settings bottom-sheet consolidating language · pace track · theme · playback rate · export/import · reset (persists to `settings.*`) (`04 §2.1`).
+- [x] `#/ielts`: honest "builds the competence IELTS measures, *not* a cram course" framing up front + Phase→CEFR→IELTS table + criterion→feature map + "Am I ready for a mock?" checklist + **Interview-Skills bridge note** (`02 §7`).
+- [x] `#/grammar`: read-only index of all Grammar Sparks (**by phase** — Poydevor / Surʼat / Ravonlik; see spec amendment, index.json exposes only `phase`) linking to lessons + **original re-authored** irregular-verb / spelling reference cards (`04 §4.7`, `02 §10`).
+- [x] `#/about`: what it is · Effortless-English credit · honest free/no-login promise · **licensing note (media = owner's responsibility, swappable bucket) + attributed sources** · contact `principiaforge@gmail.com` (`04 §4.7`, `03 §9`).
+- [x] Settings **screen (routed, styled as a panel — not a bottom sheet; see spec amendment)** consolidating language · pace track · theme · playback rate · export/import · reset (persists to `settings.*` via the `yp:setting` shell hook) (`04 §2.1`).
 
 **Done when:** all four routes render correctly, the IELTS framing is unmistakably honest, and settings changes persist across reload.
 

@@ -6,7 +6,7 @@
 // and the engine via getGlobal()/snapshot()/reviewDueToday(). Zero deps.
 
 import { el, icon, t, tf, lang, loadIndex, loadSettings, saveSetting, starCluster } from "./core.js";
-import { getGlobal, snapshot, reviewDueToday } from "./progress.js";
+import { getGlobal, snapshot, reviewDueToday, shouldReengage, dismissReengage } from "./progress.js";
 
 const STEP_KEYS = ["grammarA", "grammarB", "vocab", "main", "ministory", "pov", "ep", "sixmin", "fun", "record"];
 const PACES = ["effortless", "sprint", "gentle"];
@@ -91,6 +91,11 @@ function returning(g, authored, index) {
   const sec = el("section", { class: "screen home" });
   sec.append(el("h1", { class: "home__greeting" }, t("home.greeting")));
   sec.append(el("p", { class: "home__goal", lang: "uz" }, t("home.dailyGoal")));
+
+  // Re-engagement banner (S6, 02 §8.3 / 04 §6) — dismissible, non-modal, once/day, never
+  // guilt. Only on the returning dashboard; shouldReengage() gates it to a not-studied-today
+  // day the user hasn't already dismissed.
+  if (shouldReengage()) sec.append(reengageBanner());
 
   // Continue card — the single loudest element. Fall back to the first authored lesson
   // if lastLessonId points at an unauthored id (04 §4.1 degrade note).
@@ -178,4 +183,16 @@ function phasePreview(current) {
   });
   return el("div", { class: "home__phase" },
     el("p", { class: "home__section-h", lang: "uz" }, t("home.phasePreview")), row);
+}
+
+// ---- Re-engagement banner (S6, 02 §8.3 / 04 §6) — kind, dismissible, non-modal --------
+function reengageBanner() {
+  const banner = el("div", { class: "reengage", role: "note" });
+  const close = el("button", { class: "reengage__close", type: "button", "aria-label": t("reengage.dismiss"), html: icon("close") });
+  close.addEventListener("click", () => { dismissReengage(); banner.remove(); });
+  banner.append(
+    el("span", { class: "reengage__ic", "aria-hidden": "true" }, "🎧"),
+    el("p", { class: "reengage__body", lang: "uz" }, t("reengage.body")),
+    close);
+  return banner;
 }

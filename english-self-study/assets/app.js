@@ -4,8 +4,29 @@
 // (lesson.js) and its helpers (progress.js) are dynamically imported only on the
 // #/lesson/:id route, so Home/Map first paint never pays for them. Zero deps (03 §4).
 
-import { el, icon, t, lang, setLangState, loadDict, loadSettings, saveSetting } from "./core.js";
+import { el, icon, t, tf, lang, setLangState, loadDict, loadSettings, saveSetting } from "./core.js";
 import { initPlayer, refreshText as refreshPlayerText } from "./player.js";
+
+// Badge id → i18n label key (ids are NOT the i18n keys). The engine (progress.js) and
+// the Progress page (progress-page.js) dispatch document "yp:badge" {ids:[]} on earn;
+// the shell shows a brief toast per new id (04 §5.8/§6).
+const BADGE_LABEL = {
+  "first-step": "badge.first",
+  "streak-7": "badge.streak7",
+  "streak-30": "badge.streak30",
+  "streak-100": "badge.streak100",
+  "deep-listener-100": "badge.listener100",
+  "deep-listener-500": "badge.listener500",
+  "deep-listener-1000": "badge.listener1000",
+  "speaker": "badge.speaker",
+  "voice": "badge.voice",
+  "grammar-guru": "badge.grammar",
+  "conversationalist": "badge.conversationalist",
+  "a2-foundation": "badge.a2",
+  "b1-momentum": "badge.b1",
+  "b2-fluency": "badge.b2",
+  "comeback": "badge.comeback",
+};
 
 // ---- Routes (04 §2.1) — `lesson`/`grammar` take an optional trailing segment ----
 const ROUTES = {
@@ -216,8 +237,68 @@ async function render() {
       console.error("lessons module failed to load", err);
       if (alive()) main.replaceChildren(buildScreen("lessons", params));
     }
+  } else if (route === "progress") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./progress-page.js");   // code-split (S6)
+      if (!alive()) return;
+      await mod.renderProgress(main, seq, alive);
+    } catch (err) {
+      console.error("progress module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("progress", params));
+    }
+  } else if (route === "method") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./method.js");          // code-split (S9)
+      if (!alive()) return;
+      await mod.renderMethod(main, seq, alive);
+    } catch (err) {
+      console.error("method module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("method", params));
+    }
+  } else if (route === "ielts") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./ielts.js");           // code-split (S10)
+      if (!alive()) return;
+      await mod.renderIelts(main, seq, alive);
+    } catch (err) {
+      console.error("ielts module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("ielts", params));
+    }
+  } else if (route === "grammar") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./grammar.js");         // code-split (S10); reads #/grammar/<unit> from the hash itself
+      if (!alive()) return;
+      await mod.renderGrammar(main, seq, alive);
+    } catch (err) {
+      console.error("grammar module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("grammar", params));
+    }
+  } else if (route === "about") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./about.js");           // code-split (S10)
+      if (!alive()) return;
+      await mod.renderAbout(main, seq, alive);
+    } catch (err) {
+      console.error("about module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("about", params));
+    }
+  } else if (route === "settings") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./settings.js");        // code-split (S10); imports S6's export/import API
+      if (!alive()) return;
+      await mod.renderSettings(main, seq, alive);
+    } catch (err) {
+      console.error("settings module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("settings", params));
+    }
   } else {
-    main.replaceChildren(buildScreen(route, params));   // method/progress/ielts/grammar/about/settings — later slices
+    main.replaceChildren(buildScreen(route, params));   // unknown route — defensive fallback
   }
   if (alive() && booted) main.focus({ preventScroll: true });
 }
@@ -253,12 +334,48 @@ function goBack() {
   else location.hash = "#/lessons";
 }
 
+// ---- Badge earn-toast (04 §5.8/§6) — non-modal, never steals focus, auto-dismisses.
+// Lives outside #main (fixed overlay) so it survives route re-renders. Reduced-motion is
+// handled by the global CSS rule (the transition collapses to instant). .toast/.toast.is-show
+// come from the merged styles.css.
+function toast(text) {
+  const node = el("div", { class: "toast", role: "status", "aria-live": "polite" }, text);
+  document.body.appendChild(node);
+  requestAnimationFrame(() => node.classList.add("is-show"));
+  setTimeout(() => { node.classList.remove("is-show"); setTimeout(() => node.remove(), 300); }, 3500);
+}
+
 // ---- Wiring -----------------------------------------------------------------
 function wireEvents() {
   window.addEventListener("hashchange", render);
   navBtn.addEventListener("click", () => (navBtn.dataset.mode === "back" ? goBack() : openMenu(navBtn)));
   langToggle.addEventListener("click", () => setLang(lang() === "uz" ? "en" : "uz"));
   themeToggle.addEventListener("click", cycleTheme);
+
+  // Progress engine / page dispatch "yp:badge" {ids:[]} when new badges are earned — show
+  // one brief toast per id, lightly staggered (04 §6).
+  document.addEventListener("yp:badge", (e) => {
+    const ids = (e.detail && e.detail.ids) || [];
+    ids.forEach((id, i) => setTimeout(() => toast(tf("toast.badge", t(BADGE_LABEL[id] || id))), i * 400));
+  });
+
+  // Settings screen dispatches "yp:setting" {key,value} for shell-applied settings; the shell
+  // turns it into the live change (uiLang→setLang; theme→apply+persist; rate→persist). `pace`
+  // is persisted by settings.js itself (03 §7 / 04 §2.1).
+  document.addEventListener("yp:setting", (e) => {
+    const d = e && e.detail;
+    if (!d) return;
+    if (d.key === "uiLang" && (d.value === "uz" || d.value === "en")) {
+      setLang(d.value);
+    } else if (d.key === "theme" && ["auto", "light", "dark"].includes(d.value)) {
+      themeState = d.value;
+      applyTheme(themeState);
+      saveSetting("theme", themeState);
+      updateThemeBtn();
+    } else if (d.key === "rate" && [0.75, 1, 1.25].includes(d.value)) {
+      saveSetting("rate", d.value);
+    }
+  });
 
   const onNavClick = (e) => {
     const more = e.target.closest("[data-more]");

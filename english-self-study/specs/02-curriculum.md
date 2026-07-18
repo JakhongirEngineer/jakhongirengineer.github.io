@@ -146,6 +146,8 @@ EnglishPod and 6 Minute English are **sections inside each weekly lesson** (temp
 
 *Bilingual split identical to the rest of the lesson: instructions + glosses in Uzbek; all audio, transcripts, and prompts in English.* **EnglishPod↔AJ fit is inherently loose** (transactional everyday English vs the psychology-of-success talks) — treat the EnglishPod tag as "this week's conversation practice," resonance not equivalence. **6ME↔AJ fit is tighter**; several picks the A2-calibrated inventory rated "No" (abstract psychology/society) are used *deliberately* — the redefined B1→B2 audience can handle them, and the AJ MAIN pre-teaches that week's theme and vocabulary, scaffolding the harder 6ME listen.
 
+> **S7 (as shipped).** The EnglishPod steps 1–7 and 6ME steps 1–7 above match what shipped, with two step-completion refinements from the S5 star model (04 §5.7): **`steps.ep`** is set by **shadow + one role played** (honor checks), with the **`dg`-listen counter (`listens.ep`≥1)** as the alternate satisfier; **`steps.sixmin`** is set by **quiz-answered + the 6-word pack reviewed** (honor checks), with the **gist-listen counter (`listens.sixmin`≥1)** as the alternate satisfier. In the 6ME flow the **quiz reveal (step 4) renders after the gist listen (step 3)** — options are placed at the predict beat, the reveal below the listen. The **`INSERT` vox-pop paragraphs are visually highlighted** in the re-listen transcript (not merely noted). EnglishPod is `null`-gated on L15/L22, where `steps.ep` auto-satisfies.
+
 ---
 
 ## 4. Grammar syllabus — 30 lessons × 2 original topics (B1 → B2)
@@ -379,6 +381,8 @@ Speaking steps are **honor-system** (*"Men ovoz chiqarib gapirdim ✓"*) — fra
 ```
 *(Audio blobs live in IndexedDB, keyed by lesson id; localStorage stores only the `steps.record` flag and the `metrics.recordings` count.)*
 
+> **S6 (as shipped) — export/import.** Export writes pretty JSON of the normalized `ess.progress.v1` (download + copy-to-clipboard with a textarea fallback). Import is **strict and read-only until confirmed**: `previewImport(text)` validates and returns a **before-vs-incoming diff-preview** (lessons completed / total stars / listening minutes / streak) without writing; only `applyImport(text)` writes, and only a validated+migrated object. Refusals carry a **clear bilingual reason** — `badVersion` (schemaVersion ≠ 1), `badJson` (unparseable), `invalid` (non-object/array) — and a refused import **never corrupts current data** (matches the S6 *"a mis-versioned import is refused without corrupting current data"* done-when). **Reset** preserves settings (uiLang/theme/pace/rate) and also clears the IndexedDB recordings store.
+
 ### 8.3 Streaks, goals, badges (dopamine, tuned not to punish real life)
 
 - **A "study day"** = any real action today — any mini-story answered aloud, any recording saved, any lesson completed, or a completed listen / at least a minute of listening. Deliberately achievable (tuned not to punish real life, not a ≥5-min threshold).
@@ -403,6 +407,8 @@ Speaking steps are **honor-system** (*"Men ovoz chiqarib gapirdim ✓"*) — fra
 | Comeback | return after a 7+ day gap (kindness, not punishment) |
 
 **Visualizations:** a phase "path" (Poydevor → Sur'at → Ravonlik), phase progress bars, a **listening-minutes counter as the hero number**, a speaking-reps tally, a streak calendar, and an **IELTS-topic coverage grid** (~20 Part 1/2 topics fill as practised).
+
+> **S6 (as shipped) — badge triggers, by id.** `first-step` (any lesson ≥1★); `streak-7`/`streak-30`/`streak-100` (gate on best-ever run = `max(count, longest)`); `deep-listener-100`/`-500`/`-1000` (listening minutes); `speaker` (≥100 `speakingReps`); `voice` (≥10 recordings); `grammar-guru` (**≥20 grammar drill *sets*** — each completed grammar topic = 1 set, counted from `steps.grammarA`/`grammarB`, i.e. 2 per fully-completed lesson); `conversationalist` (≥15 lessons with `steps.ep`); `a2-foundation`/`b1-momentum`/`b2-fluency` (awarded on the Progress page when a phase's **authored** lessons are all complete — index-aware `awardPhaseBadges`); `comeback` (≥7-day gap detected in `registerStudyDay`). Count-based badges are **derived from the union object** (no drift-prone counters); phase/CEFR badges are index-aware. **Badges never un-earn.** Earning any dispatches a shell `"yp:badge"` toast (04 §6).
 
 ### 8.4 Engagement cheat-sheet (why a lone learner stays)
 
