@@ -183,6 +183,8 @@ ASCII sketches are drawn at ~phone width. `[ ]` = button, `( )` = radio/toggle, 
 - **Hero metrics** put **listening minutes first and biggest** — the deliberate "reward volume, not speed" stance (02 §1, §8). Speaking reps second; streak third with the flame.
 - **Review-today** cards appear only when a lesson's `reviewDue` ≤ today (02 §8.3); absent otherwise (no empty box).
 
+> **S5 (as shipped).** `home.js` `renderHome()` is code-split like `lesson.js` (skeleton → dynamic import → `alive()` guard) and reads `progress.getGlobal()`. The **first-run vs returning** split is `getGlobal().hasProgress` (lastLessonId set, or any metric > 0, or any lesson started/complete). **First-run "Start" targets the first AUTHORED lesson** — `index.lessons` sorted by `order`, `[0]`, labelled with that lesson's number+title — **not** a hardcoded "Lesson 1", because the authored set currently begins at **core-09**. The pace picker persists to `settings.pace`. On the returning view, if `lastLessonId` points at a lesson **not in `index.json`** (unauthored), the Continue card **falls back to the first authored lesson**. The Continue card's day-of-cycle focus is derived from the lesson's `startedAt` (the same `dayOfCycle` as `lesson.js`).
+
 **First run (no progress)** — the same route detects an empty `ess.progress.v1` and renders onboarding instead:
 
 ```
@@ -205,7 +207,8 @@ ASCII sketches are drawn at ~phone width. `[ ]` = button, `( )` = radio/toggle, 
 
 ### 4.2 Curriculum Map — `#/lessons`
 
-> **Slice:** built in **S5** (progress engine + map). **Not part of S3** — S3 ships only the lesson page (§4.3), so `#/lessons` stays the standard "keyingi bosqichda" placeholder until S5. Each card's **EnglishPod / 6 Minute English availability badges** read from `index.json` (`hasEnglishPod`, §6.1 / 03 §6.1); those sections *inside* the lesson are built in **S7**.
+> **Slice:** built in **S5** (progress engine + map) — shipped in `lessons.js` `renderMap()` (code-split like `lesson.js`). Each card's **EnglishPod / 6 Minute English availability badges** read from `index.json` (`hasEnglishPod`, §6.1 / 03 §6.1); those sections *inside* the lesson are built in **S7**.
+> **S5 (as shipped).** The map renders the **three phases as fixed constants** (Poydevor teal · Sur'at indigo · Ravonlik amber — 04 §7.2) with each phase's Uzbek name + CEFR tag + "by the end I can…" line + a progress bar (**completed authored lessons in phase / authored lessons in phase**). Within each phase it renders a card for **every `index.json` lesson whose `phase` matches** — the two grammar topics come from **`grammarTitlesUz`** (falling back to `grammarUnits` slugs), the star cluster from `snapshot(id).stars`. The **recommended-next** ring marks the lowest-order authored lesson not yet complete (one gentle pulse; none under reduced-motion). **Soft locks are hints only — never disabled** (free-study ethos). A phase with **no authored lessons yet** shows a calm *"Darslar tayyorlanmoqda / Lessons are being prepared"* note — the map never fabricates entries. Because the authored catalogue is currently just **core-09**, phase 1 shows that one card and phases 2–3 show the note; the **full 30-lesson population lands in S13** as `build-index.mjs` regenerates `index.json`.
 
 The 3-phase "path" (02 §8.3 visualization). Vertical, scroll-down = progress-forward. **No hard locks** (free-study ethos, learner autonomy) — but the *recommended next* lesson is highlighted and the speaking-gate rule is stated inline so learners self-pace honestly.
 
@@ -647,8 +650,14 @@ Renders `ministory.pairs` (03 §6.2). Per pair: show question (EN) → **2–3 s
 
 ### 5.7 Lesson Check (checklist + star award + mark-complete)
 - **Checkbox rows** for the 10 steps (03 §6.3): `grammarA`, `grammarB`, `vocab`, `main`, `ministory`, `pov`, `ep`, `sixmin`, `fun`, `record`. Rows absent in a lesson are **omitted, not greyed** — **POV** on L01–08, **EnglishPod** on L15/L22 (where `ep` auto-satisfies, 02 §8.1). Each row: label (bilingual) + state; the **Mini-Story-aloud row is marked `← GATE`** and styled as required.
-- **Star tiers** (02 §8.1): **1★** = `grammarA`+`grammarB`+`vocab`+MAIN×3+ministory×2 (gate)+POV×2 (if present); **2★** = +`ep`+`fun`+one recording; **3★** = +`sixmin`+a second recording. **Live star readout** updates as boxes tick.
+- **Star tiers** (02 §8.1): **1★** = `grammarA`+`grammarB`+`vocab`+MAIN×3+ministory×2 (gate)+POV×2 (if present); **2★** = +`ep`+`fun`+one recording; **3★** = +`sixmin`. **Live star readout** updates as boxes tick.
 - **Primary "earn ★" button** is **disabled with a visible Uzbek reason** until the gate row is checked (02 §8.1). On tap: writes `stars`/`status`/`steps`, logs `listeningMinutes`+`speakingReps`+`xp`, updates `streak`+`badges`, sets `reviewDue` (+1/3/7/14). A brief, reduced-motion-safe celebration (star fills + one praise line).
+
+> **S5 implementation (as shipped).** The per-lesson star model above is the one enforced in `lesson.js` `lessonCheck()` + `progress.js` `completeLesson()`:
+> - **1★** = `grammarA` && `grammarB` && vocab-seen && MAIN listened ×3 && **mini-story answered aloud ×2 (the GATE)** && (POV absent **or** POV ×2). **2★** = 1★ + EnglishPod done (`ep` — **auto-satisfied when the section is absent**, L15/L22) + Fun watched + one Speak-It recording. **3★** = 2★ + 6 Minute English done (`sixmin`).
+> - **The 3★ tier does NOT gate on a *second* recording here.** The L1↔L30 "record again at the end" growth-proof comparison is a **Progress-page surface built in S6** (02 §6/§8.4), not a per-lesson 3★ requirement — a lone learner must be able to master any single lesson without having reached L30. (This narrows the earlier "3★ = +sixmin + a second recording" line to what a per-lesson check can honestly award.)
+> - The **earn button** is disabled with `t("check.gateReason")` until the gate is met, then with `t("check.needMore")` when the gate is met but the other 1★ rows aren't; it enables at tier ≥ 1. Earning **never downgrades** `stars` (`max(old, new)`), and if the live tier later **exceeds** the earned floor the button re-enables to earn the higher tier. On reload the earned floor is seeded from `snapshot(id).stars`, so a completed lesson shows its star + a "next review" date immediately.
+> - **Fun English "watched" is an interim honor toggle** (`check.funWatch`) inside section ⑧, marking the `fun` step until **S8** builds the real YouTube-facade that auto-marks it.
 
 ### 5.8 Other components (summarized)
 - **Streak flame 🔥** — count + subtle flicker (off under reduced-motion); freeze `❄` marker.

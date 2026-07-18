@@ -4,7 +4,7 @@
 
 import { el, icon, t, tf, fmtTime, fmtMB, DATA_BASE } from "./core.js";
 import { playTrack } from "./player.js";
-import { snapshot, openLesson, bumpMsAnswer } from "./progress.js";
+import { snapshot, openLesson, bumpMsAnswer, completeLesson } from "./progress.js";
 import { mediaUrl } from "../config.js";
 
 const cache = {};                 // fetched lesson JSON, keyed by id (avoids refetch on UZ|EN)
@@ -15,6 +15,7 @@ const grammarTouched = new Set(); // slots ("A"/"B") whose drills were attempted
 let epTouched = false;            // any EnglishPod affordance used (dialogue shown / role hidden)
 let sixTouched = false;           // 6ME quiz answer revealed
 let recordSaved = false;          // a Speak-It recording is saved for this lesson (S4)
+let funWatched = false;           // Fun English honor "watched" toggle (INTERIM until S8 builds the facade)
 const live = {};                  // per-render refreshers (dots / checklist), called by refreshLive()
 
 // ---- Web Speech TTS for vocab / POV read-aloud (0 KB, graceful fallback) -----
@@ -297,7 +298,9 @@ function section(num, titleKey, opts = {}) {
 function dayOfCycle(id) {
   const L = snapshot(id);
   if (!L.startedAt) return 1;
-  const days = Math.floor((Date.now() - L.startedAt) / 86400000);
+  const t0 = Number(L.startedAt);                 // guard a hand-edited/imported non-numeric startedAt (S6)
+  if (!Number.isFinite(t0)) return 1;             // → avoid day=NaN leaking "lesson.day.NaN" to the DOM
+  const days = Math.floor((Date.now() - t0) / 86400000);
   return (days % 7) + 1;
 }
 function sectionStrip(id, presentNums) {
@@ -335,6 +338,7 @@ function computeDone(L, present) {
   if (present.has(5)) d[5] = (L.listens.pov || 0) >= 1;
   if (present.has(6)) d[6] = epTouched || (L.listens.ep || 0) >= 1;
   if (present.has(7)) d[7] = sixTouched || (L.listens.sixmin || 0) >= 1;
+  if (present.has(8)) d[8] = funWatched;
   if (present.has(9)) d[9] = recordSaved;
   return d;
 }
@@ -359,30 +363,67 @@ function markEp()  { if (!epTouched)  { epTouched  = true; refreshLive(); } }
 function markSix() { if (!sixTouched) { sixTouched = true; refreshLive(); } }
 function markRecord(saved) { recordSaved = !!saved; refreshLive(); }  // Speak-It save/delete (S4)
 
-// ---- Section 10: Lesson Check summary (honest S3 preview; S5 owns award+gate) --
+// ---- Section 10: Lesson Check — star award + mandatory speaking gate (04 §5.7, 02 §8.1) --
+// 1★ = grammarA+B + vocab + MAIN×3 + ministory×2 (GATE) + POV×2 (if present); 2★ = 1★ + ep
+// (auto-true when the section is absent, L15/L22) + fun-watched + one recording; 3★ = 2★ + sixmin.
+// The L1↔L30 "second recording" comparison is an S6 Progress surface, not a per-lesson 3★ gate;
+// the Fun "watched" toggle is an interim honor affordance until S8 builds the facade.
 function lessonCheck(id, l, present) {
   const body = el("div", { class: "check__body" });
+  let justEarned = false;                     // one-shot: celebrate on the earning render only
+
+  const epDone  = (L) => present.has(6) ? (epTouched || (L.listens.ep || 0) >= 1) : true; // ep auto-satisfies when absent
+  const sixDone = (L) => sixTouched || (L.listens.sixmin || 0) >= 1;
+  const gateMet = (L) => (L.msAnswersAloud || 0) >= 2;
+  const oneStar = (L) =>
+    grammarTouched.has("A") && grammarTouched.has("B") && seenVocab.size > 0 &&
+    (L.listens.main || 0) >= 3 && gateMet(L) && (!present.has(5) || (L.listens.pov || 0) >= 2);
+  function starTier(L) {
+    if (!oneStar(L)) return 0;
+    if (!(epDone(L) && funWatched && recordSaved)) return 1;   // 2★ needs ep + fun + one recording
+    return sixDone(L) ? 3 : 2;                                  // 3★ adds 6ME
+  }
+  // The 10-boolean steps snapshot completeLesson persists (03 §6.3) so a reload shows what was done.
+  function stepsSnapshot(L) {
+    return {
+      grammarA: grammarTouched.has("A"), grammarB: grammarTouched.has("B"),
+      vocab: seenVocab.size > 0, main: (L.listens.main || 0) >= 3,
+      ministory: gateMet(L),
+      pov: present.has(5) ? (L.listens.pov || 0) >= 2 : false,
+      ep: epDone(L), sixmin: sixDone(L), fun: funWatched, record: recordSaved,
+    };
+  }
   function rowsFor(L) {
     const rows = [
       ["grammarA", t("check.grammarA"), grammarTouched.has("A")],
       ["grammarB", t("check.grammarB"), grammarTouched.has("B")],
       ["vocab", t("check.vocab"), seenVocab.size > 0],
       ["main", tf("check.main", L.listens.main || 0), (L.listens.main || 0) >= 3],
-      ["ministory", tf("check.ministory", L.msAnswersAloud || 0), (L.msAnswersAloud || 0) >= 2, true], // GATE
+      ["ministory", tf("check.ministory", L.msAnswersAloud || 0), gateMet(L), true], // GATE
     ];
     if (present.has(5)) rows.push(["pov", tf("check.pov", L.listens.pov || 0), (L.listens.pov || 0) >= 2]);
     if (present.has(6)) rows.push(["ep", t("check.ep"), epTouched || (L.listens.ep || 0) >= 1]);
-    rows.push(["sixmin", t("check.sixmin"), sixTouched || (L.listens.sixmin || 0) >= 1]);
-    rows.push(["fun", t("check.fun"), false], ["record", t("check.record"), recordSaved]);
+    rows.push(["sixmin", t("check.sixmin"), sixDone(L)]);
+    rows.push(["fun", t("check.fun"), funWatched], ["record", t("check.record"), recordSaved]);
     return rows;
   }
-  function starTier(L) {
-    const base = grammarTouched.has("A") && grammarTouched.has("B") && seenVocab.size > 0 &&
-      (L.listens.main || 0) >= 3 && (L.msAnswersAloud || 0) >= 2 && (!present.has(5) || (L.listens.pov || 0) >= 2);
-    return base ? 1 : 0; // 2★/3★ need recordings + fun (S4/S8); gate-first honesty
+
+  function earn() {
+    const fresh = snapshot(id);
+    const tier = starTier(fresh);
+    if (tier < 1) return;                                       // gate/tier safety
+    completeLesson(id, { stars: tier, present: stepsSnapshot(fresh) });
+    justEarned = true;
+    refreshLive();                                             // re-renders the check (celebration) + strip done-state
+    justEarned = false;                                        // consumed — later refreshes don't re-celebrate
   }
+
   function render(L) {
-    const gateMet = (L.msAnswersAloud || 0) >= 2;
+    const tier = starTier(L);                                  // live derived tier (this session)
+    const earned = L.stars || 0;                               // persisted floor (seeded from snapshot → survives reload)
+    const shown = Math.max(earned, tier);                      // cluster previews the tier, never below the earned floor
+
+    // Derived checklist (live) — the GATE row keeps its required styling.
     const list = el("ul", { class: "check__list" });
     rowsFor(L).forEach(([, label, done, gate]) => {
       list.append(el("li", { class: "check__row" + (done ? " is-done" : "") + (gate ? " check__row--gate" : "") },
@@ -390,13 +431,50 @@ function lessonCheck(id, l, present) {
         el("span", { class: "check__lab" }, label),
         gate ? el("span", { class: "check__gate" }, t("check.gateTag")) : null));
     });
-    const tier = starTier(L);
-    const stars = el("p", { class: "check__stars", role: "img", "aria-label": tf("check.starsAria", tier) },
-      tier >= 1 ? "⭐" : "☆", tier >= 2 ? "⭐" : "☆", tier >= 3 ? "⭐" : "☆");
-    const btn = el("button", { class: "btn btn--primary check__earn", type: "button", disabled: "" },
-      el("span", { "aria-hidden": "true" }, "⭐ "), t("check.earn"));
-    const reason = el("p", { class: "check__reason", lang: "uz" }, gateMet ? t("check.laterS5") : t("check.gateReason"));
-    body.replaceChildren(list, stars, btn, reason);
+    const stars = el("p", { class: "check__stars" + (justEarned ? " check__stars--pop" : ""), role: "img",
+      "aria-label": tf("map.starAria", shown) },
+      shown >= 1 ? "⭐" : "☆", shown >= 2 ? "⭐" : "☆", shown >= 3 ? "⭐" : "☆");
+    const nodes = [list, stars];
+
+    if (earned >= 1) {
+      // COMPLETED state — earned tier + next-review date; re-enable ONLY to earn a HIGHER tier.
+      nodes.push(el("p", { class: "check__done", lang: "uz" },
+        el("span", { class: "check__done-ic", "aria-hidden": "true", html: icon("check") }), tf("check.earned", earned)));
+      if (L.reviewDue) nodes.push(el("p", { class: "check__next", lang: "uz" }, tf("check.nextReview", L.reviewDue)));
+      if (justEarned) nodes.push(el("p", { class: "check__praise", lang: "uz", "aria-live": "polite" }, t("check.praise")));
+      if (tier > earned) {
+        const up = el("button", { class: "btn btn--primary check__earn", type: "button" },
+          el("span", { "aria-hidden": "true" }, "⭐ "), tf("check.earnN", tier));
+        up.addEventListener("click", earn);
+        nodes.push(up);
+      }
+    } else {
+      // NOT YET EARNED — gate first (t("check.gateReason")); gate met but tier<1 → t("check.needMore").
+      const enabled = tier >= 1;
+      const earnLabel = tier === 1 ? t("check.earn") : tf("check.earnN", tier); // singular for 1★, plural for 2/3
+      const btn = el("button", { class: "btn btn--primary check__earn", type: "button" },
+        el("span", { "aria-hidden": "true" }, "⭐ "), enabled ? earnLabel : t("check.earn"));
+      if (enabled) btn.addEventListener("click", earn); else btn.disabled = true;
+      // Name the FIRST unmet 1★ requirement (priority grammarA→grammarB→vocab→MAIN×3→POV×2),
+      // never a step already done. Gate-not-met stays the gate reason; generic key is the fallback.
+      let reasonKey = null;
+      if (!gateMet(L)) reasonKey = "check.gateReason";
+      else if (tier < 1) {
+        reasonKey =
+          (!grammarTouched.has("A") || !grammarTouched.has("B")) ? "check.need.grammar" :
+          !(seenVocab.size > 0) ? "check.need.vocab" :
+          !((L.listens.main || 0) >= 3) ? "check.need.main" :
+          (present.has(5) && (L.listens.pov || 0) < 2) ? "check.need.pov" :
+          "check.needMore";
+      }
+      nodes.push(btn);
+      if (reasonKey) {
+        const reason = el("p", { class: "check__reason", lang: "uz", id: "check-reason-" + id }, t(reasonKey));
+        btn.setAttribute("aria-describedby", reason.id);
+        nodes.push(reason);
+      }
+    }
+    body.replaceChildren(...nodes);
   }
   live.refreshCheck = render;
   render(snapshot(id));
@@ -428,7 +506,7 @@ function notFound(main) {
 export async function renderLesson(main, id, token, alive) {
   // Teardown any previous lesson's scroll-spy so observers don't stack.
   if (observer) { observer.disconnect(); observer = null; }
-  if (id !== currentLessonId) { seenVocab.clear(); grammarTouched.clear(); epTouched = false; sixTouched = false; }
+  if (id !== currentLessonId) { seenVocab.clear(); grammarTouched.clear(); epTouched = false; sixTouched = false; funWatched = false; }
   live.refreshCheck = null; live.present = null;
 
   main.replaceChildren(skeleton());
@@ -571,13 +649,23 @@ export async function renderLesson(main, id, token, alive) {
     frag.append(s);
   }
 
-  // ⑧ Fun English — honest placeholder (S8 builds the facade)
+  // ⑧ Fun English — honest placeholder (S8 builds the facade) + an INTERIM "watched" honor toggle
   if (present.has(8)) {
     const s = section(8, "lesson.sec.8");
     const f = l.funEnglish[0];
     const teaser = f ? el("p", { class: "phold__teaser" }, el("span", { lang: "en" }, f.title), f.channel ? el("span", { class: "phold__chan", lang: "en" }, " · " + f.channel) : null) : null;
-    s.append(el("div", { class: "card" }, placeholder("lesson.fun.body", "lesson.fun.tag", teaser)));
-    frag.append(s);
+    const card = el("div", { class: "card" }, placeholder("lesson.fun.body", "lesson.fun.tag", teaser));
+    // Honor toggle (marks the `fun` step → feeds 2★). Interim until S8's real facade auto-marks it.
+    const watch = el("button", { class: "btn btn--soft phold__watch", type: "button", "aria-pressed": String(funWatched) },
+      el("span", { "aria-hidden": "true" }, "✓ "), t("check.funWatch"));
+    if (funWatched) { watch.classList.add("is-done"); watch.disabled = true; }
+    watch.addEventListener("click", () => {
+      funWatched = true;
+      watch.classList.add("is-done"); watch.disabled = true; watch.setAttribute("aria-pressed", "true");
+      refreshLive();
+    });
+    card.append(watch);
+    s.append(card); frag.append(s);
   }
 
   // ⑨ Speak It Yourself — record → IndexedDB, nothing uploaded (S4); lazy, answer-aloud fallback.

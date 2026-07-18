@@ -196,6 +196,10 @@ function validateIndex(idx, curatedIds) {
     c(Array.isArray(e.tags), `${at}: tags must be array`);
     c(Array.isArray(e.grammarUnits) && e.grammarUnits.length === 2 && e.grammarUnits.every(isStr),
       `${at}: grammarUnits must be the TWO topic slugs (03 §6.1)`);
+    // grammarTitlesUz — OPTIONAL (added S5 for the map); when present, the TWO Uzbek topic titles.
+    if ("grammarTitlesUz" in e)
+      c(Array.isArray(e.grammarTitlesUz) && e.grammarTitlesUz.length === 2 && e.grammarTitlesUz.every(isStr),
+        `${at}: grammarTitlesUz (optional) must be a 2-string array (03 §6.1)`);
     c(isNum(e.durationSec) && e.durationSec >= 0, `${at}: durationSec must be number`);
     c(isBool(e.hasPov) && isBool(e.hasEnglishPod), `${at}: hasPov/hasEnglishPod must be booleans (03 §6.1)`);
     c(isInt(e.youtubeCount) && e.youtubeCount >= 0, `${at}: youtubeCount must be non-negative int`);

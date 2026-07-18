@@ -464,6 +464,136 @@ body.yp-has-dock .main { padding-bottom: calc(var(--bottomnav-h) + 92px + env(sa
 .dock__controls .dock__play--big { width: 56px; height: 56px; border-radius: 999px; }
 .dock__rate { min-width: 56px; height: 44px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--border-strong); background: transparent; color: var(--teal); font: 700 15px/1 inherit; cursor: pointer; font-variant-numeric: tabular-nums; }
 
+/* ============================================================================
+   S5 — Progress engine surfaces: Home dashboard (04 §4.1), Curriculum map
+   (04 §4.2/§5.3), Lesson-Check earn/celebration/completed (04 §5.7). Reuses the
+   shipped tokens/classes (card, btn, chip, screen, skeleton); both themes via tokens.
+   ============================================================================ */
+
+/* ---- Star cluster (04 §5.2), shared by map card / Home continue / Lesson Check ---- */
+.stars { display: inline-flex; align-items: center; gap: 2px; font-size: 16px; line-height: 1; flex: 0 0 auto; }
+.star { color: var(--border-strong); }              /* empty ☆ (⭐ is emoji-colored) */
+.star--on { color: var(--amber-bright); }
+.stars__rv { margin-left: 4px; font-size: 14px; }
+
+/* ---- Home — shared ---- */
+.home { display: flex; flex-direction: column; gap: 16px; }
+.home__greeting { font: 700 24px/1.25 inherit; color: var(--ink); }
+.home__goal { color: var(--muted); margin-top: -8px; }
+.home__section-h { font: 700 15px/1.3 inherit; color: var(--ink); margin-bottom: 8px; }
+
+/* ---- Home — first-run onboarding (04 §4.1) ---- */
+.home--first { align-items: stretch; text-align: center; gap: 14px; max-width: 480px; margin: 0 auto; padding-top: 12px; }
+.home__emoji { font-size: 44px; line-height: 1; }
+.home__headline { font: 700 28px/1.2 inherit; color: var(--ink); }
+.home__subhead { font: 600 18px/1.35 inherit; color: var(--muted); }
+.home__promise { color: var(--teal); font-weight: 600; }
+.home__pace { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; margin: 4px 0; text-align: left; background: var(--surface); }
+.home__pace-legend { font-weight: 700; color: var(--ink); padding: 0 4px; }
+.pace__opt { display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 6px 4px; cursor: pointer; }
+.pace__opt input { width: 20px; height: 20px; accent-color: var(--teal); flex: 0 0 auto; }
+.home__start { min-height: 56px; font-size: 17px; }
+.home__method, .home__all { min-height: 48px; }
+
+/* ---- Home — Continue card (the loudest element) ---- */
+.hcont { display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: var(--text);
+  border: 2px solid var(--teal); background: color-mix(in srgb, var(--teal) 6%, var(--surface)); }
+.hcont__kicker { font: 700 12px/1.3 inherit; letter-spacing: .04em; text-transform: uppercase; color: var(--teal); }
+.hcont__title { font: 700 20px/1.3 inherit; color: var(--ink); }
+.hcont__day { align-self: flex-start; }
+.hcont__meter { display: flex; align-items: center; gap: 12px; }
+.hcont__bar { flex: 1 1 auto; height: 10px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.hcont__fill { display: block; height: 100%; background: var(--teal); border-radius: 999px; }
+.hcont__go { align-self: stretch; min-height: 56px; margin-top: 4px; }
+
+/* ---- Home — hero metrics (listening minutes biggest, 02 §1/§8) ---- */
+.hmetrics { display: flex; gap: 8px; text-align: center; }
+.hmetric { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px; }
+.hmetric__ic { font-size: 20px; line-height: 1; }
+.hmetric__num { font: 700 22px/1.1 inherit; color: var(--ink); font-variant-numeric: tabular-nums; }
+.hmetric__lab { font-size: 12px; color: var(--muted); }
+.hmetric--big { flex: 1.5 1 0; }
+.hmetric--big .hmetric__ic { font-size: 24px; }
+.hmetric--big .hmetric__num { font-size: 34px; color: var(--teal); }
+
+/* ---- Home — weekly-goal ring (forgiving 5/7) + review cards + phase preview ---- */
+.home__weekly { display: flex; align-items: center; gap: 12px; }
+.wring { position: relative; flex: 0 0 auto; width: 56px; height: 56px; border-radius: 999px;
+  background: conic-gradient(var(--teal) var(--deg, 0deg), var(--border) 0);
+  display: inline-flex; align-items: center; justify-content: center; }
+.wring::before { content: ""; position: absolute; inset: 6px; border-radius: 999px; background: var(--bg); }
+.wring__num { position: relative; font: 700 14px/1 inherit; color: var(--ink); font-variant-numeric: tabular-nums; }
+.home__weekly-lab { color: var(--text); font-weight: 600; }
+.home__reviews { display: flex; flex-direction: column; gap: 8px; }
+.hreview { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text); padding: 12px 14px; }
+.hreview__ic { font-size: 20px; flex: 0 0 auto; }
+.hreview__body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.hreview__title { font-weight: 600; color: var(--ink); }
+.hreview__note { font-size: 13px; color: var(--amber); }
+.hreview__go { flex: 0 0 auto; color: var(--muted); display: inline-flex; transform: rotate(180deg); }
+.hreview__go svg { width: 20px; height: 20px; }
+.home__phase { display: flex; flex-direction: column; gap: 8px; }
+.hphase__row { display: flex; gap: 8px; }
+.hphase__dot { flex: 1 1 0; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 4px;
+  border-radius: 10px; border: 1px solid var(--border); color: var(--muted); }
+.hphase__dot.is-on { color: var(--teal); border-color: var(--teal); background: color-mix(in srgb, var(--teal) 8%, transparent); }
+.hphase__mark { font-size: 14px; }
+.hphase__name { font-size: 13px; font-weight: 600; }
+
+/* ---- Curriculum map (04 §4.2) — phase headers + progress + lesson cards ---- */
+.map { display: flex; flex-direction: column; gap: 28px; }
+.map .screen__title { margin-bottom: -8px; }
+.phase { display: flex; flex-direction: column; gap: 10px; }
+.phase__head { display: flex; align-items: stretch; gap: 12px; }
+.phase__badge { flex: 0 0 8px; align-self: stretch; min-height: 40px; border-radius: 999px; background: var(--teal); }
+.phase__heads { flex: 1 1 auto; min-width: 0; }
+.phase__name { font: 700 19px/1.25 inherit; color: var(--ink); }
+.phase__tags { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.phase__cefr { background: color-mix(in srgb, var(--teal) 14%, transparent); color: var(--teal); }
+.phase__range { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.phase__cando { color: var(--muted); font-size: 15px; }
+.phase__bar { height: 8px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.phase__bar-fill { display: block; height: 100%; border-radius: 999px; background: var(--teal); }
+.phase__count { margin-top: -4px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.phase__coming { padding: 16px; border-radius: 12px; border: 1px dashed var(--border-strong); background: var(--surface); color: var(--muted); text-align: center; }
+.phase__cards { display: flex; flex-direction: column; gap: 12px; }
+/* phase accents: Poydevor=teal (default) · Sur'at=indigo · Ravonlik=amber (04 §7.2) */
+.phase--indigo .phase__badge, .phase--indigo .phase__bar-fill { background: var(--indigo); }
+.phase--indigo .phase__cefr { background: color-mix(in srgb, var(--indigo) 14%, transparent); color: var(--indigo); }
+.phase--amber .phase__badge, .phase--amber .phase__bar-fill { background: var(--amber); }
+.phase--amber .phase__cefr { background: color-mix(in srgb, var(--amber) 16%, transparent); color: var(--amber); }
+
+.lcard { position: relative; display: flex; overflow: hidden; text-decoration: none; color: var(--text);
+  min-height: 48px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow-sm); }
+.lcard__accent { flex: 0 0 5px; background: var(--teal); }
+.lcard--indigo .lcard__accent { background: var(--indigo); }
+.lcard--amber .lcard__accent { background: var(--amber); }
+.lcard__body { flex: 1 1 auto; min-width: 0; padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; }
+.lcard__head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.lcard__order { font: 700 15px/1 inherit; color: var(--muted); font-variant-numeric: tabular-nums; }
+.lcard__title { flex: 1 1 auto; min-width: 0; font: 700 16px/1.3 inherit; color: var(--ink); }
+.lcard__level { flex: 0 0 auto; background: color-mix(in srgb, var(--indigo) 12%, transparent); color: var(--indigo); }
+.lcard__grammar { font-size: 14px; color: var(--text); }
+.lcard__grammar-k { color: var(--muted); font-weight: 600; }
+.lcard__badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.lcard__badge { font: 600 12px/1.3 inherit; padding: 3px 8px; border-radius: 999px; color: var(--muted); background: color-mix(in srgb, var(--teal) 8%, transparent); }
+.lcard__next { flex: 0 0 auto; font: 700 11px/1 inherit; text-transform: uppercase; letter-spacing: .03em;
+  color: var(--on-teal); background: var(--teal); padding: 4px 8px; border-radius: 999px; }
+.lcard--next { border-color: var(--teal); box-shadow: 0 0 0 2px color-mix(in srgb, var(--teal) 35%, transparent); animation: next-pulse 1.6s ease-out 1; }
+@keyframes next-pulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--teal) 45%, transparent); } 100% { box-shadow: 0 0 0 2px color-mix(in srgb, var(--teal) 35%, transparent); } }
+
+/* ---- Lesson Check — earn / celebration / completed (04 §5.7) ---- */
+.check__stars { transform-origin: left center; }
+.check__stars--pop { animation: star-pop 500ms ease-out 1; }
+@keyframes star-pop { 0% { transform: scale(.6); } 60% { transform: scale(1.25); } 100% { transform: scale(1); } }
+.check__done { display: flex; align-items: center; justify-content: center; gap: 8px; margin: 4px 0 8px; font-weight: 700; color: var(--green); }
+.check__done-ic { flex: 0 0 auto; display: inline-flex; width: 24px; height: 24px; border-radius: 999px; align-items: center; justify-content: center; background: var(--green); color: var(--on-teal); }
+.check__done-ic svg { width: 16px; height: 16px; }
+.check__next { margin-bottom: 8px; font-size: 14px; color: var(--muted); text-align: center; }
+.check__praise { margin-bottom: 10px; color: var(--amber); font-weight: 600; text-align: center; }
+.phold__watch { margin-top: 12px; }
+.phold__watch.is-done { background: color-mix(in srgb, var(--green) 14%, transparent); color: var(--green); border-color: transparent; }
+
 /* ---- Reduced motion: disable all non-essential animation (a11y §8) ---- */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }

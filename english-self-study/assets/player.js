@@ -9,7 +9,7 @@
 
 import { el, icon, t, loadSettings, saveSetting, fmtTime } from "./core.js";
 import { mediaUrl } from "../config.js";
-import { savePos, getPos, markListen } from "./progress.js";
+import { savePos, getPos, markListen, addListeningMinutes } from "./progress.js";
 
 const RATES = [0.75, 1, 1.25];
 let audio = null;          // the persistent element
@@ -22,6 +22,35 @@ let doneLatched = false;    // one listen counted per ~90% crossing
 let lastSaved = 0;         // throttle posSec writes (~5 s)
 let pendingSeek = 0;       // restore-position applied after loadedmetadata
 let scrubbing = false;
+
+// ---- Real listening minutes (03 §6.3 note) — wall-clock while actually playing --
+// We accumulate elapsed ms between timeupdate ticks ONLY while playing & not scrubbing,
+// capping any single delta at ~2 s so a backgrounded tab or a seek can't inflate it.
+// Whole crossed minutes flush to the engine (progress.addListeningMinutes); this is
+// SEPARATE from markListen (which drives the ~90% repeat-listen star dots).
+let listenAccumMs = 0;     // active-playback ms not yet flushed as whole minutes
+let listenLastTs = 0;      // Date.now() of the last accrual tick; 0 = clock stopped
+const MIN_MS = 60000, DELTA_CAP = 2000;
+function accrueListen() {   // called from timeupdate while playing
+  const ts = Date.now();
+  if (listenLastTs > 0 && audio && !audio.paused && !scrubbing) {
+    listenAccumMs += Math.min(ts - listenLastTs, DELTA_CAP);   // cap defeats tab-stall / seek inflation
+  }
+  listenLastTs = ts;
+  flushListenMinutes();
+}
+function pauseAccrual() {   // called on pause/ended: bank the final sliver, stop the clock
+  if (listenLastTs > 0 && audio && !scrubbing) listenAccumMs += Math.min(Date.now() - listenLastTs, DELTA_CAP);
+  listenLastTs = 0;
+  flushListenMinutes();
+}
+function flushListenMinutes() {
+  if (listenAccumMs >= MIN_MS) {
+    const mins = Math.floor(listenAccumMs / MIN_MS);
+    listenAccumMs -= mins * MIN_MS;
+    addListeningMinutes(mins);
+  }
+}
 
 function state(extra) {
   return { key: cur?.key ?? null, lessonId: cur?.lessonId ?? null,
@@ -38,8 +67,8 @@ export function initPlayer() {
   region = document.getElementById("player");
   audio = el("audio", { preload: "none" });     // preload=none: 0 bytes until play (P4)
   document.body.appendChild(audio);              // OUTSIDE <main>
-  audio.addEventListener("play", () => { syncPlayBtns(); announce(t("player.playing") + " " + (cur?.title || "")); broadcast(); });
-  audio.addEventListener("pause", () => { syncPlayBtns(); flushSave(); broadcast(); });
+  audio.addEventListener("play", () => { listenLastTs = Date.now(); syncPlayBtns(); announce(t("player.playing") + " " + (cur?.title || "")); broadcast(); });
+  audio.addEventListener("pause", () => { syncPlayBtns(); pauseAccrual(); flushSave(); broadcast(); });
   audio.addEventListener("loadedmetadata", onMeta);
   audio.addEventListener("timeupdate", onTime);
   audio.addEventListener("ended", onEnded);
@@ -93,6 +122,7 @@ function onTime() {
     if (frac >= 0.9 && !doneLatched) { doneLatched = true; recordListen(); }
     if (frac < 0.1 && doneLatched) doneLatched = false;
   }
+  accrueListen();   // bank real listening time (whole minutes flush to the engine)
   const now = Date.now();
   if (now - lastSaved > 5000) { lastSaved = now; savePos(cur.lessonId, cur.key, audio.currentTime); }
 }
@@ -100,6 +130,7 @@ function onEnded() {
   if (!doneLatched) { doneLatched = true; recordListen(); }
   syncPlayBtns();
   announce(t("player.ended"));
+  pauseAccrual();
   flushSave();
   broadcast();
 }

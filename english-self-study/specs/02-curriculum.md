@@ -331,9 +331,11 @@ A lesson earns **stars** (achievable *and* replayable). The mini-story spoken re
 
 - **⭐ 1★ — Complete** (the honest minimum; advances the course): **Grammar A + Grammar B** reviewed + Vocabulary reviewed + **MAIN listened ×3** + **Mini-Story answered aloud ×2** *(required gate; self-attested)* + POV ×2 *(only if present, L09–30)*.
 - **⭐⭐ 2★ — Strong:** + **EnglishPod done** (`dg` heard + Key Vocab reviewed + shadowed + one role played) *(auto-satisfied on L15/L22, where EnglishPod is null — the Day-5 fallback of extra shadowing + a 2nd 6ME pass counts)* + Fun English watched + **one Speak-It recording saved**.
-- **⭐⭐⭐ 3★ — Mastered** (gold): + **6 Minute English done** (listened ×1 + quiz answered + 6-word pack reviewed + 60-sec response recorded) + a **second recording** kept (enables the Lesson-1-vs-Lesson-30 comparison).
+- **⭐⭐⭐ 3★ — Mastered** (gold): + **6 Minute English done** (listened ×1 + quiz answered + 6-word pack reviewed + 60-sec response recorded).
 
 Speaking steps are **honor-system** (*"Men ovoz chiqarib gapirdim ✓"*) — framed as a promise to yourself; no backend can or should verify.
+
+> **S5 implementation note (as shipped).** The per-lesson 3★ tier is **2★ + `sixmin`** — it does **not** gate on a *second* recording. The **Lesson-1-vs-Lesson-30 "record again" growth-proof comparison** (§6, §8.4) is a **Progress-page surface built in S6**, driven by `metrics.recordings` across two different lessons — not a requirement to master a single lesson (a learner must be able to reach 3★ on any one lesson without having reached L30). EnglishPod's `ep` step **auto-satisfies** where `englishPod:null` (L15/L22). The mandatory mini-story-aloud gate (×2) is enforced in the Lesson-Check "earn ★" button before any star is awarded.
 
 ### 8.2 Storage (technically correct split)
 
@@ -379,7 +381,7 @@ Speaking steps are **honor-system** (*"Men ovoz chiqarib gapirdim ✓"*) — fra
 
 ### 8.3 Streaks, goals, badges (dopamine, tuned not to punish real life)
 
-- **A "study day"** = any real action today (≥5 listening min OR ≥1 mini-story drill OR ≥1 recording). Deliberately achievable.
+- **A "study day"** = any real action today — any mini-story answered aloud, any recording saved, any lesson completed, or a completed listen / at least a minute of listening. Deliberately achievable (tuned not to punish real life, not a ≥5-min threshold).
 - **Speaking streak** ⭐ = *recorded or answered aloud today* — the headline habit.
 - **Streak freeze:** 1 free skip-day per week, auto-applied. **Weekly goal:** a forgiving "5 active days this week" ring (not all 7).
 - **Spaced review:** completing a lesson schedules `reviewDue` at +1/+3/+7/+14 days; the home screen surfaces "Review today" cards.

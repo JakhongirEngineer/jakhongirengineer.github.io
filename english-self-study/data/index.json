@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-07-17",
+  "generated": "2026-07-18",
   "lessons": [
     {
       "id": "core-09",
@@ -21,6 +21,10 @@
       "grammarUnits": [
         "present-perfect-intro",
         "gradual-change"
+      ],
+      "grammarTitlesUz": [
+        "Present perfect bilan tanishuv: since / for / How long",
+        "Bosqichma-bosqich oʻzgarish: better and better; get + comparative"
       ],
       "durationSec": 4348,
       "hasPov": true,

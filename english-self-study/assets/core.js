@@ -101,6 +101,32 @@ export const tf = (key, ...args) => {
   return s;
 };
 
+// ---- Catalogue: data/index.json fetched ONCE, cached (03 §6.1) ---------------
+// Shared by the code-split Home (home.js) + Curriculum Map (lessons.js) so the map
+// renders with no per-lesson fetch. Failures reject (caller shows the fallback);
+// a failure is not cached, so a later navigation can retry.
+let _indexCache = null;
+export async function loadIndex() {
+  if (_indexCache) return _indexCache;
+  const res = await fetch(new URL("index.json", DATA_BASE));
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  _indexCache = await res.json();
+  return _indexCache;
+}
+
+// ---- Star cluster (04 §5.2) — 0–3 tier, never color-only -----------------------
+// role="img" + a resolved (active-language) aria-label; a review-due lesson adds 🔁.
+// Reused by the map card, Home Continue card, and the Lesson Check readout.
+export function starCluster(stars, { review = false } = {}) {
+  const n = Math.max(0, Math.min(3, Math.floor(stars) || 0));
+  const label = tf("map.starAria", n) + (review ? ` · ${t("map.reviewDue")}` : "");
+  const span = el("span", { class: "stars" + (review ? " stars--review" : ""), role: "img", "aria-label": label });
+  for (let i = 1; i <= 3; i++)
+    span.append(el("i", { class: "star" + (i <= n ? " star--on" : ""), "aria-hidden": "true" }, i <= n ? "⭐" : "☆"));
+  if (review) span.append(el("i", { class: "stars__rv", "aria-hidden": "true" }, "🔁"));
+  return span;
+}
+
 // ---- Small format helpers ----------------------------------------------------
 export function fmtTime(sec) {
   if (!Number.isFinite(sec) || sec < 0) sec = 0;

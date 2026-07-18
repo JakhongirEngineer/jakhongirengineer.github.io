@@ -146,6 +146,14 @@ function parseRoute() {
   }
 }
 
+// Immediate skeleton for the code-split screens (04 §9 — blocks, not spinners),
+// shown before the dynamic import resolves so the route never flashes empty.
+function screenSkeleton() {
+  const s = el("div", { class: "lesson-skel", "aria-hidden": "true" });
+  for (let i = 0; i < 3; i++) s.append(el("div", { class: "skel-card" }));
+  return s;
+}
+
 // Placeholder screen for the not-yet-built routes (real screens land in later slices).
 function buildScreen(route, params) {
   const section = el("section", { class: "screen" },
@@ -188,8 +196,28 @@ async function render() {
       console.error("lesson module failed to load", err);
       if (alive()) main.replaceChildren(buildScreen("lesson", params));
     }
+  } else if (route === "home") {
+    main.replaceChildren(screenSkeleton());       // skeleton immediately, then swap (S5)
+    try {
+      const mod = await import("./home.js");       // code-split like lesson.js — off the first-paint path
+      if (!alive()) return;
+      await mod.renderHome(main, seq, alive);
+    } catch (err) {
+      console.error("home module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("home", params));
+    }
+  } else if (route === "lessons") {
+    main.replaceChildren(screenSkeleton());
+    try {
+      const mod = await import("./lessons.js");    // code-split: the curriculum map (S5)
+      if (!alive()) return;
+      await mod.renderMap(main, seq, alive);
+    } catch (err) {
+      console.error("lessons module failed to load", err);
+      if (alive()) main.replaceChildren(buildScreen("lessons", params));
+    }
   } else {
-    main.replaceChildren(buildScreen(route, params));
+    main.replaceChildren(buildScreen(route, params));   // method/progress/ielts/grammar/about/settings — later slices
   }
   if (alive() && booted) main.focus({ preventScroll: true });
 }

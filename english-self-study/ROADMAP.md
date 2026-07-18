@@ -34,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S5**
+## Current slice → **S6**
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -45,7 +45,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S2 | Media hosting — R2 + custom domain + fallback ladder | **DONE** |
 | S3 | Core lesson page with audio (the centerpiece) | **DONE** |
 | S4 | Speak It Yourself — recording + IndexedDB | **DONE** |
-| S5 | Progress engine + Home dashboard + Curriculum map | TODO |
+| S5 | Progress engine + Home dashboard + Curriculum map | **DONE** |
 | S6 | Progress page + gamification + export/import JSON | TODO |
 | S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | TODO |
 | S8 | Fun English embeds (YouTube facade + curation) | TODO |
@@ -139,13 +139,13 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the app tracks and navigates — completing a lesson (with the **mandatory speaking gate**) awards a star, updates the hero metrics/streak, and the map + Home reflect it, all accountless in `localStorage`.
 **Specs:** `02 §8` (progress/completion model), `03 §6.3` (`ess.progress.v1` schema + `migrate()`), `02 §1` (metrics = minutes & reps), `02 §2` (7-day cycle / day-focus), `04 §4.1` (Home), `04 §4.2` (map), `04 §5.2`/`§5.3`/`§5.7` (ring / card / checklist).
 
-- [ ] `ess.progress.v1` read/write in `try/catch`, debounced, versioned with `migrate()` on load; graceful degrade if storage unavailable (`03 §6.3`, `04 §9`).
-- [ ] **Star model + gate** (`04 §5.7`, `02 §8.1`): Lesson Check checklist → 1★/2★/3★; the **"earn ★" button is disabled with a clear Uzbek reason until the mini-story-aloud step is checked**; completing logs listening-minutes + speaking-reps + XP, sets `reviewDue` (+1/3/7/14).
-- [ ] Streak (study-day = any real action; speaking streak; **1 free freeze/week**; forgiving **5/7 weekly goal**) (`02 §8.3`).
-- [ ] Home: first-run onboarding (pick pace + "Start Lesson 1") vs returning (**Continue card** restoring lesson + day-of-cycle focus; **hero metrics — listening minutes biggest**; weekly ring; Review-today cards only when due) (`04 §4.1`).
-- [ ] Curriculum map: 3 phases (Poydevor/Sur'at/Ravonlik) with Uzbek name + CEFR tag + can-do + progress bar; lesson cards (stars · number · title · level · **the week's two grammar topics** · **🎙️ EnglishPod / 📻 6 Minute badges** from `hasEnglishPod`, no separate supp chip); **recommended-next ring**; **soft locks only** (hint, never disabled) (`04 §4.2`, `§5.3`).
+- [x] `ess.progress.v1` read/write in `try/catch`, debounced, versioned with `migrate()` on load; graceful degrade if storage unavailable (`03 §6.3`, `04 §9`). *(Real engine in `assets/progress.js`: `ensure()` full union shape + `migrate()` threaded through the read path — prunes `supp-*`, folds `grammar→grammarA`, keeps FUTURE unknown versions without wiping.)*
+- [x] **Star model + gate** (`04 §5.7`, `02 §8.1`): Lesson Check checklist → 1★/2★/3★; the **"earn ★" button is disabled with a clear Uzbek reason until the mini-story-aloud gate (×2) is met** (`check.gateReason`, then `check.needMore` for the rest of 1★); completing logs listening-minutes + speaking-reps + XP, sets `reviewDue` (+1/3/7/14 via `reviewStage`), never downgrades stars, re-enables to earn a higher tier. *(3★ = 2★ + `sixmin`; the L1↔L30 second-recording comparison is an S6 Progress surface — spec amended in `04 §5.7` / `02 §8.1`. Fun "watched" is an interim honor toggle until S8.)*
+- [x] Streak (study-day = any real action, **not** merely opening a lesson; **1 free freeze/week** auto-applied; forgiving **5/7 weekly goal**) with an ISO-week anchor (`streak.weekStart`) resetting the weekly counters (`02 §8.3`).
+- [x] Home: first-run onboarding (pick pace + Start the **first authored** lesson — not a hardcoded "Lesson 1") vs returning (**Continue card** restoring lesson + day-of-cycle focus; **hero metrics — listening minutes biggest**; weekly ring; Review-today cards only when due) (`04 §4.1`). Listening minutes now accrue from **real playback** (`player.js` → `addListeningMinutes`).
+- [x] Curriculum map: 3 phases (Poydevor/Sur'at/Ravonlik) with Uzbek name + CEFR tag + can-do + progress bar; lesson cards (stars · number · title · level · **the week's two grammar topics** from `grammarTitlesUz` · **🎙️ EnglishPod / 📻 6 Minute badges** from `hasEnglishPod`, no separate supp chip); **recommended-next ring** (one gentle pulse); **soft locks only** (hint, never disabled); empty phases show an honest "being prepared" note (`04 §4.2`, `§5.3`).
 
-**Done when:** completing `core-09` (gate enforced) awards a star, Home's Continue + minutes + streak update, the map card shows the star, and all of it survives a reload.
+**Done when:** completing `core-09` (gate enforced) awards a star, Home's Continue + minutes + streak update, the map card shows the star, and all of it survives a reload. *(Met 2026-07-18: `build-index` + `validate` pass; a 53-assertion headless engine harness verifies migrate/streak/freeze/week-reset/`completeLesson`/review-spacing/never-downgrade + year/week boundary math; a 28-check headless-Chrome smoke over CDP renders Home first-run + returning, the map, and the lesson gate/completed states with **zero console errors**; a seeded completed lesson shows its star + next-review after reload. Budgets hold — gzip: `styles.css` 8.8 KB, per-module JS well under 35 KB [`lesson.js` 11.6 KB gzip / 39.5 KB raw, lazy], `index.json` 798 B. Git commit deferred to the owner.)*
 
 ## S6 — Progress page + gamification + export/import JSON
 

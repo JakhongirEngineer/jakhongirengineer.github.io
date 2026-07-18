@@ -30,6 +30,9 @@ function catalogueEntry(l) {
     !!(l.transcripts && Array.isArray(l.transcripts.pov) && l.transcripts.pov.length);
   // grammarUnits — the TWO topic slugs (was single grammarUnit); [] never null (03 §6.1).
   const grammarUnits = Array.isArray(l.grammar) ? l.grammar.map((g) => g && g.unit).filter(Boolean) : [];
+  // grammarTitlesUz — the TWO readable Uzbek topic titles, so the map (04 §5.3) shows
+  // topic names with no per-lesson fetch (S5). Regenerated here, never migrated (03 §6.1).
+  const grammarTitlesUz = Array.isArray(l.grammar) ? l.grammar.map((g) => g && g.titleUz).filter(Boolean) : [];
   return {
     id: l.id,
     track: l.track,               // always "core" (the supp track is retired, 03 §6.1)
@@ -42,6 +45,7 @@ function catalogueEntry(l) {
     phase: phaseFor(l.order),
     tags: Array.isArray(l.tags) ? l.tags : [],
     grammarUnits,
+    grammarTitlesUz,
     durationSec: totalDurationSec(l),
     hasPov,
     hasEnglishPod: l.englishpod != null,     // false where englishpod:null (L15 & L22)
