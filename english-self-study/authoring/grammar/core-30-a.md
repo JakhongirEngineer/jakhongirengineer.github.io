@@ -1,4 +1,4 @@
-Bu — soʻnggi dars, va uning mavzusi *odamlar*: qabila (tribe) — bir maʼnoni baham koʻradigan insonlar tuguni. AJ *"everyone is now a leader"* deydi, POV hikoyada esa Tony *orphans, who had no parents,* ni yangi ota-onalar bilan bogʻlaydi. Odamlarni tasvirlash uchun bizga **ergash gaplar** (relative clauses) kerak: *my mentor, **who** believed in me; the people **who** keep you going.* L06'da koʻrganimizni shu yerda yakunlaymiz.
+Bu — soʻnggi dars, va uning mavzusi *odamlar*: qabila (tribe) — bir maʼnoni baham koʻradigan insonlar tuguni. AJ *"everyone is now a leader"* deydi, POV hikoyada esa Tony *orphans, who had no parents,* ni yangi ota-onalar bilan bogʻlaydi. Odamlarni tasvirlash uchun bizga **ergash gaplar** (relative clauses) kerak: *my mentor, **who** believed in me; the people **who** keep you going.* L06ʼda koʻrganimizni shu yerda yakunlaymiz.
 
 ### Ikki tur: aniqlovchi va qoʻshimcha (vergul bor yoki yoʻq)
 

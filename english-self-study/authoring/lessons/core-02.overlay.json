@@ -3,7 +3,13 @@
   "title": "Emotional Mastery",
   "titleUz": "Hissiyotlarni boshqarish",
   "level": "A2-B1",
-  "tags": ["emotions", "present-continuous", "stative-verbs", "ed-ing-adjectives", "dependent-prepositions"],
+  "tags": [
+    "emotions",
+    "present-continuous",
+    "stative-verbs",
+    "ed-ing-adjectives",
+    "dependent-prepositions"
+  ],
   "intro": {
     "uz": "Emotsional ustalik — hissiyotni tana orqali boshqarish: kuchli poza (posture), chuqur nafas, katta tabassum va harakat. AJ aytadi: muvaffaqiyatning 80% — hissiyot. Bu haftaning ikki grammatikasi ham aynan hissiyot tili: hozirgi davomiy va oddiy zamon (I am feeling / I feel) hamda holat feʼllari, va -ed/-ing sifatlari (I am bored, not boring) bilan bogʻliq predloglar (afraid of, excited about).",
     "en": "Emotional mastery — managing your emotions through the body: strong posture, deep breathing, a big grin and movement. AJ says success is 80% emotion. This week's two grammar topics are the language of feeling itself: present continuous vs simple (I am feeling / I feel) with stative verbs, and -ed/-ing adjectives (I am bored, not boring) with dependent prepositions (afraid of, excited about)."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tilida \"hozir\" uchun ham, \"doim\" uchun ham koʻpincha bir xil forma ishlatiladi: \"oʻrganaman\" — ham odat, ham hozirgi ish. Ingliz tili ikkisini majburan ajratadi: odat/doimiy → present simple (I feel, I learn), aynan hozir/vaqtincha → present continuous (I am feeling, I am learning). Holat feʼllari (know, want, love) esa davomiy shaklga tushmaydi.",
       "errorFixUz": "❌ I am knowing the answer. I am wanting to be rich. ✅ I know the answer. I want to be rich. know/want/love/need — holat feʼllari, jarayon emas holat bildiradi, shuning uchun -ing olmaydi.",
       "examples": [
-        { "en": "Right now I am feeling more energetic.", "uz": "Aynan hozir oʻzimni tetikroq his qilyapman." },
-        { "en": "People who feel good learn faster.", "uz": "Oʻzini yaxshi his qiladigan odamlar tezroq oʻrganadi." },
-        { "en": "Vanilla wanted to be rich.", "uz": "Vanilla boy boʻlishni xohlardi." }
+        {
+          "en": "Right now I am feeling more energetic.",
+          "uz": "Aynan hozir oʻzimni tetikroq his qilyapman."
+        },
+        {
+          "en": "People who feel good learn faster.",
+          "uz": "Oʻzini yaxshi his qiladigan odamlar tezroq oʻrganadi."
+        },
+        {
+          "en": "Vanilla wanted to be rich.",
+          "uz": "Vanilla boy boʻlishni xohlardi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Right now, I ___ to English.",
-          "options": ["am listening", "listen", "listening"],
+          "options": [
+            "am listening",
+            "listen",
+            "listening"
+          ],
           "answer": "am listening",
           "hintUz": "\"Right now\" — aynan hozir → am + -ing (present continuous)"
         },
         {
           "type": "gap-fill",
           "prompt": "I ___ the answer to this question.",
-          "options": ["know", "am knowing", "knowing"],
+          "options": [
+            "know",
+            "am knowing",
+            "knowing"
+          ],
           "answer": "know",
           "hintUz": "know — holat feʼli, davomiy shaklga tushmaydi: I know"
         },
         {
           "type": "gap-fill",
           "prompt": "AJ ___ us to smile every day.",
-          "options": ["tells", "is telling", "tell"],
+          "options": [
+            "tells",
+            "is telling",
+            "tell"
+          ],
           "answer": "tells",
           "hintUz": "\"every day\" — odat → present simple; he/she/it bilan -s: tells"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekchada his kelishik qoʻshimchasi bilan beriladi: \"…dan qoʻrqaman\", \"…ga qiziqaman\". Ingliz tilida buni predlog bajaradi va u kutilmagan boʻladi: interested IN (\"-ga\" emas), afraid OF, excited ABOUT. Shuningdek -ed sifat mening holatimni (I am bored), -ing sifat esa narsaning xususiyatini (the lesson is boring) bildiradi.",
       "errorFixUz": "❌ I am boring. I am interested for music. ✅ I am bored. I am interested in music. -ed = men his qilaman (bored), -ing = narsa taʼsir qiladi (boring); predlogni sifat bilan bitta boʻlak qilib yodlang (interested in).",
       "examples": [
-        { "en": "A lot of people feel bored when they learn English.", "uz": "Koʻp odam ingliz tili oʻrganganda zerikadi." },
-        { "en": "The vocabulary lesson can be boring.", "uz": "Soʻzlar darsi zerikarli boʻlishi mumkin." },
-        { "en": "Don't be worried about mistakes.", "uz": "Xatolardan xavotirlanmang." }
+        {
+          "en": "A lot of people feel bored when they learn English.",
+          "uz": "Koʻp odam ingliz tili oʻrganganda zerikadi."
+        },
+        {
+          "en": "The vocabulary lesson can be boring.",
+          "uz": "Soʻzlar darsi zerikarli boʻlishi mumkin."
+        },
+        {
+          "en": "Don't be worried about mistakes.",
+          "uz": "Xatolardan xavotirlanmang."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "The vocabulary lesson is ___; I almost fell asleep.",
-          "options": ["boring", "bored", "bore"],
+          "options": [
+            "boring",
+            "bored",
+            "bore"
+          ],
           "answer": "boring",
           "hintUz": "narsaning xususiyati (dars taʼsir qiladi) → -ing: boring"
         },
         {
           "type": "gap-fill",
           "prompt": "After a long day at work, I feel ___.",
-          "options": ["tired", "tiring", "tire"],
+          "options": [
+            "tired",
+            "tiring",
+            "tire"
+          ],
           "answer": "tired",
           "hintUz": "mening holatim (men his qilaman) → -ed: tired"
         },
         {
           "type": "gap-fill",
           "prompt": "Don't be worried ___ your mistakes.",
-          "options": ["about", "of", "for"],
+          "options": [
+            "about",
+            "of",
+            "for"
+          ],
           "answer": "about",
           "hintUz": "worried + about — bitta boʻlak (chunk) qilib yodlang"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "good posture", "pos": "phrase", "uz": "toʻgʻri (tik) tana holati — yelka orqada, bel tik, iyak yuqorida", "defEn": "the position of your body when you stand or sit up straight", "example": "Good posture means shoulders back and chin up." },
-    { "en": "to grin", "pos": "v", "uz": "keng, katta tabassum qilmoq", "defEn": "to smile in a very big way", "example": "She walked in with a big grin on her face." },
-    { "en": "tends to be", "pos": "phrase", "uz": "odatda shunday boʻladi (doim emas)", "defEn": "usually is; is true most of the time", "example": "He tends to be an angry person." },
-    { "en": "to shift (your body)", "pos": "v", "uz": "holatini oʻzgartirmoq, siljitmoq", "defEn": "to move something into a different position", "example": "I feel happier just by shifting my body." },
-    { "en": "shallow breathing", "pos": "phrase", "uz": "yuza, mayda nafas olish (chuqur emas)", "defEn": "small breaths that do not go deep into your body", "example": "Shallow breathing gives you less energy." },
-    { "en": "to take a deep breath", "pos": "phrase", "uz": "chuqur nafas olmoq", "defEn": "to breathe in a lot of air, deep into your body", "example": "Take a deep breath and feel the energy." },
-    { "en": "to force yourself (to do something)", "pos": "phrase", "uz": "oʻzini majburlamoq, zoʻrlab qilmoq", "defEn": "to make yourself do something difficult, using effort", "example": "Force yourself to smile, even if you don't want to." },
-    { "en": "emotional state", "pos": "phrase", "uz": "hissiy holat, kayfiyat", "defEn": "the general feeling you have at a certain time", "example": "You can change your emotional state by moving your body." },
-    { "en": "depressed", "pos": "adj", "uz": "juda gʻamgin, tushkun (oddiy \"xafa\"dan chuqurroq)", "defEn": "feeling very, very sad about everything", "example": "It's hard to feel depressed when you have a big smile." },
-    { "en": "to master your emotions", "pos": "phrase", "uz": "hissiyotni puxta boshqarishni egallamoq", "defEn": "to learn to manage and control your feelings", "example": "You have to master your emotions to master English." }
+    {
+      "en": "good posture",
+      "pos": "phrase",
+      "uz": "toʻgʻri (tik) tana holati — yelka orqada, bel tik, iyak yuqorida",
+      "defEn": "the position of your body when you stand or sit up straight",
+      "example": "Good posture means shoulders back and chin up."
+    },
+    {
+      "en": "to grin",
+      "pos": "v",
+      "uz": "keng, katta tabassum qilmoq",
+      "defEn": "to smile in a very big way",
+      "example": "She walked in with a big grin on her face."
+    },
+    {
+      "en": "tends to be",
+      "pos": "phrase",
+      "uz": "odatda shunday boʻladi (doim emas)",
+      "defEn": "usually is; is true most of the time",
+      "example": "He tends to be an angry person."
+    },
+    {
+      "en": "to shift (your body)",
+      "pos": "v",
+      "uz": "holatini oʻzgartirmoq, siljitmoq",
+      "defEn": "to move something into a different position",
+      "example": "I feel happier just by shifting my body."
+    },
+    {
+      "en": "shallow breathing",
+      "pos": "phrase",
+      "uz": "yuza, mayda nafas olish (chuqur emas)",
+      "defEn": "small breaths that do not go deep into your body",
+      "example": "Shallow breathing gives you less energy."
+    },
+    {
+      "en": "to take a deep breath",
+      "pos": "phrase",
+      "uz": "chuqur nafas olmoq",
+      "defEn": "to breathe in a lot of air, deep into your body",
+      "example": "Take a deep breath and feel the energy."
+    },
+    {
+      "en": "to force yourself (to do something)",
+      "pos": "phrase",
+      "uz": "oʻzini majburlamoq, zoʻrlab qilmoq",
+      "defEn": "to make yourself do something difficult, using effort",
+      "example": "Force yourself to smile, even if you don't want to."
+    },
+    {
+      "en": "emotional state",
+      "pos": "phrase",
+      "uz": "hissiy holat, kayfiyat",
+      "defEn": "the general feeling you have at a certain time",
+      "example": "You can change your emotional state by moving your body."
+    },
+    {
+      "en": "depressed",
+      "pos": "adj",
+      "uz": "juda gʻamgin, tushkun (oddiy \"xafa\"dan chuqurroq)",
+      "defEn": "feeling very, very sad about everything",
+      "example": "It's hard to feel depressed when you have a big smile."
+    },
+    {
+      "en": "to master your emotions",
+      "pos": "phrase",
+      "uz": "hissiyotni puxta boshqarishni egallamoq",
+      "defEn": "to learn to manage and control your feelings",
+      "example": "You have to master your emotions to master English."
+    }
   ],
   "englishpod": {
     "title": "Daily Life – My New Boyfriend",
@@ -122,12 +230,36 @@
       "en": "In this dialogue Irene excitedly describes last night's date — the guy was amazing. It fits the Emotional Mastery theme: how feelings drive us. Notice the feeling words: amazing, good looking, hot. Do you think there's a surprise twist at the end?"
     },
     "keyVocab": [
-      { "en": "to hear (that…)", "uz": "eshitmoq, xabar topmoq", "defEn": "to get information from someone" },
-      { "en": "juicy details", "uz": "qiziqarli, mazali tafsilotlar", "defEn": "exciting pieces of information" },
-      { "en": "fill me in", "uz": "menga batafsil aytib ber", "defEn": "give me more information" },
-      { "en": "good looking", "uz": "koʻrkam, chiroyli (tashqi koʻrinishi)", "defEn": "handsome; attractive to look at" },
-      { "en": "hot", "uz": "juda jozibali, koʻzga issiq (suhbat tilida)", "defEn": "very attractive (informal)" },
-      { "en": "career path", "uz": "kasbiy yoʻl, martaba yoʻli", "defEn": "a planned, logical progression of jobs through your working life" }
+      {
+        "en": "to hear (that…)",
+        "uz": "eshitmoq, xabar topmoq",
+        "defEn": "to get information from someone"
+      },
+      {
+        "en": "juicy details",
+        "uz": "qiziqarli, mazali tafsilotlar",
+        "defEn": "exciting pieces of information"
+      },
+      {
+        "en": "fill me in",
+        "uz": "menga batafsil aytib ber",
+        "defEn": "give me more information"
+      },
+      {
+        "en": "good looking",
+        "uz": "koʻrkam, chiroyli (tashqi koʻrinishi)",
+        "defEn": "handsome; attractive to look at"
+      },
+      {
+        "en": "hot",
+        "uz": "juda jozibali, koʻzga issiq (suhbat tilida)",
+        "defEn": "very attractive (informal)"
+      },
+      {
+        "en": "career path",
+        "uz": "kasbiy yoʻl, martaba yoʻli",
+        "defEn": "a planned, logical progression of jobs through your working life"
+      }
     ]
   },
   "sixmin": {
@@ -137,26 +269,54 @@
       {
         "q": "Where did the UK place in the World Happiness Report 2017?",
         "qUz": "2017-yilgi Jahon baxt hisobotida Buyuk Britaniya nechanchi oʻrinni egalladi?",
-        "options": ["in the top 10", "between 11th and 20th", "after 21st"],
+        "options": [
+          "in the top 10",
+          "between 11th and 20th",
+          "after 21st"
+        ],
         "answerIndex": 1,
         "explanationUz": "Toʻgʻri javob: b) 11 va 20 oʻrtasida — aniqrogʻi 19-oʻrin. Neil c) dedi va xato qildi. Norvegiya birinchi oʻrinda, Shimoliy davlatlar esa doim jadval boshida turadi."
       }
     ],
     "vocab": [
-      { "en": "to dominate", "uz": "hukmronlik qilmoq, ustunlik qilmoq", "defEn": "to control something or someone" },
-      { "en": "subjective", "uz": "subyektiv — shaxsiy tajriba va hisga asoslangan", "defEn": "based on personal experience, beliefs or feelings, not facts" },
-      { "en": "component", "uz": "tarkibiy qism, boʻlak", "defEn": "a part of something that makes up a larger whole" },
-      { "en": "inoculation", "uz": "emlash, kasallikdan himoya (vaksinaga sinonim)", "defEn": "a form of disease protection; a synonym of vaccination" },
-      { "en": "content", "uz": "mamnun, qoniqqan (hech narsa istamaydigan)", "defEn": "satisfied and wanting nothing" },
-      { "en": "cosiness", "uz": "shinamlik, iliqlik (issiq, qulay va xavfsiz muhit)", "defEn": "the quality of being warm, comfortable and safe" }
+      {
+        "en": "to dominate",
+        "uz": "hukmronlik qilmoq, ustunlik qilmoq",
+        "defEn": "to control something or someone"
+      },
+      {
+        "en": "subjective",
+        "uz": "subyektiv — shaxsiy tajriba va hisga asoslangan",
+        "defEn": "based on personal experience, beliefs or feelings, not facts"
+      },
+      {
+        "en": "component",
+        "uz": "tarkibiy qism, boʻlak",
+        "defEn": "a part of something that makes up a larger whole"
+      },
+      {
+        "en": "inoculation",
+        "uz": "emlash, kasallikdan himoya (vaksinaga sinonim)",
+        "defEn": "a form of disease protection; a synonym of vaccination"
+      },
+      {
+        "en": "content",
+        "uz": "mamnun, qoniqqan (hech narsa istamaydigan)",
+        "defEn": "satisfied and wanting nothing"
+      },
+      {
+        "en": "cosiness",
+        "uz": "shinamlik, iliqlik (issiq, qulay va xavfsiz muhit)",
+        "defEn": "the quality of being warm, comfortable and safe"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "How to Master Your Emotions",
-      "channel": "Tony Robbins"
+      "id": "Uew5BbvmLks",
+      "title": "How to manage your emotions",
+      "channel": "TED-Ed"
     }
   ],
   "speakingPrompt": {

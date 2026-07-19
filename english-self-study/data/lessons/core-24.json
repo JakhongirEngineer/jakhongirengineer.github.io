@@ -525,7 +525,7 @@
     "title": "The Weekend – Going to the Beach",
     "titleUz": "Dam olish kuni — dengiz boʻyiga borish",
     "warmup": {
-      "uz": "Bu suhbatda bir oila shahardan chiqib, dengiz boʻyida kun oʻtkazadi — bolalar suvga tushadi, qumdan qalʼa quradi, meduza uchratishadi. AJ’ning “Adventure” gʻoyasiga mos: kichik sayohat ham odatiy tartibni buzadi va hayotga hayajon olib keladi. Sizningcha, oddiy plyaj kuni ham “sarguzasht” boʻla oladimi?",
+      "uz": "Bu suhbatda bir oila shahardan chiqib, dengiz boʻyida kun oʻtkazadi — bolalar suvga tushadi, qumdan qalʼa quradi, meduza uchratishadi. AJʼning “Adventure” gʻoyasiga mos: kichik sayohat ham odatiy tartibni buzadi va hayotga hayajon olib keladi. Sizningcha, oddiy plyaj kuni ham “sarguzasht” boʻla oladimi?",
       "en": "In this dialogue a family leaves the city for a day at the beach — the kids swim, build a sandcastle and meet a jellyfish. It fits AJ's “Adventure” theme: even a small trip breaks the routine and brings excitement. Do you think an ordinary beach day can count as an adventure?"
     },
     "audio": {
@@ -683,9 +683,9 @@
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Saying yes to adventure: seeking discomfort around the world",
-      "channel": "Yes Theory"
+      "id": "Sv1B0IonzqM",
+      "title": "Can adventure travel change you? | Michelle Spinei | TEDxReykjavik",
+      "channel": "TEDx Talks"
     }
   ],
   "speakingPrompt": {

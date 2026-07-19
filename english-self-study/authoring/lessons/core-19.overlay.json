@@ -3,7 +3,13 @@
   "title": "Leaders Make Mistakes",
   "titleUz": "Rahbarlar xato qiladi",
   "level": "B1",
-  "tags": ["mindset", "leadership", "mistakes", "present-perfect", "modal-perfect"],
+  "tags": [
+    "mindset",
+    "leadership",
+    "mistakes",
+    "present-perfect",
+    "modal-perfect"
+  ],
   "intro": {
     "uz": "Tom Peters kitobidan olingan gʻoya: kuchli rahbarlar xato qilishdan qoʻrqmaydi — ular xato qiladi, oʻrganadi va yana urinib koʻradi. Bu haftaning ikki grammatik mavzusi shu gʻoyadan oʻsib chiqadi: hayotiy tajriba uchun present perfect (Have you ever…? / ever / never) va oʻtmishga afsus bilan qarash (should have / could have + needn't have). Todd va Louis pingvinlar haqidagi POV hikoyada birinchisini eshitasiz.",
     "en": "An idea from Tom Peters: strong leaders are not afraid of mistakes — they make them, learn, and try again. This week's two grammar topics grow from that idea: the present perfect for life experience (Have you ever…? / ever / never) and looking back with regret (should have / could have + needn't have). You'll hear the first one in the POV story about the penguins Todd and Louis."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbekcha “Hech qachon xato qilganmisiz?” gapida oddiy oʻtgan zamonni ishlatamiz. Ingliz tili esa aniq vaqt aytilmagan hayotiy tajriba uchun present perfect talab qiladi: “Have you ever made a mistake?”. Aniq vaqt bor boʻlsa (yesterday, in 2019) — past simple; aniq vaqt yoʻq, faqat “hayotda boʻlganmi?” boʻlsa — present perfect.",
       "errorFixUz": "❌ Did you ever go to London? / I have never not failed. ✅ Have you ever been to London? I have never failed. Aniq vaqtsiz tajriba uchun have/has + V3; “never” oʻzi inkor beradi, yana “not” qoʻshilmaydi.",
       "examples": [
-        { "en": "Have you ever made a big mistake?", "uz": "Hech qachon katta xato qilganmisiz?" },
-        { "en": "I have never given up.", "uz": "Men hech qachon taslim boʻlmaganman." },
-        { "en": "Todd and Louis have never given up.", "uz": "Todd va Louis hech qachon taslim boʻlmagan." }
+        {
+          "en": "Have you ever made a big mistake?",
+          "uz": "Hech qachon katta xato qilganmisiz?"
+        },
+        {
+          "en": "I have never given up.",
+          "uz": "Men hech qachon taslim boʻlmaganman."
+        },
+        {
+          "en": "Todd and Louis have never given up.",
+          "uz": "Todd va Louis hech qachon taslim boʻlmagan."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "___ you ever failed at something big?",
-          "options": ["Have", "Did", "Are"],
+          "options": [
+            "Have",
+            "Did",
+            "Are"
+          ],
           "answer": "Have",
           "hintUz": "aniq vaqtsiz tajriba savoli → Have + you + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "I have ___ been to Thailand.",
-          "options": ["never", "not never", "ever"],
+          "options": [
+            "never",
+            "not never",
+            "ever"
+          ],
           "answer": "never",
           "hintUz": "“never” oʻzi inkor beradi; “not” qoʻshilmaydi"
         },
         {
           "type": "gap-fill",
           "prompt": "Have you ever ___ a new language?",
-          "options": ["tried", "try", "tried to"],
+          "options": [
+            "tried",
+            "try",
+            "tried to"
+          ],
           "answer": "tried",
           "hintUz": "have + V3 (uchinchi shakl): tried"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekcha “qilishim kerak edi” bitta ibora. Ingliz tili “hozir kerak” (I should try) va “oʻtmishda kerak edi” (I should have tried) ni have + V3 bilan ajratadi. should have = qilishim kerak edi (qilmadim); could have = qila olardim (imkon bor edi); needn't have = shart emas edi (lekin qildim).",
       "errorFixUz": "❌ I should of tried. / I could tried harder. ✅ I should have tried. I could have tried harder. Nutqda “should've” eshitiladi, lekin yozuvda doim have + V3 — hech qachon “of” emas.",
       "examples": [
-        { "en": "I should have tried harder.", "uz": "Koʻproq harakat qilishim kerak edi." },
-        { "en": "They could have quit, but they kept swimming.", "uz": "Ular taslim boʻlishlari mumkin edi, lekin suzishda davom etdi." },
-        { "en": "I needn't have worried about the mistake.", "uz": "Xato haqida qaygʻurishim shart emas edi." }
+        {
+          "en": "I should have tried harder.",
+          "uz": "Koʻproq harakat qilishim kerak edi."
+        },
+        {
+          "en": "They could have quit, but they kept swimming.",
+          "uz": "Ular taslim boʻlishlari mumkin edi, lekin suzishda davom etdi."
+        },
+        {
+          "en": "I needn't have worried about the mistake.",
+          "uz": "Xato haqida qaygʻurishim shart emas edi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Looking back, I ___ started earlier.",
-          "options": ["should have", "should of", "should had"],
+          "options": [
+            "should have",
+            "should of",
+            "should had"
+          ],
           "answer": "should have",
           "hintUz": "afsus → should have + V3; yozuvda “of” emas, “have”"
         },
         {
           "type": "gap-fill",
           "prompt": "She ___ asked for help, but she didn't.",
-          "options": ["could have", "could of", "can have"],
+          "options": [
+            "could have",
+            "could of",
+            "can have"
+          ],
           "answer": "could have",
           "hintUz": "boy berilgan imkon → could have + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "You ___ worried so much — it was fine!",
-          "options": ["needn't have", "needn't", "don't need"],
+          "options": [
+            "needn't have",
+            "needn't",
+            "don't need"
+          ],
           "answer": "needn't have",
           "hintUz": "behuda qilingan ish → needn't have + V3"
         },
@@ -103,17 +151,83 @@
     }
   ],
   "vocab": [
-    { "en": "to make no bones about (something)", "pos": "phrase", "uz": "biror narsani yashirmaslik, uzr soʻramaslik; ochiq aytmoq", "defEn": "to say or do something openly, without apologizing or hiding it", "example": "Leaders make mistakes and they make no bones about it." },
-    { "en": "placid", "pos": "adj", "uz": "tinch, osoyishta, sokin", "defEn": "calm and quiet; not changing", "example": "In placid times, leaders can pretend to have all the answers." },
-    { "en": "turbulent", "pos": "adj", "uz": "notinch, notoʻxtov oʻzgaruvchan, notinch/dovulli (placid ning teskarisi)", "defEn": "not calm; rough, chaotic, changing fast", "example": "In turbulent times, leaders need the best questions." },
-    { "en": "to undertake (a voyage)", "pos": "v", "uz": "boshlamoq, qoʻl urmoq (uzoq davom etadigan ishga)", "defEn": "to start something, usually something long or difficult", "example": "Against long odds, they undertook the trip to Thailand." },
-    { "en": "a voyage of mutual discovery", "pos": "phrase", "uz": "birgalikda yangilik oʻrganish sayohati (mutual = umumiy, birgalikdagi)", "defEn": "a shared journey of learning new things together", "example": "Leaders send their people on voyages of mutual discovery." },
-    { "en": "the essence of (something)", "pos": "phrase", "uz": "mohiyati, asosiy magʻzi, eng muhim gʻoyasi", "defEn": "the core or most important part of something", "example": "The essence of trying new things is letting people screw up." },
-    { "en": "to screw up", "pos": "phrase", "uz": "xato qilmoq, ishni buzmoq (norasmiy)", "defEn": "to make a mistake or fail (informal)", "example": "If you try new stuff, you screw up." },
-    { "en": "mandatory", "pos": "adj", "uz": "majburiy, shart, zarur", "defEn": "required and necessary; something you must do", "example": "Mistakes are not enough — big mistakes are mandatory." },
-    { "en": "mediocre", "pos": "adj", "uz": "oʻrtamiyona, na yaxshi na yomon", "defEn": "average; not good and not bad, just so-so", "example": "Reward excellent failures, punish mediocre successes." },
-    { "en": "reckless / recklessness", "pos": "adj", "uz": "beparvo, xavf-xatarga eʼtibor bermay ish tutadigan", "defEn": "taking big risks without caring about the danger", "example": "They were reckless, but not thoughtless." },
-    { "en": "against long odds", "pos": "phrase", "uz": "muvaffaqiyat ehtimoli past boʻlsa ham, qiyinchiliklarga qaramay", "defEn": "with a very small chance of success; against difficult challenges", "example": "Against long odds, they tried to create a new world." }
+    {
+      "en": "to make no bones about (something)",
+      "pos": "phrase",
+      "uz": "biror narsani yashirmaslik, uzr soʻramaslik; ochiq aytmoq",
+      "defEn": "to say or do something openly, without apologizing or hiding it",
+      "example": "Leaders make mistakes and they make no bones about it."
+    },
+    {
+      "en": "placid",
+      "pos": "adj",
+      "uz": "tinch, osoyishta, sokin",
+      "defEn": "calm and quiet; not changing",
+      "example": "In placid times, leaders can pretend to have all the answers."
+    },
+    {
+      "en": "turbulent",
+      "pos": "adj",
+      "uz": "notinch, notoʻxtov oʻzgaruvchan, notinch/dovulli (placid ning teskarisi)",
+      "defEn": "not calm; rough, chaotic, changing fast",
+      "example": "In turbulent times, leaders need the best questions."
+    },
+    {
+      "en": "to undertake (a voyage)",
+      "pos": "v",
+      "uz": "boshlamoq, qoʻl urmoq (uzoq davom etadigan ishga)",
+      "defEn": "to start something, usually something long or difficult",
+      "example": "Against long odds, they undertook the trip to Thailand."
+    },
+    {
+      "en": "a voyage of mutual discovery",
+      "pos": "phrase",
+      "uz": "birgalikda yangilik oʻrganish sayohati (mutual = umumiy, birgalikdagi)",
+      "defEn": "a shared journey of learning new things together",
+      "example": "Leaders send their people on voyages of mutual discovery."
+    },
+    {
+      "en": "the essence of (something)",
+      "pos": "phrase",
+      "uz": "mohiyati, asosiy magʻzi, eng muhim gʻoyasi",
+      "defEn": "the core or most important part of something",
+      "example": "The essence of trying new things is letting people screw up."
+    },
+    {
+      "en": "to screw up",
+      "pos": "phrase",
+      "uz": "xato qilmoq, ishni buzmoq (norasmiy)",
+      "defEn": "to make a mistake or fail (informal)",
+      "example": "If you try new stuff, you screw up."
+    },
+    {
+      "en": "mandatory",
+      "pos": "adj",
+      "uz": "majburiy, shart, zarur",
+      "defEn": "required and necessary; something you must do",
+      "example": "Mistakes are not enough — big mistakes are mandatory."
+    },
+    {
+      "en": "mediocre",
+      "pos": "adj",
+      "uz": "oʻrtamiyona, na yaxshi na yomon",
+      "defEn": "average; not good and not bad, just so-so",
+      "example": "Reward excellent failures, punish mediocre successes."
+    },
+    {
+      "en": "reckless / recklessness",
+      "pos": "adj",
+      "uz": "beparvo, xavf-xatarga eʼtibor bermay ish tutadigan",
+      "defEn": "taking big risks without caring about the danger",
+      "example": "They were reckless, but not thoughtless."
+    },
+    {
+      "en": "against long odds",
+      "pos": "phrase",
+      "uz": "muvaffaqiyat ehtimoli past boʻlsa ham, qiyinchiliklarga qaramay",
+      "defEn": "with a very small chance of success; against difficult challenges",
+      "example": "Against long odds, they tried to create a new world."
+    }
   ],
   "englishpod": {
     "title": "The Office – Interview Skills: Talking About Weaknesses",
@@ -123,13 +237,41 @@
       "en": "In this dialogue Rebecca has to describe her weakness in a job interview. It fits AJ's lesson perfectly: strong people don't hide their mistakes and weaknesses — they make no bones about them. Do you think naming your weakness in an interview is a strength or a weakness?"
     },
     "keyVocab": [
-      { "en": "weakness", "uz": "kamchilik, zaif tomon, nuqson", "defEn": "a personal defect or failing" },
-      { "en": "to pinpoint", "uz": "aniq koʻrsatmoq, aniqlab bermoq", "defEn": "to locate or describe something exactly or precisely" },
-      { "en": "an impression", "uz": "taassurot (biror voqeadan keyingi tuygʻu)", "defEn": "the feeling or opinion one has after a specific event" },
-      { "en": "frustrated", "uz": "koʻngli qolgan, asabi buzilgan, ranjigan", "defEn": "upset or annoyed because you cannot do or get what you want" },
-      { "en": "to go someone's way", "uz": "koʻngildagidek, rejaga muvofiq ketmoq", "defEn": "to proceed according to one's plans or wishes" },
-      { "en": "to get someone down", "uz": "ruhini tushirmoq, tushkunlikka solmoq", "defEn": "to exhaust, discourage, or depress someone" },
-      { "en": "to shirk (responsibilities)", "uz": "(masʼuliyatdan) bosh tortmoq, chetlamoq", "defEn": "to avoid or neglect a duty or responsibility" }
+      {
+        "en": "weakness",
+        "uz": "kamchilik, zaif tomon, nuqson",
+        "defEn": "a personal defect or failing"
+      },
+      {
+        "en": "to pinpoint",
+        "uz": "aniq koʻrsatmoq, aniqlab bermoq",
+        "defEn": "to locate or describe something exactly or precisely"
+      },
+      {
+        "en": "an impression",
+        "uz": "taassurot (biror voqeadan keyingi tuygʻu)",
+        "defEn": "the feeling or opinion one has after a specific event"
+      },
+      {
+        "en": "frustrated",
+        "uz": "koʻngli qolgan, asabi buzilgan, ranjigan",
+        "defEn": "upset or annoyed because you cannot do or get what you want"
+      },
+      {
+        "en": "to go someone's way",
+        "uz": "koʻngildagidek, rejaga muvofiq ketmoq",
+        "defEn": "to proceed according to one's plans or wishes"
+      },
+      {
+        "en": "to get someone down",
+        "uz": "ruhini tushirmoq, tushkunlikka solmoq",
+        "defEn": "to exhaust, discourage, or depress someone"
+      },
+      {
+        "en": "to shirk (responsibilities)",
+        "uz": "(masʼuliyatdan) bosh tortmoq, chetlamoq",
+        "defEn": "to avoid or neglect a duty or responsibility"
+      }
     ]
   },
   "sixmin": {
@@ -139,26 +281,54 @@
       {
         "q": "Who said 'honesty is the best policy'?",
         "qUz": "“Halollik — eng yaxshi siyosat” degan gapni kim aytgan?",
-        "options": ["Donald Trump", "Benjamin Franklin", "Richard Nixon"],
+        "options": [
+          "Donald Trump",
+          "Benjamin Franklin",
+          "Richard Nixon"
+        ],
         "answerIndex": 1,
         "explanationUz": "Toʻgʻri javob: b) Benjamin Franklin. U buni 1732–1758-yillar orasida yozilgan “Poor Richard's Almanac” maqollar kitobida yozgan. Rob ham shu javobni tanladi va toʻgʻri topdi."
       }
     ],
     "vocab": [
-      { "en": "honest", "uz": "halol, rostgoʻy, aldamaydigan", "defEn": "truthful and not trying to cheat people" },
-      { "en": "to cheat", "uz": "aldamoq, firib bermoq, hiyla ishlatmoq", "defEn": "to behave dishonestly to get what you want" },
-      { "en": "a consumer", "uz": "isteʼmolchi (mahsulot yoki xizmat sotib oluvchi)", "defEn": "a person who buys goods or services for their own use" },
-      { "en": "psychological make up", "uz": "ruhiy tuzilma, ong ishlash tarzi", "defEn": "the way the human mind works; the way we think" },
-      { "en": "selfish", "uz": "xudbin, faqat oʻzini oʻylaydigan", "defEn": "caring only about yourself and not about other people" },
-      { "en": "co-operative", "uz": "hamkorlikka moyil, birga ishlaydigan", "defEn": "willing to work together with others towards a shared goal" }
+      {
+        "en": "honest",
+        "uz": "halol, rostgoʻy, aldamaydigan",
+        "defEn": "truthful and not trying to cheat people"
+      },
+      {
+        "en": "to cheat",
+        "uz": "aldamoq, firib bermoq, hiyla ishlatmoq",
+        "defEn": "to behave dishonestly to get what you want"
+      },
+      {
+        "en": "a consumer",
+        "uz": "isteʼmolchi (mahsulot yoki xizmat sotib oluvchi)",
+        "defEn": "a person who buys goods or services for their own use"
+      },
+      {
+        "en": "psychological make up",
+        "uz": "ruhiy tuzilma, ong ishlash tarzi",
+        "defEn": "the way the human mind works; the way we think"
+      },
+      {
+        "en": "selfish",
+        "uz": "xudbin, faqat oʻzini oʻylaydigan",
+        "defEn": "caring only about yourself and not about other people"
+      },
+      {
+        "en": "co-operative",
+        "uz": "hamkorlikka moyil, birga ishlaydigan",
+        "defEn": "willing to work together with others towards a shared goal"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Why the best leaders make the most mistakes",
-      "channel": "TED"
+      "id": "3gv76eEFEgA",
+      "title": "The power of mistakes and failure | Suzi LeVine | TEDxBern",
+      "channel": "TEDx Talks"
     }
   ],
   "speakingPrompt": {

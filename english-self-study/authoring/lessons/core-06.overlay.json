@@ -3,7 +3,13 @@
   "title": "Models",
   "titleUz": "Namunalar — role model va peer group",
   "level": "B1",
-  "tags": ["role-models", "peer-group", "comparatives", "relative-clauses", "fluency"],
+  "tags": [
+    "role-models",
+    "peer-group",
+    "comparatives",
+    "relative-clauses",
+    "fluency"
+  ],
   "intro": {
     "uz": "Models — namunalar: role model (ibrat oladigan inson) va peer group (atrofingizdagi muhit). AJ zoʻr oʻrganuvchilardan oʻrganib, ularning eng yaxshi usullarini “oʻgʻirlashni” oʻrgatadi. Bu haftaning ikki grammatikasi — solishtirish va taʼriflash tili: qiyosiy va orttirma daraja hamda (not) as … as; va aniqlovchi ergash gap (who / that / which / whose).",
     "en": "Models — the people you learn from: role models (heroes you want to imitate) and your peer group (the people around you). AJ teaches you to study top learners and copy their best methods. This week's two grammar topics are the language of comparing and defining: comparatives, superlatives & (not) as … as, and defining relative clauses (who / that / which / whose)."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbekchada sifatga -roq qoʻshiladi (“tezroq”) va “…dan” bilan solishtiriladi; “eng” esa orttirma daraja beradi; oʻxshatish “-dek / kabi” bilan. Ingliz tilida: qiyosiy = -er/more + than, orttirma = the -est/most, tenglik = as … as. “…dan” oʻrnida doim than turadi, orttirmada esa deyarli doim the keladi.",
       "errorFixUz": "❌ She is more faster than me. She is the most fast. ✅ She is faster than me. She is the fastest. Qisqa sifatga faqat -er/-est qoʻshiladi (more/most bilan birga emas). as … as orasida esa sof sifat: as fast as (❗ as faster as emas).",
       "examples": [
-        { "en": "Jane learns faster than John.", "uz": "Jane Jondan tezroq oʻrganadi." },
-        { "en": "She wanted to be the best tri-athlete in the world.", "uz": "U dunyodagi eng zoʻr triatlonchi boʻlishni istardi." },
-        { "en": "He speaks English as fluently as a native.", "uz": "U ingliz tilida ona tili egasidek ravon gapiradi." }
+        {
+          "en": "Jane learns faster than John.",
+          "uz": "Jane Jondan tezroq oʻrganadi."
+        },
+        {
+          "en": "She wanted to be the best tri-athlete in the world.",
+          "uz": "U dunyodagi eng zoʻr triatlonchi boʻlishni istardi."
+        },
+        {
+          "en": "He speaks English as fluently as a native.",
+          "uz": "U ingliz tilida ona tili egasidek ravon gapiradi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Jeannie learned much ___ than the other students.",
-          "options": ["faster", "fast", "fastest"],
+          "options": [
+            "faster",
+            "fast",
+            "fastest"
+          ],
           "answer": "faster",
           "hintUz": "ikki tomonni solishtirish → qiyosiy daraja + than: faster than"
         },
         {
           "type": "gap-fill",
           "prompt": "Tiger Woods is one of the ___ golfers in history.",
-          "options": ["best", "better", "good"],
+          "options": [
+            "best",
+            "better",
+            "good"
+          ],
           "answer": "best",
           "hintUz": "eng zoʻri (orttirma daraja) → the best; good → better → best"
         },
         {
           "type": "gap-fill",
           "prompt": "My English isn't ___ good ___ hers yet.",
-          "options": ["as … as", "so … than", "more … than"],
+          "options": [
+            "as … as",
+            "so … than",
+            "more … than"
+          ],
           "answer": "as … as",
           "hintUz": "tenglik/tengsizlik qolipi: (not) as + sof sifat + as"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tilida aniqlovchi otdan OLDIN keladi va feʼl sifatdosh boʻladi: “meni oʻqitgan oʻqituvchi”. Ingliz tili teskari quradi — avval ot, keyin who/that/which bilan izoh: “the teacher who taught me”. Odam uchun who, narsa uchun which, ikkalasi uchun that, egalik (“…ning”) uchun whose.",
       "errorFixUz": "❌ The teacher which taught me. A person which does three sports. ✅ The teacher who taught me. A person who does three sports. Odam uchun who/that; narsa uchun which/that; egalik uchun whose (odamga which qoʻllanmaydi).",
       "examples": [
-        { "en": "A role model is someone who has already succeeded.", "uz": "Role model — bu allaqachon muvaffaqiyatga erishgan inson." },
-        { "en": "A tri-athlete is a person who does three sports.", "uz": "Triatlonchi — uch xil sport bilan shugʻullanadigan inson." },
-        { "en": "This is the method that works best.", "uz": "Bu — eng yaxshi natija beradigan usul." }
+        {
+          "en": "A role model is someone who has already succeeded.",
+          "uz": "Role model — bu allaqachon muvaffaqiyatga erishgan inson."
+        },
+        {
+          "en": "A tri-athlete is a person who does three sports.",
+          "uz": "Triatlonchi — uch xil sport bilan shugʻullanadigan inson."
+        },
+        {
+          "en": "This is the method that works best.",
+          "uz": "Bu — eng yaxshi natija beradigan usul."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "A role model is a person ___ has already done what you want to do.",
-          "options": ["who", "which", "whose"],
+          "options": [
+            "who",
+            "which",
+            "whose"
+          ],
           "answer": "who",
           "hintUz": "odam uchun → who (yoki that)"
         },
         {
           "type": "gap-fill",
           "prompt": "Effortless English is a method ___ focuses on listening.",
-          "options": ["that", "who", "whose"],
+          "options": [
+            "that",
+            "who",
+            "whose"
+          ],
           "answer": "that",
           "hintUz": "narsa uchun → that yoki which (who emas)"
         },
         {
           "type": "gap-fill",
           "prompt": "Steve Kaufmann is a linguist ___ English is perfect.",
-          "options": ["whose", "who", "which"],
+          "options": [
+            "whose",
+            "who",
+            "which"
+          ],
           "answer": "whose",
           "hintUz": "egalik (“…ning inglizchasi”) → whose"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "a role model", "pos": "phrase", "uz": "namuna, ibrat oladigan inson (muayyan sohada qahramon)", "defEn": "someone you want to imitate, usually in one specific part of life", "example": "Michael Jordan is my role model for basketball." },
-    { "en": "on the fast track", "pos": "phrase", "uz": "tez rivojlanish yoʻlida, jadal oʻsish yoʻlida", "defEn": "in a situation where you improve or advance very quickly", "example": "Jane is on the fast track — she is learning very fast." },
-    { "en": "randomly", "pos": "adv", "uz": "tasodifan, rejasiz, betartib", "defEn": "by chance, without a plan or clear reason", "example": "In the beginning I randomly chose exercises from a book." },
-    { "en": "to bring (energy) back up", "pos": "phrase", "uz": "(kuch-quvvatni) qaytadan koʻtarmoq, tiklamoq", "defEn": "to return something to a higher level", "example": "Your peer group will bring your energy back up." },
-    { "en": "a peer", "pos": "n", "uz": "tengdosh, teng maqomdagi kishi", "defEn": "an equal; someone you have regular contact with", "example": "Your coworkers and friends are your peers." },
-    { "en": "a peer group", "pos": "phrase", "uz": "muhit, tengdoshlar davrasi (har kuni muloqotda boʻladigan odamlar)", "defEn": "the group of people you associate with every day", "example": "You need a strong, positive peer group." },
-    { "en": "a superstar", "pos": "n", "uz": "yulduz; zoʻr usta, aʼlo darajadagi kishi", "defEn": "a very famous person; also a true master or excellent performer", "example": "The superstar learners all do the same things." },
-    { "en": "a linguist", "pos": "n", "uz": "tilshunos; koʻp til biluvchi", "defEn": "a person who studies or learns many languages", "example": "Steve Kaufmann is a linguist who speaks twelve languages." },
-    { "en": "deep learning", "pos": "phrase", "uz": "chuqur oʻrganish (koʻp marta takrorlash orqali)", "defEn": "learning something through a lot of repetition until it is automatic", "example": "Superstar students do a lot of deep learning." },
-    { "en": "total mastery", "pos": "phrase", "uz": "mukammal egallash, toʻliq usta boʻlish", "defEn": "knowing something completely, not just at a shallow level", "example": "You need total mastery of the basics, not just to know them." }
+    {
+      "en": "a role model",
+      "pos": "phrase",
+      "uz": "namuna, ibrat oladigan inson (muayyan sohada qahramon)",
+      "defEn": "someone you want to imitate, usually in one specific part of life",
+      "example": "Michael Jordan is my role model for basketball."
+    },
+    {
+      "en": "on the fast track",
+      "pos": "phrase",
+      "uz": "tez rivojlanish yoʻlida, jadal oʻsish yoʻlida",
+      "defEn": "in a situation where you improve or advance very quickly",
+      "example": "Jane is on the fast track — she is learning very fast."
+    },
+    {
+      "en": "randomly",
+      "pos": "adv",
+      "uz": "tasodifan, rejasiz, betartib",
+      "defEn": "by chance, without a plan or clear reason",
+      "example": "In the beginning I randomly chose exercises from a book."
+    },
+    {
+      "en": "to bring (energy) back up",
+      "pos": "phrase",
+      "uz": "(kuch-quvvatni) qaytadan koʻtarmoq, tiklamoq",
+      "defEn": "to return something to a higher level",
+      "example": "Your peer group will bring your energy back up."
+    },
+    {
+      "en": "a peer",
+      "pos": "n",
+      "uz": "tengdosh, teng maqomdagi kishi",
+      "defEn": "an equal; someone you have regular contact with",
+      "example": "Your coworkers and friends are your peers."
+    },
+    {
+      "en": "a peer group",
+      "pos": "phrase",
+      "uz": "muhit, tengdoshlar davrasi (har kuni muloqotda boʻladigan odamlar)",
+      "defEn": "the group of people you associate with every day",
+      "example": "You need a strong, positive peer group."
+    },
+    {
+      "en": "a superstar",
+      "pos": "n",
+      "uz": "yulduz; zoʻr usta, aʼlo darajadagi kishi",
+      "defEn": "a very famous person; also a true master or excellent performer",
+      "example": "The superstar learners all do the same things."
+    },
+    {
+      "en": "a linguist",
+      "pos": "n",
+      "uz": "tilshunos; koʻp til biluvchi",
+      "defEn": "a person who studies or learns many languages",
+      "example": "Steve Kaufmann is a linguist who speaks twelve languages."
+    },
+    {
+      "en": "deep learning",
+      "pos": "phrase",
+      "uz": "chuqur oʻrganish (koʻp marta takrorlash orqali)",
+      "defEn": "learning something through a lot of repetition until it is automatic",
+      "example": "Superstar students do a lot of deep learning."
+    },
+    {
+      "en": "total mastery",
+      "pos": "phrase",
+      "uz": "mukammal egallash, toʻliq usta boʻlish",
+      "defEn": "knowing something completely, not just at a shallow level",
+      "example": "You need total mastery of the basics, not just to know them."
+    }
   ],
   "englishpod": {
     "title": "Describing Someone's Face",
@@ -122,13 +230,41 @@
       "en": "In this dialogue two people play a guessing game, describing faces (a roman nose, bushy eyebrows, a mole, freckles…). The Models lesson says we should follow people for their results and methods, not their looks. Do you think you can judge someone correctly just from their face?"
     },
     "keyVocab": [
-      { "en": "a dimple", "uz": "yonoqdagi chuqurcha (kulganda paydo boʻladi)", "defEn": "a small natural hollow in the flesh, especially in the cheek" },
-      { "en": "a mole", "uz": "xol (teridagi kichik qoramtir dogʻ)", "defEn": "a small dark brown spot on a person's skin" },
-      { "en": "freckles", "uz": "sepkil (teridagi mayda jigarrang dogʻlar)", "defEn": "small brownish spots on someone's skin" },
-      { "en": "an oval face", "uz": "tuxumsimon (choʻziq) yuz", "defEn": "a face that has the shape of an egg" },
-      { "en": "bushy eyebrows", "uz": "quyuq, qalin qoshlar", "defEn": "thick, hairy eyebrows" },
-      { "en": "sunken eyes", "uz": "ichga botgan koʻzlar", "defEn": "eyes that are set deep in the face" },
-      { "en": "bald", "uz": "kal, boshida sochi yoʻq", "defEn": "having little or no hair on the head" }
+      {
+        "en": "a dimple",
+        "uz": "yonoqdagi chuqurcha (kulganda paydo boʻladi)",
+        "defEn": "a small natural hollow in the flesh, especially in the cheek"
+      },
+      {
+        "en": "a mole",
+        "uz": "xol (teridagi kichik qoramtir dogʻ)",
+        "defEn": "a small dark brown spot on a person's skin"
+      },
+      {
+        "en": "freckles",
+        "uz": "sepkil (teridagi mayda jigarrang dogʻlar)",
+        "defEn": "small brownish spots on someone's skin"
+      },
+      {
+        "en": "an oval face",
+        "uz": "tuxumsimon (choʻziq) yuz",
+        "defEn": "a face that has the shape of an egg"
+      },
+      {
+        "en": "bushy eyebrows",
+        "uz": "quyuq, qalin qoshlar",
+        "defEn": "thick, hairy eyebrows"
+      },
+      {
+        "en": "sunken eyes",
+        "uz": "ichga botgan koʻzlar",
+        "defEn": "eyes that are set deep in the face"
+      },
+      {
+        "en": "bald",
+        "uz": "kal, boshida sochi yoʻq",
+        "defEn": "having little or no hair on the head"
+      }
     ]
   },
   "sixmin": {
@@ -138,26 +274,54 @@
       {
         "q": "How long does Professor Todorov say it takes to form an impression about someone's face?",
         "qUz": "Professor Todorovning aytishicha, odamning yuzi haqida taassurot hosil qilish qancha vaqt oladi?",
-        "options": ["Under one second", "One second", "Six seconds"],
+        "options": [
+          "Under one second",
+          "One second",
+          "Six seconds"
+        ],
         "answerIndex": 0,
         "explanationUz": "Toʻgʻri javob: a) Under one second — bir soniyadan ham kam. Rob b) one second dedi va bir oz xato qildi. Todorovning tadqiqotiga koʻra, biz yuzga qarab bir soniyadan ham tezroq baho beramiz — lekin bu baho koʻpincha notoʻgʻri boʻladi."
       }
     ],
     "vocab": [
-      { "en": "a first impression", "uz": "birinchi taassurot", "defEn": "the opinion you form about someone after meeting them only briefly" },
-      { "en": "trustworthy", "uz": "ishonchli, ishonsa boʻladigan", "defEn": "able to be trusted; worth people's trust" },
-      { "en": "extroverted", "uz": "ochiq koʻngil, odamoxun (introvertning teskarisi)", "defEn": "energetic and enjoying spending time with other people" },
-      { "en": "an attribute", "uz": "xislat, sifat, xususiyat", "defEn": "a quality or feature of a person or thing" },
-      { "en": "to perceive", "uz": "idrok qilmoq, qanday koʻrinsa shunday qabul qilmoq", "defEn": "to see or understand someone or something in a particular way" },
-      { "en": "to go with your gut", "uz": "ich-ichidan sezib qaror qilmoq (mantiqqa emas, hissiyotga tayanmoq)", "defEn": "to make a decision based on instinct rather than rational thought" }
+      {
+        "en": "a first impression",
+        "uz": "birinchi taassurot",
+        "defEn": "the opinion you form about someone after meeting them only briefly"
+      },
+      {
+        "en": "trustworthy",
+        "uz": "ishonchli, ishonsa boʻladigan",
+        "defEn": "able to be trusted; worth people's trust"
+      },
+      {
+        "en": "extroverted",
+        "uz": "ochiq koʻngil, odamoxun (introvertning teskarisi)",
+        "defEn": "energetic and enjoying spending time with other people"
+      },
+      {
+        "en": "an attribute",
+        "uz": "xislat, sifat, xususiyat",
+        "defEn": "a quality or feature of a person or thing"
+      },
+      {
+        "en": "to perceive",
+        "uz": "idrok qilmoq, qanday koʻrinsa shunday qabul qilmoq",
+        "defEn": "to see or understand someone or something in a particular way"
+      },
+      {
+        "en": "to go with your gut",
+        "uz": "ich-ichidan sezib qaror qilmoq (mantiqqa emas, hissiyotga tayanmoq)",
+        "defEn": "to make a decision based on instinct rather than rational thought"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Learn like a polyglot: how to model the masters",
-      "channel": "lingosteve (Steve Kaufmann)"
+      "id": "kZfEFzf4Jec",
+      "title": "Who inspires you? Why heroes, role models, and mentors matter | Dyan deNapoli | TEDxDrewMiddleSchool",
+      "channel": "TEDx Talks"
     }
   ],
   "speakingPrompt": {

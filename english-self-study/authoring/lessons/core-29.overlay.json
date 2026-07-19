@@ -3,7 +3,13 @@
   "title": "Break Rules",
   "titleUz": "Qoidalarni buzing",
   "level": "B1-B2",
-  "tags": ["mindset", "career", "concession", "inversion", "slang"],
+  "tags": [
+    "mindset",
+    "career",
+    "concession",
+    "inversion",
+    "slang"
+  ],
   "intro": {
     "uz": "\"Break Rules\" — qoidalarni buzish. AJ Hoge (Seth Godin kitobidan) aytadiki, eski, anʼanaviy usullarni buzgan kishigina ajralib turadi va tez oʻrganadi. Bu haftaning ikki grammatik mavzusi ayni shu ruhda: zidlik ergash gaplari (although / even though / despite / whereas) — bir faktni tan olib, unga qarshi chiqish; va urgʻu uchun inversiya (Never have I…; Not only… but also…) — SVO qoidasini ataylab buzib, kuchli taʼkid berish.",
     "en": "\"Break Rules\" — AJ Hoge (from Seth Godin's book) says only the person who breaks the old, traditional methods stands out and learns fast. This week's two grammar topics match that spirit: concession clauses (although / even though / despite / whereas) — conceding one fact and pushing against it; and inversion for emphasis (Never have I…; Not only… but also…) — deliberately breaking the SVO rule for effect."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tili zidlikni feʼlga qoʻshiladigan \"-sa ham / -ga qaramay\" bilan beradi: \"charchagan boʻlsam ham\". Ingliz tilida esa alohida bogʻlovchi jumla boshida turadi: although / even though + toʻliq gap (ega + feʼl), despite / in spite of + ot yoki -ing. Bu farqni oʻzbekcha bitta qoʻshimcha yashiradi — shuning uchun ikkisini adashtirish oson.",
       "errorFixUz": "❌ Despite it was late, we stayed. ❌ Although the late hour, we stayed. ✅ Although it was late, we stayed. ✅ Despite the late hour, we stayed. although/even though — toʻliq gap bilan; despite/in spite of — ot yoki -ing bilan (❌ despite of).",
       "examples": [
-        { "en": "Although school taught us grammar, we learned to speak by listening.", "uz": "Maktab bizga grammatika oʻrgatgan boʻlsa-da, biz gapirishni tinglab oʻrgandik." },
-        { "en": "Despite his fear, he broke the rules.", "uz": "Qoʻrqqaniga qaramay, u qoidalarni buzdi." },
-        { "en": "A factory needs obedience, whereas an office needs ideas.", "uz": "Zavod itoatni talab qiladi, ofis esa gʻoyani." }
+        {
+          "en": "Although school taught us grammar, we learned to speak by listening.",
+          "uz": "Maktab bizga grammatika oʻrgatgan boʻlsa-da, biz gapirishni tinglab oʻrgandik."
+        },
+        {
+          "en": "Despite his fear, he broke the rules.",
+          "uz": "Qoʻrqqaniga qaramay, u qoidalarni buzdi."
+        },
+        {
+          "en": "A factory needs obedience, whereas an office needs ideas.",
+          "uz": "Zavod itoatni talab qiladi, ofis esa gʻoyani."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "___ it was raining, we went outside.",
-          "options": ["Although", "Despite", "In spite"],
+          "options": [
+            "Although",
+            "Despite",
+            "In spite"
+          ],
           "answer": "Although",
           "hintUz": "keyin toʻliq gap (it was raining) → although"
         },
         {
           "type": "gap-fill",
           "prompt": "___ the rain, we went outside.",
-          "options": ["Despite", "Although", "Even though"],
+          "options": [
+            "Despite",
+            "Although",
+            "Even though"
+          ],
           "answer": "Despite",
           "hintUz": "keyin ot (the rain) → despite / in spite of"
         },
         {
           "type": "gap-fill",
           "prompt": "He loves risk, ___ his brother avoids it.",
-          "options": ["whereas", "despite", "because"],
+          "options": [
+            "whereas",
+            "despite",
+            "because"
+          ],
           "answer": "whereas",
           "hintUz": "ikki narsani yonma-yon solishtirish → whereas"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tili urgʻuni soʻz tartibini biroz oʻzgartirib yoki \"hech qachon / nafaqat\" soʻzlari bilan beradi, lekin feʼlning oʻrni oʻzgarmaydi. Ingliz tilida esa inkor soʻz gap boshiga chiqsa, yordamchi feʼl (have / do / did) egadan OLDIN keladi — xuddi savoldek, lekin bu savol emas, kuchli taʼkid.",
       "errorFixUz": "❌ Never I have seen this. ❌ Not only he broke the rule. ✅ Never have I seen this. ✅ Not only did he break the rule (but he also won). Inkor soʻz oldinga chiqsa — yordamchi feʼl egadan oldin turadi, asosiy feʼl esa sof qoladi.",
       "examples": [
-        { "en": "Never have I learned English so fast.", "uz": "Hech qachon ingliz tilini bunchalik tez oʻrganmaganman." },
-        { "en": "Not only did he break the rules, but he also succeeded.", "uz": "U nafaqat qoidalarni buzdi, balki muvaffaqiyatga ham erishdi." },
-        { "en": "Little did I know that breaking rules would change my life.", "uz": "Qoidalarni buzish hayotimni oʻzgartirishini sira bilmasdim." }
+        {
+          "en": "Never have I learned English so fast.",
+          "uz": "Hech qachon ingliz tilini bunchalik tez oʻrganmaganman."
+        },
+        {
+          "en": "Not only did he break the rules, but he also succeeded.",
+          "uz": "U nafaqat qoidalarni buzdi, balki muvaffaqiyatga ham erishdi."
+        },
+        {
+          "en": "Little did I know that breaking rules would change my life.",
+          "uz": "Qoidalarni buzish hayotimni oʻzgartirishini sira bilmasdim."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Never ___ I seen such energy in a class.",
-          "options": ["have", "did", "was"],
+          "options": [
+            "have",
+            "did",
+            "was"
+          ],
           "answer": "have",
           "hintUz": "never + present perfect → have + ega (I have seen)"
         },
         {
           "type": "gap-fill",
           "prompt": "Not only ___ she break the rule, but she also won.",
-          "options": ["did", "she", "was"],
+          "options": [
+            "did",
+            "she",
+            "was"
+          ],
           "answer": "did",
           "hintUz": "Not only oldinga chiqsa → did + ega + sof feʼl (break)"
         },
         {
           "type": "gap-fill",
           "prompt": "Little did I ___ how much it would help.",
-          "options": ["know", "knew", "known"],
+          "options": [
+            "know",
+            "knew",
+            "known"
+          ],
           "answer": "know",
           "hintUz": "Little did I + sof feʼl (know) — did allaqachon oʻtmishni bildiradi"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "obedience", "pos": "n", "uz": "itoat, qoidaga boʻysunish", "defEn": "the act of following the rules or doing what you are told", "example": "Obedience works fine in a standardized factory." },
-    { "en": "a standardized test", "pos": "phrase", "uz": "bir xil andozadagi test (hamma uchun bir xil)", "defEn": "a test that is always exactly the same for everyone", "example": "A standardized test measures everyone the same way." },
-    { "en": "a blue-collar job", "pos": "phrase", "uz": "jismoniy mehnat ishi (zavod ishi)", "defEn": "a factory or manual job where you use your hands", "example": "A blue-collar job usually means working in a factory." },
-    { "en": "a white-collar job", "pos": "phrase", "uz": "aqliy mehnat ishi (ofis ishi)", "defEn": "an office or mental job where you use your brain", "example": "White-collar workers are paid to use their heads." },
-    { "en": "productivity", "pos": "n", "uz": "unumdorlik, samaradorlik (kam kuch bilan koʻp ish)", "defEn": "how much work you do in a certain time or with a certain effort", "example": "Companies want to increase productivity." },
-    { "en": "to be petrified", "pos": "phrase", "uz": "qattiq qoʻrqmoq, dahshatga tushmoq", "defEn": "to be extremely scared or afraid", "example": "Most workers are petrified to break the rules." },
-    { "en": "to blow it", "pos": "phrase", "uz": "puturidan chiqarmoq, katta xato qilmoq", "defEn": "to fail or make a big mistake", "example": "We don't want to blow it at work." },
-    { "en": "to invent (something)", "pos": "v", "uz": "yangi narsa yaratmoq, ixtiro qilmoq", "defEn": "to create something completely new", "example": "You need to invent new instructions, not just follow old ones." },
-    { "en": "a myth", "pos": "n", "uz": "asossiz ishonch, yolgʻon tasavvur", "defEn": "a story or belief that is not true", "example": "It's a myth that following orders keeps your job safe." },
-    { "en": "a reflex", "pos": "n", "uz": "refleks, avtomatik javob (oʻylamasdan)", "defEn": "a fast, automatic reaction with no thinking", "example": "His reflex was to ask the boss what to do." }
+    {
+      "en": "obedience",
+      "pos": "n",
+      "uz": "itoat, qoidaga boʻysunish",
+      "defEn": "the act of following the rules or doing what you are told",
+      "example": "Obedience works fine in a standardized factory."
+    },
+    {
+      "en": "a standardized test",
+      "pos": "phrase",
+      "uz": "bir xil andozadagi test (hamma uchun bir xil)",
+      "defEn": "a test that is always exactly the same for everyone",
+      "example": "A standardized test measures everyone the same way."
+    },
+    {
+      "en": "a blue-collar job",
+      "pos": "phrase",
+      "uz": "jismoniy mehnat ishi (zavod ishi)",
+      "defEn": "a factory or manual job where you use your hands",
+      "example": "A blue-collar job usually means working in a factory."
+    },
+    {
+      "en": "a white-collar job",
+      "pos": "phrase",
+      "uz": "aqliy mehnat ishi (ofis ishi)",
+      "defEn": "an office or mental job where you use your brain",
+      "example": "White-collar workers are paid to use their heads."
+    },
+    {
+      "en": "productivity",
+      "pos": "n",
+      "uz": "unumdorlik, samaradorlik (kam kuch bilan koʻp ish)",
+      "defEn": "how much work you do in a certain time or with a certain effort",
+      "example": "Companies want to increase productivity."
+    },
+    {
+      "en": "to be petrified",
+      "pos": "phrase",
+      "uz": "qattiq qoʻrqmoq, dahshatga tushmoq",
+      "defEn": "to be extremely scared or afraid",
+      "example": "Most workers are petrified to break the rules."
+    },
+    {
+      "en": "to blow it",
+      "pos": "phrase",
+      "uz": "puturidan chiqarmoq, katta xato qilmoq",
+      "defEn": "to fail or make a big mistake",
+      "example": "We don't want to blow it at work."
+    },
+    {
+      "en": "to invent (something)",
+      "pos": "v",
+      "uz": "yangi narsa yaratmoq, ixtiro qilmoq",
+      "defEn": "to create something completely new",
+      "example": "You need to invent new instructions, not just follow old ones."
+    },
+    {
+      "en": "a myth",
+      "pos": "n",
+      "uz": "asossiz ishonch, yolgʻon tasavvur",
+      "defEn": "a story or belief that is not true",
+      "example": "It's a myth that following orders keeps your job safe."
+    },
+    {
+      "en": "a reflex",
+      "pos": "n",
+      "uz": "refleks, avtomatik javob (oʻylamasdan)",
+      "defEn": "a fast, automatic reaction with no thinking",
+      "example": "His reflex was to ask the boss what to do."
+    }
   ],
   "englishpod": {
     "title": "The Office – Asking About the Position",
@@ -122,13 +230,41 @@
       "en": "In this dialogue Rebecca interviews for a journalism job and asks bold questions about the workforce, the hours and the vacancy. AJ says white-collar workers should break the rules and think for themselves — even in an interview, the person who asks confident questions stands out. Do you think Rebecca will get the job?"
     },
     "keyVocab": [
-      { "en": "how about…?", "uz": "… haqida nima deysiz? (yangi mavzuni koʻtarish)", "defEn": "a way to introduce or ask about a new topic" },
-      { "en": "workforce", "uz": "ishchi kuchi, barcha xodimlar", "defEn": "all the people who work for a company" },
-      { "en": "staff", "uz": "xodimlar (jamoasi)", "defEn": "the group of people who work for an organization" },
-      { "en": "used to (something)", "uz": "biror narsaga oʻrganib qolgan, koʻnikkan", "defEn": "accustomed or habituated to something" },
-      { "en": "on call", "uz": "chaqirilsa ishga tayyor (istalgan vaqtda)", "defEn": "available to work at any time when needed" },
-      { "en": "nine to five", "uz": "9dan 5gacha (odatiy ish vaqti)", "defEn": "normal office working hours, 9AM–5PM" },
-      { "en": "to fill a vacancy", "uz": "boʻsh ish oʻrnini toʻldirmoq (odam olmoq)", "defEn": "to hire someone for an empty position" }
+      {
+        "en": "how about…?",
+        "uz": "… haqida nima deysiz? (yangi mavzuni koʻtarish)",
+        "defEn": "a way to introduce or ask about a new topic"
+      },
+      {
+        "en": "workforce",
+        "uz": "ishchi kuchi, barcha xodimlar",
+        "defEn": "all the people who work for a company"
+      },
+      {
+        "en": "staff",
+        "uz": "xodimlar (jamoasi)",
+        "defEn": "the group of people who work for an organization"
+      },
+      {
+        "en": "used to (something)",
+        "uz": "biror narsaga oʻrganib qolgan, koʻnikkan",
+        "defEn": "accustomed or habituated to something"
+      },
+      {
+        "en": "on call",
+        "uz": "chaqirilsa ishga tayyor (istalgan vaqtda)",
+        "defEn": "available to work at any time when needed"
+      },
+      {
+        "en": "nine to five",
+        "uz": "9dan 5gacha (odatiy ish vaqti)",
+        "defEn": "normal office working hours, 9AM–5PM"
+      },
+      {
+        "en": "to fill a vacancy",
+        "uz": "boʻsh ish oʻrnini toʻldirmoq (odam olmoq)",
+        "defEn": "to hire someone for an empty position"
+      }
     ]
   },
   "sixmin": {
@@ -138,26 +274,54 @@
       {
         "q": "What's Cockney Rhyming Slang for 'money'?",
         "qUz": "Kokni qofiyali slengida 'pul' qanday ataladi?",
-        "options": ["bread", "honey", "dough"],
+        "options": [
+          "bread",
+          "honey",
+          "dough"
+        ],
         "answerIndex": 0,
         "explanationUz": "Toʻgʻri javob: a) bread. 'Money' iborasi 'bread and honey' bilan qofiyalanadi, ammo kokni slengida faqat birinchi soʻz — 'bread' — ishlatiladi. Neil uch variant berdi (bread, honey, dough), Alice 'bread' dedi va haqli chiqdi."
       }
     ],
     "vocab": [
-      { "en": "slang", "uz": "sleng, norasmiy til (maʼlum guruh ishlatadigan)", "defEn": "informal language spoken by a particular group" },
-      { "en": "colloquial", "uz": "soʻzlashuv tiliga oid, norasmiy", "defEn": "informal, everyday spoken language" },
-      { "en": "frowned upon", "uz": "maʼqullanmaydigan, qoralanadigan", "defEn": "disapproved of" },
-      { "en": "lingered", "uz": "uzoq saqlanib qoldi, sekin yoʻqoldi", "defEn": "was slow to disappear" },
-      { "en": "profanity / swear words", "uz": "haqoratli, qoʻpol soʻzlar (soʻkinish)", "defEn": "rude language that offends or upsets people" },
-      { "en": "jargon", "uz": "kasbiy atamalar, jargon (maʼlum guruh tili)", "defEn": "the technical language belonging to a specific group" }
+      {
+        "en": "slang",
+        "uz": "sleng, norasmiy til (maʼlum guruh ishlatadigan)",
+        "defEn": "informal language spoken by a particular group"
+      },
+      {
+        "en": "colloquial",
+        "uz": "soʻzlashuv tiliga oid, norasmiy",
+        "defEn": "informal, everyday spoken language"
+      },
+      {
+        "en": "frowned upon",
+        "uz": "maʼqullanmaydigan, qoralanadigan",
+        "defEn": "disapproved of"
+      },
+      {
+        "en": "lingered",
+        "uz": "uzoq saqlanib qoldi, sekin yoʻqoldi",
+        "defEn": "was slow to disappear"
+      },
+      {
+        "en": "profanity / swear words",
+        "uz": "haqoratli, qoʻpol soʻzlar (soʻkinish)",
+        "defEn": "rude language that offends or upsets people"
+      },
+      {
+        "en": "jargon",
+        "uz": "kasbiy atamalar, jargon (maʼlum guruh tili)",
+        "defEn": "the technical language belonging to a specific group"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Why Breaking the Rules Can Make You Successful",
-      "channel": "TEDx Talks"
+      "id": "fxbCHn6gE3U",
+      "title": "The surprising habits of original thinkers | Adam Grant | TED",
+      "channel": "TED"
     }
   ],
   "speakingPrompt": {

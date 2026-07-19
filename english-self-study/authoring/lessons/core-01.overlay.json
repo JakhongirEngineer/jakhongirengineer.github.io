@@ -3,7 +3,12 @@
   "title": "Power English — Introduction",
   "titleUz": "Kirish — Power English",
   "level": "A2-B1",
-  "tags": ["routine", "present-simple", "adverbs-of-frequency", "peak-state"],
+  "tags": [
+    "routine",
+    "present-simple",
+    "adverbs-of-frequency",
+    "peak-state"
+  ],
   "intro": {
     "uz": "Birinchi dars — usulning oʻzi haqida. AJ Hoge kuchli holatda (peak state) tinglashni, ovoz chiqarib javob berishni va har kuni oz-ozdan mashq qilishni oʻrgatadi. Bu haftaning ikki grammatikasi kundalik odat tilida: hozirgi oddiy zamon (present simple + 3-shaxs -s) va chastota ravishlari (always / usually / never).",
     "en": "The first lesson is about the method itself. AJ Hoge teaches you to listen in a peak state, answer out loud, and practise a little every day. This week's two grammar topics are the language of daily habit: the present simple (+ third-person -s) and adverbs of frequency (always / usually / never)."
@@ -23,29 +28,50 @@
       "contrastUz": "Oʻzbek tilida feʼl shaxsga qarab oʻzgaradi, lekin 3-shaxs birlik uchun alohida “-s” yoʻq. Ingliz tili esa he/she/it bilan feʼlga majburiy -s qoʻshadi: “U ishlaydi” = “She works” (❗ “She work” emas). Savol va inkorda esa do/does yordamchisi keladi va -s aynan does ichiga oʻtadi: “Does she work?”.",
       "errorFixUz": "❌ She work in a bank. He don’t speak English. ✅ She works in a bank. He doesn’t speak English. He/she/it bilan feʼlga -s; savol/inkorda esa does/doesn’t (asosiy feʼl sof qoladi).",
       "examples": [
-        { "en": "I listen to English every day.", "uz": "Men har kuni ingliz tili tinglayman." },
-        { "en": "My brother speaks three languages.", "uz": "Akam uch tilda gapiradi." },
-        { "en": "Does she work on Mondays?", "uz": "U dushanba kunlari ishlaydimi?" }
+        {
+          "en": "I listen to English every day.",
+          "uz": "Men har kuni ingliz tili tinglayman."
+        },
+        {
+          "en": "My brother speaks three languages.",
+          "uz": "Akam uch tilda gapiradi."
+        },
+        {
+          "en": "Does she work on Mondays?",
+          "uz": "U dushanba kunlari ishlaydimi?"
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "My sister ___ in a hospital.",
-          "options": ["works", "work", "working"],
+          "options": [
+            "works",
+            "work",
+            "working"
+          ],
           "answer": "works",
           "hintUz": "he/she/it → feʼlga -s: works"
         },
         {
           "type": "gap-fill",
           "prompt": "___ he speak English at home?",
-          "options": ["Does", "Do", "Is"],
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ],
           "answer": "Does",
           "hintUz": "he/she/it uchun savol → Does; keyin feʼl sof qoladi (speak)"
         },
         {
           "type": "gap-fill",
           "prompt": "They ___ TV in the evening.",
-          "options": ["watch", "watches", "watchs"],
+          "options": [
+            "watch",
+            "watches",
+            "watchs"
+          ],
           "answer": "watch",
           "hintUz": "they → -s qoʻshilmaydi: watch"
         },
@@ -67,29 +93,50 @@
       "contrastUz": "Oʻzbekchada “doim”, “baʼzan” kabi soʻzlar jumlaning boshida ham, oxirida ham kelaveradi. Ingliz tilida chastota ravishi qatʼiy joyda turadi: oddiy feʼldan OLDIN (I always try), lekin be/yordamchi feʼldan KEYIN (I am always busy; I have never tried).",
       "errorFixUz": "❌ I go always to bed late. I am never late usually. ✅ I always go to bed late. I am usually late. Ravish oddiy feʼldan oldin, “be” (am/is/are) dan keyin turadi.",
       "examples": [
-        { "en": "I usually wake up at six.", "uz": "Odatda soat oltida turaman." },
-        { "en": "She is always positive.", "uz": "U doim ijobiy." },
-        { "en": "I have never been to London.", "uz": "Men hech qachon Londonda boʻlmaganman." }
+        {
+          "en": "I usually wake up at six.",
+          "uz": "Odatda soat oltida turaman."
+        },
+        {
+          "en": "She is always positive.",
+          "uz": "U doim ijobiy."
+        },
+        {
+          "en": "I have never been to London.",
+          "uz": "Men hech qachon Londonda boʻlmaganman."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "I ___ drink coffee in the morning. (usually)",
-          "options": ["usually drink", "drink usually", "drink usual"],
+          "options": [
+            "usually drink",
+            "drink usually",
+            "drink usual"
+          ],
           "answer": "usually drink",
           "hintUz": "chastota ravishi oddiy feʼldan OLDIN: usually drink"
         },
         {
           "type": "gap-fill",
           "prompt": "He ___ late for class. (is / never)",
-          "options": ["is never", "never is", "is not never"],
+          "options": [
+            "is never",
+            "never is",
+            "is not never"
+          ],
           "answer": "is never",
           "hintUz": "“be” (is) dan KEYIN: is never"
         },
         {
           "type": "gap-fill",
           "prompt": "___ I feel nervous before I speak.",
-          "options": ["Sometimes", "Always", "Never"],
+          "options": [
+            "Sometimes",
+            "Always",
+            "Never"
+          ],
           "answer": "Sometimes",
           "hintUz": "sometimes/usually/often jumla boshida ham kela oladi (always/never emas)"
         },
@@ -103,15 +150,69 @@
     }
   ],
   "vocab": [
-    { "en": "linguistic factors", "pos": "phrase", "uz": "til bilan bogʻliq omillar", "defEn": "elements related to language itself", "example": "Grammar and vocabulary are linguistic factors." },
-    { "en": "non-linguistic factors", "pos": "phrase", "uz": "til bilan bogʻliq boʻlmagan omillar (his, holat)", "defEn": "things not about language, e.g. emotion and energy", "example": "Your emotional state is a non-linguistic factor." },
-    { "en": "subconscious", "pos": "n", "uz": "ong osti (miyaning ichki, avtomatik qismi)", "defEn": "the part of the mind below active thought", "example": "You want to engage your subconscious." },
-    { "en": "to engage (something)", "pos": "v", "uz": "ishga solmoq, jalb qilmoq, foydalanmoq", "defEn": "to turn on and use something", "example": "Engage your emotions when you study." },
-    { "en": "physiology", "pos": "n", "uz": "tananing holati va harakati (fiziologiya)", "defEn": "what is happening in your body", "example": "Strong physiology means standing up straight and moving." },
-    { "en": "peak", "pos": "adj", "uz": "eng yuqori, eng zoʻr (choʻqqi)", "defEn": "the top or highest point", "example": "Study in a peak emotional state." },
-    { "en": "peak performance", "pos": "phrase", "uz": "eng yuqori natija, choʻqqi darajadagi ish", "defEn": "doing something at your very best", "example": "Athletes train for peak performance." },
-    { "en": "emotional state", "pos": "phrase", "uz": "hissiy holat (kayfiyat)", "defEn": "the general feeling you have for a while", "example": "I try to keep a positive emotional state." },
-    { "en": "to master (a skill)", "pos": "v", "uz": "puxta egallamoq, mukammal oʻrganmoq", "defEn": "to learn something thoroughly", "example": "You can master English with daily practice." }
+    {
+      "en": "linguistic factors",
+      "pos": "phrase",
+      "uz": "til bilan bogʻliq omillar",
+      "defEn": "elements related to language itself",
+      "example": "Grammar and vocabulary are linguistic factors."
+    },
+    {
+      "en": "non-linguistic factors",
+      "pos": "phrase",
+      "uz": "til bilan bogʻliq boʻlmagan omillar (his, holat)",
+      "defEn": "things not about language, e.g. emotion and energy",
+      "example": "Your emotional state is a non-linguistic factor."
+    },
+    {
+      "en": "subconscious",
+      "pos": "n",
+      "uz": "ong osti (miyaning ichki, avtomatik qismi)",
+      "defEn": "the part of the mind below active thought",
+      "example": "You want to engage your subconscious."
+    },
+    {
+      "en": "to engage (something)",
+      "pos": "v",
+      "uz": "ishga solmoq, jalb qilmoq, foydalanmoq",
+      "defEn": "to turn on and use something",
+      "example": "Engage your emotions when you study."
+    },
+    {
+      "en": "physiology",
+      "pos": "n",
+      "uz": "tananing holati va harakati (fiziologiya)",
+      "defEn": "what is happening in your body",
+      "example": "Strong physiology means standing up straight and moving."
+    },
+    {
+      "en": "peak",
+      "pos": "adj",
+      "uz": "eng yuqori, eng zoʻr (choʻqqi)",
+      "defEn": "the top or highest point",
+      "example": "Study in a peak emotional state."
+    },
+    {
+      "en": "peak performance",
+      "pos": "phrase",
+      "uz": "eng yuqori natija, choʻqqi darajadagi ish",
+      "defEn": "doing something at your very best",
+      "example": "Athletes train for peak performance."
+    },
+    {
+      "en": "emotional state",
+      "pos": "phrase",
+      "uz": "hissiy holat (kayfiyat)",
+      "defEn": "the general feeling you have for a while",
+      "example": "I try to keep a positive emotional state."
+    },
+    {
+      "en": "to master (a skill)",
+      "pos": "v",
+      "uz": "puxta egallamoq, mukammal oʻrganmoq",
+      "defEn": "to learn something thoroughly",
+      "example": "You can master English with daily practice."
+    }
   ],
   "englishpod": {
     "title": "Global View – Nationalities",
@@ -121,13 +222,41 @@
       "en": "In this dialogue two students talk about the many nationalities in their classes. It fits the intro theme: English is the language that connects the whole world. Do you think a multinational class is helpful or hard?"
     },
     "keyVocab": [
-      { "en": "the United Nations", "uz": "Birlashgan Millatlar Tashkiloti (bu yerda: koʻp millat vakili)", "defEn": "an international political organization; here, a mix of many nationalities" },
-      { "en": "an array of", "uz": "katta toʻplam, xilma-xillik", "defEn": "a large group or variety of people or things" },
-      { "en": "opportunity", "uz": "imkoniyat", "defEn": "a chance to do something" },
-      { "en": "language barrier", "uz": "til toʻsigʻi (til bilmaslikdan kelib chiqadigan qiyinchilik)", "defEn": "difficulty communicating because people speak different languages" },
-      { "en": "to stay the course", "uz": "boshlagan ishni oxirigacha davom ettirmoq", "defEn": "to keep going until the end; to persevere" },
-      { "en": "to relate to (someone)", "uz": "til topishmoq, umumiylik topmoq", "defEn": "to understand or connect with someone" },
-      { "en": "to surpass", "uz": "oʻzib ketmoq, ortda qoldirmoq", "defEn": "to become better than something or someone" }
+      {
+        "en": "the United Nations",
+        "uz": "Birlashgan Millatlar Tashkiloti (bu yerda: koʻp millat vakili)",
+        "defEn": "an international political organization; here, a mix of many nationalities"
+      },
+      {
+        "en": "an array of",
+        "uz": "katta toʻplam, xilma-xillik",
+        "defEn": "a large group or variety of people or things"
+      },
+      {
+        "en": "opportunity",
+        "uz": "imkoniyat",
+        "defEn": "a chance to do something"
+      },
+      {
+        "en": "language barrier",
+        "uz": "til toʻsigʻi (til bilmaslikdan kelib chiqadigan qiyinchilik)",
+        "defEn": "difficulty communicating because people speak different languages"
+      },
+      {
+        "en": "to stay the course",
+        "uz": "boshlagan ishni oxirigacha davom ettirmoq",
+        "defEn": "to keep going until the end; to persevere"
+      },
+      {
+        "en": "to relate to (someone)",
+        "uz": "til topishmoq, umumiylik topmoq",
+        "defEn": "to understand or connect with someone"
+      },
+      {
+        "en": "to surpass",
+        "uz": "oʻzib ketmoq, ortda qoldirmoq",
+        "defEn": "to become better than something or someone"
+      }
     ]
   },
   "sixmin": {
@@ -137,26 +266,54 @@
       {
         "q": "How many languages are there in the world altogether?",
         "qUz": "Dunyoda hammasi boʻlib nechta til bor?",
-        "options": ["70", "700", "7,000"],
+        "options": [
+          "70",
+          "700",
+          "7,000"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) 7,000. Rob b) 700 dedi va xato qildi. Dunyoda taxminan 7,000 ta til bor, ammo UNESCO ularning 2,500 tasini yoʻqolib ketish xavfida deb belgilagan."
       }
     ],
     "vocab": [
-      { "en": "to master (a skill)", "uz": "puxta egallamoq, mukammal oʻrganmoq", "defEn": "to learn something thoroughly or well" },
-      { "en": "fluently", "uz": "ravon, bemalol (gapirish)", "defEn": "speaking easily and without difficulty" },
-      { "en": "frequency", "uz": "chastota, tez-tez uchrashi", "defEn": "how often something happens or occurs" },
-      { "en": "inflections", "uz": "soʻz oxiridagi oʻzgarishlar (masalan koʻplik -s)", "defEn": "changes to the basic form of a word according to its function" },
-      { "en": "a lemma", "uz": "soʻzning asosiy (lugʻat) shakli", "defEn": "the simplest, base form of a word before an inflection is added" },
-      { "en": "foundation", "uz": "poydevor, asos", "defEn": "the basics that your learning grows from" }
+      {
+        "en": "to master (a skill)",
+        "uz": "puxta egallamoq, mukammal oʻrganmoq",
+        "defEn": "to learn something thoroughly or well"
+      },
+      {
+        "en": "fluently",
+        "uz": "ravon, bemalol (gapirish)",
+        "defEn": "speaking easily and without difficulty"
+      },
+      {
+        "en": "frequency",
+        "uz": "chastota, tez-tez uchrashi",
+        "defEn": "how often something happens or occurs"
+      },
+      {
+        "en": "inflections",
+        "uz": "soʻz oxiridagi oʻzgarishlar (masalan koʻplik -s)",
+        "defEn": "changes to the basic form of a word according to its function"
+      },
+      {
+        "en": "a lemma",
+        "uz": "soʻzning asosiy (lugʻat) shakli",
+        "defEn": "the simplest, base form of a word before an inflection is added"
+      },
+      {
+        "en": "foundation",
+        "uz": "poydevor, asos",
+        "defEn": "the basics that your learning grows from"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "How to learn a language: tips for beginners",
-      "channel": "BBC Learning English"
+      "id": "o_XVt5rdpFY",
+      "title": "The secrets of learning a new language | Lýdia Machová | TED",
+      "channel": "TED"
     }
   ],
   "speakingPrompt": {

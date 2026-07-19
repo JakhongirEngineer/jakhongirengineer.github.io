@@ -3,7 +3,13 @@
   "title": "The Art of Power",
   "titleUz": "Kuch sanʼati",
   "level": "B1-B2",
-  "tags": ["mindset", "inner-power", "present-perfect", "past-simple", "passive-voice"],
+  "tags": [
+    "mindset",
+    "inner-power",
+    "present-perfect",
+    "past-simple",
+    "passive-voice"
+  ],
   "intro": {
     "uz": "Thich Nhat Hanhning “The Art of Power” kitobidan: haqiqiy kuch — boshqalarni emas, oʻz ongini boshqarish. Miyamizdagi ijobiy va salbiy “urugʻlar”ga qaysi biriga suv quyishimizni oʻzimiz tanlaymiz. Bu haftaning ikki grammatikasi: present perfect va oddiy oʻtgan zamon farqi (I have lived vs I lived) hamda majhul nisbat 2 — has been done / can be done / will be done. Sally sigir haqidagi POV hikoyada ikkalasini ham eshitasiz.",
     "en": "From Thich Nhat Hanh's book “The Art of Power”: real power is control over your own mind, not other people. We choose which “seeds” — positive or negative — we water. This week's two grammar topics: present perfect vs past simple (I have lived vs I lived) and passive voice 2 — has been done / can be done / will be done. You'll hear both in the POV story about Sally the cow."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tilida “yashadim” va “yashaganman” farqi kuchsiz — ikkalasi ham oʻtgan zamon. Ingliz tili esa qatʼiy ajratadi: aniq oʻtgan vaqt (yesterday, in 2002) → past simple; “since/for/ever/never/just” yoki natija hozir muhim boʻlsa → present perfect. “I lived here” — endi bu yerda emasman; “I have lived here” — hali ham shu yerdaman.",
       "errorFixUz": "❌ I lived here since 2015. I have seen him yesterday. ✅ I have lived here since 2015. I saw him yesterday. Sabab: since/for → present perfect (have/has + V3); yesterday kabi aniq oʻtgan vaqt → past simple (V2).",
       "examples": [
-        { "en": "Sally has craved chocolate since 2002.", "uz": "Sally 2002-yildan beri shokolad istaydi (hali ham)." },
-        { "en": "One day she saw a candy bar and bought 4,000 bars.", "uz": "Bir kuni u konfet koʻrdi va 4000 dona sotib oldi (tugagan voqea)." },
-        { "en": "I have studied English for three years, and last year I passed an exam.", "uz": "Uch yildan beri ingliz tili oʻrganaman, oʻtgan yili imtihon topshirdim." }
+        {
+          "en": "Sally has craved chocolate since 2002.",
+          "uz": "Sally 2002-yildan beri shokolad istaydi (hali ham)."
+        },
+        {
+          "en": "One day she saw a candy bar and bought 4,000 bars.",
+          "uz": "Bir kuni u konfet koʻrdi va 4000 dona sotib oldi (tugagan voqea)."
+        },
+        {
+          "en": "I have studied English for three years, and last year I passed an exam.",
+          "uz": "Uch yildan beri ingliz tili oʻrganaman, oʻtgan yili imtihon topshirdim."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Sally ___ chocolate since 2002.",
-          "options": ["has craved", "craved", "craves"],
+          "options": [
+            "has craved",
+            "craved",
+            "craves"
+          ],
           "answer": "has craved",
           "hintUz": "since + boshlanish nuqtasi → present perfect (has + V3)"
         },
         {
           "type": "gap-fill",
           "prompt": "One day she ___ a candy bar in the store.",
-          "options": ["saw", "has seen", "sees"],
+          "options": [
+            "saw",
+            "has seen",
+            "sees"
+          ],
           "answer": "saw",
           "hintUz": "“one day” — aniq oʻtgan vaqt → past simple (V2)"
         },
         {
           "type": "gap-fill",
           "prompt": "I ___ him yesterday, so I already know the news.",
-          "options": ["saw", "have seen", "see"],
+          "options": [
+            "saw",
+            "have seen",
+            "see"
+          ],
           "answer": "saw",
           "hintUz": "yesterday bilan present perfect ishlatilmaydi → past simple: saw"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tilida majhul nisbat feʼlga bitta qoʻshimcha bilan yasaladi: yozildi, qilingan, yasaladi. Ingliz tili esa “be” ni zamon/modalga qarab oʻzgartiradi, feʼlni V3 da qotiradi: is watered / has been earned / can be done / will be cultivated. Suhbatda “be” oʻrniga koʻpincha get keladi: it got triggered.",
       "errorFixUz": "❌ It can done. The power earned by hard work. ✅ It can be done. The power was earned by hard work. Sabab: modaldan keyin doim “be” (can be done); perfectda “been” (has been done). Feʼl esa hamisha V3 shaklida qoladi.",
       "examples": [
-        { "en": "Real power is not seized — it is cultivated.", "uz": "Haqiqiy kuch tortib olinmaydi — u yetishtiriladi." },
-        { "en": "Real power has been earned, not given.", "uz": "Haqiqiy kuch berilmagan — u qoʻlga kiritilgan." },
-        { "en": "Anger can be prevented, and positive seeds will be watered every day.", "uz": "Gʻazabning oldini olish mumkin, ijobiy urugʻlarga esa har kuni suv quyiladi." }
+        {
+          "en": "Real power is not seized — it is cultivated.",
+          "uz": "Haqiqiy kuch tortib olinmaydi — u yetishtiriladi."
+        },
+        {
+          "en": "Real power has been earned, not given.",
+          "uz": "Haqiqiy kuch berilmagan — u qoʻlga kiritilgan."
+        },
+        {
+          "en": "Anger can be prevented, and positive seeds will be watered every day.",
+          "uz": "Gʻazabning oldini olish mumkin, ijobiy urugʻlarga esa har kuni suv quyiladi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Real power is not given; it ___ earned.",
-          "options": ["has been", "has", "is been"],
+          "options": [
+            "has been",
+            "has",
+            "is been"
+          ],
           "answer": "has been",
           "hintUz": "present perfect passive → has + been + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "With a good environment, anger ___ prevented.",
-          "options": ["can be", "can", "can been"],
+          "options": [
+            "can be",
+            "can",
+            "can been"
+          ],
           "answer": "can be",
           "hintUz": "modaldan keyin doim “be” → can be + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "Positive seeds ___ watered every single day.",
-          "options": ["will be", "will", "will been"],
+          "options": [
+            "will be",
+            "will",
+            "will been"
+          ],
           "answer": "will be",
           "hintUz": "future passive → will + be + V3"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "the subconscious (mind)", "pos": "n", "uz": "ong osti (miyaning chuqur, avtomatik qismi)", "defEn": "the deep part of your mind you are not aware of", "example": "A seed of anger sleeps in the subconscious." },
-    { "en": "to manifest", "pos": "v", "uz": "voqe boʻlmoq, real koʻrinishga chiqmoq", "defEn": "to become real or visible", "example": "The seed manifests as an emotion in your mind." },
-    { "en": "a mental formation", "pos": "phrase", "uz": "ongdagi real his yoki fikr (shakllangan holat)", "defEn": "a real, organized thought or emotion in the mind", "example": "Anger becomes a mental formation when it is watered." },
-    { "en": "dormant", "pos": "adj", "uz": "uyquda, harakatsiz (uxlab yotgan)", "defEn": "sleeping; not active or growing", "example": "A dormant volcano is not exploding." },
-    { "en": "to trigger (a seed)", "pos": "v", "uz": "qoʻzgʻamoq, birdan yoqib yubormoq", "defEn": "to suddenly turn something on", "example": "The candy bar triggered her craving for chocolate." },
-    { "en": "to crave / a craving", "pos": "v/n", "uz": "qattiq istamoq; kuchli (koʻpincha sogʻlom boʻlmagan) istak", "defEn": "to want something too much; a strong desire", "example": "Sally craved chocolate every hour." },
-    { "en": "diligence", "pos": "n", "uz": "intizom, oʻzini tuta bilish; ehtiyotkorlik", "defEn": "self-discipline and being careful", "example": "You need diligence to control your environment." },
-    { "en": "to suppress (an emotion)", "pos": "v", "uz": "bostirmoq, kuch bilan pastga bosmoq", "defEn": "to push a feeling down by force", "example": "Don't suppress your anger; prevent it instead." },
-    { "en": "wholesome", "pos": "adj", "uz": "sogʻlom va foydali (yaxshi taʼsir qiladigan)", "defEn": "good and healthy", "example": "Look for wholesome influences and wholesome food." },
-    { "en": "to water the seeds (of)", "pos": "phrase", "uz": "urugʻga suv quymoq — his-tuygʻuga oziq berib, kuchaytirmoq", "defEn": "to give energy to a feeling so it grows", "example": "Negative news waters the seeds of fear and anger." }
+    {
+      "en": "the subconscious (mind)",
+      "pos": "n",
+      "uz": "ong osti (miyaning chuqur, avtomatik qismi)",
+      "defEn": "the deep part of your mind you are not aware of",
+      "example": "A seed of anger sleeps in the subconscious."
+    },
+    {
+      "en": "to manifest",
+      "pos": "v",
+      "uz": "voqe boʻlmoq, real koʻrinishga chiqmoq",
+      "defEn": "to become real or visible",
+      "example": "The seed manifests as an emotion in your mind."
+    },
+    {
+      "en": "a mental formation",
+      "pos": "phrase",
+      "uz": "ongdagi real his yoki fikr (shakllangan holat)",
+      "defEn": "a real, organized thought or emotion in the mind",
+      "example": "Anger becomes a mental formation when it is watered."
+    },
+    {
+      "en": "dormant",
+      "pos": "adj",
+      "uz": "uyquda, harakatsiz (uxlab yotgan)",
+      "defEn": "sleeping; not active or growing",
+      "example": "A dormant volcano is not exploding."
+    },
+    {
+      "en": "to trigger (a seed)",
+      "pos": "v",
+      "uz": "qoʻzgʻamoq, birdan yoqib yubormoq",
+      "defEn": "to suddenly turn something on",
+      "example": "The candy bar triggered her craving for chocolate."
+    },
+    {
+      "en": "to crave / a craving",
+      "pos": "v/n",
+      "uz": "qattiq istamoq; kuchli (koʻpincha sogʻlom boʻlmagan) istak",
+      "defEn": "to want something too much; a strong desire",
+      "example": "Sally craved chocolate every hour."
+    },
+    {
+      "en": "diligence",
+      "pos": "n",
+      "uz": "intizom, oʻzini tuta bilish; ehtiyotkorlik",
+      "defEn": "self-discipline and being careful",
+      "example": "You need diligence to control your environment."
+    },
+    {
+      "en": "to suppress (an emotion)",
+      "pos": "v",
+      "uz": "bostirmoq, kuch bilan pastga bosmoq",
+      "defEn": "to push a feeling down by force",
+      "example": "Don't suppress your anger; prevent it instead."
+    },
+    {
+      "en": "wholesome",
+      "pos": "adj",
+      "uz": "sogʻlom va foydali (yaxshi taʼsir qiladigan)",
+      "defEn": "good and healthy",
+      "example": "Look for wholesome influences and wholesome food."
+    },
+    {
+      "en": "to water the seeds (of)",
+      "pos": "phrase",
+      "uz": "urugʻga suv quymoq — his-tuygʻuga oziq berib, kuchaytirmoq",
+      "defEn": "to give energy to a feeling so it grows",
+      "example": "Negative news waters the seeds of fear and anger."
+    }
   ],
   "englishpod": null,
   "sixmin": {
@@ -122,26 +230,54 @@
       {
         "q": "How many teachers in the UK are trained to teach mindfulness?",
         "qUz": "Buyuk Britaniyada nechta oʻqituvchi mindfulness oʻqitishga tayyorlangan?",
-        "options": ["500", "5,000", "50,000"],
+        "options": [
+          "500",
+          "5,000",
+          "50,000"
+        ],
         "answerIndex": 1,
         "explanationUz": "Toʻgʻri javob: b) 5,000. Catherine 5,000 dedi va toʻgʻri topdi — Neil oxirida “it was actually 5,000. Well done!” deb tasdiqladi. Bu son hamon oshib bormoqda."
       }
     ],
     "vocab": [
-      { "en": "mindful / mindfulness", "uz": "hushyor, hozirgi damga toʻla eʼtiborli; shunday holat", "defEn": "being calmly aware of your body and mind, focusing only on now" },
-      { "en": "secular", "uz": "dunyoviy, diniy boʻlmagan", "defEn": "not religious" },
-      { "en": "the present", "uz": "hozirgi dam, hozir", "defEn": "now; this moment in time" },
-      { "en": "grounded", "uz": "oyogʻi yerda, mulohazali va tinch fikrlaydigan", "defEn": "rational, sensible and clear-thinking" },
-      { "en": "a bias", "uz": "bir tomonlama qarash, xolisona boʻlmagan moyillik", "defEn": "unfair support for something because of your beliefs" },
-      { "en": "to meditate", "uz": "meditatsiya qilmoq, xayolni jamlab tinchlanmoq", "defEn": "to spend quiet time focusing your mind for relaxation" }
+      {
+        "en": "mindful / mindfulness",
+        "uz": "hushyor, hozirgi damga toʻla eʼtiborli; shunday holat",
+        "defEn": "being calmly aware of your body and mind, focusing only on now"
+      },
+      {
+        "en": "secular",
+        "uz": "dunyoviy, diniy boʻlmagan",
+        "defEn": "not religious"
+      },
+      {
+        "en": "the present",
+        "uz": "hozirgi dam, hozir",
+        "defEn": "now; this moment in time"
+      },
+      {
+        "en": "grounded",
+        "uz": "oyogʻi yerda, mulohazali va tinch fikrlaydigan",
+        "defEn": "rational, sensible and clear-thinking"
+      },
+      {
+        "en": "a bias",
+        "uz": "bir tomonlama qarash, xolisona boʻlmagan moyillik",
+        "defEn": "unfair support for something because of your beliefs"
+      },
+      {
+        "en": "to meditate",
+        "uz": "meditatsiya qilmoq, xayolni jamlab tinchlanmoq",
+        "defEn": "to spend quiet time focusing your mind for relaxation"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "The Art of Power — Thich Nhat Hanh on true inner strength",
-      "channel": "Plum Village"
+      "id": "qzR62JJCMBQ",
+      "title": "All it takes is 10 mindful minutes | Andy Puddicombe | TED",
+      "channel": "TED"
     }
   ],
   "speakingPrompt": {

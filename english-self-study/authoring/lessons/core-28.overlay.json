@@ -3,7 +3,13 @@
   "title": "No Failure",
   "titleUz": "Muvaffaqiyatsizlik yoʻq — faqat natija",
   "level": "B1-B2",
-  "tags": ["mindset", "resilience", "mixed-conditionals", "connectors", "cause-and-effect"],
+  "tags": [
+    "mindset",
+    "resilience",
+    "mixed-conditionals",
+    "connectors",
+    "cause-and-effect"
+  ],
   "intro": {
     "uz": "AJ Hogeʼning kuchli eʼtiqodi: muvaffaqiyatsizlik degan narsa yoʻq — faqat natija (feedback) va oʻrganish tajribasi bor. Watt haqidagi POV hikoyada mototsikl 110 marta ishlamaydi, ammo har safar u biror narsa oʻrganadi. Bu haftaning ikki grammatikasi shu gʻoyani tilga aylantiradi: aralash shart gap (oʻtmish sharti → hozirgi natija: If I hadn't failed, I would be…) va sabab-natija-maqsad bogʻlovchilari (because / so / therefore / in order to).",
     "en": "AJ Hoge's core belief: there is no such thing as failure — only feedback and a learning experience. In the POV story about Watt, the motorcycle fails 110 times, yet each time he learns something. This week's two grammar topics turn that idea into language: mixed conditionals (past condition → present result: If I hadn't failed, I would be…) and cause–result–purpose connectors (because / so / therefore / in order to)."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tili ikkala qismni ham bir xil “-ganimda … boʻlardim” qolipi bilan beradi va zamonlarni ajratmaydi. Ingliz tili esa shartni oʻtmishga (had + V3), natijani hozirga (would + sof feʼl) qatʼiy ajratadi: “Agar xato qilmaganimda, hozir bilmasdim” = “If I hadn't made mistakes, I wouldn't know this now”.",
       "errorFixUz": "❌ If I didn't fail, I am strong now. ❌ If I hadn't failed, I wouldn't have been strong now. ✅ If I hadn't failed, I wouldn't be strong now. Oʻtmish sharti — had + V3; hozirgi natija — would + sof feʼl (would have + V3 emas, chunki natija hozirda).",
       "examples": [
-        { "en": "If I hadn't lost my job, I wouldn't be a teacher now.", "uz": "Ishdan boʻshamaganimda, hozir oʻqituvchi boʻlmasdim." },
-        { "en": "If Watt hadn't tried again, he wouldn't have his motorcycle today.", "uz": "Watt yana urinmaganda, bugun uning mototsikli boʻlmasdi." },
-        { "en": "If I hadn't started English, I wouldn't be here right now.", "uz": "Ingliz tilini boshlamaganimda, hozir bu yerda boʻlmasdim." }
+        {
+          "en": "If I hadn't lost my job, I wouldn't be a teacher now.",
+          "uz": "Ishdan boʻshamaganimda, hozir oʻqituvchi boʻlmasdim."
+        },
+        {
+          "en": "If Watt hadn't tried again, he wouldn't have his motorcycle today.",
+          "uz": "Watt yana urinmaganda, bugun uning mototsikli boʻlmasdi."
+        },
+        {
+          "en": "If I hadn't started English, I wouldn't be here right now.",
+          "uz": "Ingliz tilini boshlamaganimda, hozir bu yerda boʻlmasdim."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "If I ___ failed so many times, I wouldn't be this strong today.",
-          "options": ["hadn't", "didn't", "wouldn't"],
+          "options": [
+            "hadn't",
+            "didn't",
+            "wouldn't"
+          ],
           "answer": "hadn't",
           "hintUz": "oʻtmish sharti → had + V3 (hadn't failed)"
         },
         {
           "type": "gap-fill",
           "prompt": "If she had learned from her mistakes, she ___ more confident now.",
-          "options": ["would be", "would have been", "was"],
+          "options": [
+            "would be",
+            "would have been",
+            "was"
+          ],
           "answer": "would be",
           "hintUz": "hozirgi natija → would + sof feʼl (would be), oʻtmish emas"
         },
         {
           "type": "gap-fill",
           "prompt": "If Watt ___ given up, he wouldn't be riding his Harley now.",
-          "options": ["had", "has", "would"],
+          "options": [
+            "had",
+            "has",
+            "would"
+          ],
           "answer": "had",
           "hintUz": "if + had + V3 (had given up)"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tilida sabab ham, natija ham koʻpincha bitta “-gani uchun / shuning uchun” bilan beriladi va bogʻlovchi jumla oxirida turadi. Ingliz tilida esa: because sababni ergashtiradi (because it exploded), so natijani ikki jumla oʻrtasida bogʻlaydi (it exploded, so…), in order to esa maqsadni beradi (+ sof feʼl).",
       "errorFixUz": "❌ I practise every day for improve my English. ❌ He tried again for learn. ✅ I practise every day in order to improve my English. ✅ He tried again in order to learn. Maqsad uchun for + feʼl EMAS, balki in order to + sof feʼl (yoki so that + gap).",
       "examples": [
-        { "en": "The bike exploded, so he beat himself up.", "uz": "Mototsikl portladi, shuning uchun u oʻzini koyidi." },
-        { "en": "He learned from every mistake; therefore, there was no failure.", "uz": "U har bir xatodan oʻrgandi; shuning uchun muvaffaqiyatsizlik boʻlmadi." },
-        { "en": "He kept trying in order to build a better bike.", "uz": "Yaxshiroq mototsikl yasash uchun urinishda davom etdi." }
+        {
+          "en": "The bike exploded, so he beat himself up.",
+          "uz": "Mototsikl portladi, shuning uchun u oʻzini koyidi."
+        },
+        {
+          "en": "He learned from every mistake; therefore, there was no failure.",
+          "uz": "U har bir xatodan oʻrgandi; shuning uchun muvaffaqiyatsizlik boʻlmadi."
+        },
+        {
+          "en": "He kept trying in order to build a better bike.",
+          "uz": "Yaxshiroq mototsikl yasash uchun urinishda davom etdi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "The first bike wouldn't start, ___ he tried again.",
-          "options": ["so", "because", "in order to"],
+          "options": [
+            "so",
+            "because",
+            "in order to"
+          ],
           "answer": "so",
           "hintUz": "natija (shuning uchun) → so, ikki jumla oʻrtasida"
         },
         {
           "type": "gap-fill",
           "prompt": "He studied the feedback ___ improve his design.",
-          "options": ["in order to", "because", "therefore"],
+          "options": [
+            "in order to",
+            "because",
+            "therefore"
+          ],
           "answer": "in order to",
           "hintUz": "maqsad → in order to + sof feʼl (improve)"
         },
         {
           "type": "gap-fill",
           "prompt": "He didn't beat himself up ___ he saw it as a learning experience.",
-          "options": ["because", "so", "therefore"],
+          "options": [
+            "because",
+            "so",
+            "therefore"
+          ],
           "answer": "because",
           "hintUz": "sabab (nega?) → because"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "feedback", "pos": "n", "uz": "qaytar aloqa; ishdan keyin keladigan natija/maʼlumot", "defEn": "information or a result that comes back to you after an action", "example": "There is no failure, only feedback." },
-    { "en": "to tack on (a label)", "pos": "phrase", "uz": "yorliq yopishtirmoq, nom qoʻymoq", "defEn": "to add or stick something on, e.g. a name onto an experience", "example": "We tack on the label 'failure' afterwards." },
-    { "en": "a process", "pos": "n", "uz": "jarayon (vaqt davomida davom etadigan harakatlar)", "defEn": "a series of actions that continues over time", "example": "Happiness is a process, not a thing." },
-    { "en": "to contrast", "pos": "v", "uz": "solishtirmoq, farqini koʻrsatmoq", "defEn": "to compare two things to see how they differ", "example": "Contrast two boys learning to ride a bicycle." },
-    { "en": "to fumble", "pos": "v", "uz": "qoʻldan tushirmoq, qoʻli kelishmaslik (noqulay harakat)", "defEn": "to drop something or be clumsy", "example": "He fumbled around and dropped his tools." },
-    { "en": "to get it", "pos": "phrase", "uz": "tushunmoq, anglab yetmoq", "defEn": "to understand something", "example": "Finally he said, 'I get it! I know how to do it!'" },
-    { "en": "to get something out of it", "pos": "phrase", "uz": "biror narsa oʻrganmoq, foyda olmoq (tajribadan)", "defEn": "to gain a benefit or learn something from an experience", "example": "The second time, he got something out of it." },
-    { "en": "to beat yourself up", "pos": "phrase", "uz": "oʻzini koyimoq, oʻzini ayblab urishmoq", "defEn": "to criticize yourself harshly", "example": "Don't beat yourself up over a mistake." },
-    { "en": "to be cruising along", "pos": "phrase", "uz": "silliq, muammosiz ketmoq (yaxshi borayotgan)", "defEn": "to be going smoothly and steadily with no problems", "example": "My business is cruising along nicely." },
-    { "en": "a learning experience", "pos": "phrase", "uz": "oʻrganish tajribasi (saboq)", "defEn": "an event you learn something from, rather than a failure", "example": "Being fired was a great learning experience for me." }
+    {
+      "en": "feedback",
+      "pos": "n",
+      "uz": "qaytar aloqa; ishdan keyin keladigan natija/maʼlumot",
+      "defEn": "information or a result that comes back to you after an action",
+      "example": "There is no failure, only feedback."
+    },
+    {
+      "en": "to tack on (a label)",
+      "pos": "phrase",
+      "uz": "yorliq yopishtirmoq, nom qoʻymoq",
+      "defEn": "to add or stick something on, e.g. a name onto an experience",
+      "example": "We tack on the label 'failure' afterwards."
+    },
+    {
+      "en": "a process",
+      "pos": "n",
+      "uz": "jarayon (vaqt davomida davom etadigan harakatlar)",
+      "defEn": "a series of actions that continues over time",
+      "example": "Happiness is a process, not a thing."
+    },
+    {
+      "en": "to contrast",
+      "pos": "v",
+      "uz": "solishtirmoq, farqini koʻrsatmoq",
+      "defEn": "to compare two things to see how they differ",
+      "example": "Contrast two boys learning to ride a bicycle."
+    },
+    {
+      "en": "to fumble",
+      "pos": "v",
+      "uz": "qoʻldan tushirmoq, qoʻli kelishmaslik (noqulay harakat)",
+      "defEn": "to drop something or be clumsy",
+      "example": "He fumbled around and dropped his tools."
+    },
+    {
+      "en": "to get it",
+      "pos": "phrase",
+      "uz": "tushunmoq, anglab yetmoq",
+      "defEn": "to understand something",
+      "example": "Finally he said, 'I get it! I know how to do it!'"
+    },
+    {
+      "en": "to get something out of it",
+      "pos": "phrase",
+      "uz": "biror narsa oʻrganmoq, foyda olmoq (tajribadan)",
+      "defEn": "to gain a benefit or learn something from an experience",
+      "example": "The second time, he got something out of it."
+    },
+    {
+      "en": "to beat yourself up",
+      "pos": "phrase",
+      "uz": "oʻzini koyimoq, oʻzini ayblab urishmoq",
+      "defEn": "to criticize yourself harshly",
+      "example": "Don't beat yourself up over a mistake."
+    },
+    {
+      "en": "to be cruising along",
+      "pos": "phrase",
+      "uz": "silliq, muammosiz ketmoq (yaxshi borayotgan)",
+      "defEn": "to be going smoothly and steadily with no problems",
+      "example": "My business is cruising along nicely."
+    },
+    {
+      "en": "a learning experience",
+      "pos": "phrase",
+      "uz": "oʻrganish tajribasi (saboq)",
+      "defEn": "an event you learn something from, rather than a failure",
+      "example": "Being fired was a great learning experience for me."
+    }
   ],
   "englishpod": {
     "title": "Daily Life – I'm in Debt",
@@ -122,13 +230,41 @@
       "en": "In this dialogue Charlie has lost his job and fallen into debt, so he asks Corleone for help — but he is turned down. It fits the 'No Failure' theme: AJ was once fired too, yet he treated it as learning, not failure. Do you think Charlie will see his situation as failure, or get a learning experience out of it?"
     },
     "keyVocab": [
-      { "en": "to trouble (someone)", "uz": "bezovta qilmoq, ovora qilmoq", "defEn": "to disturb or bother someone" },
-      { "en": "recession", "uz": "iqtisodiy tanazzul, inqiroz davri", "defEn": "a period of time when the economy of a country is bad" },
-      { "en": "to hit someone pretty hard", "uz": "qattiq zarba bermoq, ogʻir taʼsir qilmoq", "defEn": "to have a strong, negative effect on someone" },
-      { "en": "debt", "uz": "qarz (toʻlanishi kerak boʻlgan pul)", "defEn": "the amount of money you owe to a person, bank or company" },
-      { "en": "on top of all that", "uz": "buning ustiga, bundan tashqari", "defEn": "besides that; in addition to everything else" },
-      { "en": "to ask for a loan", "uz": "qarz (kredit) soʻramoq", "defEn": "to request money that you will pay back later" },
-      { "en": "broke", "uz": "puli qolmagan, xarob (moliyaviy)", "defEn": "having no money at all" }
+      {
+        "en": "to trouble (someone)",
+        "uz": "bezovta qilmoq, ovora qilmoq",
+        "defEn": "to disturb or bother someone"
+      },
+      {
+        "en": "recession",
+        "uz": "iqtisodiy tanazzul, inqiroz davri",
+        "defEn": "a period of time when the economy of a country is bad"
+      },
+      {
+        "en": "to hit someone pretty hard",
+        "uz": "qattiq zarba bermoq, ogʻir taʼsir qilmoq",
+        "defEn": "to have a strong, negative effect on someone"
+      },
+      {
+        "en": "debt",
+        "uz": "qarz (toʻlanishi kerak boʻlgan pul)",
+        "defEn": "the amount of money you owe to a person, bank or company"
+      },
+      {
+        "en": "on top of all that",
+        "uz": "buning ustiga, bundan tashqari",
+        "defEn": "besides that; in addition to everything else"
+      },
+      {
+        "en": "to ask for a loan",
+        "uz": "qarz (kredit) soʻramoq",
+        "defEn": "to request money that you will pay back later"
+      },
+      {
+        "en": "broke",
+        "uz": "puli qolmagan, xarob (moliyaviy)",
+        "defEn": "having no money at all"
+      }
     ]
   },
   "sixmin": {
@@ -138,25 +274,53 @@
       {
         "q": "How much electronic waste is thrown away every year globally?",
         "qUz": "Har yili dunyo boʻyicha qancha elektron chiqindi tashlanadi?",
-        "options": ["420 tonnes", "4.2 million tonnes", "42 million tonnes"],
+        "options": [
+          "420 tonnes",
+          "4.2 million tonnes",
+          "42 million tonnes"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) 42 million tonna — 2015-yilgi BMT hisobotiga koʻra. Catherine javobni oldindan bilardi. Bu raqam yildan-yilga oshib bormoqda, chunki biz “throwaway culture” (bir marta ishlatib tashlab yuborish madaniyati)da yashaymiz."
       }
     ],
     "vocab": [
-      { "en": "gizmo", "uz": "kichik texnik moslama, gadjet", "defEn": "a small piece of technology; a gadget" },
-      { "en": "sustainable", "uz": "barqaror, uzoq davom eta oladigan (zarar yetkazmaydigan)", "defEn": "able to continue over a long period without causing harm" },
-      { "en": "to screw / to unscrew", "uz": "vint bilan biriktirmoq / vintni boʻshatmoq", "defEn": "to join two things with a screw / to undo a screw" },
-      { "en": "to lower your expectations", "uz": "kutganlaringni pasaytirmoq, talabni kamaytirmoq", "defEn": "to reduce what you believe or hope will happen" },
-      { "en": "obsolete", "uz": "eskirgan, ishlatishdan qolgan", "defEn": "no longer valid, useful or up to date" },
-      { "en": "a throwaway culture", "uz": "bir marta ishlatib tashlash madaniyati", "defEn": "a culture in which we throw things out very easily instead of repairing them" }
+      {
+        "en": "gizmo",
+        "uz": "kichik texnik moslama, gadjet",
+        "defEn": "a small piece of technology; a gadget"
+      },
+      {
+        "en": "sustainable",
+        "uz": "barqaror, uzoq davom eta oladigan (zarar yetkazmaydigan)",
+        "defEn": "able to continue over a long period without causing harm"
+      },
+      {
+        "en": "to screw / to unscrew",
+        "uz": "vint bilan biriktirmoq / vintni boʻshatmoq",
+        "defEn": "to join two things with a screw / to undo a screw"
+      },
+      {
+        "en": "to lower your expectations",
+        "uz": "kutganlaringni pasaytirmoq, talabni kamaytirmoq",
+        "defEn": "to reduce what you believe or hope will happen"
+      },
+      {
+        "en": "obsolete",
+        "uz": "eskirgan, ishlatishdan qolgan",
+        "defEn": "no longer valid, useful or up to date"
+      },
+      {
+        "en": "a throwaway culture",
+        "uz": "bir marta ishlatib tashlash madaniyati",
+        "defEn": "a culture in which we throw things out very easily instead of repairing them"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "There Is No Failure, Only Feedback — a mindset that changes everything",
+      "id": "_X0mgOOSpLU",
+      "title": "The power of believing that you can improve | Carol Dweck | TED",
       "channel": "TED"
     }
   ],

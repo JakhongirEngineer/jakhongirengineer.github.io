@@ -3,7 +3,13 @@
   "title": "Plateaus",
   "titleUz": "Platolar — toʻxtab qolgandek tuyulgan paytlar",
   "level": "B1-B2",
-  "tags": ["mindset", "learning", "third-conditional", "wish", "regret"],
+  "tags": [
+    "mindset",
+    "learning",
+    "third-conditional",
+    "wish",
+    "regret"
+  ],
   "intro": {
     "uz": "Plato (plateau) — oʻrganishda oʻzimizni toʻxtab qolgandek his qiladigan tekis davr. George Leonardning “Mastery” kitobiga tayanib, AJ platolarni sabr bilan qabul qilishni oʻrgatadi: aslida miya shu paytda ham tinmay oʻrganadi. Bu haftaning ikki grammatikasi shu his bilan bogʻliq: uchinchi shart — oʻtmish farazi (third conditional) va wish / if only — orzu va afsus. Allen haqidagi POV hikoyada ikkalasining ildizini eshitasiz.",
     "en": "A plateau is a flat stretch in learning where you feel stuck. Drawing on George Leonard's book “Mastery”, AJ teaches you to accept plateaus calmly — your brain is still learning underneath. This week's two grammar topics grow out of that feeling: the third conditional (unreal past) and wish / if only (regret and unreal desire). You'll hear the seeds of both in the POV story about Allen."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbekcha uchinchi shart bitta qolip bilan tugaydi: “…qilganimda edi, …boʻlardi”. Ingliz tilida esa ikkala qism ham oʻtmishga suriladi: shart qismida past perfect (had + V3), natija qismida would have + V3. “agar … qilganimda edi” = If + had + V3; “…boʻlardi” = would have + V3.",
       "errorFixUz": "❌ If I would have practised more, I would improve. ✅ If I had practised more, I would have improved. Sababi: if-qismida hech qachon “would” ishlatilmaydi — u faqat natija qismida turadi; oʻtmish farazi uchun had + V3.",
       "examples": [
-        { "en": "If Allen had exercised sooner, he wouldn't have suffered for 11 months.", "uz": "Agar Allen ertaroq mashq qilganida edi, 11 oy azob chekmasdi." },
-        { "en": "If I had listened every day, my English would have improved faster.", "uz": "Agar har kuni tinglaganimda edi, inglizcham tezroq yaxshilangan boʻlardi." },
-        { "en": "She could have passed the exam if she hadn't quit.", "uz": "Agar tashlab qoʻymaganida, imtihondan oʻta olardi." }
+        {
+          "en": "If Allen had exercised sooner, he wouldn't have suffered for 11 months.",
+          "uz": "Agar Allen ertaroq mashq qilganida edi, 11 oy azob chekmasdi."
+        },
+        {
+          "en": "If I had listened every day, my English would have improved faster.",
+          "uz": "Agar har kuni tinglaganimda edi, inglizcham tezroq yaxshilangan boʻlardi."
+        },
+        {
+          "en": "She could have passed the exam if she hadn't quit.",
+          "uz": "Agar tashlab qoʻymaganida, imtihondan oʻta olardi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "If I ___ more last year, I wouldn't have plateaued.",
-          "options": ["had practised", "practised", "would practise"],
+          "options": [
+            "had practised",
+            "practised",
+            "would practise"
+          ],
           "answer": "had practised",
           "hintUz": "if-qismi → past perfect: had + V3 (had practised)"
         },
         {
           "type": "gap-fill",
           "prompt": "If she had trained sooner, she ___ so long.",
-          "options": ["wouldn't have suffered", "wouldn't suffer", "didn't suffer"],
+          "options": [
+            "wouldn't have suffered",
+            "wouldn't suffer",
+            "didn't suffer"
+          ],
           "answer": "wouldn't have suffered",
           "hintUz": "natija qismi → would (not) have + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "If Allen ___ in bed for 11 months, he would have recovered faster.",
-          "options": ["hadn't stayed", "didn't stay", "wouldn't stay"],
+          "options": [
+            "hadn't stayed",
+            "didn't stay",
+            "wouldn't stay"
+          ],
           "answer": "hadn't stayed",
           "hintUz": "oʻtmish farazining inkori → had not (hadn't) + V3"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekcha “koshki / qani endi” bilan feʼl orzu shaklida turadi. Ingliz tili esa feʼlni bir pogʻona orqaga suradi: hozirgi orzu → past simple (I wish I had time), oʻtmish afsusi → past perfect (I wish I had studied). “koshki … boʻlsa” = I wish + past; “qani endi … qilganimda edi” = I wish + had + V3.",
       "errorFixUz": "❌ I wish I studied harder at school. ✅ I wish I had studied harder at school. Oʻtmishdan afsus → wish + past perfect (had + V3). Oddiy past faqat hozirgi orzu uchun ishlatiladi.",
       "examples": [
-        { "en": "I wish I had started listening to English sooner.", "uz": "Qani endi ingliz tilini ertaroq tinglashni boshlaganimda edi." },
-        { "en": "If only I could break through this plateau!", "uz": "Koshki bu platodan oʻtib keta olsam!" },
-        { "en": "Allen wishes he hadn't stayed in bed for so long.", "uz": "Allen shuncha koʻp yotib qolmaganini istaydi (afsuslanadi)." }
+        {
+          "en": "I wish I had started listening to English sooner.",
+          "uz": "Qani endi ingliz tilini ertaroq tinglashni boshlaganimda edi."
+        },
+        {
+          "en": "If only I could break through this plateau!",
+          "uz": "Koshki bu platodan oʻtib keta olsam!"
+        },
+        {
+          "en": "Allen wishes he hadn't stayed in bed for so long.",
+          "uz": "Allen shuncha koʻp yotib qolmaganini istaydi (afsuslanadi)."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "I wish I ___ English earlier.",
-          "options": ["had started", "started", "start"],
+          "options": [
+            "had started",
+            "started",
+            "start"
+          ],
           "answer": "had started",
           "hintUz": "oʻtmishdan afsus → wish + had + V3"
         },
         {
           "type": "gap-fill",
           "prompt": "If only I ___ speak fluently now!",
-          "options": ["could", "can", "could have"],
+          "options": [
+            "could",
+            "can",
+            "could have"
+          ],
           "answer": "could",
           "hintUz": "hozirgi imkonsiz orzu → could (can emas)"
         },
         {
           "type": "gap-fill",
           "prompt": "Allen wishes he ___ the second doctor first.",
-          "options": ["had visited", "visited", "visits"],
+          "options": [
+            "had visited",
+            "visited",
+            "visits"
+          ],
           "answer": "had visited",
           "hintUz": "oʻtmishdan afsus → wish + had + V3"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "scattered among", "pos": "phrase", "uz": "orasiga sochilib/aralashib ketgan", "defEn": "mixed in randomly with a larger group", "example": "A few good pictures were scattered among the pile." },
-    { "en": "the thrill of victory", "pos": "phrase", "uz": "gʻalaba hayajoni, yutuqning zavqi", "defEn": "the excitement of winning", "example": "The photos showed the thrill of victory." },
-    { "en": "the agony of defeat", "pos": "phrase", "uz": "magʻlubiyat iztirobi, yutqazish alami", "defEn": "the terrible pain of losing", "example": "You could see the agony of defeat on his face." },
-    { "en": "serene", "pos": "adj", "uz": "xotirjam, tinch, osoyishta", "defEn": "very calm and relaxed", "example": "During the race his face was serene." },
-    { "en": "strenuous exercise", "pos": "phrase", "uz": "ogʻir, kuch talab qiladigan mashq", "defEn": "physically hard, demanding exercise", "example": "The doctor told him to avoid strenuous exercise." },
-    { "en": "composed", "pos": "adj", "uz": "oʻzini bosgan, vazmin, tinch", "defEn": "calm and in control, especially under stress", "example": "His body was strained but his face stayed composed." },
-    { "en": "a plateau", "pos": "n", "uz": "plato; oʻrganishda toʻxtab qolgandek tuyulgan tekis davr", "defEn": "a period of little or no progress", "example": "Every learner hits a plateau at some point." },
-    { "en": "inevitable", "pos": "adj", "uz": "muqarrar, oldini olib boʻlmaydigan", "defEn": "certain to happen; unavoidable", "example": "With daily practice, progress is inevitable." },
-    { "en": "a spurt of progress", "pos": "phrase", "uz": "toʻsatdan, qisqa muddatli sakrash (oʻsish)", "defEn": "a sudden, short burst of improvement", "example": "Improvement comes in spurts, not steadily." },
-    { "en": "enduring", "pos": "adj", "uz": "uzoq davom etadigan, barqaror", "defEn": "lasting for a long time; not temporary", "example": "Mastery is one of the most enduring things in life." }
+    {
+      "en": "scattered among",
+      "pos": "phrase",
+      "uz": "orasiga sochilib/aralashib ketgan",
+      "defEn": "mixed in randomly with a larger group",
+      "example": "A few good pictures were scattered among the pile."
+    },
+    {
+      "en": "the thrill of victory",
+      "pos": "phrase",
+      "uz": "gʻalaba hayajoni, yutuqning zavqi",
+      "defEn": "the excitement of winning",
+      "example": "The photos showed the thrill of victory."
+    },
+    {
+      "en": "the agony of defeat",
+      "pos": "phrase",
+      "uz": "magʻlubiyat iztirobi, yutqazish alami",
+      "defEn": "the terrible pain of losing",
+      "example": "You could see the agony of defeat on his face."
+    },
+    {
+      "en": "serene",
+      "pos": "adj",
+      "uz": "xotirjam, tinch, osoyishta",
+      "defEn": "very calm and relaxed",
+      "example": "During the race his face was serene."
+    },
+    {
+      "en": "strenuous exercise",
+      "pos": "phrase",
+      "uz": "ogʻir, kuch talab qiladigan mashq",
+      "defEn": "physically hard, demanding exercise",
+      "example": "The doctor told him to avoid strenuous exercise."
+    },
+    {
+      "en": "composed",
+      "pos": "adj",
+      "uz": "oʻzini bosgan, vazmin, tinch",
+      "defEn": "calm and in control, especially under stress",
+      "example": "His body was strained but his face stayed composed."
+    },
+    {
+      "en": "a plateau",
+      "pos": "n",
+      "uz": "plato; oʻrganishda toʻxtab qolgandek tuyulgan tekis davr",
+      "defEn": "a period of little or no progress",
+      "example": "Every learner hits a plateau at some point."
+    },
+    {
+      "en": "inevitable",
+      "pos": "adj",
+      "uz": "muqarrar, oldini olib boʻlmaydigan",
+      "defEn": "certain to happen; unavoidable",
+      "example": "With daily practice, progress is inevitable."
+    },
+    {
+      "en": "a spurt of progress",
+      "pos": "phrase",
+      "uz": "toʻsatdan, qisqa muddatli sakrash (oʻsish)",
+      "defEn": "a sudden, short burst of improvement",
+      "example": "Improvement comes in spurts, not steadily."
+    },
+    {
+      "en": "enduring",
+      "pos": "adj",
+      "uz": "uzoq davom etadigan, barqaror",
+      "defEn": "lasting for a long time; not temporary",
+      "example": "Mastery is one of the most enduring things in life."
+    }
   ],
   "englishpod": {
     "title": "Daily Life – Calling Tech Support",
@@ -122,23 +230,75 @@
       "en": "In this dialogue a client panics because his computer “broke”, and Todd tells him to calm down. It fits AJ's theme: on a plateau everything feels broken too, but you must stay composed. Do you think it's a real virus, or is the client just panicking?"
     },
     "keyVocab": [
-      { "en": "calm down", "uz": "tinchlanmoq, oʻzini bosmoq", "defEn": "to become quiet and relaxed after being upset" },
-      { "en": "laptop", "uz": "noutbuk (koʻtarib yuriladigan kichik kompyuter)", "defEn": "a small computer that is easy to carry" },
-      { "en": "monitor", "uz": "monitor (tasvir chiqaradigan ekran)", "defEn": "an electronic display that shows images" },
-      { "en": "virus", "uz": "virus (kompyuterga zarar beruvchi dastur)", "defEn": "a program designed to harm a computer" },
-      { "en": "to crash", "uz": "ishdan chiqmoq, toʻsatdan toʻxtab qolmoq (kompyuter)", "defEn": "to suddenly stop working properly" },
-      { "en": "antivirus", "uz": "antivirus (viruslarni topib tozalaydigan dastur)", "defEn": "a program that finds and removes computer viruses" },
-      { "en": "spyware", "uz": "josuslik dasturi (yashirin maʼlumot yigʻadigan dastur)", "defEn": "software that secretly gathers information about you" }
+      {
+        "en": "calm down",
+        "uz": "tinchlanmoq, oʻzini bosmoq",
+        "defEn": "to become quiet and relaxed after being upset"
+      },
+      {
+        "en": "laptop",
+        "uz": "noutbuk (koʻtarib yuriladigan kichik kompyuter)",
+        "defEn": "a small computer that is easy to carry"
+      },
+      {
+        "en": "monitor",
+        "uz": "monitor (tasvir chiqaradigan ekran)",
+        "defEn": "an electronic display that shows images"
+      },
+      {
+        "en": "virus",
+        "uz": "virus (kompyuterga zarar beruvchi dastur)",
+        "defEn": "a program designed to harm a computer"
+      },
+      {
+        "en": "to crash",
+        "uz": "ishdan chiqmoq, toʻsatdan toʻxtab qolmoq (kompyuter)",
+        "defEn": "to suddenly stop working properly"
+      },
+      {
+        "en": "antivirus",
+        "uz": "antivirus (viruslarni topib tozalaydigan dastur)",
+        "defEn": "a program that finds and removes computer viruses"
+      },
+      {
+        "en": "spyware",
+        "uz": "josuslik dasturi (yashirin maʼlumot yigʻadigan dastur)",
+        "defEn": "software that secretly gathers information about you"
+      }
     ],
     "dialogue": [
-      { "speaker": "Todd", "en": "Hello, thanks for calling 123TechHelp, I’m Todd. How can I help you?" },
-      { "speaker": "Client", "en": "Hello? Can you help me? My computer! Oh man..." },
-      { "speaker": "Todd", "en": "It’s okay sir, calm down. What happened?" },
-      { "speaker": "Client", "en": "I turned on my laptop and it broke! I mean, the monitor went black!" },
-      { "speaker": "Todd", "en": "Ok, sir, it sounds like you might have a virus." },
-      { "speaker": "Client", "en": "I don’t feel sick,...let me check... Nope! No fever, I’m fine." },
-      { "speaker": "Todd", "en": "No, your computer might have a virus, I mean, it has a bad program on it. Maybe that’s why it crashed. I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans." },
-      { "speaker": "Client", "en": "Phew! . . . . . . Wait a minute, CRASH??!! Spyware? Trojans! What? where? when?!" }
+      {
+        "speaker": "Todd",
+        "en": "Hello, thanks for calling 123TechHelp, I’m Todd. How can I help you?"
+      },
+      {
+        "speaker": "Client",
+        "en": "Hello? Can you help me? My computer! Oh man..."
+      },
+      {
+        "speaker": "Todd",
+        "en": "It’s okay sir, calm down. What happened?"
+      },
+      {
+        "speaker": "Client",
+        "en": "I turned on my laptop and it broke! I mean, the monitor went black!"
+      },
+      {
+        "speaker": "Todd",
+        "en": "Ok, sir, it sounds like you might have a virus."
+      },
+      {
+        "speaker": "Client",
+        "en": "I don’t feel sick,...let me check... Nope! No fever, I’m fine."
+      },
+      {
+        "speaker": "Todd",
+        "en": "No, your computer might have a virus, I mean, it has a bad program on it. Maybe that’s why it crashed. I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans."
+      },
+      {
+        "speaker": "Client",
+        "en": "Phew! . . . . . . Wait a minute, CRASH??!! Spyware? Trojans! What? where? when?!"
+      }
     ]
   },
   "sixmin": {
@@ -148,26 +308,54 @@
       {
         "q": "In the survey, what percentage of people said they wouldn't go out into the countryside because it wouldn't make good social media photos?",
         "qUz": "Soʻrovda qancha foiz odam qishloqqa chiqmasligiga sabab qilib “ijtimoiy tarmoq uchun yaxshi surat chiqmaydi” deganini aytdi?",
-        "options": ["Around 10%", "Around 30%", "Around 50%"],
+        "options": [
+          "Around 10%",
+          "Around 30%",
+          "Around 50%"
+        ],
         "answerIndex": 1,
         "explanationUz": "Toʻgʻri javob: b) taxminan 30%. Catherine 10% deb taxmin qildi, lekin xato qildi — dastur oxirida Neil haqiqiy raqam taxminan 30% ekanini aytadi."
       }
     ],
     "vocab": [
-      { "en": "to venture out", "uz": "(noqulay sharoitda) tashqariga chiqmoq, chiqishga jurʼat qilmoq", "defEn": "to go out somewhere, usually when conditions are bad" },
-      { "en": "millennials", "uz": "1980–90-yillarda tugʻilgan avlod (yosh kattalar)", "defEn": "people who became adults in the early 21st century" },
-      { "en": "Generation X", "uz": "millenniallardan oldingi avlod (1960–80-yillar)", "defEn": "the generation who became adults in the 1980s and 1990s" },
-      { "en": "phenomenal", "uz": "hayratlanarli, aql bovar qilmaydigan", "defEn": "amazing, surprising and hard to believe" },
-      { "en": "a distraction", "uz": "chalgʻituvchi narsa, diqqatni boshqa yoqqa tortadigan narsa", "defEn": "something that takes your attention away from what matters" },
-      { "en": "instagramable", "uz": "Instagramga qoʻysa arziydigan (chiroyli surat boʻladigan)", "defEn": "suitable or good enough to post on Instagram" }
+      {
+        "en": "to venture out",
+        "uz": "(noqulay sharoitda) tashqariga chiqmoq, chiqishga jurʼat qilmoq",
+        "defEn": "to go out somewhere, usually when conditions are bad"
+      },
+      {
+        "en": "millennials",
+        "uz": "1980–90-yillarda tugʻilgan avlod (yosh kattalar)",
+        "defEn": "people who became adults in the early 21st century"
+      },
+      {
+        "en": "Generation X",
+        "uz": "millenniallardan oldingi avlod (1960–80-yillar)",
+        "defEn": "the generation who became adults in the 1980s and 1990s"
+      },
+      {
+        "en": "phenomenal",
+        "uz": "hayratlanarli, aql bovar qilmaydigan",
+        "defEn": "amazing, surprising and hard to believe"
+      },
+      {
+        "en": "a distraction",
+        "uz": "chalgʻituvchi narsa, diqqatni boshqa yoqqa tortadigan narsa",
+        "defEn": "something that takes your attention away from what matters"
+      },
+      {
+        "en": "instagramable",
+        "uz": "Instagramga qoʻysa arziydigan (chiroyli surat boʻladigan)",
+        "defEn": "suitable or good enough to post on Instagram"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "How to Break Through a Learning Plateau in English",
-      "channel": "Effortless English by A.J. Hoge"
+      "id": "YKACzIrog24",
+      "title": "Eduardo Briceño: How to get better at the things you care about | TED",
+      "channel": "TED"
     }
   ],
   "speakingPrompt": {

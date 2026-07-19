@@ -3,7 +3,13 @@
   "title": "Slow Burn",
   "titleUz": "Slow Burn — sekin, ammo barqaror",
   "level": "B1",
-  "tags": ["energy", "endurance", "present-perfect", "gradual-change", "habits"],
+  "tags": [
+    "energy",
+    "endurance",
+    "present-perfect",
+    "gradual-change",
+    "habits"
+  ],
   "intro": {
     "uz": "Slow Burn — energiya haqida: tez yugurib charchash emas, sekin va barqaror surʼatda uzoq davom etish. Stu Mittleman asta yugurib, kun boʻyi baquvvat qoladi. Bu haftaning ikki grammatik mavzusi shu gʻoyaga mos: present perfect (so far / up to now / yet — shu paytgacha nima qilib ulgurgansiz) va jarayon ravishlari (gradually / steadily / increasingly / little by little). Tiffani haqidagi POV hikoyada ikkalasini ham eshitasiz.",
     "en": "Slow Burn is about energy — not sprinting and burning out, but going slow and steady so you can last. Stu Mittleman runs slowly and stays energetic all day. This week's two grammar topics fit that idea: the present perfect (so far / up to now / yet — what you have achieved up to now) and process adverbs (gradually / steadily / increasingly / little by little). You'll hear both in the POV story about Tiffany."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tili buni koʻpincha oddiy oʻtgan zamon bilan aytadi: “Uch bob oʻqidim.” Ingliz tilida esa “shu paytgacha, natija hozir ham amalda” maʼnosi boʻlsa — present perfect kerak: “I have read three chapters so far.” Oʻzbekcha “hali …ganim yoʻq” = ingliz tilida “haven't … yet”.",
       "errorFixUz": "❌ I didn't finish it yet. Did you eat yet? ✅ I haven't finished it yet. Have you eaten yet? “yet” (hali) savol va inkorda present perfect bilan keladi, oddiy oʻtgan zamon bilan emas.",
       "examples": [
-        { "en": "So far, I have read three chapters.", "uz": "Shu paytgacha uch bob oʻqidim." },
-        { "en": "Up to now, she has saved half the money.", "uz": "Hozirgacha u pulning yarmini yigʻdi." },
-        { "en": "She hasn't found a purple cat yet.", "uz": "U hali binafsha mushuk topgani yoʻq." }
+        {
+          "en": "So far, I have read three chapters.",
+          "uz": "Shu paytgacha uch bob oʻqidim."
+        },
+        {
+          "en": "Up to now, she has saved half the money.",
+          "uz": "Hozirgacha u pulning yarmini yigʻdi."
+        },
+        {
+          "en": "She hasn't found a purple cat yet.",
+          "uz": "U hali binafsha mushuk topgani yoʻq."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "So far, I ___ finished two books this month.",
-          "options": ["have", "did", "am"],
+          "options": [
+            "have",
+            "did",
+            "am"
+          ],
           "answer": "have",
           "hintUz": "so far → shu paytgacha → present perfect (have + V3)"
         },
         {
           "type": "gap-fill",
           "prompt": "She hasn't bought the cat ___.",
-          "options": ["yet", "already", "since"],
+          "options": [
+            "yet",
+            "already",
+            "since"
+          ],
           "answer": "yet",
           "hintUz": "inkorda “hali” → yet (jumla oxirida)"
         },
         {
           "type": "gap-fill",
           "prompt": "Up to now, we ___ won two races.",
-          "options": ["have", "has", "had"],
+          "options": [
+            "have",
+            "has",
+            "had"
+          ],
           "answer": "have",
           "hintUz": "we → have; “up to now” present perfectni talab qiladi"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekchada “asta-sekin”, “tobora”, “oz-ozdan” mustaqil soʻzlar boʻlib, jumlaning turli joyida kelaveradi. Ingliz tilida esa koʻpi sifat + -ly shaklidagi ravishga aylanadi (gradual → gradually, steady → steadily) va oʻrni ancha qatʼiy: odatda asosiy feʼldan oldin yoki jumla boshida.",
       "errorFixUz": "❌ It is becoming increasing difficult. She saved money gradual. ✅ It is becoming increasingly difficult. She saved money gradually. Feʼl yoki sifatni tasvirlaganda ravish kerak: sifat + -ly (increasingly, gradually).",
       "examples": [
-        { "en": "My energy gradually improved.", "uz": "Energiyam asta-sekin yaxshilandi." },
-        { "en": "He runs steadily, never too fast.", "uz": "U bir maromda yuguradi, hech qachon juda tez emas." },
-        { "en": "Little by little, she saved the money.", "uz": "Oz-ozdan u pulni yigʻdi." }
+        {
+          "en": "My energy gradually improved.",
+          "uz": "Energiyam asta-sekin yaxshilandi."
+        },
+        {
+          "en": "He runs steadily, never too fast.",
+          "uz": "U bir maromda yuguradi, hech qachon juda tez emas."
+        },
+        {
+          "en": "Little by little, she saved the money.",
+          "uz": "Oz-ozdan u pulni yigʻdi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "My English has ___ improved this year.",
-          "options": ["steadily", "steady", "steadely"],
+          "options": [
+            "steadily",
+            "steady",
+            "steadely"
+          ],
           "answer": "steadily",
           "hintUz": "feʼlni tasvirlaydi → ravish: steady + -ly = steadily"
         },
         {
           "type": "gap-fill",
           "prompt": "Gyms are becoming ___ popular.",
-          "options": ["increasingly", "increasing", "increase"],
+          "options": [
+            "increasingly",
+            "increasing",
+            "increase"
+          ],
           "answer": "increasingly",
           "hintUz": "sifatni (popular) tasvirlaydi → ravish: increasingly"
         },
         {
           "type": "gap-fill",
           "prompt": "___ by little, Tiffany saved a fortune.",
-          "options": ["Little", "Small", "Few"],
+          "options": [
+            "Little",
+            "Small",
+            "Few"
+          ],
           "answer": "Little",
           "hintUz": "barqaror ibora: little by little (oz-ozdan)"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "to sprint", "pos": "v", "uz": "bor kuch bilan juda tez yugurmoq", "defEn": "to run as fast as you possibly can for a short distance", "example": "You cannot sprint a marathon; you must go slowly." },
-    { "en": "in tune with", "pos": "phrase", "uz": "bilan uygʻun, hamohang; …ni his qilib turgan", "defEn": "in harmony or connection with something", "example": "Stay in tune with your body when you exercise." },
-    { "en": "indefinitely", "pos": "adv", "uz": "cheksiz, tugamaydigan tarzda, muddatsiz", "defEn": "for a period of time with no fixed end", "example": "You want energy that lasts indefinitely." },
-    { "en": "to carve out (time)", "pos": "phrase", "uz": "(band jadvaldan) vaqt ajratib olmoq", "defEn": "to make or find time out of a busy schedule", "example": "Try to carve out an hour for yourself every day." },
-    { "en": "to pace yourself", "pos": "phrase", "uz": "oʻzingizga bardosh beradigan surʼatda ketmoq", "defEn": "to go at a speed you can maintain for a long time", "example": "In a long race you have to pace yourself." },
-    { "en": "to ignite", "pos": "v", "uz": "yondirmoq; olov (ilhom, kuch) baxsh etmoq", "defEn": "to set on fire; to spark or start something", "example": "Running ignites his life's mission." },
-    { "en": "to transform (into)", "pos": "v", "uz": "tubdan oʻzgartirmoq, boshqa narsaga aylantirmoq", "defEn": "to change something completely into another thing", "example": "He wants to transform movement into personal power." },
-    { "en": "to relinquish", "pos": "v", "uz": "voz kechmoq, qoʻldan chiqarib yubormoq", "defEn": "to give something up or let it go", "example": "She relinquished her dream of a purple cat." },
-    { "en": "to set aside", "pos": "phrase", "uz": "(vaqt yoki pul) ajratib qoʻymoq, saqlab qoʻymoq", "defEn": "to save or reserve something for later use", "example": "He sets aside two hours a day for running." },
-    { "en": "to allocate", "pos": "v", "uz": "(aniq maqsadga) ajratmoq, taqsimlamoq", "defEn": "to set something aside for a specific purpose", "example": "She allocated all her savings to one goal." }
+    {
+      "en": "to sprint",
+      "pos": "v",
+      "uz": "bor kuch bilan juda tez yugurmoq",
+      "defEn": "to run as fast as you possibly can for a short distance",
+      "example": "You cannot sprint a marathon; you must go slowly."
+    },
+    {
+      "en": "in tune with",
+      "pos": "phrase",
+      "uz": "bilan uygʻun, hamohang; …ni his qilib turgan",
+      "defEn": "in harmony or connection with something",
+      "example": "Stay in tune with your body when you exercise."
+    },
+    {
+      "en": "indefinitely",
+      "pos": "adv",
+      "uz": "cheksiz, tugamaydigan tarzda, muddatsiz",
+      "defEn": "for a period of time with no fixed end",
+      "example": "You want energy that lasts indefinitely."
+    },
+    {
+      "en": "to carve out (time)",
+      "pos": "phrase",
+      "uz": "(band jadvaldan) vaqt ajratib olmoq",
+      "defEn": "to make or find time out of a busy schedule",
+      "example": "Try to carve out an hour for yourself every day."
+    },
+    {
+      "en": "to pace yourself",
+      "pos": "phrase",
+      "uz": "oʻzingizga bardosh beradigan surʼatda ketmoq",
+      "defEn": "to go at a speed you can maintain for a long time",
+      "example": "In a long race you have to pace yourself."
+    },
+    {
+      "en": "to ignite",
+      "pos": "v",
+      "uz": "yondirmoq; olov (ilhom, kuch) baxsh etmoq",
+      "defEn": "to set on fire; to spark or start something",
+      "example": "Running ignites his life's mission."
+    },
+    {
+      "en": "to transform (into)",
+      "pos": "v",
+      "uz": "tubdan oʻzgartirmoq, boshqa narsaga aylantirmoq",
+      "defEn": "to change something completely into another thing",
+      "example": "He wants to transform movement into personal power."
+    },
+    {
+      "en": "to relinquish",
+      "pos": "v",
+      "uz": "voz kechmoq, qoʻldan chiqarib yubormoq",
+      "defEn": "to give something up or let it go",
+      "example": "She relinquished her dream of a purple cat."
+    },
+    {
+      "en": "to set aside",
+      "pos": "phrase",
+      "uz": "(vaqt yoki pul) ajratib qoʻymoq, saqlab qoʻymoq",
+      "defEn": "to save or reserve something for later use",
+      "example": "He sets aside two hours a day for running."
+    },
+    {
+      "en": "to allocate",
+      "pos": "v",
+      "uz": "(aniq maqsadga) ajratmoq, taqsimlamoq",
+      "defEn": "to set something aside for a specific purpose",
+      "example": "She allocated all her savings to one goal."
+    }
   ],
   "englishpod": {
     "title": "The Office – Interview Skills: Talking About Work",
@@ -122,13 +230,41 @@
       "en": "In this dialogue Rebecca describes her career step by step at a job interview: she started as an intern and built her experience gradually over the years. It fits the Slow Burn idea — big results are built with slow, steady steps. Do you think Rebecca will get the job?"
     },
     "keyVocab": [
-      { "en": "to end up", "uz": "oxir-oqibat …boʻlib qolmoq, …ga aylanmoq", "defEn": "to turn out or finally be in a certain situation" },
-      { "en": "in charge of", "uz": "…ga masʼul, …ni boshqaradigan", "defEn": "responsible for something or someone" },
-      { "en": "to manage to", "uz": "(bir amallab) uddalamoq, erisha olmoq", "defEn": "to succeed in doing something difficult" },
-      { "en": "a step down", "uz": "(avvalgidan) pastroq lavozim yoki daraja", "defEn": "a move to a lower or less important position" },
-      { "en": "prospects", "uz": "kelajakdagi imkoniyatlar, istiqbol", "defEn": "chances or possibilities for success in the future" },
-      { "en": "keen on", "uz": "…ga juda qiziqqan, ishtiyoqmand", "defEn": "very interested in or eager to do something" },
-      { "en": "an intern", "uz": "amaliyotchi (tajriba orttirish uchun ishlaydigan)", "defEn": "a trainee who works, often unpaid, to gain experience" }
+      {
+        "en": "to end up",
+        "uz": "oxir-oqibat …boʻlib qolmoq, …ga aylanmoq",
+        "defEn": "to turn out or finally be in a certain situation"
+      },
+      {
+        "en": "in charge of",
+        "uz": "…ga masʼul, …ni boshqaradigan",
+        "defEn": "responsible for something or someone"
+      },
+      {
+        "en": "to manage to",
+        "uz": "(bir amallab) uddalamoq, erisha olmoq",
+        "defEn": "to succeed in doing something difficult"
+      },
+      {
+        "en": "a step down",
+        "uz": "(avvalgidan) pastroq lavozim yoki daraja",
+        "defEn": "a move to a lower or less important position"
+      },
+      {
+        "en": "prospects",
+        "uz": "kelajakdagi imkoniyatlar, istiqbol",
+        "defEn": "chances or possibilities for success in the future"
+      },
+      {
+        "en": "keen on",
+        "uz": "…ga juda qiziqqan, ishtiyoqmand",
+        "defEn": "very interested in or eager to do something"
+      },
+      {
+        "en": "an intern",
+        "uz": "amaliyotchi (tajriba orttirish uchun ishlaydigan)",
+        "defEn": "a trainee who works, often unpaid, to gain experience"
+      }
     ]
   },
   "sixmin": {
@@ -138,26 +274,54 @@
       {
         "q": "How many people aged between 40 and 60 do less than ten minutes brisk walking every month?",
         "qUz": "40 va 60 yosh orasidagi qancha odam oyiga oʻn daqiqadan kam tez yuradi?",
-        "options": ["4%", "14%", "40%"],
+        "options": [
+          "4%",
+          "14%",
+          "40%"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) 40%. Neil 4% dedi va xato qildi — chunki oʻn daqiqa juda oz vaqtdek tuyuldi. Aslida Buyuk Britaniyada 40 dan 60 yoshgacha boʻlganlarning 40% i oyiga oʻn daqiqadan kam tez yuradi (Public Health England maʼlumoti)."
       }
     ],
     "vocab": [
-      { "en": "vigorous", "uz": "jadal, kuch talab qiladigan (koʻp energiya sarflaydigan)", "defEn": "using a lot of energy and effort" },
-      { "en": "to saunter", "uz": "shoshmasdan, xotirjam yurmoq", "defEn": "to walk slowly in a relaxed way" },
-      { "en": "brisk", "uz": "tez va baquvvat (yurish)", "defEn": "quick and energetic" },
-      { "en": "to build (something) in", "uz": "(biror narsani) boshidanoq kiritmoq, hayotga qoʻshib olmoq", "defEn": "to include something as a regular part of a plan or routine" },
-      { "en": "incrementally", "uz": "bosqichma-bosqich ortib boruvchi tarzda", "defEn": "gradually increasing in size or amount" },
-      { "en": "sedentary", "uz": "koʻp oʻtirib ishlaydigan, kam harakatli", "defEn": "involving a lot of sitting and little physical activity" }
+      {
+        "en": "vigorous",
+        "uz": "jadal, kuch talab qiladigan (koʻp energiya sarflaydigan)",
+        "defEn": "using a lot of energy and effort"
+      },
+      {
+        "en": "to saunter",
+        "uz": "shoshmasdan, xotirjam yurmoq",
+        "defEn": "to walk slowly in a relaxed way"
+      },
+      {
+        "en": "brisk",
+        "uz": "tez va baquvvat (yurish)",
+        "defEn": "quick and energetic"
+      },
+      {
+        "en": "to build (something) in",
+        "uz": "(biror narsani) boshidanoq kiritmoq, hayotga qoʻshib olmoq",
+        "defEn": "to include something as a regular part of a plan or routine"
+      },
+      {
+        "en": "incrementally",
+        "uz": "bosqichma-bosqich ortib boruvchi tarzda",
+        "defEn": "gradually increasing in size or amount"
+      },
+      {
+        "en": "sedentary",
+        "uz": "koʻp oʻtirib ishlaydigan, kam harakatli",
+        "defEn": "involving a lot of sitting and little physical activity"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Slow and steady: how easy running builds lasting energy",
-      "channel": "Global Triathlon Network"
+      "id": "5MgBikgcWnY",
+      "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
+      "channel": "TEDx Talks"
     }
   ],
   "speakingPrompt": {

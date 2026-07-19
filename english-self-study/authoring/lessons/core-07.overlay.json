@@ -3,7 +3,13 @@
   "title": "Repetition",
   "titleUz": "Takrorlash — kuch bilan qayta-qayta",
   "level": "B1",
-  "tags": ["repetition", "used-to-would", "time-prepositions", "habits", "mastery"],
+  "tags": [
+    "repetition",
+    "used-to-would",
+    "time-prepositions",
+    "habits",
+    "mastery"
+  ],
   "intro": {
     "uz": "Repetition — mahoratga eltadigan yagona yoʻl: bir ishni kuch va eʼtibor bilan qayta-qayta takrorlash (repetition with intensity), har safar kichik yangi farq (distinction) qoʻshib. Bu haftaning ikki grammatik mavzusi shu gʻoyaga bogʻlangan: oʻtmish odatlari — used to / would (eski tiqishtirib yodlashni yangi kunlik mashq bilan solishtiramiz) va payt predloglari — for / since / during / ago (takror doim vaqt bilan oʻlchanadi).",
     "en": "Repetition is the only road to mastery: doing something again and again with power and focus (repetition with intensity), adding a small new distinction each time. This week's two grammar topics build on that idea: past habits — used to / would (contrasting old cramming with new daily practice) and time prepositions — for / since / during / ago (repetition is always measured in time)."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tilida buni “-ar edi / -(a)digan edi” bilan aytamiz: “chalar edi”, “uyatchan edi”. Bu qolip oʻzbekchada harakatni ham, holatni ham koʻtaraveradi. Ingliz tilida esa chiziq aniq: takrorlangan HARAKAT uchun “used to” yoki “would”; HOLAT (be, have, like, know) uchun esa faqat “used to” — “would” emas.",
       "errorFixUz": "❌ I use to study all night. He would be lazy. ✅ I used to study all night. He used to be lazy. Savol/inkorda “d” tushadi: Did you use to…? / I didn’t use to… . Holat uchun hech qachon “would” emas — faqat “used to”.",
       "examples": [
-        { "en": "I used to cram before exams, but now I practise every day.", "uz": "Ilgari imtihon oldidan tiqishtirib yodlardim, endi esa har kuni mashq qilaman." },
-        { "en": "When he was young, he would practise the guitar for hours.", "uz": "Yoshligida u soatlab gitara chalardi." },
-        { "en": "She used to be very shy.", "uz": "U ilgari juda uyatchan edi (hozir emas)." }
+        {
+          "en": "I used to cram before exams, but now I practise every day.",
+          "uz": "Ilgari imtihon oldidan tiqishtirib yodlardim, endi esa har kuni mashq qilaman."
+        },
+        {
+          "en": "When he was young, he would practise the guitar for hours.",
+          "uz": "Yoshligida u soatlab gitara chalardi."
+        },
+        {
+          "en": "She used to be very shy.",
+          "uz": "U ilgari juda uyatchan edi (hozir emas)."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "I ___ study by cramming, but now I practise every day.",
-          "options": ["used to", "use to", "am used to"],
+          "options": [
+            "used to",
+            "use to",
+            "am used to"
+          ],
           "answer": "used to",
           "hintUz": "oʻtmishdagi, endi yoʻq odat → used to (tasdiqda “d” bor)"
         },
         {
           "type": "gap-fill",
           "prompt": "Every day AJ ___ repeat the same singing scales.",
-          "options": ["would", "will", "uses to"],
+          "options": [
+            "would",
+            "will",
+            "uses to"
+          ],
           "answer": "would",
           "hintUz": "oʻtmishda takrorlangan HARAKAT → would"
         },
         {
           "type": "gap-fill",
           "prompt": "Asher ___ be terrible at the guitar.",
-          "options": ["used to", "would", "use to"],
+          "options": [
+            "used to",
+            "would",
+            "use to"
+          ],
           "answer": "used to",
           "hintUz": "HOLAT (be) → faqat used to; “would” holat uchun ishlamaydi"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekchada bitta soʻz bir nechta maʼnoni koʻtaradi: “beri” = since, “davomida / mobaynida” = for yoki during, “oldin” = ago. Ingliz tilida har biri qatʼiy: for = QANCHA vaqt (davomiylik), since = QACHONDAN beri (boshlanish nuqtasi), during = biror davr ICHIDA (+ ot), ago = hozirdan ORQAGA sanab (+ oddiy oʻtgan zamon).",
       "errorFixUz": "❌ for 2020 / since three years / before two years / during two hours. ✅ since 2020 / for three years / two years ago / for two hours. Raqamli davomiylik → for; sana/nuqta → since; “… oldin” → before emas, ago.",
       "examples": [
-        { "en": "Michael Jordan practised the same skills for twenty years.", "uz": "Michael Jordan oʻsha mahoratlarni yigirma yil mashq qildi." },
-        { "en": "He has played the guitar since 2019.", "uz": "U 2019-yildan beri gitara chaladi." },
-        { "en": "Asher became a great guitarist three years ago.", "uz": "Asher uch yil oldin zoʻr gitarachi boʻldi." }
+        {
+          "en": "Michael Jordan practised the same skills for twenty years.",
+          "uz": "Michael Jordan oʻsha mahoratlarni yigirma yil mashq qildi."
+        },
+        {
+          "en": "He has played the guitar since 2019.",
+          "uz": "U 2019-yildan beri gitara chaladi."
+        },
+        {
+          "en": "Asher became a great guitarist three years ago.",
+          "uz": "Asher uch yil oldin zoʻr gitarachi boʻldi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "I have studied English ___ three years.",
-          "options": ["for", "since", "ago"],
+          "options": [
+            "for",
+            "since",
+            "ago"
+          ],
           "answer": "for",
           "hintUz": "davomiylik (qancha vaqt) → for"
         },
         {
           "type": "gap-fill",
           "prompt": "He has played the guitar ___ 2019.",
-          "options": ["since", "for", "during"],
+          "options": [
+            "since",
+            "for",
+            "during"
+          ],
           "answer": "since",
           "hintUz": "boshlanish nuqtasi / sana → since"
         },
         {
           "type": "gap-fill",
           "prompt": "Asher fired AJ two years ___.",
-          "options": ["ago", "before", "since"],
+          "options": [
+            "ago",
+            "before",
+            "since"
+          ],
           "answer": "ago",
           "hintUz": "hozirdan orqaga sanoq → time + ago (oddiy oʻtgan zamon bilan)"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "repetition with intensity", "pos": "phrase", "uz": "kuch va eʼtibor bilan qayta-qayta takrorlash", "defEn": "doing something again and again with concentrated energy and focus", "example": "Mastery comes from repetition with intensity, not just listening once." },
-    { "en": "a distinction", "pos": "n", "uz": "muhim (koʻpincha kichik) farq", "defEn": "an important, often small, difference", "example": "Each time you repeat, focus on a new distinction." },
-    { "en": "vital", "pos": "adj", "uz": "juda muhim, hatto zarur", "defEn": "very important, even necessary", "example": "Repetition is vital for mastery." },
-    { "en": "intensity", "pos": "n", "uz": "jamlangan kuch, quvvat (eʼtibor bilan)", "defEn": "concentrated power or energy", "example": "Practise with intensity, not with laziness." },
-    { "en": "to imitate (someone)", "pos": "v", "uz": "aynan, mukammal nusxa koʻchirmoq (odamdan)", "defEn": "to copy someone very closely and exactly", "example": "Don't just repeat — imitate my intonation like an actor." },
-    { "en": "imitation", "pos": "n", "uz": "taqlid, aynan nusxa koʻchirish jarayoni", "defEn": "the act of copying someone exactly", "example": "Imitation is the deepest level of repetition." },
-    { "en": "deep acquisition", "pos": "phrase", "uz": "chuqur oʻzlashtirish (bir marta olib, hech qachon yoʻqotmaslik)", "defEn": "learning something so deeply that you keep it forever", "example": "Real knowing means deep acquisition, not memorising for a test." },
-    { "en": "the fundamentals", "pos": "phrase", "uz": "asosiy, eng koʻp uchraydigan narsalar (poydevor)", "defEn": "the core, most frequent, basic parts of the language", "example": "Always keep practising the fundamentals — the high-frequency words." },
-    { "en": "intonation", "pos": "n", "uz": "ohang, tilning “musiqasi” (ovoz koʻtarilishi-tushishi)", "defEn": "the music of a language — when the voice rises and falls", "example": "Copy my intonation, not just the words." },
-    { "en": "to seek out (someone)", "pos": "v", "uz": "izlab topmoq, qidirib topmoq", "defEn": "to look for and find someone or something", "example": "It's vital to seek out a great teacher to model." }
+    {
+      "en": "repetition with intensity",
+      "pos": "phrase",
+      "uz": "kuch va eʼtibor bilan qayta-qayta takrorlash",
+      "defEn": "doing something again and again with concentrated energy and focus",
+      "example": "Mastery comes from repetition with intensity, not just listening once."
+    },
+    {
+      "en": "a distinction",
+      "pos": "n",
+      "uz": "muhim (koʻpincha kichik) farq",
+      "defEn": "an important, often small, difference",
+      "example": "Each time you repeat, focus on a new distinction."
+    },
+    {
+      "en": "vital",
+      "pos": "adj",
+      "uz": "juda muhim, hatto zarur",
+      "defEn": "very important, even necessary",
+      "example": "Repetition is vital for mastery."
+    },
+    {
+      "en": "intensity",
+      "pos": "n",
+      "uz": "jamlangan kuch, quvvat (eʼtibor bilan)",
+      "defEn": "concentrated power or energy",
+      "example": "Practise with intensity, not with laziness."
+    },
+    {
+      "en": "to imitate (someone)",
+      "pos": "v",
+      "uz": "aynan, mukammal nusxa koʻchirmoq (odamdan)",
+      "defEn": "to copy someone very closely and exactly",
+      "example": "Don't just repeat — imitate my intonation like an actor."
+    },
+    {
+      "en": "imitation",
+      "pos": "n",
+      "uz": "taqlid, aynan nusxa koʻchirish jarayoni",
+      "defEn": "the act of copying someone exactly",
+      "example": "Imitation is the deepest level of repetition."
+    },
+    {
+      "en": "deep acquisition",
+      "pos": "phrase",
+      "uz": "chuqur oʻzlashtirish (bir marta olib, hech qachon yoʻqotmaslik)",
+      "defEn": "learning something so deeply that you keep it forever",
+      "example": "Real knowing means deep acquisition, not memorising for a test."
+    },
+    {
+      "en": "the fundamentals",
+      "pos": "phrase",
+      "uz": "asosiy, eng koʻp uchraydigan narsalar (poydevor)",
+      "defEn": "the core, most frequent, basic parts of the language",
+      "example": "Always keep practising the fundamentals — the high-frequency words."
+    },
+    {
+      "en": "intonation",
+      "pos": "n",
+      "uz": "ohang, tilning “musiqasi” (ovoz koʻtarilishi-tushishi)",
+      "defEn": "the music of a language — when the voice rises and falls",
+      "example": "Copy my intonation, not just the words."
+    },
+    {
+      "en": "to seek out (someone)",
+      "pos": "v",
+      "uz": "izlab topmoq, qidirib topmoq",
+      "defEn": "to look for and find someone or something",
+      "example": "It's vital to seek out a great teacher to model."
+    }
   ],
   "englishpod": {
     "title": "Daily Life – Pizza Delivery",
@@ -122,14 +230,46 @@
       "en": "In this dialogue a customer phones in a pizza order. The seller asks, “same as the first?” — and the customer repeats the order but adds a small difference (new toppings, thin crust). That's AJ's idea: repetition, but with a new distinction each time. Do you think the order will arrive on time?"
     },
     "keyVocab": [
-      { "en": "medium", "uz": "oʻrtacha oʻlcham (na katta, na kichik)", "defEn": "an average size, not too big or small" },
-      { "en": "total", "uz": "umumiy toʻlov summasi", "defEn": "the complete amount you must pay" },
-      { "en": "instead", "uz": "oʻrniga", "defEn": "in replacement of something" },
-      { "en": "sounds good", "uz": "yaxshi eshitiladi, roziman", "defEn": "seems or appears to be okay; I agree" },
-      { "en": "pepperoni", "uz": "pepperoni (pitsaga qoʻyiladigan achchiq kolbasa)", "defEn": "a spicy sausage usually put on pizza" },
-      { "en": "olive", "uz": "zaytun (kichik, tuxumsimon meva)", "defEn": "a small, egg-shaped black or green fruit used as food or for making oil" },
-      { "en": "crust", "uz": "pitsaning cheti / xamiri (poʻsti)", "defEn": "the border or edge of a pizza, or of bread" },
-      { "en": "two-for-one", "uz": "bittasiga toʻlab, ikkita olish (biri bepul)", "defEn": "pay for one and get another one free" }
+      {
+        "en": "medium",
+        "uz": "oʻrtacha oʻlcham (na katta, na kichik)",
+        "defEn": "an average size, not too big or small"
+      },
+      {
+        "en": "total",
+        "uz": "umumiy toʻlov summasi",
+        "defEn": "the complete amount you must pay"
+      },
+      {
+        "en": "instead",
+        "uz": "oʻrniga",
+        "defEn": "in replacement of something"
+      },
+      {
+        "en": "sounds good",
+        "uz": "yaxshi eshitiladi, roziman",
+        "defEn": "seems or appears to be okay; I agree"
+      },
+      {
+        "en": "pepperoni",
+        "uz": "pepperoni (pitsaga qoʻyiladigan achchiq kolbasa)",
+        "defEn": "a spicy sausage usually put on pizza"
+      },
+      {
+        "en": "olive",
+        "uz": "zaytun (kichik, tuxumsimon meva)",
+        "defEn": "a small, egg-shaped black or green fruit used as food or for making oil"
+      },
+      {
+        "en": "crust",
+        "uz": "pitsaning cheti / xamiri (poʻsti)",
+        "defEn": "the border or edge of a pizza, or of bread"
+      },
+      {
+        "en": "two-for-one",
+        "uz": "bittasiga toʻlab, ikkita olish (biri bepul)",
+        "defEn": "pay for one and get another one free"
+      }
     ]
   },
   "sixmin": {
@@ -139,26 +279,54 @@
       {
         "q": "According to the BBC Food website, which type of food supports good memory function?",
         "qUz": "BBC Food saytiga koʻra, qaysi turdagi ovqat xotira ishlashini yaxshi qoʻllab-quvvatlaydi?",
-        "options": ["Eggs", "Spinach", "All of them"],
+        "options": [
+          "Eggs",
+          "Spinach",
+          "All of them"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) hammasi. Rob b) spinach (ismaloq) dedi, lekin Neil aytdi: aslida uchalasi ham toʻgʻri — tuxum, ismaloq va banan B guruh vitaminlariga boy boʻlib, xotirani qoʻllab-quvvatlaydi."
       }
     ],
     "vocab": [
-      { "en": "memories", "uz": "xotiralar (oʻtmishdan eslab qolgan narsalar)", "defEn": "things we remember from the past" },
-      { "en": "kinaesthetic", "uz": "harakat orqali oʻrganish (biror ishni qayta-qayta bajarib)", "defEn": "learning by ‘doing’ and practising something over and over again" },
-      { "en": "contextual", "uz": "oʻz muhitida, oʻrnida koʻrilgan", "defEn": "seeing something in the situation where it usually exists" },
-      { "en": "encoding", "uz": "kodlash — maʼlumotni saqlanadigan shaklga oʻtkazish", "defEn": "changing information into a form that can be stored and later recalled" },
-      { "en": "intuitive sense", "uz": "ich-ichdan sezish (dalilga emas, his-tuygʻuga tayangan)", "defEn": "doing something based on feelings rather than facts or proof" },
-      { "en": "Alzheimer’s (disease)", "uz": "Altsgeymer kasalligi (xotirani susaytiruvchi, yoshga qarab kuchayadigan miya kasalligi)", "defEn": "a disease affecting the brain that makes it difficult to remember things and gets worse with age" }
+      {
+        "en": "memories",
+        "uz": "xotiralar (oʻtmishdan eslab qolgan narsalar)",
+        "defEn": "things we remember from the past"
+      },
+      {
+        "en": "kinaesthetic",
+        "uz": "harakat orqali oʻrganish (biror ishni qayta-qayta bajarib)",
+        "defEn": "learning by ‘doing’ and practising something over and over again"
+      },
+      {
+        "en": "contextual",
+        "uz": "oʻz muhitida, oʻrnida koʻrilgan",
+        "defEn": "seeing something in the situation where it usually exists"
+      },
+      {
+        "en": "encoding",
+        "uz": "kodlash — maʼlumotni saqlanadigan shaklga oʻtkazish",
+        "defEn": "changing information into a form that can be stored and later recalled"
+      },
+      {
+        "en": "intuitive sense",
+        "uz": "ich-ichdan sezish (dalilga emas, his-tuygʻuga tayangan)",
+        "defEn": "doing something based on feelings rather than facts or proof"
+      },
+      {
+        "en": "Alzheimer’s (disease)",
+        "uz": "Altsgeymer kasalligi (xotirani susaytiruvchi, yoshga qarab kuchayadigan miya kasalligi)",
+        "defEn": "a disease affecting the brain that makes it difficult to remember things and gets worse with age"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Why repetition is the secret to speaking English fluently",
-      "channel": "AJ Hoge — Effortless English"
+      "id": "wr6fQ4KpbRM",
+      "title": "Why is it so hard to break a bad habit?",
+      "channel": "TED-Ed"
     }
   ],
   "speakingPrompt": {

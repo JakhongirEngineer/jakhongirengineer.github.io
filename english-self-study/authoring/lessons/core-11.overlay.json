@@ -3,7 +3,13 @@
   "title": "Unlimited",
   "titleUz": "Cheksiz kuch — ehtiros",
   "level": "B1",
-  "tags": ["passion", "potential", "ability", "second-conditional", "mindset"],
+  "tags": [
+    "passion",
+    "potential",
+    "ability",
+    "second-conditional",
+    "mindset"
+  ],
   "intro": {
     "uz": "Unlimited Power — Tony Robbins gʻoyasi: muvaffaqiyat tasodif emas, uning asosida ehtiros (passion) turadi va zoʻrlik hammamizning qoʻlimiz yetadigan joyda. Bu haftaning ikki grammatik mavzusi cheksiz imkoniyat tilida: turli zamonlarda qobiliyat (can / could / be able to / manage to) va xayoliy farazlar (ikkinchi shart — agar … boʻlsa edi). Marco haqidagi POV hikoyada ikkalasini ham eshitasiz.",
     "en": "Unlimited Power — Tony Robbins' idea: success is not an accident; passion drives it, and excellence is within the reach of all of us. This week's two grammar topics speak the language of unlimited potential: ability across time (can / could / be able to / manage to) and imagining no limits (the second conditional — unreal present). You'll hear both in the POV story about Marco."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbekchada qobiliyat bitta qoʻshimcha bilan beriladi: gapir-a olaman, gapir-a olardim. Ingliz tili esa zamonga qarab butun soʻzni oʻzgartiradi: can → could → will be able to. Shuning uchun kelasi zamonda “I will can” demang — toʻgʻrisi “I will be able to”.",
       "errorFixUz": "❌ In the future I will can speak fluently. ✅ In the future I will be able to speak fluently. can ikkita modal feʼlni yonma-yon qoʻyib boʻlmaydi; kelajak yoki present perfect kerak boʻlsa — be able to.",
       "examples": [
-        { "en": "I can speak English, but I couldn't five years ago.", "uz": "Ingliz tilida gapira olaman, lekin besh yil oldin gapira olmasdim." },
-        { "en": "Could Marco control the stock market? No, he couldn't.", "uz": "Marco birjani nazorat qila olarmidi? Yoʻq, qila olmasdi." },
-        { "en": "After two months, Marco was able to get a perfect body.", "uz": "Ikki oydan soʻng Marco mukammal tanaga erisha oldi." }
+        {
+          "en": "I can speak English, but I couldn't five years ago.",
+          "uz": "Ingliz tilida gapira olaman, lekin besh yil oldin gapira olmasdim."
+        },
+        {
+          "en": "Could Marco control the stock market? No, he couldn't.",
+          "uz": "Marco birjani nazorat qila olarmidi? Yoʻq, qila olmasdi."
+        },
+        {
+          "en": "After two months, Marco was able to get a perfect body.",
+          "uz": "Ikki oydan soʻng Marco mukammal tanaga erisha oldi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "One day I ___ watch films without subtitles.",
-          "options": ["will be able to", "will can", "can will"],
+          "options": [
+            "will be able to",
+            "will can",
+            "can will"
+          ],
           "answer": "will be able to",
           "hintUz": "kelasi zamon → “will be able to” (will + can boʻlmaydi)"
         },
         {
           "type": "gap-fill",
           "prompt": "When I was a child, I ___ swim very well.",
-          "options": ["could", "can", "will"],
+          "options": [
+            "could",
+            "can",
+            "will"
+          ],
           "answer": "could",
           "hintUz": "oʻtmishdagi umumiy qobiliyat → could"
         },
         {
           "type": "gap-fill",
           "prompt": "After a lot of effort, Marco finally ___ get a perfect body.",
-          "options": ["managed to", "could to", "can"],
+          "options": [
+            "managed to",
+            "could to",
+            "can"
+          ],
           "answer": "managed to",
           "hintUz": "bir martalik, qiyinchilik bilan erishilgan natija → managed to / was able to (could emas)"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tilida haqiqiy reja ham, xayoliy faraz ham “agar … boʻlsa” bilan aytiladi, shuning uchun oʻquvchi ikkalasini adashtiradi. Ingliz tili farqni ajratadi: real kelajak → if + present, will; xayoliy holat → if + past, would.",
       "errorFixUz": "❌ If I had unlimited time, I will learn three languages. ✅ If I had unlimited time, I would learn three languages. Faraz (if + past) bilan “will” emas, “would” keladi.",
       "examples": [
-        { "en": "If you had unlimited time, what would you do?", "uz": "Agar cheksiz vaqtingiz boʻlsa edi, nima qilardingiz?" },
-        { "en": "If I had a lot of money, I would travel the world.", "uz": "Agar koʻp pulim boʻlsa edi, dunyo boʻylab sayohat qilardim." },
-        { "en": "If I were you, I would learn English with passion.", "uz": "Sizning oʻrningizda boʻlsam, ingliz tilini ehtiros bilan oʻrganardim." }
+        {
+          "en": "If you had unlimited time, what would you do?",
+          "uz": "Agar cheksiz vaqtingiz boʻlsa edi, nima qilardingiz?"
+        },
+        {
+          "en": "If I had a lot of money, I would travel the world.",
+          "uz": "Agar koʻp pulim boʻlsa edi, dunyo boʻylab sayohat qilardim."
+        },
+        {
+          "en": "If I were you, I would learn English with passion.",
+          "uz": "Sizning oʻrningizda boʻlsam, ingliz tilini ehtiros bilan oʻrganardim."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "If I ___ more free time, I would read English novels every day.",
-          "options": ["had", "have", "will have"],
+          "options": [
+            "had",
+            "have",
+            "will have"
+          ],
           "answer": "had",
           "hintUz": "ikkinchi shartda “if” qismida past simple: had"
         },
         {
           "type": "gap-fill",
           "prompt": "If I had unlimited power, I ___ help my whole city.",
-          "options": ["would", "will", "can"],
+          "options": [
+            "would",
+            "will",
+            "can"
+          ],
           "answer": "would",
           "hintUz": "faraz natijasi → would + sof feʼl"
         },
         {
           "type": "gap-fill",
           "prompt": "If I ___ you, I would start today.",
-          "options": ["were", "am", "was"],
+          "options": [
+            "were",
+            "am",
+            "was"
+          ],
           "answer": "were",
           "hintUz": "faraz maʼnosidagi “be” → were (barcha shaxslar uchun): If I were you"
         },
@@ -103,17 +151,83 @@
     }
   ],
   "vocab": [
-    { "en": "a roll of the dice", "pos": "phrase", "uz": "tasodif, omadga tikilgan ish (tavakkal)", "defEn": "a random event that depends on luck or chance", "example": "Success is not a roll of the dice; it has reasons." },
-    { "en": "within the reach of", "pos": "phrase", "uz": "qoʻli yetadigan, erishsa boʻladigan", "defEn": "possible or easy to get; near enough to obtain", "example": "Excellence is within the reach of all of us." },
-    { "en": "to unleash", "pos": "v", "uz": "ozod qilmoq, ichdagi kuchni chiqarmoq", "defEn": "to set free or release something that was held back", "example": "Unleash the power inside of you." },
-    { "en": "advantageous", "pos": "adj", "uz": "foydali, qoʻl keladigan", "defEn": "helpful, useful or beneficial", "example": "He decided losing the money was an advantageous event." },
-    { "en": "to have in common", "pos": "phrase", "uz": "umumiy (bir xil) narsaga ega boʻlmoq", "defEn": "to share the same trait or quality", "example": "What do these successful people have in common? Passion." },
-    { "en": "to put everything you've got into", "pos": "phrase", "uz": "bor kuchini bermoq, 100% harakat qilmoq", "defEn": "to give all your energy and effort to something", "example": "I put everything I've got into learning English." },
-    { "en": "to cultivate", "pos": "v", "uz": "rivojlantirmoq, oʻstirib borish (parvarish qilmoq)", "defEn": "to develop and grow something gradually", "example": "Finally he had time to cultivate his health." },
-    { "en": "to drive (someone)", "pos": "v", "uz": "undamoq, turtki bermoq, harakatga soladigan kuch", "defEn": "to push or motivate someone to act", "example": "Passion drives them to do, to grow and to be more." },
-    { "en": "to tap (your potential)", "pos": "v", "uz": "ichki imkoniyatni ochmoq, ishga solmoq", "defEn": "to open up and make use of something hidden inside", "example": "Passion causes you to tap your true potential." },
-    { "en": "a breakthrough", "pos": "n", "uz": "keskin, kutilmagan katta yutuq/oʻzgarish", "defEn": "a sudden, big improvement or success", "example": "After two months, Marco had a breakthrough." },
-    { "en": "an aspiration", "pos": "n", "uz": "orzu, intilish, maqsad", "defEn": "a strong hope or desire to achieve something", "example": "His aspiration was to have a perfect body." }
+    {
+      "en": "a roll of the dice",
+      "pos": "phrase",
+      "uz": "tasodif, omadga tikilgan ish (tavakkal)",
+      "defEn": "a random event that depends on luck or chance",
+      "example": "Success is not a roll of the dice; it has reasons."
+    },
+    {
+      "en": "within the reach of",
+      "pos": "phrase",
+      "uz": "qoʻli yetadigan, erishsa boʻladigan",
+      "defEn": "possible or easy to get; near enough to obtain",
+      "example": "Excellence is within the reach of all of us."
+    },
+    {
+      "en": "to unleash",
+      "pos": "v",
+      "uz": "ozod qilmoq, ichdagi kuchni chiqarmoq",
+      "defEn": "to set free or release something that was held back",
+      "example": "Unleash the power inside of you."
+    },
+    {
+      "en": "advantageous",
+      "pos": "adj",
+      "uz": "foydali, qoʻl keladigan",
+      "defEn": "helpful, useful or beneficial",
+      "example": "He decided losing the money was an advantageous event."
+    },
+    {
+      "en": "to have in common",
+      "pos": "phrase",
+      "uz": "umumiy (bir xil) narsaga ega boʻlmoq",
+      "defEn": "to share the same trait or quality",
+      "example": "What do these successful people have in common? Passion."
+    },
+    {
+      "en": "to put everything you've got into",
+      "pos": "phrase",
+      "uz": "bor kuchini bermoq, 100% harakat qilmoq",
+      "defEn": "to give all your energy and effort to something",
+      "example": "I put everything I've got into learning English."
+    },
+    {
+      "en": "to cultivate",
+      "pos": "v",
+      "uz": "rivojlantirmoq, oʻstirib borish (parvarish qilmoq)",
+      "defEn": "to develop and grow something gradually",
+      "example": "Finally he had time to cultivate his health."
+    },
+    {
+      "en": "to drive (someone)",
+      "pos": "v",
+      "uz": "undamoq, turtki bermoq, harakatga soladigan kuch",
+      "defEn": "to push or motivate someone to act",
+      "example": "Passion drives them to do, to grow and to be more."
+    },
+    {
+      "en": "to tap (your potential)",
+      "pos": "v",
+      "uz": "ichki imkoniyatni ochmoq, ishga solmoq",
+      "defEn": "to open up and make use of something hidden inside",
+      "example": "Passion causes you to tap your true potential."
+    },
+    {
+      "en": "a breakthrough",
+      "pos": "n",
+      "uz": "keskin, kutilmagan katta yutuq/oʻzgarish",
+      "defEn": "a sudden, big improvement or success",
+      "example": "After two months, Marco had a breakthrough."
+    },
+    {
+      "en": "an aspiration",
+      "pos": "n",
+      "uz": "orzu, intilish, maqsad",
+      "defEn": "a strong hope or desire to achieve something",
+      "example": "His aspiration was to have a perfect body."
+    }
   ],
   "englishpod": {
     "title": "The Office – Asking For A Raise",
@@ -123,13 +237,41 @@
       "en": "In this dialogue Bill uses ten years of loyalty to ask his boss for a raise. It fits this week's \"Unlimited Power\" theme: knowing your worth and daring to reach for more. Do you think he'll get the raise — and why is the joke at the end funny?"
     },
     "keyVocab": [
-      { "en": "to beat around the bush", "uz": "gapni aylantirmoq, asosiy mavzuga oʻtmay yon-atrofdan gapirmoq", "defEn": "to avoid the subject by talking about something else" },
-      { "en": "a raise", "uz": "maosh oshishi (ish haqining koʻtarilishi)", "defEn": "an increase in salary" },
-      { "en": "to take into consideration", "uz": "eʼtiborga olmoq, hisobga olmoq", "defEn": "to think about something before making a decision" },
-      { "en": "to offer", "uz": "taklif qilmoq (qabul qilish yoki rad etish imkoni bilan bermoq)", "defEn": "to give someone the choice of accepting or rejecting something" },
-      { "en": "loyalty", "uz": "sadoqat, vafodorlik", "defEn": "the quality of being loyal and faithful" },
-      { "en": "to move up the ladder", "uz": "martaba pogʻonasidan koʻtarilmoq, lavozimda oʻsmoq", "defEn": "to receive a promotion at work" },
-      { "en": "initiative", "uz": "tashabbus, birinchi qadamni oʻzi tashlash", "defEn": "the ability to decide and take the first step on one's own" }
+      {
+        "en": "to beat around the bush",
+        "uz": "gapni aylantirmoq, asosiy mavzuga oʻtmay yon-atrofdan gapirmoq",
+        "defEn": "to avoid the subject by talking about something else"
+      },
+      {
+        "en": "a raise",
+        "uz": "maosh oshishi (ish haqining koʻtarilishi)",
+        "defEn": "an increase in salary"
+      },
+      {
+        "en": "to take into consideration",
+        "uz": "eʼtiborga olmoq, hisobga olmoq",
+        "defEn": "to think about something before making a decision"
+      },
+      {
+        "en": "to offer",
+        "uz": "taklif qilmoq (qabul qilish yoki rad etish imkoni bilan bermoq)",
+        "defEn": "to give someone the choice of accepting or rejecting something"
+      },
+      {
+        "en": "loyalty",
+        "uz": "sadoqat, vafodorlik",
+        "defEn": "the quality of being loyal and faithful"
+      },
+      {
+        "en": "to move up the ladder",
+        "uz": "martaba pogʻonasidan koʻtarilmoq, lavozimda oʻsmoq",
+        "defEn": "to receive a promotion at work"
+      },
+      {
+        "en": "initiative",
+        "uz": "tashabbus, birinchi qadamni oʻzi tashlash",
+        "defEn": "the ability to decide and take the first step on one's own"
+      }
     ]
   },
   "sixmin": {
@@ -139,25 +281,53 @@
       {
         "q": "When was the first driverless car demonstrated on a public road?",
         "qUz": "Birinchi haydovchisiz mashina umumiy yoʻlda qachon namoyish etilgan?",
-        "options": ["1970s", "1950s", "1920s"],
+        "options": [
+          "1970s",
+          "1950s",
+          "1920s"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) 1920-yillar. Rob 1970-yillar dedi va xato qildi — Neil aytishicha, bu ancha oldin, 1920-yillarda boʻlgan. Tavakkalning bir turi: yangi narsaga jurʼat qilish (risk-seeking)."
       }
     ],
     "vocab": [
-      { "en": "risk-averse", "uz": "tavakkaldan qochadigan, xavfni yoqtirmaydigan", "defEn": "not liking risk; against taking risks" },
-      { "en": "risk-tolerant", "uz": "tavakkalga bardosh beradigan, xavfdan bezovta boʻlmaydigan", "defEn": "able to accept an element of risk without worrying" },
-      { "en": "risk-seeking (a risk seeker)", "uz": "xavfni yoqtiradigan, tavakkalni izlaydigan", "defEn": "actively looking for and enjoying risk" },
-      { "en": "to assess", "uz": "baholamoq, maʼlumotga tayanib qaror qilmoq", "defEn": "to make a judgement or decision based on information" },
-      { "en": "to put money away", "uz": "pul jamgʻarmoq, chetga saqlab qoʻymoq", "defEn": "to save money somewhere you cannot easily spend it" },
-      { "en": "retirement", "uz": "nafaqaga chiqish, ishdan boʻshab dam olish davri", "defEn": "the time of life when you stop working" }
+      {
+        "en": "risk-averse",
+        "uz": "tavakkaldan qochadigan, xavfni yoqtirmaydigan",
+        "defEn": "not liking risk; against taking risks"
+      },
+      {
+        "en": "risk-tolerant",
+        "uz": "tavakkalga bardosh beradigan, xavfdan bezovta boʻlmaydigan",
+        "defEn": "able to accept an element of risk without worrying"
+      },
+      {
+        "en": "risk-seeking (a risk seeker)",
+        "uz": "xavfni yoqtiradigan, tavakkalni izlaydigan",
+        "defEn": "actively looking for and enjoying risk"
+      },
+      {
+        "en": "to assess",
+        "uz": "baholamoq, maʼlumotga tayanib qaror qilmoq",
+        "defEn": "to make a judgement or decision based on information"
+      },
+      {
+        "en": "to put money away",
+        "uz": "pul jamgʻarmoq, chetga saqlab qoʻymoq",
+        "defEn": "to save money somewhere you cannot easily spend it"
+      },
+      {
+        "en": "retirement",
+        "uz": "nafaqaga chiqish, ishdan boʻshab dam olish davri",
+        "defEn": "the time of life when you stop working"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Unleash Your Unlimited Potential: the power of passion",
+      "id": "OCi5mRafk9Q",
+      "title": "How to stop screwing yourself over | Mel Robbins | TEDxSF",
       "channel": "TEDx Talks"
     }
   ],

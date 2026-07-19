@@ -3,7 +3,13 @@
   "title": "Search for Meaning",
   "titleUz": "Maʼno izlash",
   "level": "B1-B2",
-  "tags": ["meaning", "purpose", "reported-speech", "reporting-verbs", "viktor-frankl"],
+  "tags": [
+    "meaning",
+    "purpose",
+    "reported-speech",
+    "reporting-verbs",
+    "viktor-frankl"
+  ],
   "intro": {
     "uz": "AJ Viktor Franklning “Man's Search for Meaning” kitobidan gapiradi: baxt va muvaffaqiyatni quvib boʻlmaydi — ular oʻzimizdan kattaroq maqsadga xizmat qilganda oʻzi keladi. Bu haftaning ikki grammatikasi mutafakkirlarning fikrini yetkazishga xizmat qiladi: oʻzlashtirma gap va zamon siljishi (Frankl said that…) hamda bayon feʼllari (argue / claim / suggest / point out). Chris haqidagi POV hikoyada ham buni eshitasiz.",
     "en": "AJ talks about Viktor Frankl's “Man's Search for Meaning”: happiness and success cannot be chased — they come as a side effect of serving a cause bigger than yourself. This week's two grammar topics help you report that wisdom: reported speech with backshift (Frankl said that…) and reporting verbs (argue / claim / suggest / point out). You'll hear it in the POV story about Chris too."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tilida bayon qilganda zamon oʻzgarmaydi: “U baxtni quvib boʻlmaydi dedi” — feʼl hozirgi zamonda qoladi va “dedi” oxirda keladi. Ingliz tili esa “that”ni boshga qoʻyadi va ichkaridagi feʼlni bir qadam orqaga suradi: cannot → could not, is → was, will → would. Shuningdek now→then, here→there, this→that.",
       "errorFixUz": "❌ Frankl said me that happiness is a byproduct. ✅ Frankl said that happiness was a byproduct. / ✅ Frankl told me that happiness was a byproduct. “say”dan keyin odam kelmaydi (tell + odam); va bosh feʼl oʻtmishda boʻlsa, ergash gap feʼli ham orqaga suriladi (is → was).",
       "examples": [
-        { "en": "Frankl said that happiness could not be pursued.", "uz": "Frankl baxtni quvib boʻlmaydi, dedi." },
-        { "en": "He told his students that success would follow them.", "uz": "U oʻquvchilariga muvaffaqiyat ularga ergashadi, dedi." },
-        { "en": "She said that she felt free then.", "uz": "U oʻsha payt oʻzini erkin his qilganini aytdi." }
+        {
+          "en": "Frankl said that happiness could not be pursued.",
+          "uz": "Frankl baxtni quvib boʻlmaydi, dedi."
+        },
+        {
+          "en": "He told his students that success would follow them.",
+          "uz": "U oʻquvchilariga muvaffaqiyat ularga ergashadi, dedi."
+        },
+        {
+          "en": "She said that she felt free then.",
+          "uz": "U oʻsha payt oʻzini erkin his qilganini aytdi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Frankl said that happiness ___ be pursued.",
-          "options": ["could not", "cannot", "will not"],
+          "options": [
+            "could not",
+            "cannot",
+            "will not"
+          ],
           "answer": "could not",
           "hintUz": "bosh feʼl said (oʻtmish) → cannot orqaga suriladi: could not"
         },
         {
           "type": "gap-fill",
           "prompt": "He ___ me that meaning was the most important thing.",
-          "options": ["told", "said", "spoke"],
+          "options": [
+            "told",
+            "said",
+            "spoke"
+          ],
           "answer": "told",
           "hintUz": "odam (me) kelsa → tell; “said” dan keyin odam kelmaydi"
         },
         {
           "type": "gap-fill",
           "prompt": "She said that she ___ tired that day.",
-          "options": ["was", "is", "will be"],
+          "options": [
+            "was",
+            "is",
+            "will be"
+          ],
           "answer": "was",
           "hintUz": "is → was; “now/today” ham “then/that day”ga siljidi"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbekchada deyarli hamma bayon “dedi” yoki “maslahat berdi” bilan tugaydi. Ingliz tili feʼlni boshga qoʻyadi va har biriga alohida qolip beradi: argue/claim/point out + that; suggest + -ing yoki that; advise/urge/admonish + obj + to. POV hikoyada bu present perfectda yangraydi: “His mother has admonished him to eat vegetables.”",
       "errorFixUz": "❌ She suggested me to try a new strategy. ✅ She suggested trying a new strategy. / ✅ She suggested that I try. “suggest” obj+to qolipini olmaydi — undan keyin -ing yoki that keladi (bu oʻzbekcha “menga … qilishni taklif qildi”dan soʻzma-soʻz oʻgirilganda chiqadigan xato).",
       "examples": [
-        { "en": "Frankl argued that we create meaning from our experiences.", "uz": "Frankl maʼnoni tajribamizdan oʻzimiz yaratamiz, deb daʼvo qildi." },
-        { "en": "His mother suggested trying a new strategy.", "uz": "Onasi yangi yoʻlni sinab koʻrishni taklif qildi." },
-        { "en": "His mother admonished him to eat vegetables.", "uz": "Onasi uni sabzavot yeyishga qattiq undadi." }
+        {
+          "en": "Frankl argued that we create meaning from our experiences.",
+          "uz": "Frankl maʼnoni tajribamizdan oʻzimiz yaratamiz, deb daʼvo qildi."
+        },
+        {
+          "en": "His mother suggested trying a new strategy.",
+          "uz": "Onasi yangi yoʻlni sinab koʻrishni taklif qildi."
+        },
+        {
+          "en": "His mother admonished him to eat vegetables.",
+          "uz": "Onasi uni sabzavot yeyishga qattiq undadi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Frankl ___ that success is a byproduct of helping others.",
-          "options": ["argued", "suggested to", "said me"],
+          "options": [
+            "argued",
+            "suggested to",
+            "said me"
+          ],
           "answer": "argued",
           "hintUz": "argue/claim/point out + that + gap"
         },
         {
           "type": "gap-fill",
           "prompt": "His mother suggested ___ a new strategy.",
-          "options": ["trying", "to try", "him to try"],
+          "options": [
+            "trying",
+            "to try",
+            "him to try"
+          ],
           "answer": "trying",
           "hintUz": "suggest + -ing (obj+to emas!)"
         },
         {
           "type": "gap-fill",
           "prompt": "His mother admonished him ___ his vegetables.",
-          "options": ["to eat", "eating", "that eat"],
+          "options": [
+            "to eat",
+            "eating",
+            "that eat"
+          ],
           "answer": "to eat",
           "hintUz": "admonish/advise/urge + obj + to + feʼl"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "to admonish (someone)", "pos": "v", "uz": "qattiq undamoq, tanbeh berib chorlamoq", "defEn": "to strongly urge or tell someone to do something", "example": "Frankl admonished his students not to aim at success." },
-    { "en": "to pursue (something)", "pos": "v", "uz": "quvmoq, ortidan yugurib erishishga urinmoq", "defEn": "to chase something and try hard to get it", "example": "Happiness cannot be pursued directly." },
-    { "en": "to ensue", "pos": "v", "uz": "keyin yuz bermoq, natijada kelib chiqmoq", "defEn": "to happen afterwards as a result", "example": "Success will ensue if you focus on a bigger goal." },
-    { "en": "an unintended side effect", "pos": "phrase", "uz": "koʻzda tutilmagan yon taʼsir", "defEn": "an extra result you did not plan for", "example": "Happiness is an unintended side effect of helping others." },
-    { "en": "an unintended consequence", "pos": "phrase", "uz": "koʻzda tutilmagan oqibat", "defEn": "a result you did not want or expect", "example": "Eating only steak had an unintended consequence." },
-    { "en": "a byproduct (of)", "pos": "n", "uz": "qoʻshimcha natija, yon mahsul", "defEn": "an extra thing produced besides the main one", "example": "Success is a byproduct of serving a bigger cause." },
-    { "en": "to follow your conscience", "pos": "phrase", "uz": "vijdoningizga quloq solmoq (ich-tuygʻusiga amal qilmoq)", "defEn": "to act according to your sense of right and wrong", "example": "You must follow your conscience, even when it is hard." },
-    { "en": "a cause greater than yourself", "pos": "phrase", "uz": "oʻzingizdan kattaroq maqsad (gʻoya)", "defEn": "a goal or purpose bigger than your own interests", "example": "Dedicate yourself to a cause greater than yourself." },
-    { "en": "a paradox", "pos": "n", "uz": "paradoks (bir vaqtda qarama-qarshi koʻrinadigan haqiqat)", "defEn": "two opposite things that are both true at once", "example": "It's a paradox: helping others helps you the most." },
-    { "en": "to find meaning (in something)", "pos": "phrase", "uz": "maʼno topmoq (biror narsada)", "defEn": "to discover a reason or purpose that matters to you", "example": "Try to find meaning in learning English." }
+    {
+      "en": "to admonish (someone)",
+      "pos": "v",
+      "uz": "qattiq undamoq, tanbeh berib chorlamoq",
+      "defEn": "to strongly urge or tell someone to do something",
+      "example": "Frankl admonished his students not to aim at success."
+    },
+    {
+      "en": "to pursue (something)",
+      "pos": "v",
+      "uz": "quvmoq, ortidan yugurib erishishga urinmoq",
+      "defEn": "to chase something and try hard to get it",
+      "example": "Happiness cannot be pursued directly."
+    },
+    {
+      "en": "to ensue",
+      "pos": "v",
+      "uz": "keyin yuz bermoq, natijada kelib chiqmoq",
+      "defEn": "to happen afterwards as a result",
+      "example": "Success will ensue if you focus on a bigger goal."
+    },
+    {
+      "en": "an unintended side effect",
+      "pos": "phrase",
+      "uz": "koʻzda tutilmagan yon taʼsir",
+      "defEn": "an extra result you did not plan for",
+      "example": "Happiness is an unintended side effect of helping others."
+    },
+    {
+      "en": "an unintended consequence",
+      "pos": "phrase",
+      "uz": "koʻzda tutilmagan oqibat",
+      "defEn": "a result you did not want or expect",
+      "example": "Eating only steak had an unintended consequence."
+    },
+    {
+      "en": "a byproduct (of)",
+      "pos": "n",
+      "uz": "qoʻshimcha natija, yon mahsul",
+      "defEn": "an extra thing produced besides the main one",
+      "example": "Success is a byproduct of serving a bigger cause."
+    },
+    {
+      "en": "to follow your conscience",
+      "pos": "phrase",
+      "uz": "vijdoningizga quloq solmoq (ich-tuygʻusiga amal qilmoq)",
+      "defEn": "to act according to your sense of right and wrong",
+      "example": "You must follow your conscience, even when it is hard."
+    },
+    {
+      "en": "a cause greater than yourself",
+      "pos": "phrase",
+      "uz": "oʻzingizdan kattaroq maqsad (gʻoya)",
+      "defEn": "a goal or purpose bigger than your own interests",
+      "example": "Dedicate yourself to a cause greater than yourself."
+    },
+    {
+      "en": "a paradox",
+      "pos": "n",
+      "uz": "paradoks (bir vaqtda qarama-qarshi koʻrinadigan haqiqat)",
+      "defEn": "two opposite things that are both true at once",
+      "example": "It's a paradox: helping others helps you the most."
+    },
+    {
+      "en": "to find meaning (in something)",
+      "pos": "phrase",
+      "uz": "maʼno topmoq (biror narsada)",
+      "defEn": "to discover a reason or purpose that matters to you",
+      "example": "Try to find meaning in learning English."
+    }
   ],
   "englishpod": {
     "title": "The Office — Interview Skills: Education Background",
@@ -122,14 +230,46 @@
       "en": "In this dialogue Rebecca talks about her education and volunteering in a job interview — she calls helping the homeless “really fulfilling.” It fits Frankl's idea: serving something bigger gives life meaning. Why do you think volunteering feels fulfilling?"
     },
     "keyVocab": [
-      { "en": "major", "uz": "asosiy yoʻnalish (universitetdagi asosiy fan)", "defEn": "the main subject you study at university" },
-      { "en": "minor", "uz": "qoʻshimcha yoʻnalish (ikkinchi fan)", "defEn": "a second, smaller subject you study at university" },
-      { "en": "distinction", "uz": "aʼlo darajali baho, imtiyozli natija", "defEn": "a mark or award given for excellent academic work" },
-      { "en": "a bookworm", "uz": "kitobga oʻch odam, kitob kuyunchagi", "defEn": "a person who loves reading and studying" },
-      { "en": "to pay off", "uz": "oʻzini oqlamoq, samara bermoq", "defEn": "to bring a good result after effort" },
-      { "en": "keen on (something)", "uz": "biror narsaga ishtiyoqmand, qiziqadigan", "defEn": "very interested in or eager to do something" },
-      { "en": "to volunteer", "uz": "koʻngilli boʻlmoq (majburanmas, tekin yordam bermoq)", "defEn": "to do something willingly without being forced or paid" },
-      { "en": "fulfilling", "uz": "qoniqish beruvchi, mamnun qiladigan", "defEn": "making you feel happy and satisfied" }
+      {
+        "en": "major",
+        "uz": "asosiy yoʻnalish (universitetdagi asosiy fan)",
+        "defEn": "the main subject you study at university"
+      },
+      {
+        "en": "minor",
+        "uz": "qoʻshimcha yoʻnalish (ikkinchi fan)",
+        "defEn": "a second, smaller subject you study at university"
+      },
+      {
+        "en": "distinction",
+        "uz": "aʼlo darajali baho, imtiyozli natija",
+        "defEn": "a mark or award given for excellent academic work"
+      },
+      {
+        "en": "a bookworm",
+        "uz": "kitobga oʻch odam, kitob kuyunchagi",
+        "defEn": "a person who loves reading and studying"
+      },
+      {
+        "en": "to pay off",
+        "uz": "oʻzini oqlamoq, samara bermoq",
+        "defEn": "to bring a good result after effort"
+      },
+      {
+        "en": "keen on (something)",
+        "uz": "biror narsaga ishtiyoqmand, qiziqadigan",
+        "defEn": "very interested in or eager to do something"
+      },
+      {
+        "en": "to volunteer",
+        "uz": "koʻngilli boʻlmoq (majburanmas, tekin yordam bermoq)",
+        "defEn": "to do something willingly without being forced or paid"
+      },
+      {
+        "en": "fulfilling",
+        "uz": "qoniqish beruvchi, mamnun qiladigan",
+        "defEn": "making you feel happy and satisfied"
+      }
     ]
   },
   "sixmin": {
@@ -139,26 +279,54 @@
       {
         "q": "Where is the most isolated inhabited place on the planet?",
         "qUz": "Sayyoradagi eng chekka, odam yashaydigan joy qayerda?",
-        "options": ["McMurdo Station in Antarctica", "Siwa Oasis in Egypt", "Tristan da Cunha in the South Atlantic"],
+        "options": [
+          "McMurdo Station in Antarctica",
+          "Siwa Oasis in Egypt",
+          "Tristan da Cunha in the South Atlantic"
+        ],
         "answerIndex": 2,
         "explanationUz": "Toʻgʻri javob: c) Tristan da Cunha (Janubiy Atlantikadagi orol). Sam a) Antarktida dedi va xato qildi. Orolda 300 dan kam odam yashaydi va u yerga Janubiy Afrikadan kema bilan 6 kun suzib borish kerak."
       }
     ],
     "vocab": [
-      { "en": "isolated", "uz": "chekka, ajralib qolgan (odamlardan uzoq)", "defEn": "far away from other places and people" },
-      { "en": "a stereotype", "uz": "qolip fikr, andoza tasavvur", "defEn": "a fixed, oversimplified idea about a type of person or group" },
-      { "en": "intensely", "uz": "kuchli, qattiq (his qilib)", "defEn": "very strongly" },
-      { "en": "to be plagued by (something)", "uz": "biror narsadan azob chekmoq, tinimsiz bezovta boʻlmoq", "defEn": "to be troubled by something again and again" },
-      { "en": "to figure (something) out", "uz": "aql bilan yechmoq, tushunib olmoq", "defEn": "to understand or find the answer to something" },
-      { "en": "to regulate (emotions)", "uz": "boshqarmoq, jilovlamoq (his-tuygʻuni)", "defEn": "to control something so it stays balanced" }
+      {
+        "en": "isolated",
+        "uz": "chekka, ajralib qolgan (odamlardan uzoq)",
+        "defEn": "far away from other places and people"
+      },
+      {
+        "en": "a stereotype",
+        "uz": "qolip fikr, andoza tasavvur",
+        "defEn": "a fixed, oversimplified idea about a type of person or group"
+      },
+      {
+        "en": "intensely",
+        "uz": "kuchli, qattiq (his qilib)",
+        "defEn": "very strongly"
+      },
+      {
+        "en": "to be plagued by (something)",
+        "uz": "biror narsadan azob chekmoq, tinimsiz bezovta boʻlmoq",
+        "defEn": "to be troubled by something again and again"
+      },
+      {
+        "en": "to figure (something) out",
+        "uz": "aql bilan yechmoq, tushunib olmoq",
+        "defEn": "to understand or find the answer to something"
+      },
+      {
+        "en": "to regulate (emotions)",
+        "uz": "boshqarmoq, jilovlamoq (his-tuygʻuni)",
+        "defEn": "to control something so it stays balanced"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Viktor Frankl: Finding meaning in life's hardest moments",
-      "channel": "TED-Ed"
+      "id": "y9Trdafp83U",
+      "title": "There's more to life than being happy | Emily Esfahani Smith | TED",
+      "channel": "TED"
     }
   ],
   "speakingPrompt": {

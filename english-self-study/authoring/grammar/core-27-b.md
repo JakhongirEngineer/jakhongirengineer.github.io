@@ -1,4 +1,4 @@
-Bu darsning POV hikoyasida Inca uysizlar uchun kurashadi va oxir-oqibat gʻalaba qozonadi. Endi orqaga qarab, uning yoʻlini tahlil qilaylik: *"She **must have** believed in her idea. Rich people **can't have** understood it at first. She **might have** felt alone many times."* Bu — **oʻtmish xulosasi**: dalilga qarab oʻtmish haqida taxmin qilish. L05'da biz *hozir* haqida xulosa chiqargan edik (*She must be tired*); endi shu fikrni **oʻtmishga** olib chiqamiz: **must have / might have / can't have + V3**.
+Bu darsning POV hikoyasida Inca uysizlar uchun kurashadi va oxir-oqibat gʻalaba qozonadi. Endi orqaga qarab, uning yoʻlini tahlil qilaylik: *"She **must have** believed in her idea. Rich people **can't have** understood it at first. She **might have** felt alone many times."* Bu — **oʻtmish xulosasi**: dalilga qarab oʻtmish haqida taxmin qilish. L05ʼda biz *hozir* haqida xulosa chiqargan edik (*She must be tired*); endi shu fikrni **oʻtmishga** olib chiqamiz: **must have / might have / can't have + V3**.
 
 ### Uch daraja: qanchalik ishonasiz?
 

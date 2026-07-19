@@ -95,11 +95,33 @@ async function isLive(key, size) {
   } catch { return false; }
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function putObject(key, src, env) {
   const body = readFileSync(src);
-  const { url, headers } = signedHeaders({ method: "PUT", endpoint: env.R2_S3_API_ENDPOINT, key, body, env });
-  const r = await fetch(url, { method: "PUT", headers, body });
-  if (!r.ok) throw new Error(`PUT ${key} → ${r.status} ${r.statusText}: ${(await r.text()).slice(0, 200)}`);
+  let lastErr;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      const { url, headers } = signedHeaders({ method: "PUT", endpoint: env.R2_S3_API_ENDPOINT, key, body, env });
+      const r = await fetch(url, { method: "PUT", headers, body });
+      if (r.ok) return;
+      lastErr = new Error(`PUT ${key} → ${r.status} ${r.statusText}: ${(await r.text()).slice(0, 160)}`);
+    } catch (e) { lastErr = e; }
+    if (attempt < 4) await sleep(400 * attempt);   // transient-error backoff
+  }
+  throw lastErr;
+}
+
+// Run `worker` over `items` with at most `n` in flight; collect {ok,fail}.
+async function pool(items, n, worker) {
+  let i = 0, ok = 0; const failures = [];
+  await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => {
+    while (i < items.length) {
+      const item = items[i++];
+      try { await worker(item); ok++; } catch (e) { failures.push(e.message); }
+    }
+  }));
+  return { ok, failures };
 }
 
 async function selftest(env) {
@@ -120,22 +142,37 @@ async function main() {
 
   const go = args.includes("--go");
   const force = args.includes("--force");
-  const files = walkFiles(STAGING_DIR).sort();
+  const files = walkFiles(STAGING_DIR).sort().map((src) => ({ src, key: relRoot(src).replace(/^_media_staging\//, ""), size: statSync(src).size }));
   if (!files.length) return fail("upload-media: _media_staging/ is empty — run stage-media first");
   step(`upload-media → R2 (${BUCKET})  ${files.length} objects${go ? (force ? ", FORCE" : "") : ", DRY RUN"}`);
 
-  let uploaded = 0, skipped = 0, wouldUpload = 0, bytes = 0;
-  for (const src of files) {
-    const key = relRoot(src).replace(/^_media_staging\//, "");
-    const size = statSync(src).size;
-    if (!force && await isLive(key, size)) { skipped++; info(`= ${key} (already live)`); continue; }
-    if (!go) { wouldUpload++; bytes += size; log(`  would upload  ${key}  (${(size / 1048576).toFixed(1)} MB)`); continue; }
-    await putObject(key, src, env);
-    uploaded++; bytes += size;
-    info(`+ ${key}  (${(size / 1048576).toFixed(1)} MB)`);
+  // Parallel skip-check against the public domain (unless --force).
+  let pending = files;
+  let skipped = 0;
+  if (!force) {
+    const live = await pool(files, 16, async (f) => { f._live = await isLive(f.key, f.size); });
+    if (live.failures.length) warn(`${live.failures.length} skip-checks errored (will attempt upload)`);
+    pending = files.filter((f) => !f._live);
+    skipped = files.length - pending.length;
   }
-  if (go) ok(`upload-media done: ${uploaded} uploaded, ${skipped} already live (${(bytes / 1048576).toFixed(0)} MB)`);
-  else ok(`dry-run: ${wouldUpload} to upload (${(bytes / 1048576).toFixed(0)} MB), ${skipped} already live. Re-run with --go to publish.`);
+  const pendBytes = pending.reduce((s, f) => s + f.size, 0);
+
+  if (!go) {
+    for (const f of pending) log(`  would upload  ${f.key}  (${(f.size / 1048576).toFixed(1)} MB)`);
+    return ok(`dry-run: ${pending.length} to upload (${(pendBytes / 1048576).toFixed(0)} MB), ${skipped} already live. Re-run with --go to publish.`);
+  }
+
+  let done = 0;
+  const res = await pool(pending, 8, async (f) => {
+    await putObject(f.key, f.src, env);
+    done++;
+    if (done % 25 === 0 || done === pending.length) info(`  … ${done}/${pending.length} uploaded`);
+  });
+  if (res.failures.length) {
+    for (const m of res.failures.slice(0, 10)) warn(m);
+    return fail(`upload-media: ${res.failures.length} object(s) failed after retries (${res.ok} uploaded, ${skipped} already live). Re-run to resume (skips live).`);
+  }
+  ok(`upload-media done: ${res.ok} uploaded, ${skipped} already live (${(pendBytes / 1048576).toFixed(0)} MB @ $0 egress)`);
 }
 
 main().catch((e) => fail(e.message));

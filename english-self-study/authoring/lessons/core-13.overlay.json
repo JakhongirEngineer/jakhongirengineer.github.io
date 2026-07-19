@@ -3,7 +3,13 @@
   "title": "Walden",
   "titleUz": "Walden — soddaroq yashash",
   "level": "B1",
-  "tags": ["simplicity", "minimalism", "comparatives", "zero-article", "thoreau"],
+  "tags": [
+    "simplicity",
+    "minimalism",
+    "comparatives",
+    "zero-article",
+    "thoreau"
+  ],
   "intro": {
     "uz": "Walden — Henry David Thoreauning oʻrmonda soddaroq yashab oʻtkazgan tajribasi haqidagi kitob. Asosiy gʻoya: kamroq narsa bilan yashang, koʻp narsaga quvmang, hayotni soddalashtiring. Bu haftaning ikki grammatik mavzusi shu gʻoyaning tili: kamayish qiyoslari (less / fewer / more simply) va umumiy maʼnodagi nol artikl (Nature, life, simplicity — artiklsiz).",
     "en": "Walden is Henry David Thoreau's book about his experiment living simply in the woods. The core idea: need less, own fewer things, live more simply. This week's two grammar topics are the language of that idea: comparatives of reduction (less / fewer / more simply) and the zero / generic article (Nature, life, simplicity — with no article)."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbek tilida hammasi bitta soʻz — “kam” yoki “kamroq”: “kamroq pul”, “kamroq narsa”. Ingliz tili esa nimani kamaytirayotganingizga qarab ikkiga ajratadi: sanaladigan koʻplik ot bilan “fewer” (fewer things), sanab boʻlmaydigan ot bilan “less” (less money). Feʼlni soddalashtirsangiz esa ravish keladi: “live more simply”.",
       "errorFixUz": "❌ less things / less problems. ✅ fewer things / fewer problems. Sanaladigan koʻplik ot bilan “fewer”; “less” faqat sanab boʻlmaydigan ot bilan (less time, less stress). Sinov: otni sanay olsangiz — fewer, aks holda — less.",
       "examples": [
-        { "en": "Thoreau owned fewer things than his neighbours.", "uz": "Thoreau qoʻshnilariga qaraganda kamroq narsaga ega edi." },
-        { "en": "When you simplify your life, you have less stress.", "uz": "Hayotingizni soddalashtirsangiz, tashvishingiz kamayadi." },
-        { "en": "He decided to live more simply.", "uz": "U soddaroq yashashga qaror qildi." }
+        {
+          "en": "Thoreau owned fewer things than his neighbours.",
+          "uz": "Thoreau qoʻshnilariga qaraganda kamroq narsaga ega edi."
+        },
+        {
+          "en": "When you simplify your life, you have less stress.",
+          "uz": "Hayotingizni soddalashtirsangiz, tashvishingiz kamayadi."
+        },
+        {
+          "en": "He decided to live more simply.",
+          "uz": "U soddaroq yashashga qaror qildi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Thoreau wanted to own ___ things.",
-          "options": ["fewer", "less", "lesser"],
+          "options": [
+            "fewer",
+            "less",
+            "lesser"
+          ],
           "answer": "fewer",
           "hintUz": "things sanaladi (koʻplik) → fewer"
         },
         {
           "type": "gap-fill",
           "prompt": "A simple life means ___ stress.",
-          "options": ["less", "fewer", "least"],
+          "options": [
+            "less",
+            "fewer",
+            "least"
+          ],
           "answer": "less",
           "hintUz": "stress sanab boʻlmaydi → less"
         },
         {
           "type": "gap-fill",
           "prompt": "He decided to live ___.",
-          "options": ["more simply", "more simple", "simplier"],
+          "options": [
+            "more simply",
+            "more simple",
+            "simplier"
+          ],
           "answer": "more simply",
           "hintUz": "feʼlni tasvirlaydi → ravish: more simply (more simple emas)"
         },
@@ -67,29 +94,50 @@
       "contrastUz": "Oʻzbek tilida artikl umuman yoʻq — “erkinlik”, “tabiat”, “pul” hamisha yalangʻoch keladi. Ingliz tili esa mavhum yoki umumiy maʼnodagi otni artiklsiz qoldiradi (Freedom is important), aynan aniq narsani esa “the” bilan beradi (the freedom of this country). Umumiy boʻlsa — hech narsa qoʻshmang.",
       "errorFixUz": "❌ The freedom is important. The nature teaches us. ✅ Freedom is important. Nature teaches us. Mavhum/umumiy tushunchaga artikl qoʻyilmaydi; “the” faqat aniq, konkret narsa uchun (the nature of this forest).",
       "examples": [
-        { "en": "Simplicity is freedom.", "uz": "Soddalik — bu erkinlik." },
-        { "en": "Nature teaches us to live simply.", "uz": "Tabiat bizni soddaroq yashashga oʻrgatadi." },
-        { "en": "We don't need so much money to be happy.", "uz": "Baxtli boʻlish uchun bizga koʻp pul kerak emas." }
+        {
+          "en": "Simplicity is freedom.",
+          "uz": "Soddalik — bu erkinlik."
+        },
+        {
+          "en": "Nature teaches us to live simply.",
+          "uz": "Tabiat bizni soddaroq yashashga oʻrgatadi."
+        },
+        {
+          "en": "We don't need so much money to be happy.",
+          "uz": "Baxtli boʻlish uchun bizga koʻp pul kerak emas."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "___ teaches us to live simply, wrote Thoreau.",
-          "options": ["Nature", "The nature", "A nature"],
+          "options": [
+            "Nature",
+            "The nature",
+            "A nature"
+          ],
           "answer": "Nature",
           "hintUz": "umumiy, mavhum maʼno → artiklsiz: Nature"
         },
         {
           "type": "gap-fill",
           "prompt": "Thoreau believed ___ is more important than money.",
-          "options": ["happiness", "the happiness", "a happiness"],
+          "options": [
+            "happiness",
+            "the happiness",
+            "a happiness"
+          ],
           "answer": "happiness",
           "hintUz": "mavhum ot, umuman → artiklsiz: happiness"
         },
         {
           "type": "gap-fill",
           "prompt": "We don't need so much ___ to be happy.",
-          "options": ["money", "a money", "the money"],
+          "options": [
+            "money",
+            "a money",
+            "the money"
+          ],
           "answer": "money",
           "hintUz": "sanab boʻlmaydigan ot, umumiy maʼno → artiklsiz: money"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "to advance (towards something)", "pos": "v", "uz": "oldinga intilmoq, (orzu sari) harakat qilmoq", "defEn": "to move forward, especially towards a goal", "example": "Advance confidently in the direction of your dreams." },
-    { "en": "to endeavor (to do something)", "pos": "v", "uz": "urinmoq, saʼy-harakat qilmoq", "defEn": "to try or attempt to do something", "example": "Endeavor to live the life you have imagined." },
-    { "en": "in common hours", "pos": "phrase", "uz": "oddiy kunlarda, kundalik hayotda", "defEn": "during normal, everyday times", "example": "You will meet with success unexpected in common hours." },
-    { "en": "liberal", "pos": "adj", "uz": "moslashuvchan, erkin, keng (bu yerda: siyosiy emas)", "defEn": "flexible, free, open and tolerant", "example": "New, more liberal laws will begin to appear around you." },
-    { "en": "to establish (something)", "pos": "v", "uz": "barpo qilmoq, tashkil etmoq, yaratmoq", "defEn": "to create or set something up", "example": "She established a team of builders." },
-    { "en": "in proportion as", "pos": "phrase", "uz": "...ga yarasha, teng ravishda, bir xil miqdorda", "defEn": "in the same amount as; equally with", "example": "In proportion as you simplify your life, it becomes easier." },
-    { "en": "to build castles in the air", "pos": "phrase", "uz": "katta orzu qilmoq, xayolan qasr qurmoq", "defEn": "to have big dreams or ambitions", "example": "Don't be afraid to build castles in the air." },
-    { "en": "to put the foundations under (a dream)", "pos": "phrase", "uz": "orzu ostiga poydevor qoʻymoq (amaliy qadam tashlamoq)", "defEn": "to support a dream with real action", "example": "Dream big, then put the foundations under it." },
-    { "en": "to simplify (your life)", "pos": "v", "uz": "soddalashtirmoq, oddiy qilmoq", "defEn": "to make something less complex", "example": "Thoreau chose to simplify his life." },
-    { "en": "to live simply", "pos": "phrase", "uz": "soddaroq yashamoq, kam narsa bilan yashamoq", "defEn": "to live with fewer needs and possessions", "example": "He learned to live simply in the woods." }
+    {
+      "en": "to advance (towards something)",
+      "pos": "v",
+      "uz": "oldinga intilmoq, (orzu sari) harakat qilmoq",
+      "defEn": "to move forward, especially towards a goal",
+      "example": "Advance confidently in the direction of your dreams."
+    },
+    {
+      "en": "to endeavor (to do something)",
+      "pos": "v",
+      "uz": "urinmoq, saʼy-harakat qilmoq",
+      "defEn": "to try or attempt to do something",
+      "example": "Endeavor to live the life you have imagined."
+    },
+    {
+      "en": "in common hours",
+      "pos": "phrase",
+      "uz": "oddiy kunlarda, kundalik hayotda",
+      "defEn": "during normal, everyday times",
+      "example": "You will meet with success unexpected in common hours."
+    },
+    {
+      "en": "liberal",
+      "pos": "adj",
+      "uz": "moslashuvchan, erkin, keng (bu yerda: siyosiy emas)",
+      "defEn": "flexible, free, open and tolerant",
+      "example": "New, more liberal laws will begin to appear around you."
+    },
+    {
+      "en": "to establish (something)",
+      "pos": "v",
+      "uz": "barpo qilmoq, tashkil etmoq, yaratmoq",
+      "defEn": "to create or set something up",
+      "example": "She established a team of builders."
+    },
+    {
+      "en": "in proportion as",
+      "pos": "phrase",
+      "uz": "...ga yarasha, teng ravishda, bir xil miqdorda",
+      "defEn": "in the same amount as; equally with",
+      "example": "In proportion as you simplify your life, it becomes easier."
+    },
+    {
+      "en": "to build castles in the air",
+      "pos": "phrase",
+      "uz": "katta orzu qilmoq, xayolan qasr qurmoq",
+      "defEn": "to have big dreams or ambitions",
+      "example": "Don't be afraid to build castles in the air."
+    },
+    {
+      "en": "to put the foundations under (a dream)",
+      "pos": "phrase",
+      "uz": "orzu ostiga poydevor qoʻymoq (amaliy qadam tashlamoq)",
+      "defEn": "to support a dream with real action",
+      "example": "Dream big, then put the foundations under it."
+    },
+    {
+      "en": "to simplify (your life)",
+      "pos": "v",
+      "uz": "soddalashtirmoq, oddiy qilmoq",
+      "defEn": "to make something less complex",
+      "example": "Thoreau chose to simplify his life."
+    },
+    {
+      "en": "to live simply",
+      "pos": "phrase",
+      "uz": "soddaroq yashamoq, kam narsa bilan yashamoq",
+      "defEn": "to live with fewer needs and possessions",
+      "example": "He learned to live simply in the woods."
+    }
   ],
   "englishpod": {
     "title": "Daily Life – Heating",
@@ -122,14 +230,46 @@
       "en": "In this dialogue a father tells his child not to overheat the house, to bear the cold, and to be grateful — he grew up with just one furnace. It fits the Walden theme: less can be enough for happiness. Do you think living with fewer comforts makes people unhappy?"
     },
     "keyVocab": [
-      { "en": "to turn up (the heat)", "uz": "kuchaytirmoq, balandlatmoq (isitgichni)", "defEn": "to increase the intensity or level of something" },
-      { "en": "to run up (a bill)", "uz": "hisobni oshirib yubormoq, qarz orttirmoq", "defEn": "to acquire a large bill or debt" },
-      { "en": "thermostat", "uz": "termostat (haroratni boshqaruvchi asbob)", "defEn": "a device that controls the temperature" },
-      { "en": "central heating", "uz": "markaziy isitish tizimi", "defEn": "a system that heats a whole building from one source" },
-      { "en": "chilly", "uz": "sovuqroq, salqin", "defEn": "unpleasantly cold" },
-      { "en": "to catch a cold", "uz": "shamollab qolmoq", "defEn": "to become infected with a cold" },
-      { "en": "a furnace", "uz": "pechka, oʻchoq (issiqlik beruvchi)", "defEn": "an enclosed structure that produces strong heat" },
-      { "en": "grateful", "uz": "minnatdor, shukr qiluvchi", "defEn": "thankful; feeling or showing thanks" }
+      {
+        "en": "to turn up (the heat)",
+        "uz": "kuchaytirmoq, balandlatmoq (isitgichni)",
+        "defEn": "to increase the intensity or level of something"
+      },
+      {
+        "en": "to run up (a bill)",
+        "uz": "hisobni oshirib yubormoq, qarz orttirmoq",
+        "defEn": "to acquire a large bill or debt"
+      },
+      {
+        "en": "thermostat",
+        "uz": "termostat (haroratni boshqaruvchi asbob)",
+        "defEn": "a device that controls the temperature"
+      },
+      {
+        "en": "central heating",
+        "uz": "markaziy isitish tizimi",
+        "defEn": "a system that heats a whole building from one source"
+      },
+      {
+        "en": "chilly",
+        "uz": "sovuqroq, salqin",
+        "defEn": "unpleasantly cold"
+      },
+      {
+        "en": "to catch a cold",
+        "uz": "shamollab qolmoq",
+        "defEn": "to become infected with a cold"
+      },
+      {
+        "en": "a furnace",
+        "uz": "pechka, oʻchoq (issiqlik beruvchi)",
+        "defEn": "an enclosed structure that produces strong heat"
+      },
+      {
+        "en": "grateful",
+        "uz": "minnatdor, shukr qiluvchi",
+        "defEn": "thankful; feeling or showing thanks"
+      }
     ]
   },
   "sixmin": {
@@ -139,26 +279,54 @@
       {
         "q": "When were the first mechanical floor cleaners (later vacuum cleaners) invented?",
         "qUz": "Ilk mexanik pol tozalagichlar (keyinchalik changyutgichlar) qachon ixtiro qilingan?",
-        "options": ["the 1860s", "the 1890s", "the 1920s"],
+        "options": [
+          "the 1860s",
+          "the 1890s",
+          "the 1920s"
+        ],
         "answerIndex": 0,
         "explanationUz": "Toʻgʻri javob: a) 1860-yillar. Neil 1890-yillar dedi va xato qildi — Rob toʻgʻri javob 1860-yillar ekanini aytdi."
       }
     ],
     "vocab": [
-      { "en": "floordrobe", "uz": "polga tashlab qoʻyilgan kiyimlar uyumi (hazil soʻz)", "defEn": "a collection of clothes kept untidily on the floor instead of a wardrobe" },
-      { "en": "clutter", "uz": "tartibsizlik, ortiqcha narsalar uyumi", "defEn": "untidiness caused by having too many things" },
-      { "en": "to tackle (a problem)", "uz": "hal qilishga kirishmoq, bartaraf etmoq", "defEn": "to deal with a problem and try to fix it" },
-      { "en": "sentimental", "uz": "hissiy, xotira bogʻliq (aziz)", "defEn": "having an emotional or nostalgic connection" },
-      { "en": "shift", "uz": "oʻzgarish, siljish", "defEn": "a change in behaviour or attitude" },
-      { "en": "make do and mend", "uz": "bor narsa bilan kifoyalanmoq va tuzatib ishlatmoq", "defEn": "to use what you have and fix things rather than buying new ones" }
+      {
+        "en": "floordrobe",
+        "uz": "polga tashlab qoʻyilgan kiyimlar uyumi (hazil soʻz)",
+        "defEn": "a collection of clothes kept untidily on the floor instead of a wardrobe"
+      },
+      {
+        "en": "clutter",
+        "uz": "tartibsizlik, ortiqcha narsalar uyumi",
+        "defEn": "untidiness caused by having too many things"
+      },
+      {
+        "en": "to tackle (a problem)",
+        "uz": "hal qilishga kirishmoq, bartaraf etmoq",
+        "defEn": "to deal with a problem and try to fix it"
+      },
+      {
+        "en": "sentimental",
+        "uz": "hissiy, xotira bogʻliq (aziz)",
+        "defEn": "having an emotional or nostalgic connection"
+      },
+      {
+        "en": "shift",
+        "uz": "oʻzgarish, siljish",
+        "defEn": "a change in behaviour or attitude"
+      },
+      {
+        "en": "make do and mend",
+        "uz": "bor narsa bilan kifoyalanmoq va tuzatib ishlatmoq",
+        "defEn": "to use what you have and fix things rather than buying new ones"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Henry David Thoreau and the wisdom of Walden",
-      "channel": "The School of Life"
+      "id": "nS4BriU-lkU",
+      "title": "Less stuff, more happiness - Graham Hill",
+      "channel": "TED-Ed"
     }
   ],
   "speakingPrompt": {

@@ -3,7 +3,13 @@
   "title": "Be a Champion",
   "titleUz": "Chempion boʻl",
   "level": "B1-B2",
-  "tags": ["mindset", "comparatives", "superlatives", "past-deduction", "motivation"],
+  "tags": [
+    "mindset",
+    "comparatives",
+    "superlatives",
+    "past-deduction",
+    "motivation"
+  ],
   "intro": {
     "uz": "Chempion — gʻalaba qozongan emas, balki toʻgʻri va yaxshi narsa uchun kurashadigan inson. Seth Godin aytadi: oddiy boʻlma, ajralib tur. Bu haftaning ikki grammatikasi shu gʻoyaga xizmat qiladi: qiyoslashning yuqori shakllari (by far / one of the most / the best … ever) va oʻtmish xulosasi (must have / can't have + V3). Inca haqidagi POV hikoyada ularni his qilasiz.",
     "en": "A champion is not just a winner — it's someone who fights for what is right and good. Seth Godin says: don't be normal, be remarkable. This week's two grammar topics serve that idea: advanced comparatives and superlatives (by far / one of the most / the best … ever) and past deduction (must have / can't have + V3). You'll feel both in the POV story about Inca."
@@ -23,29 +29,50 @@
       "contrastUz": "Oʻzbekcha superlativ bitta soʻz — “eng” bilan yasaladi (eng zoʻr), qiyosiy esa “-roq” bilan (zoʻrroq). Ingliz tili qisqa sifatga -est, uzun sifatga most qoʻshadi va oldiga majburiy “the” qoʻyadi (the greatest). “eng … laridan biri” aynan “one of the most + koʻplik ot” boʻladi, va “ancha, beqiyos” = by far.",
       "errorFixUz": "❌ She is one of the best writer. He is the most great. ✅ She is one of the best writers. He is the greatest. “one of the …” dan keyin ot KOʻPLIKda; qisqa sifatda “most” emas, -est (great → greatest).",
       "examples": [
-        { "en": "Being a champion is by far the best choice for your career.", "uz": "Chempion boʻlish — karyerangiz uchun ancha zoʻr tanlov." },
-        { "en": "Seth Godin is one of the most respected writers in marketing.", "uz": "Seth Godin — marketingdagi eng hurmatli yozuvchilardan biri." },
-        { "en": "That was the greatest risk Inca had ever taken.", "uz": "Bu — Inca qilgan eng katta tavakkal edi." }
+        {
+          "en": "Being a champion is by far the best choice for your career.",
+          "uz": "Chempion boʻlish — karyerangiz uchun ancha zoʻr tanlov."
+        },
+        {
+          "en": "Seth Godin is one of the most respected writers in marketing.",
+          "uz": "Seth Godin — marketingdagi eng hurmatli yozuvchilardan biri."
+        },
+        {
+          "en": "That was the greatest risk Inca had ever taken.",
+          "uz": "Bu — Inca qilgan eng katta tavakkal edi."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "Champions are ___ the most valuable people in any company.",
-          "options": ["by far", "by long", "by most"],
+          "options": [
+            "by far",
+            "by long",
+            "by most"
+          ],
           "answer": "by far",
           "hintUz": "farqni kuchaytirish (ancha, beqiyos) → by far + superlativ"
         },
         {
           "type": "gap-fill",
           "prompt": "She is one of the most creative ___ I know.",
-          "options": ["people", "person", "peoples"],
+          "options": [
+            "people",
+            "person",
+            "peoples"
+          ],
           "answer": "people",
           "hintUz": "one of the most … dan keyin ot KOʻPLIKda: people (person emas)"
         },
         {
           "type": "gap-fill",
           "prompt": "It was the best decision I have ___ made.",
-          "options": ["ever", "never", "always"],
+          "options": [
+            "ever",
+            "never",
+            "always"
+          ],
           "answer": "ever",
           "hintUz": "the best … ever / the best … I have ever + V3 — tajribadagi eng yuqori nuqta"
         },
@@ -64,32 +91,53 @@
       "titleEn": "Modals of past deduction",
       "bandLifter": "IELTS Speaking & Writing — explain past events with logical deduction",
       "cefrCanDo": "B2: I can make deductions about the past (must / might / can't have + V3)",
-      "contrastUz": "Oʻzbekchada bitta ibora — “-gan boʻlsa kerak / boʻlishi mumkin” — barcha darajani beradi. Ingliz tili esa ishonch darajasiga qarab uch xil modalni V3 bilan ishlatadi: must have (aminman), might/may have (ehtimol), can't have (mumkin emas). L05'dagi hozirgi xulosa (must be) endi oʻtmishga koʻchadi (must have been).",
+      "contrastUz": "Oʻzbekchada bitta ibora — “-gan boʻlsa kerak / boʻlishi mumkin” — barcha darajani beradi. Ingliz tili esa ishonch darajasiga qarab uch xil modalni V3 bilan ishlatadi: must have (aminman), might/may have (ehtimol), can't have (mumkin emas). L05ʼdagi hozirgi xulosa (must be) endi oʻtmishga koʻchadi (must have been).",
       "errorFixUz": "❌ She must worked hard. He mustn't have known. ✅ She must have worked hard. He can't have known. “have” tushib qolmasin (modal + have + V3); inkor xulosa uchun mustn't have EMAS, can't have.",
       "examples": [
-        { "en": "Inca must have believed in her idea.", "uz": "Inca oʻz gʻoyasiga ishongan boʻlsa kerak." },
-        { "en": "The rich people can't have liked the plan at first.", "uz": "Boylar rejani boshida yoqtirgan boʻlishi mumkin emas." },
-        { "en": "She might have felt alone at times.", "uz": "U baʼzida oʻzini yolgʻiz his qilgan boʻlishi mumkin." }
+        {
+          "en": "Inca must have believed in her idea.",
+          "uz": "Inca oʻz gʻoyasiga ishongan boʻlsa kerak."
+        },
+        {
+          "en": "The rich people can't have liked the plan at first.",
+          "uz": "Boylar rejani boshida yoqtirgan boʻlishi mumkin emas."
+        },
+        {
+          "en": "She might have felt alone at times.",
+          "uz": "U baʼzida oʻzini yolgʻiz his qilgan boʻlishi mumkin."
+        }
       ],
       "exercises": [
         {
           "type": "gap-fill",
           "prompt": "The room is empty — everyone ___ home already.",
-          "options": ["must have gone", "must go", "must going"],
+          "options": [
+            "must have gone",
+            "must go",
+            "must going"
+          ],
           "answer": "must have gone",
           "hintUz": "dalilga qarab aniq xulosa → must have + V3 (gone)"
         },
         {
           "type": "gap-fill",
           "prompt": "She trained every single day, so she ___ lazy.",
-          "options": ["can't have been", "mustn't have been", "can't be been"],
+          "options": [
+            "can't have been",
+            "mustn't have been",
+            "can't be been"
+          ],
           "answer": "can't have been",
           "hintUz": "inkor xulosa (mumkin emas) → can't have + V3 (mustn't have emas)"
         },
         {
           "type": "gap-fill",
           "prompt": "He didn't answer the phone — he ___ asleep.",
-          "options": ["might have been", "might been", "might be been"],
+          "options": [
+            "might have been",
+            "might been",
+            "might be been"
+          ],
           "answer": "might have been",
           "hintUz": "ehtimol (aniq emas) → might have + V3 (been)"
         },
@@ -103,16 +151,76 @@
     }
   ],
   "vocab": [
-    { "en": "a champion (for someone)", "pos": "n", "uz": "himoyachi, kurashchi (yaxshilik uchun kurashadigan inson)", "defEn": "a person who fights for or defends what is good", "example": "Inca was a champion for poor people." },
-    { "en": "to champion (something)", "pos": "v", "uz": "kurashmoq, yoqlab chiqmoq, himoya qilmoq", "defEn": "to fight for or defend something good", "example": "Champion an innovation at your job." },
-    { "en": "an innovation", "pos": "n", "uz": "yangilik, katta va tez yaxshilanish", "defEn": "a sudden, big improvement or new idea", "example": "Building houses from plastic bottles was a great innovation." },
-    { "en": "to dare (someone)", "pos": "v", "uz": "chorlamoq, chaqiriq tashlamoq, jurʼat qilishga undamoq", "defEn": "to challenge or encourage someone to do something bold", "example": "I dare you to do something great." },
-    { "en": "the status quo", "pos": "phrase", "uz": "hozirgi holat, anʼanaviy tartib, eski yoʻl", "defEn": "the current, traditional situation; the normal old way", "example": "Being a champion is about overcoming the status quo." },
-    { "en": "to overcome the status quo", "pos": "phrase", "uz": "eski tartibni yengib oʻtmoq", "defEn": "to fight against and move past the traditional way", "example": "Success means overcoming the status quo and inertia." },
-    { "en": "inertia", "pos": "n", "uz": "oʻzgarishga qarshilik, joyidan siljimaslik (harakatsizlik)", "defEn": "resistance to change or to starting to move", "example": "People have inertia; they resist change at first." },
-    { "en": "to embrace (an idea)", "pos": "v", "uz": "quvonch bilan qabul qilmoq, quchoq ochib kutmoq", "defEn": "to accept something happily and fully", "example": "The rich people finally embraced her idea." },
-    { "en": "remarkable / outstanding", "pos": "adj", "uz": "ajoyib, eʼtiborga loyiq, ajralib turadigan", "defEn": "special and impressive; not ordinary", "example": "Will you be remarkable, or careful and normal?" },
-    { "en": "mediocre", "pos": "adj", "uz": "oʻrtacha, oddiy, hech nimasi yoʻq", "defEn": "only average; not good and not bad", "example": "Don't be careful, normal and mediocre." }
+    {
+      "en": "a champion (for someone)",
+      "pos": "n",
+      "uz": "himoyachi, kurashchi (yaxshilik uchun kurashadigan inson)",
+      "defEn": "a person who fights for or defends what is good",
+      "example": "Inca was a champion for poor people."
+    },
+    {
+      "en": "to champion (something)",
+      "pos": "v",
+      "uz": "kurashmoq, yoqlab chiqmoq, himoya qilmoq",
+      "defEn": "to fight for or defend something good",
+      "example": "Champion an innovation at your job."
+    },
+    {
+      "en": "an innovation",
+      "pos": "n",
+      "uz": "yangilik, katta va tez yaxshilanish",
+      "defEn": "a sudden, big improvement or new idea",
+      "example": "Building houses from plastic bottles was a great innovation."
+    },
+    {
+      "en": "to dare (someone)",
+      "pos": "v",
+      "uz": "chorlamoq, chaqiriq tashlamoq, jurʼat qilishga undamoq",
+      "defEn": "to challenge or encourage someone to do something bold",
+      "example": "I dare you to do something great."
+    },
+    {
+      "en": "the status quo",
+      "pos": "phrase",
+      "uz": "hozirgi holat, anʼanaviy tartib, eski yoʻl",
+      "defEn": "the current, traditional situation; the normal old way",
+      "example": "Being a champion is about overcoming the status quo."
+    },
+    {
+      "en": "to overcome the status quo",
+      "pos": "phrase",
+      "uz": "eski tartibni yengib oʻtmoq",
+      "defEn": "to fight against and move past the traditional way",
+      "example": "Success means overcoming the status quo and inertia."
+    },
+    {
+      "en": "inertia",
+      "pos": "n",
+      "uz": "oʻzgarishga qarshilik, joyidan siljimaslik (harakatsizlik)",
+      "defEn": "resistance to change or to starting to move",
+      "example": "People have inertia; they resist change at first."
+    },
+    {
+      "en": "to embrace (an idea)",
+      "pos": "v",
+      "uz": "quvonch bilan qabul qilmoq, quchoq ochib kutmoq",
+      "defEn": "to accept something happily and fully",
+      "example": "The rich people finally embraced her idea."
+    },
+    {
+      "en": "remarkable / outstanding",
+      "pos": "adj",
+      "uz": "ajoyib, eʼtiborga loyiq, ajralib turadigan",
+      "defEn": "special and impressive; not ordinary",
+      "example": "Will you be remarkable, or careful and normal?"
+    },
+    {
+      "en": "mediocre",
+      "pos": "adj",
+      "uz": "oʻrtacha, oddiy, hech nimasi yoʻq",
+      "defEn": "only average; not good and not bad",
+      "example": "Don't be careful, normal and mediocre."
+    }
   ],
   "englishpod": {
     "title": "The Office — Interview Skills: Describing Yourself",
@@ -148,13 +256,41 @@
       "en": "In this dialogue Rebecca describes her strengths in a job interview: focused, hardworking, passionate. Being a champion starts here — presenting yourself as remarkable, not ordinary. Do you think Rebecca will get the job? How would you describe yourself in one sentence?"
     },
     "keyVocab": [
-      { "en": "strengths", "uz": "kuchli tomonlar, ustunliklar", "defEn": "the qualities that make someone effective or useful" },
-      { "en": "focused", "uz": "diqqati jamlangan, ishga berilgan", "defEn": "giving full attention and effort to a specific task" },
-      { "en": "hardworking", "uz": "mehnatkash, tirishqoq", "defEn": "putting a lot of effort into your work" },
-      { "en": "to prove (something)", "uz": "isbotlamoq, dalil bilan koʻrsatmoq", "defEn": "to show the truth of something with evidence" },
-      { "en": "a team-player", "uz": "jamoada yaxshi ishlaydigan inson", "defEn": "a person who works well together with a group" },
-      { "en": "passionate (about)", "uz": "ishtiyoqli, qattiq qiziqadigan", "defEn": "having a lot of interest in or passion for something" },
-      { "en": "passion", "uz": "ishtiyoq, kuchli qiziqish", "defEn": "the strong enthusiasm you feel when doing something" }
+      {
+        "en": "strengths",
+        "uz": "kuchli tomonlar, ustunliklar",
+        "defEn": "the qualities that make someone effective or useful"
+      },
+      {
+        "en": "focused",
+        "uz": "diqqati jamlangan, ishga berilgan",
+        "defEn": "giving full attention and effort to a specific task"
+      },
+      {
+        "en": "hardworking",
+        "uz": "mehnatkash, tirishqoq",
+        "defEn": "putting a lot of effort into your work"
+      },
+      {
+        "en": "to prove (something)",
+        "uz": "isbotlamoq, dalil bilan koʻrsatmoq",
+        "defEn": "to show the truth of something with evidence"
+      },
+      {
+        "en": "a team-player",
+        "uz": "jamoada yaxshi ishlaydigan inson",
+        "defEn": "a person who works well together with a group"
+      },
+      {
+        "en": "passionate (about)",
+        "uz": "ishtiyoqli, qattiq qiziqadigan",
+        "defEn": "having a lot of interest in or passion for something"
+      },
+      {
+        "en": "passion",
+        "uz": "ishtiyoq, kuchli qiziqish",
+        "defEn": "the strong enthusiasm you feel when doing something"
+      }
     ]
   },
   "sixmin": {
@@ -164,26 +300,54 @@
       {
         "q": "The Russia 2018 mascot is a wolf called Zabivaka. What does his name mean in English?",
         "qUz": "Rossiya-2018 timsoli — Zabivaka ismli boʻri. Uning ismi inglizchada nimani anglatadi?",
-        "options": ["The winner", "The one who scores", "Fair play"],
+        "options": [
+          "The winner",
+          "The one who scores",
+          "Fair play"
+        ],
         "answerIndex": 1,
         "explanationUz": "Toʻgʻri javob: b) The one who scores (gol uradigan). Neil a) The winner dedi va xato qildi — Rob oxirida javobni ochdi: “The answer is b) The one who scores.”"
       }
     ],
     "vocab": [
-      { "en": "world-class", "uz": "jahon darajasidagi, eng zoʻrlaridan", "defEn": "among the best in the world" },
-      { "en": "fancy their chances", "uz": "gʻalabaga umid qilmoq, imkoni bor deb hisoblamoq", "defEn": "to think you are likely to succeed, though you might not" },
-      { "en": "get behind (someone)", "uz": "qoʻllab-quvvatlamoq, tarafida turmoq", "defEn": "to support someone, e.g. a team" },
-      { "en": "the underdog", "uz": "gʻalaba ehtimoli kam tomon, kuchsizroq raqib", "defEn": "the team or person considered least likely to win" },
-      { "en": "sportsmanship", "uz": "sportchilik axloqi, halol va adolatli xatti-harakat", "defEn": "fair and honest behaviour in a game or sport" },
-      { "en": "hype", "uz": "shov-shuv, oshirib maqtash (qiziqish uygʻotish uchun)", "defEn": "a lot of talk and publicity to make people interested in something" }
+      {
+        "en": "world-class",
+        "uz": "jahon darajasidagi, eng zoʻrlaridan",
+        "defEn": "among the best in the world"
+      },
+      {
+        "en": "fancy their chances",
+        "uz": "gʻalabaga umid qilmoq, imkoni bor deb hisoblamoq",
+        "defEn": "to think you are likely to succeed, though you might not"
+      },
+      {
+        "en": "get behind (someone)",
+        "uz": "qoʻllab-quvvatlamoq, tarafida turmoq",
+        "defEn": "to support someone, e.g. a team"
+      },
+      {
+        "en": "the underdog",
+        "uz": "gʻalaba ehtimoli kam tomon, kuchsizroq raqib",
+        "defEn": "the team or person considered least likely to win"
+      },
+      {
+        "en": "sportsmanship",
+        "uz": "sportchilik axloqi, halol va adolatli xatti-harakat",
+        "defEn": "fair and honest behaviour in a game or sport"
+      },
+      {
+        "en": "hype",
+        "uz": "shov-shuv, oshirib maqtash (qiziqish uygʻotish uchun)",
+        "defEn": "a lot of talk and publicity to make people interested in something"
+      }
     ]
   },
   "funEnglish": [
     {
       "provider": "youtube",
-      "id": null,
-      "title": "Be remarkable: how champions stand out at work",
-      "channel": "TED"
+      "id": "n4SPwPhWu8g",
+      "title": "How to develop a mindset for peak performance | Marc Cormier | TEDxUKY",
+      "channel": "TEDx Talks"
     }
   ],
   "speakingPrompt": {
