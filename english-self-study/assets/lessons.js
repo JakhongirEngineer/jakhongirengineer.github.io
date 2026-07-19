@@ -1,5 +1,5 @@
 // lessons.js — the Curriculum Map (04 §4.2 / §5.3), code-split like lesson.js.
-// Three phases (Poydevor / Sur'at / Ravonlik) as fixed constants, each with a header
+// Three phases (Foundation / Momentum / Fluency) as fixed constants, each with a header
 // (Uzbek name + CEFR tag + "by the end I can…" line + progress bar) and a lesson CARD
 // for every index.json lesson whose phase matches. Cards read the star tier from the
 // engine (snapshot) and everything else from index.json — NO per-lesson fetch. Soft
@@ -10,7 +10,7 @@
 import { el, icon, t, tf, loadIndex, starCluster } from "./core.js";
 import { snapshot, reviewDueToday } from "./progress.js";
 
-// Phase constants (02 §1 / 04 §4.2). Accents: Poydevor=teal · Sur'at=indigo · Ravonlik=amber (04 §7.2).
+// Phase constants (02 §1 / 04 §4.2). Accents: Foundation=teal · Momentum=indigo · Fluency=amber (04 §7.2).
 const PHASES = [
   { phase: 1, key: "map.phase1", cefr: "A2 → B1", range: "01–10", accent: "teal" },
   { phase: 2, key: "map.phase2", cefr: "B1", range: "11–20", accent: "indigo" },

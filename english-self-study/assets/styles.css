@@ -573,7 +573,7 @@ body.yp-has-dock .main { padding-bottom: calc(var(--bottomnav-h) + 92px + env(sa
 .phase__count { margin-top: -4px; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .phase__coming { padding: 16px; border-radius: 12px; border: 1px dashed var(--border-strong); background: var(--surface); color: var(--muted); text-align: center; }
 .phase__cards { display: flex; flex-direction: column; gap: 12px; }
-/* phase accents: Poydevor=teal (default) · Sur'at=indigo · Ravonlik=amber (04 §7.2) */
+/* phase accents: Foundation=teal (default) · Momentum=indigo · Fluency=amber (04 §7.2) */
 .phase--indigo .phase__badge, .phase--indigo .phase__bar-fill { background: var(--indigo); }
 .phase--indigo .phase__cefr { background: color-mix(in srgb, var(--indigo) 14%, transparent); color: var(--indigo); }
 .phase--amber .phase__badge, .phase--amber .phase__bar-fill { background: var(--amber); }

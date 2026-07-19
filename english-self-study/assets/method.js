@@ -27,7 +27,7 @@ const BLOCKS = [
   { id: "m-rules",    uz: "7 ta qoida",                          en: "The 7 rules" },
   { id: "m-golden",   uz: "Oltin qoida",                         en: "The golden rule" },
   { id: "m-habit",    uz: "Kunlik odat (7 kunlik tsikl)",        en: "The daily habit (7-day cycle)" },
-  { id: "m-pace",     uz: "Surʼatingizni tanlang",              en: "Choose your pace" },
+  { id: "m-pace",     uz: "Ritmingizni tanlang",               en: "Choose your rhythm" },
   { id: "m-alone",    uz: "Yolgʻiz gapirish mashqlari",         en: "Speaking techniques you can do ALONE" },
   { id: "m-listen",   uz: "Chuqur tinglash",                     en: "Deep listening" },
   { id: "m-peak",     uz: "Kuchli holat",                        en: "Peak state" },
@@ -216,7 +216,7 @@ function blockGolden() {
 function blockHabit() {
   const s = msec(3);
   s.append(P(
-    "Bir dars — bir hafta. Har kuni bir xil AJ dars ustida ishlaysiz, lekin diqqat markazi har kuni oʻzgaradi, shuning uchun zerikmaysiz. Quyida tavsiya etilgan 7 kunlik ritm (kuniga ~30–45 daqiqa, Effortless surʼatida). Bu — taklif, majburiyat emas.",
+    "Bir dars — bir hafta. Har kuni bir xil AJ dars ustida ishlaysiz, lekin diqqat markazi har kuni oʻzgaradi, shuning uchun zerikmaysiz. Quyida tavsiya etilgan 7 kunlik ritm (kuniga ~30–45 daqiqa, Effortless yoʻnalishida). Bu — taklif, majburiyat emas.",
     "One lesson — one week. Every day you work on the same AJ lesson, but the focus changes daily so it never gets boring. Below is the suggested 7-day rhythm (~30–45 min/day on the Effortless track). It's a suggestion, never a rule."));
 
   const days = [
@@ -280,8 +280,8 @@ function blockHabit() {
 function blockPace() {
   const s = msec(4);
   s.append(P(
-    "Uchta surʼat bor. Istagan paytda almashtira olasiz (Sozlamalardan). Halol savdo: “Sekin, lekin har kuni” hamisha “Tez, lekin tashlab ketish”dan yaxshiroq.",
-    "There are three pace tracks. You can switch anytime (in Settings). Honest deal: “slow but daily” always beats “fast but quitting”."));
+    "Uchta ritm bor. Istagan paytda almashtira olasiz (Sozlamalardan). Halol savdo: “Sekin, lekin har kuni” hamisha “Tez, lekin tashlab ketish”dan yaxshiroq.",
+    "There are three rhythms. You can switch anytime (in Settings). Honest deal: “slow but daily” always beats “fast but quitting”."));
 
   const paces = [
     ["Effortless", "Tavsiya etiladi", "Recommended",
@@ -304,7 +304,7 @@ function blockPace() {
         el("h3", { class: "m-pace__name", lang: "en" }, name),
         uzTag ? el("span", { class: "chip m-pace__tag", lang: lang() }, L(uzTag, enTag)) : null));
     const meta = el("dl", { class: "m-pace__meta" });
-    [[L("Surʼat", "Pace"), L(freq[0], freq[1])],
+    [[L("Ritm", "Rhythm"), L(freq[0], freq[1])],
      [L("Vaqt", "Time"), L(time[0], time[1])],
      [L("Toʻliq kurs", "Full course"), L(total[0], total[1])]].forEach(([k, v]) => {
       meta.append(el("dt", { lang: lang() }, k), el("dd", { lang: lang() }, v));
@@ -337,7 +337,7 @@ function blockPace() {
   s.append(el("div", { class: "callout callout--error", lang: lang() },
     el("span", { class: "callout__ic", "aria-hidden": "true" }, "🚦"),
     el("div", null,
-      el("strong", null, L("Oltin qoida (surʼat haqida)", "The golden rule (about pace)")),
+      el("strong", null, L("Oltin qoida (ritm haqida)", "The golden rule (about rhythm)")),
       el("p", null, L(
         "Mini-hikoya savollariga avtomatik javob bera olmaguningizcha keyingi darsga oʻtmang. Tezlik — maqsad emas; avtomatizm — maqsad.",
         "Never advance until you can answer the mini-story questions automatically. Speed is not the goal; automaticity is.")))));
