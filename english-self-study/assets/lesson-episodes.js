@@ -53,16 +53,16 @@ export function englishPodSection(id, l, ctx) {
   // ① Warm-up (bilingual, 2 lines + a prediction) — ties to the AJ theme (02 §3.1).
   card.append(el("div", { class: "ep-warmup" },
     el("p", { class: "l-about" },
-      el("span", { class: "l-about__k", lang: "uz" }, t("lesson.ep.warmup") + ": "),
+      el("span", { class: "l-about__k" }, t("lesson.ep.warmup") + ": "),
       el("span", { lang: "uz" }, ep.warmup?.uz || "")),
     ep.warmup?.en ? el("p", { class: "ep-warmup__en", lang: "en" }, ep.warmup.en) : null,
-    el("p", { class: "ep-note", lang: "uz" }, "🔮 " + t("lesson.ep.predict"))));
+    el("p", { class: "ep-note" }, "🔮 " + t("lesson.ep.predict"))));
 
   // ② Listen to dg cold (~1 min) — get the gist before reading anything.
   if (A.dg) {
     const row = el("div", { class: "trg-row" }, ctx.trackTrigger(id, "dg", A.dg, "lesson.audio.dg", { key: "ep", max: 1 }));
     const dl = ctx.findDl(l, A.dg.path); if (dl) row.append(ctx.downloadBtn(dl));
-    card.append(row, el("p", { class: "ep-note", lang: "uz" }, t("lesson.ep.listenCold")));
+    card.append(row, el("p", { class: "ep-note" }, t("lesson.ep.listenCold")));
   }
 
   // Build the dialogue ONCE — the transcript (③), shadow (⑤) and role-play (⑥)
@@ -76,10 +76,10 @@ export function englishPodSection(id, l, ctx) {
 
   // ③ Transcript (read-along) + Key Vocabulary with our added Uzbek gloss (02 §3.3).
   card.append(el("div", { class: "ep-transcript" },
-    el("p", { class: "ep-note", lang: "uz" }, "▤ " + t("lesson.ep.transcriptHint")),
+    el("p", { class: "ep-note" }, "▤ " + t("lesson.ep.transcriptHint")),
     transToggle, list));
   if (Array.isArray(ep.keyVocab) && ep.keyVocab.length) {
-    card.append(el("h4", { class: "gpanel__sub" }, "🔑 " + t("lesson.ep.keyVocab")));
+    card.append(el("h3", { class: "gpanel__sub" }, "🔑 " + t("lesson.ep.keyVocab")));
     card.append(glossList(ep.keyVocab));
   }
 
@@ -87,13 +87,13 @@ export function englishPodSection(id, l, ctx) {
   if (A.pr) {
     const row = el("div", { class: "trg-row" }, ctx.trackTrigger(id, "pr", A.pr, "lesson.audio.pr"));
     const dl = ctx.findDl(l, A.pr.path); if (dl) row.append(ctx.downloadBtn(dl));
-    if (isSprint()) row.append(el("span", { class: "ep-skip", lang: "uz" }, "⏩ " + t("lesson.ep.sprintSkip")));
-    card.append(row, el("p", { class: "ep-note", lang: "uz" }, t("lesson.ep.explain")));
+    if (isSprint()) row.append(el("span", { class: "ep-skip" }, "⏩ " + t("lesson.ep.sprintSkip")));
+    card.append(row, el("p", { class: "ep-note" }, t("lesson.ep.explain")));
   }
 
   // ⑤ Shadow line-by-line (04 §5.8) — an honor check; reveals the transcript to shadow along.
   {
-    const fb = el("p", { class: "ep-stepfb", lang: "uz", "aria-live": "polite" });
+    const fb = el("p", { class: "ep-stepfb", "aria-live": "polite" });
     const btn = el("button", { class: "btn btn--soft ep-shadow", type: "button" },
       el("span", { "aria-hidden": "true" }, "✓ "), t("lesson.ep.shadowDo"));
     btn.addEventListener("click", () => {
@@ -104,7 +104,7 @@ export function englishPodSection(id, l, ctx) {
       fb.textContent = t("lesson.ep.shadowDoneMsg");
       maybeMarkEp();
     });
-    card.append(el("p", { class: "ep-note", lang: "uz" }, "🗣️ " + t("lesson.ep.shadowHint")), btn, fb);
+    card.append(el("p", { class: "ep-note" }, "🗣️ " + t("lesson.ep.shadowHint")), btn, fb);
   }
 
   // ⑥ Role-play — hide a role's lines and speak them aloud (04 §5.8). Hiding a role
@@ -118,11 +118,11 @@ export function englishPodSection(id, l, ctx) {
   if (A.rv) {
     const row = el("div", { class: "trg-row" }, ctx.trackTrigger(id, "rv", A.rv, "lesson.audio.rv"));
     const dl = ctx.findDl(l, A.rv.path); if (dl) row.append(ctx.downloadBtn(dl));
-    card.append(row, el("p", { class: "ep-note", lang: "uz" }, t("lesson.ep.recap")));
+    card.append(row, el("p", { class: "ep-note" }, t("lesson.ep.recap")));
   }
 
   // Step guidance → flips to a "done" confirmation once shadow + a role are done.
-  epStatus = el("p", { class: "ep-note ep-note--feed", lang: "uz", "aria-live": "polite" }, "→ " + t("lesson.ep.stepHint"));
+  epStatus = el("p", { class: "ep-note ep-note--feed", "aria-live": "polite" }, "→ " + t("lesson.ep.stepHint"));
   card.append(epStatus);
   return card;
 }
@@ -168,7 +168,7 @@ function rolePlayControls(lines, list, onPlayed) {
     controls.append(b);
   });
   return el("div", { class: "ep-roleplay" },
-    el("p", { class: "ep-note", lang: "uz" }, "🎭 " + t("lesson.ep.roleplayHint")),
+    el("p", { class: "ep-note" }, "🎭 " + t("lesson.ep.roleplayHint")),
     controls);
 }
 
@@ -207,31 +207,31 @@ export function sixMinSection(id, l, ctx) {
   };
 
   // ①② Pre-listening MCQ — options first (predict), transcript hidden (04 §5.10).
-  card.append(el("p", { class: "ep-note", lang: "uz" }, "❓ " + t("lesson.six.quizLead")));
+  card.append(el("p", { class: "ep-note" }, "❓ " + t("lesson.six.quizLead")));
   const controllers = quizzes.map((q, i) => quizMcq(q, i, () => {
     if (controllers.every((c) => c.isRevealed())) { sState.quiz = true; maybeMarkSix(); }
   }));
   controllers.forEach((c) => card.append(c.head));
-  if (quizzes.length) card.append(el("p", { class: "ep-note", lang: "uz" }, "🔮 " + t("lesson.six.predictCue")));
+  if (quizzes.length) card.append(el("p", { class: "ep-note" }, "🔮 " + t("lesson.six.predictCue")));
 
   // ③ Gist listen (~6 min) — transcript still hidden.
   if (A.main) {
     const row = el("div", { class: "trg-row trg-row--big" }, ctx.trackTrigger(id, "sixmin", A.main, "lesson.audio.sixmin", { key: "sixmin", max: 1 }));
     const dl = ctx.findDl(l, A.main.path); if (dl) row.append(ctx.downloadBtn(dl));
-    card.append(row, el("p", { class: "ep-note", lang: "uz" }, t("lesson.six.listen")));
+    card.append(row, el("p", { class: "ep-note" }, t("lesson.six.listen")));
   }
 
   // ④ Reveal answer + self-check (placed AFTER the gist listen, per the 7-beat order).
   if (quizzes.length) {
-    card.append(el("p", { class: "ep-note", lang: "uz" }, "✅ " + t("lesson.six.revealLead")));
+    card.append(el("p", { class: "ep-note" }, "✅ " + t("lesson.six.revealLead")));
     controllers.forEach((c) => card.append(c.tail));
   }
 
   // ⑤ 6-word pack + Uzbek gloss (02 §3.5) + a "reviewed" honor check.
   if (hasVocab) {
-    card.append(el("h4", { class: "gpanel__sub" }, "📻 " + t("lesson.six.vocab")));
+    card.append(el("h3", { class: "gpanel__sub" }, "📻 " + t("lesson.six.vocab")));
     card.append(glossList(sm.vocab));
-    const fb = el("p", { class: "ep-stepfb", lang: "uz", "aria-live": "polite" });
+    const fb = el("p", { class: "ep-stepfb", "aria-live": "polite" });
     const btn = el("button", { class: "btn btn--soft six-pack", type: "button" },
       el("span", { "aria-hidden": "true" }, "✓ "), t("lesson.six.packReviewed"));
     btn.addEventListener("click", () => {
@@ -246,19 +246,19 @@ export function sixMinSection(id, l, ctx) {
 
   // ⑥ Re-listen with transcript; the INSERT vox-pops are highlighted as the B2 stretch.
   if (A.main && A.main.transcriptKey && Array.isArray(T[A.main.transcriptKey])) {
-    card.append(el("p", { class: "ep-note", lang: "uz" }, t("lesson.six.transcript")));
+    card.append(el("p", { class: "ep-note" }, t("lesson.six.transcript")));
     const tb = ctx.transcriptBlock(T[A.main.transcriptKey], true);
     flagInsertParagraphs(tb);
     card.append(tb);
-    card.append(el("p", { class: "six-insert", lang: "uz" }, t("lesson.six.insert")));
+    card.append(el("p", { class: "six-insert" }, t("lesson.six.insert")));
   }
 
   // Step guidance → flips to "done" once quiz + pack are done.
-  sixStatus = el("p", { class: "ep-note six-status", lang: "uz", "aria-live": "polite" }, "→ " + t("lesson.six.stepHint"));
+  sixStatus = el("p", { class: "ep-note six-status", "aria-live": "polite" }, "→ " + t("lesson.six.stepHint"));
   card.append(sixStatus);
 
   // ⑦ Feeds the Speak-It 60-sec recording (⑨).
-  card.append(el("p", { class: "ep-note ep-note--feed", lang: "uz" }, "→ " + t("lesson.six.speakit")));
+  card.append(el("p", { class: "ep-note ep-note--feed" }, "→ " + t("lesson.six.speakit")));
   return card;
 }
 

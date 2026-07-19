@@ -61,11 +61,11 @@ function phaseBlock(p, lessons, recId, dueSet) {
       el("div", { class: "phase__tags" },
         el("span", { class: "chip phase__cefr" }, p.cefr),
         el("span", { class: "phase__range" }, p.range)))));
-  block.append(el("p", { class: "phase__cando", lang: "uz" }, t("map.canDo" + p.phase)));
+  block.append(el("p", { class: "phase__cando" }, t("map.canDo" + p.phase)));
 
   const inPhase = lessons.filter((l) => l.phase === p.phase);
   if (!inPhase.length) {                               // honest, calm — never fabricate (S13 populates)
-    block.append(el("p", { class: "phase__coming", lang: "uz" },
+    block.append(el("p", { class: "phase__coming" },
       el("span", { "aria-hidden": "true" }, "🌱 "), t("map.comingSoon")));
     return block;
   }
@@ -95,7 +95,7 @@ function lessonCard(l, accent, isNext, review) {
   if (isNext) head.append(el("span", { class: "lcard__next" }, t("map.next")));
 
   const gram = el("p", { class: "lcard__grammar" },
-    el("span", { class: "lcard__grammar-k", lang: "uz" }, t("map.grammarPrefix") + ": "),
+    el("span", { class: "lcard__grammar-k" }, t("map.grammarPrefix") + ": "),
     el("span", { lang: titlesUz ? "uz" : "en" }, titles.join(" · ")));
 
   const badges = el("div", { class: "lcard__badges" });

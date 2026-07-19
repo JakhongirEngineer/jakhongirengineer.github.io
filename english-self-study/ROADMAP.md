@@ -34,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S11**
+## Current slice → **S13**  *(S11 DONE; S12 DEFERRED to phase 2)*
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -51,7 +51,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S8 | Fun English embeds (YouTube facade + curation) | **DONE** (facade in `lesson-fun.js` + CSS-gradient poster = 0 YouTube bytes pre-tap + id:null/blocked fallbacks + verified `core-09` exemplar; 30-lesson curation = owner data in S13) |
 | S9 | How to Study (methodology) page | **DONE** |
 | S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | **DONE** |
-| S11 | Polish, accessibility & performance pass | TODO |
+| S11 | Polish, accessibility & performance pass | **DONE** |
 | S12 | PWA / offline (phase 2) | DEFERRED |
 | S13 | Content authoring completion + launch checklist | TODO |
 
@@ -216,12 +216,12 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the whole site meets WCAG 2.1 AA, degrades gracefully on every failure, and hits the performance budget on a cheap Android.
 **Specs:** `04 §1` (P1–P7), `04 §7` (visual system / tokens both themes), `04 §8` (a11y checklist), `04 §9` (empty/edge/error matrix), `03 §8` (perf budget).
 
-- [ ] A11y (`04 §8`): landmarks + one `<h1>`/screen · skip link first · visible focus everywhere · ≥44px targets (+8px gap) · full **player ARIA** · **bilingual `lang` attributes** (English content `lang="en"` inside Uzbek UI — the load-bearing detail; **app-wide fix: drop the static `lang="uz"` on `t()`-driven UI strings** (home/lessons/lesson/lesson-fun/method/progress/…) so they follow the UZ|EN toggle instead of mislabelling English text in EN mode — WCAG 3.1.2, flagged in S8 verification) · never color-alone · `prefers-reduced-motion` disables all celebrations/equalizer/flicker · reflow at 320px & 200% zoom.
-- [ ] Every empty/edge/error state from `04 §9` implemented: media-unreachable (per-track + global banner, **text still teaches**), YouTube blocked, localStorage/IndexedDB unavailable, mic denied, POV absent/text-only, slow-network skeletons (not spinners), lesson 404/malformed, invalid import, course-complete (L30 cert + re-record prompt).
-- [ ] Visual tokens finalised in **both** themes with measured AA contrast (`04 §7.2`); type scale, spacing, radii, two warm shadows, phase accents (`04 §7.3`–`§7.6`).
-- [ ] Perf budget met on `Slow 3G` + `4× CPU` (`03 §8`): first view ≤ ~100 KB, interactive < 3 s; per-asset budgets (`index.html` ≤12 KB, `styles.css` ≤15 KB, `app.js` ≤35 KB, `index.json` ≤40 KB, lesson JSON ≤25 KB); 0 KB fonts; YouTube 0 KB pre-tap; `?v=N` cache-bust on `app.js`.
+- [x] A11y (`04 §8`): landmarks + one `<h1>`/screen · skip link first · visible focus everywhere · ≥44px targets (+8px gap) · full **player ARIA** · **bilingual `lang` attributes** (English content `lang="en"` inside Uzbek UI — the load-bearing detail; **app-wide fix: drop the static `lang="uz"` on `t()`-driven UI strings** (home/lessons/lesson/lesson-fun/method/progress/…) so they follow the UZ|EN toggle instead of mislabelling English text in EN mode — WCAG 3.1.2, flagged in S8 verification) · never color-alone · `prefers-reduced-motion` disables all celebrations/equalizer/flicker · reflow at 320px & 200% zoom. *(Done: `lang="uz"` swept from ~55+ `t()` sites across all page/lesson modules; player ARIA fixed (spoken-time `aria-valuetext`, rate value exposed, loading announced, single live region); focus ring now ≥3:1 both themes (`--teal-bright`→`#0E9384`); 44px tap targets via classes; reduced-motion rule relocated LAST in `styles.css`; reflow safety net added. See `04 §8` — all boxes ticked.)*
+- [x] Every empty/edge/error state from `04 §9` implemented: media-unreachable (per-track + global banner, **text still teaches**), YouTube blocked, localStorage/IndexedDB unavailable, mic denied, POV absent/text-only, slow-network skeletons (not spinners), lesson 404/malformed, invalid import, course-complete (L30 cert + re-record prompt). *(Done across the three clusters; `04 §9` marked implemented for every row.)*
+- [x] Visual tokens finalised in **both** themes with measured AA contrast (`04 §7.2`); type scale, spacing, radii, two warm shadows, phase accents (`04 §7.3`–`§7.6`). *(Done: all 58 token pairs measured both themes incl. coloured-text-on-own-tint; 3 light-mode regressions fixed (focus ring + amber/green/red darkened); `04 §7.2` updated with measured ratios.)*
+- [x] Perf budget met on `Slow 3G` + `4× CPU` (`03 §8`): first view ≤ ~100 KB, interactive < 3 s; per-asset budgets (`index.html` ≤12 KB, `styles.css` ≤15 KB, `app.js` ≤35 KB, `index.json` ≤40 KB, lesson JSON ≤25 KB); 0 KB fonts; YouTube 0 KB pre-tap; `?v=N` cache-bust on `app.js`. *(Done: measured gzip — html 4.00 · styles 14.95 · app 6.49 · index.json 0.42 · core-09 14.7; first-view Home ~46.5 KB; `?v=3`; 0 KB fonts/YouTube. Interactive-time gate closed in round-2 by **boot-chain resource hints** that flatten the 6-deep serial request waterfall — measured TTI **2.2–2.3 s** at `400 ms`-RTT Slow-3G + `4× CPU` (was 3.9–4.0 s). See `03 §8` S11 note.)*
 
-**Done when:** an automated a11y check is clean (contrast/labels/lang), every error state in `04 §9` degrades without a dead screen, and the budget + interactive-time targets pass on the throttled rig.
+**Done when:** an automated a11y check is clean (contrast/labels/lang), every error state in `04 §9` degrades without a dead screen, and the budget + interactive-time targets pass on the throttled rig. ✅ *(Met 2026-07-19: measured WCAG audit of all 58 token pairs passes AA both themes after the 3 token fixes; `lang` sweep + full player ARIA landed; all `04 §9` rows implemented; all per-asset gzip budgets + ~46.5 KB first-view hold; the **<3 s interactive** gate — which initially rested on a byte-count argument that a round-2 latency sweep showed was unmet at honest Slow-3G RTT — is now genuinely met via **boot-chain resource hints** (measured TTI **2.2–2.3 s** at `400 ms` RTT + `4× CPU`, was ~4.0 s). `build-index` + `validate` pass; i18n parity 505/505 with no raw-key leak. Git commit deferred to the owner.)*
 
 ## S12 — PWA / offline (phase 2) · DEFERRED
 

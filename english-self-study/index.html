@@ -18,8 +18,38 @@
       var s = (JSON.parse(localStorage.getItem("ess.progress.v1") || "{}") || {}).settings || {};
       if (s.theme === "dark" || s.theme === "light") document.documentElement.setAttribute("data-theme", s.theme);
       if (s.uiLang === "en") document.documentElement.setAttribute("lang", "en"); // Uzbek is the default (03 §8)
+
+      // Perf (03 §8): warm the latency-bound tail of the boot chain in parallel, so the
+      // i18n dict, the landing-route module, and the catalogue download ALONGSIDE the eager
+      // modules instead of chained behind them (collapses ~3 serial RTTs off interactive
+      // time on high-latency links). Done here rather than as static <head> markup because
+      // the dict is language-specific (uz|en) and the route module + catalogue are only
+      // worth prefetching on the landing route. crossOrigin=anonymous makes the as=fetch
+      // preloads match loadDict/loadIndex's fetch() (cors mode + same-origin credentials).
+      var head = document.head;
+      var hint = function (rel, href, as) {
+        var l = document.createElement("link");
+        l.rel = rel; l.href = href;
+        if (as) { l.as = as; l.crossOrigin = "anonymous"; }
+        head.appendChild(l);
+      };
+      hint("preload", "data/i18n/ui." + (s.uiLang === "en" ? "en" : "uz") + ".json", "fetch");
+      var h = location.hash;
+      if (h === "" || h === "#" || h === "#/" || h.indexOf("#/?") === 0) { // landing route (home) only
+        hint("modulepreload", "assets/home.js");
+        hint("preload", "data/index.json", "fetch");
+      }
     } catch (e) {}
   </script>
+
+  <!-- Perf (03 §8): flatten the eager module graph, which loads on EVERY route
+       (app.js -> core.js/player.js -> config.js/progress.js). Modulepreloading these lets
+       hops 2-3 download in parallel with app.js instead of being discovered one RTT apart
+       after each parent parses. Same resolved URLs as the imports, so no double fetch. -->
+  <link rel="modulepreload" href="assets/core.js">
+  <link rel="modulepreload" href="assets/player.js">
+  <link rel="modulepreload" href="assets/progress.js">
+  <link rel="modulepreload" href="config.js">
 
   <!-- Critical CSS: design tokens (both themes) + reset + shell skeleton, inlined so the
        shell paints without a round-trip and the theme is correct on first paint (03 §8).
@@ -35,13 +65,16 @@
       --bg: #FFFDF9; --surface: #FFFFFF;
       --ink: #1C1917; --text: #292524; --muted: #6F675E;
       --border: #E7E5E4; --border-strong: #D6D3D1;
-      --teal: #0F766E; --teal-bright: #14B8A6; --on-teal: #FFFFFF;
-      --indigo: #4F46E5; --amber: #B45309; --amber-bright: #D97706;
-      --green: #15803D; --red: #DC2626;
+      --teal: #0F766E; --teal-bright: #0E9384; --on-teal: #FFFFFF;
+      --indigo: #4F46E5; --amber: #A24B08; --amber-bright: #D97706;
+      --green: #137337; --red: #C42222;
       --shadow-sm: 0 1px 2px rgba(28,25,23,.06);
       --shadow-md: 0 6px 20px rgba(28,25,23,.10);
       --scrim: rgba(28,25,23,.45);
       --topbar-h: 56px; --bottomnav-h: 64px;
+      /* Single source for the 0 KB system font stack (04 §7.3). Consumed by body and by
+         every `font:` shorthand in styles.css (a bare `inherit` is invalid there). */
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
       color-scheme: light;
     }
     /* Dark tokens (04 §7.2, warm-dark, family teal returns bright). Applied for the manual
@@ -78,8 +111,7 @@
       background: var(--bg);
       color: var(--text);
       /* 0 KB system font stack (04 §7.3) — renders oʻ/gʻ (U+02BB) correctly, no download. */
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                   "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+      font-family: var(--font);
       font-size: 17px;
       line-height: 1.6;
     }
@@ -108,10 +140,12 @@
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .topbar__actions { display: flex; align-items: center; gap: 4px; flex: 0 0 auto; }
 
-    /* 44px+ tap targets everywhere (P2, a11y §8). */
+    /* 44px+ tap targets everywhere (P2, a11y §8). flex-shrink:0 keeps the topbar nav
+       (hamburger/back) and other icon buttons a full 44px even when a long center title
+       squeezes the flex row (04 §8) — .topbar__ctx has min-width:0 and absorbs the shrink. */
     .iconbtn {
       display: inline-flex; align-items: center; justify-content: center;
-      width: 44px; height: 44px; padding: 0;
+      width: 44px; height: 44px; padding: 0; flex-shrink: 0;
       border: 0; border-radius: 10px; background: transparent; color: var(--text);
       cursor: pointer;
     }
@@ -183,6 +217,6 @@
     </div>
   </div>
 
-  <script type="module" src="assets/app.js?v=2"></script>
+  <script type="module" src="assets/app.js?v=3"></script>
 </body>
 </html>

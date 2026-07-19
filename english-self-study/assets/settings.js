@@ -25,6 +25,13 @@ function emit(key, value) {
   document.dispatchEvent(new CustomEvent("yp:setting", { detail: { key, value } }));
 }
 
+// previewImport/applyImport (S6, 03 §6.3) return machine CODES on refusal, never display
+// strings — map them to a translated, user-facing message so a mis-versioned/corrupt file
+// gets a clear reason (04 §9) instead of a raw "badVersion" leaking to the screen. Mirrors
+// the same mapping progress-page.js uses so both import UIs read identically.
+const IMPORT_ERR = { badVersion: "progress.import.badVersion", badJson: "progress.import.badJson", invalid: "progress.import.invalid", write: "progress.import.write" };
+const importErrMsg = (code, fallbackKey) => t(IMPORT_ERR[code] || fallbackKey);
+
 // ---- A labelled radio group as a card (fieldset + legend = the group's a11y name) ----
 // options: [{ value, label:(node|string), sub?:string }]. onPick(value) runs on change.
 function radioGroup(name, legendText, options, current, onPick) {
@@ -175,7 +182,7 @@ function dataSection() {
     if (!text) { say(t("set.importEmpty"), "err"); return; }
     let res;
     try { res = previewImport(text); } catch { res = { ok: false }; }
-    if (!res || !res.ok) { say(res && res.error ? res.error : t("set.importInvalid"), "err"); return; }
+    if (!res || !res.ok) { say(importErrMsg(res && res.code, "set.importInvalid"), "err"); return; }
     panel.append(importConfirm(text, res.preview, clearPanel, say));
   });
 
@@ -238,7 +245,7 @@ function importConfirm(text, preview, clearPanel, say) {
     let res;
     try { res = applyImport(text); } catch { res = { ok: false }; }
     if (res && res.ok) { say(t("set.imported"), "ok"); setTimeout(() => location.reload(), 350); }
-    else { clearPanel(); say(res && res.error ? res.error : t("set.importFail"), "err"); }
+    else { clearPanel(); say(importErrMsg(res && res.code, "set.importFail"), "err"); }
   });
   body.append(el("div", { class: "set-actions" }, go, cancel));
   box.append(body);

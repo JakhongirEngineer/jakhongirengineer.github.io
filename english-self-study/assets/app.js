@@ -105,6 +105,11 @@ function refreshText() {
   player.setAttribute("aria-label", t("player.label"));
   updateThemeBtn();
   refreshPlayerText();
+  // Re-translate any live global banner + its dismiss control on the UZ|EN toggle.
+  if (bannersEl) {
+    bannersEl.querySelectorAll(".appbanner__text[data-k]").forEach((s) => { s.textContent = t(s.dataset.k); });
+    bannersEl.querySelectorAll(".appbanner__close").forEach((b) => { b.setAttribute("aria-label", t("banner.dismiss")); b.title = t("banner.dismiss"); });
+  }
   buildNav();
 }
 
@@ -339,10 +344,61 @@ function goBack() {
 // handled by the global CSS rule (the transition collapses to instant). .toast/.toast.is-show
 // come from the merged styles.css.
 function toast(text) {
-  const node = el("div", { class: "toast", role: "status", "aria-live": "polite" }, text);
+  const node = el("div", { class: "toast", role: "status", "aria-live": "polite", "aria-atomic": "true" }, text);
   document.body.appendChild(node);
   requestAnimationFrame(() => node.classList.add("is-show"));
   setTimeout(() => { node.classList.remove("is-show"); setTimeout(() => node.remove(), 300); }, 3500);
+}
+
+// ---- Global banners (04 §9) — media-host-down + localStorage-unavailable ------
+// Both live in a region OUTSIDE #main (between <header> and <main>) so they survive route
+// re-renders; both are dismissible, non-modal and never steal focus. They only INFORM —
+// the app stays fully navigable and all text keeps working (04 §9). Reduced-motion + the
+// sticky-under-topbar placement come from the merged CSS (.appbanner*). The text span
+// carries data-k so refreshText() re-translates a live banner on the UZ|EN toggle.
+let bannersEl = null;
+function bannersRegion() {
+  if (bannersEl && document.contains(bannersEl)) return bannersEl;
+  bannersEl = el("div", { class: "appbanners", id: "ypBanners" });
+  main.before(bannersEl);   // main.replaceChildren() only touches main's children, never this sibling
+  return bannersEl;
+}
+function makeBanner(cls, key, { onClose } = {}) {
+  const node = el("div", { class: "appbanner " + cls, role: "status", "aria-live": "polite", "aria-atomic": "true" },
+    el("span", { class: "appbanner__ic", "aria-hidden": "true" }, "⚠️"),
+    el("span", { class: "appbanner__text", "data-k": key }, t(key)),
+    el("button", { class: "iconbtn appbanner__close", type: "button", "aria-label": t("banner.dismiss"),
+      title: t("banner.dismiss"), html: icon("close"), onclick: () => { node.remove(); if (onClose) onClose(); } }));
+  bannersRegion().append(node);
+  return node;
+}
+
+// localStorage unavailable (private mode / quota): one non-blocking probe at boot (04 §9).
+// Lessons + audio still work; only progress tracking pauses.
+let storageBanner = null;
+function checkStorage() {
+  let ok = true;
+  try { const k = "ess.probe"; localStorage.setItem(k, "1"); localStorage.removeItem(k); } catch { ok = false; }
+  if (!ok && !(storageBanner && document.contains(storageBanner))) storageBanner = makeBanner("appbanner--storage", "banner.storage");
+}
+
+// Media host down (global, 04 §9): raise ONE dismissible banner once several DISTINCT tracks
+// fail (a single track retried repeatedly is one entry, not "several"). A later successful
+// play clears the memory so the banner can return if the host breaks again. Per-track inline
+// retry lives in the lesson page + the docked player; this is only the app-wide notice.
+const failedTracks = new Set();
+let mediaBanner = null, mediaBannerDismissed = false;
+function onPlayerSignal(e) {
+  const d = (e && e.detail) || {};
+  if (d.error) {
+    failedTracks.add((d.lessonId || "") + ":" + (d.key || ""));
+    if (failedTracks.size >= 2 && !(mediaBanner && document.contains(mediaBanner)) && !mediaBannerDismissed)
+      mediaBanner = makeBanner("appbanner--media", "banner.media", { onClose: () => { mediaBanner = null; mediaBannerDismissed = true; } });
+  } else if (d.playing) {
+    failedTracks.clear();
+    mediaBannerDismissed = false;
+    if (mediaBanner) { mediaBanner.remove(); mediaBanner = null; }
+  }
 }
 
 // ---- Wiring -----------------------------------------------------------------
@@ -351,6 +407,10 @@ function wireEvents() {
   navBtn.addEventListener("click", () => (navBtn.dataset.mode === "back" ? goBack() : openMenu(navBtn)));
   langToggle.addEventListener("click", () => setLang(lang() === "uz" ? "en" : "uz"));
   themeToggle.addEventListener("click", cycleTheme);
+
+  // Player emits "yp:player" on every state change; the shell watches it only to raise the
+  // GLOBAL media-down banner (04 §9) — inline per-track handling lives in the player/lesson.
+  document.addEventListener("yp:player", onPlayerSignal);
 
   // Progress engine / page dispatch "yp:badge" {ids:[]} when new badges are earned — show
   // one brief toast per id, lightly staggered (04 §6).
@@ -402,6 +462,7 @@ async function init() {
   await loadDict(lang());
   refreshText();          // shell text + nav in the active language
   wireEvents();
+  checkStorage();         // non-blocking localStorage-unavailable banner (04 §9), dict now loaded
   render();               // paint the first screen
   booted = true;
 }

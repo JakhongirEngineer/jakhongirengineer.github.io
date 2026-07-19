@@ -14,7 +14,7 @@
 //   badges[] · ieltsTopics{}                       ← kept, populated in S6 (not S5)
 //   lessons.<id>.{status,stars,steps,listens,msAnswersAloud,startedAt,completedAt,reviewDue,reviewStage,audio}
 
-import { lsGetObj, lsSetObj } from "./core.js";
+import { lsGetObj, lsSetObj, t } from "./core.js";
 
 const now = () => Date.now();
 const today = () => new Date().toISOString().slice(0, 10);   // UTC ISO date (matches everything below)
@@ -496,15 +496,36 @@ export function exportProgress() {
   return JSON.stringify(load(), null, 2);
 }
 
-// Parse + validate + migrate IN MEMORY. Refuse anything we don't understand.
+// A refusal carries BOTH a stable machine `code` and a ready-to-show translated `error`
+// message (04 §9 "refuse with a clear reason") so the caller can render it directly and the
+// live data is never touched. Message keys are the `progress.import.<code>` dictionary.
+const importFail = (code) => ({ ok: false, code, error: t("progress.import." + code) });
+
+// A parsed object must look like OUR union before we migrate it, so a random .json file is
+// refused ("invalid") instead of silently overwriting real progress with an empty shape.
+function looksLikeYouSpeak(o) {
+  return !!o && typeof o === "object" && !Array.isArray(o) && (
+    (o.lessons && typeof o.lessons === "object") ||
+    (o.metrics && typeof o.metrics === "object") ||
+    (o.streak && typeof o.streak === "object") ||
+    (o.weeklyGoal && typeof o.weeklyGoal === "object") ||
+    Array.isArray(o.badges));
+}
+
+// Parse + VALIDATE + attempt MIGRATE, all IN MEMORY — never writes (04 §9). Version tiers:
+// v1 = current (accept), missing/<1 = legacy (attempt migrate — the §9 "migrate() for older
+// schemaVersion"), >1 or non-numeric = a future/unknown format we can't safely down-convert
+// (refuse, don't corrupt). migrate() is idempotent and normalises whatever we accept to v1.
 function parseImport(text) {
   let data;
-  try { data = JSON.parse(text); } catch { return { ok: false, error: "badJson" }; }
-  if (!data || typeof data !== "object" || Array.isArray(data)) return { ok: false, error: "invalid" };
-  // Current schema is 1 (the only version). A missing / higher / non-1 version is refused
-  // rather than risk corrupting the live data (a future bump would widen this to ≤ current).
-  if (data.schemaVersion !== 1) return { ok: false, error: "badVersion" };
-  return { ok: true, data: migrate(data) };
+  try { data = JSON.parse(text); } catch { return importFail("badJson"); }
+  if (!data || typeof data !== "object" || Array.isArray(data)) return importFail("invalid");
+  const v = data.schemaVersion;
+  if ((typeof v === "number" && v > 1) || (v !== undefined && typeof v !== "number")) return importFail("badVersion");
+  if (!looksLikeYouSpeak(data)) return importFail("invalid");
+  let migrated;
+  try { migrated = migrate(data); } catch { return importFail("invalid"); }
+  return { ok: true, data: migrated };
 }
 
 // The 4 headline numbers for the diff-preview (before-vs-incoming).
@@ -520,7 +541,7 @@ function summarize(o) {
 
 export function previewImport(text) {
   const p = parseImport(text);
-  if (!p.ok) return { ok: false, error: p.error };
+  if (!p.ok) return p;                 // {ok:false, code, error} — a clear, translated refusal
   const a = summarize(load()), b = summarize(p.data);
   return { ok: true, preview: {
     lessons: { before: a.lessons, incoming: b.lessons },
@@ -532,9 +553,11 @@ export function previewImport(text) {
 
 export function applyImport(text) {
   const p = parseImport(text);
-  if (!p.ok) return { ok: false, error: p.error };
+  if (!p.ok) return p;                 // refuse cleanly — current data untouched (04 §9)
   p.data.updatedAt = now();
-  return lsSetObj(p.data) ? { ok: true } : { ok: false, error: "write" };
+  // Only a validated + migrated union is ever written; a storage failure refuses clearly
+  // (nothing half-written) rather than corrupting what is already there.
+  return lsSetObj(p.data) ? { ok: true } : importFail("write");
 }
 
 // Wipe progress to a clean default but KEEP the user's settings (uiLang/theme/pace/rate)

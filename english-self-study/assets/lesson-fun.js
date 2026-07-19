@@ -36,7 +36,7 @@ function caption(title, channel) {
 
 // The tiny watch-task (02 §2 ⑧: a prompt, no test) — stays visible in every state.
 function watchTask() {
-  return el("p", { class: "fun__task", lang: "uz" },
+  return el("p", { class: "fun__task" },
     el("span", { class: "fun__task-ic", "aria-hidden": "true" }, "📺 "), t("lesson.fun.watchTask"));
 }
 
@@ -49,7 +49,7 @@ export function funSection(id, l, ctx) {
   const card = el("div", { class: "card fun" });
 
   // Uzbek framing line — sets the relaxed-watching intent (02 §2 ⑧, 02 §9).
-  card.append(el("p", { class: "fun__frame", lang: "uz" }, t("lesson.fun.body")));
+  card.append(el("p", { class: "fun__frame" }, t("lesson.fun.body")));
 
   const facade = el("div", { class: "fun__facade" });
   card.append(facade);
@@ -72,7 +72,7 @@ export function funSection(id, l, ctx) {
     facade.append(search);
     card.append(watchTask());
 
-    const fb = el("p", { class: "fun__fb", lang: "uz", "aria-live": "polite" });
+    const fb = el("p", { class: "fun__fb", "aria-live": "polite" });
     const watched = el("button", { class: "btn btn--soft fun__watched", type: "button", "aria-pressed": "false" },
       el("span", { "aria-hidden": "true" }, "✓ "), t("check.funWatch"));
     watched.addEventListener("click", () => {
@@ -90,7 +90,7 @@ function injectVideo(facade, vid, title, ctx) {
   const iframe = el("iframe", {
     class: "fun__iframe",
     src: YT_NOCOOKIE + encodeURIComponent(vid) + "?autoplay=1&rel=0",
-    title,                                                       // the video title (a11y §8)
+    title: title || t("lesson.sec.8"),                          // the video title; never empty (a11y §8)
     allow: "autoplay; encrypted-media; picture-in-picture",
     allowfullscreen: "", loading: "lazy", frameborder: "0",
     referrerpolicy: "strict-origin-when-cross-origin",
@@ -100,8 +100,8 @@ function injectVideo(facade, vid, title, ctx) {
   // §9 fallback — always offer "Open on YouTube": it covers an embed that loads a
   // "video unavailable" page (cross-origin, so JS-undetectable) AND is the visible
   // action if the iframe hard-fails below. The watch-task above stays untouched.
-  const blockedMsg = el("p", { class: "fun__blocked-msg", lang: "uz", hidden: "" }, t("lesson.fun.blocked"));
-  const openLink = el("a", { class: "fun__escape", lang: "uz", href: YT_WATCH + encodeURIComponent(vid),
+  const blockedMsg = el("p", { class: "fun__blocked-msg", hidden: "" }, t("lesson.fun.blocked"));
+  const openLink = el("a", { class: "fun__escape", href: YT_WATCH + encodeURIComponent(vid),
     target: "_blank", rel: "noopener noreferrer" },
     t("lesson.fun.open"), el("span", { "aria-hidden": "true" }, " ↗"));
   iframe.addEventListener("error", () => { embed.classList.add("is-blocked"); blockedMsg.hidden = false; });

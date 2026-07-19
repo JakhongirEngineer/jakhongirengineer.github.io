@@ -17,6 +17,7 @@ let sixTouched = false;           // 6ME quiz answer revealed
 let recordSaved = false;          // a Speak-It recording is saved for this lesson (S4)
 let funWatched = false;           // Fun English step — set by the S8 facade (play tapped / "Koʻrdim") via markFun
 const live = {};                  // per-render refreshers (dots / checklist), called by refreshLive()
+const trackErrPanels = new WeakMap(); // per-trigger inline "Audio yuklanmadi" panels (04 §9 per-track error)
 
 // ---- Web Speech TTS for vocab / POV read-aloud (0 KB, graceful fallback) -----
 const ttsOk = () => typeof window !== "undefined" && "speechSynthesis" in window;
@@ -76,14 +77,58 @@ async function onDownload(e, a, url, name, state) {
 function trackTrigger(id, key, aObj, labelKey, dots) {
   const glyph = el("span", { class: "trg__glyph", html: icon("play") });
   const eq = el("span", { class: "trg__eq", "aria-hidden": "true" }, el("i"), el("i"), el("i"));
-  const btn = el("button", { class: "trg", type: "button", "data-track": key, "data-lesson": id, "aria-pressed": "false" },
+  const title = t(labelKey);
+  // Stash the track params so the per-track error panel (04 §9) can rebuild playTrack + a
+  // download-attempt without a closure — the global yp:player error listener reads these.
+  const btn = el("button", { class: "trg", type: "button", "data-track": key, "data-lesson": id,
+    "data-path": aObj.path || "", "data-dur": String(aObj.durationSec || 0), "data-title": title, "aria-pressed": "false" },
     glyph, eq,
     el("span", { class: "trg__body" },
-      el("span", { class: "trg__label" }, t(labelKey)),
+      el("span", { class: "trg__label" }, title),
       el("span", { class: "trg__dur" }, fmtTime(aObj.durationSec))));
   if (dots) btn.append(el("span", { class: "dots", "data-dots": dots.key, "data-dots-max": dots.max, role: "img" }));
-  btn.addEventListener("click", () => playTrack({ key, path: aObj.path, title: t(labelKey), lessonId: id, durationSec: aObj.durationSec }));
+  btn.addEventListener("click", () => playTrack({ key, path: aObj.path, title, lessonId: id, durationSec: aObj.durationSec }));
   return btn;
+}
+
+// ---- Per-track media-unreachable inline UI (04 §9 / §5.1) --------------------
+// When the persistent player can't load a section's audio it broadcasts
+// yp:player {error:true, key, lessonId} (player.js owns that signal). We surface an
+// inline "Audio yuklanmadi" + Retry + download-attempt RIGHT AT that section, leaving
+// transcript / vocab / grammar / mini-story fully usable — the lesson still teaches.
+function trackErrorPanel(btn) {
+  const existing = trackErrPanels.get(btn);
+  if (existing && existing.isConnected) return existing;
+  const key = btn.dataset.track, id = btn.dataset.lesson;
+  const path = btn.dataset.path || "", title = btn.dataset.title || "", dur = +btn.dataset.dur || 0;
+
+  const retry = el("button", { class: "btn btn--soft trg-err__retry", type: "button" },
+    el("span", { class: "trg-err__bic", "aria-hidden": "true", html: icon("retry") }), t("lesson.audio.retry"));
+  retry.addEventListener("click", () => { clearTrackError(btn); playTrack({ key, path, title, lessonId: id, durationSec: dur }); });
+
+  const acts = el("div", { class: "trg-err__acts" }, retry);
+  if (path) {                                       // download-attempt (03 §2.3 fetch→blob w/ progress)
+    const url = mediaUrl(path), name = path.split("/").pop();
+    const state = el("span", { class: "dlbtn__state" });
+    const dl = el("a", { class: "dlbtn trg-err__dl", href: url, download: name, rel: "noopener" },
+      el("span", { class: "dlbtn__ic", html: icon("download") }),
+      el("span", { class: "dlbtn__lab" }, t("lesson.audio.tryDl")), state);
+    dl.addEventListener("click", (e) => onDownload(e, dl, url, name, state));
+    acts.append(dl);
+  }
+  const panel = el("div", { class: "trg-err", role: "group", "aria-label": t("lesson.audio.err") },
+    el("p", { class: "trg-err__msg" },
+      el("span", { class: "trg-err__ic", "aria-hidden": "true" }, "⚠️"),
+      el("span", null, t("lesson.audio.err"))),
+    acts);
+  (btn.closest(".trg-row") || btn).after(panel);
+  trackErrPanels.set(btn, panel);
+  return panel;
+}
+function clearTrackError(btn) {
+  const panel = trackErrPanels.get(btn);
+  if (panel && panel.isConnected) panel.remove();
+  trackErrPanels.delete(btn);
 }
 
 // ---- Transcript read-along (collapsed; tap-paragraph highlight; ⟲10s replay) --
@@ -173,6 +218,7 @@ function grammarExercise(x, n, slot) {
           feedback.textContent = t("lesson.grammar.correct"); feedback.className = "gx__fb is-right";
         } else {
           b.classList.add("is-wrong"); b.disabled = true;
+          b.append(" ", el("span", { "aria-hidden": "true" }, "✗"));   // shape, not colour-only (04 §8)
           feedback.textContent = (x.hintUz ? x.hintUz : t("lesson.grammar.tryAgain")); feedback.className = "gx__fb is-wrong";
         }
       });
@@ -187,7 +233,7 @@ function grammarExercise(x, n, slot) {
     const no = el("button", { class: "gx__no", type: "button", "aria-label": t("drill.wrong") }, "✗");
     ok.addEventListener("click", () => { feedback.textContent = t("lesson.grammar.correct"); feedback.className = "gx__fb is-right"; });
     no.addEventListener("click", () => { feedback.textContent = x.hintUz || t("lesson.grammar.tryAgain"); feedback.className = "gx__fb is-wrong"; });
-    checkRow.append(el("span", { class: "gx__self-lab", lang: "uz" }, t("drill.selfcheck")), ok, no);
+    checkRow.append(el("span", { class: "gx__self-lab" }, t("drill.selfcheck")), ok, no);
     reveal.addEventListener("click", () => { touched(); ansEl.hidden = false; reveal.hidden = true; checkRow.hidden = false; });
     wrap.append(reveal, ansEl, checkRow, x.hintUz ? el("p", { class: "gx__hint", lang: "uz" }, x.hintUz) : null, feedback);
   }
@@ -204,14 +250,14 @@ function grammarTopicCard(id, l, g, i) {
   if (g.cefrCanDo) tags.append(el("span", { class: "gtag gtag--cefr" }, g.cefrCanDo));
   if (tags.children.length) body.append(tags);
   body.append(el("div", { class: "prose", lang: "uz", html: g.bodyHtml })); // precompiled + sanitized (validate.mjs)
-  if (g.contrastUz) body.append(el("div", { class: "callout callout--contrast", lang: "uz" },
+  if (g.contrastUz) body.append(el("div", { class: "callout callout--contrast" },
     el("span", { class: "callout__ic", "aria-hidden": "true" }, "🔀"),
-    el("div", null, el("strong", null, t("lesson.grammar.contrast")), el("p", null, g.contrastUz))));
-  if (g.errorFixUz) body.append(el("div", { class: "callout callout--error", lang: "uz" },
+    el("div", null, el("strong", null, t("lesson.grammar.contrast")), el("p", { lang: "uz" }, g.contrastUz))));
+  if (g.errorFixUz) body.append(el("div", { class: "callout callout--error" },
     el("span", { class: "callout__ic", "aria-hidden": "true" }, "⚠️"),
-    el("div", null, el("strong", null, t("lesson.grammar.errorFix")), el("p", null, g.errorFixUz))));
+    el("div", null, el("strong", null, t("lesson.grammar.errorFix")), el("p", { lang: "uz" }, g.errorFixUz))));
   if (Array.isArray(g.exercises) && g.exercises.length) {
-    body.append(el("h4", { class: "gpanel__sub" }, t("lesson.grammar.drills")));
+    body.append(el("h3", { class: "gpanel__sub" }, t("lesson.grammar.drills")));
     g.exercises.forEach((x, k) => body.append(grammarExercise(x, k + 1, slot)));
   }
   // Optional Murphy-unit PDF download (reference only, 02 §4)
@@ -250,21 +296,21 @@ function ministoryDrill(id, pairs) {
   const counter = el("p", { class: "drill__count" });
   const qText = el("p", { class: "drill__q", lang: "en", "aria-live": "polite" });
   const beat = el("div", { class: "drill__beat" },
-    el("span", { class: "drill__beat-lab", lang: "uz" }, el("span", { "aria-hidden": "true" }, "⏱️ "), t("drill.beat")),
+    el("span", { class: "drill__beat-lab" }, el("span", { "aria-hidden": "true" }, "⏱️ "), t("drill.beat")),
     el("span", { class: "drill__beat-bar", "aria-hidden": "true" }));
   const reveal = el("button", { class: "btn btn--primary drill__reveal", type: "button" }, t("drill.reveal"));
   const answer = el("p", { class: "drill__a", lang: "en", "aria-live": "polite", hidden: "" });
   const ok = el("button", { class: "drill__ok", type: "button", "aria-label": t("drill.right") }, "✓");
   const no = el("button", { class: "drill__no", type: "button", "aria-label": t("drill.wrong") }, "✗");
   const check = el("div", { class: "drill__check", hidden: "" },
-    el("span", { class: "drill__check-lab", lang: "uz" }, t("drill.selfcheck")), ok, no);
+    el("span", { class: "drill__check-lab" }, t("drill.selfcheck")), ok, no);
   const live_ = el("div", { class: "drill__live" }, qText, beat, reveal, answer, check);
   const end = el("div", { class: "drill__end", hidden: "" });
   const card = el("div", { class: "drill__card" }, live_, end);
 
   const repsN = el("strong", { "data-ms-counter": "" }, String(snapshot(id).msAnswersAloud));
   const reps = el("p", { class: "drill__reps" }, el("span", { "aria-hidden": "true" }, "🗣️ "),
-    el("span", { lang: "uz" }, t("drill.repsPre") + " "), repsN, el("span", { lang: "uz" }, " " + t("drill.repsPost")));
+    el("span", null, t("drill.repsPre") + " "), repsN, el("span", null, " " + t("drill.repsPost")));
   const restart = el("button", { class: "btn btn--soft", type: "button" }, t("drill.restart"));
 
   function show(move) {
@@ -280,7 +326,7 @@ function ministoryDrill(id, pairs) {
   ok.addEventListener("click", () => { repsN.textContent = String(bumpMsAnswer(id)); refreshLive(); i++; show(true); });
   no.addEventListener("click", () => { i++; show(true); });
   restart.addEventListener("click", () => { i = 0; end.hidden = true; live_.hidden = false; show(true); });
-  end.append(el("p", { class: "drill__done", lang: "uz" }, "✅ ", t("drill.done")), restart);
+  end.append(el("p", { class: "drill__done" }, "✅ ", t("drill.done")), restart);
   show();
   return el("div", { class: "drill" }, counter, card, reps);
 }
@@ -312,7 +358,7 @@ function sectionStrip(id, presentNums) {
   });
   const day = dayOfCycle(id);
   const star = (day === 4 || day === 6) ? " ⭐" : "";
-  const chip = el("span", { class: "strip__day chip" }, el("span", { class: "chip__k", lang: "uz" }, t("lesson.today") + ": "), t("lesson.day." + day) + star);
+  const chip = el("span", { class: "strip__day chip" }, el("span", { class: "chip__k" }, t("lesson.today") + ": "), t("lesson.day." + day) + star);
   const strip = el("nav", { class: "strip", "aria-label": t("nav.section") }, glyphs, chip);
   glyphs.addEventListener("click", (e) => {
     const b = e.target.closest("[data-goto]"); if (!b) return;
@@ -439,10 +485,10 @@ function lessonCheck(id, l, present) {
 
     if (earned >= 1) {
       // COMPLETED state — earned tier + next-review date; re-enable ONLY to earn a HIGHER tier.
-      nodes.push(el("p", { class: "check__done", lang: "uz" },
+      nodes.push(el("p", { class: "check__done" },
         el("span", { class: "check__done-ic", "aria-hidden": "true", html: icon("check") }), tf("check.earned", earned)));
-      if (L.reviewDue) nodes.push(el("p", { class: "check__next", lang: "uz" }, tf("check.nextReview", L.reviewDue)));
-      if (justEarned) nodes.push(el("p", { class: "check__praise", lang: "uz", "aria-live": "polite" }, t("check.praise")));
+      if (L.reviewDue) nodes.push(el("p", { class: "check__next" }, tf("check.nextReview", L.reviewDue)));
+      if (justEarned) nodes.push(el("p", { class: "check__praise", "aria-live": "polite" }, t("check.praise")));
       if (tier > earned) {
         const up = el("button", { class: "btn btn--primary check__earn", type: "button" },
           el("span", { "aria-hidden": "true" }, "⭐ "), tf("check.earnN", tier));
@@ -470,7 +516,7 @@ function lessonCheck(id, l, present) {
       }
       nodes.push(btn);
       if (reasonKey) {
-        const reason = el("p", { class: "check__reason", lang: "uz", id: "check-reason-" + id }, t(reasonKey));
+        const reason = el("p", { class: "check__reason", id: "check-reason-" + id }, t(reasonKey));
         btn.setAttribute("aria-describedby", reason.id);
         nodes.push(reason);
       }
@@ -510,6 +556,10 @@ export async function renderLesson(main, id, token, alive) {
       const res = await fetch(new URL(`lessons/${id}.json`, DATA_BASE));
       if (!res.ok) throw new Error("HTTP " + res.status);
       l = await res.json();
+      // Malformed-but-parses guard (04 §9): a null / array / primitive body would white-screen
+      // the section builders below → treat as not-found. (Object-but-missing-fields is caught by
+      // the render try/catch further down.) Don't cache a bad body, so a fixed file can retry.
+      if (!l || typeof l !== "object" || Array.isArray(l)) throw new Error("malformed lesson JSON");
       cache[id] = l;
     } catch (err) {
       if (alive && !alive()) return;
@@ -531,6 +581,10 @@ export async function renderLesson(main, id, token, alive) {
   openLesson(id);                  // lastLessonId + started (lightweight, not the S5 engine)
   recordSaved = snapshot(id).steps.record === true;  // persisted flag; lesson-speak reconciles w/ IndexedDB
 
+  // Everything from here reads lesson fields; a malformed-but-parses lesson (missing/oddly-typed
+  // fields) must degrade to the friendly not-found card, never a white screen (04 §9). The
+  // per-section present-checks are already defensive; this try is the final backstop.
+  try {
   const A = l.audio || {};
   const T = l.transcripts || {};
   const povMode = A.pov ? "audio" : (T.pov ? "text" : null);
@@ -552,7 +606,7 @@ export async function renderLesson(main, id, token, alive) {
 
   const frag = document.createDocumentFragment();
   // One <h1> per screen (a11y §8); the visible title rides in the top bar.
-  frag.append(el("h1", { class: "visually-hidden" }, `${t("route.lesson.title")} ${l.order} · ${l.title}`));
+  frag.append(el("h1", { class: "visually-hidden" }, `${t("route.lesson.title")} ${l.order ?? ""} · ${l.title || ""}`));
   frag.append(sectionStrip(id, [...present].sort((a, b) => a - b)));
 
   // ⓿ Lesson Home & Can-Do goal
@@ -570,7 +624,7 @@ export async function renderLesson(main, id, token, alive) {
         l.canDo?.en ? el("p", { class: "l-cando__en", lang: "en" }, l.canDo.en) : null),
       el("p", { class: "l-meta" },
         el("span", null, "⏱️ ~" + (totalMin || "?") + " " + t("lesson.min")),
-        el("span", { class: "l-meta__peak", lang: "uz" }, "💪 " + t("lesson.peak")))));
+        el("span", { class: "l-meta__peak" }, "💪 " + t("lesson.peak")))));
     frag.append(s);
   }
 
@@ -590,7 +644,7 @@ export async function renderLesson(main, id, token, alive) {
   if (present.has(3)) {
     const s = section(3, "lesson.sec.3");
     const card = el("div", { class: "card" });
-    card.append(el("p", { class: "l-about" }, el("span", { class: "l-about__k", lang: "uz" }, t("lesson.about") + ": "), el("span", { lang: "uz" }, l.intro?.uz || "")));
+    card.append(el("p", { class: "l-about" }, el("span", { class: "l-about__k" }, t("lesson.about") + ": "), el("span", { lang: "uz" }, l.intro?.uz || "")));
     card.append(el("div", { class: "trg-row trg-row--big" }, trackTrigger(id, "main", A.main, "lesson.audio.main", { key: "main", max: 3 })));
     const dlMain = findDl(l, A.main.path);
     if (dlMain) { const nudge = downloadBtn(dlMain, "dlbtn--wide dlbtn--nudge"); nudge.querySelector(".dlbtn__lab").firstChild.textContent = t("lesson.downloadNudge"); card.append(nudge); }
@@ -602,7 +656,7 @@ export async function renderLesson(main, id, token, alive) {
   if (present.has(4)) {
     const s = section(4, "lesson.sec.4", { elevated: true });
     const card = el("div", { class: "card card--heart" });
-    card.append(el("p", { class: "heart__lead", lang: "uz" }, t("lesson.ministoryLead")));
+    card.append(el("p", { class: "heart__lead" }, t("lesson.ministoryLead")));
     if (A.ministory) card.append(el("div", { class: "trg-row" }, trackTrigger(id, "ministory", A.ministory, "lesson.audio.ministory", { key: "ms", max: 2 })));
     card.append(ministoryDrill(id, l.ministory.pairs));
     s.append(card); frag.append(s);
@@ -612,7 +666,7 @@ export async function renderLesson(main, id, token, alive) {
   if (present.has(5)) {
     const s = section(5, "lesson.sec.5");
     const card = el("div", { class: "card" });
-    card.append(el("p", { class: "l-about", lang: "uz" }, el("span", { class: "l-about__k" }, t("lesson.pov.tense") + ": "), t("lesson.pov.tenseVal")));
+    card.append(el("p", { class: "l-about" }, el("span", { class: "l-about__k" }, t("lesson.pov.tense") + ": "), t("lesson.pov.tenseVal")));
     if (povMode === "audio") {
       const row = el("div", { class: "trg-row" }, trackTrigger(id, "pov", A.pov, "lesson.audio.pov", { key: "pov", max: 2 }));
       const dl = findDl(l, A.pov.path); if (dl) row.append(downloadBtn(dl));
@@ -654,10 +708,10 @@ export async function renderLesson(main, id, token, alive) {
       // framing + watch-task readable and the `fun` step markable so 2★ stays reachable.
       const f = l.funEnglish[0] || {};
       const card = el("div", { class: "card fun" },
-        el("p", { class: "fun__frame", lang: "uz" }, t("lesson.fun.body")),
+        el("p", { class: "fun__frame" }, t("lesson.fun.body")),
         f.title ? el("p", { class: "fun__cap" }, el("span", { class: "fun__title", lang: "en" }, f.title),
           f.channel ? el("span", { class: "fun__chan", lang: "en" }, f.channel) : null) : null,
-        el("p", { class: "fun__task", lang: "uz" }, el("span", { "aria-hidden": "true" }, "📺 "), t("lesson.fun.watchTask")));
+        el("p", { class: "fun__task" }, el("span", { "aria-hidden": "true" }, "📺 "), t("lesson.fun.watchTask")));
       const watched = el("button", { class: "btn btn--soft fun__watched", type: "button" },
         el("span", { "aria-hidden": "true" }, "✓ "), t("check.funWatch"));
       watched.addEventListener("click", () => { watched.classList.add("is-done"); watched.disabled = true; markFun(); });
@@ -673,7 +727,7 @@ export async function renderLesson(main, id, token, alive) {
     if (speak) s.append(speak.speakSection(id, l, { markRecord }));
     else s.append(el("div", { class: "card speak" },
       el("p", { class: "speak__task-en", lang: "en" }, l.speakingPrompt?.en || ""),
-      el("p", { class: "speak__aloud", lang: "uz" }, "🗣️ " + t("speak.answerAloud"))));
+      el("p", { class: "speak__aloud" }, "🗣️ " + t("speak.answerAloud"))));
     frag.append(s);
   }
 
@@ -686,7 +740,13 @@ export async function renderLesson(main, id, token, alive) {
 
   if (alive && !alive()) return;
   main.replaceChildren(frag);
-  document.getElementById("ctx").textContent = `${t("route.lesson.title")} ${l.order}`;
+  document.getElementById("ctx").textContent = `${t("route.lesson.title")} ${l.order ?? ""}`;
+  } catch (err) {
+    if (alive && !alive()) return;
+    console.warn("lesson: malformed lesson data, showing not-found", id, err);
+    notFound(main);
+    return;
+  }
 
   // Scroll-spy: highlight the section crossing the upper third (04 §4.3.2).
   observer = new IntersectionObserver((entries) => {
@@ -702,12 +762,15 @@ export async function renderLesson(main, id, token, alive) {
 
 // Reflect player state on the inline triggers + refresh counters (one listener).
 document.addEventListener("yp:player", (e) => {
-  const { key, lessonId, playing } = e.detail;
+  const { key, lessonId, playing, error } = e.detail;
   document.querySelectorAll("#main [data-track]").forEach((btn) => {
-    const on = btn.dataset.track === key && btn.dataset.lesson === lessonId && !!playing;
+    const match = btn.dataset.track === key && btn.dataset.lesson === lessonId;
+    const on = match && !!playing;
     btn.setAttribute("aria-pressed", String(on));
     btn.classList.toggle("is-playing", on);
     const g = btn.querySelector(".trg__glyph"); if (g) g.innerHTML = icon(on ? "pause" : "play");
+    if (match && error) { btn.classList.add("is-error"); trackErrorPanel(btn); }  // 04 §9 per-track: show inline error + Retry + download
+    else if (match && playing) { btn.classList.remove("is-error"); clearTrackError(btn); }  // recovered → drop the panel
   });
   if (e.detail.listen) refreshLive();
 });

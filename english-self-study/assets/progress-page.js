@@ -134,7 +134,7 @@ function heroCounters(g) {
     el("div", { class: "hmetric" + (big ? " hmetric--big" : "") },
       el("span", { class: "hmetric__ic", "aria-hidden": "true" }, emoji),
       el("span", { class: "hmetric__num" }, groupNum(value)),
-      el("span", { class: "hmetric__lab", lang: "uz" }, label));
+      el("span", { class: "hmetric__lab" }, label));
   return el("div", { class: "card hmetrics" },
     tile(true, "🎧", m.listeningMinutes || 0, t("home.heroListening")),
     tile(false, "🗣️", m.speakingReps || 0, t("home.heroSpeaking")),
@@ -160,7 +160,7 @@ function cefrLadder(stats) {
     row.append(el("div", { class: "cefr__rung cefr__rung--" + st, role: "img", "aria-label": r.cefr + " — " + t(STLAB[st]) },
       el("span", { class: "cefr__mark", "aria-hidden": "true" }, MARK[st]),
       el("span", { class: "cefr__lvl" }, r.cefr),
-      el("span", { class: "cefr__st", lang: "uz" }, t(STLAB[st]))));
+      el("span", { class: "cefr__st" }, t(STLAB[st]))));
   });
   return el("div", { class: "card" }, sectionHead("📊", "progress.section.cefr"), row);
 }
@@ -265,7 +265,7 @@ function coverageGrid(coverage) {
   });
   return el("div", { class: "card" }, sectionHead("🎯", "progress.section.coverage"),
     grid,
-    el("p", { class: "cov__legend", lang: "uz" }, el("span", { class: "cov__legend-sw", "aria-hidden": "true" }), t("progress.coverage.legend")));
+    el("p", { class: "cov__legend" }, el("span", { class: "cov__legend-sw", "aria-hidden": "true" }), t("progress.coverage.legend")));
 }
 
 // ── L1↔L30 recording comparison (only when ≥2 recordings exist) ─────────────────────────
@@ -282,13 +282,13 @@ function makeClip(rec, labelText) {
     if (audio.paused) { audio.play().then(() => { play.innerHTML = icon("pause"); play.setAttribute("aria-label", t("speak.pause")); }).catch(() => {}); }
     else { audio.pause(); play.innerHTML = icon("play"); play.setAttribute("aria-label", t("speak.play")); }
   });
-  return el("div", { class: "clip" }, el("span", { class: "clip__lab", lang: "uz" }, labelText),
+  return el("div", { class: "clip" }, el("span", { class: "clip__lab" }, labelText),
     el("div", { class: "clip__row" }, play, time), audio);
 }
 function growthCard(recs, index) {
   const card = el("div", { class: "card growth" }, sectionHead("🎙️", "progress.section.growth"));
   if (!recs || recs.length < 2) {
-    card.append(el("p", { class: "growth__hint", lang: "uz" }, el("span", { "aria-hidden": "true" }, "💡 "), t("progress.growth.hint")));
+    card.append(el("p", { class: "growth__hint" }, el("span", { "aria-hidden": "true" }, "💡 "), t("progress.growth.hint")));
     return card;
   }
   const byId = new Map((index && index.lessons ? index.lessons : []).map((l) => [l.id, l]));
@@ -296,7 +296,7 @@ function growthCard(recs, index) {
   const sorted = recs.slice().sort((a, b) => orderOf(a) - orderOf(b) || (a.createdAt || 0) - (b.createdAt || 0));
   const first = sorted[0], last = sorted[sorted.length - 1];
   const labelFor = (r, key) => { const l = byId.get(r.id); return l ? tf(key, l.order) : t("progress.growth.generic"); };
-  card.append(el("p", { class: "growth__lead", lang: "uz" }, t("progress.growth.lead")));
+  card.append(el("p", { class: "growth__lead" }, t("progress.growth.lead")));
   card.append(el("div", { class: "growth__row" },
     makeClip(first, labelFor(first, "progress.growth.then")),
     makeClip(last, labelFor(last, "progress.growth.now"))));
@@ -317,7 +317,7 @@ function download(filename, text) {
 }
 function dataCard(rerender) {
   const card = el("div", { class: "card data" }, sectionHead("💾", "progress.section.data"));
-  if (!storageOk()) card.append(el("p", { class: "data__note", lang: "uz" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.noStorage")));
+  if (!storageOk()) card.append(el("p", { class: "data__note" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.noStorage")));
 
   const msg = el("p", { class: "data__msg", role: "status", "aria-live": "polite" });
 
@@ -333,25 +333,26 @@ function dataCard(rerender) {
     msg.textContent = done ? t("progress.data.copied") : t("progress.data.copyFail"); msg.className = "data__msg " + (done ? "is-ok" : "is-err");
   });
 
-  const importBtn = el("button", { class: "btn btn--soft", type: "button" }, el("span", { "aria-hidden": "true" }, "⬆ "), t("progress.data.import"));
+  const importBtn = el("button", { class: "btn btn--soft", type: "button", "aria-expanded": "false", "aria-controls": "dataimport-panel" }, el("span", { "aria-hidden": "true" }, "⬆ "), t("progress.data.import"));
   const resetBtn = el("button", { class: "btn btn--danger", type: "button" }, el("span", { "aria-hidden": "true" }, "🗑 "), t("progress.data.reset"));
 
   const btns = el("div", { class: "data__btns" }, exportBtn, copyBtn, importBtn, resetBtn);
   card.append(btns, msg);
 
   // Import panel (hidden until "Import" is tapped)
-  const panel = el("div", { class: "dataimport", hidden: "" });
+  const panel = el("div", { class: "dataimport", id: "dataimport-panel", hidden: "" });
   const ta = el("textarea", { class: "dataimport__ta", rows: "5", "aria-label": t("progress.data.importHint"), placeholder: t("progress.data.importPlaceholder") });
   const file = el("input", { type: "file", accept: "application/json,.json", class: "dataimport__file", "aria-label": t("progress.data.chooseFile") });
   const previewBtn = el("button", { class: "btn btn--primary", type: "button" }, t("progress.data.preview"));
   const diffBox = el("div", { class: "dataimport__diff" });
   panel.append(
-    el("p", { class: "dataimport__hint", lang: "uz" }, t("progress.data.importHint")),
+    el("p", { class: "dataimport__hint" }, t("progress.data.importHint")),
     ta, el("div", { class: "dataimport__filerow" }, file), previewBtn, diffBox);
   card.append(panel);
 
   importBtn.addEventListener("click", () => {
     const open = panel.hidden; panel.hidden = !open;
+    importBtn.setAttribute("aria-expanded", open ? "true" : "false");
     if (open) ta.focus();
   });
   file.addEventListener("change", () => {
@@ -364,7 +365,7 @@ function dataCard(rerender) {
 
   function row(k, pair) {
     return el("div", { class: "diff__row" },
-      el("span", { class: "diff__k", lang: "uz" }, t(k)),
+      el("span", { class: "diff__k" }, t(k)),
       el("span", { class: "diff__before" }, groupNum(pair.before)),
       el("span", { class: "diff__arrow", "aria-hidden": "true" }, "→"),
       el("span", { class: "diff__after" + (pair.incoming !== pair.before ? " is-changed" : "") }, groupNum(pair.incoming)));
@@ -373,13 +374,14 @@ function dataCard(rerender) {
     diffBox.replaceChildren();
     const res = previewImport(ta.value);
     if (!res.ok) {
-      const key = res.error === "badVersion" ? "progress.import.badVersion" : res.error === "badJson" ? "progress.import.badJson" : "progress.import.invalid";
-      diffBox.append(el("p", { class: "dataimport__err", lang: "uz" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t(key)));
+      // Surface the SPECIFIC refusal reason (badVersion / badJson / invalid / write), not a
+      // generic one — parseImport returns a machine `code` whose `progress.import.<code>` key exists.
+      diffBox.append(el("p", { class: "dataimport__err" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.import." + (res.code || "invalid"))));
       return;
     }
     const p = res.preview;
     const table = el("div", { class: "diff" },
-      el("div", { class: "diff__head" }, el("span"), el("span", { lang: "uz" }, t("progress.import.current")), el("span"), el("span", { lang: "uz" }, t("progress.import.incoming"))),
+      el("div", { class: "diff__head" }, el("span"), el("span", null, t("progress.import.current")), el("span"), el("span", null, t("progress.import.incoming"))),
       row("progress.import.lessons", p.lessons), row("progress.import.stars", p.stars),
       row("progress.import.minutes", p.minutes), row("progress.import.streak", p.streak));
     const confirm = el("button", { class: "btn btn--primary", type: "button" }, el("span", { "aria-hidden": "true" }, "⬆ "), t("progress.data.confirmImport"));
@@ -387,17 +389,17 @@ function dataCard(rerender) {
     confirm.addEventListener("click", () => {
       const r = applyImport(ta.value);
       if (r.ok) { revokeUrls(); rerender(); }
-      else { diffBox.append(el("p", { class: "dataimport__err", lang: "uz" }, t("progress.import.badJson"))); }
+      else { diffBox.append(el("p", { class: "dataimport__err" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.import." + (r.code || "invalid")))); }
     });
-    cancel.addEventListener("click", () => { panel.hidden = true; diffBox.replaceChildren(); ta.value = ""; });
-    diffBox.append(el("p", { class: "diff__title", lang: "uz" }, t("progress.import.title")), table, el("div", { class: "dataimport__confirm" }, confirm, cancel));
+    cancel.addEventListener("click", () => { panel.hidden = true; importBtn.setAttribute("aria-expanded", "false"); diffBox.replaceChildren(); ta.value = ""; });
+    diffBox.append(el("p", { class: "diff__title" }, t("progress.import.title")), table, el("div", { class: "dataimport__confirm" }, confirm, cancel));
   }
   previewBtn.addEventListener("click", doPreview);
 
   // Reset → inline confirm (never a jarring modal)
   resetBtn.addEventListener("click", () => {
     const q = el("div", { class: "data__confirm", role: "group", "aria-label": t("progress.data.reset") },
-      el("p", { class: "data__confirm-q", lang: "uz" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.data.resetConfirm")));
+      el("p", { class: "data__confirm-q" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t("progress.data.resetConfirm")));
     const yes = el("button", { class: "btn btn--danger", type: "button" }, t("progress.data.resetYes"));
     const no = el("button", { class: "btn btn--soft", type: "button" }, t("progress.data.cancel"));
     yes.addEventListener("click", async () => { try { await idbClearAll(); } catch { /* noop */ } resetProgress(); revokeUrls(); rerender(); });
@@ -406,6 +408,61 @@ function dataCard(rerender) {
     card.append(q); no.focus();
   });
 
+  return card;
+}
+
+// ── Course-complete (L30 / Phase 3 done) celebration surface (04 §9, 02 §8.3/§6) ────────
+// Gated on Phase 3 complete (implies B2 / L30 reached) AND every AUTHORED phase complete, so
+// it can never fire mid-course. Only core-09 (phase 1) is authored today → phase 3 authored=0
+// → this never triggers yet; seed all lessons ≥1★ to exercise it. Renders a B2-in-progress
+// badge, a print-friendly "30 Lessons" certificate (window.print + @media print isolates
+// .cert), and the re-record-Lesson-1 prompt. The L1↔L30 comparison stays in growthCard.
+function isCourseComplete(stats) {
+  const p3 = (stats.phases || []).find((p) => p.n === 3);
+  const everyAuthoredDone = (stats.phases || []).every((p) => p.authored === 0 || p.complete);
+  return !!(p3 && p3.complete && everyAuthoredDone);
+}
+
+function certificate(g) {
+  const m = g.metrics || {};
+  // A readable container (NOT role="img" — the title/stats/date are meaningful content a
+  // screen reader must reach); the cert__title <h3> gives it an outline slot.
+  return el("div", { class: "cert" },
+    el("p", { class: "cert__seal", "aria-hidden": "true" }, "🎓"),
+    el("p", { class: "cert__kicker" }, t("progress.complete.certLabel")),
+    el("h3", { class: "cert__title" }, t("progress.complete.certTitle")),
+    el("p", { class: "cert__brand" }, t("progress.complete.certBrand")),
+    el("p", { class: "cert__line" }, t("progress.complete.certLine")),
+    el("p", { class: "cert__stats" },
+      el("span", null, el("span", { "aria-hidden": "true" }, "🎧 "), tf("progress.complete.certMinutes", groupNum(m.listeningMinutes || 0))),
+      el("span", { class: "cert__dot", "aria-hidden": "true" }, " · "),
+      el("span", null, el("span", { "aria-hidden": "true" }, "🗣️ "), tf("progress.complete.certReps", groupNum(m.speakingReps || 0)))),
+    el("p", { class: "cert__date" }, t("progress.complete.certDate") + ": " + todayISO()));
+}
+
+function courseCompleteCard(g, firstAuthored) {
+  const card = el("div", { class: "card complete" });
+  card.append(el("p", { class: "complete__burst", "aria-hidden": "true" }, "🎉"));
+  card.append(el("h2", { class: "complete__h" }, t("progress.complete.title")));
+  card.append(el("p", { class: "complete__body" }, t("progress.complete.body")));
+
+  // B2-in-progress badge — celebratory, never color-only (glyph + text + aria).
+  card.append(el("div", { class: "complete__b2", role: "img", "aria-label": t("progress.complete.b2Aria") },
+    el("span", { class: "complete__b2-ic", "aria-hidden": "true" }, "📈"),
+    el("span", { class: "complete__b2-lab" }, t("progress.complete.b2Badge"))));
+
+  // Printable "30 Lessons" certificate + a real <button> that calls window.print().
+  card.append(certificate(g));
+  const printBtn = el("button", { class: "btn btn--primary complete__print", type: "button" },
+    el("span", { class: "set-ic", "aria-hidden": "true" }, "🖨"), t("progress.complete.print"));
+  printBtn.addEventListener("click", () => { try { window.print(); } catch { /* noop */ } });
+  card.append(printBtn);
+
+  // Re-record-Lesson-1 prompt → deep-link to the first authored lesson's Speak-It.
+  if (firstAuthored) card.append(el("div", { class: "complete__rerec" },
+    el("p", { class: "complete__rerec-t" }, el("span", { "aria-hidden": "true" }, "💡 "), t("progress.complete.rerecord")),
+    el("a", { class: "btn btn--soft complete__rerec-cta", href: "#/lesson/" + firstAuthored.id },
+      tf("progress.complete.rerecordCta", firstAuthored.order))));
   return card;
 }
 
@@ -437,6 +494,12 @@ export async function renderProgress(main, seq, alive) {
 
   const sec = el("section", { class: "screen prog" });
   sec.append(el("h1", { class: "screen__title" }, t("route.progress.title")));
+  // Course-complete celebration leads when Phase 3 is done (04 §9). Won't fire until the
+  // full catalogue is authored + completed; graceful + testable by seeding all-complete.
+  if (index && isCourseComplete(stats)) {
+    const firstAuthored = [...(index.lessons || [])].sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))[0] || null;
+    sec.append(courseCompleteCard(g, firstAuthored));
+  }
   sec.append(heroCounters(g));
   if (index) sec.append(cefrLadder(stats));
   sec.append(streakCard(g));

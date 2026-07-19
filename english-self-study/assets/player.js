@@ -7,7 +7,7 @@
 // lesson page can reflect playing state (aria-pressed + equalizer) and the
 // repeat-listen dots without this module knowing anything about the page.
 
-import { el, icon, t, loadSettings, saveSetting, fmtTime } from "./core.js";
+import { el, icon, t, tf, loadSettings, saveSetting, fmtTime } from "./core.js";
 import { mediaUrl } from "../config.js";
 import { savePos, getPos, markListen, addListeningMinutes } from "./progress.js";
 
@@ -18,6 +18,7 @@ let dock = null;           // built lazily on first track
 let refs = {};             // cached dock sub-elements
 let cur = null;            // { key, path, title, lessonId, durationSec }
 let expanded = false;
+let errored = false;        // dock is showing the per-track error affordance (04 §5.1/§9)
 let doneLatched = false;    // one listen counted per ~90% crossing
 let lastSaved = 0;         // throttle posSec writes (~5 s)
 let pendingSeek = 0;       // restore-position applied after loadedmetadata
@@ -62,17 +63,29 @@ function broadcast(extra) {
 function announce(msg) { if (refs.status) refs.status.textContent = msg; }
 const rate = () => (audio && RATES.includes(audio.playbackRate)) ? audio.playbackRate : 1;
 
+// Screen-reader spoken time for the seek slider's aria-valuetext (a11y §8: "1 daqiqa 30
+// soniya", not the visual "1:30" which reads as "one thirty"). Follows the UZ|EN toggle.
+function spokenTime(sec) {
+  sec = Math.max(0, Math.floor(Number(sec) || 0));
+  const m = Math.floor(sec / 60), s = sec % 60;
+  const parts = [];
+  if (m > 0) parts.push(tf("player.timeMin", m));
+  parts.push(tf("player.timeSec", s));
+  return parts.join(" ");
+}
+const baseName = (p) => String(p || "").split("/").pop() || "audio";
+
 // ---- Boot: create the audio element, restore the saved rate (03 §7) ---------
 export function initPlayer() {
   region = document.getElementById("player");
   audio = el("audio", { preload: "none" });     // preload=none: 0 bytes until play (P4)
   document.body.appendChild(audio);              // OUTSIDE <main>
-  audio.addEventListener("play", () => { listenLastTs = Date.now(); syncPlayBtns(); announce(t("player.playing") + " " + (cur?.title || "")); broadcast(); });
+  audio.addEventListener("play", () => { listenLastTs = Date.now(); hideError(); syncPlayBtns(); announce(t("player.playing") + " " + (cur?.title || "")); broadcast(); });
   audio.addEventListener("pause", () => { syncPlayBtns(); pauseAccrual(); flushSave(); broadcast(); });
   audio.addEventListener("loadedmetadata", onMeta);
   audio.addEventListener("timeupdate", onTime);
   audio.addEventListener("ended", onEnded);
-  audio.addEventListener("ratechange", () => { if (refs.rate) refs.rate.textContent = rate() + "×"; });
+  audio.addEventListener("ratechange", () => { if (refs.rate) { refs.rate.textContent = rate() + "×"; refs.rate.setAttribute("aria-label", tf("player.rateVal", rate())); refs.rate.title = tf("player.rateVal", rate()); } });
   audio.addEventListener("error", onError);
   const s = loadSettings();
   audio.playbackRate = RATES.includes(s.rate) ? s.rate : 1;
@@ -80,7 +93,8 @@ export function initPlayer() {
 
 // ---- Public: load+play a track, or toggle if it is the current one ----------
 export function playTrack({ key, path, title, lessonId, durationSec }) {
-  if (cur && cur.key === key && cur.lessonId === lessonId) {   // same track → toggle
+  if (cur && cur.key === key && cur.lessonId === lessonId) {   // same track
+    if (audio.error) { retryCurrent(); return; }               // errored → full reload (load()+play()), not a dead play-toggle: play() on an errored element never re-selects the resource (04 §9). Fixes inline Retry + re-tap recovery.
     audio.paused ? audio.play().catch(() => {}) : audio.pause();
     return;
   }
@@ -91,8 +105,10 @@ export function playTrack({ key, path, title, lessonId, durationSec }) {
   if (!dock) buildDock();
   region.hidden = false;
   document.body.classList.add("yp-has-dock");   // reserve bottom space in <main>
+  hideError();                                  // clear a prior track's error UI (04 §9)
   audio.src = mediaUrl(path);
   audio.playbackRate = rate();
+  announce(t("player.loading"));                // loading state announced (a11y §8; §5.1)
   const pos = getPos(lessonId, key);
   if (pos > 2 && (!durationSec || pos < durationSec * 0.95)) pendingSeek = pos; // restore (04 §5.1)
   audio.load();
@@ -106,6 +122,7 @@ export function refreshText() { if (dock) { relabel(); paintTrack(); } }  // on 
 
 // ---- Audio event handlers ---------------------------------------------------
 function onMeta() {
+  hideError();   // metadata loaded ⇒ the source is reachable; clear any error UI (04 §9)
   if (pendingSeek > 0) { try { audio.currentTime = pendingSeek; } catch {} pendingSeek = 0; }
   const dur = audio.duration || cur?.durationSec || 0;
   if (refs.seek) { refs.seek.max = Math.max(1, Math.floor(dur)); }
@@ -136,9 +153,9 @@ function onEnded() {
 }
 function onError() {
   if (!cur) return;
+  showError();                 // dock: "Audio yuklanmadi" + Retry + download-attempt (04 §5.1/§9)
   announce(t("player.error"));
-  if (refs.label) refs.label.textContent = t("player.error");
-  broadcast({ error: true });
+  broadcast({ error: true });  // shell may raise the global media-down banner; the lesson page keeps its transcript + inline retry
 }
 function recordListen() {
   const count = markListen(cur.lessonId, cur.key);
@@ -154,38 +171,79 @@ function buildDock() {
   const play = iconBtn("play", t("player.play"), "dock__play", togglePlay);
   const playBig = iconBtn("play", t("player.play"), "dock__play dock__play--big", togglePlay);
   const label = el("span", { class: "dock__label" });
-  const bar = el("div", { class: "dock__mini" }, el("i", { class: "dock__mini-fill" }));
+  const bar = el("div", { class: "dock__mini", "aria-hidden": "true" }, el("i", { class: "dock__mini-fill" }));
   const time = el("span", { class: "dock__time" }, "0:00");
   const expand = iconBtn("expand", t("player.expand"), "dock__expand", toggleExpand);
 
-  const seek = el("input", { type: "range", class: "dock__seek", min: "0", max: "1", value: "0", step: "1", "aria-label": t("player.seek") });
-  seek.addEventListener("input", () => { scrubbing = true; if (refs.cur) refs.cur.textContent = fmtTime(+seek.value); seek.setAttribute("aria-valuetext", fmtTime(+seek.value)); });
+  // Native range = an accessible slider for free (aria-valuemin/max/now derived from
+  // min/max/value); we add aria-valuetext as SPOKEN time so a reader says "1 daqiqa 30
+  // soniya" instead of "42" (a11y §8). Live position updates go through paintProgress,
+  // NOT the status live region (which would flood a screen reader per-second).
+  const seek = el("input", { type: "range", class: "dock__seek", min: "0", max: "1", value: "0", step: "1",
+    "aria-label": t("player.seek"), "aria-valuetext": spokenTime(0) });
+  seek.addEventListener("input", () => { scrubbing = true; if (refs.cur) refs.cur.textContent = fmtTime(+seek.value); seek.setAttribute("aria-valuetext", spokenTime(+seek.value)); });
   seek.addEventListener("change", () => { try { audio.currentTime = +seek.value; } catch {} scrubbing = false; });
   const curT = el("span", { class: "dock__t" }, "0:00");
   const totT = el("span", { class: "dock__t" }, "0:00");
   const back = iconBtn("replay10", t("player.back10"), "", () => nudge(-10));
   const fwd = iconBtn("forward15", t("player.fwd15"), "", () => nudge(15));
-  const rateChip = el("button", { class: "dock__rate", type: "button", "aria-label": t("player.rate"), onclick: cycleRate }, rate() + "×");
-  const status = el("span", { class: "visually-hidden", "aria-live": "polite" });
+  const rateChip = el("button", { class: "dock__rate", type: "button", "aria-label": tf("player.rateVal", rate()), title: tf("player.rateVal", rate()), onclick: cycleRate }, rate() + "×");
+  const status = el("span", { class: "visually-hidden", "aria-live": "polite", "aria-atomic": "true" });
+
+  // Per-track error affordance (04 §5.1/§9): label shows "Audio yuklanmadi", plus a real
+  // Retry button and a download-attempt link. Hidden until onError; the transcript/vocab/
+  // grammar in the lesson page stay fully usable regardless.
+  const retry = iconBtn("retry", t("player.retry"), "dock__ebtn", retryCurrent);
+  const dl = el("a", { class: "dock__ebtn dock__dl", rel: "noopener", target: "_blank",
+    "aria-label": t("player.download"), title: t("player.download"), html: icon("download") });
+  const err = el("div", { class: "dock__err" }, retry, dl);
+  err.hidden = true;
 
   const row = el("div", { class: "dock__row" }, play, el("div", { class: "dock__meta" }, label, bar), time, expand);
   const panel = el("div", { class: "dock__panel" },
     el("div", { class: "dock__seekrow" }, curT, seek, totT),
     el("div", { class: "dock__controls" }, back, playBig, fwd, rateChip));
-  dock = el("div", { class: "dock" }, row, panel, status);
+  dock = el("div", { class: "dock" }, row, err, panel, status);
   region.replaceChildren(dock);
-  refs = { play, playBig, label, fill: bar.firstChild, time, expand, seek, cur: curT, total: totT, rate: rateChip, status };
+  refs = { play, playBig, label, fill: bar.firstChild, time, expand, seek, cur: curT, total: totT, rate: rateChip, status, retry, dl, err };
   relabel();
 }
 function relabel() {
   if (!refs.play) return;
   refs.expand.setAttribute("aria-label", expanded ? t("player.collapse") : t("player.expand"));
-  refs.rate.setAttribute("aria-label", t("player.rate"));
+  refs.expand.title = expanded ? t("player.collapse") : t("player.expand");
+  refs.rate.setAttribute("aria-label", tf("player.rateVal", rate()));
+  refs.rate.title = tf("player.rateVal", rate());
+  if (refs.seek) refs.seek.setAttribute("aria-label", t("player.seek"));
+  if (refs.retry) { refs.retry.setAttribute("aria-label", t("player.retry")); refs.retry.title = t("player.retry"); }
+  if (refs.dl) { refs.dl.setAttribute("aria-label", t("player.download")); refs.dl.title = t("player.download"); }
   syncPlayBtns();
+}
+
+// ---- Per-track error UI (04 §5.1/§9) ----------------------------------------
+function showError() {
+  errored = true;
+  if (refs.label) refs.label.textContent = t("player.error");
+  if (refs.dl && cur) { refs.dl.href = mediaUrl(cur.path); refs.dl.setAttribute("download", baseName(cur.path)); }
+  if (refs.err) refs.err.hidden = false;
+  if (dock) dock.classList.add("dock--error");
+}
+function hideError() {
+  errored = false;
+  if (refs.err) refs.err.hidden = true;
+  if (dock) dock.classList.remove("dock--error");
+  if (refs.label) refs.label.textContent = cur ? cur.title : "";
+}
+function retryCurrent() {
+  if (!cur) return;
+  hideError();
+  announce(t("player.retrying"));
+  try { audio.load(); } catch {}
+  audio.play().catch(() => {});   // a fresh load()+play() re-attempts the source (04 §9)
 }
 function paintTrack() {
   if (!refs.label) return;
-  refs.label.textContent = cur ? cur.title : "";
+  refs.label.textContent = errored ? t("player.error") : (cur ? cur.title : "");
   const dur = (audio.duration && Number.isFinite(audio.duration)) ? audio.duration : (cur?.durationSec || 0);
   if (refs.total) refs.total.textContent = fmtTime(dur);
   refs.seek.max = Math.max(1, Math.floor(dur));
@@ -195,7 +253,7 @@ function paintTrack() {
 function paintProgress() {
   const dur = audio.duration || cur?.durationSec || 0;
   const cT = audio.currentTime || 0;
-  if (!scrubbing && refs.seek) { refs.seek.value = Math.floor(cT); refs.seek.setAttribute("aria-valuetext", fmtTime(cT)); }
+  if (!scrubbing && refs.seek) { refs.seek.value = Math.floor(cT); refs.seek.setAttribute("aria-valuetext", spokenTime(cT)); }
   if (refs.cur) refs.cur.textContent = fmtTime(cT);
   if (refs.time) refs.time.textContent = `${fmtTime(cT)} / ${fmtTime(dur)}`;
   if (refs.fill) refs.fill.style.width = dur ? (100 * cT / dur) + "%" : "0%";
@@ -214,5 +272,7 @@ function toggleExpand() { expanded = !expanded; dock.classList.toggle("is-expand
 function nudge(sec) { if (!cur) return; const d = audio.duration || cur.durationSec || 0; try { audio.currentTime = Math.max(0, Math.min(d || audio.currentTime + sec, audio.currentTime + sec)); } catch {} }
 function cycleRate() {
   const next = RATES[(RATES.indexOf(rate()) + 1) % RATES.length];
-  audio.playbackRate = next; refs.rate.textContent = next + "×"; saveSetting("rate", next);
+  audio.playbackRate = next; refs.rate.textContent = next + "×";
+  refs.rate.setAttribute("aria-label", tf("player.rateVal", next)); refs.rate.title = tf("player.rateVal", next);
+  saveSetting("rate", next);
 }

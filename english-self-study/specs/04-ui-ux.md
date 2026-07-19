@@ -753,12 +753,12 @@ This app belongs to the **Principia Forge** family (siblings: YouPlan, YouWrite,
 | `--muted` | `#6F675E` | Uzbek gloss, captions, meta | 5.5:1 — AA |
 | `--border` | `#E7E5E4` | hairlines (non-text); interactive borders darken to `#D6D3D1`+ | decorative |
 | `--teal` (action) | `#0F766E` | buttons, links, active nav | 5.4:1 on bg; white-on-teal 5.5:1 — AA |
-| `--teal-bright` | `#14B8A6` | accents, focus glow, equalizer | large/graphic |
-| `--indigo` | `#4F46E5` | grammar / "learn" accents | 6.3:1 — AA |
-| `--amber` | `#B45309` | achievement text (streak, XP) | 5.0:1 — AA |
-| `--amber-bright` | `#D97706` | stars/flame fills (large/graphic) | 3.2:1 (large-only) |
-| `--green` | `#15803D` | correct / done | 5.0:1 — AA |
-| `--red` | `#DC2626` | errors, destructive (used sparingly, kindly) | 4.8:1 — AA |
+| `--teal-bright` | `#0E9384` | focus ring (2px + offset), today-cell / strip-active outline | 3.7:1 on bg — UI ≥3:1 ✓ *(S11: was `#14B8A6` at **2.5:1**, which failed the ≥3:1 focus rule; darkened)* |
+| `--indigo` | `#4F46E5` | grammar / "learn" accents | 6.2:1 — AA |
+| `--amber` | `#A24B08` | achievement text (streak, XP), chips | 5.8:1 on bg; ≥4.5:1 on its own 10–18% tint — AA *(S11: darkened from `#B45309`, which was 4.9:1 on bg but dropped to ~3.9–4.2:1 on its own tint)* |
+| `--amber-bright` | `#D97706` | stars/flame fills; is-wrong borders (large/UI) | 3.1:1 (large/UI-only) |
+| `--green` | `#137337` | correct / done | 5.8:1 on bg; ≥4.5:1 on its own 9–16% tint — AA *(S11: darkened from `#15803D`)* |
+| `--red` | `#C42222` | errors, destructive (used sparingly, kindly) | 5.8:1 on bg; ≥4.5:1 on its own 8–14% tint — AA *(S11: darkened from `#DC2626`)* |
 
 **Dark mode (warm-dark, not pure black; rejoins the family teal):**
 | Token | Hex | Contrast |
@@ -774,12 +774,14 @@ This app belongs to the **Principia Forge** family (siblings: YouPlan, YouWrite,
 
 **Phase accents** (map + badges): Poydevor = teal, Sur'at = indigo, Ravonlik = amber — a warm climb from calm→energised. Each is paired with an icon/label so meaning never rests on hue alone.
 
+> **S11 contrast audit (measured, not guessed — `scripts`-style WCAG 2.1 formula over all 58 token pairs, both themes).** Every body pair meets ≥4.5:1 and every UI/large pair ≥3:1 in **both** themes, including the tricky **coloured-text-on-its-own-`color-mix` tint** states (chip, `gx`/`quiz` correct/wrong, `btn--danger`, `complete__b2`, `six-insert`, `cov--on`, CEFR/streak tints). The audit caught and fixed three real light-mode regressions: the **focus ring** (`--teal-bright #14B8A6` was 2.5:1 on bg — under the ≥3:1 focus rule — now `#0E9384` at 3.7:1) and **amber/green/red text on their own tints** (3.9–4.4:1 — fixed by darkening the three tokens; each is ≥4.5:1 on tints up to 18/16/14% and 5.8:1 on plain bg). Dark-mode tint states pass with 4.7–8.6:1 headroom (bright tokens on dark tints), so only the **light** tokens moved; dark tokens are unchanged. **Two documented non-issues remain (not WCAG failures):** (1) `--teal-bright` measures 1.4:1 *directly on a solid teal fill*, but the focus ring's `outline-offset:2px` always renders it over the light page background (3.7:1) — the on-teal number is a non-adjacency artifact; (2) the empty ☆ star (`--border-strong`, ~1.5:1) is shape-distinct from the filled ★ (amber, ≥3:1 large) and the earned count is carried by the filled stars + an `aria-label`, so the faint empty slot (the universal rating convention) conveys no colour-only information. `--border-strong` is left unchanged so hairlines/borders across the system are not disturbed.
+
 ### 7.3 Type scale (system stack, 0 KB)
 ```
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
              "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 ```
-Renders `oʻ`/`gʻ` (U+02BB/02BC) correctly (03 §7). Scale (~1.2 modular, **17 px base**):
+Renders `oʻ`/`gʻ` (U+02BB/02BC) correctly (03 §7). *(S11: this stack is stored once as the `--font` custom property on `:root` and consumed by `body` and by every `font:` shorthand in `styles.css` — a bare `inherit` is not a legal `<font-family>` inside the `font` shorthand and silently voids the whole declaration.)* Scale (~1.2 modular, **17 px base**):
 
 | Token | Size / line-height | Use |
 |---|---|---|
@@ -807,7 +809,7 @@ Bilingual pairing convention: **target English = `body`/`h3` weight**; **Uzbek s
 
 ### 7.6 Iconography & motion
 - **Inline SVG line icons** (1.75px stroke, rounded caps) for UI (play, download, back, nav) + **a small, consistent emoji set for warmth**: 🎧 listen · 🗣️ speak · ⭐ stars · 🔥 streak · 🎯 goal · 🔁 review · 🎭 role-play · ⚠️ error-fix · 💪 peak-state. Used consistently, **never as decoration clutter** — warm, adult, not a sticker sheet. No icon font (bandwidth + a11y).
-- **Motion:** 150–250 ms ease-out; transitions on opacity/transform only (cheap on low-end GPUs). Card flip, star fill, equalizer, streak flicker, toast rise. **All motion is disabled under `prefers-reduced-motion: reduce`** (a11y §8) — celebrations degrade to an instant state change.
+- **Motion:** 150–250 ms ease-out; transitions on opacity/transform only (cheap on low-end GPUs). Card flip, star fill, equalizer, streak flicker, toast rise. **All motion is disabled under `prefers-reduced-motion: reduce`** (a11y §8) — celebrations degrade to an instant state change. *(S11: the global reduced-motion block is the **last rule** in `styles.css`, after all cluster CSS, and neutralises `animation-duration`/`-delay`/`-iteration-count` + `transition-duration`/`-delay` + `scroll-behavior` via `!important` on `*`, so it wins over every animation including the S11-merged banners/toast/celebration/beat/equalizer/flip/next-pulse/gref-flash/sheet-up/skeleton.)*
 
 ---
 
@@ -815,42 +817,46 @@ Bilingual pairing convention: **target English = `body`/`h3` weight**; **Uzbek s
 
 Target **WCAG 2.1 AA**. The bilingual dimension makes correct `lang` handling load-bearing, not optional.
 
+*Status: all items below verified in the S11 hardening pass (a11y audit + measured contrast). The one deliberate divergence — a persistent chrome `<footer>` — is annotated inline.*
+
 **Structure & keyboard**
-- [ ] Semantic landmarks: `<header>`, `<nav>`, `<main>`, `<footer>`; one `<h1>` per screen; ordered heading levels.
-- [ ] **Skip-to-content** link is the first focusable element ("Asosiy kontentga o'tish").
-- [ ] Every interactive element is a real `<button>`/`<a>`/`<input>` — reachable by Tab in logical order, no keyboard traps (incl. exiting the YouTube iframe).
-- [ ] **Visible focus indicator** everywhere: 2px `--teal-bright` outline + offset, ≥3:1 against its background; never `outline:none` without a replacement.
-- [ ] Tap targets ≥ 44px (target 48) with ≥8px separation (P2, WCAG 2.5.5/2.5.8).
-- [ ] Tap-to-reveal (mini-story), flip-cards, accordions operate via Enter/Space and expose `aria-expanded`.
+- [x] Semantic landmarks: `<header>`, `<nav>` (top links + bottom nav + sections sheet), `<main>`. *(S11: no **persistent chrome `<footer>`** — the bottom-nav + docked player own that zone on mobile; a global footer would be empty clutter (P1/P5). `<footer>` is reserved for page-level footer content; the About tagline is the only such content and can adopt `<footer>` when it grows. Landmarks are used correctly for the content that exists.)* One `<h1>` per screen + ordered heading levels verified on all routes (incl. both Home faces + both error screens).
+- [x] **Skip-to-content** link is the first focusable element ("Asosiy kontentga oʻtish"); targets `#main`. *(S11: the global banner region `#ypBanners` is inserted **before** `#main`, so the skip link still skips over it.)*
+- [x] Every interactive element is a real `<button>`/`<a>`/`<input>` — reachable by Tab in logical order, no keyboard traps (sections-sheet trap wraps + restores focus; the YouTube iframe has an "open on YouTube" escape link placed after it).
+- [x] **Visible focus indicator** everywhere: 2px `--teal-bright` outline + 2px offset, ≥3:1 against its background; never `outline:none` without a replacement (the only `outline:none` is the `:focus:not(:focus-visible)` mouse-focus guard). *(S11: `--teal-bright` darkened to `#0E9384` so the light-mode ring clears ≥3:1 — see §7.2.)*
+- [x] Tap targets ≥ 44px (target 48) with ≥8px separation (P2, WCAG 2.5.5/2.5.8). *(S11: vocab 🔊 40→44, vocab "known" dot + section-strip glyphs get 44px `::before` hit areas with widened gaps, docked seek → 44px.)*
+- [x] Tap-to-reveal (mini-story), flip-cards, accordions operate via Enter/Space and expose `aria-expanded`.
 
 **Audio player ARIA (03 §7's persistent player)**
-- [ ] Player container `role="region"` + `aria-label="Audio pleer / Audio player"`.
-- [ ] Play/pause: `<button>` with `aria-label` that reflects state (*"Ijro / Play"* ↔ *"To'xtatish / Pause"*) and `aria-pressed`.
-- [ ] Seek bar: `role="slider"` (or native `<input type=range>`) with `aria-valuemin/max/now` and `aria-valuetext` as spoken time (*"1 daqiqa 30 soniya"*).
-- [ ] Rate control exposes current value; `⟲10s/⟳15s` have explicit labels.
-- [ ] Status changes (loading/error/ended) announced via a single `aria-live="polite"` region — **not** per-second time updates (would flood a screen reader).
-- [ ] Inline section triggers announce which track and playing state (`aria-pressed`).
+- [x] Player container `role="region"` + `aria-label="Audio pleer / Audio player"`.
+- [x] Play/pause: `<button>` with `aria-label` that reflects state (*"Ijro / Play"* ↔ *"Toʻxtatish / Pause"*) and `aria-pressed`.
+- [x] Seek bar: native `<input type=range>` with implicit `aria-valuemin/max/now` and `aria-valuetext` as **spoken** time (*"1 daqiqa 30 soniya"* / *"1 min 30 sec"*, kept in sync on paint + input). *(S11 fix.)*
+- [x] Rate control exposes its current value (`aria-label = "Tezlik: 1× / Speed: 1×"`). *(S11 fix: the label previously read only "Speed", hiding the value from SRs.)* `⟲10s/⟳15s` have explicit labels.
+- [x] Status changes (loading/error/ended) announced via a single `aria-live="polite"` + `aria-atomic` region — **not** per-second time updates. *(S11: loading now announced too.)*
+- [x] Inline section triggers announce which track and playing state (`aria-pressed`).
 
 **Bilingual language attributes (critical, 02 §9)**
-- [ ] `<html lang>` follows the UI toggle: `uz` or `en`.
-- [ ] **Within an Uzbek UI, English content is wrapped `lang="en"`** (transcripts, vocab English, mini-story Q&A, dialogue, quiz options) and **Uzbek glosses/instructions `lang="uz"`** — so screen readers switch pronunciation and browsers hyphenate correctly. This is the single most important a11y detail unique to this product.
-- [ ] Uzbek uses proper `oʻ`/`gʻ` (U+02BB/02BC), not ASCII apostrophes, everywhere.
+- [x] `<html lang>` follows the UI toggle: `uz` or `en` (set pre-paint in `index.html`, kept in sync by `app.js setLang`).
+- [x] **Within an Uzbek UI, English content is wrapped `lang="en"`** (transcripts, vocab English, mini-story Q&A, dialogue, quiz options) and genuine Uzbek lesson content stays `lang="uz"`. **S11 app-wide fix (WCAG 3.1.2): the static `lang="uz"` was DROPPED from all `t()`-driven UI strings** (home/lessons/lesson/lesson-fun/lesson-episodes/lesson-speak/method/progress-page/… ~55+ sites) so chrome now follows the toggle instead of mislabelling English as Uzbek in EN mode. A few genuinely-always-Uzbek literals (e.g. "Oʻzbekcha", verb glosses, mixed-content callouts dominated by authored Uzbek) intentionally keep `lang="uz"`.
+- [x] Uzbek uses proper `oʻ`/`gʻ` (U+02BB/02BC), not ASCII apostrophes, in letters. *(All S11-added dict keys verified apostrophe-clean; the handful of ASCII `'` in existing values are quotation marks around English terms, not Uzbek letters.)*
 
 **Perception & robustness**
-- [ ] Contrast AA verified (§7.2): body ≥4.5:1, large/UI ≥3:1 — every token measured.
-- [ ] **Never color-alone:** stars have shape; correct/incorrect carry icon + text; phase = color + label; progress = ring + number.
-- [ ] `prefers-reduced-motion: reduce` disables all non-essential animation incl. celebrations, equalizer, streak flicker.
-- [ ] Reflows to 320px width and to 200% zoom with no horizontal scroll (rem units, `max-width` measures).
-- [ ] Images/thumbnails have `alt`; decorative emoji are `aria-hidden` where they duplicate adjacent text.
-- [ ] YouTube facade → the injected iframe carries a `title`; recommend caption-bearing channels; provide the "open on YouTube" fallback.
-- [ ] Recording UI has clear labels + a text status; playback is keyboard-operable; mic-permission-denied has an Uzbek explanation, not a dead button.
-- [ ] Forms/toggles have programmatic labels; error text is associated (`aria-describedby`).
+- [x] Contrast AA verified (§7.2): body ≥4.5:1, large/UI ≥3:1 — **every** token pair measured in both themes, incl. coloured-text-on-own-tint states (S11 audit; three light-mode regressions fixed).
+- [x] **Never color-alone:** stars have shape (☆/★) + aria count; correct/incorrect carry ✓/✗ icon + text; phase = color + label; progress = ring + number. *(S11: grammar MCQ wrong answer gained a ✗ to mirror the ✓.)*
+- [x] `prefers-reduced-motion: reduce` disables all non-essential animation incl. celebrations, equalizer, streak flicker, banners, toast, card flip. *(S11: the global rule is the **last** declaration in `styles.css`, so it wins over every merged animation.)*
+- [x] Reflows to 320px width and to 200% zoom with no horizontal scroll (mobile-first single column, `max-width` measures; wide tables scroll inside their own `overflow-x:auto` wrappers). *(S11: added `img,svg,video{max-width:100%}` + `body{overflow-wrap:break-word}` safety net.)*
+- [x] Images/thumbnails have `alt`; decorative emoji are `aria-hidden` where they duplicate adjacent text. *(The Fun English facade is a CSS gradient — 0 image bytes — so there is no thumbnail to alt.)*
+- [x] YouTube facade → the injected iframe carries a non-empty `title` (falls back to the section name); provide the "open on YouTube" fallback when blocked.
+- [x] Recording UI has clear labels + a `role=status` text region; playback is keyboard-operable; mic-permission-denied shows an Uzbek how-to-enable note + keeps the shadow/answer-aloud alternatives (never a dead button).
+- [x] Forms/toggles have programmatic labels; error text is surfaced in an associated live/`status` region (import errors now show a **translated** reason, not a raw error code — S11 fix).
 
 ---
 
 ## 9. Empty / edge / error states
 
 Every one degrades gracefully — **the lesson never becomes a dead screen** (03 §9).
+
+> **S11 status: every row below is implemented and verified.** Highlights added/hardened in S11 — media-host-down **global banner** (`#ypBanners`, dismiss-suppressed until recovery, raised only after ≥2 distinct tracks fail); **per-track** inline error panel (⚠️ + Retry + download-attempt, transcript/vocab/grammar/mini-story stay usable) *and* a docked-bar Retry/download affordance; localStorage-unavailable + IndexedDB-unavailable non-blocking notices; **import** now version-tiers (v1 accepted · missing/legacy → `migrate()` attempt · higher/non-numeric → refused `badVersion`) and always returns a **translated** reason (fixing Settings, which previously showed the raw code); **course-complete (L30)** ships on the Progress page. *Note on the L30 badge:* the celebration renders a distinct **"B2 — in progress"** badge (per this row + §4.6), even though the reused `cefrLadder()` marks B2 "reached ✓" once Phase 3 completes — the ladder is left as-is (its CEFR derivation is used elsewhere); the course-complete card is the authoritative "B2 in progress" surface.
 
 | State | Trigger | UI response |
 |---|---|---|

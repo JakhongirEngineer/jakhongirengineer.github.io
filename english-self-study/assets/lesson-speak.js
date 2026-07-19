@@ -128,7 +128,7 @@ export function speakSection(id, l, ctx) {
   card.append(promptBlock(sp, targetSec));
 
   // Privacy reassurance (UZ) — "nothing is uploaded — faqat siz" (04 §4.3 ⑨).
-  card.append(el("p", { class: "speak__privacy", lang: "uz" },
+  card.append(el("p", { class: "speak__privacy" },
     el("span", { class: "speak__privacy-ic", "aria-hidden": "true" }, "🔒 "), t("speak.privacy")));
 
   // The state-specific control area (idle / recording / saved / denied / unsupported).
@@ -138,16 +138,16 @@ export function speakSection(id, l, ctx) {
   card.append(area, status);
 
   // Always-available no-mic alternative — the section is never a dead end (04 §9).
-  card.append(el("p", { class: "speak__aloud", lang: "uz" },
+  card.append(el("p", { class: "speak__aloud" },
     el("span", { "aria-hidden": "true" }, "🗣️ "), t("speak.answerAloud")));
   // re-record-Lesson-1-at-Lesson-30 growth hook (02 §6/§8.4).
-  card.append(el("p", { class: "speak__hook", lang: "uz" },
+  card.append(el("p", { class: "speak__hook" },
     el("span", { "aria-hidden": "true" }, "💡 "), t("speak.hook")));
 
   const ui = { area, status, targetSec, ctx };
 
   if (!canRecord()) {                      // MediaRecorder unsupported → hide the button gracefully
-    area.append(el("p", { class: "speak__note", lang: "uz" },
+    area.append(el("p", { class: "speak__note" },
       el("span", { "aria-hidden": "true" }, "ℹ️ "), t("speak.unsupported")));
     return card;
   }
@@ -171,7 +171,7 @@ export function speakSection(id, l, ctx) {
 // ── Prompt block: IELTS-style English prompt + Uzbek instruction + target chip ───────
 function promptBlock(sp, targetSec) {
   const wrap = el("div", { class: "speak__prompt" });
-  wrap.append(el("p", { class: "speak__task-lab", lang: "uz" }, t("speak.task") + ":"));
+  wrap.append(el("p", { class: "speak__task-lab" }, t("speak.task") + ":"));
   wrap.append(el("p", { class: "speak__task-en", lang: "en" }, sp.en || ""));
   wrap.append(el("p", { class: "speak__task-uz", lang: "uz" }, sp.uz || t("speak.instructionDefault")));
   wrap.append(el("p", { class: "speak__target" },
@@ -237,12 +237,12 @@ async function startRecording(id, ui) {
   const chunks = [];
   const reduced = reducedMotion();
   const timerEl = el("span", { class: "speak__timer", "aria-hidden": "true" }, "0:00");
-  const hint = el("p", { class: "speak__hint", lang: "uz" }, tf("speak.targetHint", ui.targetSec));
+  const hint = el("p", { class: "speak__hint" }, tf("speak.targetHint", ui.targetSec));
   const meter = buildMeter(reduced);
   const stopBtn = el("button", { class: "btn speak__stop", type: "button", "aria-label": t("speak.stopAria") },
     el("span", { class: "speak__square", "aria-hidden": "true" }), el("span", null, t("speak.stop")));
   const recRow = el("div", { class: "speak__recbar" },
-    el("span", { class: "speak__reclab", lang: "uz" },
+    el("span", { class: "speak__reclab" },
       el("span", { class: "speak__dot speak__dot--live", "aria-hidden": "true" }), t("speak.recording")),
     timerEl);
   ui.area.replaceChildren(recRow, meter.el, hint, stopBtn);
@@ -348,11 +348,11 @@ function renderSaved(id, ui, blob, durationSec, persisted, focus) {
   const reBtn = el("button", { class: "btn btn--soft speak__re", type: "button" }, t("speak.rerecord"));
 
   const player = el("div", { class: "speak__player" },
-    el("span", { class: "speak__saved-lab", lang: "uz" }, el("span", { "aria-hidden": "true" }, "✅ "), t("speak.saved")),
+    el("span", { class: "speak__saved-lab" }, el("span", { "aria-hidden": "true" }, "✅ "), t("speak.saved")),
     el("div", { class: "speak__playrow" }, playBtn, timeEl, delBtn), audio);
   const actions = el("div", { class: "speak__actions" }, reBtn);
   const nodes = [player, actions];
-  if (!persisted) nodes.push(el("p", { class: "speak__note speak__note--warn", lang: "uz" },
+  if (!persisted) nodes.push(el("p", { class: "speak__note speak__note--warn" },
     el("span", { "aria-hidden": "true" }, "⚠️ "), t("speak.noPersist")));
   ui.area.replaceChildren(...nodes);
 
@@ -386,7 +386,7 @@ function renderDenied(id, ui) {
     el("span", { class: "speak__ic", "aria-hidden": "true", html: icon("retry") }), t("speak.retry"));
   retry.addEventListener("click", () => { retry.disabled = true; startRecording(id, ui); });  // same double-tap protection on the denied/error retry (04 §9)
   ui.area.replaceChildren(
-    el("div", { class: "speak__deny", lang: "uz" },
+    el("div", { class: "speak__deny" },
       el("p", { class: "speak__deny-h" }, el("span", { "aria-hidden": "true" }, "🎙️ "), t("speak.denied")),
       el("p", { class: "speak__deny-how" }, t("speak.deniedHow"))),
     retry);
@@ -400,7 +400,7 @@ function renderError(id, ui, msgKey) {
     el("span", { class: "speak__ic", "aria-hidden": "true", html: icon("retry") }), t("speak.retry"));
   retry.addEventListener("click", () => { retry.disabled = true; startRecording(id, ui); });  // same double-tap protection on the denied/error retry (04 §9)
   ui.area.replaceChildren(
-    el("p", { class: "speak__note", lang: "uz" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t(msgKey)),
+    el("p", { class: "speak__note" }, el("span", { "aria-hidden": "true" }, "⚠️ "), t(msgKey)),
     retry);
   retry.focus();
 }
@@ -412,7 +412,7 @@ function inlineConfirm(area, question, yesLabel, yesCls, onYes, onNo) {
   yes.addEventListener("click", onYes);
   no.addEventListener("click", onNo);
   const row = el("div", { class: "speak__confirm", role: "group", "aria-label": question },
-    el("p", { class: "speak__confirm-q", lang: "uz" }, question),
+    el("p", { class: "speak__confirm-q" }, question),
     el("div", { class: "speak__confirm-btns" }, yes, no));
   area.replaceChildren(row);
   no.focus();

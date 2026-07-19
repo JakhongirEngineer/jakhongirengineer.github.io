@@ -502,7 +502,7 @@ function blockPron() {
   const grid = el("div", { class: "m-sounds" });
   sounds.forEach(([uzT, enT, uzB, enB, pairs]) => {
     const card = el("div", { class: "card m-sound" },
-      el("h3", { class: "m-sound__t", lang: "en" }, L(uzT, enT)),
+      el("h3", { class: "m-sound__t", lang: lang() }, L(uzT, enT)),
       P(uzB, enB, "m-sound__b"));
     const ex = el("div", { class: "m-sound__pairs", lang: "en" });
     pairs.forEach((p) => ex.append(el("span", { class: "m-sound__pair" }, p)));

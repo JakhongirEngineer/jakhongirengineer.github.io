@@ -60,7 +60,7 @@ function onboarding(authored) {
   sec.append(el("p", { class: "home__emoji", "aria-hidden": "true" }, "🎧🗣️"));
   sec.append(el("h1", { class: "home__headline" }, t("home.onboarding.headline")));
   sec.append(el("p", { class: "home__subhead" }, t("home.onboarding.subhead")));
-  sec.append(el("p", { class: "home__promise", lang: "uz" }, t("home.onboarding.promise")));
+  sec.append(el("p", { class: "home__promise" }, t("home.onboarding.promise")));
 
   // pace picker → settings.pace (02 §2)
   const paceLabels = { effortless: "home.onboarding.paceEffortless", sprint: "home.onboarding.paceSprint", gentle: "home.onboarding.paceGentle" };
@@ -90,7 +90,7 @@ function returning(g, authored, index) {
   const byId = new Map(authored.map((l) => [l.id, l]));
   const sec = el("section", { class: "screen home" });
   sec.append(el("h1", { class: "home__greeting" }, t("home.greeting")));
-  sec.append(el("p", { class: "home__goal", lang: "uz" }, t("home.dailyGoal")));
+  sec.append(el("p", { class: "home__goal" }, t("home.dailyGoal")));
 
   // Re-engagement banner (S6, 02 §8.3 / 04 §6) — dismissible, non-modal, once/day, never
   // guilt. Only on the returning dashboard; shouldReengage() gates it to a not-studied-today
@@ -120,7 +120,7 @@ function returning(g, authored, index) {
         el("span", { class: "hreview__ic", "aria-hidden": "true" }, "🔁"),
         el("span", { class: "hreview__body" },
           el("span", { class: "hreview__title" }, tf("home.lessonLine", l.order, l.title)),
-          el("span", { class: "hreview__note", lang: "uz" }, t("home.reviewNote"))),
+          el("span", { class: "hreview__note" }, t("home.reviewNote"))),
         el("span", { class: "hreview__go", "aria-hidden": "true", html: icon("back") })));
     });
     sec.append(wrap);
@@ -146,7 +146,7 @@ function continueCard(l) {
   return el("a", { class: "card hcont", href: "#/lesson/" + l.id },
     el("span", { class: "hcont__kicker" }, t("home.continue")),
     el("span", { class: "hcont__title" }, tf("home.lessonLine", l.order, l.title)),
-    el("span", { class: "hcont__day chip", lang: "uz" }, t("lesson.day." + day) + dayStar),
+    el("span", { class: "hcont__day chip" }, t("lesson.day." + day) + dayStar),
     el("div", { class: "hcont__meter" }, bar, starCluster(stars)),
     el("span", { class: "btn btn--primary hcont__go" }, t("home.continueBtn")));
 }
@@ -157,7 +157,7 @@ function heroMetrics(g) {
     el("div", { class: "hmetric" + (big ? " hmetric--big" : "") },
       el("span", { class: "hmetric__ic", "aria-hidden": "true" }, emoji),
       el("span", { class: "hmetric__num" }, groupNum(value)),
-      el("span", { class: "hmetric__lab", lang: "uz" }, label));
+      el("span", { class: "hmetric__lab" }, label));
   return el("div", { class: "card hmetrics" },
     tile(true, "🎧", m.listeningMinutes || 0, t("home.heroListening")),
     tile(false, "🗣️", m.speakingReps || 0, t("home.heroSpeaking")),
@@ -169,7 +169,7 @@ function weeklyRing(active, target) {
   const ring = el("div", { class: "wring", role: "img", "aria-label": tf("home.weekly", active, target), style: `--deg:${Math.round(frac * 360)}deg` },
     el("span", { class: "wring__num" }, `${active}/${target}`));
   return el("div", { class: "home__weekly" }, ring,
-    el("span", { class: "home__weekly-lab", lang: "uz" }, t("home.weeklyLabel")));
+    el("span", { class: "home__weekly-lab" }, t("home.weeklyLabel")));
 }
 
 function phasePreview(current) {
@@ -182,7 +182,7 @@ function phasePreview(current) {
       el("span", { class: "hphase__name" }, t(key))));
   });
   return el("div", { class: "home__phase" },
-    el("p", { class: "home__section-h", lang: "uz" }, t("home.phasePreview")), row);
+    el("p", { class: "home__section-h" }, t("home.phasePreview")), row);
 }
 
 // ---- Re-engagement banner (S6, 02 §8.3 / 04 §6) — kind, dismissible, non-modal --------
@@ -192,7 +192,7 @@ function reengageBanner() {
   close.addEventListener("click", () => { dismissReengage(); banner.remove(); });
   banner.append(
     el("span", { class: "reengage__ic", "aria-hidden": "true" }, "🎧"),
-    el("p", { class: "reengage__body", lang: "uz" }, t("reengage.body")),
+    el("p", { class: "reengage__body" }, t("reengage.body")),
     close);
   return banner;
 }
