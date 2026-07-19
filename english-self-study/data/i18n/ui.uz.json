@@ -25,6 +25,7 @@
   "route.progress.title": "Sizning natijangiz",
   "route.ielts.title": "IELTS va CEFR",
   "route.grammar.title": "Grammatika maʼlumotnomasi",
+  "route.apps.title": "Ilovalar",
   "route.settings.title": "Sozlamalar",
   "placeholder.body": "Bu boʻlim keyingi bosqichlarda tayyorlanadi.",
   "placeholder.lesson": "Tanlangan dars",
@@ -505,5 +506,12 @@
   "gref.sp4Body": "Qisqa sifatlar -er / -est oladi (va y → -ier / -iest; qisqa unlidan keyin oxirgi undosh ikkilanadi). Uzun sifatlar oʻrniga more / most ishlatiladi.",
   "gref.sp5Title": "y qachon i ga aylanadi",
   "gref.sp5Body": "Undosh + y qoʻshimchadan (-es, -ed, -er, -est, -ly) oldin odatda i ga aylanadi. -ing dan oldin va unlidan keyin y saqlanadi.",
-  "gref.examples": "Misollar"
+  "gref.examples": "Misollar",
+  "apps.pageTitle": "Bizning bepul ilovalarimiz",
+  "apps.lead": "Principia Forge — hammasi bepul, reklamasiz va roʻyxatdan oʻtishsiz.",
+  "apps.open": "Google Playʼda ochish",
+  "apps.here": "Siz shu yerdasiz",
+  "apps.homeStripTitle": "Boshqa bepul ilovalarimiz",
+  "apps.ieltsTitle": "IELTSʼning boshqa qismlari uchun",
+  "apps.ieltsBody": "Bu sayt Speaking va Listeningʼni mashq qildiradi. Writing uchun — YouWrite; ballingizni hisoblash va kuzatish uchun — YouScore."
 }

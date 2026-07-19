@@ -10,6 +10,7 @@
 // Zero deps beyond core.js.
 
 import { el, icon, t, lang } from "./core.js";
+import { appsBlock } from "./apps.js";
 
 // ---- Active-language helpers -------------------------------------------------
 const L = (uz, en) => (lang() === "en" ? en : uz);
@@ -271,6 +272,14 @@ function blockHabit() {
       el("p", null, L(
         "MAIN suhbat ~15 daqiqa. Uni yuklab oling va yoʻlda, ovqat pishirayotganda, yurganda passiv tinglang — bu soatlaringizni koʻpaytiradi va 45 daqiqalik faol vaqtingizni yemaydi. Tinglagan daqiqalar — asosiy raqam.",
         "The MAIN talk is ~15 min. Download it and listen passively on your commute, while cooking, while walking — this multiplies your hours without eating your 45-minute active budget. Listening minutes are the headline number.")))));
+
+  // Sibling app: the daily habit is the whole game here — YouPlan (Pomodoro + habit
+  // tracking) helps hold the rhythm. Relevance-first cross-promo (02 §6 discipline).
+  s.append(appsBlock(["youplan"], {
+    heading: L("Kunlik odatni saqlash", "Keep the daily habit"),
+    lead: L("YouPlan — Pomodoro va odat kuzatuvi bilan ritmni ushlab turing.",
+            "YouPlan — hold the rhythm with Pomodoro and habit tracking."),
+  }));
   return s;
 }
 

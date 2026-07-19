@@ -11,6 +11,7 @@
 // tokens (here: none beyond the neutral CEFR/band values) get an explicit lang.
 
 import { el, icon, t } from "./core.js";
+import { appsBlock } from "./apps.js";
 
 // Phase → CEFR → IELTS map (02 §7). CEFR/band cells are language-neutral (kept inline);
 // the phase name reuses the map.* keys and the built-competence cells are translated.
@@ -94,6 +95,10 @@ export async function renderIelts(main, seq, alive) {
 
   // Interview-Skills bridge (02 §5).
   sec.append(callout("bridge", "🗣️", "ielts.bridgeTitle", "ielts.bridgeBody"));
+
+  // Sibling apps for the IELTS skills this site doesn't cover — Writing (YouWrite) and
+  // band calc/tracking (YouScore). Relevance-first cross-promo (helpful, not an ad).
+  sec.append(appsBlock(["youwrite", "youscore"], { heading: t("apps.ieltsTitle"), lead: t("apps.ieltsBody") }));
 
   // CEFR badges note + coverage-grid link.
   sec.append(el("p", { class: "doc__p" }, t("ielts.badgesNote")));

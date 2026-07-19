@@ -67,6 +67,7 @@ Hash routing (03 §7) — zero server config, works under the `/english-self-stu
 | `#/progress` | **Progress** | (part of home/landing) | Badges, CEFR ladder, IELTS-topic coverage grid, streak calendar, export/import |
 | `#/ielts` | **IELTS & CEFR** | (from 02 §7) | Honest alignment + "am I ready for a mock?" |
 | `#/grammar` · `#/grammar/past-simple` | **Grammar Reference** | (from 03 routing) | Read-only index of Grammar Sparks + irregular-verb / spelling cards |
+| `#/apps` | **Our apps** | apps | The Principia Forge *You\** family cross-promo — emoji cards linking to the other free apps (post-launch) |
 | `#/settings` | **Settings screen (styled as a panel)** | — | Language, pace track, theme, playback rate, export/import, reset |
 
 > **Post-launch change.** The **About page (`#/about`) was removed** at the owner's request — route, `about.js` module, `about.*` / `route.about.*` i18n keys, and its CSS are all gone; an unknown `#/about` now redirects to `#/` like any other unknown hash. Its licensing/sources framing is not re-homed elsewhere (the honest-framing content lived only here).
@@ -109,6 +110,7 @@ english-self-study/  (principiaforge.com/english-self-study/)
 ├─ #/progress   Badges · CEFR ladder · IELTS-topic grid · Streak calendar · Export/Import
 ├─ #/ielts      IELTS & CEFR alignment (honest framing)
 ├─ #/grammar    Grammar Reference index  → #/grammar/<unit>
+├─ #/apps       Our apps — Principia Forge family cross-promo
 └─ #/settings   (routed screen / panel) language · pace · theme · rate · data
 ```
 
@@ -136,7 +138,7 @@ The shell (03 §7) is painted once; the router only re-renders `<main>`. Three p
 ```
 
 - **Top bar (56 px, sticky):** left = menu/back (`☰` on top-level screens, `←` back on a lesson); center = current context (app name on Home, "Dars 9 / Lesson 9" on a lesson); right = **global UZ|EN toggle** (02 §9 — the "graduation" control) and **theme toggle** `◐` (auto/light/dark, 03 §6.3). Keep it to these; overflow → menu.
-- **Bottom nav (mobile ≤ 720 px only):** 4 thumb-reachable destinations with bilingual micro-labels — **Bosh sahifa / Home (⌂)**, **Darslar / Lessons (▤)**, **Natija / Progress (◎)**, **Ko'proq / More (⋯ → method, ielts, grammar, settings)**. Active item uses the phase/brand accent + label; ≥ 48 px tall. On desktop the bottom nav is replaced by links in the top bar.
+- **Bottom nav (mobile ≤ 720 px only):** 4 thumb-reachable destinations with bilingual micro-labels — **Bosh sahifa / Home (⌂)**, **Darslar / Lessons (▤)**, **Natija / Progress (◎)**, **Ko'proq / More (⋯ → method, ielts, grammar, apps, settings)**. Active item uses the phase/brand accent + label; ≥ 48 px tall. On desktop the bottom nav is replaced by links in the top bar.
 - **Docked audio player:** the single persistent `<audio preload="none">` UI (§5.1). Renders **above** the bottom nav when a track is loaded; keeps playing across route changes so a learner can browse the map while a MAIN talk plays. Collapsed by default (one line); tap to expand to full transport.
 - **Skip link** ("Asosiy kontentga o'tish / Skip to content") is the first focusable element (a11y §8).
 
@@ -594,6 +596,8 @@ Everything the accountless system knows about the learner, made visible and **po
 > **About page removed (post-launch).** `#/about` — what-this-is + Effortless-English method credit + honest free/no-login promise + licensing note + attributed sources list + contact + Principia Forge link — was **dropped at the owner's request**. The section (§4.9) and its module/keys/CSS are gone; the honest-framing/licensing content is no longer surfaced in-app.
 
 > **S10 (as shipped).** `#/ielts` and `#/grammar` are code-split route modules (`renderIelts`/`renderGrammar`, each `(main, seq, alive)`, one `<h1>` per screen). *(`#/about`/`renderAbout` shipped in S10 too but was later removed — see the note above.)* `#/ielts` is static (honest framing + Phase→CEFR→IELTS table + criterion→feature map + **"Am I ready for a mock?"** checklist + **Interview-Skills bridge** callout — this satisfies S7's "surface the bridges-to-a-real/paid-mock note on `#/ielts`"). `#/grammar` awaits `loadIndex()` (on failure it still renders the reference cards) and groups the Grammar-Sparks index by `phase` (index.json exposes only `phase` 1/2/3 per lesson, 03 §6.1 — not a 4-tier field); it reads an optional `#/grammar/<unit>` from `location.hash` to scroll+highlight the matching topic row (`id="g-<slug>"`). The index renders whatever `loadIndex()` returns (only core-09 today; empty phases show a calm "being prepared" note) and grows as S13 authors.
+
+> **App cross-promo (post-launch).** The Principia Forge *You\** family (YouStudy · YouWrite · YouScore · YouPlan, more coming) is promoted from **one registry** — `assets/apps.js` (`APPS` list + `appCard()` + `appsBlock(ids, {heading, lead})` + `renderApps`). Adding a future app = one entry. It powers three surfaces: (1) the **`#/apps`** page (the whole family, this site shown with a "you're here" chip); (2) a calm **Home teaser strip** on the *returning* dashboard only (`appsBlock(null,…)`, excludes the current app); (3) **relevance-first contextual blocks** — **YouWrite + YouScore on `#/ielts`** (the IELTS skills this site doesn't teach: Writing + band calc/tracking) and **YouPlan in `#/method`'s daily-habit block**. Cards are **emoji monograms (0 KB, no image fetch)**; Play links open in a new tab (`rel="noopener noreferrer"`) and carry `?utm_source=youstudy&utm_medium=cross-app` — **store-referral attribution, not on-site tracking** (the no-tracking promise is intact). Framed as *"our other free apps,"* inline only — never a popup.
 
 ---
 

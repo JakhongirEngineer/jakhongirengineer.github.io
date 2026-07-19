@@ -7,6 +7,7 @@
 
 import { el, icon, t, tf, lang, loadIndex, loadSettings, saveSetting, starCluster } from "./core.js";
 import { getGlobal, snapshot, reviewDueToday, shouldReengage, dismissReengage } from "./progress.js";
+import { appsBlock } from "./apps.js";
 
 const STEP_KEYS = ["grammarA", "grammarB", "vocab", "main", "ministory", "pov", "ep", "sixmin", "fun", "record"];
 const PACES = ["effortless", "sprint", "gentle"];
@@ -129,6 +130,10 @@ function returning(g, authored, index) {
   // Phase path preview + All-lessons CTA.
   sec.append(phasePreview(cont ? cont.phase : 1));
   sec.append(el("a", { class: "btn home__all", href: "#/lessons" }, t("home.allLessons")));
+
+  // Sibling free apps — a calm teaser strip for returning (engaged) learners; the full
+  // family also lives at #/apps in the menu. Excludes this site (default).
+  sec.append(appsBlock(null, { heading: t("apps.homeStripTitle") }));
   return sec;
 }
 
