@@ -34,7 +34,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 `TODO` not started · `WIP` in progress · `DONE` verified-in-browser + committed · `BLOCKED` waiting on an external dependency · `DEFERRED` intentionally later (phase 2)
 
-## Current slice → **S8**
+## Current slice → **S11**
 
 ## Status board (the at-a-glance rollup — set the row when the slice's *Done when* passes)
 
@@ -48,7 +48,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S5 | Progress engine + Home dashboard + Curriculum map | **DONE** |
 | S6 | Progress page + gamification + export/import JSON | **DONE** |
 | S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | **DONE** (section flows + quiz/role-play + step wiring + pipeline emission mechanism; 30-lesson authoring in S13) |
-| S8 | Fun English embeds (YouTube facade + curation) | TODO |
+| S8 | Fun English embeds (YouTube facade + curation) | **DONE** (facade in `lesson-fun.js` + CSS-gradient poster = 0 YouTube bytes pre-tap + id:null/blocked fallbacks + verified `core-09` exemplar; 30-lesson curation = owner data in S13) |
 | S9 | How to Study (methodology) page | **DONE** |
 | S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | **DONE** |
 | S11 | Polish, accessibility & performance pass | TODO |
@@ -179,12 +179,14 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** section 6 shows a zero-byte-until-tapped YouTube facade, and each lesson's video pick is data, not code.
 **Specs:** `03 §7` (facade = the biggest first-paint win), `04 §5.9` (facade component), `04 §4.3` ⑧ (+ behavior 9), `02 §4` (theme → channel per lesson).
 
-- [ ] Facade component: lazy thumbnail (or CSS-gradient placeholder) + `▶` + title/channel; inject `youtube-nocookie.com` iframe **only on tap**, move focus in, `title` set (`04 §5.9`).
-- [ ] Reads `funEnglish[]` from lesson JSON — **never hardcode a video ID** (a dead video is a JSON fix) (`04 §4.3` behavior 9); one tiny watch-task, no test.
-- [ ] Fallback: iframe blocked/failed → "YouTube'da ochish" link; watch-task text stays (`04 §9`).
-- [ ] Curate the video picks per the `02 §4` channel/theme map (owner supplies exact IDs → data).
+- [x] Facade component: **CSS-gradient poster** (not a thumbnail fetch — that is a YouTube byte) + `▶` + title/channel; inject `youtube-nocookie.com` iframe **only on tap**, move focus in, `title` set (`04 §5.9`). Lazily imported as `assets/lesson-fun.js` (03 §4), alongside `lesson-episodes.js`/`lesson-speak.js`; drives the `fun` step via `ctx.markFun`.
+- [x] Reads `funEnglish[]` from lesson JSON — **never hardcode a video ID** (a dead video is a JSON fix) (`04 §4.3` behavior 9); one tiny watch-task, no test. **`id:null`** → "YouTube'da qidirish / Search on YouTube" link + "Koʻrdim / Watched" honor acknowledge (never a dead button, so 2★ stays reachable on uncurated lessons).
+- [x] Fallback: iframe blocked/failed → "YouTube'da ochish / Open on YouTube" link (`youtube.com/watch?v=<id>`); watch-task text stays (`04 §9`).
+- [x] Curate the video picks per the `02 §4` channel/theme map (owner supplies exact IDs → data). *(The `core-09` exemplar carries a **verified embeddable pick** — `QlohNbRUltY`, confirmed via YouTube oEmbed — as an owner-swappable placeholder; the remaining 29 picks are owner-supplied data in **S13**.)*
 
-**Done when:** a lesson's Fun English shows a facade that fetches **0 bytes** of YouTube pre-tap, injects a working nocookie iframe on tap, and falls back to a link when blocked.
+**Done when:** a lesson's Fun English shows a facade that fetches **0 bytes** of YouTube pre-tap, injects a working nocookie iframe on tap, and falls back to a link when blocked. ✅
+
+> **S8 (as shipped).** The facade lives in the lazily-imported `assets/lesson-fun.js` (`funSection(id,l,ctx)`); the S5 interim "watched" honor toggle in `lesson.js` §⑧ was **removed** (one fun mechanism, no competing control) and replaced by the real facade, which drives the `fun` step through the new `ctx.markFun` callback (mirroring `markEp`/`markSix`). The pre-tap poster is a **pure CSS gradient** (both themes) — no `img.youtube.com`/`ytimg` thumbnail — so the section fetches **0 bytes from YouTube/ytimg/any Google host until tap** (03 §8); tap injects one `youtube-nocookie.com/embed/<id>?autoplay=1&rel=0` iframe (`title` + `allow="autoplay; encrypted-media; picture-in-picture"` + `allowfullscreen` + `loading="lazy"`), moves focus in, and marks `fun`. `id:null` → Search-on-YouTube link + "Koʻrdim" acknowledge; blocked → Open-on-YouTube link with the watch-task preserved. i18n keys added to both dicts (`lesson.fun.*`); `check.funWatch` now labels the id:null acknowledge. Budgets held: `lesson-fun.js` ~2.6 KB gzip, `styles.css` ~14.1 KB gzip (≤15), `core-09.json` ~14.4 KB gzip (≤25). Specs amended: `04 §5.9` + §4.3 ⑧/behavior 9 + §5.7 note, `02 §4`, `03 §7`.
 
 ## S9 — How to Study (methodology) page
 
@@ -214,7 +216,7 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 **Goal:** the whole site meets WCAG 2.1 AA, degrades gracefully on every failure, and hits the performance budget on a cheap Android.
 **Specs:** `04 §1` (P1–P7), `04 §7` (visual system / tokens both themes), `04 §8` (a11y checklist), `04 §9` (empty/edge/error matrix), `03 §8` (perf budget).
 
-- [ ] A11y (`04 §8`): landmarks + one `<h1>`/screen · skip link first · visible focus everywhere · ≥44px targets (+8px gap) · full **player ARIA** · **bilingual `lang` attributes** (English content `lang="en"` inside Uzbek UI — the load-bearing detail) · never color-alone · `prefers-reduced-motion` disables all celebrations/equalizer/flicker · reflow at 320px & 200% zoom.
+- [ ] A11y (`04 §8`): landmarks + one `<h1>`/screen · skip link first · visible focus everywhere · ≥44px targets (+8px gap) · full **player ARIA** · **bilingual `lang` attributes** (English content `lang="en"` inside Uzbek UI — the load-bearing detail; **app-wide fix: drop the static `lang="uz"` on `t()`-driven UI strings** (home/lessons/lesson/lesson-fun/method/progress/…) so they follow the UZ|EN toggle instead of mislabelling English text in EN mode — WCAG 3.1.2, flagged in S8 verification) · never color-alone · `prefers-reduced-motion` disables all celebrations/equalizer/flicker · reflow at 320px & 200% zoom.
 - [ ] Every empty/edge/error state from `04 §9` implemented: media-unreachable (per-track + global banner, **text still teaches**), YouTube blocked, localStorage/IndexedDB unavailable, mic denied, POV absent/text-only, slow-network skeletons (not spinners), lesson 404/malformed, invalid import, course-complete (L30 cert + re-record prompt).
 - [ ] Visual tokens finalised in **both** themes with measured AA contrast (`04 §7.2`); type scale, spacing, radii, two warm shadows, phase accents (`04 §7.3`–`§7.6`).
 - [ ] Perf budget met on `Slow 3G` + `4× CPU` (`03 §8`): first view ≤ ~100 KB, interactive < 3 s; per-asset budgets (`index.html` ≤12 KB, `styles.css` ≤15 KB, `app.js` ≤35 KB, `index.json` ≤40 KB, lesson JSON ≤25 KB); 0 KB fonts; YouTube 0 KB pre-tap; `?v=N` cache-bust on `app.js`.

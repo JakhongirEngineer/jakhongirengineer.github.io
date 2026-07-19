@@ -491,7 +491,7 @@ Read on load; if `schemaVersion` ≠ current, run `migrate(prev)` (or discard gr
 
 **EnglishPod dialogue / 6-Minute quiz.** `dialogue` → shadowing + role-play (hide one speaker's lines); `quiz` → comprehension MCQ with Uzbek explanation on reveal.
 
-**Fun English — YouTube facade.** Render a thumbnail + play button; inject the `youtube-nocookie.com` iframe only on tap (each eager iframe is ~1 MB+ — this is the single biggest first-paint win).
+**Fun English — YouTube facade.** Render a **CSS-gradient poster** + play button (a thumbnail fetch would itself be a YouTube byte, so the poster is gradient-only, never `img.youtube.com`/`ytimg`); inject the `youtube-nocookie.com` iframe only on tap (each eager iframe is ~1 MB+ — this is the single biggest first-paint win). *(Shipped as the lazy `assets/lesson-fun.js`, S8 — **0 YouTube/ytimg bytes until tap**; id:null → search-link + honor acknowledge; blocked → open-on-YouTube link; see 04 §5.9.)*
 
 **i18n — a lookup function, not a library.** UI chrome **Uzbek by default** with an English toggle; lesson content stays English (that's the point). `t(key)` reads the active flat dict (`ui.uz.json`/`ui.en.json`); choice persists in `settings.uiLang`. Uzbek text uses the proper modifier letters `oʻ`/`gʻ` (U+02BB/U+02BC), which the system font stack renders correctly. Russian (`ui.ru.json`) drops in later with no code change.
 

@@ -15,7 +15,7 @@ const grammarTouched = new Set(); // slots ("A"/"B") whose drills were attempted
 let epTouched = false;            // any EnglishPod affordance used (dialogue shown / role hidden)
 let sixTouched = false;           // 6ME quiz answer revealed
 let recordSaved = false;          // a Speak-It recording is saved for this lesson (S4)
-let funWatched = false;           // Fun English honor "watched" toggle (INTERIM until S8 builds the facade)
+let funWatched = false;           // Fun English step — set by the S8 facade (play tapped / "Koʻrdim") via markFun
 const live = {};                  // per-render refreshers (dots / checklist), called by refreshLive()
 
 // ---- Web Speech TTS for vocab / POV read-aloud (0 KB, graceful fallback) -----
@@ -362,12 +362,13 @@ function refreshLive() {
 function markEp()  { if (!epTouched)  { epTouched  = true; refreshLive(); } }
 function markSix() { if (!sixTouched) { sixTouched = true; refreshLive(); } }
 function markRecord(saved) { recordSaved = !!saved; refreshLive(); }  // Speak-It save/delete (S4)
+function markFun() { if (!funWatched) { funWatched = true; refreshLive(); } }  // Fun facade: play tapped / "Koʻrdim" (S8)
 
 // ---- Section 10: Lesson Check — star award + mandatory speaking gate (04 §5.7, 02 §8.1) --
 // 1★ = grammarA+B + vocab + MAIN×3 + ministory×2 (GATE) + POV×2 (if present); 2★ = 1★ + ep
 // (auto-true when the section is absent, L15/L22) + fun-watched + one recording; 3★ = 2★ + sixmin.
 // The L1↔L30 "second recording" comparison is an S6 Progress surface, not a per-lesson 3★ gate;
-// the Fun "watched" toggle is an interim honor affordance until S8 builds the facade.
+// the Fun step is driven by the S8 facade (play tapped, or "Koʻrdim" on an uncurated lesson).
 function lessonCheck(id, l, present) {
   const body = el("div", { class: "check__body" });
   let justEarned = false;                     // one-shot: celebrate on the earning render only
@@ -481,14 +482,6 @@ function lessonCheck(id, l, present) {
   return body;
 }
 
-// ---- Fun English (⑧) + Speak It (⑨): honest S3 placeholders (S8 / S4) --------
-function placeholder(bodyKey, tagKey, extra) {
-  return el("div", { class: "phold" },
-    el("p", { class: "phold__body", lang: "uz" }, t(bodyKey)),
-    extra || null,
-    el("p", { class: "phold__tag" }, t(tagKey)));
-}
-
 // ---- Skeleton / not-found ----------------------------------------------------
 function skeleton() {
   const s = el("div", { class: "lesson-skel", "aria-hidden": "true" });
@@ -525,11 +518,12 @@ export async function renderLesson(main, id, token, alive) {
       return;
     }
   }
-  // Load the lazy folded-in sections (EnglishPod ⑥ + 6ME ⑦ + Speak-It ⑨) in PARALLEL
-  // (03 §4); a failure degrades — that section is skipped/falls back, page never breaks.
-  const [episodes, speak] = await Promise.all([
+  // Load the lazy folded-in sections (EnglishPod ⑥ + 6ME ⑦ + Fun English ⑧ + Speak-It ⑨) in
+  // PARALLEL (03 §4); a failure degrades — that section is skipped/falls back, page never breaks.
+  const [episodes, speak, fun] = await Promise.all([
     import("./lesson-episodes.js").catch((err) => (console.warn("lesson-episodes: failed to load", err), null)),
     import("./lesson-speak.js").catch((err) => (console.warn("lesson-speak: failed to load", err), null)),
+    import("./lesson-fun.js").catch((err) => (console.warn("lesson-fun: failed to load", err), null)),
   ]);
 
   if (alive && !alive()) return;   // navigated away while fetching — abandon
@@ -554,7 +548,7 @@ export async function renderLesson(main, id, token, alive) {
   present.add(9); present.add(10);
   live.present = present;
 
-  const ctx = { trackTrigger, downloadBtn, transcriptBlock, findDl, markEp, markSix };
+  const ctx = { trackTrigger, downloadBtn, transcriptBlock, findDl, markEp, markSix, markFun };
 
   const frag = document.createDocumentFragment();
   // One <h1> per screen (a11y §8); the visible title rides in the top bar.
@@ -649,23 +643,28 @@ export async function renderLesson(main, id, token, alive) {
     frag.append(s);
   }
 
-  // ⑧ Fun English — honest placeholder (S8 builds the facade) + an INTERIM "watched" honor toggle
+  // ⑧ Fun English — the real YouTube facade (S8), lazily imported (lesson-fun.js). 0 YouTube
+  // bytes until the learner taps play; tapping play (id) OR the "Koʻrdim" acknowledge (id null)
+  // drives the `fun` step via ctx.markFun → refreshLive lights the strip ⑧ + the 2★ path (04 §5.9).
   if (present.has(8)) {
     const s = section(8, "lesson.sec.8");
-    const f = l.funEnglish[0];
-    const teaser = f ? el("p", { class: "phold__teaser" }, el("span", { lang: "en" }, f.title), f.channel ? el("span", { class: "phold__chan", lang: "en" }, " · " + f.channel) : null) : null;
-    const card = el("div", { class: "card" }, placeholder("lesson.fun.body", "lesson.fun.tag", teaser));
-    // Honor toggle (marks the `fun` step → feeds 2★). Interim until S8's real facade auto-marks it.
-    const watch = el("button", { class: "btn btn--soft phold__watch", type: "button", "aria-pressed": String(funWatched) },
-      el("span", { "aria-hidden": "true" }, "✓ "), t("check.funWatch"));
-    if (funWatched) { watch.classList.add("is-done"); watch.disabled = true; }
-    watch.addEventListener("click", () => {
-      funWatched = true;
-      watch.classList.add("is-done"); watch.disabled = true; watch.setAttribute("aria-pressed", "true");
-      refreshLive();
-    });
-    card.append(watch);
-    s.append(card); frag.append(s);
+    if (fun) s.append(fun.funSection(id, l, ctx));
+    else {
+      // Lazy module failed to load — degrade honestly (never a dead section, 04 §9): keep the
+      // framing + watch-task readable and the `fun` step markable so 2★ stays reachable.
+      const f = l.funEnglish[0] || {};
+      const card = el("div", { class: "card fun" },
+        el("p", { class: "fun__frame", lang: "uz" }, t("lesson.fun.body")),
+        f.title ? el("p", { class: "fun__cap" }, el("span", { class: "fun__title", lang: "en" }, f.title),
+          f.channel ? el("span", { class: "fun__chan", lang: "en" }, f.channel) : null) : null,
+        el("p", { class: "fun__task", lang: "uz" }, el("span", { "aria-hidden": "true" }, "📺 "), t("lesson.fun.watchTask")));
+      const watched = el("button", { class: "btn btn--soft fun__watched", type: "button" },
+        el("span", { "aria-hidden": "true" }, "✓ "), t("check.funWatch"));
+      watched.addEventListener("click", () => { watched.classList.add("is-done"); watched.disabled = true; markFun(); });
+      card.append(watched);
+      s.append(card);
+    }
+    frag.append(s);
   }
 
   // ⑨ Speak It Yourself — record → IndexedDB, nothing uploaded (S4); lazy, answer-aloud fallback.
