@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "OFFLINE dev-only content pipeline for the YouSpeak English self-study site. Turns the read-only content/ library (messy AJ Hoge / EnglishPod / 6 Minute English PDFs + filenames) into validated lesson JSON + the lean catalogue. NONE of this is served (buildless deploy-from-branch); the app ships only static files (see specs/03-architecture.md §5).",
+  "description": "OFFLINE dev-only content pipeline for the YouStudy - English self-study site. Turns the read-only content/ library (messy AJ Hoge / EnglishPod / 6 Minute English PDFs + filenames) into validated lesson JSON + the lean catalogue. NONE of this is served (buildless deploy-from-branch); the app ships only static files (see specs/03-architecture.md §5).",
   "engines": {
     "node": ">=20"
   },

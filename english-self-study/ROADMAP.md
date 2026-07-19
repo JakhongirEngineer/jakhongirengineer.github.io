@@ -1,4 +1,4 @@
-# ROADMAP — English Self-Study (working name: **YouSpeak**)
+# ROADMAP — English Self-Study (**YouStudy - English**)
 
 Spec-Driven Development (SDD) progress tracker. We build the site one **slice** at a time.
 This file is the single running checklist — **update it every session** (tick deliverables, set the board row, move the *Current slice* pointer).

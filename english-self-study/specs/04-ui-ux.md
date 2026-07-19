@@ -740,7 +740,7 @@ This app belongs to the **Principia Forge** family (siblings: YouPlan, YouWrite,
 1. **System fonts, not DM Sans** — the siblings load a render-blocking Google-Fonts `@import`; 03 §1/§8 kills it here for a **0 KB system stack** (cheap Android, slow network). Non-negotiable.
 2. **Light-first, warm** — the siblings are dark-only "productivity" surfaces; a *learning* surface used in daylight on cheap screens by anxious adults reads better **warm and light by default**, with a full dark mode. Dark mode is where the app visually "rejoins" the family (teal brightens to the family's `#2DD4BF`).
 
-*(Naming is the owner's call, but a family-consistent candidate is **"YouSpeak"** — the speaking-first thesis in the "You\*" pattern.)*
+*(Naming is the owner's call. The chosen name is **"YouStudy - English"** — the "You\*" family pattern, scoped to the English course. An earlier working candidate was "YouSpeak".)*
 
 ### 7.2 Palette (WCAG-verified — ratios measured, not guessed)
 
