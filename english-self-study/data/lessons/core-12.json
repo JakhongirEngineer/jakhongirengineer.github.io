@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 2,
+  "id": "core-12",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 12,
+  "slug": "healthy-at-100",
+  "title": "Healthy at 100",
+  "titleUz": "100 yoshda ham sogʻlom",
+  "level": "B1",
+  "tags": [
+    "health",
+    "lifestyle",
+    "obligation",
+    "phrasal-verbs",
+    "diet"
+  ],
+  "intro": {
+    "uz": "John Robbinsning \"Healthy at 100\" kitobi asosida: nega baʼzi odamlar 90-100 yoshda ham baquvvat va sogʻlom yashaydi? AJ ovqatlanish va harakatni asosiy sabab deb koʻrsatadi. Bu haftaning ikki grammatikasi shu mavzuga mos: majburiyat va taqiq (must / have to / mustn't / don't have to) hamda hayotiy frazaviy feʼllar (give up / cut down on / take up / work out / get over). Joe haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Based on John Robbins' book \"Healthy at 100\": why do some people stay strong and healthy at 90 or 100? AJ points to diet and movement as the main reasons. This week's two grammar topics fit the theme: obligation and prohibition (must / have to / mustn't / don't have to) and lifestyle phrasal verbs (give up / cut down on / take up / work out / get over). You'll hear both in the POV story about Joe."
+  },
+  "canDo": {
+    "uz": "Dars oxirida sogʻlom hayot qoidalarini toʻxtamasdan ayta olasiz — nima shart (have to), nima mumkin emas (mustn't), nima ixtiyoriy (don't have to) — va oʻz odatlaringizni frazaviy feʼllar bilan tasvirlab bera olasiz (give up, cut down on, take up).",
+    "en": "By the end you can state rules for a healthy life out loud — what you have to do, what you mustn't do, and what you don't have to do — and describe your own habits with phrasal verbs (give up, cut down on, take up)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "obligation-prohibition",
+      "titleUz": "Majburiyat va taqiq: must / have to / mustn't / don't have to",
+      "titleEn": "Obligation & prohibition",
+      "bandLifter": "IELTS Part 3 — talk about rules, health advice and what people should or shouldn't do",
+      "cefrCanDo": "B1: I can express obligation, prohibition and lack of obligation correctly",
+      "bodyHtml": "<p>Sogʻliq — bu qoidalar toʻplami. &quot;Healthy at 100&quot; darsida AJ hech kimni majburlamaydi (<em>&quot;I never tell people 'Be a vegetarian'&quot;</em>), faqat <em>&quot;you should at least reduce your meat and dairy intake&quot;</em> deb maslahat beradi. Ammo sogʻlom hayot qoidalarini majburiyat tilida shunday ifodalash mumkin: <em>You <strong>have to</strong> exercise. You <strong>mustn't</strong> eat a lot of meat and dairy. But you <strong>don't have to</strong> be a perfect vegetarian.</em> Mini-hikoyada esa Joe kino yulduzi boʻlish uchun katta tishlar shart deb oʻylaydi — u oʻziga <em>must have big teeth</em> / <em>have to have big teeth</em> majburiyatini qoʻyadi. Bu — <strong>majburiyat va taqiq</strong> tili: qaysi ish shart, qaysinisi mumkin emas, qaysinisi ixtiyoriy.</p>\n<h3>Majburiyat: <code>must</code> va <code>have to</code> (shart, kerak)</h3>\n<p>Ikkalasi ham &quot;shart, kerak&quot; degan majburiyatni bildiradi:</p>\n<ul>\n<li><em>You <strong>must</strong> drink more water.</em> — Koʻproq suv ichishing kerak.</li>\n<li><em>I <strong>have to</strong> exercise every day.</em> — Har kuni mashq qilishim shart.</li>\n</ul>\n<p>Farqi nozik: <strong>must</strong> koʻpincha ichki, shaxsiy qatʼiyatni beradi (<em>&quot;I must stop eating sugar&quot;</em> — men oʻzim qaror qildim), <strong>have to</strong> esa tashqi qoida yoki holatni (<em>&quot;You have to see a dentist&quot;</em> — shunday tartib bor). Kelasi/oʻtgan zamonda <strong>must</strong> ishlamaydi — oʻrniga <em>have to</em> keladi: <em>I <strong>had to</strong> change my diet.</em> Uchinchi shaxsda esa <strong>has to</strong>: <em>He <strong>has to</strong> eat less fat.</em></p>\n<h3>Taqiq: <code>mustn't</code> (mumkin emas — bu xavfli!)</h3>\n<p><strong>mustn't</strong> = qatʼiy taqiq: bu ishni qilma, aks holda yomon boʻladi.</p>\n<ul>\n<li><em>You <strong>mustn't</strong> smoke.</em> — Chekish mumkin emas (zararli).</li>\n<li><em>You <strong>mustn't</strong> skip breakfast every day.</em> — Har kuni nonushtani tashlab yuborma.</li>\n</ul>\n<h3>Ixtiyoriy: <code>don't have to</code> / <code>don't need to</code> (shart emas)</h3>\n<p>Bu esa <strong>majburiyat yoʻqligini</strong> bildiradi — istasang qil, istamasang qilma:</p>\n<ul>\n<li><em>You <strong>don't have to</strong> be a vegetarian.</em> — Vegetarian boʻlishing shart emas.</li>\n<li><em>You <strong>don't need to</strong> count every calorie.</em> — Har bir kaloriyani sanashing shart emas.</li>\n</ul>\n<h3>Eng katta xato: <code>mustn't</code> ≠ <code>don't have to</code></h3>\n<p>Bu ikkisi butunlay teskari maʼno beradi, lekin oʻzbek oʻquvchilar tez-tez adashtiradi:</p>\n<table>\n<thead>\n<tr>\n<th>Ingliz</th>\n<th>Maʼno</th>\n<th>Oʻzbekcha</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>You <strong>mustn't</strong> eat it.</td>\n<td>taqiq</td>\n<td>Yeyish <strong>mumkin emas</strong>.</td>\n</tr>\n<tr>\n<td>You <strong>don't have to</strong> eat it.</td>\n<td>ixtiyoriy</td>\n<td>Yeyish <strong>shart emas</strong>.</td>\n</tr>\n</tbody>\n</table>\n<p>Oʻzbek tilida &quot;kerak&quot; bitta soʻz bilan ikkala maʼnoni ham beradi, shuning uchun <em>don't have to</em> ni &quot;mumkin emas&quot; deb tarjima qilib yuborish oson. Yodda tuting: <strong>mustn't = taqiq (mumkin emas)</strong>, <strong>don't have to = tanlov (shart emas)</strong>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻz sogʻligʻingiz haqida uchta jumla ovoz chiqarib ayting — bittada <em>have to</em>, bittada <em>mustn't</em>, bittada <em>don't have to</em>: <em>&quot;I have to sleep more. I mustn't eat late at night. I don't have to go to the gym every day.&quot;</em> Farqni ogʻzingiz bilan sezib oling.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida \"kerak / shart\" bitta soʻz bilan majburiyatni ham, uning yoʻqligini ham qamrab oladi, shuning uchun \"don't have to\" (shart emas) ni \"mumkin emas\" deb tarjima qilib yuborish oson. Ingliz tili aniq ajratadi: mustn't = taqiq (mumkin emas), don't have to = tanlov (shart emas). must ham kelasi/oʻtgan zamonda ishlamaydi — oʻrniga have to / had to keladi.",
+      "errorFixUz": "❌ You don't have to smoke here (taqiqni nazarda tutib). ✅ You mustn't smoke here. \"don't have to\" majburiyat yoʻqligini bildiradi (ixtiyoriy), taqiqni emas. Taqiq uchun mustn't ishlating.",
+      "examples": [
+        {
+          "en": "You have to exercise if you want to be healthy.",
+          "uz": "Sogʻlom boʻlishni istasang, mashq qilishing shart."
+        },
+        {
+          "en": "You mustn't eat a lot of sugar and fat.",
+          "uz": "Koʻp shakar va yogʻ yeyish mumkin emas."
+        },
+        {
+          "en": "You don't have to be a vegetarian to be healthy.",
+          "uz": "Sogʻlom boʻlish uchun vegetarian boʻlishing shart emas."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "To be a movie star, Joe thought he ___ have big teeth.",
+          "options": [
+            "must",
+            "mustn't",
+            "doesn't have to"
+          ],
+          "answer": "must",
+          "hintUz": "kuchli majburiyat (shart) → must"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The doctor says you ___ smoke — it's very dangerous.",
+          "options": [
+            "mustn't",
+            "don't have to",
+            "have to"
+          ],
+          "answer": "mustn't",
+          "hintUz": "taqiq (mumkin emas) → mustn't"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You ___ eat meat every day; vegetables are enough.",
+          "options": [
+            "don't have to",
+            "mustn't",
+            "must"
+          ],
+          "answer": "don't have to",
+          "hintUz": "majburiyat yoʻq (shart emas) → don't have to"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz sogʻligʻingiz haqida uchta rost gap ayting (ovoz chiqarib): \"I have to … . I mustn't … . I don't have to … .\"",
+          "answer": null,
+          "hintUz": "have to = shart; mustn't = mumkin emas; don't have to = shart emas"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "lifestyle-phrasal-verbs",
+      "titleUz": "Hayotiy frazaviy feʼllar: give up / cut down on / take up / work out / get over",
+      "titleEn": "Lifestyle phrasal verbs",
+      "bandLifter": "IELTS Part 1 & 2 — describe habits, sports and lifestyle changes naturally",
+      "cefrCanDo": "B1→B2: I can describe lifestyle changes with phrasal verbs and place the object correctly",
+      "bodyHtml": "<p>Sogʻlom hayotni oʻzgartirish deyarli har doim <strong>frazaviy feʼllar</strong> bilan aytiladi. EnglishPod suhbatida doʻsti maslahat beradi: <em>&quot;You should <strong>cut down on</strong> your sugar intake.&quot;</em> POV hikoyasida Joe undan ham qatʼiyroq ish tutadi — dairy, shakar va yogʻni butunlay tashlaydi: <em>&quot;He <strong>gave up</strong> dairy products. He <strong>gave up</strong> sugar and fat.&quot;</em> Bu iboralar oddiy feʼldek koʻrinadi, ammo maʼnosi feʼl + kichik soʻz (up, down, on, over, out) birlashmasidan chiqadi.</p>\n<h3>Sogʻliq klasteridagi 5 ta muhim frazaviy feʼl</h3>\n<ul>\n<li><strong>give up (something)</strong> — butunlay tashlamoq: <em>I <strong>gave up</strong> smoking last year.</em> — Chekishni tashladim.</li>\n<li><strong>cut down on (something)</strong> — kamaytirmoq (butunlay emas): <em>You should <strong>cut down on</strong> coffee.</em> — Kofeni kamaytirishing kerak.</li>\n<li><strong>take up (something)</strong> — yangi mashgʻulot boshlamoq: <em>She <strong>took up</strong> yoga.</em> — U yoga bilan shugʻullana boshladi.</li>\n<li><strong>work out</strong> — sport zalida mashq qilmoq: <em>I <strong>work out</strong> three times a week.</em> — Haftada uch marta shugʻullanaman.</li>\n<li><strong>get over (something)</strong> — (kasallikdan/qiyinchilikdan) tuzalmoq, oʻtib ketmoq: <em>It took a week to <strong>get over</strong> the flu.</em> — Grippdan tuzalishga bir hafta ketdi.</li>\n</ul>\n<p><em>give up</em> va <em>cut down on</em> ni adashtirmang: <strong>give up</strong> = 100% toʻxtatish, <strong>cut down on</strong> = ozaytirish.</p>\n<h3>Obyekt qayerga tushadi</h3>\n<p><em>give up</em> va <em>take up</em> — <strong>ajraladigan</strong> (separable): obyekt oʻrtaga ham kela oladi, lekin olmosh (<em>it, them</em>) <strong>majburan</strong> oʻrtada turadi:</p>\n<ul>\n<li><em>I gave up <strong>sugar</strong>.</em> = <em>I gave <strong>sugar</strong> up.</em> — lekin faqat <em>I gave <strong>it</strong> up.</em> (❗ <em>give up it</em> emas)</li>\n</ul>\n<p><em>cut down on</em> va <em>get over</em> — <strong>ajralmaydigan</strong>: obyekt doim keyin keladi — <em>cut down on <strong>it</strong>, get over <strong>it</strong></em>.</p>\n<h3>Oʻzbekcha bilan taqqoslash</h3>\n<p>Oʻzbek tilida bu maʼnolar bitta feʼl bilan beriladi: <em>tashlamoq, kamaytirmoq, boshlamoq</em>. Ingliz tili esa feʼlga kichik soʻz qoʻshib maʼnoni oʻzgartiradi — va oʻsha kichik soʻz tushib qolsa, gap notoʻgʻri boʻladi. Ayniqsa <strong>on</strong> ni unutmang: <em>cut down</em> emas, <em>cut down <strong>on</strong> sugar</em>.</p>\n<h3>POV hikoyasidagi zamon</h3>\n<p>Joe haqidagi POV hikoya oʻtgan zamonda aytiladi, shuning uchun frazaviy feʼllar ham oʻtgan shaklga oʻtadi: <em>give up → <strong>gave up</strong>, cut down on → <strong>cut down on</strong> (shakl oʻzgarmaydi), take up → <strong>took up</strong></em>. Oʻzingiz haqingizda gapirganda esa hozirgi yoki kelasi zamon: <em>&quot;I <strong>give up</strong> soda&quot;</em> yoki <em>&quot;I'm going to <strong>give up</strong> soda.&quot;</em> Feʼlning zamoni oʻzgaradi, lekin kichik soʻz (up / down on) doim yonida qoladi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> POVdagi Joe kabi oʻzingiz haqingizda bitta &quot;sogʻliq qarori&quot; ayting va uni ovoz chiqarib takrorlang: <em>&quot;I'm going to give up soda, cut down on salt and take up running.&quot;</em> Kichik soʻzni (up / down on) feʼl bilan birga, bitta boʻlak qilib talaffuz qiling — shunda ular yodda qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida \"tashlamoq, kamaytirmoq, boshlamoq\" bitta feʼl bilan aytiladi. Ingliz tili feʼlga kichik soʻz (up / down on / over) qoʻshib maʼnoni oʻzgartiradi — va oʻsha kichik soʻz tushib qolsa, gap notoʻgʻri boʻladi. Ayniqsa \"cut down\" emas, \"cut down ON sugar\": on unutilmasin.",
+      "errorFixUz": "❌ I want to cut down sugar. I gave up it. ✅ I want to cut down on sugar. I gave it up. \"cut down\" dan keyin ON kerak; \"give up\" da esa olmosh (it/them) majburan oʻrtada turadi: give it up.",
+      "examples": [
+        {
+          "en": "Joe gave up dairy products to get thin.",
+          "uz": "Joe ozish uchun sut mahsulotlarini butunlay tashladi."
+        },
+        {
+          "en": "You should cut down on coffee, not stop it completely.",
+          "uz": "Kofeni butunlay tashlamay, kamaytirishing kerak."
+        },
+        {
+          "en": "I took up running and now I work out every morning.",
+          "uz": "Yugurishni boshladim va endi har tong mashq qilaman."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The doctor told him to ___ on salt and sugar.",
+          "options": [
+            "cut down",
+            "give up",
+            "take up"
+          ],
+          "answer": "cut down",
+          "hintUz": "kamaytirmoq (butunlay emas) → cut down on"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Joe decided to ___ dairy products completely.",
+          "options": [
+            "give up",
+            "cut down on",
+            "get over"
+          ],
+          "answer": "give up",
+          "hintUz": "butunlay tashlamoq → give up"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She wants to ___ swimming this summer.",
+          "options": [
+            "take up",
+            "give up",
+            "cut down on"
+          ],
+          "answer": "take up",
+          "hintUz": "yangi mashgʻulotni boshlamoq → take up"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz \"sogʻliq qarorlaringiz\"ni ayting: \"I'm going to give up … , cut down on … and take up … .\"",
+          "answer": null,
+          "hintUz": "give up = tashlamoq; cut down on = kamaytirmoq; take up = boshlamoq"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/12/main.mp3",
+      "durationSec": 685,
+      "bytes": 8228896,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/12/vocab.mp3",
+      "durationSec": 658,
+      "bytes": 7903063,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/12/ministory.mp3",
+      "durationSec": 604,
+      "bytes": 7258596,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/12/pov.mp3",
+      "durationSec": 473,
+      "bytes": 5680763,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ again. Welcome to our next lesson. This one is called “Healthy at 100.” Healthy at 100 is the name of a book by John Robbins. It’s a fantastic book, very interesting and the topic of this book is exactly what the title says.",
+      "The topic of this book is how to be a healthy person at the age of 100, which seems kind of amazing to most people. Can you be healthy? Can you be strong? Can you have energy when you’re 100 years old? And the answer is absolutely yes. Now how did John Robbins write this book? It’s very interesting.",
+      "Well, what he did, personally and then with his research assistants, he studied cultures, places in the world where large numbers of people live to be very old. But not only just live to be old, because, y’know, if you live to be old but you’re weak, that’s not very fun.",
+      "So he studied places that had a lot of very old people who were also very strong, very energetic, very healthy, very happy. There’s a big difference if you’re 90 years old and you’re in a nursing home and you’re weak and sick, and ugh. That’s a terrible life.",
+      "But if you’re 90 years old and you’re out running and you feel great, well that’s fantastic. And there are cultures like this and there are also a lot of individual people like this. And when I say a lot, I don’t mean a lot by percentage. It’s a small percent of the human population.",
+      "But still there are thousands of these kind of people, I don’t know, maybe hundreds of thousands, maybe millions. I’m not sure what the exact number is. But you can find these people. You can find specific cultures where there are a lot of them. And then you can find individuals.",
+      "And so John Robbins was very curious about this and he wanted to know why. Why, why do some people live strong, long, healthy, active lives for a very, very long time? Why are some people so strong when they’re older and live so much longer? And then other people, y’know, they’re 60 years old, they’re already tired and sick.",
+      "What’s the difference is what he wanted to know. And so he studied different groups. One of the groups were people, traditional people, on the island of Okinawa, Japan. So we’re not talking, Okinawa now has a lot of modern culture, a lot of American influence. And those people do not live so long. And they’re not so healthy.",
+      "But the kind of people who live on Okinawa in a traditional way, the way they always have for a very long time, those people are very special. They live very long lives and they’re very strong and healthy. They’re still working when they’re 80 or 90 years old, working like on farms, like hard, physical work.",
+      "He studied another group of people in Pakistan, same thing. They lived to be 90, 100, over 100, and the whole time they’re working, doing heavy, hard, physical work. It’s pretty amazing. And then another thing they did is they studied individual people.",
+      "There are just certain people, for example one of my favorites, one of my favorite teachers, he’s dead now but I think he’s a great example, I want to be like him. And his name is Paul Bragg. Paul Bragg was in America one of the first people to start health food stores. He kind of started the health movement in America.",
+      "He was one of the first people to start eating organic food, for example. Well Paul Bragg, he is so interesting. He died when he was, I believe, 96 years old. You know, that’s pretty good itself, he lived to be 96. But here’s the cool part, this is the part I love. How did he die when he was in 96? Was he in a bed sick with cancer?",
+      "No, he was surfing. He was surfing when he was 96 years old and it was a surfing accident. Like I don’t know what happened. I guess he was surfing and he fell off the board and another surfboard hit him in the head or he hit a rock or something. You know, it’s sad that he died, of course. But he died active.",
+      "He’s out on the waves surfing in the ocean. Dun, dun, dun, dun, dun, daaah. And he’s 96 years old. Awesome! Or Jack LaLanne, another great guy from the United States. In fact he learned from Paul Bragg. He’s still alive today. He’s 90 years old. He’s still super energetic. He exercises constantly. He swims. He runs. He lifts weights.",
+      "His wife also, they’re both like 90-something years old and they’re just so strong and healthy. We can find a lot of people like this actually. And what’s really interesting when you compare Paul Bragg, Jack LaLanne, these different peoples in Okinawa, in Pakistan, other parts of the world, they have similar things.",
+      "They’re all doing similar things. There’s a reason. It’s not a roll of the dice, remember that phrase? It’s not a roll of the dice. It’s not luck. And it’s not because of their family members, because Paul Bragg’s father and mother didn’t live really long and really strong. It’s something they are doing.",
+      "So that’s what this book is about, Healthy at 100. And one of the things they study in the book is cancer. Why do some people get cancer at a high rate and other people very, very low rate of cancer? Let me read a little section from the book now and it’s about cancer and it discusses the reason, or one of the biggest reasons.",
+      "And it’s titled Cancer and Animal Foods. Here we go: If the correlation between cancer and animal food consumption is indeed powerful, you would expect many studies to find a connection between the two. It turns out there are many.",
+      "For example, a study of 122,000 female American nurses found that those women who ate meat daily were two and a half times more likely to get colon cancer than those women who ate meat less than once a month.",
+      "In 2001 a comprehensive Harvard review of the research on dairy products and prostate cancer found that those who had over the course of their lives consumed the most dairy products had double the rate of prostate cancer and four times the rate of metastatic prostate cancer.",
+      "A high intake of fruits and vegetables, on the other hand, was associated with a lower risk of advanced prostate cancer. Other studies including the famous physicians health study have also confirmed a link between dairy",
+      "product consumption and prostate cancer. And a study of more than 12,000 men found that those who drank soy milk regularly rather than cow’s milk had a whopping 70% reduction in their risk of prostate cancer.",
+      "Today, men in China who are still eating their traditional plant-based diet without any dairy products have one of the lowest rates of prostate cancer in the world.",
+      "And no one can say these low rates are due to a genetic advantage because Chinese American men living in the United States, eating the standard American diet, have rates 10 times as high as their genetic counterparts still eating in the traditional way in China. Whoo, okay. That’s a little bit difficult section.",
+      "A little bit scientific and some long sentences there, let me just explain what it means. So basically, he’s talking about a lot of research related to cancer. And here’s what they find, the basic result. The more animal food you eat, so that’s meat and dairy, the higher your risk for cancer, the higher the rate of cancer.",
+      "The less you eat, the lower the rate of cancer. So strict vegetarians, which are called vegans, have the lowest rates of cancer in the world. People who eat lots and lots and lots of meat and drink a lot of milk and eat a lot of cheese, they have the highest rates of cancer in the world. Interesting.",
+      "That’s one reason I’m a vegetarian to be honest. And another thing that you find is these people, like Paul Bragg, like Jack LaLanne, these different people in different parts of the world, they may not be total strict vegetarians. However, they eat very, very, very little meat.",
+      "They almost never drink milk or dairy products or eat cheese. They are eating a lot of fresh organic vegetables basically. And, of course, fruit as well. I mean that’s the big secret. Yes, you’ve got to exercise and move your body. That’s another part of the book.",
+      "He talks about that diet is one big factor but also moving your body and getting a lot of exercise and physical activity, of course, is very important as well. Those two factors are the biggest factors in determining how long you will live, how healthy you will be, how strong you will be, how much energy you will have in your body.",
+      "So, y’know, I never tell people “Be a vegetarian” because it’s a personal choice, I think people need to decide on their own. However, if your goal is to be a very healthy, strong person, live a long time, reduce your risk for cancer, heart disease and a lot of other things, you should think about it.",
+      "You should at least reduce your meat and dairy intake a lot. And, y’know, again don’t just believe me. Maybe I’m just crazy AJ. Go look at the scientific research. Get the book Healthy at 100 by John Robbins. There’s a lot of other stuff out there. Do your research. Get on the internet if you want to and do some research.",
+      "But I encourage you reduce the amount of fat and meat and cheese and milk and all that stuff. Get it out of your food. Get it out of your diet. Keep it out of your body and start eating a whole lost more vegetables and fruit. Get some real healthy, vital, energetic food into your body. You’re going to feel a lot better.",
+      "And you’re going to get the same kind of energy that people like Paul Bragg have, that Jack LaLanne has, that Tony Robbins has, that I have.",
+      "Alright, we’ll see you next time. Bye bye."
+    ],
+    "vocab": [
+      "Hello, this is AJ. Welcome to the vocabulary lesson for “Healthy at 100.” Now, I know the vocabulary lesson is probably the least exciting and interesting lesson of the collection. And that’s okay. In fact, it’s really my least favorite as well.",
+      "I’d say listen to it one or two times, maybe the first and second day, and after that you don’t need to listen to it every single day. The most important lessons are, y’know, the main, the main lesson, the main audio and the mini-story and the POV.",
+      "Those are the most important but, y’know, listen to the vocabulary lesson a few times the first couple days of the week. Alright, let’s get started with the vocabulary lesson for Healthy at 100. There is actually a good amount of vocabulary in this one.",
+      "Our first word is correlation, so he talks about the correlation between cancer and animal food. Cancer and animal food, there’s a correlation between the two. Correlation means connection or association. It means the two go together. They happen at the same time.",
+      "If you’re eating a lot of animal food then you’re going to have more chance of cancer. They’re connected. There’s a connection there. So that’s called a correlation, correlation.",
+      "Now, it does have a little bit more specific, scientific meaning if you’re talking about research but you’ll learn that in a research class or a statistics class. The general meaning is a connection, an association between two things, correlation.",
+      "So correlation, there’s a correlation between cancer, high cancer rates, and eating animal food. Next we have the word consumption. There’s a correlation between cancer and animal food consumption. So here, consumption just means eating. Consumption, eating, very simple. Animal food consumption, animal food eating.",
+      "When you consume, it’s the verb is consume, to consume means to eat or to use up. Use it all. So consumption is the noun. It just means eating. Very simple. Little bit later we have the word colon. There is a study of colon cancer. Women who ate a lot of meat had high rates of colon cancer. So colon is part of your body, it’s your gut.",
+      "It’s your bowel. It’s your lower intestine, right? So your food goes in. It goes down your throat into your stomach. From your stomach it goes into your upper intestine…do da do da do…and then finally into your lower intestine. Into your colon, and then it comes out your body again. So colon is your bowel, your gut, your lower intestine.",
+      "Next we have the word dairy. Dairy products, dairy food. Dairy just means milk or cheese. It’s something that comes from milk or cheese. Comes from an animal, you don’t kill it. It’s not meat. You know, meat is the muscle of the animal. But dairy products, it usually comes from the milk of the animal.",
+      "So milk and cheese are the most common dairy products. Milk and cheese, dairy, dairy products. So the more dairy",
+      "products you consume, the more dairy products you eat, the more cancer you’re going to have, the more disease you’re going to have or may have. Your risk is much higher. Next we have the word prostate, prostate cancer.",
+      "So there was this study at Harvard University and they found a correlation, a connection, between dairy products and prostate cancer, that’s a specific kind of cancer. Prostate is a gland, it’s a, like a little organ, a little body part in men, and it’s kind of near the penis and testicles. It’s down, y’know, it’s kind of in that area.",
+      "It’s a little tiny area of tissue. And it is at risk for cancer so a lot of men get prostate cancer. In fact, my grandfather died of prostate cancer, one of my grandfathers. And a lot of men are at risk for prostate cancer.",
+      "And more dairy products men eat, drink, consume, the higher their risk for prostate cancer, whereas strict vegetarian men, for example, have a very low risk for prostate cancer. So again prostate is the part of the body and cancer is the disease. We see the phrase advanced cancer, advanced cancer. You know the word advanced.",
+      "Advanced means, y’know, high level. So if we’re talking about advanced cancer it just means cancer that has already grown a lot. High level cancer means very bad cancer. It’s not just starting, it’s already grown a lot. It’s developed a lot, so that’s advanced cancer. It’s very serious, very bad cancer.",
+      "There’s another phrase, it’s not common at all, but it’s in the article so we’ll talk about it, metastatic cancer. Metastatic means spreading. It means something that’s growing. It’s moving through the body. It’s not just in one part of the body. And of course, that’s very serious, it’s very bad. It’s a very terrible thing.",
+      "Later we have the phrase on the other hand. You probably already know this one but on the other hand means however. Say “On the other hand people who don’t eat dairy products have low rates of cancer.” So it means however. Okay. Next we have associated with, associated with, so high rates of meat consumption are associated with cancer.",
+      "And that’s the same as correlation, it just means connected to. So associated with means connected to, connected to…associated with. It means they go together, they happen together. Next we have the word whopping.",
+      "Okay, so they studied men and men who drank soy milk instead of cow’s milk had a whopping 70% reduction in their risk of prostate cancer. Whopping means very big, huge. So it’s a huge reduction. It’s not small. It’s not a small reduction. It’s a huge reduction. Of course reduction means make something smaller, get smaller.",
+      "So much less, much, much less, whopping, big change. Big difference, a whopping difference is a big difference. It’s a huge difference. It’s a whopping difference. Next we have the word genetic. The differences are not genetic. So genetic means related to biology, related to family, related to race, right?",
+      "My father and I are genetically connected, right? His biology and mine are connected, they’re similar. And my mother and I and my sister and I, right, we are genetically connected. So the",
+      "differences are not genetic. It’s not because someone is Chinese. If someone is Chinese it doesn’t guarantee they will be healthy. Their race, their genetics is not what is important. It’s how they eat. A Chinese person who eats like an American is going to be unhealthy.",
+      "And actually today, many, many Chinese people are eating like Americans and they are becoming less healthy. It’s happening in many parts of the world. So it’s not genetic, it’s not because of family or race. It’s because of behavior. And finally we have the word counterparts.",
+      "So it’s talking about the study between Chinese people who eat traditional food, vegetarian kind of diets in China, and then Chinese Americans who eat American food. So he says Chinese American men living in the United States are 10 times more likely to get cancer as their genetic counterparts who eat vegetarian food in China.",
+      "Okay, so they’re counterparts. Counterparts means a match or equal, an identical thing, an identical part. So in other words you have genetically, biologically, a Chinese American and a Chinese person. They’re both Chinese, right? Their biology, their body, they’re both Chinese. One is living in the United States. One is living in China.",
+      "Maybe it’s brothers, for example. You might have one brother living in China, one brother living in San Francisco. So genetically they’re very close biology, right? They are counterparts, they are genetic counterparts, genetic matches, genetic equals, right? So they are identical parts, almost identical, very similar.",
+      "Two brothers, Chinese in China, Chinese in the United States, right? They’re counterparts. They’re matches. They’re equals. But the one who eats a high fat, high meat, high dairy diet is going to get sick, has a very high risk for cancer. The one that eats a very low meat, low dairy, almost vegetarian diet has very low risk for cancer.",
+      "So they’re genetic counterparts but the behavior can determine their health. So again counterpart means two parts that are equal, two parts that are very similar. And that is the end of the vocabulary lesson for Healthy at 100. Big smile. Big breath. On to the next lesson."
+    ],
+    "pov": [
+      "Hello, this is AJ. Let’s get started with the POV, point of view mini-story for “Healthy at 100.” Same story, different points of view.",
+      "Since he was 16 Joe has wanted to be a movie star. Since when? Since he was 16, since he was 16 Joe has wanted to be a movie star. Who has wanted to be a movie star? Bill? Not Bill, Joe. Joe has wanted to be a movie star. Since when? Since he was 16, since he was 16 Joe has wanted to be a movie star.",
+      "Starting when he was 16 and continuing. What has he wanted since he was 16? To be a movie star, he has wanted to be a movie star since he was 16. Has he wanted to be a music rock star since he was 16? No, he hasn’t wanted to be a rock star. He has wanted to be a movie star. What kind of star has he wanted to be?",
+      "He has wanted to be a movie star. Has he wanted to be a movie star a little or a lot? Well, he has wanted to be a movie star a lot, really, really, really wanted to be a movie star. He has wanted to be a movie star so much, a lot, since he was 16 years old. And now he’s 38.",
+      "So he’s wanted to be a movie star from 16 until age 38, during that whole time. The whole time, every moment during that time, he has wanted to be a movie star. Well, finally one day he just decided “I’m going to do it. I will be a movie star.” He decided to get thin.",
+      "So he stopped eating dairy products and he said “No more consumption of sugar and fat.” Then he studied other stars. He studied them very carefully. And he saw a correlation, a connection, between big teeth and being a famous movie star. Now, unfortunately he has always had tiny teeth, I mean since he was born.",
+      "He has had tiny teeth since he was born. Has Joe always had tiny little teeth? Yeah, Joe has always had tiny little teeth. Since when? Well, since he was born, since he was a tiny baby. Starting when he was a tiny baby until age 38, he has always had little tiny teeth. But he decided to change that also.",
+      "He got an operation from a dentist and the dentist gave him huge whopping teeth. What did the dentist give him? The dentist gave him huge whopping teeth. And so, one year later, Joe became the biggest, most famous movie star in the world.",
+      "Alright, that’s the end of our first point of view story. You notice that one changed a couple times, right? I started with has wanted to be, since he was 16, has wanted to be. And then we say he decided, boom, just happened.",
+      "And then we went back again and we said since he was a baby he has had tiny teeth, starting when he was a baby until now, well until 38. And then we change back again. Got an operation, gave him big teeth. Just notice the changes. That’s all you need to do. You don’t need to remember the name of the grammar terms or rules.",
+      "Don’t remember any of that, doesn’t matter. Notice the changes. Notice when they change, how they change. That’s all you need to do. Don’t analyze it. Don’t think about it. Just notice it. Hear it. Listen to it. That’s all you need to do. Relax. On to the next one, into the future.",
+      "Now here’s my idea for a story and we’re going to say for next year.",
+      "So next year there’ll be a guy. This guy will be named Joe. Joe will want to be a massive huge movie star. He’ll want to be a big movie star. Well, first he’s going to decide to get thin. He’ll stop eating dairy products. He’ll stop consuming sugar and fat.",
+      "He’ll say “I’m not gonna consume sugar or fat anymore, starting today, into the future. I’m not gonna consume sugar or fat.” So he’ll do that. Next he’s gonna study famous movie stars and he’ll see a correlation between big teeth and being famous.",
+      "He’s going to see, he’s going to realize, that there’s a correlation between having big teeth and being a famous movie star. Now unfortunately, Joe’s gonna have tiny teeth, I mean genetically, naturally, genetically. His whole family is gonna have tiny little teeth. And Joe will have tiny little teeth, too.",
+      "So, he’ll decide to get an operation. He’ll go to a doctor first then he’ll go to a dentist. And this dentist will give him huge shopping teeth. Big, big teeth. And this is going to be successful. It’s gonna be hugely successful.",
+      "In fact, one year later, he’s gonna be the most famous, the biggest movie star in all of the United States and in all of the world. He’ll be a huge big star because of his huge big teeth.",
+      "And that is the end of our point of view stories. Hope you enjoyed them. Smile. Breathe. Move your body. Big, big, big grin on your face, come on. You just finished the point of view story. Rock on. You’re great. You’re fantastic. You’re an excellent English learner. Thank you for being my student. I will see you next time. Bye."
+    ],
+    "sixmin": [
+      "Dan: Hello and welcome to 6 Minute English – the show that brings you an interesting topic, authentic listening practice and vocabulary to help you improve your language skills. I'm Dan…",
+      "Catherine: And I'm Catherine. In this programme we'll be discussing life expectancy, as well as teaching you 6 new items of vocabulary, of course …",
+      "Dan: ZZZZzzzzzzz…",
+      "Catherine: Dan? Dan! We’re doing a show, Dan. Wake up!",
+      "Dan: Sorry. Sorry, Catherine. Sorry, everybody. I was at a party last night and I didn’t get much sleep.",
+      "Catherine: Another party, Dan?",
+      "Dan: Yeah.",
+      "Catherine: That’s the third this week! You look dead on your feet, which is an expression meaning 'extremely tired'.",
+      "Dan: Ah well. Live fast, die young. That’s my motto.",
+      "Catherine: A motto is a short phrase which reflects the beliefs of an organisation or person. And it’s interesting that you mention dying young, Dan, because our topic this show is life expectancy.",
+      "Dan: Life expectancy is how many years a person is likely to live. I suppose you have a question about it too?",
+      "Catherine: Funny you should say that, Dan. By the year 2030, will the USA’s life expectancy be a) in the top third b) the middle third or c) the bottom third compared to the rest of the world?",
+      "Dan: The USA is quite a rich country, so I’m going to say a) the top third.",
+      "Catherine: And we’ll find out later in the show if you’re right or not. Now, Dan, life expectancy, so which country do you think has the current highest life expectancy?",
+      "Dan: Everybody knows that’s Japan, come on!",
+      "Catherine: Aha, yes, but new analysis by the World Health Organization and Imperial College London predicts that it won’t always be so. Now, they analysed 35 industrialised countries and found that by the year 2030 South Korea will be the leaders – with an average life expectancy of a whopping 90 years!",
+      "Dan: Wow. How did they do that?",
+      "Catherine: Well, let’s find out by listening to Professor Majid Ezzati, Chair in Global Environmental Health at Imperial College London.",
+      "INSERT: Professor Majid Ezzati, Chair in Global Environmental Health at Imperial College London It seems to be actually dealing with diet better than other places, being very good at taking up new medical knowledge technology and using it and perhaps most importantly doing this in a relatively equitable way compared to western countries.",
+      "Dan: So, basically, good diet, using new medical technology and knowledge, and being more equitable – or fair and impartial – in society. So how did the UK do?",
+      "Catherine: Well, not too well actually. We were thoroughly beaten by our closest neighbour, France.",
+      "Dan: What!? How comes!?",
+      "Catherine: I’ll let Professor Majid Ezzati explain that too.",
+      "INSERT: Professor Majid Ezzati, Chair in Global Environmental Health at Imperial College London So France has had some of the lowest obesity rates among western countries, French women especially. UK has had some of the highest ones. And alcohol in France, at least until now, has been consumed… it’s much more healthy patterns, and in the UK there has been a lot more binge drinking.",
+      "Catherine: So, France has low obesity, which is a state of being very overweight, compared to the UK’s high obesity.",
+      "Dan: And France drinks alcohol much more moderately than the UK, which tends to binge.",
+      "Catherine: Binging is when you consume a large amount of something in a short time - especially food or alcohol. So, confession time, Dan! How many drinks did you have last night?",
+      "Dan: It was only orange juice, I swear! So, come on. Did I get the question right? You asked me by the year 2030, will the USA’s life expectancy be a) in the top one-third b) the middle one-third or c) the bottom one-third compared to the rest of the world? And I said the USA’s quite a rich country so it’s probably a) in the top third.",
+      "Catherine: Sorry Dan. Nice logic, but actually the USA is one of the least equitable places in the world. So their life expectancy suffers, and the answer was actually c) the bottom third.",
+      "Dan: Oh, well. Next week, maybe. Now, let's take a look at the vocabulary from this programme. First we had dead on your feet. This is an informal expression which means 'extremely tired'. Another way to say the same thing would be 'shattered'. When was a time when you were dead on your feet, Catherine?",
+      "Catherine: I built some garden furniture quite recently, and it took me all day, and I was dead on my feet when I finished. Now, we had motto. Now, a motto is a short phrase which reflects the beliefs of an organisation or person. So, Dan, what’s your personal motto?",
+      "Dan: 'Take the path of least resistance'. What about you?",
+      "Catherine: 'Less is more'.",
+      "Dan: Ah! Good one. Then we had life expectancy. Life expectancy is how many years a person is likely to live. What do you think’s a good life expectancy for a person?",
+      "Catherine: I’m hoping to get to about 85 and then I’d like a, sort of, quick exit because I think it’s probably not much fun after that. Then we had equitable. Equitable means 'being fair or impartial' and it comes from the word 'equal'. So, Dan, personal question. Would you say that your marriage is equitable?",
+      "Dan: I’d like to think so, yes. I do the cooking, my wife does the cleaning, and we share the other jobs.",
+      "Catherine: We’ll have to get Mrs. Dan in to give her opinion.",
+      "Dan: After that we heard obesity. Obesity describes a state of being very overweight. It’s a medical term and is often used in connection with health problems. The report said that the UK has an obesity problem, Catherine. How do you think we can solve it?",
+      "Catherine: I think we need a sugar tax and everybody should walk to work. Finally we had binge. To binge is to consume a large amount of something in a short space of time, especially something that you don’t usually have. These days we hear a lot about binge drinking, binge eating and binge watching. So, Dan, when did you last binge watch a series on TV?",
+      "Dan: Oh, it’s Game of Thrones, isn’t it? Series one, series two, series three. Back to back.",
+      "Catherine: Back to back binging. Brilliant.",
+      "Dan: That’s it. Well, that's the end of today's 6 Minute English. Please join us again soon!",
+      "Catherine: And we are on social media too, so make sure you visit us on Twitter, Facebook, Instagram and YouTube.",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Was he a famous movie star?",
+        "a": "No, he wasn’t a movie star. He wanted to be a movie star."
+      },
+      {
+        "q": "What did Joe want to be?",
+        "a": "He wanted to be a movie star."
+      },
+      {
+        "q": "Did he want to be a TV star?",
+        "a": "No, no, no, no, no, no. He didn’t want to be a TV star."
+      },
+      {
+        "q": "What kind of star did he want to be?",
+        "a": "A movie star, Joe wanted to be a movie star."
+      },
+      {
+        "q": "What kind of products did he stop eating?",
+        "a": "Well, dairy products, he stopped eating dairy products."
+      },
+      {
+        "q": "Did he stop eating cheese?",
+        "a": "Yes, he stopped eating cheese."
+      },
+      {
+        "q": "Did he stop drinking milk?",
+        "a": "Yes, he stopped drinking milk. He stopped eating and drinking dairy products."
+      },
+      {
+        "q": "Who stopped eating and drinking dairy products?",
+        "a": "Joe, Joe stopped eating and drinking dairy products."
+      },
+      {
+        "q": "What kind of products?",
+        "a": "Dairy products, he stopped eating and drinking dairy products."
+      },
+      {
+        "q": "What did he stop?",
+        "a": "He stopped all consumption of sugar and fat."
+      },
+      {
+        "q": "Did he eat sugar and fat anymore?",
+        "a": "No, he stopped all consumption of sugar and fat."
+      },
+      {
+        "q": "Who stopped all consumption of sugar and fat?",
+        "a": "Well, of course, Joe. Joe stopped all consumption of sugar and fat."
+      },
+      {
+        "q": "He stopped all consumption of what?",
+        "a": "All sugar and all fat, he stopped all consumption of all sugar and all fat."
+      },
+      {
+        "q": "Why?",
+        "a": "Because he wanted to be a movie star, he wanted to have a thin body first. Movie stars are usually thin. So he stopped eating dairy products. He stopped consuming fat and sugar."
+      },
+      {
+        "q": "Did he find a connection between big teeth and movie stars?",
+        "a": "Oh yes, he did. He found a connection. He found most movie stars have very big teeth. Interesting."
+      },
+      {
+        "q": "He saw a correlation between what?",
+        "a": "He saw a correlation between big teeth and being a famous movie star. They’re connected."
+      },
+      {
+        "q": "Who saw a correlation between big teeth and being a movie star?",
+        "a": "Joe saw it. Joe saw a correlation, a connection, between having big teeth and being a famous movie star."
+      },
+      {
+        "q": "What did he find? What did he see?",
+        "a": "A correlation, a connection, between big teeth and being famous as a movie star."
+      },
+      {
+        "q": "Did Joe naturally, genetically have small or big teeth?",
+        "a": "Well, unfortunately Joe had very small teeth. In fact, Joe had tiny little teeth."
+      },
+      {
+        "q": "Genetically, did he have little tiny teeth or huge big teeth?",
+        "a": "He had small teeth."
+      },
+      {
+        "q": "Genetically he had big teeth or small teeth?",
+        "a": "Small teeth."
+      },
+      {
+        "q": "Was it genetic or was it behavior that caused his small teeth?",
+        "a": "Well genetics, right? It was a genetic trait. It was connected to his biology connected to his family. It was a genetic trait, having small teeth."
+      },
+      {
+        "q": "What was the correlation he found?",
+        "a": "Well, he found a correlation between big teeth and being a famous movie star. They’re connected."
+      },
+      {
+        "q": "Why did Joe have an operation?",
+        "a": "He had an operation to get big teeth."
+      },
+      {
+        "q": "Why did he want big teeth?",
+        "a": "Well, of course, obviously so he could be a movie star. And so he had the operation."
+      },
+      {
+        "q": "Did he have whopping big teeth?",
+        "a": "Oh yes, they were whopping huge. They were big gigantic whopping teeth, the biggest teeth in the world."
+      },
+      {
+        "q": "Who had whopping big teeth?",
+        "a": "Joe, Joe had whopping teeth."
+      },
+      {
+        "q": "What kind of teeth did he have?",
+        "a": "Whopping, whopping big huge gigantic teeth."
+      },
+      {
+        "q": "What happened next?",
+        "a": "Well, obviously he became a famous movie star. To be a movie star you only need huge whopping teeth. Everybody knows this. So Joe had whopping big teeth and he was also thin. That’s all that was necessary. Joe had whopping big teeth."
+      },
+      {
+        "q": "Why was he the most famous movie star in the United States?",
+        "a": "Well, because he had whopping teeth. He had the biggest whopping teeth in all of America, in all of the world."
+      },
+      {
+        "q": "Who had the biggest whopping teeth in the world?",
+        "a": "Joe, Joe had the biggest whopping teeth in the world so, of course, he was the biggest whopping movie star in the world."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "a correlation between",
+      "pos": "phrase",
+      "uz": "(ikki narsa) oʻrtasidagi bogʻliqlik, aloqadorlik",
+      "defEn": "a connection or association between two things",
+      "example": "There is a correlation between cancer and animal food."
+    },
+    {
+      "en": "animal food consumption",
+      "pos": "phrase",
+      "uz": "hayvon mahsulotlarini isteʼmol qilish",
+      "defEn": "the eating of meat and dairy; consumption means eating or using up",
+      "example": "High animal food consumption raises the risk of disease."
+    },
+    {
+      "en": "colon cancer",
+      "pos": "phrase",
+      "uz": "yoʻgʻon ichak saratoni",
+      "defEn": "cancer of the colon, the lower intestine or bowel",
+      "example": "Women who ate a lot of meat had high rates of colon cancer."
+    },
+    {
+      "en": "dairy products",
+      "pos": "phrase",
+      "uz": "sut mahsulotlari (sut, pishloq)",
+      "defEn": "foods made from milk, such as milk and cheese",
+      "example": "He stopped eating dairy products to get thin."
+    },
+    {
+      "en": "prostate cancer",
+      "pos": "phrase",
+      "uz": "prostata (bez) saratoni",
+      "defEn": "a type of cancer of the prostate, a small gland in men",
+      "example": "Dairy products are linked to a higher rate of prostate cancer."
+    },
+    {
+      "en": "advanced cancer",
+      "pos": "phrase",
+      "uz": "kuchaygan, rivojlangan saraton",
+      "defEn": "cancer that has already grown a lot; high-level, serious cancer",
+      "example": "Fruit and vegetables lower the risk of advanced cancer."
+    },
+    {
+      "en": "on the other hand",
+      "pos": "phrase",
+      "uz": "boshqa tomondan, biroq",
+      "defEn": "however; used to introduce a contrasting idea",
+      "example": "On the other hand, vegetarians have very low rates of cancer."
+    },
+    {
+      "en": "associated with",
+      "pos": "phrase",
+      "uz": "(bir narsa) bilan bogʻliq",
+      "defEn": "connected to; happening together with",
+      "example": "High meat consumption is associated with cancer."
+    },
+    {
+      "en": "a whopping (70%) reduction",
+      "pos": "phrase",
+      "uz": "juda katta (70%) kamayish",
+      "defEn": "a very big or huge reduction; whopping means enormous",
+      "example": "Soy milk gave a whopping 70% reduction in risk."
+    },
+    {
+      "en": "genetic counterparts",
+      "pos": "phrase",
+      "uz": "genetik jihatdan teng, oʻxshash kishilar (masalan aka-uka)",
+      "defEn": "people who are a genetic match or equal but live differently",
+      "example": "Chinese Americans get more cancer than their genetic counterparts in China."
+    }
+  ],
+  "englishpod": {
+    "id": "0200",
+    "title": "Daily Life – Junk Food",
+    "titleUz": "Kundalik hayot — Zararli ovqat",
+    "warmup": {
+      "uz": "Suhbatda bir doʻst ikkinchisini burger va gazlangan ichimlik oʻrniga sogʻlomroq ovqatlanishga undaydi: \"You have to start eating better. You should cut down on sugar.\" Bu \"Healthy at 100\" mavzusiga mos — AJ ham aynan shuni aytadi. Sizningcha, u vaʼdasida turadimi (stick to his promise)?",
+      "en": "In this dialogue one friend pushes the other to eat healthier instead of burgers and soda: \"You have to start eating better. You should cut down on sugar.\" It fits the \"Healthy at 100\" theme — exactly what AJ argues. Do you think he'll stick to his promise?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0200/dg.mp3",
+        "durationSec": 44,
+        "bytes": 383395
+      },
+      "pr": {
+        "path": "englishpod/0200/pr.mp3",
+        "durationSec": 686,
+        "bytes": 11015856
+      },
+      "rv": {
+        "path": "englishpod/0200/rv.mp3",
+        "durationSec": 208,
+        "bytes": 3356506
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I’m hungry, let’s grab a bite to eat."
+      },
+      {
+        "speaker": "B",
+        "en": "Sure! How about we go home and prepare a couple of sandwiches?"
+      },
+      {
+        "speaker": "A",
+        "en": "Nah! Let’s go get a burger and fries."
+      },
+      {
+        "speaker": "B",
+        "en": "All you ever do is have unhealthy fast food Pizza, fries, burgers and hot dogs! You have to start eating better!"
+      },
+      {
+        "speaker": "A",
+        "en": "What are you talking about? I have salads sometimes."
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah right! I’m serious! You should also cut down on your sugar intake as well. You drink carbonated drinks that are high in fructose syrup! It’s really not healthy!"
+      },
+      {
+        "speaker": "A",
+        "en": "Fine! I’ll start drinking and having home cooked meals that are low in fat. Are you happy now?"
+      },
+      {
+        "speaker": "B",
+        "en": "It’s a start, but I’ll be happy when I see you stick to your promise!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "grab a bite (to eat)",
+        "uz": "shosha-pisha bir narsa yemoq, gazak qilmoq",
+        "defEn": "to get food that can be eaten quickly"
+      },
+      {
+        "en": "all you ever do (is …)",
+        "uz": "sen faqat … qilasan, xolos (odatni tanqid qilish)",
+        "defEn": "an expression criticising something a person does very frequently"
+      },
+      {
+        "en": "how about (…?)",
+        "uz": "… boʻlsa-chi? nima deysan?",
+        "defEn": "a phrase used to make a suggestion or ask an opinion"
+      },
+      {
+        "en": "cut down on (something)",
+        "uz": "(bir narsani) kamaytirmoq",
+        "defEn": "to reduce the amount of something you take or use"
+      },
+      {
+        "en": "sugar intake",
+        "uz": "isteʼmol qilinadigan shakar miqdori",
+        "defEn": "the amount of sugar you eat or drink"
+      },
+      {
+        "en": "stick to (a promise)",
+        "uz": "vaʼdada turmoq, tashlab qoʻymay davom ettirmoq",
+        "defEn": "to keep doing something you decided or promised to do"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170302",
+    "title": "Life expectancy",
+    "titleUz": "Umr davomiyligi",
+    "audio": {
+      "main": {
+        "path": "sixmin/170302/audio.mp3",
+        "durationSec": 379,
+        "bytes": 15178560,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "By the year 2030, will the USA's life expectancy be in the top, middle or bottom third compared to the rest of the world?",
+        "qUz": "2030-yilga borib, AQSHning umr davomiyligi dunyoning qolgan qismiga nisbatan yuqori, oʻrta yoki quyi uchdan birdami?",
+        "options": [
+          "the top third",
+          "the middle third",
+          "the bottom third"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) the bottom third (quyi uchdan bir). Dan boy davlat deb \"top third\" dedi, lekin adashdi — AQSH dunyodagi eng kam adolatli (least equitable) joylardan biri, shuning uchun umr davomiyligi past. Prognozga koʻra 2030-yilda eng yuqori koʻrsatkich Janubiy Koreyada boʻladi (taxminan 90 yosh)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "dead on your feet",
+        "uz": "oyoqda turolmas darajada charchagan, holdan toygan",
+        "defEn": "extremely tired"
+      },
+      {
+        "en": "a motto",
+        "uz": "shior, hayotiy aqida (qisqa gap)",
+        "defEn": "a short phrase reflecting the beliefs of a person or organisation"
+      },
+      {
+        "en": "life expectancy",
+        "uz": "umr davomiyligi (odam necha yil yashashi ehtimoli)",
+        "defEn": "how many years a person is likely to live"
+      },
+      {
+        "en": "equitable",
+        "uz": "adolatli, tenglikka asoslangan",
+        "defEn": "fair and impartial; from the word 'equal'"
+      },
+      {
+        "en": "obesity",
+        "uz": "semizlik (haddan tashqari ortiqcha vazn)",
+        "defEn": "the state of being very overweight"
+      },
+      {
+        "en": "to binge",
+        "uz": "meʼyorsiz koʻp isteʼmol qilmoq (qisqa vaqtda haddan ortiq)",
+        "defEn": "to consume a large amount of something in a short time, especially food or alcohol"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How the world's longest-living people stay healthy at 100",
+      "channel": "BBC Learning English"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "What do you have to do to live a long, healthy life — and what mustn't you do? Talk about a habit you want to give up, something you'd like to cut down on, and a new activity you'd like to take up.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: majburiyat va taqiq (I have to … , I mustn't … , I don't have to …) hamda hayotiy frazaviy feʼllar (give up … , cut down on … , take up …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/12/main.mp3",
+      "bytes": 8228896
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/12/main.pdf",
+      "bytes": 54081
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/12/vocab.mp3",
+      "bytes": 7903063
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/12/ministory.mp3",
+      "bytes": 7258596
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/12/pov.mp3",
+      "bytes": 5680763
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/12/pov.pdf",
+      "bytes": 79828
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0200/dg.mp3",
+      "bytes": 383395
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0200/transcript.pdf",
+      "bytes": 90886
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170302/audio.mp3",
+      "bytes": 15178560
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170302/transcript.pdf",
+      "bytes": 106108
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

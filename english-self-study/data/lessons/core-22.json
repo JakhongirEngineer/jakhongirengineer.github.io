@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 2,
+  "id": "core-22",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 22,
+  "slug": "art-of-power",
+  "title": "The Art of Power",
+  "titleUz": "Kuch sanʼati",
+  "level": "B1-B2",
+  "tags": [
+    "mindset",
+    "inner-power",
+    "present-perfect",
+    "past-simple",
+    "passive-voice"
+  ],
+  "intro": {
+    "uz": "Thich Nhat Hanhning “The Art of Power” kitobidan: haqiqiy kuch — boshqalarni emas, oʻz ongini boshqarish. Miyamizdagi ijobiy va salbiy “urugʻlar”ga qaysi biriga suv quyishimizni oʻzimiz tanlaymiz. Bu haftaning ikki grammatikasi: present perfect va oddiy oʻtgan zamon farqi (I have lived vs I lived) hamda majhul nisbat 2 — has been done / can be done / will be done. Sally sigir haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "From Thich Nhat Hanh's book “The Art of Power”: real power is control over your own mind, not other people. We choose which “seeds” — positive or negative — we water. This week's two grammar topics: present perfect vs past simple (I have lived vs I lived) and passive voice 2 — has been done / can be done / will be done. You'll hear both in the POV story about Sally the cow."
+  },
+  "canDo": {
+    "uz": "Dars oxirida davom etayotgan ish (present perfect) bilan oʻtmishda tugagan ishni (past simple) toʻgʻri ajratib gapira olasiz va majhul nisbatni barcha zamon va modallarda (has been done, can be done, will be done) qura olasiz.",
+    "en": "By the end you can correctly separate an ongoing action (present perfect) from a finished past action (past simple), and build the passive across tenses and modals (has been done, can be done, will be done)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-vs-past",
+      "titleUz": "Present perfect va oddiy oʻtgan zamon farqi",
+      "titleEn": "Present perfect vs past simple — the hard contrast",
+      "bandLifter": "IELTS Part 1 & 2 — separate what still matters now from what finished in the past",
+      "cefrCanDo": "B1→B2: I can choose between present perfect and past simple correctly",
+      "bodyHtml": "<p>Bu darsning POV hikoyasida bitta jumla ikkiga boʻlinadi. Avval: <em>&quot;Since 2002 Sally <strong>has craved</strong> chocolate. She <strong>has become</strong> super fat.&quot;</em> Keyin toʻsatdan: <em>&quot;One day she <strong>saw</strong> a candy bar... she <strong>bought</strong> 4,000 chocolate bars and <strong>ate</strong> all of them.&quot;</em> Ana shu — spiralning choʻqqisi: <strong>present perfect</strong> (hozirgacha davom etadigan, hozir bilan bogʻliq ish) va <strong>past simple</strong> (oʻtmishda tugagan, aniq bir vaqtdagi ish) oʻrtasidagi farq. Bu oʻzbek oʻquvchi uchun eng qiyin zamon qarama-qarshiligi, shuning uchun uni sekin, quloq bilan ochamiz.</p>\n<h3>Ikki zamon — ikki xil vaqt hissi</h3>\n<ul>\n<li><strong>Past simple</strong> (V2: <em>saw, bought, ate</em>) — ish <strong>oʻtmishda tugagan</strong> va koʻpincha <strong>aniq vaqt</strong> bor: <em>yesterday, in 2002, one day, last year, when she was young</em>. Vaqt &quot;yopiq&quot; — u endi qaytmaydi.</li>\n<li><strong>Present perfect</strong> (<em>have/has + V3</em>: <em>has craved, has become</em>) — ish oʻtmish bilan <strong>hozirni bogʻlaydi</strong>. Aniq vaqt aytilmaydi; muhimi — natija yoki holat <strong>hozir ham davom etyapti</strong> yoki hozir ahamiyatli.</li>\n</ul>\n<p>Solishtiring:</p>\n<ul>\n<li><em>Sally <strong>has craved</strong> chocolate since 2002.</em> — hali ham istaydi (davom etyapti).</li>\n<li><em>One day she <strong>saw</strong> a candy bar and <strong>bought</strong> 4,000 bars.</em> — bir kunlik, tugagan voqea.</li>\n</ul>\n<h3>Kalit belgi: vaqt soʻzi qaysi zamonni chaqiradi</h3>\n<table>\n<thead>\n<tr>\n<th>Present perfect</th>\n<th>Past simple</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>since 2002, for years</td>\n<td>in 2002, yesterday, one day</td>\n</tr>\n<tr>\n<td>ever, never, just, already, yet</td>\n<td>when I was young, last week</td>\n</tr>\n<tr>\n<td>natija hozir muhim</td>\n<td>vaqt oʻtmishda yopiq</td>\n</tr>\n</tbody>\n</table>\n<p><em>&quot;How long <strong>has</strong> Sally <strong>craved</strong> chocolate?&quot;</em> → <em>&quot;Since 2002.&quot;</em> Ammo <em>&quot;When <strong>did</strong> she <strong>buy</strong> the candy bars?&quot;</em> → <em>&quot;One day / last week.&quot;</em></p>\n<h3>Ingliz ↔ oʻzbek farqi (bu yerda xato tugʻiladi)</h3>\n<p>Oʻzbek tilida ikkalasi ham koʻpincha bir xil oʻtgan zamon bilan tarjima qilinadi: <em>&quot;men yashaganman&quot;</em> va <em>&quot;men yashadim&quot;</em> farqi tilimizda kuchsiz. Shuning uchun oʻzbek oʻquvchi <em>since/for</em> bilan ham past simple ishlatib yuboradi:</p>\n<blockquote>\n<p>❌ <em>I lived here since 2015.</em> ❌ <em>I have seen him yesterday.</em>\n✅ <em>I <strong>have lived</strong> here since 2015.</em> (hali ham shu yerda) ✅ <em>I <strong>saw</strong> him yesterday.</em> (aniq oʻtgan vaqt)</p>\n</blockquote>\n<p>Sehrli qoida: <strong>aniq oʻtgan vaqt boʻlsa (yesterday, in 2002) → past simple; &quot;since/for/ever/never/just&quot; boʻlsa → present perfect.</strong> <em>&quot;I lived&quot;</em> — endi u yerda emasman; <em>&quot;I have lived&quot;</em> — hali ham shu yerda yoki natija hozir seziladi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni yodlamang, ovoz chiqarib sezing. Oʻzingiz haqingizda ikki jumlani ketma-ket ayting: <em>&quot;I <strong>have studied</strong> English for three years. Last year I <strong>passed</strong> an exam.&quot;</em> Birinchisi — davom etyapti, ikkinchisi — tugadi. Har kuni takrorlang; quloq oʻzi farqni ilib oladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida “yashadim” va “yashaganman” farqi kuchsiz — ikkalasi ham oʻtgan zamon. Ingliz tili esa qatʼiy ajratadi: aniq oʻtgan vaqt (yesterday, in 2002) → past simple; “since/for/ever/never/just” yoki natija hozir muhim boʻlsa → present perfect. “I lived here” — endi bu yerda emasman; “I have lived here” — hali ham shu yerdaman.",
+      "errorFixUz": "❌ I lived here since 2015. I have seen him yesterday. ✅ I have lived here since 2015. I saw him yesterday. Sabab: since/for → present perfect (have/has + V3); yesterday kabi aniq oʻtgan vaqt → past simple (V2).",
+      "examples": [
+        {
+          "en": "Sally has craved chocolate since 2002.",
+          "uz": "Sally 2002-yildan beri shokolad istaydi (hali ham)."
+        },
+        {
+          "en": "One day she saw a candy bar and bought 4,000 bars.",
+          "uz": "Bir kuni u konfet koʻrdi va 4000 dona sotib oldi (tugagan voqea)."
+        },
+        {
+          "en": "I have studied English for three years, and last year I passed an exam.",
+          "uz": "Uch yildan beri ingliz tili oʻrganaman, oʻtgan yili imtihon topshirdim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Sally ___ chocolate since 2002.",
+          "options": [
+            "has craved",
+            "craved",
+            "craves"
+          ],
+          "answer": "has craved",
+          "hintUz": "since + boshlanish nuqtasi → present perfect (has + V3)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "One day she ___ a candy bar in the store.",
+          "options": [
+            "saw",
+            "has seen",
+            "sees"
+          ],
+          "answer": "saw",
+          "hintUz": "“one day” — aniq oʻtgan vaqt → past simple (V2)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ him yesterday, so I already know the news.",
+          "options": [
+            "saw",
+            "have seen",
+            "see"
+          ],
+          "answer": "saw",
+          "hintUz": "yesterday bilan present perfect ishlatilmaydi → past simple: saw"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ikki jumla ketma-ket ayting (ovoz chiqarib): biri davom etayotgan ish “I have … for/since …”, biri tugagan ish “Last year I …”.",
+          "answer": null,
+          "hintUz": "present perfect (have/has + V3) davom etyapti; past simple (V2) tugagan"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "passive-voice-2",
+      "titleUz": "Majhul nisbat 2: has been done / can be done / will be done",
+      "titleEn": "Passive voice 2 — the full range",
+      "bandLifter": "IELTS Writing & Part 3 — describe processes and results impersonally (all tenses + modals)",
+      "cefrCanDo": "B2: I can form the passive across tenses and with modals, plus get-passive",
+      "bodyHtml": "<p>Thich Nhat Hanhning gʻoyasi butunlay <strong>majhul nisbat</strong> (passive) bilan aytiladi: <em>&quot;When a seed <strong>is watered</strong>, it manifests... the seeds <strong>are not touched</strong>, not watered easily... prevent these seeds <strong>from being watered</strong>.&quot;</em> Eʼtibor bering — muhim narsa <strong>kimning</strong> urugʻga suv quygani emas, <strong>urugʻ bilan nima boʻlgani</strong>. Aynan shuning uchun passive kerak: <strong>ish-harakat ustidagi obyekt</strong> birinchi oʻringa chiqadi. Core-11da passivning asosini koʻrgan edingiz; endi uni barcha zamon va modallarga yoyamiz — bu B2 belgisi.</p>\n<h3>Formula bitta, &quot;be&quot; oʻzgaradi</h3>\n<p>Passive doim <strong>be + V3</strong> (uchinchi shakl). Faqat <em>be</em> feʼli zamon yoki modalga qarab kiyimini almashtiradi:</p>\n<table>\n<thead>\n<tr>\n<th>Zamon / modal</th>\n<th>Aktiv</th>\n<th>Passiv (be + V3)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Present</td>\n<td>waters the seed</td>\n<td>the seed <strong>is watered</strong></td>\n</tr>\n<tr>\n<td>Present perfect</td>\n<td>has earned power</td>\n<td>power <strong>has been earned</strong></td>\n</tr>\n<tr>\n<td>Modal (can)</td>\n<td>can do it</td>\n<td>it <strong>can be done</strong></td>\n</tr>\n<tr>\n<td>Future (will)</td>\n<td>will cultivate power</td>\n<td>power <strong>will be cultivated</strong></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>Real power is not seized — it <strong>is cultivated</strong>.</em> — Haqiqiy kuch tortib olinmaydi, u yetishtiriladi.</li>\n<li><em>Real power <strong>has been earned</strong>, not given.</em> — Haqiqiy kuch berilmagan, u qoʻlga kiritilgan.</li>\n<li><em>Anger <strong>can be prevented</strong> by a good environment.</em> — Gʻazabning oldini olish mumkin.</li>\n<li><em>Positive seeds <strong>will be watered</strong> every day.</em> — Ijobiy urugʻlarga har kuni suv quyiladi.</li>\n</ul>\n<h3>get-passive: kundalik, jonli nutq</h3>\n<p>Rasmiy <em>be</em> oʻrniga suhbatda koʻpincha <strong>get + V3</strong> ishlatiladi — kutilmagan yoki oʻz-oʻzidan yuz bergan ish uchun:</p>\n<ul>\n<li><em>The seed <strong>got triggered</strong> by the news.</em> — Urugʻ yangiliklardan qoʻzgʻaldi.</li>\n<li><em>In the POV story her cravings <strong>got weakened</strong> and finally <strong>were made dormant</strong>.</em> — Istaklari susaytirildi, oxiri uxlatib qoʻyildi.</li>\n</ul>\n<p><em>by...</em> qoʻshimchasi faqat bajaruvchi muhim boʻlsagina qoʻshiladi: <em>...triggered <strong>by the news</strong></em>.</p>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida majhul nisbat feʼlga bitta qoʻshimcha bilan yasaladi: yoz<strong>il</strong>di, qil<strong>in</strong>gan, yasa<strong>l</strong>adi. Ingliz tili esa <strong>be</strong> ni oʻzgartirib, feʼlni V3 da qotirib qoʻyadi:</p>\n<blockquote>\n<p>❌ <em>The power earned by hard work.</em> (feʼl yetishmaydi)\n✅ <em>The power <strong>was earned</strong> by hard work.</em> — Kuch mehnat bilan qoʻlga kiritildi.\n❌ <em>It can done.</em> ✅ <em>It <strong>can be done</strong>.</em> (modaldan keyin doim <strong>be</strong>)</p>\n</blockquote>\n<p>Eng koʻp xato — modal yoki perfect shaklda <strong>be</strong>/<strong>been</strong> ni tushirib qoldirish: <em>can <strong>be</strong> done</em>, <em>has <strong>been</strong> earned</em>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bitta feʼlni oling (<em>cultivate</em>) va uni ovoz chiqarib zinapoyadan yuguriting: <em>it is cultivated → it has been cultivated → it can be cultivated → it will be cultivated</em>. Faqat <em>be</em> oʻzgaradi, V3 qimirlamaydi. Shu mashqni har kuni bir feʼl bilan takrorlang.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida majhul nisbat feʼlga bitta qoʻshimcha bilan yasaladi: yozildi, qilingan, yasaladi. Ingliz tili esa “be” ni zamon/modalga qarab oʻzgartiradi, feʼlni V3 da qotiradi: is watered / has been earned / can be done / will be cultivated. Suhbatda “be” oʻrniga koʻpincha get keladi: it got triggered.",
+      "errorFixUz": "❌ It can done. The power earned by hard work. ✅ It can be done. The power was earned by hard work. Sabab: modaldan keyin doim “be” (can be done); perfectda “been” (has been done). Feʼl esa hamisha V3 shaklida qoladi.",
+      "examples": [
+        {
+          "en": "Real power is not seized — it is cultivated.",
+          "uz": "Haqiqiy kuch tortib olinmaydi — u yetishtiriladi."
+        },
+        {
+          "en": "Real power has been earned, not given.",
+          "uz": "Haqiqiy kuch berilmagan — u qoʻlga kiritilgan."
+        },
+        {
+          "en": "Anger can be prevented, and positive seeds will be watered every day.",
+          "uz": "Gʻazabning oldini olish mumkin, ijobiy urugʻlarga esa har kuni suv quyiladi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Real power is not given; it ___ earned.",
+          "options": [
+            "has been",
+            "has",
+            "is been"
+          ],
+          "answer": "has been",
+          "hintUz": "present perfect passive → has + been + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "With a good environment, anger ___ prevented.",
+          "options": [
+            "can be",
+            "can",
+            "can been"
+          ],
+          "answer": "can be",
+          "hintUz": "modaldan keyin doim “be” → can be + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Positive seeds ___ watered every single day.",
+          "options": [
+            "will be",
+            "will",
+            "will been"
+          ],
+          "answer": "will be",
+          "hintUz": "future passive → will + be + V3"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Bitta feʼlni (masalan “cultivate”) oling va zinapoyadan yuguriting (ovoz chiqarib): “it is cultivated → it has been cultivated → it can be cultivated → it will be cultivated.”",
+          "answer": null,
+          "hintUz": "faqat “be” oʻzgaradi (is/has been/can be/will be), V3 qimirlamaydi"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/22/main.mp3",
+      "durationSec": 913,
+      "bytes": 10957707,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/22/vocab.mp3",
+      "durationSec": 607,
+      "bytes": 7283088,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/22/ministory.mp3",
+      "durationSec": 936,
+      "bytes": 11228458,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/22/pov.mp3",
+      "durationSec": 375,
+      "bytes": 4500469,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "The Art of Power Main Text Hello, this is AJ, welcome to our next lesson. This lesson is called “The Art of Power” and it comes from a book. The topic comes from a book with the same name. The book is called The Art of Power by Thich Nhat Hanh.",
+      "Thich Nhat Hanh is a Buddhist Monk, he is a Vietnamese Buddhist Monk and really one of my favorite writers, one of my favorite people, one of my favorite teachers. And I’ve been reading Thich Nhat Hanh’s books and listening to his audio teachings for many, many years and he’s a very special guy.",
+      "Thich Nhat Hanh, again, he’s Vietnamese, a Vietnamese Buddhist Monk, and during the Vietnam War he created an organization and he created a movement for peace. So I believe he was in South Vietnam during the War and he did not support either side. He was not supporting the Communist North.",
+      "He was not supporting the United States-backed South. He was just trying to end the War. He was trying to get peace in Vietnam and the Buddhist Monks that were in his group were doing the same. They were just trying to help people and trying to stop the War, stop the killing.",
+      "Well, unfortunately, as happens in the world, because he would not join either side both sides didn’t like him.",
+      "So the Americans and the South Vietnamese, they thought he was bad because he was trying to stop the fighting and the North Vietnamese Communists, they didn’t like him either because he was trying to stop the killing and the fighting. And, so, Thich Nhat Hanh, he had to leave Vietnam. His life was in danger from both sides.",
+      "And, eventually, he had to leave Vietnam and he could not return. I think he just recently returned a couple years ago. The Vietnamese Government allowed him to come back because I guess he’s still quite popular in Vietnam. But, anyway, he moved to France and he started to teach and write books and tapes.",
+      "And he created a monastery in France where he teaches people about peace and about making your life better and about helping other people. And while he is a Buddhist, many of his students are Christians or Muslim or Jewish or not religious or Hindus, it doesn’t matter.",
+      "He’s not like a strict Buddhist like you must be a Buddhist, he just wants to teach the principles of peace and understanding and love. So he’s a wonderful person and he’s got many great books, this book is called The Art of Power.",
+      "And, of course, the power he’s talking about is the power to be good, the power to control your own life and to have a good life and to help other people. So it’s",
+      "not power to control other people it’s power for yourself. So let me read a little section from his book and then we’ll talk about this section and we’ll talk a little more about Thich Nhat Hanh. Okay, here’s the section. Are you ready? Let’s start.",
+      "“When a seed is watered in our subconscious it manifests as an energy in our conscious and becomes a mental formation or an emotion or a thought. You have a seed of anger, but when this seed of anger is asleep it is dormant in your subconscious and you don’t feel angry.",
+      "However, when the seed is touched, when it is turned on, when it is watered it becomes a conscious emotion, a conscious mental formation called anger and you feel the energy of anger arise. We can envision consciousness as a living room and subconsciousness as a basement.",
+      "If we water a seed of joy and happiness that seed will grow and manifest itself on the upper level of consciousness making the living room beautiful, making our mind beautiful, our thoughts and our feelings beautiful.",
+      "If we water the seed of anger or hatred it will make the living room of our mind a hell for us and a hell for our loved ones. We all have a seed of anger, a seed of despair, a seed of jealousy in us. If you live in a negative environment the environment can trigger these seeds.",
+      "If you live in a positive environment then the seeds of craving, violence, hate and anger, are not touched, not watered easily. So it is wise for you to choose a good environment, an environment that will prevent these negative seeds from being touched or watered often.",
+      "You should not let other people around you to touch or water these seeds and you should not allow yourself to water them. When you read an article full of violence or watch a violent television program or movie you turn on the seed of violence. So the first step is diligence.",
+      "You need the diligence and discipline to control your environment. You need the diligence not to turn on these negative seeds and not to allow the environment to turn them on. Diligence means the practice of selective watering. So if the negative seeds in the subconscious have not grown keep them down there, don’t let them get watered.",
+      "In your daily life be careful not to give these negative seeds a chance to grow. Don’t suppress them; just don’t give them a chance. In your community, in your family, expose yourself only to sounds and sights that will help you touch the wholesome seeds within you.",
+      "Try not to expose yourself to sights and sounds that stimulate the seeds of craving or anger. You need diligence to practice this and you may need a community or a group of friends with similar values to help you create a good environment.",
+      "You can encourage your partner, your children and your friends to help you protect yourself from negative environments. You can also protect them by creating an environment where they don’t have to be in touch with negative thoughts, ideas and therefore don’t have to touch their negative seeds.”",
+      "Okay, that’s the end of that section from Thich Nhat Hanh. So, of course, he’s talking a little bit poetically, it’s a metaphor this idea of seeds. This idea of, you have seeds in your mind, in your brain, negative and positive, so they’re just waiting like a seed in the ground.",
+      "If there’s a seed in the ground, if you don’t give it water, if you don’t give it sunshine, it will not grow. If you don’t give it food and energy it won’t grow. If you give it water and food and energy it will grow. So he’s saying imagine this is your mind, your mind.",
+      "And in your mind, in the subconscious, you have all these little seeds…violent seeds, seeds of anger, seeds of jealousy and also positive…seeds of love, seeds of caring, seeds of strength. So he’s saying we need to be careful about our environment.",
+      "We need to be careful so that we give food and energy and water to the positive seeds, help them grow more and more, stronger and stronger. And we have to be careful – have diligence means be careful – we have to be careful to not give energy and food and water to the negative seeds.",
+      "So what he’s just saying is that we want to be careful about our environment. We want to be careful about the movies we watch. We want to be careful about the TV shows we watch. We want to be careful about the articles we read.",
+      "Because if we’re always watching violent TV shows, we’re always watching the news full of violence and war and terrible negative things, well then we’re watering those seeds in us.",
+      "It will be easier for us to be angry or violent or upset or sad or depressed because we’re giving food, we’re giving energy and we’re giving water to all those negative seeds.",
+      "Every time we watch a violent movie, every time we watch bad, negative news, every time we read a newspaper that’s full of negative stories, we’re feeding the negative thoughts and feelings in our own brain, making it easier for ourselves to feel bad. So he’s saying we want to do the opposite.",
+      "We want to always be watching positive movies and TV shows or DVDs or whatever with positive messages full of love and hope and strength. We want to read stories that are very positive and inspiring that give energy to our strength and our love and our generosity.",
+      "We want to be very careful about what comes into our eyes and our ears, in other words. And that’s part of the idea of these lessons, these Power English lessons. Because I want to do more than just teach you English, I want to be sure that every lesson is full of positive messages, inspiring messages.",
+      "I want to water and feed the positive seeds in your subconscious. So, yes, you’re learning English, yes, you’re learning vocabulary, yes, you’re improving your grammar, yes, you will speak more fluently, but more importantly than that you’re also feeding the positive emotions, the positive thoughts, the positive values in your mind.",
+      "So that’s a very important part of these lessons, it’s one of my main goals, is to make sure that every single lesson has some kind of positive message so that you’re getting lots and lots of positive energy from me. And if you want to help yourself you should also avoid the negative. It means turn off the TV, don’t watch the news.",
+      "You do not",
+      "need to watch the news. The news is full of negative, terrible stories and, you know, as a former journalist I can also tell you a lot of the news is just not accurate. It’s just wrong, it’s basically government propaganda.",
+      "And, whichever country you’re in, you’re getting the stories that they want you to hear, so you’re not really hearing very much. If there’s a very big story, some huge event happens in the world, you’ll hear about it, other people will tell you.",
+      "You’ll walk on the street, you’ll see it on the cover of the newspaper, so, you know, you don’t need to worry you won’t be lost. But most of the news is not necessary. It doesn’t really help your life, it’s information that you don’t need and it’s negative, negative, negative.",
+      "It feeds and waters jealousy and fear and depression and sadness and anger in you. So just avoiding the news, avoid newspapers, avoid television news. Just doing that is going to increase your positive energy so much, you will feel so much better.",
+      "Instead of listening to that crap and reading that crap, read books that are positive and inspiring. Listen to CDs that are positive and inspiring that give you power and energy. Do that every day and you’re going to feel fantastic.",
+      "You’re going to gain power in yourself and then you’re going to be able to use that power to help yourself and to help other people.",
+      "So instead of feeling sad, instead of feeling afraid, instead of feeling powerless, you will feel powerful and positive and you will actually make your life and your world better and you’ll help other people do the same thing. That’s why you need to be very careful.",
+      "That’s why you need to avoid all these negative influences and the negative environment and especially the news. That’s why you need to seek out and find positive messages all the time to make yourself emotionally powerful. Alright, well that is the end of “The Art of Power”, next is the vocabulary lesson.",
+      "Again, seek out and listen to positive inspiring things all the time, these lessons and also find other stuff. And read books. All these books that I’ve mentioned in these lessons go find them. Read them in English, read them in your language, it doesn’t matter, but read them."
+    ],
+    "vocab": [
+      "The Art of Power Vocabulary Text Hello, this is AJ. Welcome to the vocabulary lesson for “The Art of Power.” Let’s get started right away, here we go. Our first word is subconscious. We’ve talked about this word already several times, so I’ll review it quickly. Subconscious means the deep part of your mind.",
+      "It’s the deep emotions, the deep thoughts. They’re not at the top of your mind, you’re not thinking about them. You don’t realize that they are there, they’re deep down. And then, of course, the other kind of mind or consciousness is your conscious mind. Your conscious mind is what you are thinking about right now.",
+      "You know what you’re thinking about. You can kind of see it or hear it in your brain. But the subconscious is deeper. You don’t see it or hear it immediately, it’s not obvious. So that’s subconscious. Our next word is dormant, dormant.",
+      "So Thich Nhat Hanh said that often these seeds of anger or the seeds of violence or the seeds of sadness and depression, often they are dormant. Dormant means sleeping. Quite simply it means sleeping, so, again, dormant. If the seeds are dormant it means they’re sleeping. They’re not growing, they’re not active.",
+      "They’re not awake they are sleeping, so dormant means sleeping. You hear this word with volcanoes sometimes. They’ll say it’s a dormant volcano. Volcano is a big mountain, right? It explodes sometimes. Well if it’s a dormant volcano it’s a sleeping volcano. It’s not exploding, there’s nothing happening, it’s asleep.",
+      "Okay, so dormant, again, dormant means sleeping or asleep. Our next word is formation, formation. He says that when these negative emotions, these negative seeds are fed or watered, when you give them energy they become mental formations. So a formation is just a thing, an organized thing. So, in other words, they become real things.",
+      "They become alive, they become awake, they become real things. So before you had this seed of anger, but you weren’t angry. It’s down there, it’s asleep, nothing is happening. But then maybe you watched the news or you’re around a lot of angry people and then suddenly that seed starts growing.",
+      "And now anger becomes real, it becomes a mental formation, it becomes a real idea. It becomes a real feeling in your brain, in your mind. So, again, formation is something that is real and organized, something that exists in reality.",
+      "All right, our next word is manifest. We’ve had this before. To manifest means to become real. Again, a very similar idea. So if you say anger manifests in your mind, it means it becomes real in your mind, it becomes alive. So here we’re using manifest as a verb, it’s the action.",
+      "Formation was a noun, it’s the actual thing. But manifest, to manifest, means to become real. It’s an action, it’s a verb. All right, next is the word trigger, to trigger. I believe we have talked about this word before, so I’ll review it quickly, to trigger. He says “the environment can trigger the seeds of anger.",
+      "The environment can trigger the seeds of depression or sadness.” So, to trigger, means to turn on, to turn on. So before the anger is asleep, it’s dormant. Something happens, it triggers the anger. It turns on the anger. Now the anger is awake, now the anger is on. It was triggered.",
+      "So, again, to trigger means to suddenly turn on, to cause something to turn on. Our next word is craving, craving. He says “If you live in a positive environment then the seeds of craving are not watered easily.” Craving means desire, it means wanting something a lot, wanting, wanting, wanting. But it has a negative feeling.",
+      "It’s kind of a negative word. So it means wanting something that’s not healthy, wanting something too much. So, for example, I crave fat foods. I crave lots of money. It means you must have it. You really, really, really want it and you’re constantly thinking about it. So here I’m using it as a verb, to crave.",
+      "To crave means to want a lot, to want too much. It really has this idea of too much. You want too much, you’re obsessed. So craving is a noun and to crave, the verb, to want too much. Our next word is diligence. Diligence really means discipline.",
+      "It means self-control, control of yourself, control of your thoughts and control of your desires and control of your emotions. It’s discipline, self-discipline. So, again, that’s diligence. Diligence also has the idea of being careful, right? It means being careful. And the adjective is diligent, diligent.",
+      "If you say “He is a diligent person” it means he is a very careful person, very disciplined, very careful. The opposite would be reckless. Not careful, just totally doing anything and never thinking about it, never being careful. That’s the opposite. So diligent, again, means disciplined and very careful.",
+      "Diligent is the adjective, diligence is the noun. So Thich Nhat Hanh says “We need diligence to be happy.” It means we need to have discipline. We need to control our environment more. We have to be careful. We have to be disciplined. We have to be controlled about what we watch and what we read. We have to be diligent about our friends.",
+      "We have to be careful that we choose positive friends. We have to be disciplined.",
+      "Okay, our next word is suppress. He says “Be careful, don’t water the negative seeds.” But he says “Also, don’t suppress them.” Don’t suppress. Suppress means to push down by force. It means to use force, to push down. So, for example, you feel angry, you’re starting to feel angry, right?",
+      "It’s already happening. It’s too late its happening. I’m angry err! Well if you suppress anger it means you ha-ah, ho-ah, mmmhhh and you don’t say anything, right? You push the anger down. You don’t say anything, you don’t do anything. You don’t show your anger, you pretend. You are angry, but you pretend you’re not.",
+      "That’s suppression, the noun, suppression. Or the verb is to suppress. You are suppressing your anger, you’re pushing it down. You’re pretending it’s not there. You are angry, but you’re pretending you’re not. So that’s not healthy, that’s not good. So Thich Nhat Hanh is saying don’t suppress your anger.",
+      "If it comes up, if it’s too late it already came up, well then you have to be honest and be open. Yes, I’m angry. You don’t push it down. You don’t pretend you’re not angry because you’ll give yourself a heart attack, it’s very unhealthy. But he’s saying what you want to do is prevent the anger from happening, stop it before it happens.",
+      "So by feeding yourself a lot of positive thoughts, a lot of positive videos, a lot of positive books, a lot of positive people, the anger won’t come up. But if it does come up don’t suppress it, don’t push it down. Okay, our final word is wholesome, wholesome. He says you want to find a lot of wholesome influences.",
+      "You want to find wholesome books. You want to find wholesome elements within you and within your environment. You want to be around wholesome people. Wholesome means good and healthy, good and healthy, wholesome. So, again, wholesome means good and healthy. So, for example, wholesome food, you should eat wholesome food.",
+      "It means you should eat good and healthy food, wholesome food. Or he’s a very wholesome person. He’s a very good and healthy person. Wholesome. Okay, well that is all for our vocabulary lesson for “The Art of Power.”",
+      "Listen to it a few times so you understand the vocabulary and then listen and focus on the other lessons in this lesson pack. I’ll talk to you later."
+    ],
+    "pov": [
+      "The Art of Power POV Text Hello, this is AJ. Welcome to the POV stories for “The Art of Power.” Let’s start. Since 2002 Sally has craved chocolate. She has wanted it every day, every hour of her life since 2002. She has become, unfortunately, super fat because she has craved chocolate so much.",
+      "So Sally, since 2002, has become super fat because she has craved chocolate every day and every hour. Now, of course, during this time she has wanted to lose weight. She has wanted to lose weight all this time. Every day she has thought about it. Every day she has thought, oh, I want to lose weight.",
+      "In fact, every day she has tried to suppress her craving for chocolate. She has tried to push down the craving. She has tired to pretend that she didn’t crave chocolate. But, of course, this suppression has failed. It has always failed. In fact, one day it failed in a huge way, it was a super big failure one day.",
+      "Because one day she saw a candy bar in the store and the candy bar triggered her craving and she bought 4,000 chocolate candy bars. She ate all of them in one day. So on that day she stopped trying to suppress her craving. Instead she decided to study yoga. And she went to a yoga studio and she studied yoga.",
+      "By studying yoga she learned discipline and diligence. And because she learned diligence her chocolate cravings lessened. They got weaker and weaker, until one day they became totally dormant, totally asleep, totally quiet. Her chocolate cravings became dormant. And after that she ate only wholesome, healthy food.",
+      "And because she ate only wholesome food she became thinner and thinner. In fact, she became a thin, gorgeous and sexy cow. And so all the male cows wanted her, they her because she was thin, gorgeous and sexy. Okay, that’s the end of our first POV story. Next we go into the future. You already know this, so let’s do it! Let’s start.",
+      "In the future there will be a cow and her name will be Sarah. Sarah is going to crave chocolate. She’s going to crave chocolate every minute, every hour of every day. Of course, she’ll become super fat. Sarah the cow will be a super fat cow because she’s going to crave chocolate.",
+      "Now she’ll want to lose weight, yes, definitely. And she’ll try to suppress her craving for chocolate, but she will fail. She won’t be able to suppress it totally. In fact, one day she’s going to see a chocolate bar in the store.",
+      "That chocolate bar will trigger her craving for chocolate and she’ll buy 4,000 chocolate bars and eat all of them in one day. She’ll become even fatter and she’ll stop trying to suppress her craving. Instead she’ll decide to study yoga. She’ll go to a yoga studio every day and she’ll study and practice yoga every day.",
+      "By studying yoga she’ll learn diligence and discipline. As a result, her chocolate cravings will lessen. They’ll get weaker and weaker and, finally, they’ll become totally dormant. After that she’s going to eat only wholesome, healthy food.",
+      "And she’ll become thinner and thinner and thinner until one day she’ll be a thin, gorgeous, sexy cow and all the male cows are going to want her. They’re going to want her because she’s so damn sexy! Okay, that is the end of the POV stories for “The Art of Power.” Listen to them every day for at least one week. See you next time. Bye-bye."
+    ],
+    "sixmin": [
+      "Neil: OK, I want you to close your eyes. Focus… on your breathing.",
+      "Catherine: Er, Neil? Can we do this later? We've only got six minutes.",
+      "Neil: Ok, Catherine. Welcome to a mindful edition of 6 Minute English, where we're exploring the rise of mindfulness – particularly in schools.",
+      "Catherine: And we'll be teaching six items of vocabulary along the way. So I think we should start with mindfulness itself.",
+      "Neil: Being mindful, as an adjective, means 'being calmly aware of everything in your body and mind'. You only focus on 'now'.",
+      "Catherine: People practise mindfulness, the noun, by focusing only on their breath, and not allowing themselves to be distracted by passing thoughts.",
+      "Neil: Indeed. It's traditionally associated with Buddhism, and has become incredibly popular in the secular world – in workplaces, in private classes and even in schools.",
+      "Catherine: Secular means 'non-religious' by the way.",
+      "Neil: OK, I just mentioned schools: how many teachers in the UK are trained to teach mindfulness? Is it… a) 500, b) 5,000 or c) 50,000?",
+      "Catherine: Let me focus really hard – I think it's 5,000.",
+      "Neil: A very mindful answer, Catherine. But I'll reveal the real answer later. Now let's hear from one teacher who's been practising mindfulness with students for many years. Alison Mayo, Head of Early Years at Dharma Primary School, thinks it's particularly suited to young children. Why?",
+      "INSERT: Alison Mayo, Head of Early Years, Dharma Primary School That's very natural for children - to be in the present. And we really kind of celebrate that because that is a place where they are learning. So, if they feel grounded, then they can really develop their concentration and their focus, and relax. Learning happens so much more easily if you're relaxed and happy.",
+      "Neil: Alison said it was natural for children to be in the present.",
+      "Catherine: The present – means 'now'. You'll know it from the 'present tense' in grammar. And people who practise mindfulness use this phrase a lot – to be in the present, or in the present moment.",
+      "Neil: It sounds simple, but actually it's very hard to achieve.",
+      "Catherine: Well, Neil, it might be for an old chap like you, but for young people, Miss Mayo thinks it's very natural.",
+      "Neil: Fair enough. Being grounded, as she says, helps students concentrate and learn in a relaxed way.",
+      "Catherine: Grounded is another good adjective there – it means 'rational, sensible, clear thinking'.",
+      "Neil: So, she's a fan of mindfulness. And there's growing evidence behind its benefits.",
+      "Catherine: Yes. The UK's national health advisory body has recommended it to help treat conditions like depression and anxiety.",
+      "Neil: Studies have shown it reduces levels of the stress hormone, cortisol.",
+      "Catherine: And a new study has claimed that eating mindfully can actually help people to lose weight.",
+      "Neil: You mean eating slowly?",
+      "Catherine: Yeah, slowly and really experiencing and tasting the food. Not being distracted and not eating too much too fast! Anyway, Neil, is mindfulness taking over the world?",
+      "Neil: Well, not quite yet. There still aren't many detailed studies on it – and some critics say the studies we have show a publication bias. In other words, only the positive results are published.",
+      "Catherine: A bias is when you support something or someone in an unfair way, because of your preferences or beliefs.",
+      "Neil: What seems certain is that mindfulness has entered into many aspects of modern life, at least here in the UK. Now, let's look back at our question. I asked how many teachers in the UK have been trained in mindfulness.",
+      "Catherine: And I said 5,000.",
+      "Neil: Well, it was actually 5,000. Well done! According to the Mindfulness Initiative. And it keeps on growing.",
+      "Catherine: So before we finish up, here's another question that might be useful for our listeners – what's the difference between mindfulness and meditation?",
+      "Neil: Aha – that's not so easy to define. Meditation is the broader term. When you meditate you spend time quietly – focusing your mind - often for relaxation or spiritual purposes. Mindfulness is a particular a kind of meditation – when you try to empty your mind of thought. Does that make sense?",
+      "Catherine: Yeah, more or less. So we'll let our listeners meditate on that answer. And before we empty our minds, let's look back at today's words. We had mindfulness, mindful and mindfully – they all relate to the particular practice of being only focused of what's happening now.",
+      "Neil: What's happening now, or we could say – what's happening in the present. People often focus on the past – thinking back about mistakes or happy memories…",
+      "Catherine: Or on the future – which can be full of worries. But by being in the present – you overcome these thoughts and fears. Next, we have secular. It contrasts with 'religious'. So, while a church is a religious building, we also have secular buildings – like factories and shops and hospitals…",
+      "Neil: All non-religious buildings, in other words!",
+      "Catherine: Exactly. Now, tell me Neil, are you feeling grounded right now?",
+      "Neil: You're asking if I'm thinking clearly and feeling connected to the world? Do you even have to ask, Catherine – I'm a very grounded person.",
+      "Catherine: You are, most of the time. Most of the time you're naturally grounded, every now and again you get a bit panicked, but … some of us need to remember to slow down, chill out and meditate once in a while.",
+      "Neil: Yes, that would be meditate meaning to take quiet time to focus deeply on something.",
+      "Catherine: Exactly. Now for more ways to improve your English I suggest you mindfully visit our Facebook, Twitter, Instagram and YouTube pages.",
+      "Neil: Yes, focus only on our pages. Don't be distracted by anything else!",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who craved chocolate?",
+        "a": "Sally, Sally the cow craved chocolate."
+      },
+      {
+        "q": "What was Sally?",
+        "a": "She was a cow. Sally was a cow."
+      },
+      {
+        "q": "How did she feel about chocolate?",
+        "a": "She craved it. Sally craved chocolate. She wanted it so much. She thought about chocolate all the time. I must have chocolate!"
+      },
+      {
+        "q": "So do you think Sally was thin or fat?",
+        "a": "Well exactly, of course, she was fat. She was obese, very, very fat. Sally was an obese cow."
+      },
+      {
+        "q": "Why was she an obese cow?",
+        "a": "Because she craved chocolate every day and she ate chocolate every day."
+      },
+      {
+        "q": "Why was she fat?",
+        "a": "Because she craved chocolate and ate chocolate every single day, all the time."
+      },
+      {
+        "q": "Did she accept her craving or did she suppress her craving?",
+        "a": "Well, she tried to suppress it. She tried to push it down. I don’t want chocolate. I don’t want chocolate. I don’t want chocolate. I don’t need chocolate."
+      },
+      {
+        "q": "What did she try to suppress?",
+        "a": "Her craving for chocolate. She tried to suppress her craving for chocolate."
+      },
+      {
+        "q": "What did she crave?",
+        "a": "Chocolate. She craved chocolate."
+      },
+      {
+        "q": "What did she do to this craving?",
+        "a": "Well, she suppressed it. Well, she tried to suppress it. She tried to push it away. She tried to push it down."
+      },
+      {
+        "q": "Who tried to suppress her craving for chocolate?",
+        "a": "Sally the cow. Sally the cow tried to suppress her craving for chocolate."
+      },
+      {
+        "q": "Why did she try to suppress her craving for chocolate?",
+        "a": "Well, because she wanted to lose weight. She wanted to lose weight, so she tried to suppress her craving for chocolate."
+      },
+      {
+        "q": "Who tried? Who tried to suppress her craving?",
+        "a": "Sally, Sally the cow tired to suppress her craving for chocolate."
+      },
+      {
+        "q": "What did she see in the store?",
+        "a": "That’s right she saw a candy bar in the store."
+      },
+      {
+        "q": "What kind of candy bar did she see, obviously?",
+        "a": "EffortlessEnglishClub.com 3"
+      },
+      {
+        "q": "Where did she see the candy bar, the chocolate candy bar?",
+        "a": "In the store. She saw a chocolate candy bar in the store."
+      },
+      {
+        "q": "What did the chocolate candy bar do to her?",
+        "a": "It triggered her craving for chocolate."
+      },
+      {
+        "q": "Did it turn on her craving for chocolate?",
+        "a": "Oh, yes, it did. It triggered her craving for chocolate."
+      },
+      {
+        "q": "Did it give power to her craving for chocolate?",
+        "a": "Absolutely, yes. It triggered her craving for chocolate."
+      },
+      {
+        "q": "What triggered Sally’s craving for chocolate?",
+        "a": "A candy bar. Seeing the candy bar. A candy bar triggered her craving for chocolate."
+      },
+      {
+        "q": "What kind of craving did it trigger?",
+        "a": "Well, a craving for chocolate. It triggered her craving for chocolate."
+      },
+      {
+        "q": "Whose craving did it trigger?",
+        "a": "Sally’s craving. The candy bar triggered Sally’s craving for chocolate. It turned on the craving again."
+      },
+      {
+        "q": "How many chocolate bars did she buy?",
+        "a": "Four Thousand. She bought 4,000 chocolate bars. She ate all of them very fast and she became more fat."
+      },
+      {
+        "q": "Why did she become more fat?",
+        "a": "Well, because she ate 4,000 candy bars in one day, chocolate candy bars of course."
+      },
+      {
+        "q": "What did she study?",
+        "a": "She studied, she learned yoga."
+      },
+      {
+        "q": "How often did she practice yoga?",
+        "a": "Every day. She practiced yoga every day."
+      },
+      {
+        "q": "What did she learn from yoga?",
+        "a": "Well, she learned discipline and diligence. She learned to control herself. She learned how to be in control of her feelings and her thoughts. She learned diligence. She learned how to be careful about her thoughts and her feelings."
+      },
+      {
+        "q": "So what did she learn from yoga?",
+        "a": "Diligence. She learned diligence from yoga. Yoga taught her diligence."
+      },
+      {
+        "q": "Did she learn laziness from yoga?",
+        "a": "No, no, no, the opposite. She didn’t learn laziness, she learned diligence. She learned to be controlled and strong with her mind and her emotions."
+      },
+      {
+        "q": "Who learned diligence from yoga?",
+        "a": "Sally, Sally the cow learned diligence from yoga."
+      },
+      {
+        "q": "What did she learn diligence from?",
+        "a": "From yoga. She learned diligence from yoga."
+      },
+      {
+        "q": "What happened to her chocolate cravings?",
+        "a": "They became dormant. They became quiet, they went to sleep, zzzzzzhhhhhh."
+      },
+      {
+        "q": "Were her chocolate cravings awakened, strengthened or were they made dormant?",
+        "a": "Well, they were made dormant. They became dormant, they went to sleep."
+      },
+      {
+        "q": "What became dormant?",
+        "a": "Sally’s chocolate cravings became dormant. They became weaker and weaker and finally asleep. Her chocolate cravings, her desire for chocolate became dormant. They became sleepy and weak."
+      },
+      {
+        "q": "Whose chocolate cravings became dormant?",
+        "a": "Sally’s, Sally’s chocolate cravings became dormant, became sleepy, became quiet."
+      },
+      {
+        "q": "Did her vanilla cravings become dormant or did her chocolate cravings become dormant?",
+        "a": "Well, obviously, of course, her chocolate cravings became dormant."
+      },
+      {
+        "q": "Why did her chocolate cravings become dormant?",
+        "a": "Because now she had diligence. She had self-control, she had diligence. Because she had diligence, her chocolate cravings became dormant, became quiet and went to sleep."
+      },
+      {
+        "q": "Did she want chocolate anymore?",
+        "a": "No, she didn’t. Her chocolate cravings were dormant. And so her chocolate cravings became dormant. Sally ate only wholesome, healthy food."
+      },
+      {
+        "q": "What kind of food did Sally eat?",
+        "a": "She ate only wholesome food, only healthy food, only good, healthy food."
+      },
+      {
+        "q": "Did she eat junk food or did she eat wholesome food?",
+        "a": "She ate wholesome food. Good, healthy food."
+      },
+      {
+        "q": "What did she eat?",
+        "a": "Wholesome food. She ate wholesome food."
+      },
+      {
+        "q": "Who ate wholesome food?",
+        "a": "Sally, Sally at wholesome food."
+      },
+      {
+        "q": "What kind of food did she eat?",
+        "a": "Wholesome food. She ate only wholesome food."
+      },
+      {
+        "q": "What kind of cow did Sally become?",
+        "a": "She became a thin, gorgeous, sexy cow."
+      },
+      {
+        "q": "Who wanted Sally?",
+        "a": "All the male cows. All the men cows. All the male cows wanted Sally because now she was a thin, gorgeous, sexy cow."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "the subconscious (mind)",
+      "pos": "n",
+      "uz": "ong osti (miyaning chuqur, avtomatik qismi)",
+      "defEn": "the deep part of your mind you are not aware of",
+      "example": "A seed of anger sleeps in the subconscious."
+    },
+    {
+      "en": "to manifest",
+      "pos": "v",
+      "uz": "voqe boʻlmoq, real koʻrinishga chiqmoq",
+      "defEn": "to become real or visible",
+      "example": "The seed manifests as an emotion in your mind."
+    },
+    {
+      "en": "a mental formation",
+      "pos": "phrase",
+      "uz": "ongdagi real his yoki fikr (shakllangan holat)",
+      "defEn": "a real, organized thought or emotion in the mind",
+      "example": "Anger becomes a mental formation when it is watered."
+    },
+    {
+      "en": "dormant",
+      "pos": "adj",
+      "uz": "uyquda, harakatsiz (uxlab yotgan)",
+      "defEn": "sleeping; not active or growing",
+      "example": "A dormant volcano is not exploding."
+    },
+    {
+      "en": "to trigger (a seed)",
+      "pos": "v",
+      "uz": "qoʻzgʻamoq, birdan yoqib yubormoq",
+      "defEn": "to suddenly turn something on",
+      "example": "The candy bar triggered her craving for chocolate."
+    },
+    {
+      "en": "to crave / a craving",
+      "pos": "v/n",
+      "uz": "qattiq istamoq; kuchli (koʻpincha sogʻlom boʻlmagan) istak",
+      "defEn": "to want something too much; a strong desire",
+      "example": "Sally craved chocolate every hour."
+    },
+    {
+      "en": "diligence",
+      "pos": "n",
+      "uz": "intizom, oʻzini tuta bilish; ehtiyotkorlik",
+      "defEn": "self-discipline and being careful",
+      "example": "You need diligence to control your environment."
+    },
+    {
+      "en": "to suppress (an emotion)",
+      "pos": "v",
+      "uz": "bostirmoq, kuch bilan pastga bosmoq",
+      "defEn": "to push a feeling down by force",
+      "example": "Don't suppress your anger; prevent it instead."
+    },
+    {
+      "en": "wholesome",
+      "pos": "adj",
+      "uz": "sogʻlom va foydali (yaxshi taʼsir qiladigan)",
+      "defEn": "good and healthy",
+      "example": "Look for wholesome influences and wholesome food."
+    },
+    {
+      "en": "to water the seeds (of)",
+      "pos": "phrase",
+      "uz": "urugʻga suv quymoq — his-tuygʻuga oziq berib, kuchaytirmoq",
+      "defEn": "to give energy to a feeling so it grows",
+      "example": "Negative news waters the seeds of fear and anger."
+    }
+  ],
+  "englishpod": null,
+  "sixmin": {
+    "date": "170615",
+    "title": "Mindfulness",
+    "titleUz": "Hushyorlik (mindfulness)",
+    "audio": {
+      "main": {
+        "path": "sixmin/170615/audio.mp3",
+        "durationSec": 378,
+        "bytes": 6057486,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many teachers in the UK are trained to teach mindfulness?",
+        "qUz": "Buyuk Britaniyada nechta oʻqituvchi mindfulness oʻqitishga tayyorlangan?",
+        "options": [
+          "500",
+          "5,000",
+          "50,000"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 5,000. Catherine 5,000 dedi va toʻgʻri topdi — Neil oxirida “it was actually 5,000. Well done!” deb tasdiqladi. Bu son hamon oshib bormoqda."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "mindful / mindfulness",
+        "uz": "hushyor, hozirgi damga toʻla eʼtiborli; shunday holat",
+        "defEn": "being calmly aware of your body and mind, focusing only on now"
+      },
+      {
+        "en": "secular",
+        "uz": "dunyoviy, diniy boʻlmagan",
+        "defEn": "not religious"
+      },
+      {
+        "en": "the present",
+        "uz": "hozirgi dam, hozir",
+        "defEn": "now; this moment in time"
+      },
+      {
+        "en": "grounded",
+        "uz": "oyogʻi yerda, mulohazali va tinch fikrlaydigan",
+        "defEn": "rational, sensible and clear-thinking"
+      },
+      {
+        "en": "a bias",
+        "uz": "bir tomonlama qarash, xolisona boʻlmagan moyillik",
+        "defEn": "unfair support for something because of your beliefs"
+      },
+      {
+        "en": "to meditate",
+        "uz": "meditatsiya qilmoq, xayolni jamlab tinchlanmoq",
+        "defEn": "to spend quiet time focusing your mind for relaxation"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "The Art of Power — Thich Nhat Hanh on true inner strength",
+      "channel": "Plum Village"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a habit or feeling you have struggled with. How long have you had it, and what has changed? What can be done, and what will be done, to keep the positive seeds watered?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect vs past simple (I have … since …; last year I …) va majhul nisbat (it can be done / it has been done / it will be done).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/22/main.mp3",
+      "bytes": 10957707
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/22/main.pdf",
+      "bytes": 169057
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/22/vocab.mp3",
+      "bytes": 7283088
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/22/ministory.mp3",
+      "bytes": 11228458
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/22/pov.mp3",
+      "bytes": 4500469
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/22/pov.pdf",
+      "bytes": 144267
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170615/audio.mp3",
+      "bytes": 6057486
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170615/transcript.pdf",
+      "bytes": 223675
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

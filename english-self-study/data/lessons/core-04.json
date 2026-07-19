@@ -1,0 +1,740 @@
+{
+  "schemaVersion": 2,
+  "id": "core-04",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 4,
+  "slug": "beliefs",
+  "title": "Beliefs",
+  "titleUz": "Eʼtiqodlar — ishonch kuchi",
+  "level": "A2-B1",
+  "tags": [
+    "beliefs",
+    "mindset",
+    "articles",
+    "that-clauses",
+    "self-belief"
+  ],
+  "intro": {
+    "uz": "Bu dars eʼtiqodlar haqida: AJ Hoge kuchsizlantiruvchi eʼtiqodlarni (limiting beliefs) kuch beruvchi eʼtiqodlarga (empowering beliefs) almashtirishni oʻrgatadi. Bu haftaning ikki grammatik mavzusi ham shu gʻoyaga bogʻlangan: artikllar (a/an va the — yangi va tanish narsa) hamda fikr feʼllari va ‘that’ ergash gapi (I believe/think/know that…).",
+    "en": "This lesson is about beliefs: AJ Hoge teaches you to replace limiting beliefs with empowering ones. This week's two grammar topics fit that idea: articles (a/an vs the — first mention vs known) and mental-state verbs with that-clauses (I believe/think/know that…)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida biror narsani birinchi marta (a/an) va tanish holatda (the) toʻgʻri kirita olasiz, hamda oʻz eʼtiqodingizni “I believe that…”, “I think that…” qolipida toʻxtamasdan ayta olasiz.",
+    "en": "By the end you can introduce something on first mention (a/an) and refer to it once known (the), and state your own beliefs with “I believe that…”, “I think that…” without pausing."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "articles-1",
+      "titleUz": "Artikllar 1: a/an va the — yangi va tanish",
+      "titleEn": "Articles 1 — a/an vs the",
+      "bandLifter": "IELTS — accurate article use is a visible marker of range and control",
+      "cefrCanDo": "B1: I can use a/an for first mention and the for known reference correctly",
+      "bodyHtml": "<p>&quot;Beliefs&quot; darsida AJ bir jumlani qayta-qayta ishlatadi: <em>&quot;You have <strong>a</strong> belief. English is painful. <strong>The</strong> belief stops you.&quot;</em> Eʼtibor bering — avval <em>a belief</em> (allaqachon bilmagan, yangi eʼtiqod), keyin <em>the belief</em> (endi ikkalamiz ham bilamiz — oʻsha eʼtiqod). Bu — ingliz tilining eng kichik, ammo eng koʻp seziladigan soʻzlari: <strong>artikllar</strong> <em>a / an</em> va <em>the</em>. Oʻzbekchada artikl yoʻq, shuning uchun bu bizning 1-raqamli xatomiz. Yaxshi xabar — asosiy gʻoya juda sodda.</p>\n<h3><code>a / an</code> — birinchi marta, hali tanish boʻlmagan narsa</h3>\n<p>Narsani <strong>birinchi bor</strong> tilga olayotganda yoki koʻpdan biri, aniq qaysi biri muhim boʻlmaganda <em>a/an</em> ishlatiladi:</p>\n<ul>\n<li><em>I have <strong>a</strong> belief about English.</em> — Menda ingliz tili haqida bir eʼtiqod bor. (qaysi biri? hali aytmadim)</li>\n<li><em>George had <strong>a</strong> problem.</em> — Jorjda bir muammo bor edi.</li>\n</ul>\n<p><code>a</code> yoki <code>an</code> tanlash <strong>harfga emas, tovushga</strong> qarab boʻladi: undosh tovush oldidan <em>a</em>, unli tovush oldidan <em>an</em>:</p>\n<ul>\n<li><em>a belief, a school, <strong>a</strong> university</em> (<em>yu-</em> tovushi — undosh kabi)</li>\n<li><em>an idea, an example, <strong>an</strong> hour</em> (<em>h</em> jim — unli tovush)</li>\n</ul>\n<h3><code>the</code> — tanish, aniq, ikkalamiz biladigan narsa</h3>\n<p>Gapiruvchi ham, tinglovchi ham <strong>qaysi</strong> narsa haqida gap ketayotganini bilsa, <em>the</em> qoʻyiladi. Koʻpincha bu:</p>\n<ul>\n<li><strong>ikkinchi marta</strong> eslatish: <em>AJ read <strong>a</strong> book. <strong>The</strong> book was about beliefs.</em></li>\n<li>kontekst yoki <em>that</em>-ergash gap bilan <strong>aniqlangan</strong>: <em><strong>the</strong> belief that English is difficult</em> (qaysi eʼtiqod? — &quot;English is difficult&quot; degani)</li>\n<li>dunyoda <strong>yagona</strong> narsa: <em>the sun, the internet, the best method</em>.</li>\n</ul>\n<h3>Oʻzbekcha bilan solishtiring</h3>\n<p>Oʻzbekchada &quot;eʼtiqod&quot; soʻzi yolgʻiz turaveradi — kontekstdan yangimi yoki tanishmi tushunamiz. Ingliz tili buni <strong>majburan</strong> koʻrsatadi:</p>\n<table>\n<thead>\n<tr>\n<th>Oʻzbekcha</th>\n<th>Inglizcha</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>bir eʼtiqod (yangi)</td>\n<td><strong>a</strong> belief</td>\n</tr>\n<tr>\n<td>oʻsha / haligi eʼtiqod (tanish)</td>\n<td><strong>the</strong> belief</td>\n</tr>\n<tr>\n<td>eʼtiqodlar (umuman)</td>\n<td>beliefs (artiklsiz)</td>\n</tr>\n</tbody>\n</table>\n<p>Diqqat: umumiy maʼnodagi <strong>koʻplik</strong> yoki sanalmaydigan soʻz oldidan artikl kerak emas: <em>Beliefs are powerful</em>, <em>English is not difficult</em> (❌ <em>the English is</em>).</p>\n<blockquote>\n<p><strong>Eslatma:</strong> artiklni yodlab emas, ovoz chiqarib mustahkamlang. Har kuni ikki jumla ayting: birinchi jumlada <em>a/an</em> bilan yangi narsani kiriting, ikkinchisida <em>the</em> bilan uni davom ettiring — <em>&quot;I have <strong>a</strong> goal. <strong>The</strong> goal is to speak English.&quot;</em> Miya takrordan oʻzi oʻrganadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida artikl umuman yoʻq — “eʼtiqod” soʻzi yolgʻiz turaveradi. Ingliz tili esa majburan koʻrsatadi: yangi/noaniq narsa → a/an (bir eʼtiqod), tanish/aniq narsa → the (oʻsha eʼtiqod). a yoki an tanlash harfga emas, TOVUSHga qarab: a university (yu-), an hour (h jim).",
+      "errorFixUz": "❌ I have belief. She is best student. ✅ I have a belief. She is the best student. Sanaladigan birlik soʻz artiklsiz qololmaydi; birinchi marta → a/an, yagona yoki tanish → the. Umumiy koʻplik esa artiklsiz: “Beliefs are powerful.”",
+      "examples": [
+        {
+          "en": "George had a problem, and the problem was serious.",
+          "uz": "Jorjda bir muammo bor edi, va oʻsha muammo jiddiy edi."
+        },
+        {
+          "en": "I have an empowering belief about English.",
+          "uz": "Menda ingliz tili haqida bir kuch beruvchi eʼtiqod bor."
+        },
+        {
+          "en": "The belief that English is difficult is just an opinion.",
+          "uz": "“Ingliz tili qiyin” degan eʼtiqod — bu shunchaki bir fikr."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I have ___ empowering belief: English is easy.",
+          "options": [
+            "an",
+            "a",
+            "the"
+          ],
+          "answer": "an",
+          "hintUz": "unli tovush (e-) oldidan → an; birinchi marta eslatilyapti"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ belief that English is painful is only a memory.",
+          "options": [
+            "The",
+            "A",
+            "An"
+          ],
+          "answer": "The",
+          "hintUz": "“that…” bilan aniqlangan, tanish narsa → the"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "It took ___ hour to change her mind.",
+          "options": [
+            "an",
+            "a",
+            "the"
+          ],
+          "answer": "an",
+          "hintUz": "hour da h jim, unli tovush bilan boshlanadi → an"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ovoz chiqarib ayting: avval a/an bilan bitta eʼtiqodni kiriting, keyin the bilan davom ettiring — “I have a belief. The belief is …”.",
+          "answer": null,
+          "hintUz": "birinchi marta → a/an; keyin oʻsha narsa → the"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "mental-state-that-clauses",
+      "titleUz": "Fikr feʼllari va ‘that’ ergash gapi",
+      "titleEn": "Mental-state verbs + that-clauses",
+      "bandLifter": "IELTS Part 3 — give and support opinions (I believe that…, I think that…)",
+      "cefrCanDo": "B1: I can express opinions and beliefs using I believe/think/know (that)…",
+      "bodyHtml": "<p>Bu darsning butun mohiyati bitta jumlada: <em>&quot;<strong>I believe that</strong> I can speak English.&quot;</em> AJ aynan shu qolipni oʻrgatadi — eski, kuchsizlantiruvchi eʼtiqodni yangi, kuch beruvchi eʼtiqodga almashtirish: <em>&quot;<strong>I believe that</strong> English is easy. <strong>I know that</strong> my brain is a language machine.&quot;</em> Bu — <strong>fikr feʼllari</strong> (mental-state verbs) va ulardan keyin keladigan <strong><code>that</code>-ergash gap</strong>. Bu qolipni egallasangiz, oʻz fikringizni ravon, ishonch bilan ayta olasiz — va bu keyingi darslardagi &quot;reported speech&quot;ga ham poydevor boʻladi.</p>\n<h3>Fikr feʼllari — miyada sodir boʻladigan ish</h3>\n<p>Bir guruh feʼl &quot;boshda nima kechayotganini&quot; bildiradi: <em>believe</em> (ishonmoq), <em>think</em> (oʻylamoq), <em>know</em> (bilmoq), <em>feel</em> (his qilmoq), <em>hope</em> (umid qilmoq), <em>guess</em> (taxmin qilmoq). EnglishPod suhbatida Rebecca aytadi: <em>&quot;I just <strong>felt that</strong> the paper couldn't offer me any new opportunities.&quot;</em> AJ esa Stiv haqida: <em>&quot;Steve <strong>believes that</strong> language learning is easy.&quot;</em></p>\n<h3><code>that</code> ergash gapi — fikrni ichiga oladi</h3>\n<p>Qolip juda tartibli:</p>\n<p><strong>ega + fikr feʼli + (that) + toʻliq gap (ega + kesim + …)</strong></p>\n<ul>\n<li><em>I <strong>think that</strong> English is fun.</em> — Menimcha, ingliz tili qiziqarli.</li>\n<li><em>She <strong>knows that</strong> she can do it.</em> — U buni uddalay olishini biladi.</li>\n</ul>\n<p>Kundalik nutqda <strong>that koʻpincha tushib qoladi</strong> — maʼno oʻzgarmaydi:</p>\n<ul>\n<li><em>I believe <strong>(that)</strong> I can improve.</em> — Yaxshilana olishimga ishonaman.</li>\n</ul>\n<h3>Oʻzbekcha bilan solishtiring — tartib teskari!</h3>\n<p>Oʻzbekchada fikr <strong>oldin</strong>, feʼl esa <strong>oxirida</strong> (&quot;… deb oʻylayman&quot;):</p>\n<blockquote>\n<p><strong>Ingliz tilini gapira olaman</strong> <em>deb ishonaman.</em></p>\n</blockquote>\n<p>Ingliz tilida esa aksincha — avval feʼl, keyin fikr:</p>\n<blockquote>\n<p><em>I believe</em> <strong>that I can speak English.</strong></p>\n</blockquote>\n<p>Yaʼni oʻzbekcha <em>&quot;… deb&quot;</em> — inglizcha <em>that</em>, lekin u gapning <strong>oxirida emas, oʻrtasida</strong> turadi. Shu tartibni almashtirib qoʻyish — eng koʻp uchraydigan xato.</p>\n<h3>Inkorni qayerga qoʻyish kerak</h3>\n<p>Ingliz tili odatda <strong>asosiy feʼlni</strong> inkor qiladi, ergash gapni emas:</p>\n<ul>\n<li>✅ <em>I <strong>don't think</strong> it is difficult.</em> (tabiiy)</li>\n<li>❌ <em>I think it <strong>isn't</strong> difficult.</em> (grammatik jihatdan xato emas, lekin ingliz quloqqa gʻalati)</li>\n</ul>\n<p>Bu &quot;raise the negative&quot; qoidasi — <em>think, believe, suppose</em> bilan doim shunday: inkor asosiy feʼlga koʻchadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qolip — sizning &quot;incantation&quot;ingiz. Har kuni oʻz eʼtiqodingizni ovoz chiqarib ayting: <em>&quot;I believe that my English is getting better. I know that I can speak.&quot;</em> Feʼl oldinda, fikr <em>that</em> bilan orqada — bir necha kunda til oʻzi shu tartibga oʻrganib qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada fikr oldin, feʼl oxirida keladi: “Gapira olaman DEB ishonaman”. Ingliz tilida aksincha — avval feʼl, keyin fikr: “I believe THAT I can speak.” Oʻzbekcha “… deb” = inglizcha “that”, lekin u gap oxirida emas, oʻrtasida turadi (va nutqda koʻpincha tushib qoladi).",
+      "errorFixUz": "❌ I think English isn’t difficult. ✅ I don’t think English is difficult. Ingliz tili inkorni asosiy feʼlga koʻchiradi (don’t think / don’t believe), ergash gap ijobiy qoladi.",
+      "examples": [
+        {
+          "en": "I believe that I can speak English fluently.",
+          "uz": "Ingliz tilida ravon gapira olishimga ishonaman."
+        },
+        {
+          "en": "I think that language learning is natural.",
+          "uz": "Menimcha, til oʻrganish tabiiy jarayon."
+        },
+        {
+          "en": "I don’t think it is complicated.",
+          "uz": "Menimcha, u murakkab emas."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I believe ___ my brain is a language machine.",
+          "options": [
+            "that",
+            "what",
+            "to"
+          ],
+          "answer": "that",
+          "hintUz": "fikr feʼlidan keyin ergash gap → that (nutqda tushishi ham mumkin)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I don’t think it ___ difficult.",
+          "options": [
+            "is",
+            "isn’t",
+            "be"
+          ],
+          "answer": "is",
+          "hintUz": "inkor asosiy feʼlga (don’t think); ergash gap ijobiy qoladi → is"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Steve ___ that language learning is easy.",
+          "options": [
+            "believes",
+            "believe",
+            "believing"
+          ],
+          "answer": "believes",
+          "hintUz": "he/she/it → feʼlga -s: believes"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Ikki kuch beruvchi eʼtiqodingizni ovoz chiqarib ayting: “I believe that … . I know that … .”",
+          "answer": null,
+          "hintUz": "ega + fikr feʼli + (that) + toʻliq gap"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/04/main.mp3",
+      "durationSec": 1156,
+      "bytes": 13879172,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/04/vocab.mp3",
+      "durationSec": 626,
+      "bytes": 7525272,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/04/ministory.mp3",
+      "durationSec": 896,
+      "bytes": 10759814,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hello, welcome to the fourth lesson. This one is called “Beliefs.” Let’s get started. Beliefs are another important part of managing your psychology, of strengthening your psychology so that you will learn English, or anything in fact, much faster. And there are two kinds of beliefs to general categories of beliefs.",
+      "Limiting and empowering. Let’s talk about limiting beliefs first. Now limiting means, limit is something that stops you. It’s like a boundary. It stops you from going ahead. So a limiting belief is a belief that stops you from improving, a belief that stops you from getting better.",
+      "And I’d say most English students have limiting beliefs and many English students have very strong limiting beliefs. I call these beliefs English trauma and I got that name from a few of my Japanese students. They would tell me “AJ, I can’t speak English well because I have English trauma.” What is English trauma?",
+      "What is that, what are they talking about? Well, trauma means some kind of injury, some kind of hurt. Emotional hurt, deep emotional hurt. So what they mean is that they had some very negative, painful experiences with English in the past.",
+      "In other words, when they were in school in English classes, even as adults going to other English schools, they had very negative experiences. And all these negative experiences have created some very negative beliefs, some very limiting beliefs. For example, they say “I am not good at English.” Well, that’s a belief.",
+      "It may be true, it may not be true. But it’s an opinion, it’s a belief that they have. Another belief, a very common belief, English is difficult. Or, English is complicated. Well, that’s just a belief. For me English is very easy, because I’m a native speaker, just like your native language for you is very easy.",
+      "Tomoe can speak Japanese fluently because she’s Japanese, so I might say “Japanese is difficult,” and she would say “No, Japanese is super easy.” These are just beliefs that come from our experiences. The problem is these limiting beliefs limit us. They in fact do limit us. They stop us from getting better.",
+      "They cause a lot of problems for us as students, as learners. I have them, too. As I try to learn Japanese, for example, I have a lot of these limiting beliefs I realize. I think “Oh, Japanese is so difficult.” Japanese is complicated, just look at the writing system. It’s so different from English. And these beliefs hurt my motivation.",
+      "They lower my energy, and in fact they’re wrong. They’re not true. Japanese does not have to be difficult, it does not have to be complicated. A small child, even a small American child, could learn Japanese very effortlessly, very easily. And the reason is, the number one reason is, they don’t have the limiting beliefs.",
+      "They can sing songs and play games and enjoy the language, and",
+      "they’ll learn it so quickly, so easily, they’ll say “Japanese is easy.” Well, it’s the same with English with you. You learned in a very painful, difficult way in the past. And so you developed, you created these beliefs in your head. English is difficult. English is boring. English is painful. I’m not good at English.",
+      "I’ll never speak excellent English. These are just beliefs. So how do you eliminate these beliefs? Okay, you have these beliefs. You know they’re negative, you know they’re not helping you. But we have to figure out, how can we get rid of the limiting beliefs? That’s the first step, you have to weaken them.",
+      "You have to make them weaker and weaker and weaker. You have to cut them down. Well beliefs get stronger from references. And reference is just an experience or a memory. Sometimes it’s just something you imagine, actually.",
+      "But it’s a specific experience or a specific imagination, a specific moment, that makes the belief stronger or weaker. So, for example, you have this idea “English is painful and boring.” And when you think of this belief, where does it come from? Well, you think of all these past experiences.",
+      "You think of the time in middle school where your teacher corrected your mistake and you felt terrible. And you think of maybe the bad grades you got on the test or all the red marks on your English papers. And you start adding more and more and more memories, more of these negative experiences, these negative references.",
+      "And if you get enough, you will develop a very, strong, deep, powerful belief “English is difficult. English is painful. I’m not good at English.” So to weaken these, you just have to question the references. You have to question the experiences. Take the power away from the experiences.",
+      "And an easy way to do that is just to ask questions about them. For example, let me ask this question. Your past English schools, were they excellent? Were they just fantastic English schools with fantastic, amazing, fun, positive English teachers? Did you have a great time every day? Well, I know for most of you the answer is no.",
+      "So that’s interesting, so if your schools were not excellent, maybe the school was the problem. Maybe it’s not you. Maybe your English is not great because you did not go to great schools. And did those schools that you went to, or the books you used, did they use proven methods? Did they use research-based methods?",
+      "Did they know a lot about the research about English learning, English teaching? Did they only use the best methods? Or did they just use the textbook that everybody else uses? Well, I know from my experience as a teacher, most schools just use the same textbooks. They don’t know why. Maybe the boss tells them “We must use this book.”",
+      "But they’re not choosing the very, very best methods. They’re not choosing the very, very best books. And so maybe the reason you believe English is difficult is because you used difficult methods in the past, or your teachers did. Maybe you think English is boring because in the past you used boring methods. You went to boring schools.",
+      "You had boring teachers. Maybe English isn’t the problem. Maybe it was these past experiences. Maybe it was the way you did it or where you did it. Ask yourself these questions. Think about them in detail. Weaken your limiting beliefs. Challenge your limiting beliefs.",
+      "Another question, in school did you learn deeply? For example, did you take one chapter in your book and learn it for a long time so that you totally mastered it, so that you knew it completely, 100% and never forgot it? Probably not, most schools I have seen and the ones I have taught in, it’s quite the opposite.",
+      "The teachers go very, very, very quickly. You learn one chapter in your book, boom, after one week on to the next one, and the next one. Each chapter has so many new words, so much new grammar.",
+      "For example, my experience with Spanish in high school and university, I took Spanish, I’ve had a total of maybe two years of Spanish, but I forgot it all. Because we never learned deeply. They just tried to make us learn as many words as possible, a lot of words, a lot of words, a lot of grammar, very, very fast.",
+      "And then, of course, I forgot everything. How about you? Did you learn deeply in your schools? If not, maybe that was one of the problems. Maybe English feels difficult because you never learned deeply. Maybe English is not the problem. Finally, did you learn with a grammar translation method? Did you study a lot of grammar rules?",
+      "Did you take a lot of tests? Did you feel good about that? Again, maybe the method was the problem. Maybe the school is the problem, not English. So think about these questions and think about them every day. Think about them a lot, especially this week as you listen to Lesson Number 4.",
+      "I want you to think about these questions again and again and again. And really be honest about it. And start to destroy these limiting beliefs. Get rid of them. They’re wrong. English is not difficult. English is not painful. English is not boring. It’s only a belief. It’s only a past experience.",
+      "You can change that now and in the future. So let’s do that. Let’s talk now about empowering beliefs, the positive side. So to empower, the verb, to empower means to make stronger. It means to give power to another person. Or in this case, it means the beliefs give you power.",
+      "An empowering belief is a belief that makes you feel powerful, that gives you power. That’s the kind of beliefs you want and you need to choose them. You must decide which beliefs will make you stronger. For example, here’s an empowering belief. You can replace your old limiting belief, add this one instead.",
+      "You can say “My brain is a natural language learning machine.” Because that’s what all of the scientific research shows, our brain naturally learns languages. It is designed to learn language. It should be easy. It should be effortless. It should feel good. You learned your native language that way. It wasn’t difficult was it?",
+      "English was easy for me to learn, because I did it in a totally natural way. And the more naturally I tried to learn Japanese, for example, or Spanish, the easier it feels. So this is a new belief and you should write it down, think about it. Write down this idea, this belief “My brain is a natural language learning machine.”",
+      "Think about it every day. Decide to choose that belief.",
+      "Here’s another belief you might decide to choose “English can be fun and effortless.” English can be fun and effortless. That’s an empowering belief and it’s also true. You can think of a lot of examples for this. Some of these mini-stories you’re listening to, right? They’re fun. They’re stupid, sometimes. They’re crazy, sometimes.",
+      "But they’re not serious. English can be fun and effortless. That’s an empowering belief you want to choose and you want to remember it every day. And to make these beliefs stronger, you need experiences. Remember, you need references, you need examples that prove the belief. So I’m going to give you some examples and you can find more.",
+      "Go find people who speak English very well. Or maybe even that have learned another language very well. I’ll give you one of my favorite examples, Steve Kaufman of The Linguist speaks, I believe, twelve languages now. I want you to find these people and look at their beliefs.",
+      "I’ll tell you some of his beliefs because he’s a friend, I’ve talked to him a number of times, and Steve believes, for example, that language learning is easy and effortless. That’s his belief. He’s a native English speaker, he speaks Cantonese, he speaks Mandarin, he speaks Japanese, he speaks Russian.",
+      "These are all, supposedly, difficult languages. For him they’re not difficult. They’re easy and effortless. That’s a very strong belief he has. Another belief he has is that you must learn language naturally and you must focus on meaning. So in other words, he doesn’t focus on the grammar. He’s not focusing on boring textbooks.",
+      "He’s reading interesting things that he enjoys. He’s listening to interesting things that he enjoys. So, for him, language learning is interesting. What’s really interesting for me is that these are the same beliefs that all of my best students have. They all have these same ideas.",
+      "The best students, the ones who learn the fastest, the ones who have the best test scores, the ones with the best speaking, they all believe these things. They all believe that English is fun, interesting and effortless. They all believe that language learning is natural.",
+      "They all believe that they should focus on the meaning, not on the grammar and the little pieces of the language. So if you want to be like these successful people, you need to think like them. You need to have the same beliefs as them. So here’s what I want you to do. Here’s your homework.",
+      "This is the last thing, the last part of this lesson. What I want you to do is write down two, three, four empowering beliefs, beliefs that give you power about English. Maybe “My brain is a natural language learning machine.” Maybe “English can be fun and effortless.” Maybe “I love English.”",
+      "I don’t know, write down, two, three, four empowering beliefs about English. And every day you’re going to do an incantation. That’s a good word, that’s a new word, incantation. An incantation is a phrase or sentence that you say again and again. It has almost a magic idea, it comes from magic. An incantation is a magical sentence.",
+      "It’s a sentence, if you say the sentence something will happen. That’s where it comes from. But for us an incantation is just a belief you are going to repeat again and again and again every day. So here’s what you’re going to do. For example “English can be fun and",
+      "effortless.” You’re going to say that out loud every day while you’re walking along and you’re doing your posture. And you’re breathing and you’re smiling. Well, you’re going to add one more thing. As you walk, as you’re getting ready for the lesson, you’re going to repeat this out loud.",
+      "You’re going to say “English can be fun and effortless.” You’re going to say it with some emotion. Say it with feeling so you’re smiling, you’re breathing deep, you’re moving your body, you have good posture and now you’re also saying these strong beliefs. English can be fun and effortless. You repeat it again.",
+      "English can be fun and effortless. And then you say it again. English can be fun and effortless. You can do this in your room and its fine. You can do it outside and make everyone look at you and think you’re crazy. Why not? It’s better than feeling powerless, right? It’s better than being bored.",
+      "I promise you will learn so much faster if you do this. So do these incantations every day just before you do a lesson. Get your body strong, peak emotional state, and then say these incantations. English can be fun and effortless. English can be fun and effortless.",
+      "Now your body, your mind, your beliefs, they’re all together, very strong. Then you’re ready to learn. Okay, that is the end of the main story for “Beliefs.”"
+    ],
+    "vocab": [
+      "Hello, this AJ Hoge again. Time for the vocabulary lesson for “Beliefs.” As always, be sure you’re standing strong. Good posture, big smile. Deep breath, move your body. Let’s begin. In this lesson I used a few difficult words. Maybe difficult, maybe not, I don’t know. Let’s talk about them. Number one is the word trauma.",
+      "Now trauma is a noun. Trauma means an injury or a deep hurt. Now it can be physical, for example, if you break your leg that is a physical trauma. It’s a physical injury. It’s a deep physical hurt. Trauma can also mean a deep emotional hurt. So something very painful in your life, you feel very, very sad, for example.",
+      "Very, very angry, that is also a trauma, a very painful experience. A painful, emotional hurt, trauma. So again, that’s trauma. So we have emotional trauma and we also have physical trauma.",
+      "So, of course, in this lesson we’re talking about emotional traumas, hopefully nobody hit you when you’re learning your English, so probably it was emotional trauma. You felt a lot of stress perhaps when you were learning English in the past or maybe just boredom.",
+      "But for some students, I’d say probably for most students, there are a lot of negative emotional feelings and beliefs about English learning and altogether I call these English trauma, English pain, English hurt. And so really what this entire lesson pack, all of this power English lesson pack is about is healing your English trauma.",
+      "Okay, another word we talked about in this lesson, incantation. Incantation. Incantation is a phrase or a sentence that you repeat again and again and again. So, for example, “Every day my English speaking is better and better. Every day my English speaking is better and better. Every day my English speaking is better and better.”",
+      "That’s an incantation. You saying it again and again and again. And it has a little bit of a magical idea, that these words are magical. And you know, actually they kind of are magical because they change your emotion. They change your feelings about English, in this case.",
+      "So saying that again and again, every day, saying it with emotion, saying it strongly, “Every day my English speaking is better and better. Every day my English speaking is better and better. Every day my English speaking is better and better.” That actually is a little bit magical because it changes your feelings.",
+      "Your feelings about English will improve. You will start to believe this. You will believe your English is getting better. And when you believe it, it will be true. You will be getting better and better. So there is kind of a magical idea about incantations.",
+      "By repeating these things again and again with power, that you are changing your mind and you’re changing the situation. Almost like magic. So that’s incantation. It’s the actual sentence that you say again and again.",
+      "Another word we use a lot in this lesson is empowering. The verb is to empower, to empower. So, of course, power is the basic word, power, strength, right? Power, but to empower, empower means to give power to someone or to cause power to grow in someone.",
+      "For example, maybe you have a child, a small child, and every day you tell the child “You are so smart. You are intelligent.” You tell them again “You’re intelligent, you’re smart, you’re intelligent, you’re smart.” You tell this again and again and again, every day for years and years and years. You are empowering the child.",
+      "You’re giving them power. Because they will believe it, after some time they will believe it. They’ll think “Oh, wow, I am intelligent. I am very smart.” Right? So you’re giving them power. You’re making them feel more powerful. You are empowering the child. You’re giving power to the child.",
+      "So to empower is to give power or cause power in someone else. So in this way, these beliefs empower you. The beliefs give power to you. They cause power in you. So we call them empowering beliefs. We add the “ing” it becomes an adjective. Empowering beliefs. And the opposite of an empowering belief is a limiting belief.",
+      "And in the lesson I talked about, limiting means stopping. A limit is something that stops you. It’s kind of like a border, a boundary. You can’t go past it. So a limiting belief is a belief that stops you. It prevents you from doing something. So in this case limiting beliefs prevent you, stop you, from speaking excellent English.",
+      "The belief stops you. You could speak excellent English but you have these negative beliefs, you have these limiting beliefs, and so you are stopped, you are prevented. You cannot do it. So it’s limiting, limiting beliefs. Our next word is complicated. Pretty common word, complicated.",
+      "It’s similar to complex, complex and complicated, very close in meaning, very similar. And they are the opposite of simple. So simple and complicated are opposites. Complicated means not simple. It means there’s a lot of little pieces, alright? If something is simple maybe there’s just one piece. It’s very easy to understand.",
+      "But if something is complicated, there are many little pieces to it, part of it. It’s difficult to understand all of them. So some people think English is complicated. Oh my god, nouns and verbs and the past progressive and the future tense and past perfect progressive and all these grammar terms and they “Oh my god, it’s so complicated.”",
+      "And it is complicated if you learn that way. If you try to memorize, if you try to think about all these little grammar rules then absolutely, yes, it will feel complicated. But luckily it’s not necessary. You don’t need to do that. English can feel simple. Finally, we have the word reference. Reference or references.",
+      "A reference is an example. It can have different meanings in different situations, but here it means an example, a specific example of something. So you have this belief “English is painful.” And then you have references, you have examples, that prove it. For example, “In middle school my teacher made me feel stupid.” Right?",
+      "That’s the reference, that is the example, the specific reference, the specific example. And then you have another reference, “I failed my high school English test.” So now you have two references, your",
+      "middle school teacher made you feel stupid and you failed your high school test. Two references, two examples of the belief “English is painful.” So most beliefs have all these little references, these little examples. You use the references to prove the belief. So if you question the references you can destroy the belief.",
+      "So again a reference is, in this case, a reference is an example, a specific example of something. And references support beliefs, references create beliefs. Okay, that is all, a very short and easy vocabulary lesson for this one. That is all of the vocabulary lesson for “Beliefs.” Listen to it a few times.",
+      "Read the transcript, if necessary. But focus most of your energy on the main speech and on the mini-story. Those are the two most important lessons. Those are the ones you need to listen to very often, repeatedly, and learn them deeply. Okay, I will see you next time."
+    ],
+    "sixmin": [
+      "Neil: Welcome to 6 Minute English. I'm Neil, and today we're going to improve ourselves.",
+      "Rob: Haha, how could we possibly get any better? I'm Rob, and yes, today's topic is self-help – and the self-help industry.",
+      "Neil: What do we mean by self-help? Well, it means trying to improve yourself – psychologically, economically or in other ways – without seeking official help.",
+      "Rob: For example, bookshops these days are full of titles which claim to boost your self- confidence, your wealth, your love life… or your career!",
+      "Neil: Yes, in just seven days! There's a clear demand for this kind of thing – the self-help industry is worth $10bn in the US alone.",
+      "Rob: That's a lot. That includes things like gym memberships, diet plans and life coaching apps.",
+      "Neil: We'll be looking at why. But first, the self-help industry has been around for a long time. Which of these well-known books was published first? a) How to Win Friends and Influence People b) Think and Grow Rich c) The Law of Attraction",
+      "Rob: Mmm. I could do with some help here. I'll go with the first one – How to Win Friends and",
+      "Neil: OK, well before we go further, let's take a trip inside a bookshop in Manchester to find out which self-help books are selling well.",
+      "Rob: Let's listen to Emma Marshall, a manager at Waterstones bookshop. What's popular now? Emma Marshall, Assistant Manager, Waterstones At the moment we're in the tidying up, getting rid of things trend. But before that we saw colouring in, which became a huge thing. It's kind of dwindling now, because these sorts of trends come in and then they go. Like last year we saw 'hygge', which is the Danish art of living well, apparently. So we're taking from all sorts of cultures. And so I think the trend right now is about slowing down in your life.",
+      "Neil: Emma says there are a couple of trends right now. A trend, here, means something new which is popular for a period of time.",
+      "Rob: Yes, so she mentioned tidying up and getting rid of things. Would you buy a book about tidying up, Neil?",
+      "Neil: I'd be more likely to buy a book about it than actually tidy up! She also mentioned a current trend about slowing down in our lives.",
+      "Rob: I can agree with that! And previous trends included colouring-in – these books have black and white outline pictures that you fill in with colours.",
+      "Neil: I used to do that as a child. Very therapeutic!",
+      "Rob: Therapeutic – making you feel more relaxed and less anxious – it's related to the word therapy…",
+      "Neil: Although the colouring-in trend is dwindling - it's becoming weaker. They're selling fewer colouring-in books.",
+      "Rob: So – trends come and go, but the industry is going from strength to strength.",
+      "Neil: To go from strength to strength means to remain strong, or get even stronger! Why?",
+      "Rob: Dr Jennifer Wild, a psychologist from Oxford University, believes that the internet is a big factor.",
+      "Neil: We've got used to searching for solutions online, and now these solutions even include how to fix or improve our lives.",
+      "Rob: And psychologist Caroline Beaton, writing on Forbes.com, said she believes that millennials are a big factor.",
+      "Neil: How do we define the term 'millennial'? Also known as Generation Y – are people born between the mid-1980s and early 2000s. It's a common term in the news – often because people born in this time in the West are seen to have certain characteristics.",
+      "Rob: They're sometimes described as lazy and obsessed with themselves – and while that's not necessarily true, Caroline Beaton says millennials are highly self-critical.",
+      "Neil: Self-critical – they are aware of their own faults – which also means they're more likely to spend time on money on self-help. She says they spend twice as much as Generation Xers. Generation X refers to people born between the late 60s and around 1980.",
+      "Rob: And one more possible reason why the self-help industry does well: it's very resistant to recessions. When the economy does badly – as we say it goes into recession – people are perhaps even more likely to reach for self-help to improve their situation.",
+      "Neil: So there we are. Now, let's go back to another recession – the Great Depression of the 1930s in America – and to my question about which self-help book was published first?",
+      "Rob: Well – I said a) How to Win Friends and Influence People.",
+      "Neil: In fact – two of these books were published in the late 1930s, How to Win Friends and Influence People, by Dale Carnegie, was first in 1936. It has since sold over 30 million copies. Think and grow rich, by Napoleon Hill, was published in 1937, and is believed to have sold over 100 million copies!",
+      "Rob: That's a lot of self-help. Wow – have you read either of them?",
+      "Neil: I haven't read either of them but, perhaps, I should",
+      "Rob: Well, before we rush home and improve ourselves, let's improve our vocabularies.",
+      "Neil: Of course – today we had: self-help - the activity of improving yourself – physically, mentally or in other ways – often through courses and books.",
+      "Rob: There are lots of trends in the self-help industry. And we also see trends in fashion, in music, in popular culture… Like the trend for men to grow beards.",
+      "Neil: Are you talking about me? Anyway, I think the beard trend is dwindling. It's getting smaller, less influential.",
+      "Rob: Really? I stroke my beard here. I think it's very therapeutic. It makes me relax and feel good.",
+      "Neil: Maybe you're right. What about our next phrase – to go from strength to strength?",
+      "Rob: You could say a business is going from strength to strength if it's earning a lot of money.",
+      "Neil: Indeed. And what about our term for young people – millennial. Are you a millennial, Rob?",
+      "Rob: Didn't quite scraped in there. I'm still a Generation X. But I do like to think I'm in touch with what millennials do. Which includes – having lots of different social media accounts.",
+      "Neil: Just like us – do look up BBC Learning English on Facebook, Twitter, Instagram and YouTube.",
+      "Rob: And good luck with your self-improvement!",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Was there a girl or was there a guy?",
+        "a": "A guy, I just said it. There was a guy."
+      },
+      {
+        "q": "And what was his name? Was his name Bill?",
+        "a": "No, no, no, no, no."
+      },
+      {
+        "q": "What was his name? Well, come on, what was his name?",
+        "a": "His name was George."
+      },
+      {
+        "q": "What was his problem?",
+        "a": "Well in fact, George had two problems."
+      },
+      {
+        "q": "How many problems did he have?",
+        "a": "Two, George had two problems."
+      },
+      {
+        "q": "What was his first problem?",
+        "a": "Well, his first problem was that girls always laughed at him."
+      },
+      {
+        "q": "Who always laughed at George?",
+        "a": "Girls, all girls, all women, they all laughed at George."
+      },
+      {
+        "q": "How often did girls laugh at George?",
+        "a": "Well, always. Every time he talked to them, they always laughed at him."
+      },
+      {
+        "q": "What did they always do?",
+        "a": "They laughed at him, they always laughed at him."
+      },
+      {
+        "q": "What was his second problem?",
+        "a": "Well, his second problem was that he loved, loved Angela. And, of course, Angela was a girl."
+      },
+      {
+        "q": "Who did George love?",
+        "a": "Angela, he loved Angela."
+      },
+      {
+        "q": "Did he want Angela to like him?",
+        "a": "Yes, he wanted to impress her. He wanted Angela to like him. He wanted Angela to think good things about him. He wanted to impress her."
+      },
+      {
+        "q": "Who wanted to impress Angela?",
+        "a": "George, George wanted to impress Angela."
+      },
+      {
+        "q": "What did he want to do?",
+        "a": "Well, he wanted to impress her, make her think good things about him."
+      },
+      {
+        "q": "What did he have?",
+        "a": "Dating trauma."
+      },
+      {
+        "q": "Dating what?",
+        "a": "Trauma, George had dating trauma, dating pain, dating injury."
+      },
+      {
+        "q": "Why did George have dating trauma?",
+        "a": "Well, because girls always laughed at him when he asked them for a date."
+      },
+      {
+        "q": "They always laughed at him when?",
+        "a": "When he asked them for a date."
+      },
+      {
+        "q": "When he asked them for a what they always laughed at him?",
+        "a": "For a date, when he asked them for a date they always laughed at him."
+      },
+      {
+        "q": "So what did he have?",
+        "a": "Dating trauma, George had dating trauma, dating pain, deep dating pain."
+      },
+      {
+        "q": "Was Angela a girl?",
+        "a": "Yes, she was, she was a girl."
+      },
+      {
+        "q": "What kind of girl?",
+        "a": "A gorgeous girl, a beautiful girl."
+      },
+      {
+        "q": "Now was this good or bad?",
+        "a": "Of course, it was terrible."
+      },
+      {
+        "q": "Did beautiful girls laugh more or less at George?",
+        "a": "More, they laughed more. Poor George, beautiful girls laughed even more at him."
+      },
+      {
+        "q": "What did he say?",
+        "a": "Well, he said “I will develop new empowering beliefs.”"
+      },
+      {
+        "q": "What kind of beliefs was he going to get?",
+        "a": "Empowering beliefs, he was going to get empowering beliefs. He was going to develop empowering beliefs."
+      },
+      {
+        "q": "Was he going to develop old empowering beliefs?",
+        "a": "No, not old, his old beliefs were negative. His old beliefs were limiting. He was going to develop new empowering beliefs."
+      },
+      {
+        "q": "New empowering what?",
+        "a": "Beliefs."
+      },
+      {
+        "q": "What was he going to heal with his empowering beliefs?",
+        "a": "He was going to heal his dating trauma. He was going to heal his dating trauma with new empowering beliefs."
+      },
+      {
+        "q": "Who said an incantation every day?",
+        "a": "George, George said a new incantation every day."
+      },
+      {
+        "q": "When did he do it? How often?",
+        "a": "Every day, every day he said a new incantation."
+      },
+      {
+        "q": "What was his incantation?",
+        "a": "His incantation was “I’m handsome and I’m cool.”"
+      },
+      {
+        "q": "What did he say when he was exercising?",
+        "a": "He said his incantation, of course. He said “I’m handsome and I’m cool” and he exercised “I’m handsome and I’m cool.”"
+      },
+      {
+        "q": "And before every speech, what did he say?",
+        "a": "You know, he said his incantation."
+      },
+      {
+        "q": "What did she say?",
+        "a": "She said “You bet.” You bet means of course, definitely, I agree. If you say you bet it means you’re awesome, I agree with you. So she said I agree, definitely. She said “You bet.” And she said “You’re hot.” She said to George you’re hot, hot means sexy. Hot means handsome and sexy, or for a woman, beautiful and sexy. So she said I agree, you’re sexy, she said “You bet, you’re hot.”"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "emotional trauma",
+      "pos": "phrase",
+      "uz": "hissiy jarohat, chuqur ruhiy ogʻriq",
+      "defEn": "a deep emotional hurt from a painful experience",
+      "example": "Many learners have emotional trauma about English."
+    },
+    {
+      "en": "a limiting belief",
+      "pos": "phrase",
+      "uz": "kishanlovchi eʼtiqod (sizni toʻxtatadigan ishonch)",
+      "defEn": "a belief that stops you from improving",
+      "example": "“I’m not good at English” is a limiting belief."
+    },
+    {
+      "en": "an empowering belief",
+      "pos": "phrase",
+      "uz": "kuch beruvchi eʼtiqod",
+      "defEn": "a belief that makes you feel powerful",
+      "example": "“English can be fun” is an empowering belief."
+    },
+    {
+      "en": "to empower (someone)",
+      "pos": "v",
+      "uz": "kuch bermoq, ruhlantirmoq",
+      "defEn": "to give power or confidence to someone",
+      "example": "These beliefs empower you."
+    },
+    {
+      "en": "an incantation",
+      "pos": "n",
+      "uz": "afsun-jumla (qayta-qayta takrorlanadigan gap)",
+      "defEn": "a phrase you repeat again and again, almost like magic",
+      "example": "His incantation was “I’m handsome and I’m cool.”"
+    },
+    {
+      "en": "a reference (an example)",
+      "pos": "n",
+      "uz": "isbot-misol (eʼtiqodni qoʻllab-quvvatlaydigan tajriba)",
+      "defEn": "a specific experience or example that supports a belief",
+      "example": "You use references to prove a belief."
+    },
+    {
+      "en": "to question (something)",
+      "pos": "v",
+      "uz": "shubha ostiga olmoq, savol bermoq",
+      "defEn": "to ask about something to test if it is true",
+      "example": "Question the references and the belief gets weaker."
+    },
+    {
+      "en": "to get rid of (something)",
+      "pos": "phrase",
+      "uz": "qutulmoq, yoʻqotmoq (biror narsadan)",
+      "defEn": "to remove or throw away something you don’t want",
+      "example": "You have to get rid of your limiting beliefs."
+    },
+    {
+      "en": "complicated",
+      "pos": "adj",
+      "uz": "murakkab, chalkash (soddaning teskarisi)",
+      "defEn": "having many parts and difficult to understand",
+      "example": "English feels complicated only if you study it that way."
+    },
+    {
+      "en": "fun and effortless",
+      "pos": "phrase",
+      "uz": "qiziqarli va bemalol (zoʻriqishsiz)",
+      "defEn": "enjoyable and requiring no hard struggle",
+      "example": "English can be fun and effortless."
+    }
+  ],
+  "englishpod": {
+    "id": "0247",
+    "title": "The Office – Interview Skills 5: Discussing Reasons",
+    "titleUz": "Ofis — suhbat mahorati 5: sabablarni tushuntirish",
+    "warmup": {
+      "uz": "Bu suhbatda Rebekka ish suhbatida oʻz tajribasini tushuntiradi: avvaliga qiynalgan, ammo “slowly but surely” oʻzini isbotlagan. Bu — “Beliefs” mavzusiga mos: oʻziga boʻlgan ishonch odamni oldinga suradi. Sizningcha, Rebekka ishga qabul qilinadimi?",
+      "en": "In this dialogue Rebecca explains her work history in a job interview: it was tough at first, but slowly but surely she proved herself. It fits the “Beliefs” theme — self-belief moves you forward. Do you think Rebecca gets the job?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0247/dg.mp3",
+        "durationSec": 58,
+        "bytes": 493715
+      },
+      "pr": {
+        "path": "englishpod/0247/pr.mp3",
+        "durationSec": 935,
+        "bytes": 14995433
+      },
+      "rv": {
+        "path": "englishpod/0247/rv.mp3",
+        "durationSec": 261,
+        "bytes": 4208453
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Okay, now I’d like to find out more about your last job. I see you spent almost four years at the London Weekly , is that right?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes, that’s right. To be honest, the first year was quite tough for me. I was really just treated more like an intern. I didn’t have many responsibilities and I found it quite frustrating."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "So, what changed?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well slowly but surely I proved myself, and the new editor liked me so he promoted me to features writer ."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Wow, a real step up!"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes I was responsible for restaurant and food reviews mostly. I spent restaurant years in that position, but to be honest it wasn’t an area of journalism I wanted to stay in long-term."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "I see, so why did you decide to leave finally?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "I just felt that the paper couldn’t offer me any new opportunities. I really needed a more challenging role to be honest."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "frustrating",
+        "uz": "asabga tegadigan, koʻngilni choʻktiradigan",
+        "defEn": "causing feelings of discouragement or annoyance"
+      },
+      {
+        "en": "slowly but surely",
+        "uz": "sekin, ammo aniq (bosqichma-bosqich, lekin muqarrar)",
+        "defEn": "happening gradually but inevitably, without fail"
+      },
+      {
+        "en": "to prove oneself",
+        "uz": "oʻzini isbotlamoq, layoqatini koʻrsatmoq",
+        "defEn": "to show that you have the ability or character expected"
+      },
+      {
+        "en": "a step up",
+        "uz": "yuqoriga qadam, lavozim koʻtarilishi",
+        "defEn": "a move to a better or more important position"
+      },
+      {
+        "en": "long-term",
+        "uz": "uzoq muddatli",
+        "defEn": "covering a relatively long period of time"
+      },
+      {
+        "en": "challenging",
+        "uz": "qiyin, ammo qiziqarli (kuchni sinaydigan)",
+        "defEn": "a demanding but stimulating test of your abilities"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170706",
+    "title": "Self-help",
+    "titleUz": "Oʻz-oʻziga yordam sanoati",
+    "audio": {
+      "main": {
+        "path": "sixmin/170706/audio.mp3",
+        "durationSec": 377,
+        "bytes": 15080640,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Which of these self-help books was published first?",
+        "qUz": "Quyidagi oʻz-oʻziga yordam kitoblaridan qaysi biri birinchi nashr etilgan?",
+        "options": [
+          "How to Win Friends and Influence People",
+          "Think and Grow Rich",
+          "The Law of Attraction"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) How to Win Friends and Influence People — Deyl Karnegining bu kitobi 1936-yilda chiqqan. Think and Grow Rich esa 1937-yilda. Rob a) dedi va toʻgʻri topdi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "self-help",
+        "uz": "oʻz-oʻziga yordam (rasmiy yordamsiz oʻzini yaxshilash)",
+        "defEn": "the activity of improving yourself, often through books and courses"
+      },
+      {
+        "en": "a trend",
+        "uz": "trend, ommalashgan yoʻnalish (vaqtincha)",
+        "defEn": "something new that is popular for a period of time"
+      },
+      {
+        "en": "therapeutic",
+        "uz": "tinchlantiruvchi, davolovchi taʼsirga ega",
+        "defEn": "making you feel more relaxed and less anxious"
+      },
+      {
+        "en": "dwindling",
+        "uz": "kamayib borayotgan, susayayotgan",
+        "defEn": "becoming smaller or weaker over time"
+      },
+      {
+        "en": "to go from strength to strength",
+        "uz": "kundan-kunga kuchayib bormoq, ravnaq topmoq",
+        "defEn": "to stay strong or become even stronger"
+      },
+      {
+        "en": "a millennial",
+        "uz": "millenial (1980-yillar oʻrtasi — 2000-yillar boshida tugʻilgan avlod)",
+        "defEn": "a person born between the mid-1980s and early 2000s"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "The Power of Belief: Mindset and Success",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Talk about a belief you have about learning English. Was it a limiting belief or an empowering one? What do you believe now — and why?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: artikllar (a limiting belief, the belief that…) va fikr feʼllari + that (I believe that…, I think that…, I know that…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/04/main.mp3",
+      "bytes": 13879172
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/04/main.pdf",
+      "bytes": 54949
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/04/vocab.mp3",
+      "bytes": 7525272
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/04/ministory.mp3",
+      "bytes": 10759814
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0247/dg.mp3",
+      "bytes": 493715
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0247/transcript.pdf",
+      "bytes": 91733
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170706/audio.mp3",
+      "bytes": 15080640
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170706/transcript.pdf",
+      "bytes": 224322
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

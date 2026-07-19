@@ -1,0 +1,1240 @@
+{
+  "schemaVersion": 2,
+  "id": "core-21",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 21,
+  "slug": "healthy-heart",
+  "title": "Healthy Heart",
+  "titleUz": "Sogʻlom yurak",
+  "level": "B1-B2",
+  "tags": [
+    "health",
+    "connection",
+    "present-perfect-continuous",
+    "causative",
+    "longevity"
+  ],
+  "intro": {
+    "uz": "Sogʻlom yurak — bu faqat parhez emas. John Robbins uzoq umr koʻrgan insonlarni oʻrganib, sevgi, gʻamxoʻrlik va odamlar bilan aloqa yurak uchun ovqat va sport kabi muhim ekanini topdi. Bu haftaning ikki grammatik mavzusi: qancha vaqtdan beri davom etayotgan odat (present perfect continuous — for / since / How long) va birovga qildirish (kausativ — have / get something done). Zach haqidagi POV hikoyada present perfect continuous eshitasiz; kausativni esa darsning oʻz misollarida mashq qilasiz.",
+    "en": "A healthy heart is not only about diet. Studying people who lived long, healthy lives, John Robbins found that love, caring and connection matter as much as food and exercise. This week's two grammar topics: how long a habit has been going on (present perfect continuous — for / since / How long) and arranging a service (causative — have / get something done). You'll hear the present perfect continuous in the POV story about Zach; the causative you'll practise through the lesson's own examples."
+  },
+  "canDo": {
+    "uz": "Dars oxirida “How long have you been …?” savoliga toʻxtamasdan javob bera olasiz va sogʻligʻingiz uchun qanday xizmatlarni qildirganingizni (get your heart checked) tabiiy ayta olasiz.",
+    "en": "By the end you can answer “How long have you been …?” out loud without pausing, and say what services you have done for your health (get your heart checked) naturally."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-continuous",
+      "titleUz": "for / since / How long + present perfect continuous",
+      "titleEn": "Present perfect continuous — for / since / How long",
+      "bandLifter": "IELTS Part 1 — say how long you have been doing a healthy habit",
+      "cefrCanDo": "B1→B2: I can say how long I have been doing an activity (have/has been + -ing)",
+      "bodyHtml": "<p>Sogʻlom yurak bir kunlik ish emas — u <strong>yillar davomida</strong> takrorlanadigan odat: har kuni yurish, yaxshi ovqatlanish, yaqinlaringiz bilan aloqada boʻlish. AJ POV hikoyasida shu gʻoyani aytadi: <em>&quot;It started in the past and it <strong>has continued</strong> happening for some time.&quot;</em> Ingliz tili aynan shu — oʻtmishda boshlanib, hozirgacha <strong>davom etayotgan jarayon</strong> — uchun maxsus shakl ishlatadi: <strong>present perfect continuous</strong> (<em>have / has been + V-ing</em>).</p>\n<h3>Maʼnosi: hozirgacha davom etayotgan faoliyatning davomiyligi</h3>\n<p>Core-09 da present perfect bilan tanishgansiz (<em>I have studied for three years</em>). Bu — oʻsha zamonning toʻrtinchi bosqichi. Farqi nozik, lekin muhim: <strong>-ing shakli faoliyatning oʻzini va uning choʻzilishini</strong> taʼkidlaydi, natijani emas.</p>\n<ul>\n<li><em>I <strong>have been exercising</strong> for six months.</em> — Olti oydan beri mashq qilib kelyapman (hali ham davom etyapti).</li>\n<li><em>She <strong>has been caring</strong> for her parents since 2019.</em> — U 2019-yildan beri ota-onasiga gʻamxoʻrlik qilib kelmoqda.</li>\n</ul>\n<p>Sogʻlom odatlar — bu doim davom etadigan jarayon, shuning uchun ular haqida gapirganda koʻpincha aynan shu shakl mos keladi.</p>\n<h3>since / for / How long — uch kalit soʻz</h3>\n<ul>\n<li>\n<p><strong>since + boshlanish nuqtasi</strong> (qachondan beri): <em>since Monday, since he was a teenager, since my heart check</em> — ish <strong>qachon</strong> boshlanganini aytadi.</p>\n</li>\n<li>\n<p><strong>for + davomiylik</strong> (qancha vaqt): <em>for six months, for a long time, for years</em> — ish <strong>qancha</strong> davom etganini aytadi.</p>\n</li>\n<li>\n<p>Savolda <strong>How long…?</strong> — ikkalasini birga soʻraydi:</p>\n</li>\n<li>\n<p><em><strong>How long have</strong> you <strong>been walking</strong> every day?</em> — <em><strong>For</strong> two years.</em> / <em><strong>Since</strong> my doctor warned me.</em></p>\n</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida buni oddiy hozirgi zamonda aytamiz: <em>&quot;Olti oydan <strong>beri</strong> yuguraman.&quot;</em> Ingliz tili esa oʻtmishdan hozirgacha choʻzilgan jarayon uchun <strong>have/has been + -ing</strong> talab qiladi — oddiy <em>I run</em> yoki <em>I am running</em> emas. Bizning &quot;beri&quot; — inglizchada <strong>since</strong> (nuqta) yoki <strong>for</strong> (davomiylik) boʻlib ikkiga ajraladi.</p>\n<p>Yana bir nozik farq: <em>I <strong>have read</strong> this book</em> (natija — oʻqib tugatdim) va <em>I <strong>have been reading</strong> this book</em> (jarayon — hali oʻqiyapman) — bir xil emas. Yurakni asrash haqidagi gaplar deyarli har doim jarayon boʻlgani uchun, continuous tabiiy jaranglaydi: <em>&quot;I've been eating less sugar since January.&quot;</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni yodlamang, ovoz chiqarib mustahkamlang. Har kuni oʻzingiz haqingizda bitta jumla ayting: <em>&quot;I have been … for/since … .&quot;</em> — masalan <em>&quot;I have been walking every morning since spring.&quot;</em> Bir necha kun ichida bu qolip quloqqa va tilga tabiiy urila boshlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida buni oddiy hozirgi zamonda aytamiz: “Olti oydan beri yuguraman”. Ingliz tili oʻtmishda boshlanib hozirgacha davom etayotgan jarayon uchun present perfect continuous (have/has been + V-ing) ishlatadi. Bizning “beri” inglizchada ikkiga boʻlinadi: “since” (boshlanish nuqtasi) va “for” (davomiylik).",
+      "errorFixUz": "❌ I am exercising since January. I study English for two years. ✅ I have been exercising since January. I have been studying English for two years. since/for bilan davom etayotgan jarayon kelsa — have/has been + -ing (oddiy hozirgi zamon emas).",
+      "examples": [
+        {
+          "en": "I have been exercising for six months.",
+          "uz": "Olti oydan beri mashq qilib kelyapman."
+        },
+        {
+          "en": "She has been caring for her parents since 2019.",
+          "uz": "U 2019-yildan beri ota-onasiga gʻamxoʻrlik qilib kelmoqda."
+        },
+        {
+          "en": "How long have you been walking every day?",
+          "uz": "Qancha vaqtdan beri har kuni yurasiz?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ English every morning for a year now.",
+          "options": [
+            "have been studying",
+            "study",
+            "am studying"
+          ],
+          "answer": "have been studying",
+          "hintUz": "for a year + hozirgacha davom etayotgan jarayon → have been + -ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "How long ___ you been walking every day?",
+          "options": [
+            "have",
+            "did",
+            "are"
+          ],
+          "answer": "have",
+          "hintUz": "How long + present perfect continuous → have/has been + -ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She has been exercising ___ January.",
+          "options": [
+            "since",
+            "for",
+            "from"
+          ],
+          "answer": "since",
+          "hintUz": "January = boshlanish nuqtasi → since; “for” esa davomiylik uchun"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I have been … for/since … .” — masalan sogʻlom odatingiz haqida.",
+          "answer": null,
+          "hintUz": "have/has been + -ing + for/since"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "causative",
+      "titleUz": "Kausativ: have / get something done (birovga qildirish)",
+      "titleEn": "Causative — have / get something done",
+      "bandLifter": "IELTS Part 1 — talk about health services you arrange (checks, tests)",
+      "cefrCanDo": "B1→B2: I can say I arranged for a service to be done (have/get + object + past participle)",
+      "bodyHtml": "<p>Sogʻlom yurak — koʻpincha boshqalarning yordami bilan asraladi: shifokorga yuragingizni <strong>tekshirtirasiz</strong>, laboratoriyada qoningizni <strong>tahlil qildirasiz</strong>, tish shifokoriga tishlaringizni <strong>tozalatasiz</strong>. Bu ishlarni oʻzingiz bajarmaysiz — boshqa birov siz uchun qiladi. Ingliz tili buni bitta chiroyli qolip bilan ifodalaydi: <strong>causative — have / get + narsa + V3</strong> (birovga qildirish).</p>\n<h3>Maʼnosi: ishni oʻzing emas, boshqa birov bajaradi</h3>\n<p>Bu darsning POV hikoyasi asosan present perfect continuous qismini koʻrsatadi (kausativ unda uchramaydi) — kausativni esa darsning oʻz misollarida mashq qilasiz. Bu qolipning maʼnosi: siz xizmatni tashkil qilasiz, ishni esa boshqa (koʻpincha professional) odam bajaradi. Diqqat <strong>kimning</strong> qilgani emas, <strong>natija</strong> ustida:</p>\n<ul>\n<li><em>I <strong>get</strong> my heart <strong>checked</strong> every year.</em> — Har yili yuragimni tekshirtaman.</li>\n<li><em>He <strong>had</strong> his blood <strong>tested</strong> at the clinic.</em> — U klinikada qonini tahlil qildirdi.</li>\n<li><em>You should <strong>have</strong> your teeth <strong>cleaned</strong> twice a year.</em> — Yiliga ikki marta tishlaringizni tozalatishingiz kerak.</li>\n</ul>\n<p>Qolipning kaliti — <strong>narsadan keyin feʼlning uchinchi shakli (V3)</strong> keladi: <em>checked, tested, cleaned, made, cut, repaired</em>.</p>\n<h3>have yoki get — farqi bormi?</h3>\n<p>Maʼnosi bir xil. <strong>get</strong> biroz kundalikroq, ogʻzaki nutqda koʻproq: <em>&quot;I need to get my eyes checked.&quot;</em> <strong>have</strong> esa biroz rasmiyroq: <em>&quot;I had my eyes checked.&quot;</em> Ikkalasini ham bemalol ishlata olasiz.</p>\n<p>Bu qolip yoqimsiz hodisa haqida ham ishlatiladi (siz xohlamagan, lekin sizga qilingan ish): <em>&quot;He <strong>had</strong> his wallet <strong>stolen</strong>.&quot;</em> — Uning hamyoni oʻgʻirlanib ketdi.</p>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida &quot;qildirish&quot; maʼnosini feʼlga <strong>-tir / -dir</strong> qoʻshimchasi beradi: <em>tekshir → tekshir<strong>tir</strong>moq</em>, <em>tozala → tozala<strong>t</strong>moq</em>. Ingliz tilida esa alohida qoʻshimcha yoʻq — buni <strong>have/get + narsa + V3</strong> butun qolipi bajaradi. Shuning uchun <em>&quot;I cut my hair&quot;</em> (❗ oʻzim kesdim) va <em>&quot;I had my hair cut&quot;</em> (sartarosh kesdi) — butunlay boshqa maʼno. Sogʻliq xizmatlari deyarli hamma vaqt boshqa odam tomonidan bajarilgani uchun, bu qolip yurak mavzusida juda tez-tez keladi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻzingiz haqingizda ovoz chiqarib mashq qiling. Oʻtgan yili qanday xizmatlardan foydalanganingizni ayting: <em>&quot;Last year I had my eyes checked and I got my teeth cleaned.&quot;</em> Feʼlning uchinchi shaklini (V3) unutmang — qolip shu bilan mustahkamlanadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida “qildirish” maʼnosini feʼlga -tir/-dir qoʻshimchasi beradi (tekshir → tekshirtirmoq). Ingliz tilida alohida qoʻshimcha yoʻq — buni have/get + narsa + V3 qolipi bajaradi. Shuning uchun “I cut my hair” (oʻzim kesdim) va “I had my hair cut” (sartarosh kesdi) — butunlay boshqa maʼno.",
+      "errorFixUz": "❌ I must check my heart. I had cut my hair. ✅ I must get my heart checked. I had my hair cut. Ishni boshqa birov bajarsa → have/get + narsa + V3 (feʼlning uchinchi shakli).",
+      "examples": [
+        {
+          "en": "I get my heart checked every year.",
+          "uz": "Har yili yuragimni tekshirtaman."
+        },
+        {
+          "en": "He had his blood tested at the clinic.",
+          "uz": "U klinikada qonini tahlil qildirdi."
+        },
+        {
+          "en": "You should have your teeth cleaned twice a year.",
+          "uz": "Yiliga ikki marta tishlaringizni tozalatishingiz kerak."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I need to ___ my heart checked.",
+          "options": [
+            "get",
+            "do",
+            "make"
+          ],
+          "answer": "get",
+          "hintUz": "kausativ qolip: get/have + narsa + V3 (get ... checked)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He had his blood ___ at the clinic.",
+          "options": [
+            "tested",
+            "test",
+            "testing"
+          ],
+          "answer": "tested",
+          "hintUz": "have + narsa + V3 (uchinchi shakl): tested"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You should get your teeth ___ twice a year.",
+          "options": [
+            "cleaned",
+            "clean",
+            "cleaning"
+          ],
+          "answer": "cleaned",
+          "hintUz": "get + narsa + V3: cleaned (ishni tish shifokori bajaradi)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “Last year I had/got … done.” — sogʻligʻingiz uchun qildirgan biror xizmatni ayting.",
+          "answer": null,
+          "hintUz": "have/get + narsa + V3 (checked, tested, cleaned, done)"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/21/main.mp3",
+      "durationSec": 995,
+      "bytes": 11944284,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/21/vocab.mp3",
+      "durationSec": 874,
+      "bytes": 10492904,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/21/ministory.mp3",
+      "durationSec": 1235,
+      "bytes": 14815752,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/21/pov.mp3",
+      "durationSec": 507,
+      "bytes": 6081167,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins. I’ve already talked about it a little bit and I’m going to talk about a different section this time.",
+      "And in this section John Robbins talks about another factor that contributes to a long and healthy life. Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time.",
+      "www. Healthy Heart Main Text Hi, this is AJ, welcome to the next lesson. This one is called “Healthy Heart” and I’m going to talk about, again, a section from Healthy at 100 -- the book Healthy at 100 -- by John Robbins.",
+      "I’ve already talked about it a little bit and I’m going to talk about a different section this time. And in this section John Robbins talks about another factor that contributes to a long and healthy life.",
+      "Now before we talked about diet and what you eat and how that can really affect your healthy, your longevity, meaning how long you live, how strong you are, everything. Well there’s another very important factor other than diet.",
+      "Diet is very important, but another important factor that John Robbins found when he studied all these people who were 100 years old or more and they were still strong, still healthy, well he found something else. So a kind of vegan diet, that was number one, but the next thing he found was these people have strong social ties.",
+      "They have rich social lives. It means they’re not alone. They have friends, they have family. They have communities. They’re connected to other people in many, many ways. And so what he found was that emotion and love and caring and connection were equally important to diet and exercise. They’re both very important.",
+      "So let me read a section from his book -- the same book -- Healthy at 100 and then I’ll talk more about it. Here we go. ”’We cannot live for ourselves alone,’ wrote Herman Melville. ‘A thousand fibers connect us with our fellow men. Perhaps this explains why we are often moved by people caring deeply for one another.",
+      "’ ‘There are also medical implications to whether we think of others or only of ourselves,’ as Larry Scherwitz found when he conducted a most unusual study. He is now the Director of Research at California Pacific Medical Center’s Institute for Health and Healing in San Francisco. “Dr. Scherwitz taped the conversations of nearly 600 men.",
+      "About one-third of these men were suffering from heart disease, the rest were healthy. Listening to the tapes, he counted how often each man used the words I, me and mine.",
+      "Comparing his results with the frequency of heart disease, he found that the men who used the first person pronouns the most often had the highest risk of heart trouble.",
+      "www. “What’s more, by following his subjects for several years thereafter, he found that the more a man habitually talked about himself the greater the chance he would actually have a heart attack. Apparently, counting the times a person said ‘I’ was an ingenious way to quantify self-absorption.",
+      "It seems that the less you open your heart to others the more your heart suffers. “Dr. Scherwitz counsels, ‘Listen with regard when others talk. Give your time and energy to others. Let others have their way. Do things for reasons other than furthering your own needs.",
+      "’ This is sound medical advice and it speaks also to our spiritual and emotional needs. Many religions have taught that being trapped in the illusion of separateness is the source of much of our suffering. “Modern Western society, of course, has become highly competitive. You see it, perhaps, most conspicuously in sports.",
+      "‘Winning is not the most important thing,’ said the famous football coach Vince Lombardi, ‘it’s everything. ’ Another coach said ‘Show me a good loser and I’ll show you a loser. ’ “I’m sure these coaches were trying to urge their players onto greater effort and to motivate them.",
+      "But when we become hyper-competitive we may lose touch with honor, decency and sportsmanship and we almost always lose tough with each other.” So this is quite interesting. That’s a nice little section from John Robbins’ book. So he’s talking about the medical effects of being totally selfish or too competitive.",
+      "So very competitive people, very selfish people, people who only think about themselves, they have a much higher rate of heart attacks. They live shorter lives, they’re less healthy. Interesting… So the opposite is also true.",
+      "People who care more about other people, who think about other people, who are connected to other people, who are more grateful and loving, they live longer and they’re healthier and stronger. Pretty amazing, so maybe we should think about this and start applying this to our own lives.",
+      "I know I have found this to be true in my life, as well. As I have developed Effortless English, the company, I’ve had the opportunity to connect with more people. And in the beginning…I’ll be honest, in the beginning…I was more focused on myself because I hated working these terrible jobs and I wanted to be free.",
+      "You know I wanted to be free from jobs. I wanted to be free from bosses. I wanted to be free from working other people’s schedules. So I was really focused on my needs. And those needs were important. And I’m happy that I started the company and I’m happy that I solved those problems.",
+      "I’m happy that I now am my own boss and that I have satisfied my own needs. Certainly that has given me happiness. But what has given me more happiness lately is that I have changed my focus because now I have met my individual needs, I’m fine.",
+      "I have plenty of money, I am free, I am my own boss, I have, you know, lots of opportunities in my life, it’s great.",
+      "www. But once that happened I started to focus on other people because now what motivates me is connecting with other people, helping other students. I want to excite my students. I want to excite the members of the Effortless English Club. I want you to be happier.",
+      "I want you to find your dreams or remember them and achieve them. I want you to meet all of your needs. I want you to be happier, healthier, more successful. The more I think about other people, the more I think about helping my friends, helping my family, helping you, the happier I become. I get more and more and more energy in my life.",
+      "So when I was only thinking about myself and growing my business for myself, sure, that was motivating, it was definitely inspiring for me, but now I’m at a much higher level because now I’m thinking about other people. Now I’m connecting to other people and it’s such an incredible boost of energy.",
+      "It’s so much higher than before when I was just focused on myself. So I encourage you to do the same thing. Now, first, you must meet your own needs, you cannot ignore yourself.",
+      "If you just try to please other people, just help other people and you ignore yourself then you feel empty and you won’t feel energized and you won’t feel healthier and you won’t feel stronger. So, absolutely, you must take care of yourself, you must meet your own individual needs, certainly.",
+      "That will give you the power and the energy then to be generous, to start thinking about other people, but that’s the next step and that’s what you must do if you want to be healthy and strong and live to be 100 years old and feel great or if you just want to be healthy and happy right now.",
+      "Start thinking about other people, how can you contribute to other people, also? How can you make yourself happy and yourself successful and at the same time help other people be happier, help other people be more successful.",
+      "The reason I’m so excited as a teacher is because I love to see my students succeed, it gives me amazing energy to see that. Now sometimes, for example, I’ve had a bad class. Maybe I come to a class and, ah, you know maybe I have a bad lesson or it’s a bad day for me, I don’t know, something happens.",
+      "And I’m teaching the lesson and I’m trying hard, but I’m looking at the students and the students are not responding. They’re not learning, they’re not excited, they’re not having fun. And what happens to me? Well my energy goes down, I feel terrible, even if it’s not me.",
+      "Maybe it’s the students, maybe they’re just not motivated or they’re lazy or something, I don’t know. But when that happens I feel terrible. Even if I’m making money, it doesn’t matter, I feel bad because I’m not contributing to them. I’m not helping and that really bothers me, it upsets me, I hate it.",
+      "And so that’s why I try so hard to have a lot of energy, to do everything I can so that my students learn and grow and succeed because when you succeed I feel fantastic. It gives me so much energy and it helps me to succeed more, too. There’s so much more power when you’re helping other people. And when you see them succeed and",
+      "www. you know that you helped you feel fantastic. It gives your life incredible meaning and energy and passion and health. And so that’s why I want you now to think about this.",
+      "Think about all the goals you have in life, think about all the dreams you have, all these great things you want to do or be or accomplish. And look at them and then, think, how can I also help other people by doing these things?",
+      "If you want to be rich, great, be rich and think about all the great things that being rich will, you know, give to you. That’s fine. But also think about, how will you help other people by being rich? How can you contribute to your friends, your family, to your community, to the world by being rich? How will you help other people, also?",
+      "Or your goal of learning excellent English, speaking fantastically well, being a fluent English speaker. Now you thought a lot about strong, powerful, compelling, emotional reasons for yourself, why you want to learn English, how it will help you, how it will help your life.",
+      "That’s great, well now I want you to go to the next level, the next step. And I want you to think very carefully, how will English fluency help other people? How will you use it to help other people? I’ll give you a great example. Our number one member right now is Inca on our Members Forums and she is fantastic.",
+      "And her English is excellent, she is a fantastic student. She has gotten a lot of personal benefits from speaking English very well. For example, she wrote about a big success she had because of English where she helped her friend and business partner get a new contract.",
+      "And, you know, they both are succeeding and their company is doing really well because Inca could communicate so well with English. So she’s made more money and she’s succeeding with business because of speaking English well. But here’s the thing about Inca, she’s not focused just on herself.",
+      "Because even in that story -- when she wrote that story – she focused mostly on how her friend benefited from her English speaking because her friend got this great new contract for the business. And her friend is going to make more money, her friend is going to be more successful and that made her feel great because she helped him.",
+      "Her English ability helped her friend get this new customer, helped her friend build his or her business. But that’s not all. Inca constantly helps other members on the Forums, she’s always answering questions.",
+      "Whenever somebody needs help, whenever somebody is discouraged, Inca is there giving them encouragement, giving them advice, giving them answers. She starts topics where she answers questions for other members. If they don’t understand a lesson she’ll help them. And we have a lot of members like that it’s not just Inca.",
+      "We have several members like this. They’re contributing, they’re helping other people. They’re using their English skill to help other people be happier or more successful. They’re using their",
+      "www. English skill to help their friends improve their businesses. So they’re using their English skill to contribute and connect with other people, to help other people and that gives them tremendous power.",
+      "And you can see their energy, you can see and feel their motivation because they’re not just learning for themselves, they’re learning for other people, too, they’re helping other people, too. That’s why they are the top members in our club, that’s why their English improves so quickly, that’s why they have such high motivation.",
+      "So whatever your goals are in life I hope that you will add this other level, this other step and think about, how can I help and contribute to other people while also helping myself. And that is the end of the “Healthy Heart” lesson. I will see you next time."
+    ],
+    "vocab": [
+      "Healthy Heart Vocabulary Text Hi, this is AJ, welcome to the vocabulary lesson for “Healthy Heart.” Let’s get started. Our first word is fibers, fibers. So in the story there was quote from Herman Melville, he said, “A thousand fibers connect us with our fellow men.” Fibers are really like strings, basically, it’s just strings.",
+      "It’s just long strings. Usually we talk about fibers, for example, in clothing. So if you have, you know…your clothes are made of lots of little fibers that are woven together, that are put together. Each individual string is a fiber, so fiber. So he’s saying we’re connected by a thousand strings.",
+      "So, obviously not really, but if you think about it kind of poetically it’s a metaphor. So you can imagine that we’re connected in a thousand different ways to other people. We cannot be separate. That’s what the quote means. Alright and then next we have the phrase moved by.",
+      "The sentence says “Perhaps this explains why we are often moved by people caring deeply for one another.” Now you know the normal meaning of move, to move, but to be moved by something. I was moved by the movie, for example. It has a different meaning.",
+      "When you say I was moved by something, it means that you felt strong emotion, it made you feel emotional. Usually, kind of…kind of positive emotions, not negative emotions. So you could say, for example, you go to see Titanic, the movie Titanic, a romantic movie. And you say “Oh, I was moved by that story.”",
+      "All right, it means it made you feel very emotional. Maybe you cried and it was so, you know, powerful, it was a very emotional story. So you say “I was moved by the story. The story made me feel emotional,” strong emotions. So in this quote it says “We are moved by people caring for one another.”",
+      "So when we see two people who care a lot for each other, they love each other a lot, we are moved. It means we feel strong emotion also, just seeing them. Just seeing two people who are very kind to each other, who love each other a lot, if we just see them we also feel some kind of strong emotion, right?",
+      "We are moved by them, they make us feel strong emotion also. Alright, our next word is implication, implication. And the sentence said “There are also medical implications to whether we think of others or only of ourselves.” There are medical implications. And implication is a consequence or a result, a result of",
+      "www. something. So there are medical consequences, there are medical results, there are medical implications. If you think only about yourself then the implication is you will be less healthy, you will have more of a chance to have a heart attack. That’s the implication, that’s the result or the consequence.",
+      "If you love a lot of people and you’re always contribution to other people and giving, the implication, the result, the consequence, is you will be healthier. Your heart is actually stronger. So, again, implication, an implication is a consequence or a result.",
+      "It has other meanings, but in this situation it means consequence or result, implication. Alright, our next word is to tape, the verb, to tape. It said “Dr. Scherwitz taped the conversations of 600 men.” Now here the word tape means to record, we’re using it as an action, as a verb.",
+      "So to tape a conversation means to record a conversation and it comes from the old, you know, cassette tapes, which are gone now, right? Now we all use CDs and mp3, but in the past we had actual tapes, right, magnetic tapes, cassette tapes and that’s how we recorded. So now we have this verb, to tape, it means to record something.",
+      "I taped the movie. It means you recorded the movie on your DVD player or on your cassette player. Or I taped the conversation means I recorded the conversation. Alright, our next word is ingenious and the sentence says “Counting the times a person said ‘I’ was an ingenious way to measure selfishness.”",
+      "So ingenious means clever, clever or smart and it usually describes an idea or an action. Sometimes a person, but mostly we use it to describe a plan or a strategy or an action or something like that. So an ingenious way means a clever way, a very clever way. He listened to these conversations and he counted every time they said I.",
+      "I, I, I, one, two, three, he counted it. So measuring the number of times they said I was an ingenious way to measure selfishness and an ingenious way to measure their risk for heart attacks because the more times they said I in conversations the higher their risk for a heart attack.",
+      "So it was a very clever idea, right, a very clever way to measure this, an ingenious way. So, again, ingenious means clever, ingenious - clever, ingenious - clever. Our next word is self-absorption. So this was an ingenious way to measure self- absorption. Of course, self means yourself, me, I.",
+      "Absorption here means you’re totally focused on. So it means totally focused on yourself. Self-absorption means totally focused on yourself. Self-absorption means thinking only about yourself. So this is the noun. The adjective is self-absorbed. You say “He is so self-absorbed.” It means he only thinks about himself.",
+      "All day he is thinking only about himself. He never thinks about other people or other things, only about himself, self-absorption or self-absorbed.",
+      "www. Again, the adjective is self-absorbed. He is self-absorbed. She is self-absorbed. Very similar to selfish, selfish, so self-absorbed again means thinking about yourself all the time. Next we have the word sound, sound.",
+      "You probably know the common meaning of sound, it means like noise, something you hear, but in this situation it has a very different meaning. Here’s the sentence, it says “This is sound medical advice. Caring about other people is sound medical advice.” Here the word sound means good, good. This is good medical advice.",
+      "This is reliable medical advice. So sometimes sound can be used as an adjective and sound means reliable, good, strong. You can say “His health is very sound.” It means his health is good. His health is reliable, strong and good. There’s nothing wrong with his health. So, again, sound.",
+      "As an adjective sound can mean strong, good, strong, good, reliable, sound. Alright, our next word is conspicuously or conspicuous. Conspicuously describes an action, conspicuous describes things or people. So, again, he’s talking about competition.",
+      "He says “In Western society we have become highly competitive and you see this most conspicuously in sports.” Conspicuous or conspicuously means obviously, obviously. It means very easy to see, it’s not hidden. It’s the opposite of hidden. So conspicuous is the adjective.",
+      "So if something is conspicuous it means it stands out, it means you see it immediately. For example, if we have a room, 30 people in a room. Thirty people, 29 people are wearing black, black shirts, black pants, right. Everybody is wearing black shirts and black pants, but one person is wearing a pink shirt and pink pants.",
+      "The person wearing pink is very conspicuous, very conspicuous, right? You see them, everybody will focus on them. They are conspicuous, they are very obvious. They standout, they’re not hidden. So it’s the opposite if hidden, right? They standout, oh, you immediately notice the person in pink because everybody else is wearing black.",
+      "That’s conspicuous. So he’s saying that we see competition, hyper-competitiveness in sports. It’s very obvious in sports, right? It’s not hidden, everyone can see. Athletes are very, very, very competitive. It’s conspicuous, it’s obvious. And that word hyper, hyper-competitive, hyper just means very, very, very.",
+      "It means super, so hypercompetitive means very, very competitive, super competitive. Hyperactive means very, very, very active, super active, lots and lots of energy. Sometimes I’m hyperactive. So, again, hyper means just very. You get hyper and then you have an adjective, hyperactive, hyper-competitive, whatever.",
+      "And, finally, we have one more little phrase and that is to lose touch with, to lose touch with something. And he says that “When we become hyper-competitive,” when we’re very competitive, we’re trying to win, win, win, “we can lose touch with honor, decency",
+      "www. and sportsmanship.” To lose touch with something means to lose your connection with it or to forget it or just to lose it. So if you lose touch with honor it means you forget honor. You forget about honor, you don’t have honor anymore.",
+      "So he’s saying now we see some athletes, they’re so competitive, they’re always trying to win so much, they’re not honorable, they kind of cheat. Maybe they use some kind of drugs to make their body stronger so they can win more easily or maybe they cheat with the rules like you see in soccer or football.",
+      "You know they fall down and they pretend they’re hurt so they get a penalty. You know we see it all the time in all sports now. That many athletes now have lost touch with honor, they’re not honorable anymore. They have forgotten honor, so they lost touch with honor because they’re too competitive now. So that’s what it means.",
+      "To lose touch with something means you forget it or you lose your connection. You can also lose touch with a person. You say “Wow, I lost touch with John.” It means John maybe before was a friend, but now you lost contact. You don’t call him anymore. And maybe he moved. You don’t have his phone number anymore.",
+      "You don’t know how to contact him, so you lost touch with him. You’ve stopped communicating with him. You can’t find him anymore. Alright, so that’s to lose touch with. And that’s our last phrase for the vocabulary lesson.",
+      "So, listen to this a few times, get the general meaning of these words and then move on to the mini-story lesson, which of course if our favorite lesson. Alright, I will see you next time."
+    ],
+    "pov": [
+      "Healthy Heart POV Text Hello, welcome to the point of view stories for “Healthy Heart.” Same stories, different points of view, different timeframes, let’s start. Since he was a teenager Zach has loved bright, expensive clothes. In fact, since he was a teenager he has always worn conspicuous clothes when he was on the street.",
+      "He has always been very conspicuous every time he walked on the street, since he was a teenager and continuing until he was an adult, until very recently. And since he was a teenager Zach has been totally self-absorbed. Zach has been completely self-absorbed, he has only thought about himself and his clothes.",
+      "So, since he was a teenager he has loved bright, expensive clothes. Since he was a teenager he has always been conspicuous, noticeable. And since he was a teenager he has always been self-absorbed, he has only thought about himself and his clothing.",
+      "But one day he bought a coat made from gold fibers and he bought the coat at Saks Fifth Avenue. This coat was worth $72 million, a super expensive coat! Zach loved the coat. He looked in the mirror and he talked to himself and he said “I’m so handsome. I’m so wonderful. I’m great!”",
+      "However, a few weeks later, he woke up one day and looked in the mirror and he felt sad. He realized that he had lost touch with his happiness. He had lost touch with his happiness, he had lost touch with other people and so he felt very sad. He realized that he was totally alone.",
+      "He went outside for a walk and while walking he saw a poor homeless man, a poor, suffering, hungry, homeless man. Oh, so sad. And Zach was moved by his suffering, he felt emotional because of the man’s suffering. And so Zach said “Here, take my gold coat and buy a big house.” And the man took his gold coat, he was so happy.",
+      "He ran to the bank, he sold the gold coat, he bought a big, big mansion and he ate a lot of food. And Zach also felt very happy because he helped this man. He connected again with a person, so Zach was very happy and the homeless man was also very happy. Okay, that is the end of our first point of view story.",
+      "As always, in these first stories, you’ll hear a change, usually, and the change is between something that has been happening a while. It started in the past and it has continued happening for some time and then we change because something just happened suddenly.",
+      "www. We talk about one event; he bought a coat made from gold fibers. That happened one time. He didn’t buy a coat every day starting 10 years ago and continuing. No, it happened one time and then it was over. So we’re talking about specific events after the change.",
+      "Before the change we’re talking about some things that were happening and continued happening. He was conspicuous. He was always conspicuous, for example. So he has been conspicuous since he was 16. It means it started when he was 16 and he continued to be conspicuous every day after that for several years.",
+      "So it’s a timeframe, it’s a longer time period, it keeps happening over time. If we say “He was conspicuous yesterday,” well then it just happened, boom, one time. Alright, our next story, into the future, I have an idea for a story. It happens in the future, I’m going to tell you now. Here we go. There will be a guy named Zach.",
+      "He’s going to love bright, expensive clothes. He’ll always be conspicuous when he walks on the street. This guy, Zach, he’ll be very self-absorbed. He’s going to be totally self-absorbed. In fact, he’s only going to think about himself and his clothes. And one day he’ll go to Saks Fifth Avenue and he’ll buy a coat made from gold fibers.",
+      "A coat made from gold fibers that will be worth $72 million. And he’s going to look in the mirror and he’s going to say “Zach, you’re handsome. You’re great. You’re wonderful!” Because, of course, he will be totally self-absorbed. But one day Zach will wake up feeling very sad.",
+      "He’ll look in the mirror and he’ll feel very sad and he’ll realize that he has lost touch with his happiness. He’ll realize that he has lost touch with every other person. He’ll be totally alone. So he’s going to walk outside wearing his gold coat and he’ll see a poor, homeless, suffering, hungry man.",
+      "He’ll be moved by the suffering of this man. He’ll be moved by the homeless man, he’ll feel very emotional. And he’ll take off his gold coat and he’ll say “Here, take my gold coat and buy a big house with it.” Of course the homeless man is going to be super excited, super happy.",
+      "The homeless man will run to the bank and sell the gold coat and he’ll buy a big mansion with all the money. And he’ll eat a lot of food and he’ll feel great. And Zach is going to feel great, too. He’ll feel great because he helped somebody. He’ll feel great because he connected with another person and he contributed.",
+      "So both the homeless man and Zach will feel very, very happy. And that is the end of our point of view stories for “Healthy Heart.” Listen to them many times for at least seven days, 14 days or more is fine. Less is not good, at least seven days, every day.",
+      "Listen to this story, listen to the mini-story, listen to the main audio and sometimes listen to the vocabulary, too.",
+      "www. I will see you next time, bye-bye."
+    ],
+    "sixmin": [
+      "Alice: Hello and welcome to 6 Minute English. I'm Alice…",
+      "Alice: What are you eating, Neil?",
+      "Neil: It's a chocolate chip muffin.",
+      "Alice: How many calories do you think it contains?",
+      "Neil: I have no idea.",
+      "Alice: Check the packet.",
+      "Neil: It's hard to find the calorie content amongst all the other information here. Ah, here we go: 450.",
+      "Alice: That's a lot! Are you sure you should be eating that?",
+      "Neil: Why not? I expect I cycled off quite a few calories on the way to work.",
+      "Alice: Well, that depends on the length of your journey and how much energy you expended – or used up. Now, on today's show we're talking about food and the exercise it takes to burn off calories. And I have a question for you, Neil: How long would you have to walk to burn off the calories in a quarter of a large pizza? Is it… a) 33 minutes? b) 53 minutes? c) 83 minutes?",
+      "Neil: I'll go for a) 33 minutes. That sounds quite enough considering if you ate the whole pizza it would mean walking for 132 minutes to burn off – or use – the calories. And that's over two hours!",
+      "Alice: Well, we'll find out later on whether you got the answer right or not, Neil. But be warned – people are bad at estimating how many calories there are in food. Now, the Royal Society for Public Health here in the UK is concerned that people don't read the information on food packaging because the text is so dense – it means, tightly packed.",
+      "Neil: Well, I never look at food labelling when I'm shopping for food. How about you, Alice?",
+      "Alice: Well, personally, I like to make an informed choice about what I put in my body, Neil! And informed means based on an understanding of the facts. So I spend a lot of time reading the packaging. And I think the current traffic lights are a great idea.",
+      "Neil: Traffic lights? What are you talking about?",
+      "Alice: It's where food content is colour-coded red, orange or green – like traffic lights – depending on its percentage of fat, sugar, and salt. So you can see at a glance which pizza on the supermarket shelf is better for you. This helps the consumer to make an informed choice.",
+      "Neil: To see at a glance means to understand something immediately. Well, my informed choice is based on which pizza has the most pepperoni on it. I had no idea food companies were putting traffic lights on their food packaging!",
+      "Alice: Yes, and that's not all, Neil. There are now plans to put an icon – or simple picture – of someone running plus the time it would take to burn off the calories contained in a particular food item on the front of packaging. Let's hear what some consumers on the streets of London thought about this idea.",
+      "INSERT: People in London MAN: I would think twice about buying crisps if I have to run 19 minutes just to burn the calories I ate. WOMAN: I'd either consider working out those 19 minutes or not eating the crisps at all.",
+      "Alice: Two people who would think twice about whether to buy crisps if they knew how long it would take to burn off the calories.",
+      "Neil: And think twice means to think carefully about doing something before you do it. But, to be honest, I want freedom to do what I feel like. Even if they put a label on the food I think I'd exercise if I wanted to exercise, but I think I'd still have a packet of crisps if I wanted a packet of crisps.",
+      "Alice: That's fine so long as you are clear about how active you need to be to eat what you do and not put on weight.",
+      "Neil: But a healthy diet isn't just about calories is it? I wouldn't need to cycle to work to burn off a diet cola, but drinking a fresh orange juice would be a healthier choice – even though it contains more calories.",
+      "Alice: Well, that's a good point. Let's listen now to Shirley Cramer, Chief Executive at the Royal Society for Public Health, talking about why she thinks the new labelling is necessary.",
+      "INSERT: Shirley Cramer, Chief Executive, Royal Society for Public Health We've got 60% of the UK population either overweight or obese. We have a very, very urgent problem. We have a growing population, literally, and we need to have a lot of tools in our toolbox, a lot of new strategies, I think, in order to support people to make good choices.",
+      "Neil: Shirley Cramer of the Royal Society of Public Health. So, she says we need lots of tools – or strategies – to help tackle obesity in the UK. And linking energy content in food to physical activity is just one tool in the toolbox, so to speak.",
+      "Alice: Indeed. Now, I think it's time for the answer to today's quiz question, Neil. I asked you: How long would you have to walk to burn off the calories in a quarter of a large pizza? Is it… a) 33 minutes? b) 53 minutes? Or c) 83 minutes?",
+      "Neil: And I said a) 33 minutes.",
+      "Alice: And you underestimated, I'm afraid, Neil! The answer is c) 83 minutes. This figures comes from Shirley Cramer, Chief Executive of the Royal Society for Public Health. Writing in the British Medical Journal, she argues that food should be labelled with the equivalent exercise needed to burn off its calories. This would give consumers an immediate link between foods' energy content and physical activity that might help to reduce obesity.",
+      "Neil: Note, Alice, that I've put my muffin to one side. You've convinced me to eat more healthily and I'll be eating a green salad for lunch.",
+      "Alice: I'll believe that when I see it, Neil. OK, here are the words we learned today. expended burn off dense informed see at a glance icon think twice tool",
+      "Neil: Well, that's the end of this edition of 6 Minute English. Join us again soon. Meanwhile visit our website bbclearningenglish.com, where you'll find guides to grammar, exercises videos and articles to read and improve your English.",
+      "Both: Bye!",
+      "Vocabulary: expended used up burn off use dense tightly packed informed made on an understanding of the facts see at a glance understand something immediately icon simple picture think twice think carefully about doing something before you do it tool strategy; something you use to accomplish a task"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Did Zach love dull clothes?",
+        "a": "Oh, no, no, he did not love dull clothes, he loved bright clothes."
+      },
+      {
+        "q": "Did he love bright clothes or did he love dull clothes?",
+        "a": "Well, of course, bright. He loved bright clothes."
+      },
+      {
+        "q": "What kind of clothes did he like?",
+        "a": "He liked bright clothes and expensive clothes."
+      },
+      {
+        "q": "So did he love black and gray and brown clothes?",
+        "a": "No, no, no, those are not bright colors. He loved purple and green and pink clothes. He loved bright clothes."
+      },
+      {
+        "q": "Who loved bright clothes?",
+        "a": "Well, Zach, Zach loved bright clothes."
+      },
+      {
+        "q": "He loved bright, cheap clothes, right?",
+        "a": "No, no, no, no, wrong. Not bright cheap clothes, bright expensive clothes. Zach loved bright, expensive clothes."
+      },
+      {
+        "q": "He loved bright, expensive what?",
+        "a": "That’s right, clothes. Zach loved bright, expensive clothes."
+      },
+      {
+        "q": "Did Zach blend in on the street? Did he blend in?",
+        "a": "No, he did not blend in."
+      },
+      {
+        "q": "Why was Zach conspicuous?",
+        "a": "Well, because he always wore bright, expensive clothes. He was conspicuous, he was obvious. He stood out because he always wore bright, expensive clothes."
+      },
+      {
+        "q": "So who was always very conspicuous?",
+        "a": "Zach, Zach was always very conspicuous."
+      },
+      {
+        "q": "Where was he conspicuous?",
+        "a": "Well, on the street. When he walked on the street he was very conspicuous. Everybody looked at him when he walked on the street."
+      },
+      {
+        "q": "And why did they look at him?",
+        "a": "Well, because he was conspicuous because he wore bright, expensive clothes."
+      },
+      {
+        "q": "Oh, no, no, no, no, no, no, he never thought about other people. Zach only thought about himself and his clothes. He thought about his clothes all the time. “Oh, I hope my clothes look good. What should I buy next?”",
+        "a": "Zach was self-absorbed, he thought only about himself and his clothes."
+      },
+      {
+        "q": "What kind of person was Zach?",
+        "a": "www.EffortlessEnglishClub.com 3"
+      },
+      {
+        "q": "Was Zach generous and caring?",
+        "a": "No, he wasn’t. Zach was not generous and caring. Zach was self-absorbed, he thought only about himself. He didn’t give to other people. He didn’t think about other people, he was self-absorbed."
+      },
+      {
+        "q": "And who? Who was self-absorbed?",
+        "a": "Zach, of course. Zach was very self-absorbed. He always wore conspicuous clothes, he was always very conspicuous on the street and he was self-absorbed, thinking only about himself."
+      },
+      {
+        "q": "Where did he buy the coat?",
+        "a": "Well, he bought the coat at Saks Fifth Avenue, a store named Saks Fifth Avenue."
+      },
+      {
+        "q": "Was this a cheap store or an expensive store?",
+        "a": "Well, it was a very expensive store. It still is a very expensive store."
+      },
+      {
+        "q": "What did he buy at Saks Fifth Avenue?",
+        "a": "He bought a coat. He bought a coat at Saks Fifth Avenue."
+      },
+      {
+        "q": "What kind of coat did he buy at Saks Fifth Avenue?",
+        "a": "He bought a coat made from gold fibers."
+      },
+      {
+        "q": "What kind of fibers were in the coat?",
+        "a": "Gold fibers, gold strings, long strings of gold put together to make this coat. It was a coat made from gold fibers, gold strings."
+      },
+      {
+        "q": "Was this coat made from silver fibers?",
+        "a": "Oh, no, silver is cheap. This coat was made of gold fibers."
+      },
+      {
+        "q": "What was made of gold fibers?",
+        "a": "The coat. The coat that Zach bought was made from gold fibers or was made of gold fibers."
+      },
+      {
+        "q": "Where did he buy the coat that was made of gold fibers?",
+        "a": "Saks Fifth Avenue. He bought the coat that was made of gold fibers at Saks Fifth Avenue."
+      },
+      {
+        "q": "And what kind of store is Saks?",
+        "a": "Well, Saks is a very, very expensive store, of course."
+      },
+      {
+        "q": "How much did the coat cost, the coat that was made of gold fibers, $1 million?",
+        "a": "No, no, no, no, no that’s cheap."
+      },
+      {
+        "q": "What was he?",
+        "a": "That’s right, self-absorbed. He was totally self-absorbed thinking only about himself. Every day, every minute, every hour, every month, every year, all the time, he thought only about himself and his clothes and now he had a $72 million gold coat."
+      },
+      {
+        "q": "How did he feel?",
+        "a": "Sad, Zach felt very, very sad. He thought about himself and he felt sad."
+      },
+      {
+        "q": "Who felt sad?",
+        "a": "Zach, of course. Zach felt sad."
+      },
+      {
+        "q": "Why did Zach feel sad?",
+        "a": "Well, because he realized. He realized he had lost touch with other people."
+      },
+      {
+        "q": "Was Zach connected to other people?",
+        "a": "No, he wasn’t. He lost touch with everyone else. He had no friends. He never communicated with his family. He was totally alone."
+      },
+      {
+        "q": "Who did Zach lose touch with?",
+        "a": "Everyone, he lost touch with everyone. He lost connection with everyone. He was not connected to any other person. He did not communicate with any other person. He lost touch with everybody. He also lost touch with his happiness."
+      },
+      {
+        "q": "What feeling did he lose touch with?",
+        "a": "He lost touch with his feelings of happiness. He lost touch with happiness. He did not feel happy anymore. He lost touch with his family. He did not connect with them. He did not communicate with them anymore. He lost touch with all his old friends. He never saw them, he never talked to them."
+      },
+      {
+        "q": "Who did he lose touch with?",
+        "a": "Everyone, he lost touch with everyone."
+      },
+      {
+        "q": "What did he lose touch with?",
+        "a": "His happiness. His feelings of happiness. He lost touch with his feelings of happiness."
+      },
+      {
+        "q": "Who lost touch with his happiness? Who lost touch with his family and friends?",
+        "a": "Zach, Zach lost touch with everyone. And he lost touch with his family and friends and his happiness, with everything in his life. He lost touch with all other people, with all other connections, with all his good feelings. He lost touch with everything and everyone. He was alone, totally alone."
+      },
+      {
+        "q": "What was he moved by?",
+        "a": "He was moved by the man’s suffering. He felt emotional. Very sad, very emotional because of the poor homeless man."
+      },
+      {
+        "q": "How did Zach feel?",
+        "a": "Very emotional. Zach felt emotional, upset and emotional because of the homeless man. He was moved by the homeless man."
+      },
+      {
+        "q": "Who was moved by the homeless man?",
+        "a": "Zach, Zach was moved by the homeless man. Zach felt emotional because of the homeless man."
+      },
+      {
+        "q": "What kind of man moved Zach?",
+        "a": "A homeless man. A very poor, suffering, homeless man moved Zach, made Zach feel emotional and upset."
+      },
+      {
+        "q": "What did Zach give the homeless man?",
+        "a": "He gave the homeless man his gold coat."
+      },
+      {
+        "q": "Who did he give his gold coat to?",
+        "a": "To the homeless man. Zach gave his gold coat to the homeless man."
+      },
+      {
+        "q": "And who gave a gold coat to the homeless man?",
+        "a": "Zach, Zach gave a gold coat to the homeless man."
+      },
+      {
+        "q": "How much was the gold coat worth?",
+        "a": "It was worth $72 million. The gold coat was worth $72 million."
+      },
+      {
+        "q": "Why did Zach give his gold coat to the homeless man?",
+        "a": "Ah, because he was moved by the homeless man. He was moved by the homeless man’s suffering. He felt emotional and upset because of the homeless man’s suffering."
+      },
+      {
+        "q": "How did the homeless man feel?",
+        "a": "Well, he felt amazing! Wow! A $72 million gold coat!"
+      },
+      {
+        "q": "Why did Zach feel great?",
+        "a": "Ah, because he helped the homeless man. He felt great because he saw the homeless man’s happiness. He felt great because he helped the homeless man."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "fibers",
+      "pos": "n",
+      "uz": "tolalar, iplar (uzun ipchalar)",
+      "defEn": "long thin strings, like the threads in cloth",
+      "example": "A thousand fibers connect us with our fellow men."
+    },
+    {
+      "en": "to be moved by (something)",
+      "pos": "phrase",
+      "uz": "taʼsirlanmoq, his-hayajonga kelmoq",
+      "defEn": "to feel strong emotion because of something",
+      "example": "Zach was moved by the homeless man's suffering."
+    },
+    {
+      "en": "an implication",
+      "pos": "n",
+      "uz": "oqibat, natija (kelib chiqadigan holat)",
+      "defEn": "a consequence or result of something",
+      "example": "There are medical implications to thinking only of yourself."
+    },
+    {
+      "en": "to tape (a conversation)",
+      "pos": "v",
+      "uz": "yozib olmoq (audioga)",
+      "defEn": "to record something on audio",
+      "example": "Dr. Scherwitz taped the conversations of 600 men."
+    },
+    {
+      "en": "ingenious",
+      "pos": "adj",
+      "uz": "juda aqlli, topqir (gʻoya/usul)",
+      "defEn": "very clever or smart, usually about an idea or method",
+      "example": "Counting the times a person said 'I' was an ingenious way to measure selfishness."
+    },
+    {
+      "en": "self-absorbed",
+      "pos": "adj",
+      "uz": "faqat oʻzi bilan band, oʻziga berilgan",
+      "defEn": "thinking only about yourself all the time",
+      "example": "Zach was totally self-absorbed."
+    },
+    {
+      "en": "sound (advice)",
+      "pos": "adj",
+      "uz": "ishonchli, puxta, yaxshi (maslahat)",
+      "defEn": "reliable, good and strong",
+      "example": "Caring about other people is sound medical advice."
+    },
+    {
+      "en": "conspicuous",
+      "pos": "adj",
+      "uz": "koʻzga tashlanadigan, yaqqol (yashirin emas)",
+      "defEn": "very easy to see; standing out",
+      "example": "He was always very conspicuous on the street."
+    },
+    {
+      "en": "hyper-competitive",
+      "pos": "adj",
+      "uz": "haddan tashqari raqobatchi",
+      "defEn": "extremely competitive (hyper- means very, very)",
+      "example": "In sports people can become hyper-competitive."
+    },
+    {
+      "en": "to lose touch with (something/someone)",
+      "pos": "phrase",
+      "uz": "aloqani uzmoq, unutib qoʻymoq",
+      "defEn": "to lose your connection with someone or something",
+      "example": "He realized he had lost touch with his happiness."
+    }
+  ],
+  "englishpod": {
+    "id": "0004",
+    "title": "The Office — I need an assistant!",
+    "titleUz": "Ofis — menga yordamchi kerak!",
+    "warmup": {
+      "uz": "Bu suhbatda charchagan xodim boshligʻidan yordamchi soʻraydi — yolgʻiz koʻtargan yuki juda ogʻir. “Healthy Heart” darsi ham shuni oʻrgatadi: yolgʻiz boʻlmaslik, yukni boʻlishish yurak uchun foydali. Sizningcha, boshliq unga yordamchi topib beradimi?",
+      "en": "In this dialogue a tired worker asks his boss for help — the weight he carries alone is too heavy. The Healthy Heart lesson teaches the same thing: not being alone and sharing the load is good for the heart. Do you think the boss will find him an assistant?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0004/dg.mp3",
+        "durationSec": 67,
+        "bytes": 570014
+      },
+      "pr": {
+        "path": "englishpod/0004/pr.mp3",
+        "durationSec": 570,
+        "bytes": 9149044
+      },
+      "rv": {
+        "path": "englishpod/0004/rv.mp3",
+        "durationSec": 330,
+        "bytes": 5312743
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "...like I told you before, we just don’t have the resources to hire you an assistant."
+      },
+      {
+        "speaker": "B",
+        "en": "I understand that, but the fact is we’re understaffed."
+      },
+      {
+        "speaker": "A",
+        "en": "The timing is just not right. The economy is bad, and it’s too risky to take on new staff."
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, I guess you’re right.... here’s an idea, what if we hire an intern? She would take some of the weight off my shoulders."
+      },
+      {
+        "speaker": "A",
+        "en": "She?"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, you know, a recent graduate. She could give me a hand with some of these projects and we could keep our costs down."
+      },
+      {
+        "speaker": "A",
+        "en": "That sounds reasonable... let me see what I can do."
+      },
+      {
+        "speaker": "A",
+        "en": "Tony, I’d like to introduce you to your new assistant."
+      },
+      {
+        "speaker": "B",
+        "en": "OK, great! Let’s meet her!"
+      },
+      {
+        "speaker": "C",
+        "en": "Hi, I’m Adam."
+      },
+      {
+        "speaker": "B",
+        "en": "Oh... hi... I’m Tony..."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "resources",
+        "uz": "resurslar (pul, imkoniyat, vositalar)",
+        "defEn": "the money, people or materials available to do something"
+      },
+      {
+        "en": "understaffed",
+        "uz": "xodimi yetishmaydigan (kam odamli)",
+        "defEn": "not having enough people to do the work"
+      },
+      {
+        "en": "the timing is just not right",
+        "uz": "hozir vaqti emas, payti kelmagan",
+        "defEn": "it is not a good time to do something now"
+      },
+      {
+        "en": "take the weight off my shoulders",
+        "uz": "yelkamdagi yukni yengillashtirmoq",
+        "defEn": "to remove some of the pressure or stress from someone"
+      },
+      {
+        "en": "give me a hand",
+        "uz": "yordam bermoq, qoʻl uzatmoq",
+        "defEn": "to help someone"
+      },
+      {
+        "en": "that sounds reasonable",
+        "uz": "bu maʼqul, oʻrinli koʻrinadi",
+        "defEn": "that seems fair or acceptable"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "160818",
+    "title": "Have you walked off your pizza?",
+    "titleUz": "Pitsangizni yurib yoqib yubordingizmi?",
+    "audio": {
+      "main": {
+        "path": "sixmin/160818/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6033024,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How long would you have to walk to burn off the calories in a quarter of a large pizza?",
+        "qUz": "Katta pitsaning choragidagi kaloriyani yoqish uchun qancha vaqt yurish kerak?",
+        "options": [
+          "33 minutes",
+          "53 minutes",
+          "83 minutes"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 83 minutes. Neil a) 33 minutes dedi va kam baholab xato qildi. Royal Society for Public Health maʼlumotiga koʻra, katta pitsaning atigi choragidagi kaloriyani yoqish uchun 83 daqiqa yurish kerak."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "expended",
+        "uz": "sarflangan (energiya)",
+        "defEn": "used up, especially energy"
+      },
+      {
+        "en": "to burn off",
+        "uz": "yoqib yubormoq (kaloriyani harakat bilan)",
+        "defEn": "to use up energy or calories through activity"
+      },
+      {
+        "en": "dense",
+        "uz": "zich, qalin (matn haqida: siqib joylangan)",
+        "defEn": "tightly packed together"
+      },
+      {
+        "en": "informed (choice)",
+        "uz": "asosli, ongli (faktlarga tayangan tanlov)",
+        "defEn": "based on an understanding of the facts"
+      },
+      {
+        "en": "to see at a glance",
+        "uz": "bir qarashda tushunmoq",
+        "defEn": "to understand something immediately"
+      },
+      {
+        "en": "to think twice",
+        "uz": "ikki marta oʻylab koʻrmoq",
+        "defEn": "to think carefully about doing something before you do it"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to keep your heart healthy",
+      "channel": "British Heart Foundation"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How do you look after your heart? How long have you been building your healthy habits — and what checks or services do you get done to stay healthy?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect continuous (I have been … for/since …; How long have you been …?) va kausativ (I get my heart checked; I had my blood tested).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/21/main.mp3",
+      "bytes": 11944284
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/21/main.pdf",
+      "bytes": 428608
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/21/vocab.mp3",
+      "bytes": 10492904
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/21/ministory.mp3",
+      "bytes": 14815752
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/21/pov.mp3",
+      "bytes": 6081167
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/21/pov.pdf",
+      "bytes": 150348
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0004/dg.mp3",
+      "bytes": 570014
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0004/transcript.pdf",
+      "bytes": 90429
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/160818/audio.mp3",
+      "bytes": 6033024
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/160818/transcript.pdf",
+      "bytes": 328420
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

@@ -3,6 +3,244 @@
   "generated": "2026-07-19",
   "lessons": [
     {
+      "id": "core-01",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 1,
+      "slug": "intro",
+      "title": "Power English — Introduction",
+      "titleUz": "Kirish — Power English",
+      "level": "A2-B1",
+      "phase": 1,
+      "tags": [
+        "routine",
+        "present-simple",
+        "adverbs-of-frequency",
+        "peak-state"
+      ],
+      "grammarUnits": [
+        "present-simple-habits",
+        "adverbs-of-frequency"
+      ],
+      "grammarTitlesUz": [
+        "Hozirgi oddiy zamon: odat va tartib (+ 3-shaxs -s)",
+        "Chastota ravishlari va soʻz tartibi"
+      ],
+      "durationSec": 4505,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-02",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 2,
+      "slug": "emotional-mastery",
+      "title": "Emotional Mastery",
+      "titleUz": "Hissiyotlarni boshqarish",
+      "level": "A2-B1",
+      "phase": 1,
+      "tags": [
+        "emotions",
+        "present-continuous",
+        "stative-verbs",
+        "ed-ing-adjectives",
+        "dependent-prepositions"
+      ],
+      "grammarUnits": [
+        "present-continuous-vs-simple",
+        "ed-ing-adjectives-prepositions"
+      ],
+      "grammarTitlesUz": [
+        "Hozirgi davomiy va oddiy zamon (+ holat feʼllari)",
+        "-ed/-ing sifatlari va bogʻliq predloglar"
+      ],
+      "durationSec": 4211,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-03",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 3,
+      "slug": "focus",
+      "title": "Emotional Mastery 2",
+      "titleUz": "Hissiy ustalik 2 — mental fokus",
+      "level": "A2-B1",
+      "phase": 1,
+      "tags": [
+        "focus",
+        "modals-of-advice",
+        "conditionals",
+        "visualization",
+        "anxiety"
+      ],
+      "grammarUnits": [
+        "modals-of-advice",
+        "zero-first-conditional"
+      ],
+      "grammarTitlesUz": [
+        "Maslahat modallari: should / ought to / had better / why don't you",
+        "Nol va birinchi shart: haqiqiy sabab-natija"
+      ],
+      "durationSec": 3714,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-04",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 4,
+      "slug": "beliefs",
+      "title": "Beliefs",
+      "titleUz": "Eʼtiqodlar — ishonch kuchi",
+      "level": "A2-B1",
+      "phase": 1,
+      "tags": [
+        "beliefs",
+        "mindset",
+        "articles",
+        "that-clauses",
+        "self-belief"
+      ],
+      "grammarUnits": [
+        "articles-1",
+        "mental-state-that-clauses"
+      ],
+      "grammarTitlesUz": [
+        "Artikllar 1: a/an va the — yangi va tanish",
+        "Fikr feʼllari va ‘that’ ergash gapi"
+      ],
+      "durationSec": 4309,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-05",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 5,
+      "slug": "thought-mastery",
+      "title": "Thought Mastery",
+      "titleUz": "Fikrni boshqarish",
+      "level": "A2-B1",
+      "phase": 1,
+      "tags": [
+        "mindset",
+        "thoughts",
+        "nlp",
+        "gerund-infinitive",
+        "modals-deduction"
+      ],
+      "grammarUnits": [
+        "gerund-infinitive-1",
+        "modals-present-deduction"
+      ],
+      "grammarTitlesUz": [
+        "Gerundiy va infinitiv 1: enjoy doing / want to do",
+        "Hozirgi zamon xulosasi: must / might / can't be"
+      ],
+      "durationSec": 4090,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-06",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 6,
+      "slug": "models",
+      "title": "Models",
+      "titleUz": "Namunalar — role model va peer group",
+      "level": "B1",
+      "phase": 1,
+      "tags": [
+        "role-models",
+        "peer-group",
+        "comparatives",
+        "relative-clauses",
+        "fluency"
+      ],
+      "grammarUnits": [
+        "comparatives-superlatives",
+        "defining-relative-clauses"
+      ],
+      "grammarTitlesUz": [
+        "Qiyosiy va orttirma daraja; (not) as … as",
+        "Aniqlovchi ergash gap: who / that / which / whose"
+      ],
+      "durationSec": 4131,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-07",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 7,
+      "slug": "repetition",
+      "title": "Repetition",
+      "titleUz": "Takrorlash — kuch bilan qayta-qayta",
+      "level": "B1",
+      "phase": 1,
+      "tags": [
+        "repetition",
+        "used-to-would",
+        "time-prepositions",
+        "habits",
+        "mastery"
+      ],
+      "grammarUnits": [
+        "used-to-would",
+        "time-duration-prepositions"
+      ],
+      "grammarTitlesUz": [
+        "Oʻtmish odatlari: used to / would",
+        "Payt predloglari: for / since / during / ago"
+      ],
+      "durationSec": 4599,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-08",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 8,
+      "slug": "identity",
+      "title": "Identity",
+      "titleUz": "Identity — oʻzlik",
+      "level": "B1",
+      "phase": 1,
+      "tags": [
+        "identity",
+        "beliefs",
+        "past-simple",
+        "change"
+      ],
+      "grammarUnits": [
+        "past-simple-narrative",
+        "expressing-change"
+      ],
+      "grammarTitlesUz": [
+        "Oʻtgan zamon hikoyasi va ketma-ketlik (then / after that / finally; notoʻgʻri feʼllar)",
+        "Oʻzgarishni ifodalash: get / become / turn + sifat"
+      ],
+      "durationSec": 3989,
+      "hasPov": false,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
       "id": "core-09",
       "track": "core",
       "source": "aj-hoge",
@@ -27,6 +265,636 @@
         "Bosqichma-bosqich oʻzgarish: better and better; get + comparative"
       ],
       "durationSec": 4348,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-10",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 10,
+      "slug": "reading-power",
+      "title": "Reading Power",
+      "titleUz": "Oʻqishning kuchi",
+      "level": "B1",
+      "phase": 1,
+      "tags": [
+        "reading",
+        "input",
+        "quantifiers",
+        "comparatives",
+        "krashen"
+      ],
+      "grammarUnits": [
+        "quantifiers-countability",
+        "the-more-the-more"
+      ],
+      "grammarTitlesUz": [
+        "Miqdor va sanaladigan/sanalmaydigan otlar: much / many / a lot of",
+        "Mutanosiblik: the more…, the more…"
+      ],
+      "durationSec": 4550,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-11",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 11,
+      "slug": "unlimited",
+      "title": "Unlimited",
+      "titleUz": "Cheksiz kuch — ehtiros",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "passion",
+        "potential",
+        "ability",
+        "second-conditional",
+        "mindset"
+      ],
+      "grammarUnits": [
+        "ability-across-time",
+        "second-conditional"
+      ],
+      "grammarTitlesUz": [
+        "Qobiliyat zamonlar boʻylab: can / could / be able to / manage to",
+        "Ikkinchi shart: agar … boʻlsa edi (faraz)"
+      ],
+      "durationSec": 4020,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-12",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 12,
+      "slug": "healthy-at-100",
+      "title": "Healthy at 100",
+      "titleUz": "100 yoshda ham sogʻlom",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "health",
+        "lifestyle",
+        "obligation",
+        "phrasal-verbs",
+        "diet"
+      ],
+      "grammarUnits": [
+        "obligation-prohibition",
+        "lifestyle-phrasal-verbs"
+      ],
+      "grammarTitlesUz": [
+        "Majburiyat va taqiq: must / have to / mustn't / don't have to",
+        "Hayotiy frazaviy feʼllar: give up / cut down on / take up / work out / get over"
+      ],
+      "durationSec": 3737,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-13",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 13,
+      "slug": "walden",
+      "title": "Walden",
+      "titleUz": "Walden — soddaroq yashash",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "simplicity",
+        "minimalism",
+        "comparatives",
+        "zero-article",
+        "thoreau"
+      ],
+      "grammarUnits": [
+        "comparatives-of-reduction",
+        "articles-2-zero-generic"
+      ],
+      "grammarTitlesUz": [
+        "Kamayish qiyoslari: less / fewer / more simply / the least",
+        "Artikllar 2: umumiy maʼnoda artiklsiz (nature, life, simplicity)"
+      ],
+      "durationSec": 3582,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-14",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 14,
+      "slug": "superior-man",
+      "title": "Superior Man",
+      "titleUz": "Ustun inson — qoʻrquvdan oʻtish",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "mindset",
+        "fear",
+        "purpose",
+        "future-forms",
+        "goals"
+      ],
+      "grammarUnits": [
+        "infinitive-of-purpose",
+        "future-forms"
+      ],
+      "grammarTitlesUz": [
+        "Maqsad infinitivi: to / in order to / so that",
+        "Kelasi zamon shakllari: will / going to / hozirgi davomiy"
+      ],
+      "durationSec": 4549,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-15",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 15,
+      "slug": "taoism",
+      "title": "Taoism",
+      "titleUz": "Taoizm — tabiat bilan uygʻunlik",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "philosophy",
+        "wu-wei",
+        "modals",
+        "passive-voice",
+        "subconscious"
+      ],
+      "grammarUnits": [
+        "modals-of-possibility",
+        "passive-voice-1"
+      ],
+      "grammarTitlesUz": [
+        "Ehtimollik modallari: might / may / could (majburlamaslik)",
+        "Majhul nisbat 1: is done / was done (bajaruvchisiz)"
+      ],
+      "durationSec": 3297,
+      "hasPov": true,
+      "hasEnglishPod": false,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-16",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 16,
+      "slug": "big-picture",
+      "title": "The Big Picture",
+      "titleUz": "Katta manzara",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "education",
+        "learning",
+        "future-perfect",
+        "future-continuous",
+        "time-clauses"
+      ],
+      "grammarUnits": [
+        "future-perfect-continuous",
+        "future-time-clauses"
+      ],
+      "grammarTitlesUz": [
+        "Kelasi mukammal va davomiy: will have done; will be doing",
+        "Payt ergash gaplari: when / as soon as / until + hozirgi zamon"
+      ],
+      "durationSec": 4505,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-17",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 17,
+      "slug": "small-is-beautiful",
+      "title": "Small is Beautiful",
+      "titleUz": "Kichik goʻzaldir",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "economy",
+        "consumerism",
+        "quantifiers",
+        "hedging",
+        "moderation"
+      ],
+      "grammarUnits": [
+        "small-quantities",
+        "degree-intensifier-adverbs"
+      ],
+      "grammarTitlesUz": [
+        "Kichik miqdorlar: a few/a little va few/little; hardly any; only/just",
+        "Daraja ravishlari (yumshatish): quite / fairly / rather / a bit"
+      ],
+      "durationSec": 3738,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-18",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 18,
+      "slug": "slow-burn",
+      "title": "Slow Burn",
+      "titleUz": "Slow Burn — sekin, ammo barqaror",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "energy",
+        "endurance",
+        "present-perfect",
+        "gradual-change",
+        "habits"
+      ],
+      "grammarUnits": [
+        "present-perfect-gateway",
+        "process-adverbs"
+      ],
+      "grammarTitlesUz": [
+        "Present perfect (sodda) — B1 boʻsagʻasi: so far / up to now / yet",
+        "Jarayon ravishlari: gradually / steadily / increasingly"
+      ],
+      "durationSec": 4449,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-19",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 19,
+      "slug": "leaders-make-mistakes",
+      "title": "Leaders Make Mistakes",
+      "titleUz": "Rahbarlar xato qiladi",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "mindset",
+        "leadership",
+        "mistakes",
+        "present-perfect",
+        "modal-perfect"
+      ],
+      "grammarUnits": [
+        "present-perfect-experience",
+        "should-have-could-have"
+      ],
+      "grammarTitlesUz": [
+        "Tajriba: Have you ever…? / ever / never",
+        "should have / could have (+ needn't have) — afsus"
+      ],
+      "durationSec": 4019,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-20",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 20,
+      "slug": "attractor-factor",
+      "title": "Attractor Factor",
+      "titleUz": "Attractor Factor — nimaga eʼtibor bersang, oʻsha keladi",
+      "level": "B1",
+      "phase": 2,
+      "tags": [
+        "mindset",
+        "law-of-attraction",
+        "positivity",
+        "present-perfect",
+        "conditionals"
+      ],
+      "grammarUnits": [
+        "present-perfect-just-already-yet",
+        "first-conditional-extended"
+      ],
+      "grammarTitlesUz": [
+        "Present perfect + just / already / yet / still (+ recently / lately)",
+        "Kengaytirilgan birinchi shart: unless / as long as / provided that / in case"
+      ],
+      "durationSec": 3701,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-21",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 21,
+      "slug": "healthy-heart",
+      "title": "Healthy Heart",
+      "titleUz": "Sogʻlom yurak",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "health",
+        "connection",
+        "present-perfect-continuous",
+        "causative",
+        "longevity"
+      ],
+      "grammarUnits": [
+        "present-perfect-continuous",
+        "causative"
+      ],
+      "grammarTitlesUz": [
+        "for / since / How long + present perfect continuous",
+        "Kausativ: have / get something done (birovga qildirish)"
+      ],
+      "durationSec": 4955,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-22",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 22,
+      "slug": "art-of-power",
+      "title": "The Art of Power",
+      "titleUz": "Kuch sanʼati",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "mindset",
+        "inner-power",
+        "present-perfect",
+        "past-simple",
+        "passive-voice"
+      ],
+      "grammarUnits": [
+        "present-perfect-vs-past",
+        "passive-voice-2"
+      ],
+      "grammarTitlesUz": [
+        "Present perfect va oddiy oʻtgan zamon farqi",
+        "Majhul nisbat 2: has been done / can be done / will be done"
+      ],
+      "durationSec": 3209,
+      "hasPov": true,
+      "hasEnglishPod": false,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-23",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 23,
+      "slug": "excitement",
+      "title": "Excitement",
+      "titleUz": "Hayajon — ishtiyoq va maqsad",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "excitement",
+        "goals",
+        "questions",
+        "verb-patterns",
+        "gerund-infinitive"
+      ],
+      "grammarUnits": [
+        "questions-indirect-tags",
+        "verb-patterns-consolidation"
+      ],
+      "grammarTitlesUz": [
+        "Savollar, bilvosita savollar va soʻroq qoʻshimchasi",
+        "Feʼl qoliplari: love doing / want to do / look forward to -ing"
+      ],
+      "durationSec": 4514,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-24",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 24,
+      "slug": "adventure",
+      "title": "Adventure",
+      "titleUz": "Sarguzasht",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "adventure",
+        "travel",
+        "articles",
+        "narrative-tenses",
+        "storytelling"
+      ],
+      "grammarUnits": [
+        "articles-3-consolidation",
+        "narrative-tenses"
+      ],
+      "grammarTitlesUz": [
+        "Artikllar 3: a/an, the, artiklsiz — toʻliq mustahkamlash",
+        "Hikoya zamonlari: past continuous va past perfect"
+      ],
+      "durationSec": 4057,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-25",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 25,
+      "slug": "plateaus",
+      "title": "Plateaus",
+      "titleUz": "Platolar — toʻxtab qolgandek tuyulgan paytlar",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "mindset",
+        "learning",
+        "third-conditional",
+        "wish",
+        "regret"
+      ],
+      "grammarUnits": [
+        "third-conditional",
+        "wish-if-only"
+      ],
+      "grammarTitlesUz": [
+        "Uchinchi shart: oʻtmish farazi (agar … qilganimda edi)",
+        "wish / if only — orzu va afsus"
+      ],
+      "durationSec": 4447,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-26",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 26,
+      "slug": "search-for-meaning",
+      "title": "Search for Meaning",
+      "titleUz": "Maʼno izlash",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "meaning",
+        "purpose",
+        "reported-speech",
+        "reporting-verbs",
+        "viktor-frankl"
+      ],
+      "grammarUnits": [
+        "reported-speech-backshift",
+        "reporting-verbs"
+      ],
+      "grammarTitlesUz": [
+        "Oʻzlashtirma gap: bayon va zamon siljishi (backshift)",
+        "Bayon feʼllari: suggest / argue / claim / point out + qoliplar"
+      ],
+      "durationSec": 3990,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-27",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 27,
+      "slug": "be-a-champion",
+      "title": "Be a Champion",
+      "titleUz": "Chempion boʻl",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "mindset",
+        "comparatives",
+        "superlatives",
+        "past-deduction",
+        "motivation"
+      ],
+      "grammarUnits": [
+        "advanced-comparatives",
+        "modals-past-deduction"
+      ],
+      "grammarTitlesUz": [
+        "Qiyoslashning yuqori shakllari: by far / one of the most / the best … ever",
+        "Oʻtmish xulosasi: must have / can't have + V3"
+      ],
+      "durationSec": 3831,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-28",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 28,
+      "slug": "no-failure",
+      "title": "No Failure",
+      "titleUz": "Muvaffaqiyatsizlik yoʻq — faqat natija",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "mindset",
+        "resilience",
+        "mixed-conditionals",
+        "connectors",
+        "cause-and-effect"
+      ],
+      "grammarUnits": [
+        "mixed-conditionals",
+        "cause-result-purpose-connectors"
+      ],
+      "grammarTitlesUz": [
+        "Aralash shart gap: oʻtmish sharti → hozirgi natija",
+        "Sabab, natija, maqsad bogʻlovchilari: so / therefore / in order to"
+      ],
+      "durationSec": 4155,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-29",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 29,
+      "slug": "break-rules",
+      "title": "Break Rules",
+      "titleUz": "Qoidalarni buzing",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "mindset",
+        "career",
+        "concession",
+        "inversion",
+        "slang"
+      ],
+      "grammarUnits": [
+        "concession-clauses",
+        "inversion-for-emphasis"
+      ],
+      "grammarTitlesUz": [
+        "Zidlik ergash gaplari: although / even though / despite / whereas",
+        "Inversiya (urgʻu): Never have I…; Not only… but also…"
+      ],
+      "durationSec": 4277,
+      "hasPov": true,
+      "hasEnglishPod": true,
+      "youtubeCount": 1
+    },
+    {
+      "id": "core-30",
+      "track": "core",
+      "source": "aj-hoge",
+      "order": 30,
+      "slug": "tribes",
+      "title": "Tribes",
+      "titleUz": "Qabilalar — oʻz odamlaring",
+      "level": "B1-B2",
+      "phase": 3,
+      "tags": [
+        "community",
+        "leadership",
+        "relative-clauses",
+        "cleft",
+        "fluency"
+      ],
+      "grammarUnits": [
+        "relative-clauses-capstone",
+        "cleft-discourse-markers"
+      ],
+      "grammarTitlesUz": [
+        "Ergash gaplar yakuni: qoʻshimcha (nodefining), qisqargan va takror",
+        "Urgʻu va ravonlik yakuni: cleft (What…is… / It's…that…) + nutq bogʻlovchilari"
+      ],
+      "durationSec": 5135,
       "hasPov": true,
       "hasEnglishPod": true,
       "youtubeCount": 1

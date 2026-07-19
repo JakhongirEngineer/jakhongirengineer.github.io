@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 2,
+  "id": "core-25",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 25,
+  "slug": "plateaus",
+  "title": "Plateaus",
+  "titleUz": "Platolar — toʻxtab qolgandek tuyulgan paytlar",
+  "level": "B1-B2",
+  "tags": [
+    "mindset",
+    "learning",
+    "third-conditional",
+    "wish",
+    "regret"
+  ],
+  "intro": {
+    "uz": "Plato (plateau) — oʻrganishda oʻzimizni toʻxtab qolgandek his qiladigan tekis davr. George Leonardning “Mastery” kitobiga tayanib, AJ platolarni sabr bilan qabul qilishni oʻrgatadi: aslida miya shu paytda ham tinmay oʻrganadi. Bu haftaning ikki grammatikasi shu his bilan bogʻliq: uchinchi shart — oʻtmish farazi (third conditional) va wish / if only — orzu va afsus. Allen haqidagi POV hikoyada ikkalasining ildizini eshitasiz.",
+    "en": "A plateau is a flat stretch in learning where you feel stuck. Drawing on George Leonard's book “Mastery”, AJ teaches you to accept plateaus calmly — your brain is still learning underneath. This week's two grammar topics grow out of that feeling: the third conditional (unreal past) and wish / if only (regret and unreal desire). You'll hear the seeds of both in the POV story about Allen."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻtmishdagi bir tanlov boshqacha boʻlganida nima yuz berishini toʻxtamasdan ayta olasiz (“If I had …, I would have …”) va afsus yoki orzuni tabiiy ifodalay olasiz (“I wish I had …; if only I could …”).",
+    "en": "By the end you can say out loud how the past would have been different (“If I had …, I would have …”) and express regret or a wish naturally (“I wish I had …; if only I could …”)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "third-conditional",
+      "titleUz": "Uchinchi shart: oʻtmish farazi (agar … qilganimda edi)",
+      "titleEn": "Third conditional — the unreal past",
+      "bandLifter": "IELTS Speaking & Writing — talk about how the past could have been different",
+      "cefrCanDo": "B2: I can speculate about unreal past situations (If I had …, I would have …)",
+      "bodyHtml": "<p>Plato (plateau) — tekislik — ustida turganda miya bir xil savolni qayta-qayta beradi: <em>&quot;If I <strong>had practised</strong> more last year, I <strong>wouldn't have plateaued</strong> now.&quot;</em> — &quot;Agar oʻtgan yili koʻproq mashq qilganimda edi, hozir bu tekislikka tushib qolmasdim.&quot; Bu — <strong>third conditional</strong> (uchinchi shart), oʻtmish farazi. Allen haqidagi POV hikoyada ham xuddi shu afsus yashiringan: <em>&quot;If Allen <strong>had exercised</strong> sooner, he <strong>wouldn't have suffered</strong> for 11 months.&quot;</em></p>\n<h3>Maʼnosi: oʻtmishni &quot;qayta oʻynash&quot;</h3>\n<p>Third conditional — <strong>boʻlib oʻtgan, endi oʻzgarmaydigan</strong> oʻtmish haqida. Biz haqiqatda nima boʻlganini bilamiz, lekin xayolan boshqacha variantni tasavvur qilamiz. Shuning uchun bu — <strong>sof faraz</strong>: aslida sodir boʻlmagan ishning natijasi.</p>\n<ul>\n<li><em>If I <strong>had listened</strong> every day, my English <strong>would have improved</strong> faster.</em> — Agar har kuni tinglaganimda edi, inglizcham tezroq yaxshilangan boʻlardi. <em>(lekin tinglamadim — shuning uchun yaxshilanmadi)</em></li>\n<li><em>If she <strong>hadn't quit</strong>, she <strong>would have reached</strong> B2.</em> — Agar tashlab qoʻymaganida, B2 ga yetgan boʻlardi. <em>(lekin tashlab qoʻydi)</em></li>\n</ul>\n<h3>Shakli: <code>If + past perfect → would have + V3</code></h3>\n<p>Ikki qism, ikki bloki bor:</p>\n<table>\n<thead>\n<tr>\n<th>Shart qismi (agar…)</th>\n<th>Natija qismi (…boʻlardi)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>If + had + V3</strong></td>\n<td><strong>would have + V3</strong></td>\n</tr>\n<tr>\n<td><em>If I had known</em></td>\n<td><em>I would have come</em></td>\n</tr>\n<tr>\n<td><em>If he had trained sooner</em></td>\n<td><em>he wouldn't have been in agony</em></td>\n</tr>\n</tbody>\n</table>\n<p><code>would</code> oʻrniga maʼnoga qarab <code>could have</code> (imkoni boʻlardi) yoki <code>might have</code> (ehtimol) ham keladi: <em>&quot;I <strong>could have passed</strong> IELTS if I had started earlier.&quot;</em></p>\n<h3>Ingliz↔oʻzbek farqi (bu yerda xato tugʻiladi)</h3>\n<p>Oʻzbekcha uchinchi shart bitta qolip bilan tugaydi: <strong>&quot;…qilganimda edi, …boʻlardi&quot;</strong>. Ingliz tilida esa <strong>ikkala qism ham oʻtmishga suriladi</strong>: shart qismida oddiy past emas, balki <strong>past perfect</strong> (had + V3), natija qismida esa <strong>would + have + V3</strong>. Oʻzbek oʻquvchilar koʻpincha ikkinchi shart bilan adashtiradi: <em>&quot;If I studied…&quot;</em> (bu — hozir/kelajak farazi) va <em>&quot;If I had studied…&quot;</em> (bu — oʻtmish farazi) butunlay boshqa maʼno beradi.</p>\n<p>❌ <em>If I would have practised more, I would improve.</em>\n✅ <em>If I <strong>had practised</strong> more, I <strong>would have improved</strong>.</em>\nSababi: <strong>if</strong>‑qismida hech qachon <em>would</em> ishlatilmaydi — u faqat natija qismida turadi; oʻtmish farazi uchun <em>had + V3</em>.</p>\n<h3>Nega bu B2 darajani koʻtaradi</h3>\n<p>Plato ustidagi tahlil — &quot;nimani boshqacha qilishim mumkin edi&quot; — aynan third conditional bilan aytiladi. IELTS Speaking va Writing boʻlimlarida afsus yoki taxminni ravon ifodalash (<em>&quot;If I had managed my time better, I wouldn't have panicked&quot;</em>) — B2 ning eng koʻrinadigan belgilaridan biri. Bir jumla — butun darajani koʻrsatadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni ovoz chiqarib mashq qiling. Har kuni oʻz hayotingizdan bitta jumla ayting: <em>&quot;If I had … , I would have … .&quot;</em> Masalan: <em>&quot;If I had woken up earlier, I would have caught the bus.&quot;</em> Miya qolipni takrordan oʻzi oʻrganadi — qoidani yodlash shart emas.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha uchinchi shart bitta qolip bilan tugaydi: “…qilganimda edi, …boʻlardi”. Ingliz tilida esa ikkala qism ham oʻtmishga suriladi: shart qismida past perfect (had + V3), natija qismida would have + V3. “agar … qilganimda edi” = If + had + V3; “…boʻlardi” = would have + V3.",
+      "errorFixUz": "❌ If I would have practised more, I would improve. ✅ If I had practised more, I would have improved. Sababi: if-qismida hech qachon “would” ishlatilmaydi — u faqat natija qismida turadi; oʻtmish farazi uchun had + V3.",
+      "examples": [
+        {
+          "en": "If Allen had exercised sooner, he wouldn't have suffered for 11 months.",
+          "uz": "Agar Allen ertaroq mashq qilganida edi, 11 oy azob chekmasdi."
+        },
+        {
+          "en": "If I had listened every day, my English would have improved faster.",
+          "uz": "Agar har kuni tinglaganimda edi, inglizcham tezroq yaxshilangan boʻlardi."
+        },
+        {
+          "en": "She could have passed the exam if she hadn't quit.",
+          "uz": "Agar tashlab qoʻymaganida, imtihondan oʻta olardi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "If I ___ more last year, I wouldn't have plateaued.",
+          "options": [
+            "had practised",
+            "practised",
+            "would practise"
+          ],
+          "answer": "had practised",
+          "hintUz": "if-qismi → past perfect: had + V3 (had practised)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If she had trained sooner, she ___ so long.",
+          "options": [
+            "wouldn't have suffered",
+            "wouldn't suffer",
+            "didn't suffer"
+          ],
+          "answer": "wouldn't have suffered",
+          "hintUz": "natija qismi → would (not) have + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If Allen ___ in bed for 11 months, he would have recovered faster.",
+          "options": [
+            "hadn't stayed",
+            "didn't stay",
+            "wouldn't stay"
+          ],
+          "answer": "hadn't stayed",
+          "hintUz": "oʻtmish farazining inkori → had not (hadn't) + V3"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz hayotingizdan rost gap ayting (ovoz chiqarib): “If I had … , I would have … .” — oʻtgan bir tanlovingiz haqida.",
+          "answer": null,
+          "hintUz": "If + had + V3, keyin would have + V3"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "wish-if-only",
+      "titleUz": "wish / if only — orzu va afsus",
+      "titleEn": "wish / if only — regret & unreal desire",
+      "bandLifter": "IELTS Speaking — express regret and wishes naturally",
+      "cefrCanDo": "B2: I can express regret about the past and unreal wishes (I wish I had …; if only I could …)",
+      "bodyHtml": "<p>Plato ustida oʻtirgan har bir oʻquvchining ichida bir ovoz bor: <em>&quot;I <strong>wish</strong> I could break through this plateau. <strong>If only</strong> I'd started listening sooner!&quot;</em> — &quot;Koshki bu tekislikdan oʻtib keta olsam. Qani endi ertaroq tinglashni boshlaganimda edi!&quot; Allen haqidagi POV hikoyada ham xuddi shu his: 11 oy bekorga yotgach, u shubhasiz <em>&quot;I wish I hadn't stayed in bed so long&quot;</em> deb oʻylagan. <strong>wish</strong> va <strong>if only</strong> — orzu va afsusning tili.</p>\n<h3>Uch xil <code>wish</code> — uch xil vaqt</h3>\n<p><code>wish</code> (va undan kuchliroq <code>if only</code>) dan keyingi feʼl <strong>bir pogʻona orqaga</strong> suriladi. Qaysi vaqtga surilsa — oʻsha maʼno chiqadi:</p>\n<table>\n<thead>\n<tr>\n<th>Nima haqida</th>\n<th>Qolip</th>\n<th>Misol</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Hozirgi</strong> holatdan afsus / orzu</td>\n<td>wish + <strong>past simple</strong></td>\n<td><em>I wish I <strong>had</strong> more time.</em></td>\n</tr>\n<tr>\n<td><strong>Oʻtmishdan</strong> afsus (endi oʻzgarmaydi)</td>\n<td>wish + <strong>past perfect</strong></td>\n<td><em>I wish I <strong>had studied</strong> harder.</em></td>\n</tr>\n<tr>\n<td>Boshqa odam / holat oʻzgarishini istash</td>\n<td>wish + <strong>would</strong></td>\n<td><em>I wish it <strong>would</strong> stop raining.</em></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>I <strong>wish</strong> I <strong>could</strong> speak fluently now.</em> — Koshki hozir ravon gapira olsam. <em>(hozirgi imkonsiz orzu)</em></li>\n<li><em>I <strong>wish</strong> I <strong>had started</strong> earlier.</em> — Qani endi ertaroq boshlaganimda edi. <em>(oʻtmishdan afsus)</em></li>\n</ul>\n<h3><code>if only</code> — kuchliroq his</h3>\n<p><code>if only</code> <code>wish</code> bilan bir xil qolip oladi, ammo hissiyoti kuchliroq — chuqurroq afsus yoki intiq orzu:</p>\n<ul>\n<li><em><strong>If only</strong> I <strong>hadn't quit</strong> last year!</em> — Qani endi oʻtgan yili tashlab qoʻymaganimda edi!</li>\n<li><em><strong>If only</strong> I <strong>could</strong> understand fast speech.</em> — Koshki tez nutqni tushuna olsam.</li>\n</ul>\n<h3>Ingliz↔oʻzbek farqi (bu yerda xato tugʻiladi)</h3>\n<p>Oʻzbekcha &quot;koshki / qani endi&quot; bilan feʼl kelasi yoki orzu shaklida turadi. Ingliz tili esa <strong>orqaga suradi</strong>: <em>I wish I <strong>am</strong> rich</em> emas, balki <em>I wish I <strong>were</strong> rich</em> (hozirgi orzuda <code>was</code> oʻrniga koʻpincha <code>were</code>). Eng koʻp xato — oʻtmish afsusida <strong>oddiy past</strong> ishlatib qoʻyish:</p>\n<p>❌ <em>I wish I studied harder at school.</em>\n✅ <em>I wish I <strong>had studied</strong> harder at school.</em>\nSababi: oʻtmishdan afsus — <strong>wish + past perfect (had + V3)</strong>. Oddiy past faqat hozirgi orzu uchun.</p>\n<h3>Nega bu B2 darajani koʻtaradi</h3>\n<p>Afsus va imkonsiz orzuni tabiiy ifodalash — B2 ning nozik belgisi. IELTS Speaking boʻlimida <em>&quot;I wish I had travelled more when I was younger&quot;</em> yoki <em>&quot;If only public transport were cheaper&quot;</em> kabi jumla — sizni oddiy oʻquvchidan ajratib turadi. Bu grammatika A (third conditional) bilan yaqin qarindosh: ikkalasi ham oʻtmishga qaytib, &quot;boshqacha boʻlishi mumkin edi&quot; degan gʻoyani ifodalaydi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> kuniga ikkita jumla ovoz chiqarib ayting — biri hozirgi orzu, biri oʻtmish afsusi: <em>&quot;I wish I could … now.&quot;</em> va <em>&quot;I wish I had … then.&quot;</em> Allen kabi, oʻz platolaringizni afsus emas, sabr bilan qabul qiling — lekin gapirishni <code>wish</code> bilan mashq qiling.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha “koshki / qani endi” bilan feʼl orzu shaklida turadi. Ingliz tili esa feʼlni bir pogʻona orqaga suradi: hozirgi orzu → past simple (I wish I had time), oʻtmish afsusi → past perfect (I wish I had studied). “koshki … boʻlsa” = I wish + past; “qani endi … qilganimda edi” = I wish + had + V3.",
+      "errorFixUz": "❌ I wish I studied harder at school. ✅ I wish I had studied harder at school. Oʻtmishdan afsus → wish + past perfect (had + V3). Oddiy past faqat hozirgi orzu uchun ishlatiladi.",
+      "examples": [
+        {
+          "en": "I wish I had started listening to English sooner.",
+          "uz": "Qani endi ingliz tilini ertaroq tinglashni boshlaganimda edi."
+        },
+        {
+          "en": "If only I could break through this plateau!",
+          "uz": "Koshki bu platodan oʻtib keta olsam!"
+        },
+        {
+          "en": "Allen wishes he hadn't stayed in bed for so long.",
+          "uz": "Allen shuncha koʻp yotib qolmaganini istaydi (afsuslanadi)."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I wish I ___ English earlier.",
+          "options": [
+            "had started",
+            "started",
+            "start"
+          ],
+          "answer": "had started",
+          "hintUz": "oʻtmishdan afsus → wish + had + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If only I ___ speak fluently now!",
+          "options": [
+            "could",
+            "can",
+            "could have"
+          ],
+          "answer": "could",
+          "hintUz": "hozirgi imkonsiz orzu → could (can emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Allen wishes he ___ the second doctor first.",
+          "options": [
+            "had visited",
+            "visited",
+            "visits"
+          ],
+          "answer": "had visited",
+          "hintUz": "oʻtmishdan afsus → wish + had + V3"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ikkita gap ayting: biri hozirgi orzu (“I wish I could … now”), biri oʻtmish afsusi (“I wish I had … then”).",
+          "answer": null,
+          "hintUz": "hozir → wish + past; oʻtmish → wish + had + V3"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/25/main.mp3",
+      "durationSec": 808,
+      "bytes": 9694749,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/25/vocab.mp3",
+      "durationSec": 967,
+      "bytes": 11606241,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/25/ministory.mp3",
+      "durationSec": 811,
+      "bytes": 9737010,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/25/pov.mp3",
+      "durationSec": 391,
+      "bytes": 4690817,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Plateaus Main Text Hello, this is AJ, welcome to the next lesson. This one is called “Plateaus.” Now this is a subject we’ve talked about a little bit, but I want to talk more about it, this idea of plateaus. A plateau is a flat area that usually is kind of up on top of a mountain.",
+      "So, for example, you go up a big hill and you’re going up, up, up and then suddenly it’s flat and it’s a big long flat area that’s kind of high up. Now a plateau in learning is something that all of you have experienced. Because it’s normal when we learn that we learn a lot suddenly and then we have a plateau, a flat spot.",
+      "It feels like we’re not learning, right? We’re studying, we’re studying, we’re studying, but we feel like we’re not improving. And that happens for a while and then suddenly, boom, we go up again. We start learning fast, fast, fast and then another plateau, right?",
+      "We’re trying to learn and we’re studying and we’re studying, but nothing seems to be happening, another flat part. And then, boom, we go up again and we start learning very fast. And that’s the normal process of learning. We have these times where we seem to be improving very quickly and then we have plateaus where everything feels flat.",
+      "It feels like nothing’s happening. Even though we may be working very hard, we may be studying very hard, but it feels like nothing’s happening. This happens in sports a lot. So if you’re a runner and you’re training to run a race, well when you first start to run, of course you improve very quickly.",
+      "We always feel like we’re improving fastest in the beginning when we’re just starting. Because we know nothing so, of course, any improvement feels very big. But then, later, we start getting to an intermediate level and we hit a plateau, a flat area. It feels like nothing’s happening, so we keep trying.",
+      "We’re trying and we’re trying, but it feels like nothing is happening. But if we’re patient, if we keep practicing and we keep studying then, boom, we will have another fast period of growing and improving. And, again, this happens in sports, it happens in language in language learning, it happens in all kinds of learning.",
+      "And a man named George Leonard wrote about this experience in his book Mastery, so the book is Mastery and the writer, George Leonard. And I’ve mentioned him before, but I’m going to read a section again. And I want to talk about this again because plateaus can be very frustrating.",
+      "It’s one of the difficult things that most English students -- and, really, most students for any subject – encounter because it can be frustrating, it can make you feel like you’re, you know, not improving. It can hurt your motivation. So you need to be ready for plateaus.",
+      "You need to know need to know how to solve this problem: How should you feel when you have a plateau in your English learning. Because a lot of people get frustrated and then they quit and so they never become masters, they never have English mastery, they never speak excellent English.",
+      "So it’s a very important topic and I want to talk about it some more, so let me read a little more from Mastery by George Leonard and then I will talk more about this topic. Here we go.",
+      "“In preparing an Esquire Magazine special on the topic of ‘Mastery’ I decided to see if I could find a series of pictures that would illustrate the idea of mastery.",
+      "So I went through hundreds of pictures from major photo agencies and there, scattered among the usual thrill of victory, agony of defeat shots, was just what I was looking for, pictures of athletes that showed the idea of mastery. “For example, Stephen Scott making the last turn in a mile race. His face serene, his body relaxed.",
+      "Or, Greg Louganis at the edge of the diving board, his face in calm concentration. Or, Peter Vidmar doing floor exercises, his body in an impossibly strenuous position, his face composed. Or, Kareem Abdul-Jabbar launching his sky- hook basketball shot over the head of an opposing player, his face a picture of inner delight.",
+      "Now, Abdul-Jabbar is not a man of small ego and I’m sure he loved the money, the fame and the privileges his career brought him, but he loved the sky-hook more. “Goals, as I have said, are important, but they exist in the future and in the past, beyond the senses. Practice, the path of mastery, exists only in the present.",
+      "You can see it, hear it, smell it, feel it. To love the plateaus is to love the eternal now, to enjoy the inevitable spurts of progress and the fruits of accomplishment then serenely accept the next plateau that waits just beyond them. To love the plateau is to love what is most essential and enduring in your life.”",
+      "Okay, very interesting. So that’s plateaus by George Leonard from his book Mastery. And what he’s saying is that it’s fun to have a big spurt of learning, right, to learn something very quickly, but we must also learn to enjoy the plateaus. It’s good to have goals, but we have to learn to enjoy the plateaus.",
+      "We have to learn to enjoy the times when we’re just studying, just practicing and we feel like we’re not improving…we’re not improving quickly.",
+      "Now some people get frustrated during those times. If you get frustrated eventually you will quit. You just won’t learn fast. Because actually, during plateaus research has shown -- during these plateaus -- you are actually learning very quickly.",
+      "Your brain is learning so much…so much new information, but your brain is not ready to show it yet. Inside your brain many new connections are happening. You’re actually learning very, very quickly, but it’s happening subconsciously. During the plateaus you are learning subconsciously.",
+      "So you can’t really talk about what you’ve learned and maybe you can’t use it yet. So, for example, with English, during a plateau you feel like you’re not learning, but if you’re listening and listening and listening, actually you are learning.",
+      "Subconsciously your brain is understanding the grammar more and more, your brain is understanding more and more vocabulary, your brain is learning better and better pronunciation, but there’s a gap. There’s a delay between understanding and using.",
+      "So, for example, your listening will be improving very fast, but your speaking… nothing’s happening. You feel like nothing’s happening. “I still can’t speak well” and you get frustrated.",
+      "This happens with a lot of students, but the problem is they give up or they go back and they start to use old methods and they try to force themselves to speak and that only makes you learn more slowly. You have to trust the plateaus.",
+      "If you use the correct methods, if you follow the Effortless English System and you listen and you listen and you listen and you read, read, read, subconsciously you will be learning very quickly. You’ll be understanding more and more and more, but there will be a gap.",
+      "There will be a delay between your subconscious learning and then your speaking improvement. That’s why we have a six-month guarantee, not a one-month guarantee. Because it takes about six months for all of this subconscious learning to suddenly, boom, create better speech. It will happen automatically, it will happen effortlessly.",
+      "The speaking part happens automatically, you don’t need to worry about it. So it’s very important to enjoy the process. That’s what George Leonard is talking about. You must enjoy the process of learning, not just the final goal. We’ve talked about having very strong, powerful goals, that’s very important.",
+      "It’s equally important to enjoy the process of learning. Because if you have a great goal, but you hate the process, if you just hate studying, you hate listening, you’re not going to succeed, you’ll quit. Every day you have to just love listening to English. You have to enjoy the process every day, every minute.",
+      "That’s why you change your physiology. That’s why I give you interesting topics. Not just boring dialogues, not just boring textbook stuff, I’m trying to give you ideas and information that will be useful and interesting to you.",
+      "Why? So you will enjoy the process of learning English. So you will focus on the content, so you will focus on the information, not on learning the language because learning the language happens automatically.",
+      "If you listen, if you follow our system, you will learn English automatically, you will speak better automatically. So my job, as the teacher, is to make the process as interesting and fun and enjoyable as possible for you. That’s why I yell and scream. That’s why I have these crazy stories.",
+      "That’s why I pick topics that are meaningful that will help your life, not just your English. Because I know the more you find the content interesting, the more interesting and useful the topics are funnier, more crazy or loud or entertaining the stories are, the more you will enjoy the process of learning.",
+      "You’ll want to listen just because it’s fun, just because it’s interesting. So that’s what you must do, you must find English that’s fun and interesting or useful to you. You’ve got to enjoy it every day. You must be smiling as you listen to English, as you read English.",
+      "That’s what George Leonard is talking about, enjoying the plateaus, enjoying the process of your life. Not just learning English, everything you do you’ve got to learn to enjoy the process because right now this is your life. Not in the future, not in the past, right now, this is your life.",
+      "So you should be smiling now, you should be standing tall now. You should be breathing deeply now, you should be enjoying yourself now. You should be interested now, you should be excited now. You should be moving your body now, now is when the learning happens. Okay.",
+      "Well I hope you are enjoying this process step by step with effortless English. And I hope when you go and you find reading material that you’re finding interesting reading materials, fun, easy novels not boring textbooks. Please, this is so important, make sure…be sure…to enjoy the process of learning every minute, every day.",
+      "All right, I will see you next time."
+    ],
+    "vocab": [
+      "Plateaus Vocabulary Text Hello, this is AJ, welcome to the vocabulary lesson for “Plateaus.” Let’s get started. We’ve got a few vocabulary words here in this article. Let’s start with the phrase “scattered among”, scattered among. So George Leonard wrote, he said that he found some good pictures scattered among a big group of pictures.",
+      "So he said, “I found a few good pictures scattered among a pile of pictures”, so again, scattered among means mixed in with. So you have a big pile, a big group of pictures, lots and lots of them, let’s say 500 pictures and then in that group of pictures, just mixed in with it are a few good ones.",
+      "So, oh, over here, ah, there’s one and then somewhere else there’s another good one and then somewhere else there’s another one. So kind of randomly mixed is what that means scattered among. And he said “They were scattered among the thrill of victory, agony of defeat shots.”",
+      "So this is a common phrase, it comes from an old sports TV show The Thrill of Victory and the Agony of Defeat. Again, it was an old sports show and they always talked about the thrill of victory. And they showed a picture of an athlete, you know, very happy, smiling, jumping, “Yeah, I won!”",
+      "That’s the excitement of victory, the excitement of winning. Thrill means excitement. And then other times they showed pictures or videos of the agony of defeat. Agony means pain. It means strong pain, terrible pain. It’s a very powerful word. So agony is more powerful than just normal pain. It’s terrible, terrible pain, agony.",
+      "So they showed athletes who were losing or who lost a big game or they lost something. And, of course, they look really unhappy, they’re crying, they look horrible. “Oh, pain”, the agony of defeat, the pain of defeat.",
+      "So most of the pictures that George Leonard was looking at were these kinds of pictures, they were pictures either of the thrill of victory or of the agony of defeat. And he did not want that kind of picture. He wanted a different kind of picture.",
+      "He wanted a picture that showed mastery and so he found a few pictures there were not thrill of victory, not agony of defeat, they were something different. They showed mastery and they showed athletes with serene faces which, is our next word, serene.",
+      "So, he talked about a runner named Stephen Scott, had a picture of Stephen Scott finishing a mile race and his face was serene, serene. Serene means calm, very relaxed and clam. So very serene and calm, not emotional, not “Yeah, I won!”",
+      "and excited and not in agony “Oh, terrible”, no pain, just calm, very, very calm, serene, serene. So these athletes had serene faces. The masters had serene faces, calm faces. And then next he uses the word strenuous. So another master, a gymnast, named Peter Vidmar.",
+      "He found a picture of Peter Vidmar doing floor exercises – gymnastics - - and his body was in an impossibly strenuous position. Strenuous means difficult, very tough something that requires a lot of effort. So it’s the opposite of easy and lazy, right? Strenuous means, “Ah”, you’ve got to work very hard.",
+      "Usually we’re talking about physically working hard, so we talk about, for example, strenuous exercise. So, for example, walking slowly is not strenuous exercise, it’s kind of easy exercise. The opposite would be sprinting, running as fast as you can. That’s strenuous. You’re going to sweat and you’re going to “ha-ha-ha-ha” breath hard.",
+      "It’s very tough exercise, right? It requires a lot of effort, strenuous, meaning very difficult, physically difficult. So strenuous, again, strenuous means physically difficult, strenuous. So this gymnast, his body was in a strenuous position, a very difficult position, but his face was composed, composed.",
+      "Now, again, here composed means in control and calm, calm and in control. So it’s the opposite of panic. It’s the opposite of crazy. It’s the opposite of out of control; composed means very calm, controlled and composed. So this gymnast, his face again, was very calm and controlled. His face did not look like it was in pain.",
+      "He wasn’t “Oooh”, it was just calm, relaxed, in control, composed. So we can talk about someone’s face being composed. It means their face looks very clam. They look like they’re in control of their emotions. We can also just talk about someone, in general, being composed. “He’s very composed.”",
+      "It means he’s very controlled and calm, especially when something is difficult or stressful. So we have a problem, most people, “Oh my God! Oh my God!” they kind of get crazy, they get worried, they get excited, they get upset. But if someone is composed they remain calm, they remain controlled. They don’t get upset, they are composed.",
+      "All right, our next word is delight, delight. He described Kareem Abdul-Jabbar, who was a basketball player. Not now, but he used to be a basketball player. And when he was playing his face was a picture of delight. It means you could see delight on his face and delight just means happiness, happiness.",
+      "So delight means happiness, delight, delight, happiness.",
+      "Our next word is privilege or privileges. So he said “I’m sure Kareem Abdul-Jabbar loved the money and the privileges of his career.” So in the…I guess it was the ‘80s, maybe…1980s Kareem Abdul-Jabbar was a big famous basketball player and he had a lot of money. He had a lot of privileges.",
+      "Privileges are benefits, they’re benefits. So his money gave him a lot of benefits. His fame gave him benefits. Right? He could go to expensive restaurants. He could stay in expensive hotels. He could fly first class. Everybody knew him. He was famous.",
+      "These are benefits, the benefits of his career, the privileges, and the privileges of his career. So he’s saying “I know that Abdul-Jabbar loved the benefits of his career.” He loved the privileges. He loved the money, the nice food, the nice hotels, the privileges, the privileges. But Leonard said “He loved playing basketball more.”",
+      "He did love the money, he did love the fame, he did love the benefits, the privileges, but more than that he just loved playing basketball because when he played you could see on his face he was happy. All right, our next word is plateau. I explained plateau a little bit, I’ll explain it really quickly again.",
+      "A plateau has a physical meaning and it has a kind of general meaning. So the physical meaning, it’s an actual place. It’s a flat area on top of a hill or a mountain. So you go up a hill, up a mountain and then you have a big flat area like a table. That’s a plateau.",
+      "And plateau also has a very general meaning -- especially in learning -- that means a time of little or no progress. And so you’re learning fast, you’re going up, up, up and then you hit a time where you feel like you’re not making fast progress. That’s a plateau, it feels flat. All right, our next word is inevitable, in-evitable.",
+      "And Leonard says that “Of course you will enjoy the inevitable spurts of progress, but you must also enjoy the plateaus.” Okay, first, inevitable. Inevitable means unavoidable; cannot be avoided. Inevitable means something absolutely will happen, it’s automatic. Can’t be avoided, can’t be stopped.",
+      "So what he’s saying here is that fast learning is automatic, you can’t avoid it. So if you’re learning, if you continue trying to learn, if you continue to practice, you absolutely will have progress, it’s inevitable. It’s absolutely, 100%, sure.",
+      "So, again, inevitable means 100% sure, cannot be avoided, cannot be stopped, will happen automatically. All of those ideas together mean inevitable, inevitable. Progress is inevitable. It means progress cannot be avoided, progress cannot be stopped, progress absolutely will happen, 100%, definitely, sure, inevitable.",
+      "Progress is inevitable. And then he says “spurts of progress are inevitable”, so not just progress, but spurts of progress. A spurt is a sudden improvement or a sudden increase.",
+      "So, for example, we can use it with running. We say “a spurt of speed.”",
+      "It means someone’s running slowly, kind of normal rate, da-da-da, they’re running, they’re running, they’re running and then suddenly they run faster for 10 seconds, whoosh, very, very fast and then they slow down back to normal speed again. So it was a short increase in speed. That’s a spurt, a spurt of speed.",
+      "We could talk about a spurt of energy. So you have a normal level of energy, normal, normal, normal and then suddenly “Yeah! Woo-who! Yeah, yeah, yeah!” and then back to normal again, back to normal again. Well that was a spurt of energy. It was a sudden increase of energy for a short time. So that’s what spurt means.",
+      "It’s this idea of a sudden increase for a short time. So he’s saying you have spurts of progress. You’re learning, learning, learning, kind of normal speed, normal speed, little by little, little by little, then suddenly, boom, a big fast improvement.",
+      "You learn very quickly, you improve very fast, but it happens for a short time and then you go back to the plateau, back to learning little by little, step by step and then, again, another spurt and then another plateau, another spurt and another plateau. This is the normal process of learning. Our next word is serenely.",
+      "We’ve already talked about serene, so serenely obviously means calmly. Leonard says “You need to serenely accept every plateau.” You must calmly accept the plateaus. They are normal, they are inevitable, cannot be avoided.",
+      "You absolutely will have plateaus in your learning and during the plateaus you’ll learn little by little, step by step. It will feel slow, but actually, subconsciously, you are learning very quickly. That’s why the spurts will happen.",
+      "Because your brain is learning, learning, learning subconsciously and suddenly the brain puts everything together and suddenly a big new improvement, a big new understanding and you feel like “Wow! I’m going so fast!” And then back to the plateau that’s serenely. You must calmly accept the plateaus, serenely accept.",
+      "And finally, is the word enduring. He says “To love the plateau is to love what is most enduring in your life.” Enduring means lasting. Enduring means happening for a long time, not temporary. It’s the opposite of temporary, right? Temporary is something that happens only for a short time and then it’s gone.",
+      "Enduring continues to happen again and again. It stays. It does not disappear. It’s not temporary. It’s similar to permanent. Not quite as strong. Permanent is stronger, permanent means always and forever. Enduring means for a very long time; happening for a very long time.",
+      "This process of plateaus and spurts, plateaus and spurts, it’s enduring. It means it continues happening for a long time, again and again and again. It’s not a temporary situation, it’s enduring. It lasts for a long time. It continues happening for a long time. It does not disappear quickly.",
+      "That is the word enduring. And that is the end of the vocabulary lesson for “Plateaus.” Next is the mini-story."
+    ],
+    "pov": [
+      "Plateaus POV Text Hello, this is the point of view lesson for “Plateaus.” Let’s begin.",
+      "Since he was 20 Allen has had terrible back pain. He has been in agony every day. It started when he was 20 years old and it has continued and so he has been in agony every single day. He has been in agony because his back has hurt. Terrible pain, he has had terrible, terrible back pain. When did his pain begin? Well, when he was 20.",
+      "When he was 20 he began to have back pain. It has continued every day after that time. So his back pain has continued; he has been in agony this entire time, during this entire time, from 20 until recently. Well, because he has been in agony all the time he needed help. So one day he went to a doctor in Los Angeles.",
+      "He went to the doctor and he said “Please help me. My back is killing me! I am in agony.” And the doctor said “Don’t do any strenuous exercise, stay in bed.” Allen followed the doctor’s advice. He stayed in bed for 11 months, but after 11 months he was still in agony.",
+      "So next he went to a doctor in Monterey, California and the Monterey doctor said “If you are lazy and you stay in bed all day back pain is inevitable. You must exercise.” Well, Allen was in agony, he needed help and so he followed the Monterey doctor’s advice. Allen trained for a marathon, every day he ran and he ran and he ran.",
+      "Now the back pain was enduring. It continued for a long time. But, finally, the pain improved. It didn’t improve steadily. No, it improved in spurts, suddenly. Suddenly the pain improved a lot and then nothing, nothing, nothing and then again suddenly the pain improved a lot, it improved in spurts.",
+      "Finally, one day, Allen ran a marathon and he felt great. He had no pain. In fact, Allen felt serene during the entire race and he remained serene, calm and happy for the rest of his life. Okay, that is the end of our first point of view story.",
+      "The next one goes into the future, let’s begin. Next year there will be a guy named Allen. He’s going to be in agony. His back will hurt all the time. He will constantly feel pain. He’ll be in total, complete agony.",
+      "Well, finally, one day, he’s going to go to a doctor in Los Angeles and the doctor will say “Allen, don’t do any strenuous exercise, stay in bed.” Allen will follow the doctor’s advice. He’ll say in bed for 11 months, but after 11 months he’ll still be in agony. So, next, he’s going to go to a doctor in Monterey, California.",
+      "That doctor will say “Allen, if you are lazy and you stay in bed all day back pain is inevitable. You must exercise.” Allen will follow the Monterey doctor’s advice. He’ll train for a marathon every day. Every day he’s going to run and run and run, but the back pain will be enduring. It will continue for a long, long time.",
+      "Until one day, finally, it will improve, but it won’t improve steadily. It will improve in spurts, suddenly and then nothing and then another spurt. It will improve suddenly. Finally the day will come and Allen will run a marathon race. During the marathon race he’s going to feel fantastic. He’s going to feel great. He’ll have no pain.",
+      "He’ll feel serene during the entire race. And afterwards he will remain serene and calm because he will never be in agony again.",
+      "And that is the end of our point of view stories for “Plateaus.” Again, listen carefully, hear the changes and notice what’s happening, but don’t think about grammar rules, please. That will make you learn more slowly, just listen, notice, listen, notice. That’s all you need to do.",
+      "All right, I hope you enjoy these lessons and I will see you next time."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English. I'm Neil.",
+      "Catherine: Hi! And I'm Catherine.",
+      "Neil: Now, Catherine, when was the last time you went for a walk in the country for fun, for exercise or relaxation?",
+      "Catherine: People do that?",
+      "Neil: Well, believe it or not, they do.",
+      "Catherine: Interesting, people are strange.",
+      "Neil: Well, it sounds like you should pay close attention to today’s programme because it’s all about how fewer and fewer people are venturing out into the country.",
+      "Catherine: Well, I wonder if that word is part of the problem. To venture out somewhere suggests that it’s a big challenge, or even a risky activity.",
+      "Neil: I don’t think a walk in the country is a particularly dangerous activity, even in bad weather. It’s not one of the reasons people gave in a recent survey for why they don’t do it. In fact, one of the biggest reasons people gave was that it wouldn’t look good on their social media.",
+      "Catherine: Well, of course, why would you go for a walk in the rain in the country if you couldn’t get good snaps for your social media account?",
+      "Neil: Interesting you should say that because it’s the topic of this week’s quiz question. In the survey, what percentage of people gave the poor social media photo opportunity as their reason for not wanting to venture out into the countryside? Was it: a) Around 10%, b) around 30% or c) around 50%? What do you think?",
+      "Catherine: To be honest, I don’t think that would be a good excuse at all, so I’m going to say it’s just 10%.",
+      "Neil: Listen out for the answer at the end of the programme. Annabel Shackleton is from an organisation called Leaf – Linking Environment and Farming. They want to encourage more people to visit the countryside. She recently appeared on the BBC’s Farming Today radio programme. She gave her response to the survey we mentioned which revealed that many of us prefer to stay indoors. What does she say a quarter of people in the survey know and believe?",
+      "Annabel Shackleton: I can’t believe that 4 in 10 millennials think they should spend more time in the countryside and a quarter of them know and believe that it’s much better and easier to relax in the countryside but they’re just not going out. It’s phenomenal.",
+      "Catherine: She was talking about a group in the survey which she called millennials. This term refers to people who are young adults now, people who were born in the 1980s and 1990s. Are you a millennial, Neil?",
+      "Neil: No, I’m actually Generation X, the age group before millennials. We were born in the 1960s, 70s and early 80s. Shackleton said that a quarter of millennials know and believe that it’s better and easier to relax in the country, but they just don’t go.",
+      "Catherine: She thought it was phenomenal. Now this adjective means that something is incredible, unbelievable. It’s often used for something that is positive, something that is very impressive or amazing.",
+      "Neil: In this case though she is using it to say how shocked and surprised she is that people know going out in the country is good and a great way to relax but they still don’t do it. So what explanation does she have for this phenomenal behaviour. Here’s Annabel Shackleton again.",
+      "Annabel Shackleton: There are just so many other distractions and it’s just so easy for people to stay indoors. You know and they’re using excuses like they haven’t got the right clothing, it’s not instagramable, would you believe it? And yes, it’s a shame.",
+      "Catherine: She said that there are many other distractions. A distraction is something that takes your attention away from doing something. Usually we think of a distraction as something that delays us from doing something more important.",
+      "Neil: These days we have a lot of distractions or things that offer us easy entertainment. So it’s very easy to come up with an excuse for not taking the time to go outside.",
+      "Catherine: Another very good excuse of course is the weather. It’s not a lot of fun to go out if it’s cold and pouring with rain.",
+      "Neil: Well, a very wise person once said that there is no such thing as the wrong weather, just the wrong clothing!",
+      "Catherine: True, Neil, but you have to have the right clothing in the first place and if the weather is terrible you might not be able to get good pictures for your Instagram account. They might not be instagramable. Now you’re not going to find that word in the dictionary, but you probably know that the suffix able means ‘possible’. So put able on the end of Instagram and you get instagramable.",
+      "Neil: And that brings us neatly back to our question. What percentage of people in the survey said that they wouldn’t go out in the country because they wouldn’t get good pictures for social media? Was it around 10%, 30% or 50%. What did you say, Catherine?",
+      "Catherine: I said 10.",
+      "Neil: And the answer was about 30%!",
+      "Catherine: What is the world coming to?",
+      "Neil: I don’t know what the world is coming to, but we are coming to the end of the programme, so time to review today’s vocabulary.",
+      "Catherine: We started off with to venture out somewhere, which simply means to go out somewhere, but usually when the conditions are bad, for example – it was pouring with rain but I still decided to venture out to the shops.",
+      "Neil: We heard about millennials and Generation X. Different age groups, millennials are those who became adults in the early 21st century, and Generation X are from the previous generation, who became adults in the 1980s and 1990s.",
+      "Catherine: Something phenomenal is amazing, surprising and unbelievable.",
+      "Neil: And then we had distractions for activities that prevent us from doing more important things.",
+      "Catherine: And one of the biggest distractions is social media. Put the suffix able onto the end of the name of a social media platform and you create a word that describes something that is suitable for posting, so instagramable.",
+      "Neil: bbclearningenglish is certainly instagramable, facebookable, tweetable and youtubeable. You can find us on all those platforms as well as on our website. So do check us out there before joining us again for more 6 Minute English. Goodbye.",
+      "Catherine: Goodbye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Did Allen feel good?",
+        "a": "No, no, no, he felt terrible. He was in agony. He was in terrible pain. He felt terrible pain."
+      },
+      {
+        "q": "He was in what?",
+        "a": "He was in agony."
+      },
+      {
+        "q": "Who was in agony?",
+        "a": "Allen, Allen was in agony."
+      },
+      {
+        "q": "So, did Allen feel great or was Allen in pain?",
+        "a": "He was in pain. He was in agony. He felt terrible pain."
+      },
+      {
+        "q": "Why as Allen in agony?",
+        "a": "Well, because his back hurt. His back was in agony, it hurt so much, “Oooh!”"
+      },
+      {
+        "q": "What hurt?",
+        "a": "Allen’s back. Allen’s back hurt. In fact, Allen was in agony."
+      },
+      {
+        "q": "Why?",
+        "a": "Because his back hurt all the time."
+      },
+      {
+        "q": "Did his back hurt a little bit?",
+        "a": "No, not a little bit. He was in agony, terrible, horrible pain. His back didn’t hurt a little bit his back hurt a lot. He was in agony “Oooh, terrible, every day.”"
+      },
+      {
+        "q": "What did the doctor say?",
+        "a": "The doctor said “Don’t do any strenuous exercise, stay in bed.”"
+      },
+      {
+        "q": "Did the doctor want Allen to do strenuous exercise?",
+        "a": "No. No, he didn’t. He said “Don’t do any strenuous exercise.” Don’t do any tough, difficult exercise."
+      },
+      {
+        "q": "Who said “Don’t do any strenuous exercise, stay in bed?”",
+        "a": "The doctor. The doctor in Los Angeles."
+      },
+      {
+        "q": "Who did he say that to?",
+        "a": "To Allen. He said to Allen “Don’t do any strenuous exercise.”"
+      },
+      {
+        "q": "What kind of exercise did he want Allen to avoid?",
+        "a": "He wanted him to avoid strenuous exercise. He said “Don’t do any strenuous exercise, stay in bed.”"
+      },
+      {
+        "q": "Why did he want Allen to avoid strenuous exercise?",
+        "a": "Well, to help his back, to help his back pain. He wanted to help Allen heal his back pain, so he said “Don’t do any strenuous exercise, stay in bed.”"
+      },
+      {
+        "q": "Did the Monterey doctor want Allen to exercise?",
+        "a": "Yes, he did. He said “You must exercise.” He said “If you don’t exercise back pain is inevitable.” Back pain will not be avoided. Back pain is 100% sure to happen if you don’t exercise."
+      },
+      {
+        "q": "If you don’t exercise what is inevitable?",
+        "a": "Back pain. Back pain is inevitable if you don’t exercise."
+      },
+      {
+        "q": "If you don’t exercise is back pain inevitable?",
+        "a": "That’s right. It’s inevitable, unavoidable. Back pain is inevitable if you don’t exercise."
+      },
+      {
+        "q": "Is a headache inevitable if you don’t exercise?",
+        "a": "No, not a headache. A headache isn’t inevitable if you don’t exercise. Maybe you won’t get a headache, but back pain is inevitable if you don’t exercise. If you don’t exercise you will surely, 100%, definitely, have back pain. That’s what the Monterey doctor said to Allen. He said “Back pain is inevitable if you are lazy and you stay in bed all day. You must exercise!”"
+      },
+      {
+        "q": "Did his back pain continue for a long time?",
+        "a": "Yes, it did. It was enduring."
+      },
+      {
+        "q": "Was his back pain short term, temporary or long term, lasting a long time?",
+        "a": "Well, it was long term. It was enduring back pain. It continued to happen for a long time."
+      },
+      {
+        "q": "What was enduring?",
+        "a": "Allen’s back pain. Allen’s back pain was enduring. It continued for a long time."
+      },
+      {
+        "q": "Whose back pain was enduring?",
+        "a": "Allen’s, Allen’s back pain was enduring. It continued for a very long time."
+      },
+      {
+        "q": "Was it temporary or was it enduring?",
+        "a": "It was enduring. It was enduring back pain, but, still, Allen continued to run every day. He trained for a marathon every day."
+      },
+      {
+        "q": "Did Allen’s pain improve steadily?",
+        "a": "No, it did not. It did not improve steadily."
+      },
+      {
+        "q": "How did his pain improve?",
+        "a": "His pain improved in spurts, suddenly, in short spurts."
+      },
+      {
+        "q": "Did his pain improve steadily or did his pain improve in spurts?",
+        "a": "His pain improved in spurts. Suddenly it improved and then again suddenly it improved and then again suddenly it improved. It improved in spurts."
+      },
+      {
+        "q": "What improved in spurts?",
+        "a": "Allen’s pain. Allen’s pain improved in spurts."
+      },
+      {
+        "q": "How did it improve?",
+        "a": "In spurts. His pain improved in spurts. So it would improve suddenly and then nothing and then later improve again suddenly and then nothing and then later improve again suddenly and then nothing."
+      },
+      {
+        "q": "Was Allen in agony during the marathon?",
+        "a": "No, no, he was not in agony. He felt serene, he felt calm and relaxed."
+      },
+      {
+        "q": "Did Allen feel serene during the race or was he in agony during the race?",
+        "a": "He felt serene during the race, very calm."
+      },
+      {
+        "q": "Who felt serene during the marathon?",
+        "a": "Allen did. Allen felt serene during the marathon."
+      },
+      {
+        "q": "Why did he feel serene?",
+        "a": "Well, because he had no pain. He had no back pain, so he felt very serene."
+      },
+      {
+        "q": "When did Allen feel serene?",
+        "a": "During the marathon race. During the marathon he felt serene, very calm. He was not in agony anymore. He finished the race and after that he never had back pain again. Allen was serene, calm and very, very happy."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "scattered among",
+      "pos": "phrase",
+      "uz": "orasiga sochilib/aralashib ketgan",
+      "defEn": "mixed in randomly with a larger group",
+      "example": "A few good pictures were scattered among the pile."
+    },
+    {
+      "en": "the thrill of victory",
+      "pos": "phrase",
+      "uz": "gʻalaba hayajoni, yutuqning zavqi",
+      "defEn": "the excitement of winning",
+      "example": "The photos showed the thrill of victory."
+    },
+    {
+      "en": "the agony of defeat",
+      "pos": "phrase",
+      "uz": "magʻlubiyat iztirobi, yutqazish alami",
+      "defEn": "the terrible pain of losing",
+      "example": "You could see the agony of defeat on his face."
+    },
+    {
+      "en": "serene",
+      "pos": "adj",
+      "uz": "xotirjam, tinch, osoyishta",
+      "defEn": "very calm and relaxed",
+      "example": "During the race his face was serene."
+    },
+    {
+      "en": "strenuous exercise",
+      "pos": "phrase",
+      "uz": "ogʻir, kuch talab qiladigan mashq",
+      "defEn": "physically hard, demanding exercise",
+      "example": "The doctor told him to avoid strenuous exercise."
+    },
+    {
+      "en": "composed",
+      "pos": "adj",
+      "uz": "oʻzini bosgan, vazmin, tinch",
+      "defEn": "calm and in control, especially under stress",
+      "example": "His body was strained but his face stayed composed."
+    },
+    {
+      "en": "a plateau",
+      "pos": "n",
+      "uz": "plato; oʻrganishda toʻxtab qolgandek tuyulgan tekis davr",
+      "defEn": "a period of little or no progress",
+      "example": "Every learner hits a plateau at some point."
+    },
+    {
+      "en": "inevitable",
+      "pos": "adj",
+      "uz": "muqarrar, oldini olib boʻlmaydigan",
+      "defEn": "certain to happen; unavoidable",
+      "example": "With daily practice, progress is inevitable."
+    },
+    {
+      "en": "a spurt of progress",
+      "pos": "phrase",
+      "uz": "toʻsatdan, qisqa muddatli sakrash (oʻsish)",
+      "defEn": "a sudden, short burst of improvement",
+      "example": "Improvement comes in spurts, not steadily."
+    },
+    {
+      "en": "enduring",
+      "pos": "adj",
+      "uz": "uzoq davom etadigan, barqaror",
+      "defEn": "lasting for a long time; not temporary",
+      "example": "Mastery is one of the most enduring things in life."
+    }
+  ],
+  "englishpod": {
+    "id": "0203",
+    "title": "Daily Life – Calling Tech Support",
+    "titleUz": "Kundalik hayot — Texnik yordamga qoʻngʻiroq",
+    "warmup": {
+      "uz": "Bu suhbatda mijozning kompyuteri “buzilib qoladi” va u vahima qiladi; Todd esa uni tinchlantiradi: “calm down”. Bu AJ mavzusiga mos: plato paytida ham hammasi buzilgandek tuyuladi, lekin vazmin (composed) qolish kerak. Sizningcha, muammo haqiqiy virusmi yoki mijoz shunchaki vahima qilyaptimi?",
+      "en": "In this dialogue a client panics because his computer “broke”, and Todd tells him to calm down. It fits AJ's theme: on a plateau everything feels broken too, but you must stay composed. Do you think it's a real virus, or is the client just panicking?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0203/dg.mp3",
+        "durationSec": 58,
+        "bytes": 497707
+      },
+      "pr": {
+        "path": "englishpod/0203/pr.mp3",
+        "durationSec": 703,
+        "bytes": 11273319
+      },
+      "rv": {
+        "path": "englishpod/0203/rv.mp3",
+        "durationSec": 330,
+        "bytes": 5313349
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Todd",
+        "en": "Hello, thanks for calling 123TechHelp, I’m Todd. How can I help you?"
+      },
+      {
+        "speaker": "Client",
+        "en": "Hello? Can you help me? My computer! Oh man..."
+      },
+      {
+        "speaker": "Todd",
+        "en": "It’s okay sir, calm down. What happened?"
+      },
+      {
+        "speaker": "Client",
+        "en": "I turned on my laptop and it broke! I mean, the monitor went black!"
+      },
+      {
+        "speaker": "Todd",
+        "en": "Ok, sir, it sounds like you might have a virus."
+      },
+      {
+        "speaker": "Client",
+        "en": "I don’t feel sick,...let me check... Nope! No fever, I’m fine."
+      },
+      {
+        "speaker": "Todd",
+        "en": "No, your computer might have a virus, I mean, it has a bad program on it. Maybe that’s why it crashed. I recommend that you run an antivirus program in order to safely remove any unwanted spyware or Trojans."
+      },
+      {
+        "speaker": "Client",
+        "en": "Phew! . . . . . . Wait a minute, CRASH??!! Spyware? Trojans! What? where? when?!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "calm down",
+        "uz": "tinchlanmoq, oʻzini bosmoq",
+        "defEn": "to become quiet and relaxed after being upset"
+      },
+      {
+        "en": "laptop",
+        "uz": "noutbuk (koʻtarib yuriladigan kichik kompyuter)",
+        "defEn": "a small computer that is easy to carry"
+      },
+      {
+        "en": "monitor",
+        "uz": "monitor (tasvir chiqaradigan ekran)",
+        "defEn": "an electronic display that shows images"
+      },
+      {
+        "en": "virus",
+        "uz": "virus (kompyuterga zarar beruvchi dastur)",
+        "defEn": "a program designed to harm a computer"
+      },
+      {
+        "en": "to crash",
+        "uz": "ishdan chiqmoq, toʻsatdan toʻxtab qolmoq (kompyuter)",
+        "defEn": "to suddenly stop working properly"
+      },
+      {
+        "en": "antivirus",
+        "uz": "antivirus (viruslarni topib tozalaydigan dastur)",
+        "defEn": "a program that finds and removes computer viruses"
+      },
+      {
+        "en": "spyware",
+        "uz": "josuslik dasturi (yashirin maʼlumot yigʻadigan dastur)",
+        "defEn": "software that secretly gathers information about you"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180726",
+    "title": "Not going out",
+    "titleUz": "Tashqariga chiqmaslik",
+    "audio": {
+      "main": {
+        "path": "sixmin/180726/audio.mp3",
+        "durationSec": 379,
+        "bytes": 6056857,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "In the survey, what percentage of people said they wouldn't go out into the countryside because it wouldn't make good social media photos?",
+        "qUz": "Soʻrovda qancha foiz odam qishloqqa chiqmasligiga sabab qilib “ijtimoiy tarmoq uchun yaxshi surat chiqmaydi” deganini aytdi?",
+        "options": [
+          "Around 10%",
+          "Around 30%",
+          "Around 50%"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) taxminan 30%. Catherine 10% deb taxmin qildi, lekin xato qildi — dastur oxirida Neil haqiqiy raqam taxminan 30% ekanini aytadi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "to venture out",
+        "uz": "(noqulay sharoitda) tashqariga chiqmoq, chiqishga jurʼat qilmoq",
+        "defEn": "to go out somewhere, usually when conditions are bad"
+      },
+      {
+        "en": "millennials",
+        "uz": "1980–90-yillarda tugʻilgan avlod (yosh kattalar)",
+        "defEn": "people who became adults in the early 21st century"
+      },
+      {
+        "en": "Generation X",
+        "uz": "millenniallardan oldingi avlod (1960–80-yillar)",
+        "defEn": "the generation who became adults in the 1980s and 1990s"
+      },
+      {
+        "en": "phenomenal",
+        "uz": "hayratlanarli, aql bovar qilmaydigan",
+        "defEn": "amazing, surprising and hard to believe"
+      },
+      {
+        "en": "a distraction",
+        "uz": "chalgʻituvchi narsa, diqqatni boshqa yoqqa tortadigan narsa",
+        "defEn": "something that takes your attention away from what matters"
+      },
+      {
+        "en": "instagramable",
+        "uz": "Instagramga qoʻysa arziydigan (chiroyli surat boʻladigan)",
+        "defEn": "suitable or good enough to post on Instagram"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Break Through a Learning Plateau in English",
+      "channel": "Effortless English by A.J. Hoge"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about a time you felt stuck on a plateau — with English, sport, or anything. What would have happened if you had done things differently? What do you wish you had done?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: uchinchi shart (If I had …, I would have …) va wish / if only (I wish I had …; if only I could …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/25/main.mp3",
+      "bytes": 9694749
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/25/main.pdf",
+      "bytes": 167372
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/25/vocab.mp3",
+      "bytes": 11606241
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/25/ministory.mp3",
+      "bytes": 9737010
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/25/pov.mp3",
+      "bytes": 4690817
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/25/pov.pdf",
+      "bytes": 163216
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0203/dg.mp3",
+      "bytes": 497707
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0203/transcript.pdf",
+      "bytes": 97124
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180726/audio.mp3",
+      "bytes": 6056857
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180726/transcript.pdf",
+      "bytes": 235059
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

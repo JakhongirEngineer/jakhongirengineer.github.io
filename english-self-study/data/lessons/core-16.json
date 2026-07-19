@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 2,
+  "id": "core-16",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 16,
+  "slug": "big-picture",
+  "title": "The Big Picture",
+  "titleUz": "Katta manzara",
+  "level": "B1",
+  "tags": [
+    "education",
+    "learning",
+    "future-perfect",
+    "future-continuous",
+    "time-clauses"
+  ],
+  "intro": {
+    "uz": "\"The Big Picture\" — Dennis Littky kitobidan: haqiqiy oʻrganish yod olish emas, bilimni ishlatish va bogʻlashdir. AJ bugungi kichik dars emas, butun umr yoʻlini koʻrishga chaqiradi. Bu haftaning ikki grammatikasi aynan shu \"katta manzara\" tili: kelasi mukammal va davomiy zamon (will have done; will be doing) hamda payt ergash gaplari (when / as soon as / until + hozirgi zamon). Athena haqidagi POV hikoyada uzoq rejani eshitasiz.",
+    "en": "\"The Big Picture\" comes from Dennis Littky's book: real learning is not memorizing but using and connecting knowledge. AJ asks you to see not today's small lesson but the whole arc of your life. This week's two grammar topics are the language of that big picture: the future perfect and future continuous (will have done; will be doing) and future time clauses (when / as soon as / until + present). You'll hear a long plan in the POV story about Athena."
+  },
+  "canDo": {
+    "uz": "Dars oxirida kelajakning bir nuqtasidan turib rejangizni tasvirlab bera olasiz (\"By 2030 I will have reached B2; this time next year I will be speaking freely\") va uzoq rejaning bosqichlarini when/as soon as/until bilan toʻgʻri bogʻlay olasiz (when dan keyin will ishlatmasdan).",
+    "en": "By the end you can describe your plan from a point in the future (\"By 2030 I will have reached B2; this time next year I will be speaking freely\") and link the stages of a long plan with when/as soon as/until correctly (no will after when)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "future-perfect-continuous",
+      "titleUz": "Kelasi mukammal va davomiy: will have done; will be doing",
+      "titleEn": "Future perfect & future continuous",
+      "bandLifter": "IELTS Part 2 — describe future plans and where you'll be by a certain time",
+      "cefrCanDo": "B1→B2: I can say what I will have finished and what I will be doing at a future time",
+      "bodyHtml": "<p>Bu darsning nomi — <strong>&quot;The Big Picture&quot;</strong> (katta manzara). AJ butun umr yoʻlini bir qarashda koʻrishni oʻrgatadi: bugungi kichik dars emas, balki bir necha yildan keyin qayerda boʻlishingiz. Ana shu &quot;katta manzara&quot;ni ingliz tilida ikki maxsus zamon chizadi. Ular bilan siz <strong>kelajakning bir nuqtasida turib</strong>, orqaga yoki atrofga qaraysiz: <em>&quot;By 2030 I <strong>will have reached</strong> B2. This time next year I <strong>will be speaking</strong> freely.&quot;</em></p>\n<h3>1-shakl: <code>will have + V3</code> — kelajakdan orqaga qarash (future perfect)</h3>\n<p>Bu shakl — kelajakning bir vaqtiga yetib borganda <strong>allaqachon tugagan</strong> boʻladigan ish. Yaʼni siz kelajakdagi bir nuqtaga turib, undan <strong>oldingi</strong> ishga qaraysiz.</p>\n<ul>\n<li><em>By next summer I <strong>will have finished</strong> this course.</em> — Kelasi yozga borib bu kursni tugatgan boʻlaman.</li>\n<li><em>In ten years Athena <strong>will have learned</strong> 55 languages.</em> — Oʻn yildan keyin Athena 55 tilni oʻrgangan boʻladi.</li>\n<li><em>By the time you read this, we <strong>will have left</strong>.</em> — Buni oʻqiganingizga qadar biz ketib boʻlgan boʻlamiz.</li>\n</ul>\n<p>Diqqat qiling: koʻpincha <strong>by + vaqt</strong> (<em>by 2030, by next year, by the time…</em>) hamroh boʻladi — &quot;aynan oʻsha vaqtga borib&quot; degani.</p>\n<h3>2-shakl: <code>will be + V-ing</code> — kelajakda davom etayotgan ish (future continuous)</h3>\n<p>Bu shakl — kelajakning bir onida <strong>oʻrtasida boʻlgan</strong>, davom etayotgan ishni koʻrsatadi. Bir lahzani suratga olgandek: oʻsha payt siz nima qilayotgan boʻlasiz.</p>\n<ul>\n<li><em>This time next year I <strong>will be speaking</strong> English at work.</em> — Kelasi yili shu payt men ishda inglizcha gaplashayotgan boʻlaman.</li>\n<li><em>Tomorrow at 8 p.m. we <strong>will be studying</strong> together.</em> — Ertaga kechqurun soat 8da biz birga dars qilayotgan boʻlamiz.</li>\n<li><em>Don't call at noon — I <strong>will be sleeping</strong>.</em> — Tushda qoʻngʻiroq qilmang, men uxlayotgan boʻlaman.</li>\n</ul>\n<h3>Inglizcha↔oʻzbekcha farq</h3>\n<p>Oʻzbek tili bu ikki maʼnoni koʻpincha oddiy kelasi zamon bilan beradi: &quot;tugataman&quot;, &quot;gaplashayotgan boʻlaman&quot;. Ingliz tili esa ikkisini <strong>aniq ajratadi</strong>:</p>\n<table>\n<thead>\n<tr>\n<th>Maʼno</th>\n<th>Inglizcha</th>\n<th>Oʻzbekcha</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>kelajakka borib tugagan</td>\n<td><em>will have done</em></td>\n<td>...qilib boʻlgan boʻlaman</td>\n</tr>\n<tr>\n<td>kelajakda davom etayotgan</td>\n<td><em>will be doing</em></td>\n<td>...qilayotgan boʻlaman</td>\n</tr>\n</tbody>\n</table>\n<p>Xatolik — bu ikkisini oddiy <em>will do</em> bilan almashtirib yuborish. <em>&quot;By 2030 I will reach B2&quot;</em> emas, <em>&quot;I <strong>will have reached</strong> B2&quot;</em> — chunki oʻsha vaqtga borib ish <strong>tugagan</strong> boʻladi.</p>\n<h3>Nega bu B1→B2 belgisi</h3>\n<p>IELTS Speaking Part 2da &quot;kelajakdagi rejangiz&quot;ni tasvirlash koʻp uchraydi. <em>&quot;In five years I <strong>will have graduated</strong> and I <strong>will be working</strong> abroad&quot;</em> deb ayta olsangiz, darajangiz darrov koʻrinadi — siz vaqtni &quot;katta manzara&quot; sifatida boshqarayapsiz.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingiz haqingizda bittadan jumla ayting: <em>&quot;By this time next year, I <strong>will have</strong> …&quot;</em> va <em>&quot;In a few years I <strong>will be</strong> … -ing.&quot;</em> Ovoz chiqarib ayting — miya ikkala qolipni oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tili ikki maʼnoni koʻpincha oddiy kelasi zamon bilan beradi (\"tugataman\", \"gaplashayotgan boʻlaman\"). Ingliz tili esa aniq ajratadi: kelajakka borib tugagan ish — will have + V3; kelajakda davom etayotgan ish — will be + V-ing. \"by + vaqt\" koʻpincha future perfect bilan keladi.",
+      "errorFixUz": "❌ By 2030 I will reach B2. ✅ By 2030 I will have reached B2. \"by + kelajak vaqti\" bilan ish oʻsha vaqtga borib tugagan boʻladi, shuning uchun will have + V3 (oddiy will do emas).",
+      "examples": [
+        {
+          "en": "By next summer I will have finished this course.",
+          "uz": "Kelasi yozga borib bu kursni tugatgan boʻlaman."
+        },
+        {
+          "en": "This time next year I will be speaking English at work.",
+          "uz": "Kelasi yili shu payt men ishda inglizcha gaplashayotgan boʻlaman."
+        },
+        {
+          "en": "In ten years Athena will have learned 55 languages.",
+          "uz": "Oʻn yildan keyin Athena 55 tilni oʻrgangan boʻladi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "By 2030 I ___ B2 level.",
+          "options": [
+            "will have reached",
+            "will reach",
+            "reach"
+          ],
+          "answer": "will have reached",
+          "hintUz": "\"by + kelajak vaqti\" → oʻsha vaqtga borib tugagan ish: will have + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "This time tomorrow we ___ on the plane.",
+          "options": [
+            "will be sitting",
+            "will have sat",
+            "sit"
+          ],
+          "answer": "will be sitting",
+          "hintUz": "kelajakning bir onida davom etayotgan ish → will be + V-ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Don't call at noon — I ___.",
+          "options": [
+            "will be sleeping",
+            "will have slept",
+            "sleep"
+          ],
+          "answer": "will be sleeping",
+          "hintUz": "oʻsha payt ish davom etayotgan boʻladi → will be sleeping"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"By this time next year, I will have … . And I will be … -ing.\"",
+          "answer": null,
+          "hintUz": "will have + V3 (tugagan) va will be + V-ing (davom etayotgan)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "future-time-clauses",
+      "titleUz": "Payt ergash gaplari: when / as soon as / until + hozirgi zamon",
+      "titleEn": "Future time clauses (when / as soon as / until)",
+      "bandLifter": "IELTS Part 2 — sequence the stages of a long-term plan smoothly",
+      "cefrCanDo": "B1→B2: I can link future stages with when/as soon as/until using the present (no will after when)",
+      "bodyHtml": "<p>&quot;The Big Picture&quot;da AJ butun bir umr rejasini ketma-ket chizadi. POV hikoyada esa Athena haqida shunday deyiladi: <em>&quot;<strong>Since</strong> she was a puppy, Athena has wanted to be famous… <strong>until</strong> now she practises every day.&quot;</em> Katta reja doim bosqichlardan iborat: <strong>avval</strong> bir ish, <strong>keyin</strong> boshqasi. Bu bosqichlarni bogʻlaydigan soʻzlar — <strong>payt ergash gaplari</strong> (<em>when, as soon as, until, before, after</em>). Ularda ingliz tili bitta gʻalati qoidani talab qiladi.</p>\n<h3>Asosiy qoida: <code>when / as soon as / until / before + hozirgi zamon</code> (kelasi maʼnoda)</h3>\n<p>Ingliz tilida gapning bir qismi kelajakka tegishli boʻlsa ham, <strong>when, as soon as, until, before, after</strong> dan keyin feʼl <strong>hozirgi oddiy zamon</strong>da (present simple) turadi — <em>will</em> ishlatilmaydi. <em>will</em> faqat gapning <strong>asosiy</strong> qismida qoladi.</p>\n<ul>\n<li><em>When I <strong>finish</strong> this course, I <strong>will take</strong> IELTS.</em> — Bu kursni tugatganimda, IELTS topshiraman.</li>\n<li><em>As soon as I <strong>am</strong> fluent, I <strong>will apply</strong> for the job.</em> — Ravon gapira boshlashim bilan, ishga ariza beraman.</li>\n<li><em>I <strong>won't stop</strong> until I <strong>reach</strong> B2.</em> — B2ga yetmagunimcha toʻxtamayman.</li>\n<li><em>Before you <strong>speak</strong>, take a deep breath.</em> — Gapirishdan oldin chuqur nafas oling.</li>\n</ul>\n<p>Yaʼni: <strong>bir tomonda</strong> <em>will</em> (asosiy ish), <strong>ikkinchi tomonda</strong> present (payt qismi). Ikkalasida ham <em>will</em> boʻlmaydi.</p>\n<h3>Inglizcha↔oʻzbekcha farq va eng koʻp uchraydigan xato</h3>\n<p>Oʻzbek tilida ikkala qism ham kelasi zamonda boʻlishi mumkin: &quot;Tugatganimda topshira<strong>man</strong>&quot;. Shuning uchun oʻzbek oʻquvchi <em>when</em> dan keyin ham <em>will</em> qoʻyib yuboradi — bu esa xato:</p>\n<ul>\n<li>❌ <em>When I <strong>will finish</strong> the course, I will take IELTS.</em></li>\n<li>✅ <em>When I <strong>finish</strong> the course, I will take IELTS.</em></li>\n</ul>\n<p>Sababi sodda: <em>when / as soon as / until / before</em> soʻzining oʻzi allaqachon &quot;kelajak&quot; degan maʼnoni beryapti — shuning uchun feʼlga yana <em>will</em> qoʻshish ortiqcha. Qoidani shunday eslang: <strong>&quot;when dan keyin will yoʻq.&quot;</strong></p>\n<h3><code>until</code> — &quot;…gacha&quot; ni toʻgʻri berish</h3>\n<p><em>until</em> koʻpincha oʻzbekchadagi <strong>&quot;…maguncha / …gacha&quot;</strong> ga toʻgʻri keladi va u ham present zamonni oladi:</p>\n<ul>\n<li><em>Keep listening until it <strong>becomes</strong> easy.</em> — Oson boʻlmaguncha tinglashda davom eting.</li>\n<li><em>She practised until she <strong>beat</strong> every fighter.</em> — Har bir raqibini yengmaguncha mashq qildi. <em>(oʻtmishda ham xuddi shu tartib: until + oddiy oʻtmish)</em></li>\n</ul>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>Uzoq rejani ravon bogʻlash — B1→B2 belgisi. IELTSda <em>&quot;As soon as I <strong>graduate</strong>, I <strong>will look</strong> for a job, and I <strong>won't rest</strong> until I <strong>succeed</strong>&quot;</em> deb toʻxtamay ayta olsangiz, fikringiz &quot;katta manzara&quot; boʻlib eshitiladi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> kelajak rejangizni uchta jumlaga bogʻlab, ovoz chiqarib ayting: <em>&quot;When I …, I will … . As soon as I …, I will … . I won't stop until I … .&quot;</em> Payt qismini har doim <strong>present</strong>da qoldirishni mashq qiling — til shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada ikkala qism ham kelasi zamonda boʻlaveradi: \"Tugatganimda topshiraman\". Ingliz tilida esa when / as soon as / until / before dan keyin feʼl hozirgi zamonda qoladi (will yoʻq), will faqat asosiy qismda turadi. \"until\" koʻpincha \"…maguncha / …gacha\" ga toʻgʻri keladi.",
+      "errorFixUz": "❌ When I will finish the course, I will take IELTS. ✅ When I finish the course, I will take IELTS. \"when\" soʻzining oʻzi kelajakni bildiradi, shuning uchun undan keyin will qoʻshilmaydi — \"when dan keyin will yoʻq\".",
+      "examples": [
+        {
+          "en": "When I finish this course, I will take IELTS.",
+          "uz": "Bu kursni tugatganimda, IELTS topshiraman."
+        },
+        {
+          "en": "As soon as I am fluent, I will apply for the job.",
+          "uz": "Ravon gapira boshlashim bilan, ishga ariza beraman."
+        },
+        {
+          "en": "I won't stop until I reach B2.",
+          "uz": "B2ga yetmagunimcha toʻxtamayman."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "When I ___ the course, I will take the exam.",
+          "options": [
+            "finish",
+            "will finish",
+            "finished"
+          ],
+          "answer": "finish",
+          "hintUz": "when dan keyin will yoʻq → hozirgi zamon: finish"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "As soon as she ___ home, she will call you.",
+          "options": [
+            "gets",
+            "will get",
+            "get"
+          ],
+          "answer": "gets",
+          "hintUz": "as soon as + he/she/it → hozirgi zamon + -s: gets"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I will keep practising ___ it becomes easy.",
+          "options": [
+            "until",
+            "when will",
+            "since"
+          ],
+          "answer": "until",
+          "hintUz": "\"…gacha / …maguncha\" → until (+ hozirgi zamon: becomes)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Kelajak rejangizni bogʻlab ayting: \"When I …, I will … . As soon as I …, I will … . I won't stop until I … .\"",
+          "answer": null,
+          "hintUz": "payt qismi hozirgi zamonda, asosiy qism will bilan"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/16/main.mp3",
+      "durationSec": 1088,
+      "bytes": 13066040,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/16/vocab.mp3",
+      "durationSec": 538,
+      "bytes": 6461740,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/16/ministory.mp3",
+      "durationSec": 773,
+      "bytes": 9282183,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/16/pov.mp3",
+      "durationSec": 438,
+      "bytes": 5260759,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ. Welcome to the next lesson. This one is called “The Big Picture.” And it comes again from a book called The Big Picture. And The Big Picture is by a man named Dennis Littky. Now Littky is spelled L-i-t-t-k-y, Dennis Littky. The name of the book is The Big Picture. I love this book. This is a book about education and Mr.",
+      "Littky is an extremely interesting guy. He is just a fantastic teacher, a fantastic educator. Mr. Littky used to be a teacher and then he became a principal of a middle school. Actually I think he started as a principal of an elementary school and then later a middle school, public school, just a normal public government school.",
+      "Well, he created an incredible school at his first school, just an amazing school. There were articles written about his school. It just became so famous because this school had a lot of low income students, students from poor families. So this was not in some rich neighborhood with a lot of money. And before Mr.",
+      "Littky became the principal, the school was having a lot of problems. But he came in and he changed everything. He changed the teachers. He hired only passionate, excited, energetic teachers, but not only that. He changed the whole system. He stopped focusing on testing. He stopped focusing on grades.",
+      "He focused on the students as human beings. He wanted his students to grow as people. Not just to memorize a bunch of facts, but to really learn how to think. And even more importantly how to use their thinking and use their knowledge. So for example, most of his classes were project-based.",
+      "In other words, the students did not study textbooks and take tests, no, no, no. What they did is they created a project. And each project was individual. Each student chose a project or projects based on their own interests. And of course the teachers helped to guide these projects and structure them.",
+      "So for example, if one child really loved dinosaurs they would create a project about dinosaurs. The teachers, the math teachers, the science teachers, etc. , the English teachers, would help that student learn math, learn science, learn English, learn history, learn everything, all focused on dinosaurs because this kid loved dinosaurs.",
+      "So they would use dinosaurs to teach math, for example. Maybe they had to learn how to calculate the size of a dinosaur’s bones or something. I don’t know exactly how they did it, but they used the students’ individual passions to teach. And the students had to do these incredibly, amazing, huge, difficult projects. These were not easy.",
+      "They were really tough. But the kids were very passionate about what they were doing. And another thing that Dennis Littky did, he involved the community. His school had mentors, advisors, helpers, from the community…parents, especially parents, but also experts.",
+      "So for example, if a kid really loved dinosaurs or maybe a whole class was really interested in dinosaurs, they brought experts from museums, from universities to www.",
+      "teach these kids very advanced stuff about dinosaurs, including math and science, everything. And so the kids were so excited. They learned to love learning again. They became passionate about learning. No more bullshit tests. At the end of their big projects they had to give demonstrations, presentations.",
+      "This is what happens in the real world, right? If you’re at a job you don’t take a test…A, B, C, D. What you usually do is you have some project at your job and when you finish the project you present the project to your customers or to your boss or to somebody. You stand up or in writing you have to present “Here’s what I did.",
+      "Here were the results.” Well, that’s what the kids do. In front of all the class, including parents, they stand up and they give these long demonstrations, exhibitions, presentations. And that’s how they’re graded, based on their presentations, based on what they learned…not some stupid test.",
+      "The most powerful thing about this is, guess what? These students still had to take certain tests. The government said they must take them. His students were fantastic on the tests. They never took tests during their normal school time. They never focused on the tests. They never prepared for the tests.",
+      "But what happened is these kids learned to love learning. They learned so much more with his methods. And his school became the top school in the state on the tests, even on the tests…interesting.",
+      "Whereas the other schools that were focused on the test…test, test, test, test…all the time, textbooks and tests, textbooks and tests, they actually performed less well even on the tests. What’s even worse is the normal schools, not only did they worse on the tests, the kids were bored. They didn’t like learning.",
+      "The teachers had no energy. They were bored. It’s just amazing. Now even better, here’s what Dennis Littky did after that. He decided he still couldn’t do everything he wanted to do at a public school so he created his own schools. They’re called the Met schools, M-e-t. And these Met schools are private schools.",
+      "However, they are not private schools for rich people. In fact, most of the students are poor, not rich. But they’re still very tough. They don’t accept everybody. They have to interview to get into the school. Every student has to interview to get into the school. They have to talk about their passions.",
+      "They have to talk about why they want to join the school. There has to be some motivation for the students and the parents. The parents also have to interview. It’s not about money, it’s about passion. And these schools are absolutely fantastic. They’re probably the best schools in the United States.",
+      "He’s got a high school and a middle school…I don’t know…I think he has an elementary school, too. I don’t know, they’ve got different schools around the country now. I’m not sure how many. He’s got a website. Do a search for Dennis Littky or for The Big Picture and you can read more about it.",
+      "So anyway, in his book he writes a little bit about learning. It’s a fantastic book. If you’re a teacher or if you’re a parent, I highly recommend this book. Let me read a little bit from the book. Here we go: www.",
+      "“Real learning is not memorizing knowledge. It’s understanding and knowing how to use and find knowledge. Learning is what you do with knowledge, how you integrate it, how you talk to your family, friends and classmates about it. That’s what learning is.",
+      "As noted psychology and education expert Seymour Sarason reminded me recently, it’s similar to psychologist’s belief that patients don’t get better during their therapy but between their therapy times. Students likewise don’t learn so much during class as they do between classes. That’s where the real learning happens.",
+      "Now, I’m not suggesting we throw out everything schools do now, but I’m suggesting that we look more deeply at what we define as learning. I’m suggesting we be honest and try different things and see what works. Learning is about learning how to think.",
+      "My new friend, Tom Magliozzi, from National Public Radio’s popular Car Talk show has a lot to say about what learning really is. One of my favorite parts of his book is when Tom, a man with a Ph. D.",
+      "in chemical engineering from MIT says this: ‘It seems to me that schools primarily teach kids how to take tests which is a skill that one hardly uses in real life unless one is a contestant on a quiz show. Elementary school prepares kids for junior high. Junior high prepares them for high school. High school prepares them for university.",
+      "University prepares them for graduate school. So the goal of schools, if we can call it that, is simply to prepare kids for more school. ’ Okay, so interesting, huh? Very nice, I love that section of his book. I love his whole book. But he’s absolutely right.",
+      "The traditional schools you went to when you learned English in middle school or high school or university, they were the same. They were not preparing you for life. They were not teaching you how to learn. They were certainly not helping your passion. They were not increasing your passion for learning.",
+      "Probably they were killing your passion for learning. All that schools were really doing were preparing you for more school. They were preparing you to take tests. Guess what. When you leave school, do you take many tests? At your job right now…do you take tests every day, every week? Do they give you a test…choose A, B, C, D?",
+      "And your boss gives you a grade, “Oh, congratulations, you got a 90% on your test. Here’s more money for your job.” Of course not. School is sort of a bullshit environment that is only appropriate for school. That’s why we have so many bored students. That’s why students hate school. It’s not because of the internet.",
+      "It’s not because of TV. It’s because kids are smart. Maybe they’re smarter now today, I don’t know. Kids are smart. They know that what’s happening in school is bullshit. They know their classes are bullshit. They know their teachers are also full of shit. I mean I figured that out when I was in middle school, I think.",
+      "I was a slow learner. It took me a long time to figure it out. A lot of smart kids today, they figure it out when they’re in first grade or they’re really young. www.",
+      "But it’s true, what you learn in school, how much of what you learned in school do you actually use now? I’m glad I learned to read. I’m glad I learned basic math. Other than that, most of what I find useful in terms of knowledge, in terms of skills, in terms of abilities, I learned by myself.",
+      "I learned because I love learning, because I have read so many books outside of school. And I have met so many great teachers outside of school. That’s where all my incredible learning has happened. Not in school. So it’s just terrible what we’re doing with education. It’s all over the world. It’s in the United States. It’s horrible.",
+      "I taught in public schools in Japan. They are terrible. They’re terrible in Thailand. They’re terrible in Europe. They’re terrible everywhere, because they’re focused on tests. They’re focused on preparing kids for more school. And then you get out in the real world.",
+      "You get out in the world of jobs and suddenly you have to do something completely different. Suddenly you have to actually perform. You actually have to do things. You have to communicate. You have to have good relations with other people. You have to learn by yourself. You have to do research. You have to find the knowledge.",
+      "And you have to have, most of all, some kind of energy and passion and leadership. That’s what success is in the real world. That’s what gives you success in the real world. In school those things get punished. Passion in school, that’s usually the kid who’s getting in trouble all the time.",
+      "The kid who has too much energy, the kid who has too much passion, right? The kid who asks too many questions, they get in trouble. The kids who sit there quietly, bored, doing what they’re told. They do well in school. They do very badly in the real world. So Dennis Littky is saying we’ve gotta change our schools.",
+      "We’re not living in the 19th century anymore. We’re not living in the 20th century anymore. We’re not preparing kids for factories now. We need kids and adults to be able to think creatively, imaginatively. We need people who can communicate, who can stand up in front of a group and communicate with intelligence and passion.",
+      "People who can create things, people who can build teams, people who know how to find knowledge…you don’t need to memorize it. You just need to be able to find it. Albert Einstein talked a lot about that. He said intelligence is being able to find knowledge, knowing how to find it. Not memorizing it. For example, phone numbers.",
+      "You don’t need to memorize the phone book. You just need to know how to use it. And the internet is a great tool for that. We don’t have to memorize all these facts. If I want to know a fact from U. S. history, I don’t need to memorize it. I can just get on the internet and find it.",
+      "When was the American Declaration of Independence signed, what exact day? Well, we all learn that in school and of course we all know that. But if I didn’t know it, I could get on the internet, I could find it in about 30 seconds. You could, even if you’re from any country in the world, you never learn that.",
+      "Very easy for you to find that information. So what we have to be doing is learning how to find facts, not trying to memorize them. That’s why we have computers. What we have to focus on is learning how to use our www.",
+      "brains. Learning how to learn, learning how to find knowledge, learning how our brains work, that’s what we really need to do. That’s true learning. And that’s what we’re trying to do. That’s what I’m trying to do at Effortless English for you, adult learners. Most of you unfortunately have been through a lot of bad school experiences.",
+      "You’ve been through these horrible schools. Well, I’m trying to destroy those experiences. I’m trying to give you something completely new and different. I am trying to awaken your passion for learning again. That is my mission. That’s why I’m yelling. That’s why I jump around. That’s why I have so much energy in my voice.",
+      "That’s why I tell these crazy stories. It’s because I’m trying to wake you up. Wake up! Learning is incredible. It’s not school. It’s not that bullshit. Learning is what you are naturally programmed to do. It’s what your brain wants to do. Your soul wants to learn. So I hope I’m doing a good job.",
+      "I’m sorry I’ve been yelling all the time but I hope I’m doing that. I hope I’m waking up your desire, your love for learning. Alright, I will see you next time. On to the vocabulary lesson. www."
+    ],
+    "vocab": [
+      "Hello, this is AJ. Welcome to the vocabulary lesson for “The Big Picture.” I’ve got some good news. This is a pretty easy article so the vocabulary lesson is quite short. Yay! Let’s start it. Our first word is memorize. Dennis said real learning is not memorizing knowledge. Real learning is knowing how to use and find knowledge or facts.",
+      "To memorize means to remember. It really means to force yourself to remember…force to remember. Make yourself remember. Force yourself to remember. That’s memorizing. For example, you have a word list and you want to memorize the meaning of each word. So you repeat it again and again and again and again and again. Memorize means remember.",
+      "Memorize means remember. Memorize means remember. Memorize means remember. Force to remember, force to remember, force to remember, force to remember. Memorize means force to remember. Memorize means force to remember. That’s the memorization technique. Memorization is the noun.",
+      "You are memorizing the meaning…just repeating again, again, again, again. You are memorizing the word and its meaning. So we don’t memorize here. Do not do that. Just listen to the vocabulary. Don’t try to study it, okay? We don’t study at Effortless English. We listen and we enjoy. That’s all.",
+      "So you listen to the vocabulary a few times and then you listen to the other lessons. The other lessons are the most important. Don’t try to memorize. Don’t force yourself to remember. It’ll happen. You will remember automatically with our method, don’t worry. Our next word is integrate.",
+      "Dennis says real learning is knowing how to integrate knowledge and use it. To integrate means to mix or combine or merge. It means you’re putting things together, putting things together…mixing…so to integrate means to mix. And what it means is, it means you learn something new, it’s not enough.",
+      "You have to combine it, you have to mix it with everything you already know, right? You already know a lot of things then you learn something new. You have to combine the new thing with the old knowledge. You are mixing them together. You’re seeing how they go together. You see how they fit together. How they integrate, how they mix.",
+      "So integrate has this idea of mixing and combining, putting things together in a useful way. So to integrate…again, to integrate…put together, mix together in a useful way, in an effective way. That’s integrate. Our next word is noted. Noted, he says as noted psychology expert Seymour Sarason said…and then he tells you what he said.",
+      "Noted psychology experts, so Seymour Sarason is a noted psychology expert. Well, noted just means famous, that’s all it www.",
+      "means. Noted means famous or well-known. And it also has this idea of skillful, someone who is good at what they do. So it’s not famous, it’s not like a movie star famous, like everybody knows them. That’s not noted. Noted means famous because they’re good at something.",
+      "So Seymour Sarason is a very good psychologist so Seymour Sarason is a famous psychologist. Not in all of the world, but psychology people, they know this person. So again noted has this idea of being famous and also has the idea of being an expert. So he is actually kind of repeating himself, he says noted psychology expert.",
+      "So noted also has this idea of being an expert. You’re famous because you’re an expert. Alright, our next word is therapy, therapy. So Seymour Sarason said that patients don’t get better during therapy, they get better between therapy sessions, therapy times. Therapy just means a cure. It’s a healing treatment, a healing action.",
+      "So for psychologists, right, they sit and they talk to the patient. The patient is depressed, for example, feels very sad. The psychologist talks to the patient, helps the patient feel better. That’s therapy. That process is therapy. It’s a cure, it’s a healing treatment. The psychologist is trying to heal, trying to cure the patient.",
+      "And the process, the action of doing that is called therapy, therapy. So the psychologists they think, they believe that actually the patients get better between the therapies.",
+      "It’s not the time that they sit and talk, it’s after…after the patient thinks about it and after the patient changes their behavior and after the patient changes their beliefs, changes their ideas. So that’s when most of the learning is really happening for the patient. Not during the time they talk to the psychologist.",
+      "So he’s comparing this to school. He’s saying that it’s the same for students. Students actually learn more outside class than they do inside the class. Our next word is primarily, primarily. So this is the quote from Tom Magliozzi, he’s talking about what do schools do. Schools just prepare you for more schools.",
+      "He says “It seems to me that schools primarily teach kids how to take tests.” Primarily means firstly, or mostly. It really has this idea of mostly. That’s what they mostly do. Mostly, primarily, schools teach kids how to take tests, and adults, too. So they mostly teach kids and adults how to take tests.",
+      "They primarily teach kids and adults how to take tests. So again, primarily means mostly, mostly or firstly. And finally, our last word for the vocabulary lesson this time, contestant, contestant. Contestant, he says that taking tests is a skill that no one uses unless they are a contestant on a quiz show.",
+      "A quiz show is a game show like a TV show where you take a test and then you win some money. So that’s the only time we take tests when we’re adults. In the real world we almost never take tests. Only in school, only for school do we do it.",
+      "So a contestant on a quiz show, a contestant on a game show…contestant means player, someone who’s playing on the show. Or participant…someone who is participating on the show. So contestant means participant or player or competitor. So www.",
+      "again, contestant means player or participant or competitor. They’re all similar meanings. So the only people who need the skill of taking tests, the only time that skill is useful is if you are a player, a contestant on a game show, on a quiz show. And of course, that’s not many people. He’s kind of joking. It’s a joke.",
+      "Alrighty, well that’s the end of the vocabulary lesson for “The Big Picture.” Let’s keep going on to the mini-story. www."
+    ],
+    "pov": [
+      "Hello, welcome to the point of view stories for “The Big Picture.” Let’s get started, same story about that amazing dog Athena.",
+      "Well, since she was a puppy, Athena has wanted to be the most famous dog in the world. It started when she was a puppy. Now, of course, a puppy is a baby dog. We don’t say baby dog, we say puppy. So since she was a baby, since she was a puppy, Athena has wanted to be the most famous dog in the world. She wanted that.",
+      "When she was young she would think about it. In fact, she has been memorizing songs since she was a puppy. She has been memorizing songs since she was a puppy. She started when she was a puppy. She has been memorizing songs since she was a puppy.",
+      "Now she knows 92,000 songs but she has been memorizing songs, one by one, since she was a puppy. She has been practicing the piano since she was a puppy. It took time, right? She had to practice a long time. So she has been practicing the piano. She started when she was a puppy. She continued, continued, continued until now.",
+      "She still practices the piano every day. So she has been practicing the piano since she was a puppy. And she has been practicing the guitar since she was a little older, but still a long time. So she has been practicing the piano since she was a puppy. She has been practicing the guitar for a long time, for many years.",
+      "Starting many years ago, continuing until recently. She has been practicing fighting for a long time. For many years she has been training and practicing. It didn’t happen suddenly one day. No, no, no, no, no. She has been practicing boxing for a long time, for many years. She has been going to the boxing gym.",
+      "She has been practicing, practicing, practicing. And then finally, of course, she started to beat other fighters. And finally she beat 6,022 boxers, 6,022 fighters, she beat them all. And finally, she has been learning languages only a couple years, actually. Two years ago she started.",
+      "So since two years ago she has been learning languages. In that time she has learned 55. In only two years she has learned 55 languages. Wow. Amazing doggy! www.",
+      "Finally, just last year she became the President of the United Nations. And one month later she ended all wars on earth. Everyone was happy. Everyone loved Athena the dog. Athena became the most famous dog in the world.",
+      "Okay, that is the end of our first point of view story. That one didn’t change until almost to the end. Interesting. You don’t need to know why consciously. Just listen carefully and notice. That’s all you need to do. Relax and notice. Our next one, into the future. I’m going to imagine this special doggy.",
+      "This is going to happen in the future. It hasn’t happened yet. This will happen in the future, maybe in 100 years when dogs can all talk. Because in 100 years dogs will all be able talk, of course. Let’s start.",
+      "In 100 years, 100 years from now, there will be a special dog. Her name will be Athena. Athena will be the most famous dog in the world. Why? Well because, first she’s gonna memorize 92,000 songs and she’s gonna play them all on the piano perfectly. That’s not all. She’ll also learn the guitar, too.",
+      "She’ll integrate the guitar with the piano. She’s gonna integrate the guitar with the piano and play them both at the same time, all 92,000 songs perfectly. That’s not all. She’ll also become a contestant in boxing matches. Not a normal contestant, she’s gonna kick ass. To kick ass means to do a great job.",
+      "It means to beat other people or to win or to just do a fantastic job. So Athena is going to become an amazing contestant in boxing matches. She will win 6,022 boxing matches. She’s gonna win all of them. But there’s more. She’s also gonna learn 55 languages, perfectly. She’ll become a noted linguist. Who will become a noted linguist?",
+      "Athena, Athena’ll become a noted linguist. And did you hear that? Athena’ll, it’s really hard to hear sometimes. I’ll say it again. Athena’ll become a noted linguist. She will become a noted linguist, a famous linguist. But that’s not all. Finally she’s gonna become the President of the United Nations.",
+      "She’ll become the President of the UN. And she will end all wars on earth. Everyone will be happy. Everyone will love Athena. And, of course, she will be the most famous dog in the world. www.",
+      "And that is the end of the point of view stories for The Big Picture. I’ll see you next time. Bye bye. www."
+    ],
+    "sixmin": [
+      "Alice: Hello and welcome to 6 Minute English. I'm Alice…",
+      "Neil: And I'm Neil. I'm feeling a bit chilly today, Alice.",
+      "Alice: Yes, it is unseasonably cold today – which means not normal for the time of year. But the weather is very unpredictable these days.",
+      "Neil: I know what you mean.",
+      "Alice: Well, global warming is the subject of today's show.",
+      "Neil: Is global warming really something to worry about? Some people say that the Earth has warmed up in the past and nothing terrible has happened.",
+      "Alice: The Earth has warmed up before, but this was the result of things like wobbles in the Earth's orbit, not because of an increase of greenhouse gases in the atmosphere.",
+      "Neil: Can we reverse the changes?",
+      "Alice: No, it's too late, and now we have to find ways to adapt to extreme weather, rising sea levels, and melting polar ice caps. However, we can mitigate greenhouse gas emissions – or make them less harmful. But before we talk more about this, I have a question for you. How much has the average temperature of the Earth's surface increased in the last hundred years? Is it… 2016 a) 0.85°C? b) 1.85°C? Or c) 8.5°C?",
+      "Neil: I'm gonna go for the big one a) 8.5°C.",
+      "Alice: Well, we'll find out if you got the answer right later on, Neil. But first, do you know any ways to mitigate greenhouse gas emissions?",
+      "Neil: I do, actually. An Argentinian company has started collecting cow … emissions and converting them into usable energy.",
+      "Alice: Well, as the world eats more meat, methane emissions from livestock are actually becoming a bigger climate concern.",
+      "Neil: And one day's worth of cow emissions provides energy to run a car for 24 hours.",
+      "Alice: OK, moving on now, so the world is going to have to adapt to global warming since we can't turn back the clock on climate change. And rich countries have the resources to do this, whilst poorer countries don't. Let's hear from Saleemul Huq, Director of the International Centre for Climate Change and Development in Bangladesh, talking about how this problem is being addressed.",
+      "INSERT: Saleemul Huq, Director, International Centre for Climate Change and Development in Bangladesh Saleemul Huq: The rich countries have already pledged and promised a hundred billion dollars a year, starting from 2020, to cover all kinds of climate change activities which in climate change are either going to be called mitigation or adaptation. Owen Bennett Jones: A year? But that's an enormous sum of money! Saleemul Huq: Not that enormous compared to what they gave to the banking system when it collapsed. Climate change is a much bigger problem than the banking crisis.",
+      "Neil: Saleemul Huq interviewed on the BBC World Service programme Newshour Extra. Well, he says rich countries have pledged – or promised – to deliver a hundred billion dollars a year to help poorer countries adapt to climate change. However, he suggests that this sum 2016 could have been larger – since more money than this was donated to resolve the banking crisis.",
+      "Alice: For example, after the devastating effects of Hurricane Sandy, New York City invested ten billion dollars on storm defences to protect Manhattan – and Wall Street.",
+      "Neil: And where lack of water is a problem, countries like Australia, China, and Spain, have built desalination plants, which remove the salt from seawater to produce drinking water. But it's too expensive for developing countries to do this, even though they need them.",
+      "Alice: So in relative terms, one billion dollars a year to help poor countries is a small sum of money when compared to their need. Countries like Bangladesh have developed homegrown technologies – which means produced locally – such as harvesting rainwater from their rooftops.",
+      "Neil: OK, Alice, and thinking about certain radical proposals for adaptation – did you know there's a Dutch company that wants to build floating cities for us to live in?",
+      "Alice: No, I didn't.",
+      "Neil: Yeah. Plans include 15-storey high-rise buildings and floating food production.",
+      "Alice: It sounds like it would be incredibly expensive. Has anyone actually built one?",
+      "Neil: No, not so far. Let's hear from Mark Maslin, Professor of Climatology at University College London, talking about why this might be.",
+      "INSERT: Mark Maslin, Professor of Climatology at University College London Remember, we're going to have 9.5 billion people by the middle of this century. Now, if you think about it, think about the logistics of building a city, floating, for say, ten million people. And then multiply that up to 60 per cent of 9.5 billion people. OK? So [I] don't think it's really cost-efficient.",
+      "Neil: 2016 So in practical terms, the logistics of building a large floating city probably couldn't work. It wouldn't be cost-efficient – or good value for the money you paid.",
+      "Alice: And logistics means the organization of a complex activity.",
+      "Neil: On the other hand, the logistics of teaching farmers in Bangladesh to breed ducks instead of chickens, for example, would be relatively simple and cost-efficient – and since ducks float and chickens don't, it's a sensible adaptation to climate change!",
+      "Alice: That's a great example, Neil! Now, I think it's time for the answer to today's quiz question. I asked: How much has the average temperature of the Earth's surface increased in the last hundred years? Is it… a) 0.85°C, b) 1.85°C or c) 8.5°C?",
+      "Neil: And I said c) 8.5°C and I know I'm wrong.",
+      "Alice: Yes, I'm afraid you are Neil. The right answer is actually 0.85°C. And did you know that 13 of the 14 warmest years were recorded in the 21st Century?",
+      "Neil: I did not know that, Alice. But I do know which words we learned today. They are: unseasonably mitigate pledged desalination homegrown cost-efficient logistics",
+      "Alice: And that's the end of today's 6 Minute English. Don't forget to join us again soon!",
+      "Both: Bye! 2016",
+      "Vocabulary: unseasonably not normal for the time of year mitigate make them less harmful pledged promised desalination removing the salt and other minerals from sea water homegrown produced locally cost-efficient good value for the money you paid logistics the organization of a complex activity"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who was the most famous dog in the world?",
+        "a": "Athena, Athena was the most famous dog in the world."
+      },
+      {
+        "q": "Was she the most famous dog in the world or was she the most famous cat in the world?",
+        "a": "Of course, Athena was the most famous dog in the world."
+      },
+      {
+        "q": "Where was she the most famous dog?",
+        "a": "In the world, in all of the world. She was the most famous dog in all of the world."
+      },
+      {
+        "q": "Why was she so famous?",
+        "a": "Well, I’ll tell you."
+      },
+      {
+        "q": "How many songs did Athena memorize?",
+        "a": "She memorized 92,000 songs."
+      },
+      {
+        "q": "Did she memorize 97,000 songs?",
+        "a": "No, she didn’t. She didn’t memorize 97,000 songs. She memorized 92,000 songs."
+      },
+      {
+        "q": "How many did she memorize?",
+        "a": "92,000, she memorized 92,000 songs."
+      },
+      {
+        "q": "What did she memorize?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "And how did she play the songs, on what?",
+        "a": "On the piano, she played 92,000 songs on the piano."
+      },
+      {
+        "q": "Who memorized 92,000 songs?",
+        "a": "Well, of course, Athena the most famous dog in the world memorized 92,000 songs and played them all on the piano. Amazing."
+      },
+      {
+        "q": "What did she also learn?",
+        "a": "The guitar, she also learned to play the guitar."
+      },
+      {
+        "q": "Could Athena play 92,000 songs on the guitar?",
+        "a": "Yes, she could. She could play 92,000 songs on the guitar and she could play 92,000 songs on the piano. In fact, she integrated the guitar with the piano. She played both at the same time."
+      },
+      {
+        "q": "Did she combine the guitar with the piano?",
+        "a": "Yes, she did. She mixed them. She combined them. She did both together. She integrated her guitar skill and her piano skill. She put them together. She mixed them in a useful way."
+      },
+      {
+        "q": "What did Athena integrate?",
+        "a": "She integrated her guitar playing with her piano playing."
+      },
+      {
+        "q": "Did she integrate her guitar playing with her car driving?",
+        "a": "No, no, no, no…she did not. In fact, she never played the guitar while driving. It’s too dangerous. She integrated her guitar with piano playing. She played her guitar and the piano at the same time. She integrated these two skills."
+      },
+      {
+        "q": "Who integrated the guitar with the piano?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did she become a contestant, a competitor, a player in boxing matches or in basketball games?",
+        "a": "Well, in boxing matches…she became a contestant in boxing matches."
+      },
+      {
+        "q": "What kind of matches?",
+        "a": "(And a match is just like a fight, a match is a fight, so in boxing fights.) She became a contestant in boxing fights. She became a contestant in boxing matches."
+      },
+      {
+        "q": "Was she a contestant in boxing matches?",
+        "a": "Yes, she was."
+      },
+      {
+        "q": "What was she a contestant in?",
+        "a": "Boxing matches, she was a contestant in boxing matches."
+      },
+      {
+        "q": "What kind of matches, what kind of fights was she a contestant in?",
+        "a": "Boxing, boxing matches…fighting matches."
+      },
+      {
+        "q": "How many fights did Athena win?",
+        "a": "Well, she won every fight. In fact, she won 6,022 fights."
+      },
+      {
+        "q": "Did she become an expert linguist, an expert language learner?",
+        "a": "Yes, she did. She became a noted linguist, a famous expert linguist."
+      },
+      {
+        "q": "What kind of linguist was she?",
+        "a": "She was a noted linguist, a famous expert linguist."
+      },
+      {
+        "q": "How many languages could Athena speak perfectly?",
+        "a": "55, Athena could speak 55 languages perfectly. She was a noted linguist."
+      },
+      {
+        "q": "Who was a noted linguist?",
+        "a": "Athena, Athena was a noted linguist."
+      },
+      {
+        "q": "Was she a noted piano player?",
+        "a": "Well, yes in fact she was."
+      },
+      {
+        "q": "Why was she a noted linguist?",
+        "a": "Well, of course, because she could speak 55 languages perfectly. That’s why she was a noted linguist."
+      },
+      {
+        "q": "Who became the President of the United Nations?",
+        "a": "Athena, Athena the dog, the most famous dog in the world."
+      },
+      {
+        "q": "What did she do?",
+        "a": "She ended all wars on earth."
+      },
+      {
+        "q": "Who ended all wars on earth?",
+        "a": "www.EffortlessEnglishClub.com"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "the big picture",
+      "pos": "idiom",
+      "uz": "katta manzara, umumiy koʻrinish (mayda tafsilotlar emas)",
+      "defEn": "the whole situation, not just small details",
+      "example": "Don't focus on the test — look at the big picture."
+    },
+    {
+      "en": "to memorize (knowledge)",
+      "pos": "v",
+      "uz": "yod olmoq (oʻzini majburlab eslab qolmoq)",
+      "defEn": "to force yourself to remember something",
+      "example": "Real learning is not memorizing facts."
+    },
+    {
+      "en": "to integrate (knowledge)",
+      "pos": "v",
+      "uz": "bogʻlamoq, qorishtirmoq, birlashtirmoq",
+      "defEn": "to mix or combine things together in a useful way",
+      "example": "You have to integrate new words with what you already know."
+    },
+    {
+      "en": "a noted expert",
+      "pos": "phrase",
+      "uz": "taniqli, obroʻli mutaxassis (ishida usta boʻlgani uchun)",
+      "defEn": "a well-known and skilful expert",
+      "example": "Seymour Sarason was a noted psychology expert."
+    },
+    {
+      "en": "therapy",
+      "pos": "n",
+      "uz": "davolash, muolaja (ruhiy yoki jismoniy)",
+      "defEn": "a healing treatment for the body or mind",
+      "example": "Patients often improve between therapy sessions."
+    },
+    {
+      "en": "primarily",
+      "pos": "adv",
+      "uz": "asosan, koʻproq, birinchi navbatda",
+      "defEn": "mostly or firstly",
+      "example": "Schools primarily teach kids how to take tests."
+    },
+    {
+      "en": "a contestant",
+      "pos": "n",
+      "uz": "musobaqa ishtirokchisi, oʻyinchi",
+      "defEn": "a player or participant in a competition or show",
+      "example": "You only need that skill if you're a contestant on a quiz show."
+    },
+    {
+      "en": "project-based learning",
+      "pos": "phrase",
+      "uz": "loyihaga asoslangan taʼlim (test emas, amaliy ish orqali)",
+      "defEn": "learning by creating real projects instead of taking tests",
+      "example": "His classes were project-based, not textbook-based."
+    },
+    {
+      "en": "to give a presentation",
+      "pos": "phrase",
+      "uz": "taqdimot qilmoq, ish natijasini koʻrsatmoq",
+      "defEn": "to show and explain your work to a group",
+      "example": "At the end, the students gave a presentation instead of a test."
+    },
+    {
+      "en": "passion for learning",
+      "pos": "phrase",
+      "uz": "oʻrganishga boʻlgan ishtiyoq, qiziqish",
+      "defEn": "a strong love of learning",
+      "example": "AJ wants to awaken your passion for learning."
+    }
+  ],
+  "englishpod": {
+    "id": "0185",
+    "title": "The Weekend – Farm Animals",
+    "titleUz": "Dam olish kuni — ferma hayvonlari",
+    "warmup": {
+      "uz": "Bu suhbatda er-xotin fermaga koʻchib oʻtishni orzu qiladi, lekin ferma hayotini umuman bilmaydi. \"Katta manzara\" mavzusiga mos: orzu chiroyli, biroq uni amalda qilish butunlay boshqa narsa — xuddi maktab bilan haqiqiy hayot orasidagi farq kabi. Sizningcha, qahramon fermada qola oladimi yoki shaharga qaytadimi?",
+      "en": "In this dialogue a couple dream of moving to a farm, but they know nothing about farm life. It fits the Big Picture theme: the dream is lovely, yet actually doing it is a different thing entirely — like the gap between school and real life. Do you think the character will stay on the farm or go back to the city?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0185/dg.mp3",
+        "durationSec": 55,
+        "bytes": 473465
+      },
+      "pr": {
+        "path": "englishpod/0185/pr.mp3",
+        "durationSec": 747,
+        "bytes": 11992208
+      },
+      "rv": {
+        "path": "englishpod/0185/rv.mp3",
+        "durationSec": 489,
+        "bytes": 7862900
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Isn’t this great? I always wanted to own a farm, live out in the country, grow my own food!"
+      },
+      {
+        "speaker": "B",
+        "en": "This is very beautiful. Though I have to confess, I don’t know the first thing about farming!"
+      },
+      {
+        "speaker": "A",
+        "en": "That’s fine! Don’t worry about it!"
+      },
+      {
+        "speaker": "B",
+        "en": "What was that?"
+      },
+      {
+        "speaker": "A",
+        "en": "Relax, it was just a goat!"
+      },
+      {
+        "speaker": "B",
+        "en": "And that?"
+      },
+      {
+        "speaker": "A",
+        "en": "It’s just the cows that are grazing over there. We can milk them later."
+      },
+      {
+        "speaker": "B",
+        "en": "What was that?"
+      },
+      {
+        "speaker": "A",
+        "en": "Honey, seriously, It’s just a sheep. Relax!"
+      },
+      {
+        "speaker": "A",
+        "en": "Relax, that was just the horses and donkeys that are in the stable ."
+      },
+      {
+        "speaker": "B",
+        "en": "You know what? I don’t think I can hack it here out in the countryside. I’m going back to the city!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "the country",
+        "uz": "qishloq, shahardan tashqari joy",
+        "defEn": "rural areas, away from the city"
+      },
+      {
+        "en": "to graze",
+        "uz": "oʻtlamoq (mol-qoʻy oʻt yeyishi)",
+        "defEn": "to feed on grass in a meadow or pasture"
+      },
+      {
+        "en": "to milk (a cow)",
+        "uz": "sogʻmoq (sut olmoq)",
+        "defEn": "to get the milk from a cow"
+      },
+      {
+        "en": "not know the first thing about",
+        "uz": "biror narsani mutlaqo bilmaslik",
+        "defEn": "to know little or nothing about something"
+      },
+      {
+        "en": "a stable",
+        "uz": "otxona, mol saqlanadigan bino",
+        "defEn": "a building where horses and cattle are kept and fed"
+      },
+      {
+        "en": "to hack it",
+        "uz": "uddasidan chiqmoq, dosh bermoq",
+        "defEn": "to be able to manage or cope with something successfully"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "160915",
+    "title": "Global warming",
+    "titleUz": "Global isish",
+    "audio": {
+      "main": {
+        "path": "sixmin/160915/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6033294,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How much has the average temperature of the Earth's surface increased in the last hundred years?",
+        "qUz": "Soʻnggi yuz yilda Yer yuzasining oʻrtacha harorati qanchaga koʻtarildi?",
+        "options": [
+          "0.85°C",
+          "1.85°C",
+          "8.5°C"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 0.85°C. Neil c) 8.5°C dedi va xato qildi. Oxirida Alice haqiqiy raqam 0.85°C ekanini aytadi va eng issiq 14 yildan 13 tasi 21-asrga toʻgʻri kelishini qoʻshimcha qiladi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "unseasonably",
+        "uz": "yil fasliga xos boʻlmagan holda (masalan, yozda sovuq)",
+        "defEn": "in a way that is not normal for the time of year"
+      },
+      {
+        "en": "to mitigate",
+        "uz": "yumshatmoq, zararini kamaytirmoq",
+        "defEn": "to make something less harmful or less severe"
+      },
+      {
+        "en": "to pledge",
+        "uz": "vaʼda bermoq, ahd qilmoq",
+        "defEn": "to promise something formally"
+      },
+      {
+        "en": "desalination",
+        "uz": "shoʻr suvdan tuzni ajratish (chuchuklashtirish)",
+        "defEn": "removing the salt and other minerals from sea water"
+      },
+      {
+        "en": "homegrown",
+        "uz": "mahalliy ishlab chiqarilgan, oʻz yurtida yetishtirilgan",
+        "defEn": "produced or developed locally"
+      },
+      {
+        "en": "cost-efficient",
+        "uz": "pulga arziydigan, tejamli",
+        "defEn": "good value for the money you paid"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Changing Education Paradigms — seeing the big picture of learning",
+      "channel": "RSA"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Look at the big picture of your English journey. Where will you be in a few years — what will you have achieved, and what will you be doing? And how will you get there: when you finish this course, what will you do next, and what won't you stop doing until you succeed?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: kelasi mukammal va davomiy zamon (By … I will have …; This time next year I will be … -ing) hamda payt ergash gaplari (When I …, as soon as I …, until I … — bularda will ishlatmang).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/16/main.mp3",
+      "bytes": 13066040
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/16/main.pdf",
+      "bytes": 59317
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/16/vocab.mp3",
+      "bytes": 6461740
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/16/ministory.mp3",
+      "bytes": 9282183
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/16/pov.mp3",
+      "bytes": 5260759
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/16/pov.pdf",
+      "bytes": 69125
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0185/dg.mp3",
+      "bytes": 473465
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0185/transcript.pdf",
+      "bytes": 90111
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/160915/audio.mp3",
+      "bytes": 6033294
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/160915/transcript.pdf",
+      "bytes": 261088
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

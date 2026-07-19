@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 2,
+  "id": "core-15",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 15,
+  "slug": "taoism",
+  "title": "Taoism",
+  "titleUz": "Taoizm — tabiat bilan uygʻunlik",
+  "level": "B1",
+  "tags": [
+    "philosophy",
+    "wu-wei",
+    "modals",
+    "passive-voice",
+    "subconscious"
+  ],
+  "intro": {
+    "uz": "Taoizm — tabiat bilan kurashmay, oqim bilan yashash falsafasi (wu wei — majburlamaslik). Alan Wattsning fikricha, ong osti miya eng kuchli qism: yechimni zoʻrlab emas, unga imkon berib topamiz. Bu haftaning ikki grammatikasi ham shu gʻoyaga mos: ehtimollik modallari (might / may / could — majburlamaslik) va majhul nisbat 1 (is done / was done — bajaruvchisiz ish).",
+    "en": "Taoism — the philosophy of living in harmony with nature instead of fighting it (wu wei — non-forcing). Alan Watts argues that the subconscious mind is the most powerful part: we find answers by allowing, not forcing. This week's two grammar topics fit that idea: modals of possibility (might / may / could) and the agentless passive (is done / was done)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida noaniq rejalar va ehtimolliklarni might / may / could bilan toʻxtamasdan ayta olasiz va oddiy ishlarni majhul nisbatda (is done / was done) — bajaruvchini koʻrsatmasdan — tasvirlab bera olasiz.",
+    "en": "By the end you can talk about uncertain plans and possibilities with might / may / could without pausing, and describe simple actions in the passive (is done / was done) without naming the doer."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "modals-of-possibility",
+      "titleUz": "Ehtimollik modallari: might / may / could (majburlamaslik)",
+      "titleEn": "Modals of possibility — might / may / could",
+      "bandLifter": "IELTS Speaking — hedge predictions and future plans naturally (it might…, it may…)",
+      "cefrCanDo": "B1: I can express degrees of possibility about the present and future",
+      "bodyHtml": "<p>Taoizmning yuragida bitta soʻz turadi: <em>wu wei</em> — &quot;majburlamaslik&quot;, tabiat bilan kurashmay, oqim bilan ketish. Alan Watts aytadi: yechimni <strong>zoʻrlab</strong> chiqarmang; savolni tinglang va <em>&quot;the solution <strong>may</strong> come by itself&quot;</em> — yechim oʻzi kelishi mumkin. Aynan shu &quot;mumkin, ehtimol, balki&quot; tuygʻusini ingliz tilida uchta soʻz beradi: <strong>might / may / could</strong>. Ular hech narsani majburlamaydi — faqat <em>ehtimol</em>ni ochadi.</p>\n<h3>Maʼnosi: aniqlik emas, ehtimol</h3>\n<p>Bu uch modal feʼl &quot;men bilaman&quot; demaydi; &quot;boʻlishi mumkin&quot; deydi. Gapiruvchi eshikni yopmaydi — ochiq qoldiradi. Bu — Taoistcha munosabat: hammasini nazorat qilmaymiz, imkoniyatga joy beramiz.</p>\n<ul>\n<li><em>If you strain your mind, you <strong>might</strong> miss the answer.</em> — Miyangizni zoʻriqtirsangiz, javobni oʻtkazib yuborishingiz mumkin.</li>\n<li><em>The solution <strong>may</strong> come by itself.</em> — Yechim oʻzi kelishi mumkin.</li>\n<li><em>You <strong>could</strong> just let it flow.</em> — Shunchaki oqimga qoʻyib berishingiz ham mumkin.</li>\n</ul>\n<p>Uchalasi maʼnoda deyarli bir xil. <em>may</em> biroz rasmiyroq, <em>might</em> biroz ehtiyotkorroq, <em>could</em> esa &quot;bir imkoniyat&quot; tuygʻusini beradi. Kundalik nutqda ularni bemalol almashtira olasiz.</p>\n<h3>Shakli: modal + sof feʼl (juda muhim)</h3>\n<p>Bu qism oʻzbek oʻquvchilar uchun eng koʻp xato beradigan joy. Modaldan keyin feʼl <strong>hech qanday oʻzgarishsiz</strong>, sof (base) shaklda keladi:</p>\n<ul>\n<li><strong>to yoʻq:</strong> <em>It might <strong>rain</strong></em> (❗ <em>might to rain</em> emas).</li>\n<li><strong>-s yoʻq:</strong> <em>She may <strong>know</strong> the answer</em> (❗ <em>may knows</em> emas).</li>\n<li><strong>modalning oʻzi oʻzgarmaydi:</strong> <em>He could <strong>help</strong></em> (❗ <em>coulds</em> emas).</li>\n</ul>\n<p>Yaʼni qolip juda sodda: <strong>might / may / could + V (sof)</strong>. Uchala shaxs uchun ham bir xil — <em>I / you / he / she / we / they</em> farq qilmaydi.</p>\n<h3>Ingliz↔oʻzbek qiyosi</h3>\n<p>Oʻzbek tilida ehtimolni koʻpincha <strong>&quot;-sa kerak&quot;</strong>, <strong>&quot;balki&quot;</strong>, <strong>&quot;ehtimol&quot;</strong> yoki feʼlga <strong>&quot;-ishi mumkin&quot;</strong> qoʻshimchasi bilan beramiz:</p>\n<table>\n<thead>\n<tr>\n<th>Oʻzbekcha</th>\n<th>Inglizcha</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Yomgʻir yogʻishi mumkin.</td>\n<td>It <strong>might</strong> rain.</td>\n</tr>\n<tr>\n<td>U bilsa kerak.</td>\n<td>She <strong>may</strong> know.</td>\n</tr>\n<tr>\n<td>Balki yordam berar.</td>\n<td>He <strong>could</strong> help.</td>\n</tr>\n</tbody>\n</table>\n<p>Eʼtibor bering: oʻzbekchada ehtimol maʼnosi <strong>feʼl oxirida</strong> (&quot;yogʻ-<strong>ishi mumkin</strong>&quot;) yashiringan; ingliz tilida esa u <strong>feʼldan oldin</strong> alohida soʻz bilan chiqadi (<em>might rain</em>). Shuning uchun jumlani tuzayotganda ehtimol soʻzini oldinga olib chiqishga oʻrganing.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qolipni his qilishning eng yaxshi yoʻli — bugungi noaniq rejalaringizni ovoz chiqarib aytish. Har kuni uchta jumla: <em>&quot;Tonight I might read. Tomorrow I may rest. This weekend I could travel.&quot;</em> Zoʻriqmang — Taoistcha, oqim bilan ayting; miya takrordan oʻzi oʻrganadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada ehtimol maʼnosi feʼl oxirida yashiringan: “yogʻ-ishi mumkin”, “bils-a kerak”, yoki alohida “balki/ehtimol” soʻzi bilan. Ingliz tilida esa ehtimol feʼldan OLDIN alohida modal soʻz bilan chiqadi (might/may/could) va undan keyin feʼl sof shaklda qoladi.",
+      "errorFixUz": "❌ It might to rain. She may knows. ✅ It might rain. She may know. Modaldan keyin feʼl doim sof (base) shaklda: “to” ham, “-s” ham qoʻshilmaydi, modalning oʻzi ham oʻzgarmaydi.",
+      "examples": [
+        {
+          "en": "The answer might come by itself.",
+          "uz": "Javob oʻzidan kelishi mumkin."
+        },
+        {
+          "en": "You may be disappointed if you use brute strength.",
+          "uz": "Qoʻpol kuch ishlatsangiz, hafsalangiz pir boʻlishi mumkin."
+        },
+        {
+          "en": "You could just let it flow.",
+          "uz": "Shunchaki oqimga qoʻyib berishingiz ham mumkin."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "It ___ rain later, so take an umbrella.",
+          "options": [
+            "might",
+            "might to",
+            "mights"
+          ],
+          "answer": "might",
+          "hintUz": "modal + sof feʼl: might rain (“to” va “-s” yoʻq)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Don't strain — the solution ___ come by itself.",
+          "options": [
+            "may",
+            "mays",
+            "may to"
+          ],
+          "answer": "may",
+          "hintUz": "may + sof feʼl (come); modalga “-s” qoʻshilmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She ___ know the answer; let's ask her calmly.",
+          "options": [
+            "could",
+            "could to",
+            "coulds"
+          ],
+          "answer": "could",
+          "hintUz": "modal oʻzgarmaydi va keyin sof feʼl keladi: could know"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ehtimolli uchta reja ayting (ovoz chiqarib): “Tonight I might … Tomorrow I may … This weekend I could … .”",
+          "answer": null,
+          "hintUz": "might/may/could + sof feʼl (to/-s yoʻq)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "passive-voice-1",
+      "titleUz": "Majhul nisbat 1: is done / was done (bajaruvchisiz)",
+      "titleEn": "Passive voice 1 — is done / was done",
+      "bandLifter": "IELTS Writing Task 1 & 2 — describe processes and facts impersonally (is made, was built)",
+      "cefrCanDo": "B1: I can form simple present and past passives when the doer is unknown or unimportant",
+      "bodyHtml": "<p>Taoizmning eng chiroyli gʻoyasi: ishlar <strong>oʻz-oʻzidan</strong> bajariladi. Yuragingizga &quot;ur&quot; deb buyruq bermaysiz — u oʻzi uradi. Oshqozoningizni kuzatib turmaysiz — ovqat oʻzi hazm boʻladi. MAIN talkda Alan Watts aynan shunday deydi: <em>&quot;we <strong>are forced</strong> to ignore almost everything&quot;</em>, <em>&quot;any solution that comes that way <strong>is</strong> likely to <strong>be</strong> wrong&quot;</em>, <em>&quot;you may <strong>be disappointed</strong>.&quot;</em> Bu jumlalarda <strong>ishni kim qilayotgani yoʻqoladi</strong> — faqat ish qoladi. Bu — <strong>majhul nisbat</strong> (passive voice).</p>\n<h3>Maʼnosi: ish muhim, bajaruvchi emas</h3>\n<p>Majhul nisbatni ishlatamiz, chunki:</p>\n<ol>\n<li>Bajaruvchi <strong>nomaʼlum</strong> (kim qilgani bilinmaydi), yoki</li>\n<li>Bajaruvchi <strong>muhim emas</strong> (ish oʻzi muhim), yoki</li>\n<li>Bajaruvchini ataylab <strong>koʻrsatmaymiz</strong> — xuddi Taoistcha, &quot;ish oʻzi boʻldi&quot; degandek.</li>\n</ol>\n<ul>\n<li><em>English <strong>is taught</strong> with stories here.</em> — Bu yerda ingliz tili hikoyalar bilan oʻrgatiladi. (kim oʻrgatishi muhim emas)</li>\n<li><em>The answer <strong>was found</strong> by itself.</em> — Javob oʻzidan topildi.</li>\n</ul>\n<h3>Shakli: <code>be</code> + V3 (uchinchi shakl)</h3>\n<p>Qolip ikki qismdan iborat: <strong>be feʼli + feʼlning 3-shakli (V3)</strong>. Zamonni faqat <em>be</em> koʻrsatadi, asosiy feʼl esa doim V3 boʻlib qoladi:</p>\n<ul>\n<li><strong>Hozirgi (is done):</strong> <em>am / is / are + V3</em> — <em>The food <strong>is digested</strong> automatically.</em> — Ovqat oʻzi hazm qilinadi.</li>\n<li><strong>Oʻtmish (was done):</strong> <em>was / were + V3</em> — <em>The book <strong>was written</strong> by Alan Watts.</em> — Kitob Alan Watts tomonidan yozilgan.</li>\n</ul>\n<p>V3 shakllarini eslang: <em>teach → taught, write → written, do → done, find → found, force → forced</em>.</p>\n<h3>Ingliz↔oʻzbek qiyosi</h3>\n<p>Oʻzbek tilida majhul nisbat feʼl <strong>ichida</strong> — <strong>-il-</strong> yoki <strong>-in-</strong> qoʻshimchasi bilan yasaladi:</p>\n<table>\n<thead>\n<tr>\n<th>Oʻzbekcha</th>\n<th>Inglizcha</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Eshik yop<strong>il</strong>di.</td>\n<td>The door <strong>was closed</strong>.</td>\n</tr>\n<tr>\n<td>Ish qil<strong>in</strong>di.</td>\n<td>The work <strong>was done</strong>.</td>\n</tr>\n<tr>\n<td>Kitob yoz<strong>il</strong>gan.</td>\n<td>The book <strong>was written</strong>.</td>\n</tr>\n</tbody>\n</table>\n<p>Katta farq shu: oʻzbekcha bir soʻz (<em>yopildi</em>) yetadi; ingliz tilida esa doim <strong>ikki qism</strong> kerak — <em>be</em> + V3 (<em>was closed</em>). Oʻzbek oʻquvchilar aynan <em>be</em> feʼlini tushirib qoldiradi.</p>\n<h3>POV bilan bogʻliqlik</h3>\n<p>POV hikoyasida Tomoe oʻzi harakat qiladi: <em>&quot;she <strong>has strained</strong>, she <strong>has gone</strong> to the gym.&quot;</em> Bu — aktiv (bajaruvchi bor). Endi buni majhulga aylantiring va bajaruvchi yoʻqoladi: <em>&quot;The weights <strong>were lifted</strong> every day. The plan <strong>was carried out</strong>.&quot;</em> Eʼtibor bering — <em>has strained</em> (aktiv) va <em>was lifted</em> (majhul) qanday farq qilishini his qiling.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> ❌ <em>The door closed by me</em> / <em>The book wrote in English.</em> ✅ <em>The door <strong>was closed</strong> by me</em> / <em>The book <strong>was written</strong> in English.</em> be feʼlini hech qachon tashlamang. Har kuni ikki jumla ayting: <em>&quot;This is done. That was made.&quot;</em> Ovoz chiqarib — miya qolipni oʻzi mustahkamlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada majhul nisbat feʼlning ICHIDA -il-/-in- qoʻshimchasi bilan yasaladi va bir soʻz yetadi: “eshik yopildi”, “ish qilindi”. Ingliz tilida esa doim IKKI qism kerak: be feʼli + feʼlning 3-shakli (was closed, is done). Oʻzbek oʻquvchilar aynan “be” feʼlini tushirib qoldiradi.",
+      "errorFixUz": "❌ The door closed by me. The book wrote in English. ✅ The door was closed by me. The book was written in English. Majhulda “be” (am/is/are/was/were) hech qachon tushmaydi, asosiy feʼl esa V3 (3-shakl) boʻladi.",
+      "examples": [
+        {
+          "en": "English is taught with stories here.",
+          "uz": "Bu yerda ingliz tili hikoyalar bilan oʻrgatiladi."
+        },
+        {
+          "en": "The book was written by Alan Watts.",
+          "uz": "Kitob Alan Watts tomonidan yozilgan."
+        },
+        {
+          "en": "We are forced to ignore almost everything.",
+          "uz": "Biz deyarli hamma narsani eʼtiborsiz qoldirishga majbur boʻlamiz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The food ___ digested automatically.",
+          "options": [
+            "is",
+            "does",
+            "has"
+          ],
+          "answer": "is",
+          "hintUz": "hozirgi majhul: is + V3 (is digested)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The book ___ written by Alan Watts.",
+          "options": [
+            "was",
+            "did",
+            "has"
+          ],
+          "answer": "was",
+          "hintUz": "oʻtmish majhul: was + V3 (was written)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The door was ___ by me this morning.",
+          "options": [
+            "closed",
+            "close",
+            "closing"
+          ],
+          "answer": "closed",
+          "hintUz": "be + V3: was closed (asosiy feʼl 3-shaklda)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Uyingizdagi ikki ishni majhul nisbatda ayting: “… is done every day. … was made … .”",
+          "answer": null,
+          "hintUz": "be + V3 (is done / was made); “be” ni tushirmang"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/15/main.mp3",
+      "durationSec": 932,
+      "bytes": 11190857,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/15/vocab.mp3",
+      "durationSec": 767,
+      "bytes": 9214262,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/15/ministory.mp3",
+      "durationSec": 776,
+      "bytes": 9325690,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/15/pov.mp3",
+      "durationSec": 444,
+      "bytes": 5332749,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ again. Welcome to our next lesson, this one’s a really interesting one from one of my favorite writers. Absolutely love him, his name is Alan Watts. He actually died back in the ‘70s but just an amazing man, so intelligent and actually quite funny actually, just a great sense of humor.",
+      "And Alan Watts is a very interesting guy. He was one of the first western people, meaning American or European, to learn about eastern spiritual practices, eastern religions. So he studied Buddhism, Taoism and Hinduism, most especially Buddhism. He was a Buddhist. He became a Buddhist.",
+      "And then he came back, for example, he lived in Japan actually for several years and learned Buddhism there in a monastery. And then he came back and he wrote in English about these religions. The other interesting thing about him is that he was a Christian minister before he became a Buddhist.",
+      "I believe he was Episcopalian which is a kind of Christian, but he was a minister, he was a preacher. And so the very interesting thing about Alan Watts is that he has a great understanding of both the western and the eastern religious practices, religious beliefs.",
+      "And not just the normal kind of religion, just go to church and pray and read your little book, but really the deeper meanings of both Christianity, Buddhism, etc. And he has a great way of teaching eastern religions, especially Buddhism and Taoism, to western people in a way we can understand.",
+      "So anyway, he’s also just a really funny, interesting guy and a very intellectual guy, very intelligent. So this is from one of his books about Taoism. Now Taoism is actually spelled with a “T”, T-a-o-i-s-m, but it’s pronounced “Daoism” like it’s a “D”. Why is that? Because English spelling is crazy.",
+      "English spelling, as you already know, is very difficult and there’s no logic about it, or very little logic about it. So it’s spelled with a “T” but pronounced as a “D”. I don’t know why. Why didn’t we just spell it with a “D”? I don’t know. It comes from Chinese words so I guess they wrote it, they heard it wrong and I don’t know.",
+      "Anyway, it’s pronounced “Daoism” and the book is called “Taoism Way Beyond Seeking” by Alan Watts, A-l-a-n and then his last name W-a-t-t-s. And by the way, he has a great podcast, alanwatts. com I believe is his podcast. So in this book Alan Watts talks about Taoism. Taoism is a philosophy, not really a religion, I don’t think.",
+      "Maybe it is, I don’t know, but in my opinion it’s really more of a philosophy. It’s a way of living. It’s a philosophy about life. And it’s a very natural philosophy. The basic idea of Taoism is that you should live in harmony with nature. You should follow nature, be part of nature.",
+      "And if you live with nature instead of fighting it, your life will be much more successful and happy and easy. It’s a little bit like Thoreau’s idea. Remember Thoreau, Walden, remember that lesson? Well, Taoism has a similar kind of feeling. This idea that we don’t fight against things, www.",
+      "we go with them. We do what is natural. So Effortless English, in many ways, is Taoist kind of English program. Because we’re trying to go with your natural brain, right? We’re trying to learn in the most natural way. We’re not fighting against our brains. We’re going with the brain.",
+      "The brain loves stories so we use stories to teach English. The brain learns grammar best from patterns and stories, not from rules. So we use patterns and stories to teach grammar. You learn vocabulary best and fastest from stories and from reading interesting articles and books, so that’s what we use in our system. So this is the idea.",
+      "You’re not fighting against something with effort, trying, trying, trying. You’re doing what is most natural. When you do what is most natural it’s easier and it’s more successful. Wow, two great things at the same time. Alright, so now this section from his book talks about the subconscious. Remember, we’ve had this word before.",
+      "It’s the part of your brain that is working all the time but you don’t know. It’s the part of your intelligence, your brain that makes your heart beat… bom-bom, bom-bom, bom-bom, right? You don’t have to think about it. You don’t tell your heart to beat “Beat now, beat now, beat now,” right? It’s automatic.",
+      "Your brain is making that happen subconsciously. Now you can breathe, for example, consciously or subconsciously. Usually when you’re doing something you’re not thinking about breathing. But you still continue to breathe, right? You’re always breathing. You can also think about it, right? You can consciously think about breathing.",
+      "You can decide… breathe in, breathe out. That’s conscious breathing. Subconscious breathing or unconscious breathing, it just happens automatically. You’re doing something else. You’re not thinking about it, but it still happens. Your brain is still working.",
+      "So that kind of intelligence, that unconscious, that subconscious intelligence is the most powerful. That’s most of our intelligence. Thinking about things with words or consciously thinking, it’s very limited. We can only do a little bit with that. We think that’s so great and that’s what we always focus on.",
+      "And our schools are always about conscious, conscious, conscious learning. We analyze. We think about the little parts of things, the little pieces of grammar, the individual vocabulary words. But that’s not how the brain works best. So let me read this part from Alan Watts now.",
+      "Here we go: “Now, if you want to find an intelligent solution to a problem, your brain can do the work. You have all the necessary intelligence inside of your skull. However, most people never use their brains. They use their conscious minds instead. And they use their conscious minds the same way they use their muscles.",
+      "You can strain your head just as if it were a muscle. You can work very hard trying to find a solution. But it doesn’t really work well that way. When you really want to find an answer to something, what you need to do is contemplate the problem calmly. Visualize your question and then simply wait. www.",
+      "If you don’t do this, if instead you try to find the solution through brute mental strength, you may be disappointed. Because any solution that comes in that way is likely to be wrong. But when you have waited for a while the solution will come by itself, automatically. That is how to use your brain.",
+      "And it will work for you in the same way that your stomach will digest your food for you, without you having to supervise it consciously. Our attempts to supervise everything consciously have led to consequences that are not good for our stomach, and the reason is quite simple.",
+      "Conscious attention, which uses and employs words, cannot think of very much. Therefore we are forced to ignore almost everything else while we are thinking consciously. We think along a single track. But the real world doesn’t proceed along a single track. The real world is everything happening altogether everywhere at the same time.",
+      "And you just can’t take all of that into consideration because there isn’t time. However, your brain, your subconscious brain can take it all into consideration, because it is capable of handling innumerable variables at once. Even though your conscious attention cannot.",
+      "Words are not capable of handling any more than a single very crude and simple track. And that is why we have to trust our brains. We are much more intelligent than we realize.” Okay, well, a little bit of a long section there. And what’s the basic meaning of this?",
+      "He’s basically saying that your subconscious, the part that you’re not aware about, the part that does not use words. The part of your brain that doesn’t use words, it’s much more intelligent. And I think we’ve all had this experience, right?",
+      "You have this problem, this problem, and you’re thinking and you’re thinking and you’re worried and all this stress. You’re trying to solve the problem but you can’t quite solve the problem. And then finally, argh, you’re so tired. You just stop. You go to bed or you go watch a movie or something.",
+      "And then, when you’re not thinking about it…suddenly boom!... a solution, a great solution, right? Your brain, your subconscious brain is thinking about it then. Finally, you let your subconscious brain work and it gives you the answer. It gives you a fantastic answer. So that’s just one small example.",
+      "The point is you must let your subconscious brain do its job. You have to trust it. It’s far more intelligent than your conscious brain is. Now, of course, as I was saying already, this is key to learning English. It’s key to the Effortless English system. This is the foundation.",
+      "This is the most important idea that we use with Effortless English. We are teaching you English with your subconscious brain. We are teaching to your subconscious brain. If you start thinking about it, if you try to study grammar rules, for example, you’re going to destroy what I’m doing. You’re going to destroy your subconscious brain.",
+      "You’re going to turn it off. You’re going to www.",
+      "block it by thinking, thinking, thinking and studying all these grammar rules. Your grammar will not improve quickly. So you must use our system. That’s why I’m always telling you “Don’t study grammar. Don’t study grammar.” Because we designed the system, I designed the system, to teach your subconscious brain.",
+      "If you trust me, if you use the system exactly as I tell you, you will succeed very quickly. You’ll be surprised. But you must do it. If you try to use my system and also study grammar, well it’s not going to work very well. You’re going to learn more slowly.",
+      "If you try to use my system and also try to memorize single individual vocabulary words using a vocabulary textbook, you’re going to hurt my system and you’re going to learn more slowly.",
+      "If you try to use textbooks or normal classes, normal English classes, and do my system at the same time, you can do that, it’s your choice but you will learn more slowly. So please follow my system completely, 100%. Just try it for six months. Do all of these lessons. After you can do something else if you want, it’s your choice.",
+      "But I don’t think you will because you’ll see the result. But you must use this system exactly as I tell you. One lesson set for one complete week. Only listening, don’t try to memorize. Don’t try to think about the rules or why this or why that…don’t think about that. Just listen and enjoy. Listen and enjoy. Listen a lot. Listen a lot.",
+      "Enjoy, smile. And in the mini-stories answer the questions quickly. That’s all you need to do. If you do that then you’re going to start doing what Alan Watts has described. Your subconscious brain will just start to remember English. You’ll remember the vocabulary words. You’ll start speaking, it comes out. You won’t try.",
+      "You will naturally start to speak more correctly, more quickly. Your pronunciation will naturally improve. You’ll understand more English, faster and faster without trying. So it’s the Taoism approach to learning English. Alright, I will see you next for the vocabulary lesson. www."
+    ],
+    "vocab": [
+      "Hi, this is AJ. Welcome to the vocabulary lesson for “Taoism.” Let’s get started. Our first word is skull, skull. Alan Watts said “You have all the necessary intelligence you need inside of your skull.” Now your skull is your head bone, right? It’s the bone that protects your brain. We call that the skull, your skull.",
+      "So again skull is simply head bone. Next is the word strain. He said “You can strain your head just like you can strain a muscle.” To strain means to try very hard, to work very, very hard, a lot of effort. Sometimes it has the idea of working too hard, trying too hard, too much. Sometimes it has this idea of too much.",
+      "So if you strain your muscle, you work your muscle too much. Maybe you’re lifting something, it’s a little too heavy. If you strain your mind, strain your brain, it means you’re thinking too hard. So it’s trying very, very hard. To strain, to strain, one more time, strain. Okay, our next word is contemplate, contemplate.",
+      "Alan says you need to contemplate your problems. Don’t think about them, don’t strain. Just contemplate your problems. Now to contemplate means to calm your mind. It means to have a calm mind, calm brain, very relaxed. It’s the opposite of straining your head, straining your mind. Straining is trying hard.",
+      "Contemplating is relaxing and thinking calmly. So it’s thinking very slowly, thinking very calmly, or maybe not thinking at all, just a calm quiet mind. So to contemplate means to make your mind calm, or to think very calmly and slowly, to contemplate. Contemplate a problem, think very calmly and slowly about the problem.",
+      "Our next word is to visualize, to visualize. To visualize means to imagine. So he says imagine your question, visualize your question, then simply wait. So he’s saying just, just have a question, your question about your problem. Just visualize it. Just think about it in a simple way. Just imagine it. Imagine the question only.",
+      "Don’t think about the solution. Just visualize, just imagine the question and then just wait. So to visualize means to imagine. Next is the word brute. He says if you try to solve your problem with brute mental strength, you may be disappointed.",
+      "Brute mental strength, of course mental means mind or brain, so brute strength means like animal…animal-like. Brute means very strong and similar to an animal. So brute strength means strength like an animal, very, very strong. It’s the opposite of subtle, if you know the word subtle. It’s the opposite of careful strength.",
+      "Brute strength just means super strong and…rawr…like an animal… rawr. So he’s saying if you try to use brute strength, just if you try to use a lot of strength, very strong strength, with your mind in this case, you’ll be disappointed. www.",
+      "Our next word is supervise, to supervise. So he says your stomach will digest your food and you don’t need to supervise it. You don’t need to supervise your stomach. You don’t need to supervise your heart, your heart will beat…bom-bom, bom-bom… automatically, you don’t need to watch it and think about it all the time.",
+      "So to supervise means to watch, to watch. Usually to watch somebody or something, some action happening. So to supervise, to supervise your heart means to watch your heart and think about it all the time. Watch it carefully. It really means this idea of watching carefully. Our next word is employ.",
+      "He says conscious attention, conscious thinking, employs words. It employs words. To employ means to use, it’s very simple. To employ means to use. So conscious thinking uses words mostly. Conscious thinking employs words. So to employ something means to use it. To employ words means to use words. Our next phrase “a single track.”",
+      "Your conscious mind can only think along a single track. A single track means a single way, just one way. It means one thing and then another thing and then another thing, right? Kind of in a line, in a line. So a single track has this idea of in a single line. You have one thought, then the next thought, then the next thought.",
+      "One after the other after the other after the other…one by one, one by one. So a single track has this idea of one by one. A limited way, a single way, one way. So you’re conscious mind only thinks about one thing at a time, one by one. Your subconscious can think about many things at the same time. That’s the difference.",
+      "Our next word is proceed, proceed. He’s saying the world doesn’t proceed along a single track. To proceed means to continue or to happen. So to proceed means to continue. To proceed…to continue…to continue or to happen. So the world doesn’t happen one by one, right? Everything’s happening at the same time.",
+      "Many, many, many, many, many things all happening at the same time. Not a single track. Not one by one. It’s not proceeding, it’s not going, it’s not continuing one by one. So to proceed means to continue, to keep going, to keep happening. Our next phrase is “take into consideration.” This is a common phrase, we do use it a lot.",
+      "He says your conscious brain cannot take into consideration everything that’s happening. It cannot take into consideration everything that is happening in the world. Take into consideration means think about. To take something into consideration means to think about something, to think about it.",
+      "Take it into consideration means think about it. Your brain cannot think about everything consciously. But it can subconsciously take almost everything into consideration. It can think about almost everything at the same time. At least many, many, many things. So take into consideration means to think about.",
+      "Our next word is innumerable, innumerable. There are innumerable things happening in the world at the same time. Innumerable means uncountable, too many to count. It means there’s too many things to count, too many. Can’t count them it’s so big. So uncountable, not possible to count because too many, innumerable. There are www.",
+      "innumerable things happening. There are too many things happening in the world, you can’t them all, right? There’s too many. It’s too fast. In fact he says there are innumerable variables in the world. So too many variables to count, too many variables. A variable is a choice or a possibility or a potential.",
+      "So choices really, there are innumerable choices, there are too many choices in the world. There are too many possibilities, too many variables. Variables means choices or possibilities, variables, choices or possibilities. Just two more words…our next word “to handle.” It’s a verb, to handle.",
+      "Your brain can handle innumerable things at the same time, if you use your subconscious. So to handle means to manage, to take care of, to use. Kind of like this idea of manage. Your brain can handle a lot of things. But your conscious brain, words, for example, cannot handle more than one thing at a time.",
+      "Your brain can only handle things one by one if you use words. When we speak we use one word and then another word and then another word, one by one…a single track, right? So our conscious brains using language can only understand, can only handle things one by one. It can only handle words one by one.",
+      "So handle is to manage, to manage or to take care of and use. To take care of use, to manage, that’s handle…to handle, the verb. And finally, our last word is crude. Words are very crude. They are very crude, they can only be understood one by one. Crude means very simple and primitive.",
+      "So crude means simple and primitive, simple and primitive, simple and primitive…that’s crude, crude. So he’s saying our conscious minds are very crude. Our conscious minds, which use language, which use words, they’re very crude, they’re very simple, they’re very primitive. Conscious thinking is very crude.",
+      "The subconscious is more advanced, more intelligent. The conscious mind is crude. It’s simple and it’s primitive. Alright, that’s it. That’s the end of the vocabulary for Taoism. See you for the mini-story. www."
+    ],
+    "pov": [
+      "Hi, this is AJ. Welcome to the point of view stories for “Taoism.” Same story, but this time we start with “Since last year…”",
+      "Since last year Tomoe has wanted to fight a gorilla. She has wanted to fight a gorilla starting last year until recently. Tomoe has wanted to fight a gorilla since last year. In fact, every day since last year she has contemplated her goal.",
+      "Starting last year, she started to contemplate and then every day she has contemplated her goal every day since last year. What has she contemplated? She has contemplated her goal, her goal of fighting a gorilla. Because she has wanted to fight a gorilla for one year, since last year.",
+      "But of course, every time she has contemplated fighting a gorilla, she has realized that gorillas have brute strength. She has realized every time that they are hard to fight. And so every day since last year she has gone to the gym. Every day since last year she has gone to the gym and she has strained to lift weights.",
+      "She has tried very hard to lift weights. Every day she has strained to lift weights. Every day she has worked out, exercised. Every day she has gotten stronger and stronger and stronger, since last year. So she has wanted to fight a gorilla. She has contemplated fighting a gorilla. She has gone to the gym. She has exercised.",
+      "She has strained to lift weights every day since last year, until finally she was ready. One day she said “I’m ready. I will proceed with my plan.” And she did. She proceeded with her plan. She flew to Africa. In Africa she saw a big, strong, huge gorilla. But there was a problem. The gorilla had such a cute little baby. Oh no.",
+      "Tomoe visualized the baby crying. She imagined the baby crying. And so Tomoe took the baby into consideration. She thought about the baby. And Tomoe decided not to fight the gorilla. Instead she played basketball with the gorilla and the gorilla baby. And everybody was very happy.",
+      "Okay, that’s all. That’s the end of our first mini-story. Again, you probably noticed there was a change in there. Actually a couple of little changes, you may have noticed that. www.",
+      "Don’t worry about that. Just listen. Listen and understand. That’s all you need to do. Do not think about. Do not analyze. Just listen. Understand the meaning, the general meaning. That’s all you need to do. Next one, into the future.",
+      "So next year there will be this girl Tomoe who will want to fight a gorilla. She’s gonna wanna fight a gorilla. Well, first she’s going to contemplate her goal. She’ll think about it calmly, quietly. She’ll contemplate her goal of fighting the gorilla and she’ll realize something. She’ll realize that gorillas have brute strength.",
+      "Gorillas are not weak. They have brute strength. She’ll realize this. She’ll realize gorillas are very hard to fight. And so Tomoe’s gonna go to the gym every day to get stronger. She’ll strain hard to lift weights. She’ll strain and she’ll strain every day, lifting weights, getting stronger and stronger and stronger.",
+      "Finally, one day she’ll be ready. She will proceed with her plan. She’ll fly to Africa. But when she gets to Africa she’ll have a problem. Yes, she’s gonna see a huge, big, strong gorilla. But the gorilla will have a cute little baby. Tomoe will visualize the little baby crying. She’ll imagine the baby crying.",
+      "Tomoe will take the baby into consideration. She’s gonna think about the baby. And she’ll decide not to fight the gorilla. So of course, obviously, she’ll decide instead to play basketball with the gorilla and the baby. And everybody will be very, very happy.",
+      "That is the end of the point of view stories for Taoism. Listen to this every day. Listen to the mini-story every day. Listen to the main audio every day for one week at least. More is fine, but at least one week. And always, every time you are listening to English, you have to have a peak emotional state. So you gotta jump.",
+      "You gotta smile. You gotta move your body. Shoulders back, breathe. Feel great. Strong positive emotions, connect them to English. You’ll learn much, much faster. See you next time. Bye. www."
+    ],
+    "sixmin": [
+      "Dan: Hello and welcome to 6 Minute English – the programme where we bring you an interesting topic and six items of vocabulary. I’m Dan. And today we’re talking about...",
+      "Catherine: Sighing. I’m Catherine.",
+      "Dan: Now – was that a real sigh – or just one to demonstrate the meaning?",
+      "Catherine: That one was just for educational purposes, of course, Dan.",
+      "Dan: We’ll be looking at why we sigh, and learn how sighing keeps us alive!",
+      "Catherine: Yes, very interesting. And it’s not just humans that sigh, is it, Dan?",
+      "Dan: Indeed, most mammals sigh. And that brings me to today’s question. How many times does a mouse sigh in an hour, on average? Is it? a) Twice b) 10 times c) 40 times",
+      "Catherine: I’m going to say the poor little thing will sigh about 40 times an hour",
+      "Dan: OK. Let’s find out if you’re right later on in the programme. Now, what is a sigh, exactly?",
+      "Catherine: Let’s hear from Dr Lynne Barker, a cognitive neuroscientist from Sheffield Hallam University in the UK.",
+      "INSERT: Dr Lynne Barker, Cognitive Neuroscientist, Sheffield Hallam University It’s a typically cardio-respiratory kind of resetting mechanism, and most mammals will engage in sighing of some kind. Because people who don’t sigh would eventually die. It is a survival mechanism.",
+      "Catherine: So sighing keeps us alive.",
+      "Dan: Dr Barker called it a survival mechanism. To survive means to continue living, especially in difficult circumstances. A mechanism, here, means a system of behaviour.",
+      "Catherine: So, a survival mechanism is something the body does automatically in order to survive. But, Dan, why is sighing a survival mechanism?",
+      "Dan: It’s because sighing can reset the lungs. To reset is to return something to its original settings. We often use this verb when talking about technology. You can reset a computer or a phone.",
+      "Catherine: OK, that’s fine. But how does a sigh reset the lungs?",
+      "Dan: Well, scientists from UCLA, that’s the University of California, Los Angeles, found that a sigh is a special kind of very deep breath that keeps the tiny sacs of air in our lungs, called alveoli, working properly.",
+      "Catherine: And without sighing, these alveoli would collapse and we would die. We need the alveoli to transfer oxygen from our lungs to our blood.",
+      "Dan: Thankfully, we don’t have to think about this need to reset our lungs. Sighing is in fact a reflex.",
+      "Catherine: Boo!",
+      "Dan: Argh!",
+      "Catherine: There – you jumped! And that was a fabulous reflex, Dan! It’s something our bodies do without thinking, something you do unconsciously or automatically.",
+      "Dan: …I meant …argh….like a man. Thank you for that, Catherine.",
+      "Catherine: You’re welcome.",
+      "Dan: Do you sigh a lot?",
+      "Catherine: Well, I sigh when I’m tired, and I sigh when I’m relieved. I breathe a sigh of relief.",
+      "Dan: To breathe a sigh of relief – that’s a great expression. It means what you think it means – to sigh when you feel good that something bad has not happened – but it’s often used metaphorically. It relates more to the feeling of relief than the act of sighing.",
+      "Catherine: That’s right. Now, I breathed a sigh of relief when I found my mobile phone the other day. I thought I’d lost it. It was new. I was so pleased when I found it! What about you, Dan?",
+      "Dan: I tend to sigh to show frustration. And sometimes resignation.",
+      "Catherine: Now, frustration is what we feel when things aren’t going well, when things are annoying us and they don’t work. When things are frustrating.",
+      "Dan: And resignation is what we feel when we finally accept that something bad has happened, that we can’t change. We feel resigned to something.",
+      "Catherine: So, relief, resignation, frustration, resetting our lungs. It sounds like we humans never stop sighing!",
+      "Dan: Well, actually, we humans sigh on average 12 times an hour. But what about… mice?",
+      "Catherine: Well, I said, I reckon they sigh about 40 times an hour.",
+      "Dan: Well, in fact, it is 40 times an hour. The hearts of mice beat faster – so they need to regulate their lungs more than humans.",
+      "Catherine: Let’s review today’s vocabulary.",
+      "Dan: We had the phrase survival mechanism. Something we do without thinking that keeps us alive.",
+      "Catherine: We often use this phrase, and the related phrase defence mechanism, when talking about what people do to cope with difficulties in life.",
+      "Dan: Next, we had reset. You can reset a computer, or a machine – to make it work again. This usually means switching it off and on again.",
+      "Catherine: And you can reset a password – this is a little bit different. It means to set – or choose - a new password.",
+      "Dan: We also had the word reflex. This is a physical action or reaction that you can’t control. For example… Catherine?",
+      "Catherine: Yes?",
+      "Dan: There, you closed your eyes. Another reflex.",
+      "Catherine: And we had to breathe a sigh to relief. Which means to feel better after something bad doesn’t happen. I breathed a sigh of relief when my friend recovered from her illness.",
+      "Dan: But we sigh for other reasons too. Two useful sighing words were: frustration and resignation.",
+      "Catherine: Frustration is the state of being frustrated. We can say something is frustrating. It’s frustrating when my boss doesn’t listen to me.",
+      "Dan: But let’s say you move beyond feeling frustrated and start feeling resigned.",
+      "Catherine: Yeah, and that would be when I finally accept my boss will never listen to me. And that’s when I’ll resign!",
+      "Dan: To resign also means to voluntarily leave a job! Please, Catherine, tell me that’s just another vocabulary example?",
+      "Catherine: Of course it is, Dan. I love my job! I only ever sigh, what, 12 times an hour?!",
+      "Dan: Which is perfectly average. And that's it for today's 6 Minute English. Please join us again soon.",
+      "Catherine: And we are on social media too. Make sure to find us on Facebook, Twitter, Instagram and YouTube.",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What was her name?",
+        "a": "Her name was Tomoe."
+      },
+      {
+        "q": "What did Tomoe want to do?",
+        "a": "Tomoe wanted to fight a gorilla."
+      },
+      {
+        "q": "What did she want to fight?",
+        "a": "A gorilla, Tomoe wanted to fight a gorilla."
+      },
+      {
+        "q": "What did she do?",
+        "a": "She contemplated her goal. She thought about her goal calmly and slowly."
+      },
+      {
+        "q": "What did she contemplate?",
+        "a": "Her goal, she contemplated her goal."
+      },
+      {
+        "q": "What was her goal?",
+        "a": "Her goal was to fight a gorilla."
+      },
+      {
+        "q": "Did she want to be nice to a gorilla?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Who contemplated fighting a gorilla?",
+        "a": "Tomoe, Tomoe thought about fighting a gorilla very calmly, very slowly. She contemplated fighting a gorilla."
+      },
+      {
+        "q": "What did she contemplate fighting?",
+        "a": "A gorilla, Tomoe contemplated fighting a gorilla."
+      },
+      {
+        "q": "What kind of strength do gorillas have…very careful, subtle strength or super strong animal brute strength?",
+        "a": "Well, they have brute strength. Gorillas have brute strength."
+      },
+      {
+        "q": "Did Tomoe have brute strength?",
+        "a": "No, she didn’t. She didn’t have brute strength. She was a small Japanese girl."
+      },
+      {
+        "q": "So who had brute strength? Well, actually, who has brute strength?",
+        "a": "All gorillas, all adult gorillas have brute strength. Animal super strong strength, gorillas have brute strength. So she contemplated, she realized gorillas have brute strength."
+      },
+      {
+        "q": "Would it be easy or hard to fight a gorilla?",
+        "a": "It would be hard for Tomoe to fight a gorilla."
+      },
+      {
+        "q": "Why would it be hard for her to fight a gorilla?",
+        "a": "Well, it would be hard for her to fight a gorilla because gorillas have brute strength. They have brute strength. So it would be very, very hard for her to fight a gorilla. She realized this. She understood."
+      },
+      {
+        "q": "Was she relaxed when she lifted weights?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "What did she strain to do?",
+        "a": "She strained to lift weights. She tried very hard to lift weights."
+      },
+      {
+        "q": "Who strained when she lifted weights?",
+        "a": "Tomoe, Tomoe strained when she lifted weights."
+      },
+      {
+        "q": "How often did she strain when she lifted weights?",
+        "a": "Well, every day actually. Every day she went to the gym. Every day she strained and strained to lift weights."
+      },
+      {
+        "q": "Did she continue or did she stop?",
+        "a": "She continued. She continued to follow her plan. She proceeded to follow her plan."
+      },
+      {
+        "q": "What did she proceed to do?",
+        "a": "She proceeded to follow her plan."
+      },
+      {
+        "q": "Who proceeded to follow her plan?",
+        "a": "Tomoe, Tomoe proceeded to follow her plan."
+      },
+      {
+        "q": "And what was her plan?",
+        "a": "Her plan was to fight a gorilla. Her plan was to fight a gorilla and she proceeded with her plan. She continued with her plan."
+      },
+      {
+        "q": "Where did she fly to?",
+        "a": "To Africa, she flew to Africa."
+      },
+      {
+        "q": "What did Tomoe see?",
+        "a": "She saw a huge, strong, brute gorilla."
+      },
+      {
+        "q": "Did she imagine the gorilla baby crying?",
+        "a": "Yes, Tomoe visualized. She saw, she imagined the little baby gorilla crying if she fought the big gorilla mom."
+      },
+      {
+        "q": "What did Tomoe visualize?",
+        "a": "She visualized the baby gorilla crying."
+      },
+      {
+        "q": "Did she imagine, did she visualize the big gorilla crying or the baby gorilla crying?",
+        "a": "She visualized the baby gorilla crying…oh no."
+      },
+      {
+        "q": "Who visualized the little baby gorilla crying?",
+        "a": "Tomoe, Tomoe visualized the baby gorilla crying."
+      },
+      {
+        "q": "Who did she visualize crying, or whom?",
+        "a": "She visualized the baby gorilla crying."
+      },
+      {
+        "q": "Did Tomoe think about the baby?",
+        "a": "Yes, she took the baby into consideration. She thought about the baby. She took the baby into consideration. She thought about the baby."
+      },
+      {
+        "q": "What did Tomoe take into consideration?",
+        "a": "The baby gorilla, Tomoe took the baby gorilla into consideration. She thought about it."
+      },
+      {
+        "q": "Who took the baby gorilla into consideration?",
+        "a": "www.EffortlessEnglishClub.com"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to strain (your mind)",
+      "pos": "v",
+      "uz": "zoʻriqmoq, haddan tashqari urinmoq (miyani qiynamoq)",
+      "defEn": "to try too hard, using too much effort",
+      "example": "Don't strain your mind; contemplate the problem calmly."
+    },
+    {
+      "en": "to contemplate (a problem)",
+      "pos": "v",
+      "uz": "xotirjam, sokin oʻylamoq (shoshmasdan)",
+      "defEn": "to think about something calmly and slowly",
+      "example": "Contemplate your goal instead of forcing an answer."
+    },
+    {
+      "en": "to visualize (something)",
+      "pos": "v",
+      "uz": "koʻz oldiga keltirmoq, tasavvur qilmoq",
+      "defEn": "to imagine or picture something in your mind",
+      "example": "Visualize your question, then simply wait."
+    },
+    {
+      "en": "brute strength",
+      "pos": "phrase",
+      "uz": "hayvoniy, qoʻpol kuch (juda kuchli, ammo qoʻpol)",
+      "defEn": "raw, animal-like power; the opposite of subtle",
+      "example": "Gorillas have brute strength."
+    },
+    {
+      "en": "to supervise",
+      "pos": "v",
+      "uz": "kuzatib, nazorat qilib turmoq",
+      "defEn": "to watch and control something carefully",
+      "example": "You don't need to supervise your heartbeat."
+    },
+    {
+      "en": "a single track",
+      "pos": "phrase",
+      "uz": "bir yoʻnalish; bittalab, birma-bir",
+      "defEn": "one line or way; one thing at a time",
+      "example": "Conscious thinking runs along a single track."
+    },
+    {
+      "en": "to take into consideration",
+      "pos": "phrase",
+      "uz": "hisobga olmoq, eʼtiborga olmoq",
+      "defEn": "to think about something before deciding",
+      "example": "She took the baby gorilla into consideration."
+    },
+    {
+      "en": "innumerable",
+      "pos": "adj",
+      "uz": "son-sanoqsiz, sanab boʻlmas darajada koʻp",
+      "defEn": "too many to count",
+      "example": "The subconscious handles innumerable things at once."
+    },
+    {
+      "en": "to handle",
+      "pos": "v",
+      "uz": "uddalamoq, eplamoq, boshqarmoq",
+      "defEn": "to manage or deal with something",
+      "example": "Your brain can handle many variables at the same time."
+    },
+    {
+      "en": "crude",
+      "pos": "adj",
+      "uz": "qoʻpol, sodda va ibtidoiy",
+      "defEn": "very simple and primitive",
+      "example": "Words are crude; they work one by one."
+    }
+  ],
+  "englishpod": null,
+  "sixmin": {
+    "date": "170420",
+    "title": "Sighing",
+    "titleUz": "Xoʻrsinish (uh tortish)",
+    "audio": {
+      "main": {
+        "path": "sixmin/170420/audio.mp3",
+        "durationSec": 378,
+        "bytes": 15120000,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many times does a mouse sigh in an hour, on average?",
+        "qUz": "Sichqon soatiga oʻrtacha necha marta xoʻrsinadi?",
+        "options": [
+          "Twice",
+          "10 times",
+          "40 times"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 40 marta. Catherine 40 dedi va haq boʻldi. Sichqonlarning yuragi tezroq uradi, shuning uchun oʻpkasini koʻproq “qayta sozlashi” (reset) kerak — inson esa oʻrtacha soatiga 12 marta xoʻrsinadi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "survival mechanism",
+        "uz": "omon qolish mexanizmi (tirik qolish uchun beixtiyor qilinadigan ish)",
+        "defEn": "something the body does automatically in order to survive"
+      },
+      {
+        "en": "to reset",
+        "uz": "qayta ishga tushirmoq, dastlabki holatga qaytarmoq",
+        "defEn": "to return something to its original settings"
+      },
+      {
+        "en": "a reflex",
+        "uz": "refleks, ixtiyorsiz (avtomatik) harakat",
+        "defEn": "a physical action or reaction you can't control"
+      },
+      {
+        "en": "to breathe a sigh of relief",
+        "uz": "yengil nafas olmoq (xavotirdan xalos boʻlib)",
+        "defEn": "to feel relief when something bad has not happened"
+      },
+      {
+        "en": "frustration",
+        "uz": "gʻashlik, umidsizlik (ishlar yurishmagandagi holat)",
+        "defEn": "the feeling you have when things aren't going well"
+      },
+      {
+        "en": "resignation",
+        "uz": "taqdirga tan berish, chorasizlikdan koʻnish",
+        "defEn": "accepting something bad that you cannot change"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Alan Watts — The Watercourse Way: Wu Wei & Effortless Action",
+      "channel": "Alan Watts Org"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about a problem you are trying to solve. What might happen if you stop forcing it? Describe how the answer could come by itself — and say what is usually done, step by step, when the problem is finally solved.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: ehtimollik modallari (it might…, it may…, you could…) va majhul nisbat (is done / was done — bajaruvchini koʻrsatmasdan).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/15/main.mp3",
+      "bytes": 11190857
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/15/main.pdf",
+      "bytes": 54815
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/15/vocab.mp3",
+      "bytes": 9214262
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/15/ministory.mp3",
+      "bytes": 9325690
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/15/pov.mp3",
+      "bytes": 5332749
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/15/pov.pdf",
+      "bytes": 67455
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170420/audio.mp3",
+      "bytes": 15120000
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170420/transcript.pdf",
+      "bytes": 224135
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "schemaVersion": 2,
+  "id": "core-11",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 11,
+  "slug": "unlimited",
+  "title": "Unlimited",
+  "titleUz": "Cheksiz kuch — ehtiros",
+  "level": "B1",
+  "tags": [
+    "passion",
+    "potential",
+    "ability",
+    "second-conditional",
+    "mindset"
+  ],
+  "intro": {
+    "uz": "Unlimited Power — Tony Robbins gʻoyasi: muvaffaqiyat tasodif emas, uning asosida ehtiros (passion) turadi va zoʻrlik hammamizning qoʻlimiz yetadigan joyda. Bu haftaning ikki grammatik mavzusi cheksiz imkoniyat tilida: turli zamonlarda qobiliyat (can / could / be able to / manage to) va xayoliy farazlar (ikkinchi shart — agar … boʻlsa edi). Marco haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Unlimited Power — Tony Robbins' idea: success is not an accident; passion drives it, and excellence is within the reach of all of us. This week's two grammar topics speak the language of unlimited potential: ability across time (can / could / be able to / manage to) and imagining no limits (the second conditional — unreal present). You'll hear both in the POV story about Marco."
+  },
+  "canDo": {
+    "uz": "Dars oxirida hozir, oʻtmish va kelajakdagi qobiliyatingizni toʻxtamasdan ayta olasiz (I can … I couldn't … I'll be able to …) va cheksiz imkoniyat haqidagi xayoliy savolga faraz bilan javob bera olasiz (If I had … I would …).",
+    "en": "By the end you can talk about what you can, could and will be able to do without pausing, and answer an imaginary \"no limits\" question with a hypothetical (If I had … I would …)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "ability-across-time",
+      "titleUz": "Qobiliyat zamonlar boʻylab: can / could / be able to / manage to",
+      "titleEn": "Ability across time — can / could / be able to",
+      "bandLifter": "IELTS Part 1 & 2 — say what you can, could and will be able to do",
+      "cefrCanDo": "B1: I can express ability and inability in the present, past and future",
+      "bodyHtml": "<p>Tony Robbins bu darsda bitta gapni takrorlaydi: <em>&quot;Excellence is within the reach of all of us. We <strong>can</strong> unleash the magic within us.&quot;</em> Mini-hikoyada esa Marco haqida soʻralamiz: <em>&quot;<strong>Could</strong> Marco control the stock market? No, he <strong>couldn't</strong>.&quot;</em> POV hikoyada esa puli ketgach: <em>&quot;Finally he <strong>could</strong> cultivate his body.&quot;</em> Bularning barchasi bitta gʻoya — <strong>qobiliyat</strong>, yaʼni biror ishni qila <strong>olish</strong> yoki qila <strong>olmaslik</strong>. Bu haftaning A mavzusi shu qobiliyatni uch zamonda ifodalash: hozir (<strong>can</strong>), oʻtmish (<strong>could</strong>) va boshqa shakllar (<strong>be able to / manage to</strong>).</p>\n<h3><code>can</code> va <code>could</code> — hozir va oʻtmishdagi qobiliyat</h3>\n<ul>\n<li><strong>can</strong> = hozir qila olaman: <em>I <strong>can</strong> speak English.</em> — Ingliz tilida gapira olaman.</li>\n<li><strong>could</strong> = oʻtmishda (umuman, doimiy) qila olardim: <em>When I was young, I <strong>could</strong> run fast.</em> — Yoshligimda tez yugura olardim.</li>\n<li>Inkor: <strong>can't / couldn't</strong>: <em>Marco <strong>couldn't</strong> control the stock market.</em> — Marco birjani nazorat qila olmasdi.</li>\n</ul>\n<p><code>can</code>/<code>could</code> dan keyin feʼl <strong>sof shaklda</strong> qoladi (to-siz): <em>can <strong>speak</strong> ✅, can to speak ❌</em>.</p>\n<h3><code>be able to</code> — barcha zamonlarda ishlaydigan qobiliyat</h3>\n<p><code>can</code> faqat hozir va oʻtmish uchun. Kelasi zamon yoki present perfect kerak boʻlsa, <strong>be able to</strong> ishlatiladi (bu yerda <code>can</code> yoʻq):</p>\n<ul>\n<li>Kelasi: <em>One day I <strong>will be able to</strong> watch films without subtitles.</em> — Bir kun keladi, filmlarni tarjimasiz koʻra olaman.</li>\n<li>Present perfect: <em>Since 2020 I <strong>have been able to</strong> think in English.</em> — 2020-yildan beri inglizcha oʻylay olaman.</li>\n</ul>\n<h3><code>could</code> va <code>was able to</code> — muhim farq</h3>\n<p>Bu — oʻzbek oʻquvchilar sezmaydigan nozik farq. <strong>Bir martalik</strong>, aniq bir vaziyatda muvaffaqiyat qozonilgan ish uchun <code>could</code> emas, <strong>was able to</strong> yoki <strong>managed to</strong> ishlatiladi:</p>\n<ul>\n<li><em>After two months, Marco <strong>was able to</strong> get a perfect body.</em> (yoki <em><strong>managed to</strong> get</em>) — Ikki oydan soʻng Marco mukammal tanaga erisha oldi.</li>\n<li>❗ <em>After two months, Marco <strong>could</strong> get a perfect body</em> — bu notoʻgʻri, chunki gap bir martalik natija haqida.</li>\n</ul>\n<p><strong>managed to</strong> = qiyinchilik bilan, harakat qilib, oxir-oqibat erishmoq — Marconing hikoyasiga aynan mos.</p>\n<h3>Ingliz–oʻzbek qiyosi</h3>\n<p>Oʻzbekchada qobiliyat bitta qoʻshimcha bilan beriladi: gapir-<strong>a olaman</strong>, gapir-<strong>a olardim</strong>. Ingliz tili esa zamonga qarab <strong>butun soʻzni</strong> oʻzgartiradi: <em>can → could → will be able to</em>. Shuning uchun oʻzbek oʻquvchi koʻpincha kelasi zamonda ham <code>can</code> deb yuboradi (<em>&quot;I will can&quot;</em> — bu mumkin emas); toʻgʻrisi — <em>I <strong>will be able to</strong></em>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingiz haqingizda uch jumla ovoz chiqarib ayting: <em>&quot;Now I <strong>can</strong> … . Five years ago I <strong>couldn't</strong> … . One day I <strong>will be able to</strong> … .&quot;</em> Bir hafta ichida uch shakl quloqqa tabiiy urila boshlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada qobiliyat bitta qoʻshimcha bilan beriladi: gapir-a olaman, gapir-a olardim. Ingliz tili esa zamonga qarab butun soʻzni oʻzgartiradi: can → could → will be able to. Shuning uchun kelasi zamonda “I will can” demang — toʻgʻrisi “I will be able to”.",
+      "errorFixUz": "❌ In the future I will can speak fluently. ✅ In the future I will be able to speak fluently. can ikkita modal feʼlni yonma-yon qoʻyib boʻlmaydi; kelajak yoki present perfect kerak boʻlsa — be able to.",
+      "examples": [
+        {
+          "en": "I can speak English, but I couldn't five years ago.",
+          "uz": "Ingliz tilida gapira olaman, lekin besh yil oldin gapira olmasdim."
+        },
+        {
+          "en": "Could Marco control the stock market? No, he couldn't.",
+          "uz": "Marco birjani nazorat qila olarmidi? Yoʻq, qila olmasdi."
+        },
+        {
+          "en": "After two months, Marco was able to get a perfect body.",
+          "uz": "Ikki oydan soʻng Marco mukammal tanaga erisha oldi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "One day I ___ watch films without subtitles.",
+          "options": [
+            "will be able to",
+            "will can",
+            "can will"
+          ],
+          "answer": "will be able to",
+          "hintUz": "kelasi zamon → “will be able to” (will + can boʻlmaydi)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "When I was a child, I ___ swim very well.",
+          "options": [
+            "could",
+            "can",
+            "will"
+          ],
+          "answer": "could",
+          "hintUz": "oʻtmishdagi umumiy qobiliyat → could"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "After a lot of effort, Marco finally ___ get a perfect body.",
+          "options": [
+            "managed to",
+            "could to",
+            "can"
+          ],
+          "answer": "managed to",
+          "hintUz": "bir martalik, qiyinchilik bilan erishilgan natija → managed to / was able to (could emas)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “Now I can … Five years ago I couldn't … One day I will be able to … .”",
+          "answer": null,
+          "hintUz": "hozir → can; oʻtmish → could/couldn't; kelajak → will be able to"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "second-conditional",
+      "titleUz": "Ikkinchi shart: agar … boʻlsa edi (faraz)",
+      "titleEn": "Second conditional — unreal present",
+      "bandLifter": "IELTS Part 3 — answer hypothetical \"What would you do if…?\" questions",
+      "cefrCanDo": "B1→B2: I can talk about imaginary present situations (If I had … I would …)",
+      "bodyHtml": "<p>&quot;Unlimited Power&quot; — cheksiz imkoniyatlarni <strong>tasavvur qilish</strong> haqida dars. Tasavvur esa har doim bir farazdir: <em>&quot;If you <strong>had</strong> unlimited time, what <strong>would</strong> you <strong>do</strong>?&quot;</em> — Agar cheksiz vaqtingiz <strong>boʻlsa edi</strong>, nima <strong>qilardingiz</strong>? Marconing hikoyasi ham shundan boshlanadi: u puldor boʻlsa-da, mukammal tanani orzu qiladi. Agar biz uning oʻrnida boʻlsak edi, biz nima qilardik? Bu haftaning B mavzusi — <strong>ikkinchi shart</strong> (second conditional): hozirgi haqiqiy boʻlmagan, <strong>xayoliy</strong> vaziyatni ifodalash.</p>\n<h3>Maʼnosi: hozir haqiqat boʻlmagan faraz</h3>\n<p>Ikkinchi shart <strong>hozir</strong> yoki <strong>umuman</strong> roʻy bermaydigan, faqat tasavvurdagi holat uchun ishlatiladi. Uni yodlash oson, chunki qolipi qatʼiy:</p>\n<blockquote>\n<p><strong>If + past simple, … would + feʼl (sof shakl).</strong></p>\n</blockquote>\n<ul>\n<li><em>If I <strong>had</strong> a lot of money, I <strong>would</strong> travel the world.</em> — Agar koʻp pulim boʻlsa edi, dunyo boʻylab sayohat qilardim. (lekin pulim yoʻq)</li>\n<li><em>If Marco <strong>lost</strong> everything, he <strong>would</strong> still be positive.</em> — Marco hamma narsasini yoʻqotsa ham, baribir ijobiy boʻlardi.</li>\n<li><em>What <strong>would</strong> you <strong>do</strong> if you <strong>spoke</strong> perfect English?</em> — Mukammal ingliz tilida gapirsangiz, nima qilardingiz?</li>\n</ul>\n<p>Diqqat: <code>if</code> qismida oʻtgan zamon (<em>had, lost, spoke</em>) turadi, lekin maʼnosi <strong>oʻtmish emas</strong> — bu hozirgi xayoliy holat. <code>would</code> esa doim <strong>sof feʼl</strong> bilan keladi: <em>would <strong>travel</strong> ✅, would to travel ❌</em>.</p>\n<h3><code>was</code> emas, <code>were</code> — barcha shaxslar uchun</h3>\n<p>Ikkinchi shartda <code>be</code> feʼli faraz maʼnosida odatda <strong>were</strong> boʻladi, hatto <em>I / he / she</em> bilan ham:</p>\n<ul>\n<li><em>If I <strong>were</strong> you, I <strong>would</strong> learn English with passion.</em> — Sizning oʻrningizda boʻlsam, ingliz tilini ehtiros bilan oʻrganardim.</li>\n</ul>\n<p><em>&quot;If I <strong>were</strong> you…&quot;</em> — ingliz tilida maslahat berishning eng tabiiy yoʻli; uni tayyor ibora sifatida yodlab qoʻying.</p>\n<h3>Birinchi shart bilan aralashtirmang</h3>\n<p>Bu — eng koʻp uchraydigan xato. <strong>Haqiqiy, ehtimoli bor</strong> kelajak uchun birinchi shart (<em>if + present, will</em>); <strong>xayoliy, ehtimoldan uzoq</strong> holat uchun ikkinchi shart (<em>if + past, would</em>):</p>\n<ul>\n<li><em>If I <strong>have</strong> time tomorrow, I <strong>will</strong> call you.</em> — real reja (vaqtim boʻlishi mumkin).</li>\n<li><em>If I <strong>had</strong> more time, I <strong>would</strong> learn three languages.</em> — faraz (vaqtim yetmaydi).</li>\n</ul>\n<p>Oʻzbek tilida ikkalasi ham &quot;agar … boʻlsa&quot; bilan ifodalanadi, shuning uchun oʻquvchi farqni sezmay <code>will</code> bilan farazni aytib yuboradi: ❗ <em>If I had money, I <strong>will</strong> buy a car.</em> ✅ <em>If I had money, I <strong>would</strong> buy a car.</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> IELTS Part 3 da <em>&quot;What would happen if…?&quot;</em> savollari koʻp. Har kuni bitta orzu jumlasini ovoz chiqarib ayting: <em>&quot;If I <strong>were</strong> … , I <strong>would</strong> … .&quot;</em> Bu qolip darajangizni darhol koʻtaradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida haqiqiy reja ham, xayoliy faraz ham “agar … boʻlsa” bilan aytiladi, shuning uchun oʻquvchi ikkalasini adashtiradi. Ingliz tili farqni ajratadi: real kelajak → if + present, will; xayoliy holat → if + past, would.",
+      "errorFixUz": "❌ If I had unlimited time, I will learn three languages. ✅ If I had unlimited time, I would learn three languages. Faraz (if + past) bilan “will” emas, “would” keladi.",
+      "examples": [
+        {
+          "en": "If you had unlimited time, what would you do?",
+          "uz": "Agar cheksiz vaqtingiz boʻlsa edi, nima qilardingiz?"
+        },
+        {
+          "en": "If I had a lot of money, I would travel the world.",
+          "uz": "Agar koʻp pulim boʻlsa edi, dunyo boʻylab sayohat qilardim."
+        },
+        {
+          "en": "If I were you, I would learn English with passion.",
+          "uz": "Sizning oʻrningizda boʻlsam, ingliz tilini ehtiros bilan oʻrganardim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "If I ___ more free time, I would read English novels every day.",
+          "options": [
+            "had",
+            "have",
+            "will have"
+          ],
+          "answer": "had",
+          "hintUz": "ikkinchi shartda “if” qismida past simple: had"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If I had unlimited power, I ___ help my whole city.",
+          "options": [
+            "would",
+            "will",
+            "can"
+          ],
+          "answer": "would",
+          "hintUz": "faraz natijasi → would + sof feʼl"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If I ___ you, I would start today.",
+          "options": [
+            "were",
+            "am",
+            "was"
+          ],
+          "answer": "were",
+          "hintUz": "faraz maʼnosidagi “be” → were (barcha shaxslar uchun): If I were you"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Xayoliy javob ayting (ovoz chiqarib): “If I had unlimited time and money, I would … .”",
+          "answer": null,
+          "hintUz": "if + past (had) … would + sof feʼl"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/11/main.mp3",
+      "durationSec": 677,
+      "bytes": 8132805,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/11/vocab.mp3",
+      "durationSec": 692,
+      "bytes": 8301512,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/11/ministory.mp3",
+      "durationSec": 792,
+      "bytes": 9502806,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/11/pov.mp3",
+      "durationSec": 165,
+      "bytes": 5304850,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Okay, hello, it’s me again, AJ, and we’re back for another lesson. This lesson is called “Unlimited Power.” Great title and of course it comes from the book by Tony Robbins who is another one of my favorite teachers. In fact, I really love Tony. I just got back from a seminar of his.",
+      "He is fantastic and I highly recommend his books, his tapes, his CDs, his seminars…anything you can get from Tony Robbins…fantastic!",
+      "And we’re going to again do a little excerpt, a little section from one of his books and this section talks about the number one trait that determines success and happiness in Tony Robbins’ opinion, and I agree with him.",
+      "And that number one trait, that one factor, that one thing that really creates success and powers and gives energy to everything else is passion. So this is a little section about passion from Tony Robbins’ book, Unlimited Power. So I am just going to go ahead and read that section and then I will talk about it more. So here we go.",
+      "Success is not an accident. The difference between people who produce positive results and those who do not is not some sort of random roll of the dice. There are consistent logical patterns of action, specific pathways to excellence that are within the reach of us all. We can unleash the magic within us.",
+      "We simply must learn how to turn on and use our minds and bodies in the most powerful and advantageous ways. Have you ever wondered what a Steven Spielberg or a Bruce Springsteen might have in common? What do John F. Kennedy and a Martin Luther King, Jr. share that caused them to affect so many people in such a deep and emotional way?",
+      "They have been able to get themselves to consistently take effective actions toward the accomplishment of their dreams. But what is it that got them to continue day after day, to put everything they’ve got into everything they do?",
+      "There are of course many factors however I believe there are fundamental character traits that they have cultivated within themselves. Characteristics that give them the fire to do whatever it takes to succeed. These are the traits that can insure your success as well. Trait number one: Passion.",
+      "All of these people have discovered a reason, a consuming, energizing, almost obsessive purpose that drives them to do, to grow and to be more. It gives them the fuel that powers their success and causes them to tap their true potential.",
+      "It’s passion that drives the computer scientists through years of dedication to create the kind of breakthroughs that have put men and women in outer space and brought them back. It’s passion that causes people to stay up late and get up early. It’s passion that people want in their relationships. Passion gives power and meaning.",
+      "There is no greatness without a passion to be great, whether it’s the aspiration of an athlete or an artist, a scientist, a student, a parent or a businessperson. Discover how to unleash this inner force of passion within yourself.",
+      "Okay, whew! So Tony Robbins, you can tell he’s a very passionate guy himself, very, very passionate. And I really love this section because all the things we’ve talked about until now, they really are about passion. Changing your body, changing your focus, changing your beliefs, what you are doing is finding that passion inside of you.",
+      "That energy, that incredible physical and mental and emotional energy that will help you succeed at anything. Without energy, it’s hard to succeed. Without energy, it’s hard to do anything. If you have no energy, you can’t exercise. If you have no energy, probably your relationships will be bad.",
+      "If you have no energy, you’re not going to learn English very well, you’re not going to learn anything very well. If you have no energy, you’re not going to be a good teacher.",
+      "You’re not going to be a good father, you’re not going to be a good mother, nothing in your life will be excellent or even very good if you don’t have that energy and that passion. The passion drives everything else. It’s the fuel, it’s like the gasoline for your engine, for everything.",
+      "And so, to learn English, for example, you need to develop a passion for English, exciting reasons to learn English. Not just take a test, taking a test, who gets excited about taking a test? Almost nobody. In fact, usually it’s the opposite, right? Most of us get stressed about taking a test. Most of us have fear about taking tests.",
+      "And it’s the same in schools, not just English. All of education, in almost every country, kills passion. Most classrooms, high school, elementary school, middle school, university, they kill passion, they kill that energy in the student unfortunately. It probably happened to you, it certainly happened to me when I was growing up.",
+      "It’s happened to 99. 9% of the students I have taught. When they come to me their passion has been diminished, lessened or even almost killed. The good news is it’s never completely killed. You can find it again. Because naturally as human beings we love to learn, our brains love learning.",
+      "So sitting in little desks and taking tests and being criticized by teachers and getting grades, all that bullshit, all that crap, it kills passion, it may have killed the passion in you so just forget about it. That part of your life is over. Thank god, yes, it’s over. Now you’re in charge, now you are responsible.",
+      "Now you are learning because you want to learn, so do it in a way that gives you that passion, that gives you that excitement.",
+      "Find reasons to learn English that you love that are exciting. If you’re single, maybe you could get a girlfriend or a boyfriend by speaking English. Hmm, that would be fun…date someone from another country because of your great English skills. That would be great.",
+      "If you’re a businessperson or want to be one, maybe you could make tons of money, lots and lots of money because of your great English skills. That would be great. If you’re a parent, maybe because of your excellent English ability you could help your children learn English.",
+      "Not the way you did, not the terrible way that is taught in schools, but in a much better way, a way that excites them so that your children have great opportunities in the future. Those are exciting reasons to learn English. Maybe you could just make a lot of friends.",
+      "Maybe you could make friends in the United States, in Canada, in the UK, in other countries, because we use English to connect with people in every country of the world. You could make friends in Japan, in Korea, in China, all through Europe, all through Asia, all through South America, Central America.",
+      "You could have an incredible web of friendships, international friendships all over the world. You could find incredible, interesting books written in English. Maybe you can’t find them in your language. So many cool, interesting opportunities open to you by being excellent with English.",
+      "Because right now, at this moment in history, English is the international language. We use it for science. When scientists in different countries want to communicate, they use English. We use it for business. We use it for relationships. We use it so many ways right now so that’s why you’re learning English. Not to take some stupid test.",
+      "So find the reasons that make you feel passionate about learning English. And in your life in general, find things in your life that make you feel passionate. Get that energy going, not just with English but with everything in your life and your life will just feel so much more interesting and exciting.",
+      "You will get this kind of energy, the kind of energy you hear in my voice, the kind of energy you see if you ever see Tony Robbins or read his books or listen to him, anybody who is doing well, anybody who is excited, anyone who has that energy, it’s because of this passion.",
+      "They have passionate, interesting, compelling, exciting reasons to learn, to do what they do. Find those and you will get that energy too. Alright, that is the end of this article. See you for the vocabulary lesson. And remember, smile, get that body moving. The first part of passion starts with your body. Get the energy in your body.",
+      "So those deep breaths, that chest up, that big smile, it’s very important because it’s the first step to developing this passion, this energy. Okay, see you next time."
+    ],
+    "vocab": [
+      "Unlimited Power Vocabulary Hello this is AJ again. Welcome to the vocabulary lesson for “Unlimited Power.” Let’s start right away. Our first phrase is roll of the dice, roll of the dice.",
+      "Now the sentence in the article says: The difference between people who produce positive results and those who do not is not some sort of roll of the dice. Okay, roll of the dice means a random event, random event. So a roll of the dice is a random event. It’s kind of a random chance, random chance, random event.",
+      "So he’s saying it’s not a roll of the dice, it’s not random. In other words, it’s not chance that one person is really excellent and another person is not. It’s not luck. It’s not luck, there are reasons, there are very consistent reasons that one person is very excellent all the time and another person is not.",
+      "Okay, so roll of the dice kind of is this idea of luck or randomness or a random event. Roll of the dice. He’s saying it’s not a roll of the dice, it’s not chance, it’s not luck, it’s something else. Okay, another phrase in this article, the phrase within the reach of all of us. Excellence is within the reach of all of us.",
+      "Within the reach of, within the reach of. Within the reach of means near, or easy to get or possible to get. Excellence is within the reach of all of us means excellence is near all of us. Excellence is easy to get for all of us. Excellence is possible to get for all of us.",
+      "Okay, so again, within the reach of means something that’s possible to get. We can reach it, we can get it, we can grab it, we can have it. Possible to get, near. So it’s within the reach of. Our next word is unleash. Unleash the magic within us all.",
+      "Unleash the power inside of you. Unleash means to free, make something free. It means before it was not free and then you open the door and it comes out. It’s free. So if you unleash your power, it means you had the power all the time inside you but it was like locked up, you weren’t using it, it wasn’t free.",
+      "If you unleash it, it means you open yourself and that power comes out. You set it free. You free it. So that’s unleash, unleash. Next we have the word advantageous. Advantageous. We want to learn how to use our bodies and our minds in advantageous ways. Advantageous. Advantageous means beneficial.",
+      "It means something that is helpful, something that is useful, something that is good. So reading a lot of easy novels is advantageous. It’s helpful, it will help you learn faster. It’s beneficial. Okay, so advantageous, beneficial, basically the same. Next we have the phrase have in common.",
+      "What do Steven Spielberg, Bruce Springsteen, Martin Luther King, etc. , have in common? To have in common means to share, it means you have something that’s the same, those three people, something is the same. They share some trait. They share something in common, right? Share something that’s the same. So have in common.",
+      "Have in common, they have something that is the same, some trait. And Tony says it’s passion. They all three have passion for what they do. They have passion in their life. They have passion in common. Have in common, it means share something that’s the same.",
+      "Alright and then another phrase, he says to Put everything you’ve got into everything you do. How do these people put everything they’ve got into everything they do? Okay, put everything you’ve got into something. Kind of a long phrase. It just means you put all your energy into something. It means you try 100%. You try very, very hard.",
+      "Total effort, total energy. Say I put everything I have into learning English, it means you give all your energy to this action. You try superhard to learn English. You give all your energy to learning English. You put everything you’ve got into learning English. Next word is fundamental.",
+      "Fundamental, Tony said I believe there are fundamental character traits that cause success. Fundamental means basic or core. It’s what’s most important. So fundamental traits, it means the most important traits, the most basic traits.",
+      "Our next word is cultivate or cultivated. These people have fundamental traits that they cultivated within themselves. They cultivated passion. It wasn’t an accident. These people don’t have passion just accidentally. It’s not a roll of the dice. They actually cultivated passion. To cultivate means to develop, to grow, to care for, right?",
+      "So they developed passion. Maybe in the beginning they didn’t have very much passion but they grew it, they took care of the passion. They helped it to grow, they helped it to develop, that’s cultivate. You cultivate something, it means you help it to grow. You develop it.",
+      "Next he said that They did something to give themselves the fire to succeed. Now you know the normal meaning of fire, but fire also means passion. So these people gave themselves fire, these people have fire in their life. They have passion. So fire and passion basically the same meaning in this kind of situation.",
+      "Next we see the word insure. Insure. Passion will insure your success. Insure means guarantee. Alright, so passion will guarantee your success. Passion will insure your success. The next word is drive. These people have a reason that drives them to do more, to grow more, to be more. It drives them.",
+      "So to drive in this situation means to push. It pushes them. It energizes them, right, it kind of pushes them to do more. Because they have a strong reason, the reason pushes them to do more, to be more, to learn more.",
+      "Right, it’s kind of like driving a car, the energy drives the car, the gasoline drives the car, the gasoline pushes the car, it’s where the energy comes from. So the reason drives the action. The reason pushes the action. Next we have the word fuel. Passion gives these people fuel. Fuel of course here just means energy.",
+      "It also means like gasoline but in the most basic meaning it’s energy. So fuel is energy. Food, air, water, they are fuel for your body, right? They give energy to your body, for example. So fuel means energy basically.",
+      "Next we have the verb to tap. To tap. Passion causes you to tap your true potential. To tap means to let out, to open, to penetrate, right? Go into and let something out. So passion taps your potential, it means passion lets out your potential. It lets out what is best in you, it taps it.",
+      "Okay, so to tap means to let out, to open, to penetrate. We have two more words, the next word is breakthrough. People with passion have big breakthroughs in their life. A breakthrough is a big and sudden improvement. It happens very quickly. You’re trying, you’re trying, and suddenly, boom! Big improvement, that’s a breakthrough.",
+      "So a breakthrough again is a very sudden, big improvement. Maybe you’re having trouble, you can’t, no improvement, no improvement, no improvement, boom! Suddenly, big improvement. That’s breakthrough. And finally we have the word aspiration.",
+      "There’s no greatness without passion, whether it’s the aspiration of an athlete or an artist or a student. So, aspiration just means hope or desire. It’s something you want a lot. I have an aspiration to be a great English speaker. It means I have a hope to be a great English speaker. I have a desire to be a great English speaker.",
+      "I have a goal to be a great English speaker. So that’s aspiration. Again, aspiration just is a desire, a hope, a goal. Alright, that is all for the vocabulary lesson for “Unlimited Power.” See you at the mini-story."
+    ],
+    "pov": [
+      "Unlimited Power_POV Welcome to the POV stories for “Unlimited Power.” And of course, POV means point of view. Same story about Marco, the hot, sexy man. This time we’re going to start with “Since 1979.” Since 1979 Marco has wanted a hot, sexy body. Since 1979 March has wanted a perfect body. But, he didn’t have one.",
+      "Unfortunately, he was a little bit fat, a little bit weak. Not terrible, but he didn’t have a perfect, sexy body. So since 1979 he has wanted a perfect body. His aspiration was to have a perfect body. What was his aspiration? His aspiration, his hope, was to have a perfect body. Since when has he wanted a perfect body?",
+      "Since 1979, since 1979 he has wanted a perfect body. Who has wanted a perfect body since 1979? Well, Marco, of course. Marco has wanted a perfect body since 1979. So in 1980 did he want a perfect body? Yes. In 1983 did he want a perfect body? Yes. In 1985 did he want a perfect body? Yes.",
+      "In 1997 did he want a perfect body? Yes. In 2002 did he want a perfect body? Yes, he has wanted a perfect body since 1979, starting in 1979, continuing until now. He has wanted a perfect body during that whole time. Every day, every moment from 1979 until now, he has wanted a perfect body. But he didn’t have one.",
+      "But he did make a lot of money. He became rich. He had $67. 7 million. In fact, since 1995 he has been super rich. Since 1995 he has had a lot of money. In 1996 and 1997 and 2000, so since 1995, beginning in 1995 and continuing, he has been rich. He’s had a lot of money. Who has been rich since 1995? Marco has been rich since 1995.",
+      "However, one day Marco bet all his money on the stock market. It was a roll of the dice. It was a chance, it was a random chance, it was a bet on luck, it was a random event. So it was a roll of the dice. He bet all his money on the stock market and he lost all of it. However, he decided that it was an advantageous event.",
+      "He decided it was a good thing. Because now finally he had free time. Finally he could cultivate his health. Finally he could cultivate his body. And remember, his aspiration was to have a perfect body just like Brad Pitt’s. And so every day he went to the gym. Every day he ran. Every day he worked out.",
+      "Every day he ate green vegetables and finally one day after two months, a breakthrough, a sudden big change. He got a perfect body. His body was exactly like Brad Pitt’s. And then tens of thousands of gay men wanted his hot, sexy body. Tens of thousands of straight women wanted his hot, sexy body. He was very, very happy.",
+      "Alright, that is the end of our first POV story, now our next one. Let’s imagine this is going to happen in the future. Maybe I’m imagining a story right now. I’m just thinking of this story and it’s going to happen five years from now and I’m telling you my idea for my story. So here’s my idea for a story.",
+      "Let’s say maybe five years in the future.",
+      "In five years there will be a guy named Marco and he’s going to bet all his money on the stock market. He’s going to bet $67. 7 million on the stock market in fact. It’ll be a roll of the dice, y’know, it’ll be a bet on chance, a bet on luck. And unfortunately for him it will be a roll of the dice and he’s going to have bad luck.",
+      "He’s going to lose all his money. But, Marco is a very positive strong person. He’ll decide that it’s an advantageous event. He’ll decide it’s a good thing. He’ll decide this because he’ll say, “Well, now I have free time to cultivate my body. I’m going to cultivate my health.”",
+      "Of course, his aspiration will have always been to have a great body, to have a perfect body. And now he can realize his dream. And so he’ll run every day. He’ll go to the gym every day. He’ll eat green vegetables every day and after two months he’ll have a giant, huge breakthrough. He’ll get a body just like Brad Pitt’s.",
+      "Now, of course, tens of thousands of gay men are going to want him. Tens of thousands of straight women are going to want him. He’s going to be a very happy guy. He’ll be very, very happy. Alright, that’s the end of our second POV story. Very simple, very easy, just listen to these again and again and again.",
+      "Big smile when you listen, big upright body, deep breathing and move when you’re listening to every single lesson. See you next time, bye."
+    ],
+    "sixmin": [
+      "Neil: Hello, and welcome to 6 Minute English, I'm Neil and joining me today is Rob.",
+      "Rob: Hello.",
+      "Neil: So Rob, what's the most dangerous thing you've ever chosen to do?",
+      "Rob: Mmm. Tricky question. I've done many risky things, but probably the most risky thing is bungee jumping in New Zealand.",
+      "Neil: Oh wow, bungee jumping. You'd never catch me doing that. Did you enjoy it?",
+      "Rob: Not really, no. I won't do it again!",
+      "Neil: OK, well today our topic is risk and how different people react to different levels of risk in different ways. For example, would you be happy to be in a driverless car?",
+      "Rob: Absolutely not! No, I don't trust anybody's driving - even a computer. So no, I wouldn't go in a driverless car.",
+      "Neil: OK, I won't offer you a lift! Driverless cars are the topic of today's quiz. The question is: When was the first driverless car demonstrated on a public road? Was it: a) 1970s b) 1950s c) 1920s",
+      "Rob: I think they are quite modern, so I'm going to say 1970s.",
+      "Neil: OK, well we'll find out if you're right at the end of the programme. Joe Kable is an Associate Professor of Psychology at the University of Pennsylvania. In a recent BBC science programme, All in the Mind, he talked about the psychology of risk and whether there was anything physically in our brains that could predict how much risk we are prepared to accept. Here he is, first talking about a number of different ways people see risk. How many different types does he describe? Joe Kable, Associate Professor of Psychology, University of Pennsylvania Some people are quite risk-averse and really don't want to take any decisions where there's risk involved at all, whereas others are fairly risk-tolerant and in some cases even risk-seeking so they seek out decisions that have an aspect of risk to them.",
+      "Neil: How many different types of people did he mention, when it comes to attitudes to risk?",
+      "Rob: Well, there were three. The first group was those who are risk-averse. If you are averse to something, you are against it, you don't like it. So risk-averse people don't like to take risks.",
+      "Neil: The second group are those who are risk-tolerant. If you are tolerant of something, you accept it, you don't mind it, it's not a problem for you. So someone who is risk-tolerant is not worried by an element of risk in what they choose to do.",
+      "Rob: The third group he mentioned are those who are risk-seeking. If you seek something, you actively look for it, you try to find it. So risk seekers are those who enjoy risk and want to take risks in their life.",
+      "Neil: Associate Professor Kable carried out research on risk-taking and discovered that there were differences in brain structure and the way parts of the brain worked together between those who are risk-averse and those who are risk-tolerant or risk seekers.",
+      "Rob: So it seems as if this is something that could be measured. You could put someone in a brain scanner and tell if they like risk or not. I wonder how useful that would be though – is there any practical application for this knowledge?",
+      "Neil: Good question and one that was put to Kable. What area does he say this could be applied to?",
+      "Joe Kable: Definitely something that I can see coming out of this is using these associations to help develop better assessments of who's likely to take risks versus not. This is exactly the thing that financial advisors want to assess when you come to them and say 'I want to put my money away for retirement'. Exactly the aspect of your personality that they want to know is what's your tolerance for taking risk?",
+      "Neil: In which area does he say knowledge of someone's attitude to risk might be useful?",
+      "Rob: Financial planning. He says that financial advisors, who are people that give advice on what to do with our money, would find this information very useful. It would help them to assess what to do with your money, which means it would help them to decide, to make an intelligent decision about your money in certain situations.",
+      "Neil: For example if you are planning for your retirement. Retirement is the time when are able to or you have to stop working.",
+      "Rob: He also used an interesting expression there: to put your money away, which means 'save your money', 'put it somewhere where you can't spend it and where it can grow'. You know I think my financial planner could just ask me about how I feel about risk rather than giving me a brain scan. I heard brain scans can be risky!",
+      "Neil: Mmm, not sure that's true but anyway, what is true is the answer to this week's quiz question. I asked you when the first driverless car was demonstrated on a public road. The options were a) the 1970s, b) the1950s and c) the 1920s. What did you say Rob?",
+      "Rob: I said the 1970s.",
+      "Neil: And you were wrong, I'm afraid. Apparently it was the 1920s, so a long time ago. Well done if you got that right. Now before we drive off into the sunset, let's recap today's vocabulary.",
+      "Rob: Yes right, first we had three words describing different attitudes to risk. There was risk- averse, for people who don't like risk.",
+      "Neil: People who don't mind risk are risk-tolerant.",
+      "Rob: And people who like risk and want risk are risk seekers.",
+      "Neil: Next we had the verb to assess. This means 'to make a judgement or a decision based on information'.",
+      "Rob: A phrase meaning 'to save money' is to put money away.",
+      "Neil: And finally we had retirement. That time of life when you are too old to work anymore or you have enough money that you don't need to work anymore. Are you looking forward to your retirement Rob?",
+      "Rob: Cheeky. I'm neither old enough nor rich enough to even think about that Neil.",
+      "Neil: Same here. Well that's all from us today, and you don't have to be a risk seeker to find us on Facebook, Twitter, Instagram and YouTube, and of course on our website",
+      "Rob: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What was his name?",
+        "a": "Marco. There was a guy named Marco."
+      },
+      {
+        "q": "Was he a girl or was he a guy?",
+        "a": "He was a guy, of course. He was a guy. His name was Marco."
+      },
+      {
+        "q": "Did he do something intelligent or did he do something foolish?",
+        "a": "Well, he did something foolish."
+      },
+      {
+        "q": "Oh no, what did he do?",
+        "a": "He bet his money in the stock market."
+      },
+      {
+        "q": "How much of his money did he bet in or on the stock market?",
+        "a": "$67.7 million, in fact. All of his money. He bet all of his money on the stock market. $67.7 million. Marco bet $67.7 million dollars on the stock market."
+      },
+      {
+        "q": "Was it a bet on a random event?",
+        "a": "Yes, he was betting on luck. He was betting on chance. He was betting on random events."
+      },
+      {
+        "q": "Could Marco control the stock market?",
+        "a": "Of course not, no he couldn’t. He could not control the stock market. It was a roll of the dice. His bet was a roll of the dice. It was a random event. He was betting on luck. He was betting on chance."
+      },
+      {
+        "q": "Who made a roll of the dice? Who bet on a random event?",
+        "a": "Marco, Marco bet on a roll of the dice. He bet on the stock market."
+      },
+      {
+        "q": "And how much did he bet on the stock market?",
+        "a": "$67.7 million."
+      },
+      {
+        "q": "Was that all his money?",
+        "a": "Yes, it was. It was all of his money. All of it, he bet it on the stock market on a roll of the dice. Unfortunately for Marco, he lost all the money. He lost everything."
+      },
+      {
+        "q": "How much did he lose?",
+        "a": "Everything. $67.7 million. Marco lost $67.7 million."
+      },
+      {
+        "q": "Was he happy or was he sad?",
+        "a": "Well, he was happy, of course he was happy."
+      },
+      {
+        "q": "Why was he happy?",
+        "a": "Well, he decided it was an advantageous event."
+      },
+      {
+        "q": "Hm, interesting. Did he decide it was a beneficial event?",
+        "a": "Yes, he did. He decided it was a good event. He decided it was an advantageous event."
+      },
+      {
+        "q": "What did he decide?",
+        "a": "He decided it was an advantageous event."
+      },
+      {
+        "q": "What kind of event did he decide it was?",
+        "a": "Advantageous, Marco decided that losing all his money was good. He decided it was an advantageous event. It would help him."
+      },
+      {
+        "q": "Interesting. Who decided this?",
+        "a": "Marco, Marco decided it was an advantageous event to lose all his money. He decided that was advantageous to him, beneficial to him, helpful to him."
+      },
+      {
+        "q": "Why did he decide it was advantageous? How was it advantageous?",
+        "a": "Well, he said, now I have a lot of free time. I can cultivate my health."
+      },
+      {
+        "q": "What did losing all his money give him?",
+        "a": "It gave him free time, a lot of free time. Marco got a lot of free time. So now he had a lot of free time, he decided to cultivate his health."
+      },
+      {
+        "q": "Did he want to develop his health? Improve and develop his health?",
+        "a": "That’s exactly right. Marco decided to cultivate his health. He decided to improve and develop his health."
+      },
+      {
+        "q": "What did he want to cultivate?",
+        "a": "His health, he wanted to cultivate his health."
+      },
+      {
+        "q": "Did he want to destroy his health or cultivate his health?",
+        "a": "He wanted to cultivate his health, improve it, develop it."
+      },
+      {
+        "q": "Who wanted to cultivate his health?",
+        "a": "Marco, of course. Marco wanted to cultivate his health."
+      },
+      {
+        "q": "He wanted to what?",
+        "a": "Cultivate, he wanted to cultivate his health."
+      },
+      {
+        "q": "What was his aspiration?",
+        "a": "His aspiration was to have a perfect body. His desire was to have a perfect body."
+      },
+      {
+        "q": "Was his aspiration to have a great body or a fat body?",
+        "a": "Of course, a great body. His aspiration, his hope, his desire, was to have a perfect body."
+      },
+      {
+        "q": "Whose aspiration was it?",
+        "a": "Marco’s, Marco’s aspiration was to have a perfect body. A body exactly like Brad Pitt’s. Marco wanted to have a body exactly like Brad Pitt’s. His aspiration was to have a body exactly like Brad Pitt’s, a perfect, strong body."
+      },
+      {
+        "q": "How often did he run?",
+        "a": "Every day, he ran every day."
+      },
+      {
+        "q": "How often did he go to the gym?",
+        "a": "Every day, he went to the gym every day."
+      },
+      {
+        "q": "How often did he eat green vegetables?",
+        "a": "Every day, he ate green vegetables every day. He ran every day. He went to the gym every day. He worked out every day. Exercise, exercise, exercise!"
+      },
+      {
+        "q": "Who exercised every day, constantly, all the time?",
+        "a": "Marco, Marco ran every day. Marco went to the gym every day. Marco ate green vegetables every day."
+      },
+      {
+        "q": "And why?",
+        "a": "Because his aspiration was to have a perfect body, just like Brad Pitt’s."
+      },
+      {
+        "q": "Did he have a breakthrough after one month?",
+        "a": "No, no, he didn’t. Not after one month. He didn’t have a breakthrough after one month. After one month he was still a little bit fat and a little bit weak."
+      },
+      {
+        "q": "When did he have a breakthrough?",
+        "a": "After two months. After two months he had a breakthrough, a sudden improvement, a huge, big, sudden improvement."
+      },
+      {
+        "q": "Who had a breakthrough?",
+        "a": "Marco, Marco had a breakthrough. A sudden, big improvement."
+      },
+      {
+        "q": "What kind of breakthrough did he have?",
+        "a": "Well he had a health breakthrough. He had a fitness breakthrough."
+      },
+      {
+        "q": "Was this a breakthrough?",
+        "a": "Of course it was. It was a breakthrough, a big breakthrough, a big change, sudden, big improvement. Sudden, big change, Marco had a breakthrough."
+      },
+      {
+        "q": "And who had the breakthrough?",
+        "a": "Marco had the breakthrough."
+      },
+      {
+        "q": "Whose body did his look like?",
+        "a": "Well, Brad Pitt’s. His body, Marco’s body, looked exactly like Brad Pitt’s body now…woo hoo!"
+      },
+      {
+        "q": "Was he happy?",
+        "a": "Oh yeah, Marco was happy."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "a roll of the dice",
+      "pos": "phrase",
+      "uz": "tasodif, omadga tikilgan ish (tavakkal)",
+      "defEn": "a random event that depends on luck or chance",
+      "example": "Success is not a roll of the dice; it has reasons."
+    },
+    {
+      "en": "within the reach of",
+      "pos": "phrase",
+      "uz": "qoʻli yetadigan, erishsa boʻladigan",
+      "defEn": "possible or easy to get; near enough to obtain",
+      "example": "Excellence is within the reach of all of us."
+    },
+    {
+      "en": "to unleash",
+      "pos": "v",
+      "uz": "ozod qilmoq, ichdagi kuchni chiqarmoq",
+      "defEn": "to set free or release something that was held back",
+      "example": "Unleash the power inside of you."
+    },
+    {
+      "en": "advantageous",
+      "pos": "adj",
+      "uz": "foydali, qoʻl keladigan",
+      "defEn": "helpful, useful or beneficial",
+      "example": "He decided losing the money was an advantageous event."
+    },
+    {
+      "en": "to have in common",
+      "pos": "phrase",
+      "uz": "umumiy (bir xil) narsaga ega boʻlmoq",
+      "defEn": "to share the same trait or quality",
+      "example": "What do these successful people have in common? Passion."
+    },
+    {
+      "en": "to put everything you've got into",
+      "pos": "phrase",
+      "uz": "bor kuchini bermoq, 100% harakat qilmoq",
+      "defEn": "to give all your energy and effort to something",
+      "example": "I put everything I've got into learning English."
+    },
+    {
+      "en": "to cultivate",
+      "pos": "v",
+      "uz": "rivojlantirmoq, oʻstirib borish (parvarish qilmoq)",
+      "defEn": "to develop and grow something gradually",
+      "example": "Finally he had time to cultivate his health."
+    },
+    {
+      "en": "to drive (someone)",
+      "pos": "v",
+      "uz": "undamoq, turtki bermoq, harakatga soladigan kuch",
+      "defEn": "to push or motivate someone to act",
+      "example": "Passion drives them to do, to grow and to be more."
+    },
+    {
+      "en": "to tap (your potential)",
+      "pos": "v",
+      "uz": "ichki imkoniyatni ochmoq, ishga solmoq",
+      "defEn": "to open up and make use of something hidden inside",
+      "example": "Passion causes you to tap your true potential."
+    },
+    {
+      "en": "a breakthrough",
+      "pos": "n",
+      "uz": "keskin, kutilmagan katta yutuq/oʻzgarish",
+      "defEn": "a sudden, big improvement or success",
+      "example": "After two months, Marco had a breakthrough."
+    },
+    {
+      "en": "an aspiration",
+      "pos": "n",
+      "uz": "orzu, intilish, maqsad",
+      "defEn": "a strong hope or desire to achieve something",
+      "example": "His aspiration was to have a perfect body."
+    }
+  ],
+  "englishpod": {
+    "id": "0188",
+    "title": "The Office – Asking For A Raise",
+    "titleUz": "Ofisda — maosh oshirishni soʻrash",
+    "warmup": {
+      "uz": "Bu suhbatda Bill oʻn yillik sadoqatini roʻkach qilib boshligʻidan maosh oshirishni soʻraydi. Bu haftaning “Unlimited Power” gʻoyasiga mos: oʻz qadringizni bilib, imkoniyatingizni oshirishga jurʼat qilish. Sizningcha, u maoshini oshira oladimi — va nima uchun oxiridagi hazil kulgili?",
+      "en": "In this dialogue Bill uses ten years of loyalty to ask his boss for a raise. It fits this week's \"Unlimited Power\" theme: knowing your worth and daring to reach for more. Do you think he'll get the raise — and why is the joke at the end funny?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0188/dg.mp3",
+        "durationSec": 75,
+        "bytes": 634568
+      },
+      "pr": {
+        "path": "englishpod/0188/pr.mp3",
+        "durationSec": 754,
+        "bytes": 12092289
+      },
+      "rv": {
+        "path": "englishpod/0188/rv.mp3",
+        "durationSec": 487,
+        "bytes": 7827980
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Excuse me sir, may I talk to you?"
+      },
+      {
+        "speaker": "B",
+        "en": "Bill! Sure, come on in. What can I do for you?"
+      },
+      {
+        "speaker": "A",
+        "en": "Well sir, as you know, I have been an employee of this prestigious firm for over ten years."
+      },
+      {
+        "speaker": "B",
+        "en": "Yes."
+      },
+      {
+        "speaker": "A",
+        "en": "I won’t beat around the bush. Sir, I would like a raise. I currently have three companies after me and so I decided to talk to you first."
+      },
+      {
+        "speaker": "B",
+        "en": "A raise? Son, I would love to give you a raise, but this is just not the right time."
+      },
+      {
+        "speaker": "A",
+        "en": "I understand your position, and I know that the current economic downturn has had a negative impact on sales, but you must also take into consideration my hard work, pro-activeness and loyalty to this company for over a decade."
+      },
+      {
+        "speaker": "B",
+        "en": "Taking into account these factors, and considering I don’t want to start a brain drain, I’m willing to offer you a ten percent raise and an extra five days of vacation time. How does that sound?"
+      },
+      {
+        "speaker": "A",
+        "en": "Great! It’s a deal! Thank you, sir!"
+      },
+      {
+        "speaker": "B",
+        "en": "Before you go, just out of curiosity, what companies were after you?"
+      },
+      {
+        "speaker": "A",
+        "en": "Oh, the electric company, gas company and water company!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to beat around the bush",
+        "uz": "gapni aylantirmoq, asosiy mavzuga oʻtmay yon-atrofdan gapirmoq",
+        "defEn": "to avoid the subject by talking about something else"
+      },
+      {
+        "en": "a raise",
+        "uz": "maosh oshishi (ish haqining koʻtarilishi)",
+        "defEn": "an increase in salary"
+      },
+      {
+        "en": "to take into consideration",
+        "uz": "eʼtiborga olmoq, hisobga olmoq",
+        "defEn": "to think about something before making a decision"
+      },
+      {
+        "en": "to offer",
+        "uz": "taklif qilmoq (qabul qilish yoki rad etish imkoni bilan bermoq)",
+        "defEn": "to give someone the choice of accepting or rejecting something"
+      },
+      {
+        "en": "loyalty",
+        "uz": "sadoqat, vafodorlik",
+        "defEn": "the quality of being loyal and faithful"
+      },
+      {
+        "en": "to move up the ladder",
+        "uz": "martaba pogʻonasidan koʻtarilmoq, lavozimda oʻsmoq",
+        "defEn": "to receive a promotion at work"
+      },
+      {
+        "en": "initiative",
+        "uz": "tashabbus, birinchi qadamni oʻzi tashlash",
+        "defEn": "the ability to decide and take the first step on one's own"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180531",
+    "title": "Taking risks",
+    "titleUz": "Tavakkal qilish",
+    "audio": {
+      "main": {
+        "path": "sixmin/180531/audio.mp3",
+        "durationSec": 378,
+        "bytes": 15138240,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "When was the first driverless car demonstrated on a public road?",
+        "qUz": "Birinchi haydovchisiz mashina umumiy yoʻlda qachon namoyish etilgan?",
+        "options": [
+          "1970s",
+          "1950s",
+          "1920s"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 1920-yillar. Rob 1970-yillar dedi va xato qildi — Neil aytishicha, bu ancha oldin, 1920-yillarda boʻlgan. Tavakkalning bir turi: yangi narsaga jurʼat qilish (risk-seeking)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "risk-averse",
+        "uz": "tavakkaldan qochadigan, xavfni yoqtirmaydigan",
+        "defEn": "not liking risk; against taking risks"
+      },
+      {
+        "en": "risk-tolerant",
+        "uz": "tavakkalga bardosh beradigan, xavfdan bezovta boʻlmaydigan",
+        "defEn": "able to accept an element of risk without worrying"
+      },
+      {
+        "en": "risk-seeking (a risk seeker)",
+        "uz": "xavfni yoqtiradigan, tavakkalni izlaydigan",
+        "defEn": "actively looking for and enjoying risk"
+      },
+      {
+        "en": "to assess",
+        "uz": "baholamoq, maʼlumotga tayanib qaror qilmoq",
+        "defEn": "to make a judgement or decision based on information"
+      },
+      {
+        "en": "to put money away",
+        "uz": "pul jamgʻarmoq, chetga saqlab qoʻymoq",
+        "defEn": "to save money somewhere you cannot easily spend it"
+      },
+      {
+        "en": "retirement",
+        "uz": "nafaqaga chiqish, ishdan boʻshab dam olish davri",
+        "defEn": "the time of life when you stop working"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Unleash Your Unlimited Potential: the power of passion",
+      "channel": "TEDx Talks"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Imagine you had unlimited time and money. What would you do, and what could you finally learn or become? Talk about what you can do now, what you couldn't do before, and what you would do with no limits.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: qobiliyat (I can … / I couldn't … / I'll be able to …) va ikkinchi shart (If I had unlimited time, I would …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/11/main.mp3",
+      "bytes": 8132805
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/11/main.pdf",
+      "bytes": 44810
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/11/vocab.mp3",
+      "bytes": 8301512
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/11/ministory.mp3",
+      "bytes": 9502806
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/11/pov.mp3",
+      "bytes": 5304850
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/11/pov.pdf",
+      "bytes": 73090
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0188/dg.mp3",
+      "bytes": 634568
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0188/transcript.pdf",
+      "bytes": 92594
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180531/audio.mp3",
+      "bytes": 15138240
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180531/transcript.pdf",
+      "bytes": 154538
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

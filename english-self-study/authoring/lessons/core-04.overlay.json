@@ -1,0 +1,167 @@
+{
+  "slug": "beliefs",
+  "title": "Beliefs",
+  "titleUz": "Eʼtiqodlar — ishonch kuchi",
+  "level": "A2-B1",
+  "tags": ["beliefs", "mindset", "articles", "that-clauses", "self-belief"],
+  "intro": {
+    "uz": "Bu dars eʼtiqodlar haqida: AJ Hoge kuchsizlantiruvchi eʼtiqodlarni (limiting beliefs) kuch beruvchi eʼtiqodlarga (empowering beliefs) almashtirishni oʻrgatadi. Bu haftaning ikki grammatik mavzusi ham shu gʻoyaga bogʻlangan: artikllar (a/an va the — yangi va tanish narsa) hamda fikr feʼllari va ‘that’ ergash gapi (I believe/think/know that…).",
+    "en": "This lesson is about beliefs: AJ Hoge teaches you to replace limiting beliefs with empowering ones. This week's two grammar topics fit that idea: articles (a/an vs the — first mention vs known) and mental-state verbs with that-clauses (I believe/think/know that…)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida biror narsani birinchi marta (a/an) va tanish holatda (the) toʻgʻri kirita olasiz, hamda oʻz eʼtiqodingizni “I believe that…”, “I think that…” qolipida toʻxtamasdan ayta olasiz.",
+    "en": "By the end you can introduce something on first mention (a/an) and refer to it once known (the), and state your own beliefs with “I believe that…”, “I think that…” without pausing."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "articles-1",
+      "titleUz": "Artikllar 1: a/an va the — yangi va tanish",
+      "titleEn": "Articles 1 — a/an vs the",
+      "bandLifter": "IELTS — accurate article use is a visible marker of range and control",
+      "cefrCanDo": "B1: I can use a/an for first mention and the for known reference correctly",
+      "contrastUz": "Oʻzbek tilida artikl umuman yoʻq — “eʼtiqod” soʻzi yolgʻiz turaveradi. Ingliz tili esa majburan koʻrsatadi: yangi/noaniq narsa → a/an (bir eʼtiqod), tanish/aniq narsa → the (oʻsha eʼtiqod). a yoki an tanlash harfga emas, TOVUSHga qarab: a university (yu-), an hour (h jim).",
+      "errorFixUz": "❌ I have belief. She is best student. ✅ I have a belief. She is the best student. Sanaladigan birlik soʻz artiklsiz qololmaydi; birinchi marta → a/an, yagona yoki tanish → the. Umumiy koʻplik esa artiklsiz: “Beliefs are powerful.”",
+      "examples": [
+        { "en": "George had a problem, and the problem was serious.", "uz": "Jorjda bir muammo bor edi, va oʻsha muammo jiddiy edi." },
+        { "en": "I have an empowering belief about English.", "uz": "Menda ingliz tili haqida bir kuch beruvchi eʼtiqod bor." },
+        { "en": "The belief that English is difficult is just an opinion.", "uz": "“Ingliz tili qiyin” degan eʼtiqod — bu shunchaki bir fikr." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I have ___ empowering belief: English is easy.",
+          "options": ["an", "a", "the"],
+          "answer": "an",
+          "hintUz": "unli tovush (e-) oldidan → an; birinchi marta eslatilyapti"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ belief that English is painful is only a memory.",
+          "options": ["The", "A", "An"],
+          "answer": "The",
+          "hintUz": "“that…” bilan aniqlangan, tanish narsa → the"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "It took ___ hour to change her mind.",
+          "options": ["an", "a", "the"],
+          "answer": "an",
+          "hintUz": "hour da h jim, unli tovush bilan boshlanadi → an"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ovoz chiqarib ayting: avval a/an bilan bitta eʼtiqodni kiriting, keyin the bilan davom ettiring — “I have a belief. The belief is …”.",
+          "answer": null,
+          "hintUz": "birinchi marta → a/an; keyin oʻsha narsa → the"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "mental-state-that-clauses",
+      "titleUz": "Fikr feʼllari va ‘that’ ergash gapi",
+      "titleEn": "Mental-state verbs + that-clauses",
+      "bandLifter": "IELTS Part 3 — give and support opinions (I believe that…, I think that…)",
+      "cefrCanDo": "B1: I can express opinions and beliefs using I believe/think/know (that)…",
+      "contrastUz": "Oʻzbekchada fikr oldin, feʼl oxirida keladi: “Gapira olaman DEB ishonaman”. Ingliz tilida aksincha — avval feʼl, keyin fikr: “I believe THAT I can speak.” Oʻzbekcha “… deb” = inglizcha “that”, lekin u gap oxirida emas, oʻrtasida turadi (va nutqda koʻpincha tushib qoladi).",
+      "errorFixUz": "❌ I think English isn’t difficult. ✅ I don’t think English is difficult. Ingliz tili inkorni asosiy feʼlga koʻchiradi (don’t think / don’t believe), ergash gap ijobiy qoladi.",
+      "examples": [
+        { "en": "I believe that I can speak English fluently.", "uz": "Ingliz tilida ravon gapira olishimga ishonaman." },
+        { "en": "I think that language learning is natural.", "uz": "Menimcha, til oʻrganish tabiiy jarayon." },
+        { "en": "I don’t think it is complicated.", "uz": "Menimcha, u murakkab emas." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I believe ___ my brain is a language machine.",
+          "options": ["that", "what", "to"],
+          "answer": "that",
+          "hintUz": "fikr feʼlidan keyin ergash gap → that (nutqda tushishi ham mumkin)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I don’t think it ___ difficult.",
+          "options": ["is", "isn’t", "be"],
+          "answer": "is",
+          "hintUz": "inkor asosiy feʼlga (don’t think); ergash gap ijobiy qoladi → is"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Steve ___ that language learning is easy.",
+          "options": ["believes", "believe", "believing"],
+          "answer": "believes",
+          "hintUz": "he/she/it → feʼlga -s: believes"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Ikki kuch beruvchi eʼtiqodingizni ovoz chiqarib ayting: “I believe that … . I know that … .”",
+          "answer": null,
+          "hintUz": "ega + fikr feʼli + (that) + toʻliq gap"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "emotional trauma", "pos": "phrase", "uz": "hissiy jarohat, chuqur ruhiy ogʻriq", "defEn": "a deep emotional hurt from a painful experience", "example": "Many learners have emotional trauma about English." },
+    { "en": "a limiting belief", "pos": "phrase", "uz": "kishanlovchi eʼtiqod (sizni toʻxtatadigan ishonch)", "defEn": "a belief that stops you from improving", "example": "“I’m not good at English” is a limiting belief." },
+    { "en": "an empowering belief", "pos": "phrase", "uz": "kuch beruvchi eʼtiqod", "defEn": "a belief that makes you feel powerful", "example": "“English can be fun” is an empowering belief." },
+    { "en": "to empower (someone)", "pos": "v", "uz": "kuch bermoq, ruhlantirmoq", "defEn": "to give power or confidence to someone", "example": "These beliefs empower you." },
+    { "en": "an incantation", "pos": "n", "uz": "afsun-jumla (qayta-qayta takrorlanadigan gap)", "defEn": "a phrase you repeat again and again, almost like magic", "example": "His incantation was “I’m handsome and I’m cool.”" },
+    { "en": "a reference (an example)", "pos": "n", "uz": "isbot-misol (eʼtiqodni qoʻllab-quvvatlaydigan tajriba)", "defEn": "a specific experience or example that supports a belief", "example": "You use references to prove a belief." },
+    { "en": "to question (something)", "pos": "v", "uz": "shubha ostiga olmoq, savol bermoq", "defEn": "to ask about something to test if it is true", "example": "Question the references and the belief gets weaker." },
+    { "en": "to get rid of (something)", "pos": "phrase", "uz": "qutulmoq, yoʻqotmoq (biror narsadan)", "defEn": "to remove or throw away something you don’t want", "example": "You have to get rid of your limiting beliefs." },
+    { "en": "complicated", "pos": "adj", "uz": "murakkab, chalkash (soddaning teskarisi)", "defEn": "having many parts and difficult to understand", "example": "English feels complicated only if you study it that way." },
+    { "en": "fun and effortless", "pos": "phrase", "uz": "qiziqarli va bemalol (zoʻriqishsiz)", "defEn": "enjoyable and requiring no hard struggle", "example": "English can be fun and effortless." }
+  ],
+  "englishpod": {
+    "title": "The Office – Interview Skills 5: Discussing Reasons",
+    "titleUz": "Ofis — suhbat mahorati 5: sabablarni tushuntirish",
+    "warmup": {
+      "uz": "Bu suhbatda Rebekka ish suhbatida oʻz tajribasini tushuntiradi: avvaliga qiynalgan, ammo “slowly but surely” oʻzini isbotlagan. Bu — “Beliefs” mavzusiga mos: oʻziga boʻlgan ishonch odamni oldinga suradi. Sizningcha, Rebekka ishga qabul qilinadimi?",
+      "en": "In this dialogue Rebecca explains her work history in a job interview: it was tough at first, but slowly but surely she proved herself. It fits the “Beliefs” theme — self-belief moves you forward. Do you think Rebecca gets the job?"
+    },
+    "keyVocab": [
+      { "en": "frustrating", "uz": "asabga tegadigan, koʻngilni choʻktiradigan", "defEn": "causing feelings of discouragement or annoyance" },
+      { "en": "slowly but surely", "uz": "sekin, ammo aniq (bosqichma-bosqich, lekin muqarrar)", "defEn": "happening gradually but inevitably, without fail" },
+      { "en": "to prove oneself", "uz": "oʻzini isbotlamoq, layoqatini koʻrsatmoq", "defEn": "to show that you have the ability or character expected" },
+      { "en": "a step up", "uz": "yuqoriga qadam, lavozim koʻtarilishi", "defEn": "a move to a better or more important position" },
+      { "en": "long-term", "uz": "uzoq muddatli", "defEn": "covering a relatively long period of time" },
+      { "en": "challenging", "uz": "qiyin, ammo qiziqarli (kuchni sinaydigan)", "defEn": "a demanding but stimulating test of your abilities" }
+    ]
+  },
+  "sixmin": {
+    "title": "Self-help",
+    "titleUz": "Oʻz-oʻziga yordam sanoati",
+    "quiz": [
+      {
+        "q": "Which of these self-help books was published first?",
+        "qUz": "Quyidagi oʻz-oʻziga yordam kitoblaridan qaysi biri birinchi nashr etilgan?",
+        "options": ["How to Win Friends and Influence People", "Think and Grow Rich", "The Law of Attraction"],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) How to Win Friends and Influence People — Deyl Karnegining bu kitobi 1936-yilda chiqqan. Think and Grow Rich esa 1937-yilda. Rob a) dedi va toʻgʻri topdi."
+      }
+    ],
+    "vocab": [
+      { "en": "self-help", "uz": "oʻz-oʻziga yordam (rasmiy yordamsiz oʻzini yaxshilash)", "defEn": "the activity of improving yourself, often through books and courses" },
+      { "en": "a trend", "uz": "trend, ommalashgan yoʻnalish (vaqtincha)", "defEn": "something new that is popular for a period of time" },
+      { "en": "therapeutic", "uz": "tinchlantiruvchi, davolovchi taʼsirga ega", "defEn": "making you feel more relaxed and less anxious" },
+      { "en": "dwindling", "uz": "kamayib borayotgan, susayayotgan", "defEn": "becoming smaller or weaker over time" },
+      { "en": "to go from strength to strength", "uz": "kundan-kunga kuchayib bormoq, ravnaq topmoq", "defEn": "to stay strong or become even stronger" },
+      { "en": "a millennial", "uz": "millenial (1980-yillar oʻrtasi — 2000-yillar boshida tugʻilgan avlod)", "defEn": "a person born between the mid-1980s and early 2000s" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "The Power of Belief: Mindset and Success",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Talk about a belief you have about learning English. Was it a limiting belief or an empowering one? What do you believe now — and why?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: artikllar (a limiting belief, the belief that…) va fikr feʼllari + that (I believe that…, I think that…, I know that…).",
+    "targetSec": 60
+  }
+}

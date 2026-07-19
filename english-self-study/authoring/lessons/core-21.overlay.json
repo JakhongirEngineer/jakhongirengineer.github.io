@@ -1,0 +1,167 @@
+{
+  "slug": "healthy-heart",
+  "title": "Healthy Heart",
+  "titleUz": "Sogʻlom yurak",
+  "level": "B1-B2",
+  "tags": ["health", "connection", "present-perfect-continuous", "causative", "longevity"],
+  "intro": {
+    "uz": "Sogʻlom yurak — bu faqat parhez emas. John Robbins uzoq umr koʻrgan insonlarni oʻrganib, sevgi, gʻamxoʻrlik va odamlar bilan aloqa yurak uchun ovqat va sport kabi muhim ekanini topdi. Bu haftaning ikki grammatik mavzusi: qancha vaqtdan beri davom etayotgan odat (present perfect continuous — for / since / How long) va birovga qildirish (kausativ — have / get something done). Zach haqidagi POV hikoyada present perfect continuous eshitasiz; kausativni esa darsning oʻz misollarida mashq qilasiz.",
+    "en": "A healthy heart is not only about diet. Studying people who lived long, healthy lives, John Robbins found that love, caring and connection matter as much as food and exercise. This week's two grammar topics: how long a habit has been going on (present perfect continuous — for / since / How long) and arranging a service (causative — have / get something done). You'll hear the present perfect continuous in the POV story about Zach; the causative you'll practise through the lesson's own examples."
+  },
+  "canDo": {
+    "uz": "Dars oxirida “How long have you been …?” savoliga toʻxtamasdan javob bera olasiz va sogʻligʻingiz uchun qanday xizmatlarni qildirganingizni (get your heart checked) tabiiy ayta olasiz.",
+    "en": "By the end you can answer “How long have you been …?” out loud without pausing, and say what services you have done for your health (get your heart checked) naturally."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-continuous",
+      "titleUz": "for / since / How long + present perfect continuous",
+      "titleEn": "Present perfect continuous — for / since / How long",
+      "bandLifter": "IELTS Part 1 — say how long you have been doing a healthy habit",
+      "cefrCanDo": "B1→B2: I can say how long I have been doing an activity (have/has been + -ing)",
+      "contrastUz": "Oʻzbek tilida buni oddiy hozirgi zamonda aytamiz: “Olti oydan beri yuguraman”. Ingliz tili oʻtmishda boshlanib hozirgacha davom etayotgan jarayon uchun present perfect continuous (have/has been + V-ing) ishlatadi. Bizning “beri” inglizchada ikkiga boʻlinadi: “since” (boshlanish nuqtasi) va “for” (davomiylik).",
+      "errorFixUz": "❌ I am exercising since January. I study English for two years. ✅ I have been exercising since January. I have been studying English for two years. since/for bilan davom etayotgan jarayon kelsa — have/has been + -ing (oddiy hozirgi zamon emas).",
+      "examples": [
+        { "en": "I have been exercising for six months.", "uz": "Olti oydan beri mashq qilib kelyapman." },
+        { "en": "She has been caring for her parents since 2019.", "uz": "U 2019-yildan beri ota-onasiga gʻamxoʻrlik qilib kelmoqda." },
+        { "en": "How long have you been walking every day?", "uz": "Qancha vaqtdan beri har kuni yurasiz?" }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ English every morning for a year now.",
+          "options": ["have been studying", "study", "am studying"],
+          "answer": "have been studying",
+          "hintUz": "for a year + hozirgacha davom etayotgan jarayon → have been + -ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "How long ___ you been walking every day?",
+          "options": ["have", "did", "are"],
+          "answer": "have",
+          "hintUz": "How long + present perfect continuous → have/has been + -ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She has been exercising ___ January.",
+          "options": ["since", "for", "from"],
+          "answer": "since",
+          "hintUz": "January = boshlanish nuqtasi → since; “for” esa davomiylik uchun"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I have been … for/since … .” — masalan sogʻlom odatingiz haqida.",
+          "answer": null,
+          "hintUz": "have/has been + -ing + for/since"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "causative",
+      "titleUz": "Kausativ: have / get something done (birovga qildirish)",
+      "titleEn": "Causative — have / get something done",
+      "bandLifter": "IELTS Part 1 — talk about health services you arrange (checks, tests)",
+      "cefrCanDo": "B1→B2: I can say I arranged for a service to be done (have/get + object + past participle)",
+      "contrastUz": "Oʻzbek tilida “qildirish” maʼnosini feʼlga -tir/-dir qoʻshimchasi beradi (tekshir → tekshirtirmoq). Ingliz tilida alohida qoʻshimcha yoʻq — buni have/get + narsa + V3 qolipi bajaradi. Shuning uchun “I cut my hair” (oʻzim kesdim) va “I had my hair cut” (sartarosh kesdi) — butunlay boshqa maʼno.",
+      "errorFixUz": "❌ I must check my heart. I had cut my hair. ✅ I must get my heart checked. I had my hair cut. Ishni boshqa birov bajarsa → have/get + narsa + V3 (feʼlning uchinchi shakli).",
+      "examples": [
+        { "en": "I get my heart checked every year.", "uz": "Har yili yuragimni tekshirtaman." },
+        { "en": "He had his blood tested at the clinic.", "uz": "U klinikada qonini tahlil qildirdi." },
+        { "en": "You should have your teeth cleaned twice a year.", "uz": "Yiliga ikki marta tishlaringizni tozalatishingiz kerak." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I need to ___ my heart checked.",
+          "options": ["get", "do", "make"],
+          "answer": "get",
+          "hintUz": "kausativ qolip: get/have + narsa + V3 (get ... checked)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He had his blood ___ at the clinic.",
+          "options": ["tested", "test", "testing"],
+          "answer": "tested",
+          "hintUz": "have + narsa + V3 (uchinchi shakl): tested"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You should get your teeth ___ twice a year.",
+          "options": ["cleaned", "clean", "cleaning"],
+          "answer": "cleaned",
+          "hintUz": "get + narsa + V3: cleaned (ishni tish shifokori bajaradi)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “Last year I had/got … done.” — sogʻligʻingiz uchun qildirgan biror xizmatni ayting.",
+          "answer": null,
+          "hintUz": "have/get + narsa + V3 (checked, tested, cleaned, done)"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "fibers", "pos": "n", "uz": "tolalar, iplar (uzun ipchalar)", "defEn": "long thin strings, like the threads in cloth", "example": "A thousand fibers connect us with our fellow men." },
+    { "en": "to be moved by (something)", "pos": "phrase", "uz": "taʼsirlanmoq, his-hayajonga kelmoq", "defEn": "to feel strong emotion because of something", "example": "Zach was moved by the homeless man's suffering." },
+    { "en": "an implication", "pos": "n", "uz": "oqibat, natija (kelib chiqadigan holat)", "defEn": "a consequence or result of something", "example": "There are medical implications to thinking only of yourself." },
+    { "en": "to tape (a conversation)", "pos": "v", "uz": "yozib olmoq (audioga)", "defEn": "to record something on audio", "example": "Dr. Scherwitz taped the conversations of 600 men." },
+    { "en": "ingenious", "pos": "adj", "uz": "juda aqlli, topqir (gʻoya/usul)", "defEn": "very clever or smart, usually about an idea or method", "example": "Counting the times a person said 'I' was an ingenious way to measure selfishness." },
+    { "en": "self-absorbed", "pos": "adj", "uz": "faqat oʻzi bilan band, oʻziga berilgan", "defEn": "thinking only about yourself all the time", "example": "Zach was totally self-absorbed." },
+    { "en": "sound (advice)", "pos": "adj", "uz": "ishonchli, puxta, yaxshi (maslahat)", "defEn": "reliable, good and strong", "example": "Caring about other people is sound medical advice." },
+    { "en": "conspicuous", "pos": "adj", "uz": "koʻzga tashlanadigan, yaqqol (yashirin emas)", "defEn": "very easy to see; standing out", "example": "He was always very conspicuous on the street." },
+    { "en": "hyper-competitive", "pos": "adj", "uz": "haddan tashqari raqobatchi", "defEn": "extremely competitive (hyper- means very, very)", "example": "In sports people can become hyper-competitive." },
+    { "en": "to lose touch with (something/someone)", "pos": "phrase", "uz": "aloqani uzmoq, unutib qoʻymoq", "defEn": "to lose your connection with someone or something", "example": "He realized he had lost touch with his happiness." }
+  ],
+  "englishpod": {
+    "title": "The Office — I need an assistant!",
+    "titleUz": "Ofis — menga yordamchi kerak!",
+    "warmup": {
+      "uz": "Bu suhbatda charchagan xodim boshligʻidan yordamchi soʻraydi — yolgʻiz koʻtargan yuki juda ogʻir. “Healthy Heart” darsi ham shuni oʻrgatadi: yolgʻiz boʻlmaslik, yukni boʻlishish yurak uchun foydali. Sizningcha, boshliq unga yordamchi topib beradimi?",
+      "en": "In this dialogue a tired worker asks his boss for help — the weight he carries alone is too heavy. The Healthy Heart lesson teaches the same thing: not being alone and sharing the load is good for the heart. Do you think the boss will find him an assistant?"
+    },
+    "keyVocab": [
+      { "en": "resources", "uz": "resurslar (pul, imkoniyat, vositalar)", "defEn": "the money, people or materials available to do something" },
+      { "en": "understaffed", "uz": "xodimi yetishmaydigan (kam odamli)", "defEn": "not having enough people to do the work" },
+      { "en": "the timing is just not right", "uz": "hozir vaqti emas, payti kelmagan", "defEn": "it is not a good time to do something now" },
+      { "en": "take the weight off my shoulders", "uz": "yelkamdagi yukni yengillashtirmoq", "defEn": "to remove some of the pressure or stress from someone" },
+      { "en": "give me a hand", "uz": "yordam bermoq, qoʻl uzatmoq", "defEn": "to help someone" },
+      { "en": "that sounds reasonable", "uz": "bu maʼqul, oʻrinli koʻrinadi", "defEn": "that seems fair or acceptable" }
+    ]
+  },
+  "sixmin": {
+    "title": "Have you walked off your pizza?",
+    "titleUz": "Pitsangizni yurib yoqib yubordingizmi?",
+    "quiz": [
+      {
+        "q": "How long would you have to walk to burn off the calories in a quarter of a large pizza?",
+        "qUz": "Katta pitsaning choragidagi kaloriyani yoqish uchun qancha vaqt yurish kerak?",
+        "options": ["33 minutes", "53 minutes", "83 minutes"],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 83 minutes. Neil a) 33 minutes dedi va kam baholab xato qildi. Royal Society for Public Health maʼlumotiga koʻra, katta pitsaning atigi choragidagi kaloriyani yoqish uchun 83 daqiqa yurish kerak."
+      }
+    ],
+    "vocab": [
+      { "en": "expended", "uz": "sarflangan (energiya)", "defEn": "used up, especially energy" },
+      { "en": "to burn off", "uz": "yoqib yubormoq (kaloriyani harakat bilan)", "defEn": "to use up energy or calories through activity" },
+      { "en": "dense", "uz": "zich, qalin (matn haqida: siqib joylangan)", "defEn": "tightly packed together" },
+      { "en": "informed (choice)", "uz": "asosli, ongli (faktlarga tayangan tanlov)", "defEn": "based on an understanding of the facts" },
+      { "en": "to see at a glance", "uz": "bir qarashda tushunmoq", "defEn": "to understand something immediately" },
+      { "en": "to think twice", "uz": "ikki marta oʻylab koʻrmoq", "defEn": "to think carefully about doing something before you do it" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to keep your heart healthy",
+      "channel": "British Heart Foundation"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How do you look after your heart? How long have you been building your healthy habits — and what checks or services do you get done to stay healthy?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect continuous (I have been … for/since …; How long have you been …?) va kausativ (I get my heart checked; I had my blood tested).",
+    "targetSec": 60
+  }
+}

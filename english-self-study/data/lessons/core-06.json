@@ -1,0 +1,792 @@
+{
+  "schemaVersion": 2,
+  "id": "core-06",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 6,
+  "slug": "models",
+  "title": "Models",
+  "titleUz": "Namunalar — role model va peer group",
+  "level": "B1",
+  "tags": [
+    "role-models",
+    "peer-group",
+    "comparatives",
+    "relative-clauses",
+    "fluency"
+  ],
+  "intro": {
+    "uz": "Models — namunalar: role model (ibrat oladigan inson) va peer group (atrofingizdagi muhit). AJ zoʻr oʻrganuvchilardan oʻrganib, ularning eng yaxshi usullarini “oʻgʻirlashni” oʻrgatadi. Bu haftaning ikki grammatikasi — solishtirish va taʼriflash tili: qiyosiy va orttirma daraja hamda (not) as … as; va aniqlovchi ergash gap (who / that / which / whose).",
+    "en": "Models — the people you learn from: role models (heroes you want to imitate) and your peer group (the people around you). AJ teaches you to study top learners and copy their best methods. This week's two grammar topics are the language of comparing and defining: comparatives, superlatives & (not) as … as, and defining relative clauses (who / that / which / whose)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz namunangizni (“a person who…”) taʼriflab bera olasiz va oʻzingizni u bilan toʻxtamasdan solishtira olasiz (better than…, the best…, (not) as … as…).",
+    "en": "By the end you can describe your role model (“a person who…”) and compare yourself to them without pausing (better than…, the best…, (not) as … as…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "comparatives-superlatives",
+      "titleUz": "Qiyosiy va orttirma daraja; (not) as … as",
+      "titleEn": "Comparatives, superlatives & (not) as … as",
+      "bandLifter": "IELTS Part 2 — compare people, places and things",
+      "cefrCanDo": "B1: I can compare things using -er / more, the -est / most and (not) as … as",
+      "bodyHtml": "<p>Namuna (role model) tanlash — bu aslida oʻzingizni kimdir bilan <strong>solishtirish</strong>dir: <em>&quot;u mendan ravonroq gapiradi&quot;</em>, <em>&quot;u eng zoʻr oʻyinchi&quot;</em>, <em>&quot;men ham ona tili egasidek gapirmoqchiman&quot;</em>. Solishtirish tili ingliz tilida uch qolip bilan quriladi: <strong>qiyosiy daraja</strong> (comparative), <strong>orttirma daraja</strong> (superlative) va <strong>(not) as … as</strong>. Ularni yodlamaymiz — MAIN talkda AJ <em>&quot;learn much <strong>faster</strong>&quot;</em>, <em>&quot;make <strong>fewer</strong> mistakes&quot;</em> deganda, mini-hikoyada esa Laura <em>&quot;<strong>faster and faster</strong>, <strong>stronger and stronger</strong>&quot;</em> boʻlganda quloq bilan sezasiz.</p>\n<h3>1. Qiyosiy daraja: ikki narsani solishtirish</h3>\n<p>Ikki narsani solishtirganda sifat oʻzgaradi va keyin <code>than</code> keladi:</p>\n<ul>\n<li>Qisqa sifat + <strong>-er</strong>: <em>fast → faster, strong → stronger.</em> — <em>Jane learns <strong>faster than</strong> John.</em></li>\n<li>Uzun sifat: <strong>more</strong> + sifat: <em>difficult → more difficult.</em> — <em>This book is <strong>more interesting than</strong> that one.</em></li>\n<li>Notoʻgʻri shakllar (yodda tuting): <em>good → <strong>better</strong>, bad → <strong>worse</strong>, far → further.</em></li>\n</ul>\n<p>Oʻzbekchada biz sifatga <strong>-roq</strong> qoʻshamiz (&quot;tezroq&quot;, &quot;kuchliroq&quot;) va &quot;…dan&quot; bilan solishtiramiz. Ingliz tilida &quot;…dan&quot; oʻrnida doim <code>than</code> turadi: <em>&quot;Undan tezroq&quot; = <strong>faster than</strong> him.</em></p>\n<h3>2. Orttirma daraja: eng zoʻri</h3>\n<p>Uch yoki undan koʻp narsadan <strong>eng</strong> yuqorisini ajratganda:</p>\n<ul>\n<li>Qisqa sifat: <strong>the</strong> + sifat + <strong>-est</strong>: <em>the fastest, the strongest.</em> — <em>She wanted to be <strong>the best</strong> tri-athlete in the world.</em></li>\n<li>Uzun sifat: <strong>the most</strong> + sifat: <em>the most successful, the most important.</em></li>\n</ul>\n<p>Diqqat: orttirma darajada deyarli doim <strong>the</strong> keladi (<em>the biggest, the most famous</em>). Oʻzbekcha &quot;eng&quot; = inglizcha <strong>-est / the most</strong>.</p>\n<h3>3. (not) as … as: tenglik yoki tengsizlik</h3>\n<p>Ikki narsa <strong>teng</strong> boʻlsa <code>as … as</code>; teng boʻlmasa <code>not as … as</code>:</p>\n<ul>\n<li><em>He speaks <strong>as</strong> fluently <strong>as</strong> a native.</em> — U ona tili egasidek ravon gapiradi.</li>\n<li><em>I'm <strong>not as</strong> fast <strong>as</strong> her.</em> — Men undek tez emasman.</li>\n</ul>\n<p>Muhim: <code>as … as</code> orasida sifat yoki ravish <strong>sof</strong> (oʻzgarmagan) shaklda turadi — bu yerda <code>-er</code> yoki <code>more</code> ishlatilmaydi: ❗ <em>as faster as</em> emas, <em>as fast as</em>.</p>\n<h3>Nega bu Models darsiga mos</h3>\n<p>Namunangiz haqida gapirganda tabiiy ravishda solishtirasiz: <em>&quot;My role model reads <strong>more</strong> novels <strong>than</strong> me, and she listens <strong>as</strong> carefully <strong>as</strong> a child.&quot;</em> Bu qoliplar IELTS Part 2 da (ikki narsa yoki odamni taqqoslash) darajangizni darrov koʻrsatadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingizni namunangiz bilan solishtirib bitta jumla ayting: <em>&quot;I want to speak <strong>as</strong> fluently <strong>as</strong> …&quot;</em> yoki <em>&quot;My English is <strong>better than</strong> last year.&quot;</em> Ovoz chiqarib takrorlang — miya qolipni oʻzi oʻzlashtiradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada sifatga -roq qoʻshiladi (“tezroq”) va “…dan” bilan solishtiriladi; “eng” esa orttirma daraja beradi; oʻxshatish “-dek / kabi” bilan. Ingliz tilida: qiyosiy = -er/more + than, orttirma = the -est/most, tenglik = as … as. “…dan” oʻrnida doim than turadi, orttirmada esa deyarli doim the keladi.",
+      "errorFixUz": "❌ She is more faster than me. She is the most fast. ✅ She is faster than me. She is the fastest. Qisqa sifatga faqat -er/-est qoʻshiladi (more/most bilan birga emas). as … as orasida esa sof sifat: as fast as (❗ as faster as emas).",
+      "examples": [
+        {
+          "en": "Jane learns faster than John.",
+          "uz": "Jane Jondan tezroq oʻrganadi."
+        },
+        {
+          "en": "She wanted to be the best tri-athlete in the world.",
+          "uz": "U dunyodagi eng zoʻr triatlonchi boʻlishni istardi."
+        },
+        {
+          "en": "He speaks English as fluently as a native.",
+          "uz": "U ingliz tilida ona tili egasidek ravon gapiradi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Jeannie learned much ___ than the other students.",
+          "options": [
+            "faster",
+            "fast",
+            "fastest"
+          ],
+          "answer": "faster",
+          "hintUz": "ikki tomonni solishtirish → qiyosiy daraja + than: faster than"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Tiger Woods is one of the ___ golfers in history.",
+          "options": [
+            "best",
+            "better",
+            "good"
+          ],
+          "answer": "best",
+          "hintUz": "eng zoʻri (orttirma daraja) → the best; good → better → best"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "My English isn't ___ good ___ hers yet.",
+          "options": [
+            "as … as",
+            "so … than",
+            "more … than"
+          ],
+          "answer": "as … as",
+          "hintUz": "tenglik/tengsizlik qolipi: (not) as + sof sifat + as"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingizni namunangiz bilan solishtirib uchta jumla ayting (ovoz chiqarib): “My role model is … than me. I'm not as … as … yet. One day I will be the …”.",
+          "answer": null,
+          "hintUz": "qiyosiy (…-er/more than), (not) as … as, orttirma (the …-est/most)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "defining-relative-clauses",
+      "titleUz": "Aniqlovchi ergash gap: who / that / which / whose",
+      "titleEn": "Defining relative clauses (who / that / which / whose)",
+      "bandLifter": "IELTS Part 2 — define and describe people precisely",
+      "cefrCanDo": "B1: I can define a noun with who / that / which / whose",
+      "bodyHtml": "<p>AJ namunani shunday taʼriflaydi: <em>&quot;A role model is someone <strong>who</strong> has already done what you want to do.&quot;</em> Mini-hikoyada esa: <em>&quot;A tri-athlete is a person <strong>who</strong> does three sports.&quot;</em> Eʼtibor bering — avval &quot;someone&quot; yoki &quot;a person&quot; deymiz, keyin uni <strong>aniqlab</strong>, izohlab beramiz. Bu — <strong>aniqlovchi ergash gap</strong> (defining relative clause): otdan keyin kelib, &quot;qaysi biri?&quot; degan savolga javob beradi. Aynan namunangizni taʼriflashning tili.</p>\n<h3>Nega &quot;aniqlovchi&quot;?</h3>\n<p>Bu ergash gap otni <strong>aniqlaydi</strong> — usiz gap toʻliq maʼno bermaydi. <em>&quot;A model is someone.&quot;</em> — kim? Toʻliq emas. <em>&quot;A model is someone <strong>who inspires you</strong>.&quot;</em> — endi aniq. Shuning uchun bu qismni vergul bilan ajratmaymiz.</p>\n<h3>Qaysi olmoshni tanlash</h3>\n<table>\n<thead>\n<tr>\n<th>Olmosh</th>\n<th>Nimani aniqlaydi</th>\n<th>Misol</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>who</strong></td>\n<td>odam</td>\n<td><em>the teacher <strong>who</strong> helped me</em></td>\n</tr>\n<tr>\n<td><strong>that</strong></td>\n<td>odam yoki narsa</td>\n<td><em>the book <strong>that</strong> changed my life</em></td>\n</tr>\n<tr>\n<td><strong>which</strong></td>\n<td>narsa / hayvon</td>\n<td><em>the method <strong>which</strong> works best</em></td>\n</tr>\n<tr>\n<td><strong>whose</strong></td>\n<td>egalik (…ning)</td>\n<td><em>a learner <strong>whose</strong> English is perfect</em></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>Odam uchun: <code>who</code> (yoki <code>that</code>). — <em>Peers are people <strong>who</strong> you see every day.</em></li>\n<li>Narsa uchun: <code>which</code> (yoki <code>that</code>). — <em>A strategy <strong>which</strong> leads to success.</em></li>\n<li>Egalik uchun: <code>whose</code> = &quot;…ning&quot;: <em>a student <strong>whose</strong> results are amazing</em> — natijalari ajoyib boʻlgan talaba.</li>\n</ul>\n<h3>English ↔ Uzbek: eng katta farq</h3>\n<p>Oʻzbek tilida aniqlovchi <strong>otdan oldin</strong> keladi va feʼl sifatdosh shaklga oʻtadi: <em>&quot;meni <strong>oʻqitgan</strong> oʻqituvchi&quot;</em>. Ingliz tili buni <strong>teskari</strong> quradi — avval ot, keyin <code>who/that/which</code> bilan izoh: <em>&quot;the teacher <strong>who taught me</strong>&quot;</em>. Yaʼni oʻzbekcha &quot;oldindan&quot;, inglizcha &quot;keyindan&quot; aniqlaydi. Shu farq oʻzbek oʻquvchini eng koʻp adashtiradi.</p>\n<h3>Obyektda olmoshni tushirib qoldirish</h3>\n<p>Agar olmosh ergash gapning <strong>obyekti</strong> boʻlsa, uni koʻpincha tushirib qoldirsa boʻladi: <em>&quot;the book <strong>(that) I read</strong>&quot;</em> = <em>&quot;oʻqigan kitobim&quot;</em>. Ammo olmosh <strong>egasi</strong> (subyekti) boʻlsa — tushirib boʻlmaydi: <em>&quot;the man <strong>who</strong> lives here&quot;</em> (❗ <em>the man lives here</em> deyilmaydi).</p>\n<blockquote>\n<p><strong>Eslatma:</strong> namunalaringizni taʼriflab mashq qiling. Har kuni bitta jumla: <em>&quot;My role model is a person <strong>who</strong> …&quot;</em>, <em>&quot;I use a method <strong>that</strong> …&quot;</em>. Ovoz chiqarib ayting — relative clause quloqqa tabiiy urila boshlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida aniqlovchi otdan OLDIN keladi va feʼl sifatdosh boʻladi: “meni oʻqitgan oʻqituvchi”. Ingliz tili teskari quradi — avval ot, keyin who/that/which bilan izoh: “the teacher who taught me”. Odam uchun who, narsa uchun which, ikkalasi uchun that, egalik (“…ning”) uchun whose.",
+      "errorFixUz": "❌ The teacher which taught me. A person which does three sports. ✅ The teacher who taught me. A person who does three sports. Odam uchun who/that; narsa uchun which/that; egalik uchun whose (odamga which qoʻllanmaydi).",
+      "examples": [
+        {
+          "en": "A role model is someone who has already succeeded.",
+          "uz": "Role model — bu allaqachon muvaffaqiyatga erishgan inson."
+        },
+        {
+          "en": "A tri-athlete is a person who does three sports.",
+          "uz": "Triatlonchi — uch xil sport bilan shugʻullanadigan inson."
+        },
+        {
+          "en": "This is the method that works best.",
+          "uz": "Bu — eng yaxshi natija beradigan usul."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "A role model is a person ___ has already done what you want to do.",
+          "options": [
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": "who",
+          "hintUz": "odam uchun → who (yoki that)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Effortless English is a method ___ focuses on listening.",
+          "options": [
+            "that",
+            "who",
+            "whose"
+          ],
+          "answer": "that",
+          "hintUz": "narsa uchun → that yoki which (who emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Steve Kaufmann is a linguist ___ English is perfect.",
+          "options": [
+            "whose",
+            "who",
+            "which"
+          ],
+          "answer": "whose",
+          "hintUz": "egalik (“…ning inglizchasi”) → whose"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Namunangizni taʼriflab ikkita jumla ayting (ovoz chiqarib): “My role model is a person who … . I want a peer group that …”.",
+          "answer": null,
+          "hintUz": "odam → who/that; narsa → that/which; egalik → whose"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/06/main.mp3",
+      "durationSec": 1173,
+      "bytes": 14087004,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/06/vocab.mp3",
+      "durationSec": 497,
+      "bytes": 5973418,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/06/ministory.mp3",
+      "durationSec": 993,
+      "bytes": 11924800,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hi this is AJ. Welcome to lesson number 6, today’s topic “Models.” Models are very important, and by model I mean role model, not the models you see on magazines. That’s a different meaning. A role model is kind of like a hero. It’s someone that has success, the same kind of success that you want.",
+      "So, for example, if you are a basketball player, you want to be great then maybe Shaquille O’Neal or Michael Jordan is your role model, maybe both. It’s important to have role models. Role models are people who have done already what you want to do. Why is that important? Well, it’s important because you can learn from them.",
+      "You can learn much faster if you find out, if you discover what they did to succeed. This is the fast track for success. You don’t have to make all the same mistakes. You can copy them in a way and learn much, much faster. So, for example, when I started my own business, in the beginning I knew nothing, zero, I had no idea what to do.",
+      "I was just an English teacher. Now I had two choices, I could have just tried something, tried something else, kept trying things, trying things, making mistakes, failing, try again. And I did do that somewhat. But I wanted to succeed faster.",
+      "That would be a very slow method if I only experimented, if I only tried and failed, tried and failed, and tried to find everything by myself. So, of course, I wanted to succeed faster, so what did I do? I went and I found role models. I found other people who were already successful business people. I read their books.",
+      "I went to their seminars and their workshops. I learned everything possible from them. And then I used what I learned with my own business. And in this way I was able to succeed much, much faster. I could take all the great strategies that they were using, that they discovered in their life, maybe with many, many years.",
+      "I could take all those great strategies and I could use them in months or in weeks. Well you can do the same thing with your English learning or with anything. You can find role models, people who are total masters, and you can steal their ideas.",
+      "You can steal the best ideas, the best strategies, the best methods that they have used, and you can copy those so that you will learn much, much faster. You will make fewer mistakes. So that’s why role models are so important. They speed up the learning process, they boost it up.",
+      "They also, of course, give you an emotional boost because you can see, hey, they did it. Somebody already did what I want to do. It proves it’s not impossible, it can be done. And I also had that a little bit with my business. I was a little bit scared. I was an English teacher. I didn’t know much about business.",
+      "But the more I read about all these other people who started, like me, with no knowledge of business, with no money, but they did certain things and those certain actions led to success. Those certain strategies led to success and I realized if I used the same strategies I will get the",
+      "same result, the same success. It’s the same with English learning. If you follow the strategies of people who are masters, you also will become a master, quite simple. So let’s talk about this a little bit. In fact, this is how I developed my teaching system. As a beginning teacher of English, I knew nothing, zero.",
+      "I went to Korea and I got a job teaching small children, and I didn’t know anything about English teaching. I had a degree in social work. I had studied social work in school and suddenly I needed to teach small children. And I did what most English teachers do, I just grabbed some textbooks and followed the textbooks.",
+      "And I followed what my boss told me to do. And the result was not so good. And I did this for a few years and later I changed to teaching adults.",
+      "And the same thing, I just used some textbooks, oh this textbook, this textbook, the school would give me some books to use and I just kind of randomly used different activities from these books. And the results were quite poor. But I began to notice something.",
+      "I began to notice that a few students in my classes were learning much faster than everybody else. They were doing much better than everybody else. So I was curious, I wanted to be a better teacher and I thought “I need to learn what are these guys doing differently? Why are they different than the other students?” So I talked to them.",
+      "I interviewed them. I constantly asked questions. I was very, very focused on my best students. What were they doing? And I focused on the other students, what were they doing? What was the difference? And over time I began to realize there were patterns.",
+      "The best students were always doing similar things and they were different than what most students were doing. Later, a few years later, I went and got a Masters Degree in teaching English as a foreign language. And during my studies, during my Masters Degree program, I began to look for other models.",
+      "This time I looked for researchers, for scientists who were studying English learning or, in general, language learning. And I wanted to find out again what were the results, the scientific results that showed which methods were fastest, which methods were best for learning English or for teaching English.",
+      "My focus, of course, was teaching. And again I began to find patterns and the very interesting thing to me, the patterns were the same as what was happening with my best students. So the research was showing the same thing that my students were showing. They were doing exactly the same thing.",
+      "So from these two models, these role models, these academic role models, these scientists, and then my actual students, my best students, also role models, I learned a totally new way to teach English. And that is what you have now, the Effortless English system, the Effortless English approach.",
+      "So let me talk about some of these examples and then I will talk in more detail about the importance of finding role models and finding a peer group. So peer means…it’s a person who’s equal to you. But a peer, really it means, it’s the people you have contact with every day.",
+      "Your coworkers, your friends, business partners, all of those people are your peers, so people you have contact with constantly, every day, the people you see again and again and again, every day, those are your peers. And it’s important to have",
+      "a very good peer group. You need to have a good peer group and you need to have good role models. So first let’s talk about role models. I just want to talk about a few success stories, a few of my best students that I’ve had over the years.",
+      "So one of my best students, her name was Jeannie, she was Korean and she was a student of mine in San Francisco. And she learned so much faster than my other students, it was amazing. I couldn’t believe it. So I began to ask Jeannie questions all the time about what she was doing. How did she study English?",
+      "And I asked my other students the same questions. And I found out number one, Jeannie was focused on listening. Jeannie did a lot of listening after school. She had an iPod and she was listening to my lessons all the time.",
+      "She was listening to podcasts, she was listening to television, very focused on listening, an auditory method, learning with her ears. Another thing Jeannie liked to do was read English, but not textbooks. She read novels. Now in the beginning she was reading children’s novels, very easy novels, but they were storybooks not textbooks.",
+      "And she read a lot of these every day, she just read for fun, in English. So she was reading a lot of storybooks and she was listening, listening, listening a lot. Another key thing that Jeannie focused on was meaning and interest. In other words, she always chose English materials that were interesting to her that had meaning for her.",
+      "Textbooks usually don’t have much personal meaning. So she chose a story “Oh, this story is very interesting, I want to read this book.” She was focused on the meaning. She was focused on the story. She was not focused on grammar points or vocabulary.",
+      "And the same in her listening, she chose listening that was interesting and fun and meaningful to her. So that’s interesting. Well, later I talked to a guy named Steve Kaufman. Steve Kaufman is a linguist. He speaks, I think he speaks 12 languages now. He keeps adding languages so I forget how many he speaks.",
+      "But the last time I talked to him he was speaking 12 languages. Not bad. He’s a Canadian, a native English speaker, but he speaks French, he speaks Japanese, Cantonese and Mandarin. He’s learning Russian now, he’s learning Korean.",
+      "He’s an amazing guy and, of course, I was very curious about Steve, another great language learning role model. And I asked Steve about his methods, “How do you do it?” And he writes a lot about his methods on his website in his blog. So Steve, guess what, same as Jeannie. Number one, he has a listening approach.",
+      "He focuses mostly on listening, probably 80% of his time he spends listening. He learns with his ears. Another thing Steve does, he reads for pleasure. He reads storybooks, he reads articles, he reads magazines. His reading is always for pleasure, it’s always focused on something that’s interesting to him or meaningful to him.",
+      "He does not read textbooks. He does not focus on grammar, this is another interesting thing. Steve does not study grammar. He might learn a little grammar sometimes but, in general, he focuses on listening and reading for fun, reading for interest. Just like Jeannie, interesting.",
+      "Well I began to see these patterns again and again and again. The superstar learners, the superstar students have these same exact patterns. They’re great role models and they’re doing the same things. They seem to always be focused on listening…listening, listening, listening. They like to read for pleasure.",
+      "They focus their listening and their reading on interesting content, meaningful content, articles, stories, novels, newspapers. Another interesting thing, they never focus on grammar. They may learn a little bit of grammar, or not. Some of them will study grammar a little bit, some never study grammar.",
+      "But they all focus totally on listening to interesting content, reading interesting content…input, input, input is their focus. Another interesting thing that you find with these superstar students, these superstar learners, is that they do a lot of deep learning, in other words, a lot of repetition.",
+      "My favorite example of this is Jerry Dye, a man named Jerry Dye. Now Jerry was a native Chinese speaker and he moved to Canada. And he wanted to have perfect pronunciation. He wanted to sound like a North American. So number one, what did he do? Well, he focused on listening again…listening, listening, listening.",
+      "Every day he listened to English. Something else he did very interesting. He learned deeply. It means he took the same article, for example, or the same conversation, he listened to it 100, 200, 300, 400, 500 times. Amazing. The same conversation. Why did he do that? I mean it sounds crazy.",
+      "It’s very different from what normal students do. Well, because he realized he needed that massive repetition so that he could really learn and absorb all the sounds of English, the patterns of English. He realized that deep learning was more important than going fast and trying to learn a lot of words and a lot of grammar.",
+      "Now you don’t need to do quite so much like Jerry Dye, 500 times with one thing is a little bit much. It’s kind of hard to stay motivated. It can become quite boring. But the general principle is important, deep learning. It’s something that all my superstar students do, that the superstar learners do.",
+      "They learn a lot very deeply first so they go deep, deep, deep, a lot of repetitions, and then later they add more. Another guy who does a lot of deep learning, one of my favorite examples in my mini-stories, Tiger Woods, we’ve heard a lot about Tiger Woods. Well, think about Tiger Woods for a minute.",
+      "Tiger Woods started to practice golf when he was a child. His father taught him golf and he learned how to putt. He would practice putting, right, the little short, little short strokes. And he practiced big, long strokes, driving in golf, it’s called driving it means hitting it far, the same swing.",
+      "Tiger Woods has been practicing the exact same swing for years, since he was a small child until now. He’s a mater but he still practices his swing. I mean this is super deep learning. He’s doing the same simple thing again and again and again, each time trying to make a tiny little improvement, right?",
+      "Tiger didn’t decide “Oh, well, I’m sick of this, I already know this. I don’t need to practice anymore.” That’s what a lot of English learners do. They say “I already know the past tense. I can take a test, I can pass it, no problem.” But when they speak they make constant mistakes with the past tense. It’s because they",
+      "did not learn it deeply. They know it at a shallow level, they can take a test, but they don’t know it deeply, deeply, deeply, the way Tiger Woods knows his swing because he’s done it, I don’t know, 50,000 times, 100,000 times, maybe more. So deep learning is something else we can learn from our role models.",
+      "So what you need to do then is find role models. And you can get them from a peer group. Peer group means it’s the people you associate with, the people you’re around, the people you connect to every day. How do you find a peer group of super great English learners, of superstar students?",
+      "Well there are different ways to do it but I think the easiest way to do it is online. I mean the internet is amazing because you can communicate with people all over the world. So you can find super English learners in England, in Europe, in South America, in Asia, all over.",
+      "And you can come together as a group and communicate, learn from each other. And that’s going to increase your learning speed so much. That’s one reason we call ourselves the Effortless English Club. The Club part is equally important to the lessons. The Club part consists of forums and also a new member site we’re developing.",
+      "And the purpose is to create a peer group, a group of superstar learners so that you can connect with people in different parts of the world who are using these same patterns, these same methods, these same systems. And you can learn from them and so you can learn faster yourself.",
+      "And another important thing about a peer group is it gives you support, emotional support. When you have other superstars to help you, you learn faster and you feel better. Sometimes maybe you feel tired. Sometimes you have a problem. Well, you can go to these people, go to your peer group. Tell them “Help me, I feel tired.”",
+      "They will help you. They will encourage you. They’ll bring your energy back up. It’s very important to do this. Doing something alone is much tougher than doing it with a positive, superstar peer group. So you need to find a peer group, a powerful peer group of role models.",
+      "People who are great English learners, you need to connect with them. Learn from them, do what they are doing. If you do that, I promise you, you will be so much more successful than you have in the past. Okay, that is the end of this talk number 6, “Models and Peer Group.” I will see [cuts off]"
+    ],
+    "vocab": [
+      "Hi this is AJ again and welcome to the vocabulary lesson for “Models.” Well, let’s start with that first word. Role model, as I mentioned already in the main talk a role model is kind of a hero. It’s someone you want to imitate. You want to be the same as them.",
+      "It’s usually specific though, it doesn’t mean you want to be like them in everything, in every part of your life. It’s usually specific, in one part of your life you want to be like them. So maybe Donald Trump, he’s a very rich man for example, so you might say “Donald Trump is my role model for business.”",
+      "So you want to be rich like Donald Trump but maybe you don’t want to be like Donald Trump in other ways. Like he had a big divorce, for example, so maybe you don’t want your relationships to be like Donald Trump but you want your business to be like him. So you say “He’s my business role model.”",
+      "And it’s the same with sports, if you play golf then maybe Tiger Woods is your golf role model, but maybe you don’t want your personal life to be like Tiger Woods. So a role model usually has this idea of specific, it’s kind of a hero but just in a specific part of your life, or in a specific way.",
+      "The next word we’re going to talk about is randomly, I mentioned the word randomly. Randomly means by chance, it’s not planned. So, for example, I said “I randomly chose English lessons when I was a beginning teacher in the beginning.” So randomly means I just, by chance, I just picked a book and picked an exercise. I didn’t have a plan.",
+      "I didn’t have a clear, focused, organized reason. I just picked something and then I’d pick something else and pick something else, just by chance. It was random. Okay, I used the phrase bring back up, to bring something back up. To bring something back up means to return it to a higher level. Bring back means return.",
+      "So bring back my book means return my book. So bring back up just means return up, return to a higher level. Okay, next, I used the word or the phrase actually, fast track. It’s a very common, kind of an idiom actually, common phrase, fast track.",
+      "The fast track or a fast track is a method or a situation where you are improving very quickly. So, for example, you have two students are learning English, John and Jane. We might say John is learning slowly but Jane is learning very quickly. So we say Jane is on the fast track.",
+      "On the fast track, it means she is improving very, very fast. This is used in business sometimes, in careers. So, for example, in a company if you are on the fast track it means you are going up, up, up, up, up in the",
+      "company very fast, right? You’re making more money and more money and more money and more money, very fast. You’re getting better jobs, higher jobs, higher jobs, higher jobs, very fast. You’re on the fast track. Faster than other people. You’re improving faster than other people. Okay, so that’s the fast track.",
+      "You want to be on the English fast track, right? I hope so. Next is the word peer. I discussed it already in the main article but let’s talk about it again. A peer is an equal. Someone who is equal to you, that’s the direct meaning. But the more general meaning is a peer is anyone who you have contact with frequently.",
+      "Your friends might be your peers, your coworkers, just people who you associate with, who you have contact with, who you communicate with regularly, often. Those are your peers. And it does have this idea again of your equals. So your bosses’ boss is not your peer, usually. But your coworkers, they are your peers.",
+      "Alright, I used the word superstar a lot. You probably know this from celebrities, from movies or music. A superstar is a very famous person. But a superstar can also just mean a master, again it’s very similar to master. A superstar student means a super excellent student, a great student, the top master in the class basically.",
+      "So a superstar student, a fantastic super student. Okay, I used the word linguist again, using this one a lot. I said Steve Kaufman of The Linguist. The Linguist is the name of Steve Kaufman’s company. Of course, a linguist is a person who learns languages, who studies languages. And Steve studies a lot of languages so he is a linguist.",
+      "Okay, that is the end of the vocabulary lesson for “Models.” As always, listen and learn deeply. So remember that Tiger Woods example, or any top athlete. You’re going to notice that they do the same simple things again and again. They continue to practice the most basic easy things again and again and again.",
+      "Tiger Woods continues to practice his most basic swing. He doesn’t say “I’ve already learned it. This is boring.” Well, it’s the same with you. You must continue to learn and practice the most core, basic parts of English. You don’t know the past tense well enough yet. Even if you think “I already know the past tense.” No you don’t.",
+      "If you still make mistakes using the past tense, you don’t know it. So you need to listen to it more and more and more and more and more. It’s the same with all parts of English. Too many students try to go ahead. They want advanced material, advanced, advanced. “I already know the beginning stuff.”",
+      "Well, you know it intellectually, but you don’t really know it deeply. And most students really need to go back and focus more on the core, basic parts of English. Simple sentences, the past tense, the present tense, the stuff we use every day in conversation, you need to master that.",
+      "Not just know it, you need total mastery and that requires deep learning, a lot of repetition. And that’s why, in our system we always tell you to listen to each lesson set for one week, every day for one week. Don’t go faster. Slower is okay. Every day for",
+      "two weeks, every day for five months is fine. But don’t go faster than every day for one week. Okay, I will see you next time for the mini-story, bye."
+    ],
+    "sixmin": [
+      "Neil: Welcome to 6 Minute English, the programme where we explore an interesting topic and bring you six bits of useful vocabulary. I'm Neil.",
+      "Rob: And I'm Rob. Today we're talking about first impressions – and how they're often wrong.",
+      "Neil: So let's start with the term first impression – it's the idea or opinion you have about someone after meeting them for only a short time.",
+      "Rob: It's very natural to make a quick judgement about someone based on their appearance or facial expression.",
+      "Neil: We're going to be hearing about the research of Professor Alexander Todorov from Princeton University in the US. First, a question: how long does he say it takes to form an impression about someone's face? a) Under one second b) one second c) six seconds",
+      "Rob: I'll go for b) one second.",
+      "Neil: Well, we'll find out if you're right or not at the end of the programme.",
+      "Rob: So – Alexander Todorov has been researching our impressions. His tests asked people to decide whether they thought faces were dominant, competent, trustworthy or extroverted.",
+      "Neil: Let's just look at those words for a second. Dominant means being strongest or most important. Competent means being able to do things.",
+      "Rob: While if you're trustworthy it means people trust you – you are worth their trust. And being extroverted means you are energetic and enjoy spending time with others.",
+      "Neil: So what did he find out? Faces that look happy and feminine – like a woman - were rated as more trustworthy.",
+      "Rob: While faces that were more masculine – like a man – were seen as more dominant.",
+      "Neil: Wider faces with big eyes were seen as more extroverted.",
+      "Rob: Now the important thing that Todorov says is that these judgements aren't accurate. Someone who looks competent isn't necessarily competent!",
+      "Neil: So, what does this mean in practice? Here's Professor Todorov: Professor Alexander Todorov, Princeton University Trustworthiness, dominance and attractiveness are the three big things that we form impressions of people. But interestingly we have done some work predicting the electoral success of politicians, and the judgement that is most predictive of who is going to win the election is perceived competence. And this is not random at all, because if you ask voters what is the most important attribute of a politician, competence is the one on the top.",
+      "Neil: OK, so this is actually quite significant. People say that the most important attribute – or quality – for a politician is competence – the ability to do things.",
+      "Rob: That sounds fair enough. But because we make judgements based on appearance – this can actually affect how people vote.",
+      "Neil: If voters believe – or perceive someone to be competent – they're more likely to vote for him or her.",
+      "Rob: He says this applies especially to people who are less educated about politics – they are more likely to be influenced by appearance.",
+      "Neil: He says this applies to around 25% of voters – so the number of people who go with their gut is large enough to influence the outcomes of elections!",
+      "Rob: Wow. To go with your gut. That means to make a decision which isn't based on rational thought – it's based on instinct, on a feeling, on your gut.",
+      "Neil: Yes – your gut is your stomach and the organs in your belly. So, can we tell nothing from a person's face?",
+      "Rob: Todorov says faces carry useful information about things like a person's mental state, and whether they're tired or sick. But they don't tell you about a person's character.",
+      "Neil: Indeed. It's not only elections where this counts, we also judge during job interviews and meetings.",
+      "Rob: So what can we do to minimise the chances of being affected – should we just close our eyes when we meet people?",
+      "Neil: Well, it's not such a bad idea! There's the example of the Boston Symphony Orchestra – back in the 1950s it was entirely made up of male musicians. They then introduced 'blind auditions' in other words they listened to new musicians without looking at them.",
+      "Rob: And what happened – I guess many more women were selected?",
+      "Neil: Exactly – around 50%. Of course, gender and race are also huge factors in how we perceive faces. Todorov says we tend to react most positively to faces that look like our own.",
+      "Rob: Right, well – I guess we just need to take a deep breath and try not to judge too much.",
+      "Neil: Easier said than done, I'm afraid. Especially when we judge so quickly! But do we do it in under a second, one second or six seconds?",
+      "Rob: I said one second.",
+      "Neil: According to Todorov it takes under one second.",
+      "Rob: I think it's safe to say it's very fast. So shall we quickly go through today's vocabulary?",
+      "Neil: Ok – first up: first impression – the first judgement you make about something. What was your first impression of me, Rob?",
+      "Rob: Well I thought you were very trustworthy and extroverted.",
+      "Neil: Well isn't that convenient, (and accurate?!), because those were exactly the two adjectives I wanted to look at next. Being trustworthy is important in life – it means people trust you…",
+      "Rob: And being extroverted is more of a character type – extroverts like to be with people, and are often seen as confident – whereas the opposite – introverts, usually need to spend time on their own, and aren't as loud.",
+      "Neil: Both of these are interesting attributes – or qualities. You could say that mathematical ability is an essential attribute for an engineer.",
+      "Rob: And competence is the number one attribute for a politician. Although people don't always vote depending on actual competence, they base it on their perception.",
+      "Neil: What they see, or perceive, as competence. 'Perceived competence' might be different from actual competence!",
+      "Rob: Yes, in many situations we tend to go with our guts. We make decisions based on deep feelings. Do you do that, Neil?",
+      "Neil: Yes, some things you can think about too much. When I left my last job, I really just went with my gut – it felt like the right thing to do.",
+      "Rob: Of course – because it meant coming to work here with me!",
+      "Neil: Naturally. So – that's it for our chat about first impressions – for more do visit our Facebook, Twitter, Instagram and YouTube pages, and of course our website!",
+      "Rob: Bye for now.",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who wanted to be a tri-athlete?",
+        "a": "Laura, Laura wanted to be a tri-athlete."
+      },
+      {
+        "q": "What is a tri-athlete?",
+        "a": "Well, a tri-athlete is a person who does three different sports, swimming, cycling…riding a bicycle, and running, right? So tri means three, T-R-I, tri means three so three sports, a three-sport athlete, swimming, cycling and running."
+      },
+      {
+        "q": "Did Laura want to swim, cycle and run?",
+        "a": "Yes she did. She wanted to swim, she wanted to cycle and she wanted to run. She wanted to be a tri-athlete."
+      },
+      {
+        "q": "Did she want to be a normal tri-athlete?",
+        "a": "Not Laura."
+      },
+      {
+        "q": "What kind of tri-athlete did she want to be?",
+        "a": "A superstar tri-athlete, Laura wanted to be a superstar tri-athlete."
+      },
+      {
+        "q": "Which race did she want to win?",
+        "a": "The Ironman race, she wanted to win the Ironman race in Hawaii, the Ironman tri-athlete race."
+      },
+      {
+        "q": "Did she want to be a superstar tri-athlete or a pretty good tri-athlete?",
+        "a": "Well, of course, superstar, she wanted to be a superstar tri-athlete. Laura always wants to be the best. So Laura wanted to be a superstar tri-athlete. She wanted to win the Ironman race."
+      },
+      {
+        "q": "How long is the Ironman race?",
+        "a": "Hm, well, the Ironman race is a swim that is 2.5 miles, 2.5 miles swimming, and 212 miles cycling, and 26.4 miles running."
+      },
+      {
+        "q": "Is it a long race or a short race?",
+        "a": "Oh, it’s a long race, it’s a super long race. 2.5 miles swimming, 212 miles cycling and basically 26 miles running, that’s the Ironman race."
+      },
+      {
+        "q": "Who wanted to win the Ironman race?",
+        "a": "Laura, Laura wanted to be a superstar tri-athlete. She wanted to win the biggest race. She wanted to win the Ironman tri-athlete race."
+      },
+      {
+        "q": "What was Laura’s problem?",
+        "a": "Her problem was her peer group were all lazy losers."
+      },
+      {
+        "q": "Did she have a positive, strong, superstar peer group?",
+        "a": "No, no she did not. She had a peer group of lazy losers."
+      },
+      {
+        "q": "Were her friends superstars?",
+        "a": "No they weren’t. They were lazy losers. Her peer group was full of lazy losers."
+      },
+      {
+        "q": "What about her job? Were they superstars? Were they athletes?",
+        "a": "No they weren’t."
+      },
+      {
+        "q": "What were her coworkers like?",
+        "a": "Well, they were lazy and they complained constantly."
+      },
+      {
+        "q": "Who were lazy and complained constantly?",
+        "a": "Her coworkers, her coworkers complained constantly and they were lazy."
+      },
+      {
+        "q": "Were they superstar athletes?",
+        "a": "No, they weren’t. They were lazy. They were lazy and they always complained."
+      },
+      {
+        "q": "What did they do?",
+        "a": "They stole money from their company. They were thieves. They were complainers and they were lazy."
+      },
+      {
+        "q": "Was this a good peer group?",
+        "a": "No, it was a terrible peer group. Terrible coworkers for Laura, her coworkers were complainers. They were lazy and they were thieves. They stole from the company."
+      },
+      {
+        "q": "How did Laura feel about her coworkers?",
+        "a": "Oh, she hated them."
+      },
+      {
+        "q": "Did she love them?",
+        "a": "No, of course not, she hated them. She hated her coworkers, they were a terrible peer group. They complained. They were lazy. They stole from the company."
+      },
+      {
+        "q": "Did her coworkers encourage her and inspire her?",
+        "a": "No, they didn’t encourage her. They didn’t inspire her. She hated them. They were terrible."
+      },
+      {
+        "q": "How about her friends?",
+        "a": "Well, they were nice but they were lazy."
+      },
+      {
+        "q": "What did her friends eat?",
+        "a": "French fries, 20 pounds of french fries every day."
+      },
+      {
+        "q": "How much did they eat?",
+        "a": "20 pounds, 20 pounds of french fries every day."
+      },
+      {
+        "q": "Were they healthy?",
+        "a": "No, they weren’t healthy. They were very unhealthy."
+      },
+      {
+        "q": "Were they in good shape?",
+        "a": "They were not in good shape, they were not healthy. In good shape means healthy or strong physically. So they were not in good shape. They were not healthy."
+      },
+      {
+        "q": "Did Laura want to be in good shape?",
+        "a": "Yes, she did. She wanted to be in great shape. She wanted to be super healthy."
+      },
+      {
+        "q": "What did she want to be?",
+        "a": "A superstar tri-athlete, she wanted to be a superstar tri-athlete."
+      },
+      {
+        "q": "Were her friends superstar tri-athletes?",
+        "a": "No, they weren’t. They were lazy french fry eaters. They ate 20 pounds of french fries every day while watching TV."
+      },
+      {
+        "q": "Was this a good peer group for Laura, who wanted to be a superstar tri-athlete?",
+        "a": "Of course not, it was not a good peer group for Laura."
+      },
+      {
+        "q": "What did she want?",
+        "a": "A new peer group."
+      },
+      {
+        "q": "Who wanted a new peer group?",
+        "a": "Laura did. Laura wanted a new peer group."
+      },
+      {
+        "q": "Did she want new coworkers?",
+        "a": "Yes, she did."
+      },
+      {
+        "q": "Did she want new friends?",
+        "a": "Yes, she did."
+      },
+      {
+        "q": "Was it a better job?",
+        "a": "Oh yes it was."
+      },
+      {
+        "q": "What kind of coworkers did she have?",
+        "a": "Super enthusiastic, she had super enthusiastic coworkers."
+      },
+      {
+        "q": "Did they have a lot of energy?",
+        "a": "Of course, they did. They had a lot of energy, they were super enthusiastic, of course they did."
+      },
+      {
+        "q": "Who had a lot of energy?",
+        "a": "Her new coworkers."
+      },
+      {
+        "q": "What kind of friends did she find?",
+        "a": "Well, she found super athletes, super athletes."
+      },
+      {
+        "q": "What kind of new friends did she find?",
+        "a": "Super athletes, superstar athletes, her new friends were all superstar athletes."
+      },
+      {
+        "q": "Did she ride her bike every day or sometimes?",
+        "a": "Every day."
+      },
+      {
+        "q": "How often did she swim and run and cycle?",
+        "a": "Every day."
+      },
+      {
+        "q": "Who swam? Who ran? Who cycled every day?",
+        "a": "Laura, of course, Laura swam every day. Laura cycled every day. She ran every day. She exercised every day."
+      },
+      {
+        "q": "Was she fast or slow?",
+        "a": "She was fast."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "a role model",
+      "pos": "phrase",
+      "uz": "namuna, ibrat oladigan inson (muayyan sohada qahramon)",
+      "defEn": "someone you want to imitate, usually in one specific part of life",
+      "example": "Michael Jordan is my role model for basketball."
+    },
+    {
+      "en": "on the fast track",
+      "pos": "phrase",
+      "uz": "tez rivojlanish yoʻlida, jadal oʻsish yoʻlida",
+      "defEn": "in a situation where you improve or advance very quickly",
+      "example": "Jane is on the fast track — she is learning very fast."
+    },
+    {
+      "en": "randomly",
+      "pos": "adv",
+      "uz": "tasodifan, rejasiz, betartib",
+      "defEn": "by chance, without a plan or clear reason",
+      "example": "In the beginning I randomly chose exercises from a book."
+    },
+    {
+      "en": "to bring (energy) back up",
+      "pos": "phrase",
+      "uz": "(kuch-quvvatni) qaytadan koʻtarmoq, tiklamoq",
+      "defEn": "to return something to a higher level",
+      "example": "Your peer group will bring your energy back up."
+    },
+    {
+      "en": "a peer",
+      "pos": "n",
+      "uz": "tengdosh, teng maqomdagi kishi",
+      "defEn": "an equal; someone you have regular contact with",
+      "example": "Your coworkers and friends are your peers."
+    },
+    {
+      "en": "a peer group",
+      "pos": "phrase",
+      "uz": "muhit, tengdoshlar davrasi (har kuni muloqotda boʻladigan odamlar)",
+      "defEn": "the group of people you associate with every day",
+      "example": "You need a strong, positive peer group."
+    },
+    {
+      "en": "a superstar",
+      "pos": "n",
+      "uz": "yulduz; zoʻr usta, aʼlo darajadagi kishi",
+      "defEn": "a very famous person; also a true master or excellent performer",
+      "example": "The superstar learners all do the same things."
+    },
+    {
+      "en": "a linguist",
+      "pos": "n",
+      "uz": "tilshunos; koʻp til biluvchi",
+      "defEn": "a person who studies or learns many languages",
+      "example": "Steve Kaufmann is a linguist who speaks twelve languages."
+    },
+    {
+      "en": "deep learning",
+      "pos": "phrase",
+      "uz": "chuqur oʻrganish (koʻp marta takrorlash orqali)",
+      "defEn": "learning something through a lot of repetition until it is automatic",
+      "example": "Superstar students do a lot of deep learning."
+    },
+    {
+      "en": "total mastery",
+      "pos": "phrase",
+      "uz": "mukammal egallash, toʻliq usta boʻlish",
+      "defEn": "knowing something completely, not just at a shallow level",
+      "example": "You need total mastery of the basics, not just to know them."
+    }
+  ],
+  "englishpod": {
+    "id": "0261",
+    "title": "Describing Someone's Face",
+    "titleUz": "Odamning yuzini tasvirlash",
+    "warmup": {
+      "uz": "Bu suhbatda ikki kishi odamlarning yuzini tasvirlab, kim ekanini topish oʻyinini oʻynaydi (uzun burun, quyuq qoshlar, xol, sepkil…). Models darsida biz kimgadir tashqi koʻrinishiga emas, natijalari va usullariga qarab ergashamiz. Sizningcha, odamni faqat yuziga qarab toʻgʻri baholab boʻladimi?",
+      "en": "In this dialogue two people play a guessing game, describing faces (a roman nose, bushy eyebrows, a mole, freckles…). The Models lesson says we should follow people for their results and methods, not their looks. Do you think you can judge someone correctly just from their face?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0261/dg.mp3",
+        "durationSec": 56,
+        "bytes": 480780
+      },
+      "pr": {
+        "path": "englishpod/0261/pr.mp3",
+        "durationSec": 737,
+        "bytes": 11831712
+      },
+      "rv": {
+        "path": "englishpod/0261/rv.mp3",
+        "durationSec": 291,
+        "bytes": 4686034
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Let’s play a game!"
+      },
+      {
+        "speaker": "B",
+        "en": "Ok! How about Scrabble?"
+      },
+      {
+        "speaker": "A",
+        "en": "No no, a friend of mine taught me this really fun game. I’m going to describe someone’s face, and you guess who it is!"
+      },
+      {
+        "speaker": "B",
+        "en": "Ok!"
+      },
+      {
+        "speaker": "A",
+        "en": "Let’s see. He has a roman nose, bushy eyebrows and dimples!"
+      },
+      {
+        "speaker": "B",
+        "en": "Our cousin Pete! My turn! She has a pointy nose, sunken eyes and a mole on her chin!"
+      },
+      {
+        "speaker": "A",
+        "en": "Aunt Rose! That mole is so huge! Ok, my turn. He has a crooked nose and full lips. He has quite a few freckles and an oval face. Oh, he is also bald!"
+      },
+      {
+        "speaker": "B",
+        "en": "Your future husband!"
+      },
+      {
+        "speaker": "A",
+        "en": "Not funny."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "a dimple",
+        "uz": "yonoqdagi chuqurcha (kulganda paydo boʻladi)",
+        "defEn": "a small natural hollow in the flesh, especially in the cheek"
+      },
+      {
+        "en": "a mole",
+        "uz": "xol (teridagi kichik qoramtir dogʻ)",
+        "defEn": "a small dark brown spot on a person's skin"
+      },
+      {
+        "en": "freckles",
+        "uz": "sepkil (teridagi mayda jigarrang dogʻlar)",
+        "defEn": "small brownish spots on someone's skin"
+      },
+      {
+        "en": "an oval face",
+        "uz": "tuxumsimon (choʻziq) yuz",
+        "defEn": "a face that has the shape of an egg"
+      },
+      {
+        "en": "bushy eyebrows",
+        "uz": "quyuq, qalin qoshlar",
+        "defEn": "thick, hairy eyebrows"
+      },
+      {
+        "en": "sunken eyes",
+        "uz": "ichga botgan koʻzlar",
+        "defEn": "eyes that are set deep in the face"
+      },
+      {
+        "en": "bald",
+        "uz": "kal, boshida sochi yoʻq",
+        "defEn": "having little or no hair on the head"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170629",
+    "title": "Faces and first impressions",
+    "titleUz": "Yuzlar va birinchi taassurot",
+    "audio": {
+      "main": {
+        "path": "sixmin/170629/audio.mp3",
+        "durationSec": 384,
+        "bytes": 15375360,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How long does Professor Todorov say it takes to form an impression about someone's face?",
+        "qUz": "Professor Todorovning aytishicha, odamning yuzi haqida taassurot hosil qilish qancha vaqt oladi?",
+        "options": [
+          "Under one second",
+          "One second",
+          "Six seconds"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) Under one second — bir soniyadan ham kam. Rob b) one second dedi va bir oz xato qildi. Todorovning tadqiqotiga koʻra, biz yuzga qarab bir soniyadan ham tezroq baho beramiz — lekin bu baho koʻpincha notoʻgʻri boʻladi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "a first impression",
+        "uz": "birinchi taassurot",
+        "defEn": "the opinion you form about someone after meeting them only briefly"
+      },
+      {
+        "en": "trustworthy",
+        "uz": "ishonchli, ishonsa boʻladigan",
+        "defEn": "able to be trusted; worth people's trust"
+      },
+      {
+        "en": "extroverted",
+        "uz": "ochiq koʻngil, odamoxun (introvertning teskarisi)",
+        "defEn": "energetic and enjoying spending time with other people"
+      },
+      {
+        "en": "an attribute",
+        "uz": "xislat, sifat, xususiyat",
+        "defEn": "a quality or feature of a person or thing"
+      },
+      {
+        "en": "to perceive",
+        "uz": "idrok qilmoq, qanday koʻrinsa shunday qabul qilmoq",
+        "defEn": "to see or understand someone or something in a particular way"
+      },
+      {
+        "en": "to go with your gut",
+        "uz": "ich-ichidan sezib qaror qilmoq (mantiqqa emas, hissiyotga tayanmoq)",
+        "defEn": "to make a decision based on instinct rather than rational thought"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Learn like a polyglot: how to model the masters",
+      "channel": "lingosteve (Steve Kaufmann)"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Talk about a role model — a person who inspires you. Who are they, and what do they do that you admire? How are they better than most people, and are you as good as them yet?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: qiyosiy va orttirma daraja ((not) as … as; better than; the best) hamda aniqlovchi ergash gap (a person who…; a method that…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/06/main.mp3",
+      "bytes": 14087004
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/06/main.pdf",
+      "bytes": 64000
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/06/vocab.mp3",
+      "bytes": 5973418
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/06/ministory.mp3",
+      "bytes": 11924800
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0261/dg.mp3",
+      "bytes": 480780
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0261/transcript.pdf",
+      "bytes": 83841
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170629/audio.mp3",
+      "bytes": 15375360
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170629/transcript.pdf",
+      "bytes": 224923
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

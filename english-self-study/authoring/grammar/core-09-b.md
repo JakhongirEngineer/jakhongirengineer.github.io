@@ -1,4 +1,4 @@
-Kayzen — bu **bosqichma-bosqich** oʻsish: har kuni bir oz yaxshiroq. Ingliz tili buni ikki chiroyli qolip bilan ifodalaydi, va ikkalasini ham shu darsda eshitasiz. MAIN talkda AJ *"better and better answers"* deydi, POVda esa Jan ikki yil davomida *"nicer and nicer"* boʻlib boradi.
+Kayzen — bu **bosqichma-bosqich** oʻsish: har kuni bir oz yaxshiroq. Ingliz tili buni ikki chiroyli qolip bilan ifodalaydi, va ikkalasini ham shu darsda eshitasiz. MAIN talkda AJ *"better and better answers"* deydi, POVda esa Jan ikki yil davomida *"very, very kind"* boʻlib boradi.
 
 ### 1-qolip: `get / become + qiyosiy daraja` (oʻzgarishni koʻrsatadi)
 

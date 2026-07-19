@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 2,
+  "id": "core-01",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 1,
+  "slug": "intro",
+  "title": "Power English — Introduction",
+  "titleUz": "Kirish — Power English",
+  "level": "A2-B1",
+  "tags": [
+    "routine",
+    "present-simple",
+    "adverbs-of-frequency",
+    "peak-state"
+  ],
+  "intro": {
+    "uz": "Birinchi dars — usulning oʻzi haqida. AJ Hoge kuchli holatda (peak state) tinglashni, ovoz chiqarib javob berishni va har kuni oz-ozdan mashq qilishni oʻrgatadi. Bu haftaning ikki grammatikasi kundalik odat tilida: hozirgi oddiy zamon (present simple + 3-shaxs -s) va chastota ravishlari (always / usually / never).",
+    "en": "The first lesson is about the method itself. AJ Hoge teaches you to listen in a peak state, answer out loud, and practise a little every day. This week's two grammar topics are the language of daily habit: the present simple (+ third-person -s) and adverbs of frequency (always / usually / never)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz kundalik tartibingizni toʻxtamasdan tasvirlab bera olasiz va biror ishni qanchalik tez-tez qilishingizni (always/usually/rarely) toʻgʻri soʻz tartibida ayta olasiz.",
+    "en": "By the end you can describe your daily routine without pausing, and say how often you do something (always/usually/rarely) with correct word order."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-simple-habits",
+      "titleUz": "Hozirgi oddiy zamon: odat va tartib (+ 3-shaxs -s)",
+      "titleEn": "Present simple for habits & routines",
+      "bandLifter": "IELTS Part 1 — talk about your routine and what you do",
+      "cefrCanDo": "B1: I can describe habits and routines accurately (he/she + -s)",
+      "bodyHtml": "<p>Bu kursning oʻzi — <strong>hozirgi oddiy zamon</strong>da yozilgan bir odat: <em>&quot;Every day I <strong>listen</strong> to English. I <strong>answer</strong> out loud. AJ always <strong>says</strong>: smile and move.&quot;</em> Present simple — takrorlanadigan, doimiy ish uchun ishlatiladigan zamon. Siz uni allaqachon bilasiz; bu yerda faqat nutq tezligida sizib chiqadigan ikkita xatoni — <strong>3-shaxs -s</strong> va <strong>do/does</strong> — silliqlaymiz.</p>\n<h3>Maʼnosi: odat, tartib, doimiy haqiqat</h3>\n<p>Present simple bir martalik ish uchun emas, <strong>umumiy va takrorlanadigan</strong> ish uchun ishlatiladi: har kungi tartib, odat, doimiy haqiqat.</p>\n<ul>\n<li><em>I <strong>study</strong> English every day.</em> — Men har kuni ingliz tili oʻrganaman.</li>\n<li><em>She <strong>works</strong> in a bank.</em> — U bankda ishlaydi.</li>\n<li><em>Water <strong>boils</strong> at 100 degrees.</em> — Suv 100 gradusda qaynaydi.</li>\n</ul>\n<p>Koʻpincha bu zamon bilan chastota soʻzlari keladi: <em>every day, usually, always, on Mondays</em> (bu haftaning B mavzusi).</p>\n<h3>Kalit nuqta: <code>he / she / it</code> bilan feʼlga <code>-s</code> qoʻshiladi</h3>\n<p>Bu — oʻzbek oʻquvchilar nutqda eng koʻp tashlab yuboradigan qoʻshimcha. Uchinchi shaxs birlikda (<em>he, she, it</em> — yoki bitta odam/narsa nomi) feʼl oxiriga <strong>-s</strong> qoʻshiladi:</p>\n<ul>\n<li><em>I / you / we / they <strong>live</strong> here.</em> — lekin <em>He / she <strong>lives</strong> here.</em></li>\n<li><em>My brother <strong>speaks</strong> three languages.</em> — Akam uch tilda gapiradi.</li>\n</ul>\n<p>Imlo eslatmasi: <em>-o, -sh, -ch, -s, -x</em> bilan tugagan feʼllarga <strong>-es</strong> (<em>go → goes, watch → watches</em>); undosh + <em>y</em> boʻlsa <em>y → -ies</em> (<em>study → studies</em>).</p>\n<h3>Savol va inkor — <code>do / does</code></h3>\n<p>Present simpleʼda savol va inkor <strong>do</strong> (yoki <em>he/she/it</em> uchun <strong>does</strong>) yordamchi feʼli bilan yasaladi, va shu paytda asosiy feʼl <strong>-s ni yoʻqotadi</strong>:</p>\n<ul>\n<li><em><strong>Do</strong> you listen every day?</em> — Har kuni tinglaysanmi?</li>\n<li><em><strong>Does</strong> she <strong>speak</strong> English?</em> (❗ <em>speaks</em> emas) — U ingliz tilida gapiradimi?</li>\n<li><em>I <strong>don't</strong> watch TV. He <strong>doesn't</strong> smoke.</em> — Men televizor koʻrmayman. U chekmaydi.</li>\n</ul>\n<p><code>does</code>/<code>doesn't</code> allaqachon 3-shaxs -s ni oʻz ichiga oladi, shuning uchun asosiy feʼl sof shaklda qoladi: <em>does she <strong>speak</strong>?</em>, not <em>does she speaks</em>.</p>\n<h3>Nega bu B1 belgisi</h3>\n<p>Bu forma A2 darajasidan tanish, ammo <em>aynan nutqda</em> -s va do/does surʼatga bardosh berolmay tushib qoladi. Ularni avtomatik toʻgʻri aytish — B1 aniqligining eng koʻrinadigan belgisi. IELTS Part 1 butunlay shu zamonda: <em>&quot;What <strong>do</strong> you <strong>do</strong>? Where <strong>do</strong> you <strong>live</strong>? What <strong>does</strong> your family <strong>do</strong> at weekends?&quot;</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni yodlab emas, ovoz chiqarib mustahkamlang. Har kuni oʻzingiz haqingizda uchta jumla ayting: <em>&quot;I get up at seven. My day starts with English. It makes me happy.&quot;</em> Miya takrordan oʻzi oʻrganadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida feʼl shaxsga qarab oʻzgaradi, lekin 3-shaxs birlik uchun alohida “-s” yoʻq. Ingliz tili esa he/she/it bilan feʼlga majburiy -s qoʻshadi: “U ishlaydi” = “She works” (❗ “She work” emas). Savol va inkorda esa do/does yordamchisi keladi va -s aynan does ichiga oʻtadi: “Does she work?”.",
+      "errorFixUz": "❌ She work in a bank. He don’t speak English. ✅ She works in a bank. He doesn’t speak English. He/she/it bilan feʼlga -s; savol/inkorda esa does/doesn’t (asosiy feʼl sof qoladi).",
+      "examples": [
+        {
+          "en": "I listen to English every day.",
+          "uz": "Men har kuni ingliz tili tinglayman."
+        },
+        {
+          "en": "My brother speaks three languages.",
+          "uz": "Akam uch tilda gapiradi."
+        },
+        {
+          "en": "Does she work on Mondays?",
+          "uz": "U dushanba kunlari ishlaydimi?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "My sister ___ in a hospital.",
+          "options": [
+            "works",
+            "work",
+            "working"
+          ],
+          "answer": "works",
+          "hintUz": "he/she/it → feʼlga -s: works"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ he speak English at home?",
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "answer": "Does",
+          "hintUz": "he/she/it uchun savol → Does; keyin feʼl sof qoladi (speak)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "They ___ TV in the evening.",
+          "options": [
+            "watch",
+            "watches",
+            "watchs"
+          ],
+          "answer": "watch",
+          "hintUz": "they → -s qoʻshilmaydi: watch"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): kundalik tartibingizdan uchta jumla — “I … every day. My day starts with … . It makes me … .”",
+          "answer": null,
+          "hintUz": "present simple; I/you/we/they bilan sof feʼl, he/she/it bilan -s"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "adverbs-of-frequency",
+      "titleUz": "Chastota ravishlari va soʻz tartibi",
+      "titleEn": "Adverbs of frequency & word order",
+      "bandLifter": "IELTS Part 1 — say how often you do things naturally",
+      "cefrCanDo": "B1: I can place always/usually/never in the right position",
+      "bodyHtml": "<p>AJ butun kursda bir maslahatni takrorlaydi: <em>&quot;<strong>Always</strong> study with emotion. <strong>Usually</strong> listen for 30 minutes. <strong>Never</strong> translate word by word.&quot;</em> Bu — <strong>chastota ravishlari</strong> (adverbs of frequency): ish <strong>qanchalik tez-tez</strong> boʻlishini aytadigan soʻzlar. Ularning maʼnosi oson; qiyini — ularni jumlada <strong>toʻgʻri joyga</strong> qoʻyish.</p>\n<h3>Chastota shkalasi (koʻpdan kamgacha)</h3>\n<table>\n<thead>\n<tr>\n<th>Ravish</th>\n<th>Maʼnosi</th>\n<th>~%</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>always</strong></td>\n<td>doim</td>\n<td>100</td>\n</tr>\n<tr>\n<td><strong>usually</strong></td>\n<td>odatda</td>\n<td>90</td>\n</tr>\n<tr>\n<td><strong>often</strong></td>\n<td>koʻpincha</td>\n<td>70</td>\n</tr>\n<tr>\n<td><strong>sometimes</strong></td>\n<td>baʼzan</td>\n<td>50</td>\n</tr>\n<tr>\n<td><strong>rarely / seldom</strong></td>\n<td>kamdan-kam</td>\n<td>10</td>\n</tr>\n<tr>\n<td><strong>hardly ever</strong></td>\n<td>deyarli hech qachon</td>\n<td>5</td>\n</tr>\n<tr>\n<td><strong>never</strong></td>\n<td>hech qachon</td>\n<td>0</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>I <strong>usually</strong> wake up early.</em> — Odatda erta turaman.</li>\n<li><em>She <strong>rarely</strong> watches TV.</em> — U kamdan-kam televizor koʻradi.</li>\n</ul>\n<h3>Kalit qoida: soʻz tartibi (bu yerda oʻzbekcha odat xatoga olib keladi)</h3>\n<p>Oʻzbek tilida ravish koʻpincha jumla boshida yoki oxirida kelaveradi. Ingliz tili qatʼiy joyni talab qiladi:</p>\n<ol>\n<li><strong>Oddiy feʼldan OLDIN:</strong> <em>I <strong>often</strong> forget. — She <strong>never</strong> gives up.</em></li>\n<li><strong><code>am / is / are</code> (be) feʼlidan KEYIN:</strong> <em>I <strong>am always</strong> tired. — He <strong>is usually</strong> late.</em> (❗ <em>always am</em> emas)</li>\n<li><strong>Yordamchi feʼl bilan — uning ichida:</strong> <em>I <strong>have never</strong> tried. — You <strong>should always</strong> smile.</em></li>\n</ol>\n<p>Yaʼni ravish <strong>asosiy feʼldan oldin, lekin <code>be</code>/yordamchidan keyin</strong> turadi.</p>\n<h3>Boshi va oxirida turadiganlar</h3>\n<p><em>usually, often, sometimes</em> (lekin <em>always/never</em> emas) urgʻu berish uchun jumla <strong>boshida</strong> ham kela oladi: <em>&quot;<strong>Sometimes</strong> I feel nervous. <strong>Usually</strong> I win.&quot;</em> <em>Every day, once a week, twice a month</em> kabi chastota iboralari esa odatda <strong>oxirida</strong>: <em>&quot;I listen to English <strong>every day</strong>.&quot;</em></p>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>Toʻgʻri joylashtirilgan chastota ravishi — B1 soʻz tartibining (pain #8: oʻzbekcha SOV → inglizcha SVO) aniq belgisi va IELTS Part 1ʼda tabiiylik beradi: <em>&quot;I <strong>usually</strong> get up early and I <strong>always</strong> have a big breakfast.&quot;</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> bittalab jumla bilan mashq qiling. Har kuni oʻz hayotingizdan beshta jumla: <em>&quot;I always … I usually … I sometimes … I rarely … I never …&quot;</em> Ovoz chiqarib ayting — soʻz tartibi shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada “doim”, “baʼzan” kabi soʻzlar jumlaning boshida ham, oxirida ham kelaveradi. Ingliz tilida chastota ravishi qatʼiy joyda turadi: oddiy feʼldan OLDIN (I always try), lekin be/yordamchi feʼldan KEYIN (I am always busy; I have never tried).",
+      "errorFixUz": "❌ I go always to bed late. I am never late usually. ✅ I always go to bed late. I am usually late. Ravish oddiy feʼldan oldin, “be” (am/is/are) dan keyin turadi.",
+      "examples": [
+        {
+          "en": "I usually wake up at six.",
+          "uz": "Odatda soat oltida turaman."
+        },
+        {
+          "en": "She is always positive.",
+          "uz": "U doim ijobiy."
+        },
+        {
+          "en": "I have never been to London.",
+          "uz": "Men hech qachon Londonda boʻlmaganman."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ drink coffee in the morning. (usually)",
+          "options": [
+            "usually drink",
+            "drink usually",
+            "drink usual"
+          ],
+          "answer": "usually drink",
+          "hintUz": "chastota ravishi oddiy feʼldan OLDIN: usually drink"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He ___ late for class. (is / never)",
+          "options": [
+            "is never",
+            "never is",
+            "is not never"
+          ],
+          "answer": "is never",
+          "hintUz": "“be” (is) dan KEYIN: is never"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ I feel nervous before I speak.",
+          "options": [
+            "Sometimes",
+            "Always",
+            "Never"
+          ],
+          "answer": "Sometimes",
+          "hintUz": "sometimes/usually/often jumla boshida ham kela oladi (always/never emas)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda beshta jumla ayting: “I always … I usually … I sometimes … I rarely … I never … .”",
+          "answer": null,
+          "hintUz": "ravishni oddiy feʼldan oldin, “be” dan keyin qoʻying"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/01/main.mp3",
+      "durationSec": 926,
+      "bytes": 11121642,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/01/vocab.mp3",
+      "durationSec": 506,
+      "bytes": 6088289,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/01/ministory.mp3",
+      "durationSec": 1222,
+      "bytes": 14668871,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hi, this is AJ Hoge, Director of the Effortless English Club.",
+      "Welcome to our new set of lessons, these are called the Power English Lessons. The reason they’re called Power English is because in these lessons we’re going to do two things. Number one, you’re going to learn English, of course.",
+      "As always, we have the mini-stories which are our favorite lessons for most of our members, but the content, the focus, the topics in these lessons are going to be focused on the psychology of learning and the psychology of success. Now these ideas, they’re not just my ideas. In fact, they come from a lot of other people.",
+      "They come from people like Tony Robbins, who is a famous success coach, Robert Anton Wilson, Joe Vitale, Robert Kiyosaki, Alan Watt, so I’ve taken a lot of ideas from a lot of different people about this topic of the psychology of success.",
+      "And the reason that we’re going to talk about this in these lessons is that in my experience, most English students struggle and fail because of psychology, not because of methods, not because of teachers. Those things are important, but Tony Robbins talks about the fact that psychology is 80% of success.",
+      "And I think he’s right, based on my experience with many, many English students. Psychology is 80% of success, so 20% are the methods you use to study. 20% are the schools you go to, the teachers you have, the books you use. Those are important, we talk a lot about them.",
+      "But the other 80% is psychology, your motivation, your emotions, how you manage your time. All of these things are in fact much, much more important. What I saw in my classes were that the enthusiastic students, the energetic students, the optimistic students always learned much faster. They succeeded.",
+      "The ones who failed, the ones who dropped out and quit, the ones who struggled had the opposite mentality. They had a very negative mentality. Their motivation was low. They tended to be pessimistic. They felt that they weren’t good at English. They had ideas that English was very tough, very difficult, they struggled.",
+      "They didn’t have enthusiasm for English. They didn’t love English. So in these lessons we’re going to talk about how can you manage your emotions. How can you develop that strong, powerful, enthusiastic attitude towards English, how can",
+      "you maintain it so that you don’t get bored? So that in fact you get stronger and stronger with English and your psychology gets stronger and you succeed, you reach your goals. You speak fluently, effortlessly. So among teachers, English teachers, language teachers, this topic is called Non-Linguistic Factors. Non-Linguistic Factors.",
+      "So what “Non-Linguistic Factors” means is things that are not related to language learning directly. When we talk about language learning research, when we talk about the best methods to use when you learn English, those are linguistic factors, right? They are related to the language.",
+      "Non-linguistic factors means not related to the language. This has nothing to do with English, it’s more about psychology. Motivation, for example, is a non-linguistic factor. So all it really means is just emotional factors. And there are actually many research studies about this topic. Dr.",
+      "Stephen Krashen down in Los Angeles, probably again the expert in language acquisition and language learning, has done many studies and he has also looked at many studies and he’s found that non-linguistic factors are equally or in fact more important than the linguistic factors to determine who is successful ultimately.",
+      "What that means is that things like your emotions, things like your peer group, the community that you belong to, your feelings about English are as important or more important than the methods you’re using to learn English. So how are we going to do this? How are we going to learn?",
+      "Well, one of the things we have to do is create a daily English ritual. You need to engage your physiology. That means you need to engage and use your body. You need to engage and use your subconscious. That’s how you start to affect and strengthen your psychology. So we have to strengthen our psychology, what does that mean?",
+      "Really it means affecting your body and your mind at the same time, so that you actually feel better. Your emotions are happier while you’re learning English. And I know this is the opposite of what you learned in school. You probably didn’t feel very happy when you were sitting in your English classes.",
+      "But when you’re learning with Effortless English, it’s very important for you to feel happy. For your body to feel good, for your mind to feel good. For you to emotionally enjoy the process of learning English. Of course, it’s just more fun, you’re going to like it a lot better.",
+      "But the other benefit is that you actually will learn faster. You’ll improve your grammar faster, you’ll improve your pronunciation faster. You’ll remember vocabulary words better, longer and faster when you feel good. So there’s a very practical reason for doing this, too.",
+      "So we’re going to talk a lot in detail in these lessons about how to do this. But just right now, during this introduction, let’s talk a little bit about a daily plan. Something you could do immediately, right now, today, to start improving your success with English by changing your psychology.",
+      "So here’s a little ritual, a little plan you can follow every day to start improving, to start feeling better and therefore improve your motivation and to",
+      "learn English faster and faster and faster, better and better and better. And it’s very simple. So the first thing you’re going to do is when you get up in the morning, the first part of this plan, this daily plan. You want to get into a peak emotional state. Peak means top.",
+      "For example, the top of a mountain, when we talk about a top of a mountain, the very top we call the peak. So we’re saying a peak emotional state means a top emotional state or top emotional feeling. It means you want to feel great. Not just good, you want to feel really great.",
+      "That’s the first thing you need to do before you listen to any English lessons. Before you study you want to first be sure that you feel great. How can you do it? Well, it’s really easy. I recommend, for example, using music. And I actually do this myself in the morning, most mornings.",
+      "I will put on some great, exciting music that I love, jump around, act like a crazy person, and get myself feeling energetic and happy. Do that first before you listen. So move your body, smile. We’re going to talk about this more in detail in later lessons. But just for now, every morning when you get up first put on some music.",
+      "Some energetic, happy music that you like, smile, move around. Do that for maybe 5 minutes, maybe 10 minutes. Then when you’re feeling really great, your body is moving, you feel like you have energy, you’re happy, then start your English lessons. The first thing you want to listen to is the main article, the main audio.",
+      "So the first thing is listen to the main talk. And you can read this as well the first time if you cannot understand easily, you can read the transcript and listen at the same time. Do this perhaps two times per day, starting with the main story and reading. Use a dictionary if you need to to look up new words.",
+      "Next, listen to the vocabulary. So in the vocabulary again I will discuss the meanings of some of the difficult words that I used. And again, you can read the transcript of that vocabulary lesson. There’s always a transcript you can read if you can’t understand my speaking, if I’m too fast, then read at the same time. It’s okay.",
+      "Next, you’ll listen to the mini-story and the mini-story is the most important lesson. The mini-story is designed for deep learning. In the mini-story I am going to ask a lot of very easy questions while I tell a story. In fact I really ask the story, I don’t tell the story. Why am I doing this?",
+      "Students ask me “Why are the questions so easy?” Well, the questions are supposed to be easy because I want you to answer fast and automatically. I want you to train your brain, teach your brain to answer very quickly. I don’t want you to translate from your language to English or from English to your language.",
+      "It’s a bad habit, it will make you speak very slowly. I want you to just answer quickly, automatically, very fast. So that’s why I ask so many questions, like questions again, again, again, again, again…very easy. Your job…answer the questions quickly. You can answer with only one or two words, its okay. Short answers are fine.",
+      "You don’t need to answer with a big, long sentence. In fact, short is better.",
+      "So that’s the order that you’re going to follow. You’re going to listen to the main article first, one or two times. You can read as well if you need to. Then you’re going to listen to the vocabulary one or two times, each day. And then finally you’re going to listen to the mini-story, one or two times or more.",
+      "You can also read the transcript for the mini-story in the beginning. Now another important point, when you’re listening to these lessons do not study them. Don’t struggle to memorize. Just relax and listen. If necessary, you can read as well, as I said if you need to. But relax, you’re not trying to memorize anything.",
+      "Just let it come in. Let the English come into your ears and into your eyes. Don’t think about it. Don’t analyze it. Do not think about grammar. The mini-stories will help you learn grammar subconsciously, so don’t interrupt that process by trying to analyze it. Don’t think about grammar rules.",
+      "You want to learn like a native speaker and that means you’re going to learn the patterns of English in these mini-stories. You might not be able to explain them, just like native speakers cannot explain grammar rules. But that’s okay, you want to be able to use them correctly. That’s the important part. So again, you want to relax.",
+      "Do not study. Do not think about grammar rules. Do not try to translate. Just relax and listen. That’s why we call it Effortless English. It should be effortless. You should be smiling, relaxed and just listening. Now another important point. You want to move your body while you’re listening to the lessons.",
+      "This will keep your energy high. So, what do I mean by that? Well, a really easy way to do this is just to walk. You’ve got an iPod, you’ve got your earphones in, listen to the lessons while you go for a walk. You can do two things at one time.",
+      "You exercise, you improve your body and you listen to English lessons and improve your mind at the same time. If you’re sitting in a train, then maybe you just stretch your body a little bit. If you’re in your car, you can move a little bit. You can move around in your seat. If you’re at your house you can go crazy, you can jump around.",
+      "You can exercise very strongly. You can go to the gym. Do something with your body while you’re listening to the lessons. It will keep your energy high. It will keep you feeling better. You will actually learn faster by doing that. And finally, a very, very important point. You need to use our deep learning method.",
+      "That means you listen to each lesson set for one week or more. So for example, this introduction has got three parts. There is a main lecture, a main talk. There is a vocabulary section. And there is a mini-story. Well those three, you want to listen to those three every day for seven days. You want that repetition.",
+      "Repetition is very important. You want it to go deeply into your brain. Just one time is not enough. Even if it is very easy for you, if you listen you understand everything, it’s simple, still follow the deep learning method. Still listen to the whole set for one week or",
+      "more. On the other hand, if it seems very difficult, listen longer. Two weeks is okay. Doesn’t matter, the point is you want it to go very deeply into your brain which means you want it to be almost effortless. It’s going to just go into your brain and eventually just come out without you thinking and that requires deep learning.",
+      "It requires a lot of repetition. So that’s kind of your basic plan for using these lessons. Again, first you’re going to get into a peak state. You’re going to get excited. You’re going to jump around. You’re going to listen to music. You’re going to feel great.",
+      "Then you’re going to listen to the main lecture, the main audio, one or two times. Then you’re going to listen to the vocabulary, one or two times. Then you’re going to listen to the mini-story, one, two, three, four, five times…every day. And remember, relax, feel good and enjoy the lessons while you listen.",
+      "Okay, that is it for our main section for this introduction. Next is the vocabulary."
+    ],
+    "vocab": [
+      "Hello, welcome to the vocabulary for the “Introduction to Power” lessons. Let’s start.",
+      "Okay, let’s talk about our first word is linguistic, linguistic. Linguistic means related to language or about language. It’s an adjective. So linguistic factors, I mentioned linguistic factors. A factor is an element, for example, it’s a piece of something.",
+      "So linguistic factors means elements about language, elements related to language. Or even more simply, things, things related to language. And then in this talk I talk about non-linguistic factors. Of course, non- means not, it’s negative. So non-linguistic factors means things not about language. Things not related to language.",
+      "So in the talk I’m talking about, for example, two different things. One are emotional factors, emotional elements, emotional things. And then the other is linguistic factors. So, for example, study method, that’s a linguistic factor. It’s connected to language learning very directly. It’s a linguistic factor.",
+      "It’s a language related thing. On the other hand emotion is not directly related, is not directly connected to language learning. At least most people don’t think so, so it’s a non-linguistic factor. Alright great, so that’s linguistic and factor. Let’s talk about next subconscious. I mentioned the word subconscious.",
+      "Sometimes you hear the word unconscious is another synonym for that but subconscious means something that is under your normal thinking. So, for example, if you’re quite hungry, suddenly you find that you’re hungry but you’re busy, you’re thinking about something else. You’re reading a book.",
+      "But kind of under your thinking you have this idea “I’m hungry, I’m hungry, I’m hungry.” It’s not a conscious thought, it’s not a strong direct thought. It’s not at the top of your brain. Sub means under or below. So it’s kind of in the bottom, the back of your brain, this sort of quiet, small voice, or this quiet, small thought.",
+      "So that’s subconscious. So I mention that you want to engage your subconscious. Engage means to use. To use, or to, it’s like turn on. So to turn on your subconscious, to use your subconscious, to engage your subconscious. It means you want to use those emotions that are in the back of your brain or the bottom of your brain.",
+      "You want to use that quiet voice. You want to use those strong emotions that are kind of in the back because they are very",
+      "powerful. So engage your subconscious means use those. It means choose to use them in a powerful way. I also talk about engaging your physiology, physiology. Physiology means related to the body. It’s related to the word physical, alright?",
+      "Physical means body, something that is connected to your body and in your body and not your brain, not your mind, it’s body. And physiology again is a similar idea. Physiology means what is happening in your body. It’s the systems in your body. It’s the parts of your body. So again, engage your physiology means use your body, right?",
+      "Engage is turn on or use. Physiology, body. So engage your physiology, engage your body. Use the parts of your body. Use the systems in your body. That’s what that means. Alright, great. Next, let’s talk about the word peak. So peak I mentioned in the main story. Peak means top. Now, often we use this to describe, for example, a mountain.",
+      "The very top of a mountain we say it’s the peak, the mountain peak, the peak of the mountain. The very top part. We also use it in the phrase “peak performance”. Of course performance means performing or doing something. Peak means top, so it means doing something in a top way, in the very best way.",
+      "Sometimes we use this with sports, say he is a peak performance athlete. He is a top-performing athlete. He is the very best performing athlete. So again that is peak meaning top, very top, or sometimes meaning best. Okay so peak meaning top. So emotional state, I talk about peak emotional state.",
+      "So top or best, peak, emotional, of course, feelings, and state. State means kind of your situation or experience. So an emotional state means it’s the general emotional feeling you have right now. So I might say I’m in an angry emotional state. That means, it’s kind of a long-term idea, it means generally for some time I feel angry.",
+      "Now this is a very formal, kind of academic, or intellectual way to say “I’m angry.” Okay? So this is a little bit more formal kind of English. But again, an emotional state, it’s a general emotional feeling and it has a little bit of the idea of a long time.",
+      "So a peak emotional state, a top or best emotional state, it means feeling very good for a while. Right, say I am in a peak emotional state. I’m feeling very good for some time. Okay, now that is the vocabulary lesson for the Introduction to Power.",
+      "Of course, if there are other words you did not understand, you can use the text, use the transcript and a dictionary and just find the word in your dictionary and write it on the text and you can learn more vocabulary that way.",
+      "It’s very difficult for me to guess exactly which words you know and which words you don’t know, because every student is different. So I will cover some of the main words, the words I think are quite important. But if there are other words you don’t know, just use the text and a dictionary and write the meaning on the text, that’s fine.",
+      "Okay, I will see you next for the mini-story. Thanks."
+    ],
+    "sixmin": [
+      "Rob: Hello and welcome to 6 Minute English – the show that brings you an interesting topic, authentic listening practice and vocabulary to help you improve your language skills. I'm Rob…",
+      "Neil: Watashi no namae wa Neil desu. And that means 'my name's Neil'.",
+      "Rob: So Neil, here's a question for you – can you speak any languages other than English of course? I think you can!",
+      "Neil: Un poco de español that means a little bit of Spanish. Some Japanese, which I tried at the beginning and also a bit of Czech language - Dobrý den, jak se máš?",
+      "Rob: Very impressive. So what tips can you give for learning to speak another language?",
+      "Neil: Well, practise, practise, practise – and don't be afraid of making mistakes as I no doubt have.",
+      "Rob: Of course. Well my aim this year is to master the Spanish language. Master means to learn thoroughly.",
+      "Neil: Muy bien! Well you're not alone. A survey by the British Council found learning a language is a new year's resolution for about one in five Britons in 2018. So learning Spanish is a good start Rob but do you know approximately how many languages there are in the world altogether? Are there… a) 70 b) 700 c) 7,000",
+      "Rob: Well I know there are many but surely not 7,000 so I'm going to say b) 700 – but don't expect me to learn all of them.",
+      "Neil: I won't Rob. But I will give you the answer later. So, we all know learning another language is a good thing – it brings us many benefits.",
+      "Rob: Yes, we can communicate with people from other countries and when we're travelling we can understand what signs and notices say. So we don't get lost.",
+      "Neil: That's right – but many scientists also believe that knowledge of another language can boost your brainpower. A study of monolingual and bilingual speakers suggests speaking two languages can help slow down the brain's decline with age.",
+      "Rob: All good reasons. But Neil, learning another language is hard. It would take me years and years to become fluent in say, Mandarin – by fluent I mean speak very well, without difficulty.",
+      "Neil: Well this depends on your mother tongue. In general, the closer the second language is to the learner's native tongue and culture in terms of vocabulary, sounds or sentence structure - the easier it will be to learn.",
+      "Rob: But whatever the language, there is so much vocabulary to learn – you know, thousands and thousands of words.",
+      "Neil: Maybe not Rob. Professor Stuart Webb, a linguist from the University of Western Ontario, may be able to help you. He spoke to BBC Radio 4's More or Less programme and explained that you don't need to do that… Professor Stuart Webb, linguist, University of Western Ontario For language learners in a foreign language setting – so for example if you were learning French in Britain or English in Japan, students may often really struggle to learn more than 2,000, 3,000 words after many years of study. So for example, there was study in Taiwan recently that showed that after nine years of study about half of the students had still failed to learn the most frequent 1,000 words. Now they knew lower frequency words but they hadn't mastered those most important words.",
+      "Neil: So Rob, don't waste your time trying to learn every single word. Professor Webb spoke there about research that showed students knew lower frequency words but weren't learning enough high frequency words.",
+      "Rob: Right, and frequency here means the number of times something happens – so the important words to learn are the high frequency ones – and how many are there exactly?",
+      "Neil: Here's Professor Stuart Webb again… Professor Stuart Webb, linguist, University of Western Ontario For example, with English, I would suggest if you learn the 800 most frequent lemmas – which is a word and its inflections – that will account for about 75 per cent of all of the English language. So that learning those 800 words first will provide the foundation for which you may be able to learn the lower frequency words.",
+      "Rob: Fascinating stuff. And good to know I just need to learn about 800 words – or what he calls lemmas.",
+      "Neil: Yes a lemma is the simplest form or base form of a word. And the inflection here refers to how the base word is changed according to its use in a sentence. Knowing these things give you a foundation – the basics from which you language learning will develop. Simple!",
+      "Rob: Thank goodness I am learning just one new language!",
+      "Neil: But how many languages could you potentially be learning Rob? Earlier I asked you, approximately how many languages there are in the world altogether? Are there… a) 70 b) 700 c) 7,000",
+      "Rob: And I said 700. Was I right?",
+      "Neil: No Rob, you were wrong. There are around 7,000 recognised languages in the world but UNESCO has identified 2,500 languages which it claims are at risk of extinction.",
+      "Rob: A sobering thought Neil. Now shall we remind ourselves of some of the English vocabulary we've heard today. Starting with master.",
+      "Neil: To master a new skill, in this context, means to learn thoroughly or learn well. \"Rob hopes to master Spanish before he starts a new job in Madrid.\"",
+      "Rob: That's news to me Neil! But it would be good to be fluent in Spanish – or any language – or to speak it fluently – that's speaking it well and without difficulty.",
+      "Neil: Now our next word was frequency. Here we are referring to high and low frequency words – so it means how often they occur. Examples of a high frequency word are 'it', 'the' and 'and'.",
+      "Rob: And our next word is inflections. These are the changes to the basic form of words according to their function in a sentence. Such as adding an 's' to the end of a word to make it plural.",
+      "Neil: And don't forget lemma which is the simplest form or base form of a word before an inflection is added.",
+      "Rob: And finally foundation which means the basics your learning grows from.",
+      "Neil: That just leaves me to remind you that you can learn English with us at for now. Na shledanou. Hasta luego. Ja-ne.",
+      "Rob: And in English, goodbye.",
+      "Neil: Goodbye."
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who had to play Tiger Woods in golf in just one month?",
+        "a": "Well, Sophie. Sophie had to play Tiger Woods in golf in just one month."
+      },
+      {
+        "q": "What kind of woman was Sophie?",
+        "a": "Sophie was a beautiful woman."
+      },
+      {
+        "q": "Who did she have to play?",
+        "a": "Tiger Woods, she had to play Tiger Woods."
+      },
+      {
+        "q": "Who had to play Tiger Woods?",
+        "a": "Sophie, Sophie had to play Tiger Woods."
+      },
+      {
+        "q": "In tennis, right?",
+        "a": "No, no, no, not in tennis. In golf, Sophie had to play Tiger Woods in golf."
+      },
+      {
+        "q": "When did Sophie have to play Tiger Woods in golf?",
+        "a": "In one month, Sophie had to play Tiger Woods in golf in just one month."
+      },
+      {
+        "q": "Was Sophie worried or was Sophie happy?",
+        "a": "Sophie was worried."
+      },
+      {
+        "q": "Why was she worried?",
+        "a": "Because Tiger Woods is the number one golfer in the world and Sophie was not good."
+      },
+      {
+        "q": "Was Sophie a good golfer?",
+        "a": "No, no, no, no, no. Sophie was a terrible golfer in fact."
+      },
+      {
+        "q": "Was Tiger Woods a good golfer?",
+        "a": "Oh yes, of course. Tiger Woods was a great golfer. And he still is a great golfer."
+      },
+      {
+        "q": "Where did she go?",
+        "a": "Japan, Sophie went to Japan."
+      },
+      {
+        "q": "Who went to Japan?",
+        "a": "That’s right, Sophie. Sophie went to Japan."
+      },
+      {
+        "q": "Why did she go to Japan?",
+        "a": "To find a golf coach, of course."
+      },
+      {
+        "q": "Where did she go to find a golf coach?",
+        "a": "To Japan, she went to Japan to find a golf coach."
+      },
+      {
+        "q": "To find what?",
+        "a": "A golf coach, she went to Japan to find a golf coach."
+      },
+      {
+        "q": "What was the coach’s name?",
+        "a": "Yoda, the coach’s name was Yoda."
+      },
+      {
+        "q": "Was the coach’s name Bob?",
+        "a": "No, the coach’s name was not Bob. The coach’s name was Yoda."
+      },
+      {
+        "q": "Whose name was Yoda?",
+        "a": "Well, the coach’s name was Yoda."
+      },
+      {
+        "q": "What was Yoda?",
+        "a": "Yoda was a golf coach."
+      },
+      {
+        "q": "What did Yoda say?",
+        "a": "He said “If you use your subconscious, you will become a golf master.”"
+      },
+      {
+        "q": "What did Sophie need to use?",
+        "a": "Her subconscious, Yoda said “If you use your subconscious, you will become a golf master.”"
+      },
+      {
+        "q": "So if she used her subconscious, what would she become?",
+        "a": "A golf master, he said “If you use your subconscious, you will become a golf master.”"
+      },
+      {
+        "q": "Would she become a tennis master or would she become a golf master if she used her subconscious?",
+        "a": "Well, if she used her subconscious, of course she would become a golf master."
+      },
+      {
+        "q": "What did she have to use?",
+        "a": "Her subconscious, she had to use her subconscious to become a golf master."
+      },
+      {
+        "q": "Who said this to Sophie?",
+        "a": "Yoda, Yoda said this to Sophie."
+      },
+      {
+        "q": "What did he say?",
+        "a": "He said “If you use your subconscious, you will become a golf master.”"
+      },
+      {
+        "q": "Did Sophie become a golf master?",
+        "a": "No, she didn’t. She did not."
+      },
+      {
+        "q": "Did Sophie try to use her subconscious?",
+        "a": "Yeah, she did. She tried to use her subconscious. She closed her eyes and tried to use her subconscious."
+      },
+      {
+        "q": "When she tried to use her subconscious, was she successful?",
+        "a": "No, she wasn’t. She was not successful when she tried to use her subconscious. Every time she hit the ball it went into the woods, into the trees. Poor Sophie."
+      },
+      {
+        "q": "Who went to Hawaii? Yoda?",
+        "a": "Not Yoda, Sophie. Sophie went to Hawaii."
+      },
+      {
+        "q": "Why did she go?",
+        "a": "To find another golf coach."
+      },
+      {
+        "q": "Did Tiger Woods go to Hawaii?",
+        "a": "No, no, no. Tiger Woods didn’t go to Hawaii."
+      },
+      {
+        "q": "Where did Tiger Woods go?",
+        "a": "South Carolina."
+      },
+      {
+        "q": "Where did Sophie go?",
+        "a": "She went to Hawaii."
+      },
+      {
+        "q": "Why did Tiger Woods go to South Carolina?",
+        "a": "Well, to find a coach."
+      },
+      {
+        "q": "Did Tiger Woods close his eyes when he played golf?",
+        "a": "No, no, no. He didn’t try to use his subconscious. Tiger Woods ran 30 miles every day. He did not try to use his subconscious. Sophie had tried to use her subconscious. Tiger Woods did not."
+      },
+      {
+        "q": "What kind of golf coach did she find?",
+        "a": "A surfing golf coach."
+      },
+      {
+        "q": "Who found a surfing golf coach?",
+        "a": "Sophie, Sophie found a surfing golf coach."
+      },
+      {
+        "q": "What did she have to do?",
+        "a": "She had to practice golf while surfing."
+      },
+      {
+        "q": "Did she have to practice golf and surfing at the same time or at different times?",
+        "a": "Well, at the same time. She had to practice golf while surfing, at the same time as surfing."
+      },
+      {
+        "q": "Who was trying to practice golf while surfing? Tiger Woods?",
+        "a": "No, not Tiger Woods, Sophie. Sophie was trying to surf while playing golf. She was trying to play golf while surfing."
+      },
+      {
+        "q": "Was she successful?",
+        "a": "No, unfortunately not."
+      },
+      {
+        "q": "Was Sophie successful practicing golf and surfing?",
+        "a": "No, she wasn’t."
+      },
+      {
+        "q": "Was Tiger Woods still a terrible golfer?",
+        "a": "No, of course not, Tiger Woods was still a great golfer, the best golfer."
+      },
+      {
+        "q": "So who was still a terrible golfer?",
+        "a": "Sophie, Sophie was still a terrible golfer."
+      },
+      {
+        "q": "Why did she go to San Diego?",
+        "a": "Well, of course, she went to San Diego to find another golf coach."
+      },
+      {
+        "q": "Who was Tony Robbins?",
+        "a": "Tony Robbins was a peak performance coach."
+      },
+      {
+        "q": "Was he a peak performance coach? Or did he teach people to do things badly?",
+        "a": "Well, of course, he was a peak performance coach. He taught people to do things very well."
+      },
+      {
+        "q": "Who was a peak performance coach?",
+        "a": "Tony Robbins, Tony Robbins was a peak performance coach."
+      },
+      {
+        "q": "Was Sophie a peak performance coach?",
+        "a": "No, she wasn’t. Sophie was a terrible golfer. Tony Robbins was a peak performance coach."
+      },
+      {
+        "q": "Did Tony want her to use her mind, her brain?",
+        "a": "No, no, no. He said “If you engage your physiology, you will be a master.” Your body."
+      },
+      {
+        "q": "Did he want her to use her body very well or did he want her to use her mind, her brain very well?",
+        "a": "He wanted her to use her body, her physiology. He said “If you engage your physiology,” if you use your body, “you will be a master.”"
+      },
+      {
+        "q": "Who wanted Sophie to engage her physiology?",
+        "a": "Tony Robbins, Tony Robbins wanted Sophie to engage her physiology. Tony Robbins wanted Sophie to use her body correctly in a peak performance way."
+      },
+      {
+        "q": "Did he teach her to feel bad?",
+        "a": "No, no, no. He taught her the opposite. He taught her to get into a peak emotional state. He taught her to feel really great."
+      },
+      {
+        "q": "Was she in a peak emotional state or a bad emotional state?",
+        "a": "She was in a peak emotional state, a top emotional state. She felt top, great, wonderful, best."
+      },
+      {
+        "q": "Who was in a peak emotional state?",
+        "a": "Sophie, Sophie was in a peak emotional state."
+      },
+      {
+        "q": "Did Sophie practice golf while she was in a peak emotional state?",
+        "a": "Yes, exactly. Sophie practiced golf while she was in a peak emotional state."
+      },
+      {
+        "q": "Did she practice golf at the same time that she was in a peak emotional state?",
+        "a": "Yes, at the same time. She practiced golf while she was in a peak emotional state."
+      },
+      {
+        "q": "How much money did Tiger give Sophie?",
+        "a": "$85 million, he wrote a check for $85 million. He gave Sophie $85 million."
+      },
+      {
+        "q": "How much did Sophie earn?",
+        "a": "She earned $85 million."
+      },
+      {
+        "q": "Did Tiger Woods earn $85 million or lose $85 million?",
+        "a": "Tiger lost $85 million."
+      },
+      {
+        "q": "Was Tiger happy?",
+        "a": "No, he wasn’t."
+      },
+      {
+        "q": "Was Tiger in a peak emotional state?",
+        "a": "No, Tiger was in a terrible emotional state. He was sad. He was depressed. He was in a very bad emotional state."
+      },
+      {
+        "q": "How about Sophie? Was Sophie in a great, top, peak emotional state?",
+        "a": "Oh yeah, she was in a top, great, fantastic, peak emotional state. She was happy, she was excited and now she was rich."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "linguistic factors",
+      "pos": "phrase",
+      "uz": "til bilan bogʻliq omillar",
+      "defEn": "elements related to language itself",
+      "example": "Grammar and vocabulary are linguistic factors."
+    },
+    {
+      "en": "non-linguistic factors",
+      "pos": "phrase",
+      "uz": "til bilan bogʻliq boʻlmagan omillar (his, holat)",
+      "defEn": "things not about language, e.g. emotion and energy",
+      "example": "Your emotional state is a non-linguistic factor."
+    },
+    {
+      "en": "subconscious",
+      "pos": "n",
+      "uz": "ong osti (miyaning ichki, avtomatik qismi)",
+      "defEn": "the part of the mind below active thought",
+      "example": "You want to engage your subconscious."
+    },
+    {
+      "en": "to engage (something)",
+      "pos": "v",
+      "uz": "ishga solmoq, jalb qilmoq, foydalanmoq",
+      "defEn": "to turn on and use something",
+      "example": "Engage your emotions when you study."
+    },
+    {
+      "en": "physiology",
+      "pos": "n",
+      "uz": "tananing holati va harakati (fiziologiya)",
+      "defEn": "what is happening in your body",
+      "example": "Strong physiology means standing up straight and moving."
+    },
+    {
+      "en": "peak",
+      "pos": "adj",
+      "uz": "eng yuqori, eng zoʻr (choʻqqi)",
+      "defEn": "the top or highest point",
+      "example": "Study in a peak emotional state."
+    },
+    {
+      "en": "peak performance",
+      "pos": "phrase",
+      "uz": "eng yuqori natija, choʻqqi darajadagi ish",
+      "defEn": "doing something at your very best",
+      "example": "Athletes train for peak performance."
+    },
+    {
+      "en": "emotional state",
+      "pos": "phrase",
+      "uz": "hissiy holat (kayfiyat)",
+      "defEn": "the general feeling you have for a while",
+      "example": "I try to keep a positive emotional state."
+    },
+    {
+      "en": "to master (a skill)",
+      "pos": "v",
+      "uz": "puxta egallamoq, mukammal oʻrganmoq",
+      "defEn": "to learn something thoroughly",
+      "example": "You can master English with daily practice."
+    }
+  ],
+  "englishpod": {
+    "id": "0263",
+    "title": "Global View – Nationalities",
+    "titleUz": "Global koʻrinish — Millatlar",
+    "warmup": {
+      "uz": "Bu suhbatda ikki talaba sinfdagi turli millat vakillari haqida gaplashadi. Kirish darsining gʻoyasiga mos: ingliz tili — butun dunyoni bogʻlaydigan til. Sizningcha, koʻp millatli sinfda oʻqish foydalimi yoki qiyinmi?",
+      "en": "In this dialogue two students talk about the many nationalities in their classes. It fits the intro theme: English is the language that connects the whole world. Do you think a multinational class is helpful or hard?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0263/dg.mp3",
+        "durationSec": 103,
+        "bytes": 855856
+      },
+      "pr": {
+        "path": "englishpod/0263/pr.mp3",
+        "durationSec": 907,
+        "bytes": 14546315
+      },
+      "rv": {
+        "path": "englishpod/0263/rv.mp3",
+        "durationSec": 457,
+        "bytes": 7354432
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Hey! How was your first day of class? I’m in level two and I’m loving my class this semester! It’s great being in a class of international students!"
+      },
+      {
+        "speaker": "B",
+        "en": "Mine was ok, except that no one in my class speaks English. I guess it will force me to converse in Chinese more in class so at least I should improve a lot this semester."
+      },
+      {
+        "speaker": "A",
+        "en": "That’s both fortunate and unfortunate. It’s the United Nations in my class! We have people from all over the world! There are three Germans, a Pole, a Scottish, two French, an American, a Brazilian, a Chilean, a New Zealander, though he prefers to call himself a Kiwi. Who else do we have? Oh, we also have a Moroccan, a Togolese, a Pakistani, and two Indonesians!"
+      },
+      {
+        "speaker": "B",
+        "en": "That’s quite the array of nationalities. Everyone in my class is from Asia, except me. There are a few South Koreans, several Japanese, Malaysian, Thai, Singaporean, Filipino, Kazakhstani, and one Russian."
+      },
+      {
+        "speaker": "A",
+        "en": "Well, I think you’re pretty lucky actually. You’ll have the opportunity to learn so much about Asian culture."
+      },
+      {
+        "speaker": "B",
+        "en": "I guess so, but I think it’s going to be hard to relate to my classmates, especially with the language barrier. I think I might change classes."
+      },
+      {
+        "speaker": "A",
+        "en": "Don’t! Stay the course! Your spoken Chinese will be eternally grateful. I bet you it will even surpass mine with all that practice."
+      },
+      {
+        "speaker": "B",
+        "en": "I highly doubt it. Your girlfriend is Chinese."
+      },
+      {
+        "speaker": "A",
+        "en": "Well, there is that, yes."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "the United Nations",
+        "uz": "Birlashgan Millatlar Tashkiloti (bu yerda: koʻp millat vakili)",
+        "defEn": "an international political organization; here, a mix of many nationalities"
+      },
+      {
+        "en": "an array of",
+        "uz": "katta toʻplam, xilma-xillik",
+        "defEn": "a large group or variety of people or things"
+      },
+      {
+        "en": "opportunity",
+        "uz": "imkoniyat",
+        "defEn": "a chance to do something"
+      },
+      {
+        "en": "language barrier",
+        "uz": "til toʻsigʻi (til bilmaslikdan kelib chiqadigan qiyinchilik)",
+        "defEn": "difficulty communicating because people speak different languages"
+      },
+      {
+        "en": "to stay the course",
+        "uz": "boshlagan ishni oxirigacha davom ettirmoq",
+        "defEn": "to keep going until the end; to persevere"
+      },
+      {
+        "en": "to relate to (someone)",
+        "uz": "til topishmoq, umumiylik topmoq",
+        "defEn": "to understand or connect with someone"
+      },
+      {
+        "en": "to surpass",
+        "uz": "oʻzib ketmoq, ortda qoldirmoq",
+        "defEn": "to become better than something or someone"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180315",
+    "title": "How do you learn to speak a language?",
+    "titleUz": "Til gapirishni qanday oʻrganamiz?",
+    "audio": {
+      "main": {
+        "path": "sixmin/180315/audio.mp3",
+        "durationSec": 384,
+        "bytes": 15366720,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many languages are there in the world altogether?",
+        "qUz": "Dunyoda hammasi boʻlib nechta til bor?",
+        "options": [
+          "70",
+          "700",
+          "7,000"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 7,000. Rob b) 700 dedi va xato qildi. Dunyoda taxminan 7,000 ta til bor, ammo UNESCO ularning 2,500 tasini yoʻqolib ketish xavfida deb belgilagan."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "to master (a skill)",
+        "uz": "puxta egallamoq, mukammal oʻrganmoq",
+        "defEn": "to learn something thoroughly or well"
+      },
+      {
+        "en": "fluently",
+        "uz": "ravon, bemalol (gapirish)",
+        "defEn": "speaking easily and without difficulty"
+      },
+      {
+        "en": "frequency",
+        "uz": "chastota, tez-tez uchrashi",
+        "defEn": "how often something happens or occurs"
+      },
+      {
+        "en": "inflections",
+        "uz": "soʻz oxiridagi oʻzgarishlar (masalan koʻplik -s)",
+        "defEn": "changes to the basic form of a word according to its function"
+      },
+      {
+        "en": "a lemma",
+        "uz": "soʻzning asosiy (lugʻat) shakli",
+        "defEn": "the simplest, base form of a word before an inflection is added"
+      },
+      {
+        "en": "foundation",
+        "uz": "poydevor, asos",
+        "defEn": "the basics that your learning grows from"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to learn a language: tips for beginners",
+      "channel": "BBC Learning English"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Describe your typical day. What do you usually do in the morning, afternoon and evening? How often do you study English?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: hozirgi oddiy zamon (I get up…, she works…) va chastota ravishlari (always / usually / sometimes / never).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/01/main.mp3",
+      "bytes": 11121642
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/01/main.pdf",
+      "bytes": 57094
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/01/vocab.mp3",
+      "bytes": 6088289
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/01/ministory.mp3",
+      "bytes": 14668871
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0263/dg.mp3",
+      "bytes": 855856
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0263/transcript.pdf",
+      "bytes": 89859
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180315/audio.mp3",
+      "bytes": 15366720
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180315/transcript.pdf",
+      "bytes": 237225
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

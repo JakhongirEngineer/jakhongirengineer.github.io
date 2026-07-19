@@ -1,0 +1,167 @@
+{
+  "slug": "superior-man",
+  "title": "Superior Man",
+  "titleUz": "Ustun inson — qoʻrquvdan oʻtish",
+  "level": "B1",
+  "tags": ["mindset", "fear", "purpose", "future-forms", "goals"],
+  "intro": {
+    "uz": "David Deidaning “The Way of the Superior Man” kitobi asosida: buyuk inson boʻlish — qoʻrquvni tan olib, uning ustidan oʻtishdir. Har bir kuchli odam qoʻrqadi, lekin oʻz chegarasidan (edge) oʻtib, orzusi tomon harakat qiladi. Bu haftaning ikki grammatik mavzusi: maqsad infinitivi (to / in order to / so that — har ishni SABAB bilan qilish) va kelasi zamon shakllari (will / going to / hozirgi davomiy — rejalarni aytish). Kristin haqidagi POV hikoyada kelajak shakllarini bevosita eshitasiz.",
+    "en": "Based on David Deida's “The Way of the Superior Man”: becoming a great person means admitting your fear and going past it. Every strong person is afraid, but they step past their edge toward their dream. This week's two grammar topics: the infinitive of purpose (to / in order to / so that — doing everything FOR a reason) and the future forms (will / going to / present continuous — stating your plans). You'll hear the future forms directly in the POV story about Kristin."
+  },
+  "canDo": {
+    "uz": "Dars oxirida har bir harakatingizning sababini “to / in order to / so that” bilan toʻxtamasdan ayta olasiz va kelajak rejalaringizni toʻgʻri shaklda (I'm going to… / I'll… / I'm …ing) tasvirlab bera olasiz.",
+    "en": "By the end you can state the reason for each action with “to / in order to / so that” without pausing, and describe your future plans with the right form (I'm going to… / I'll… / I'm …ing)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "infinitive-of-purpose",
+      "titleUz": "Maqsad infinitivi: to / in order to / so that",
+      "titleEn": "Infinitive of purpose",
+      "bandLifter": "IELTS Speaking & Writing — explain WHY you do something (purpose linkers)",
+      "cefrCanDo": "B1→B2: I can express purpose with to / in order to / so that",
+      "contrastUz": "Oʻzbekcha “-ish uchun” / “maqsadida” doim “uchun” soʻzini oʻz ichiga oladi, shuning uchun oʻquvchilar inglizchada ham “for” ishlatib yuboradi. Ammo maqsad feʼl bilan aytilsa, ingliz tili “for + feʼl” EMAS, “to + feʼl” ishlatadi: “pul topish uchun” = “to earn money” (❗ “for earn” emas). “for” faqat ot bilan keladi: “for money”.",
+      "errorFixUz": "❌ I bought a rocket for go to the moon. I study for improve. ✅ I bought a rocket to go to the moon. I study to improve. Maqsad feʼl bilan → “to + feʼl” (yoki “in order to”); “for” esa faqat ot bilan (for money).",
+      "examples": [
+        { "en": "She bought a rocket to go to the moon.", "uz": "U oyga borish uchun raketa sotib oldi." },
+        { "en": "He left his safe job in order to live his dream.", "uz": "U orzusi bilan yashash uchun tinch ishini tark etdi." },
+        { "en": "Speak slowly so that everyone can understand you.", "uz": "Hamma tushunishi uchun sekin gapiring." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "She started a business ___ money.",
+          "options": ["to make", "for make", "for making"],
+          "answer": "to make",
+          "hintUz": "maqsad feʼl bilan → to + feʼl; “for” faqat ot bilan"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He faces his fear ___ live his dream.",
+          "options": ["in order to", "for to", "for"],
+          "answer": "in order to",
+          "hintUz": "rasmiyroq maqsad shakli: in order to + feʼl"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Speak slowly ___ everyone can understand.",
+          "options": ["so that", "to", "for that"],
+          "answer": "so that",
+          "hintUz": "egasi boshqa / modal (can) kerak → so that + ega + feʼl"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): bugun qilgan uch ishingizni sababi bilan — “I … to … . I … in order to … . I … so that … .”",
+          "answer": null,
+          "hintUz": "maqsad feʼl bilan → to / in order to; egasi boshqa boʻlsa → so that"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "future-forms",
+      "titleUz": "Kelasi zamon shakllari: will / going to / hozirgi davomiy",
+      "titleEn": "Future forms — will / going to / present continuous",
+      "bandLifter": "IELTS Part 1 & 2 — talk about your plans and predictions naturally",
+      "cefrCanDo": "B1: I can choose will / going to / present continuous for the right meaning",
+      "contrastUz": "Oʻzbek tilida kelajak asosan bitta shakl bilan beriladi (qilaman, boraman), shuning uchun oʻquvchilar hamma narsaga “will” ishlatadi. Ingliz tili esa maʼnoga qarab tanlaydi: oldindan qaror qilingan reja → going to; vaqti belgilangan uchrashuv → hozirgi davomiy (I'm meeting…); shu ondagi qaror, vaʼda yoki bashorat → will.",
+      "errorFixUz": "❌ I will visit my family this weekend, I already bought the tickets. ✅ I'm going to visit / I'm visiting my family this weekend. Reja oldindan tayyor (chipta olingan) → going to / present continuous; “will” esa shu ondagi qaror va bashorat uchun.",
+      "examples": [
+        { "en": "I'm going to start my own business.", "uz": "Oʻz biznesimni boshlamoqchiman (rejam bor)." },
+        { "en": "Don't worry — I'll help you.", "uz": "Xavotir olmang — yordam beraman (shu ondagi qaror)." },
+        { "en": "I'm meeting my mentor tomorrow at five.", "uz": "Ertaga soat beshda ustozim bilan uchrashaman (belgilangan uchrashuv)." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I've decided — I ___ start my own business next year.",
+          "options": ["am going to", "will", "meet"],
+          "answer": "am going to",
+          "hintUz": "oldindan qaror qilingan reja → am going to"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The phone is ringing. Don't move — I ___ answer it.",
+          "options": ["'ll", "'m going to", "answer"],
+          "answer": "'ll",
+          "hintUz": "shu ondagi qaror → will ('ll)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ my mentor tomorrow at five.",
+          "options": ["'m meeting", "will meeting", "meet"],
+          "answer": "'m meeting",
+          "hintUz": "vaqti belgilangan uchrashuv → hozirgi davomiy (am/is/are + -ing)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: kelasi yilingiz haqida bir reja va bir vaʼda — “Next year I'm going to … . Whatever happens, I'll … .”",
+          "answer": null,
+          "hintUz": "reja → going to / present continuous; vaʼda yoki bashorat → will"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "an intimate relationship", "pos": "phrase", "uz": "yaqin, samimiy munosabat (eng yaqin insonlar bilan)", "defEn": "a very close, personal relationship", "example": "Pick an area of your life — perhaps your intimate relationship." },
+    { "en": "spiritual", "pos": "adj", "uz": "maʼnaviy, ruhiy (shaxsiy eʼtiqod, tashkiliy dinga bogʻliq emas)", "defEn": "about personal belief and inner experience, not organized religion", "example": "She wanted to go to the moon for spiritual reasons." },
+    { "en": "to earn a living", "pos": "phrase", "uz": "kun koʻrmoq, tirikchilik uchun pul topmoq", "defEn": "to make money, usually through work", "example": "How do you earn a living?" },
+    { "en": "an edge", "pos": "n", "uz": "chegara, oxirgi nuqta (bu yerda: qoʻrquv chegarasi)", "defEn": "a limit or boundary; the point where you stop", "example": "Your edge is where you stop because of fear." },
+    { "en": "to compromise (a dream)", "pos": "v", "uz": "zaiflashtirmoq, chippakka chiqarmoq (orzuni)", "defEn": "to weaken or damage something valuable", "example": "Don't compromise your biggest dream." },
+    { "en": "to cater to (your fears)", "pos": "phrase", "uz": "yon bermoq, kuch bermoq (qoʻrquvga); erkalatmoq", "defEn": "to give energy to something and let it grow, like spoiling a child", "example": "Do you cater to your fears or push past them?" },
+    { "en": "to delude yourself", "pos": "phrase", "uz": "oʻzingizni aldamoq, oʻzini oʻzi chalgʻitmoq", "defEn": "to lie to or fool yourself", "example": "If you say you're not afraid, you're deluding yourself." },
+    { "en": "to accompany (someone)", "pos": "v", "uz": "hamroh boʻlmoq, birga bormoq", "defEn": "to go with someone or happen together with something", "example": "Bob the penguin accompanied Kristin to the moon." },
+    { "en": "to approach your edge", "pos": "phrase", "uz": "oʻz chegarangizga yaqinlashmoq (qoʻrquv boshlanadigan nuqtaga)", "defEn": "to get near your limit, where fear begins", "example": "Fear comes when you approach your edge." },
+    { "en": "to hang back", "pos": "phrase", "uz": "ortga tortmoq, ikkilanmoq, kutib turmoq", "defEn": "to hesitate or wait instead of taking action", "example": "Are you hanging back instead of chasing your dream?" }
+  ],
+  "englishpod": {
+    "title": "Daily Life – Registering for University",
+    "titleUz": "Kundalik hayot — Universitetga roʻyxatdan oʻtish",
+    "warmup": {
+      "uz": "Bu suhbatda Syuzan keyingi semestr uchun fanlarga roʻyxatdan oʻtadi va psixologiyadan qoʻshimcha yoʻnalish (minor) olmoqchi boʻladi. Bu — Superior Man gʻoyasiga mos: oʻsish uchun oʻzingizni qiynash, qoʻshimcha yuk olib chegarangizdan oʻtish. Sizningcha, u shuncha fanni bir semestrda bitira oladimi, yoki oʻz chegarasidan oshib ketadimi?",
+      "en": "In this dialogue Susan registers for next semester's courses and wants a minor in psychology. It fits the Superior Man theme: pushing yourself and stepping past your edge in order to grow. Do you think she can handle all those subjects in one semester, or is she going past her limit?"
+    },
+    "keyVocab": [
+      { "en": "to sign up for", "uz": "roʻyxatdan oʻtmoq, yozilmoq (biror narsaga)", "defEn": "to officially put your name on a list for something" },
+      { "en": "a major", "uz": "asosiy mutaxassislik yoʻnalishi (universitetda)", "defEn": "the main field a student studies at university" },
+      { "en": "a minor", "uz": "qoʻshimcha (ikkinchi) yoʻnalish", "defEn": "a second, smaller field of study alongside your major" },
+      { "en": "credits", "uz": "kreditlar (diplom uchun toʻplanadigan ballar)", "defEn": "points you count towards your degree at university" },
+      { "en": "a schedule", "uz": "jadval, dastur (vaqt jadvali)", "defEn": "a timetable; a list of appointments and times" },
+      { "en": "tuition", "uz": "oʻqish toʻlovi", "defEn": "the fees you pay for education" }
+    ]
+  },
+  "sixmin": {
+    "title": "Multiple careers",
+    "titleUz": "Bir vaqtda bir nechta kasb",
+    "quiz": [
+      {
+        "q": "Which profession does the surname Bond originally come from?",
+        "qUz": "“Bond” familiyasi asli qaysi kasbdan kelib chiqqan?",
+        "options": ["Farmers", "Spies", "Guards"],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) Farmers (dehqonlar). Neil c) Guards deb xato qildi. Aslida “Bond”lar bir zodagonga biriktirilgan dehqonlar (peasant farmers) boʻlgan — josuslik oʻyini ancha keyin paydo boʻlgan."
+      }
+    ],
+    "vocab": [
+      { "en": "a portfolio career", "uz": "portfel-karyera (bir vaqtda bir nechta ish bilan shugʻullanish)", "defEn": "a working life made up of several different part-time jobs or roles" },
+      { "en": "to make ends meet", "uz": "zoʻrgʻa kun koʻrmoq, daromadni xarajatga yetkazmoq", "defEn": "to earn just enough money to live on" },
+      { "en": "an entrepreneur", "uz": "tadbirkor (biznes ochib yurituvchi)", "defEn": "someone who starts and runs businesses" },
+      { "en": "serial", "uz": "ketma-ket, qayta-qayta (bir ishni takror qiluvchi)", "defEn": "doing the same thing again and again (a serial entrepreneur)" },
+      { "en": "corporate (a corporate job)", "uz": "korporativ (yirik kompaniyaga oid ish)", "defEn": "relating to a big company; a corporate job is a job at a large corporation" },
+      { "en": "to add another string to your bow", "uz": "kelajakda asqotadigan yangi koʻnikma orttirmoq", "defEn": "to learn a new skill you can use in the future" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Face Your Fears and Live Your Dream",
+      "channel": "The School of Life"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of one big dream you have. What are you going to do to reach it, and what fear will you have to push past? Explain the reason behind each step.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: maqsad infinitivi (I study to…, I work hard in order to…, … so that …) va kelasi zamon shakllari (I'm going to…, I'll…, I'm …ing).",
+    "targetSec": 60
+  }
+}

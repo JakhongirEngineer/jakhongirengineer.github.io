@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 2,
+  "id": "core-20",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 20,
+  "slug": "attractor-factor",
+  "title": "Attractor Factor",
+  "titleUz": "Attractor Factor — nimaga eʼtibor bersang, oʻsha keladi",
+  "level": "B1",
+  "tags": [
+    "mindset",
+    "law-of-attraction",
+    "positivity",
+    "present-perfect",
+    "conditionals"
+  ],
+  "intro": {
+    "uz": "Attractor Factor — Joe Vitalening gʻoyasi: nimaga diqqat qaratsangiz, oʻsha narsani hayotingizga tortasiz. Salbiylikka emas, ijobiy maqsadga fokuslaning. Bu haftaning ikki grammatik mavzusi shu gʻoyaga mos: soʻnggi paytda hozirgina boshlangan yaxshi oʻzgarishlar (present perfect + just / already / yet / still) va yaxshilikni tortadigan shartlar (kengaytirilgan birinchi shart: unless / as long as / provided that / in case). Eve mushuk haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "The Attractor Factor is Joe Vitale's idea: you attract into your life whatever you focus on. Stop feeding the negative; focus on the positive goal. This week's two grammar topics match that idea: the good changes that have just started happening lately (present perfect + just / already / yet / still) and the conditions that draw good things in (extended first conditional: unless / as long as / provided that / in case). You'll hear both in the POV story about Eve the cat."
+  },
+  "canDo": {
+    "uz": "Dars oxirida soʻnggi paytda oʻzgargan biror narsani toʻxtamasdan tasvirlab bera olasiz (\"I have just… / I haven't … yet\") va biror natijaning shartini aniq bogʻlovchilar bilan ayta olasiz (\"as long as… / unless…\").",
+    "en": "By the end you can describe something that has changed lately without pausing (\"I have just… / I haven't … yet\") and state the condition behind a result with precise connectors (\"as long as… / unless…\")."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-just-already-yet",
+      "titleUz": "Present perfect + just / already / yet / still (+ recently / lately)",
+      "titleEn": "Present perfect + just / already / yet / still",
+      "bandLifter": "IELTS Part 1 — talk about what has changed in your life recently",
+      "cefrCanDo": "B1: I can say what I have just / already / not yet done and place the adverb correctly",
+      "bodyHtml": "<p>&quot;Attractor Factor&quot;ning butun gʻoyasi shu: agar diqqatingizni ijobiy narsaga qaratsangiz, yaxshi narsalar <em>hozirgina</em>, <em>soʻnggi paytlarda</em> oʻz-oʻzidan tortila boshlaydi. Aynan shu maʼnoni — <em>yaqin oʻtmishda boshlanib, hozirga ulanib turgan yangilik</em>ni — ingliz tili <strong>present perfect</strong> bilan, uning ustiga <em>just / already / yet / still</em> (+ <em>recently / lately</em>) ravishlari bilan ifodalaydi. POV hikoyada ham buni eshitasiz: <em>&quot;She <strong>has</strong> frequently <strong>gotten</strong> sick… until <strong>recently</strong>&quot;</em> — ish oʻtmishda boshlangan, natijasi hozir sezilyapti.</p>\n<p>Present perfectning oʻzini oldingi darslarda (since / for) koʻrgansiz. Bu — <strong>uchinchi uchrashuv</strong>: bu safar <em>yaqin oʻtmish</em> va ravishning <strong>joyi</strong>ni silliqlaymiz.</p>\n<h3>Maʼnosi: hozirgina boʻlgan, natijasi hali tirik</h3>\n<p>Bu toʻrtta soʻz bir ishning hozirgi paytga qanday tegishini aniqlaydi:</p>\n<ul>\n<li><strong>just</strong> — <em>hozirgina</em>, bir necha daqiqa oldin: <em>I <strong>have just started</strong> a positive routine.</em> — Endigina ijobiy tartib boshladim.</li>\n<li><strong>already</strong> — <em>allaqachon</em>, kutilganidan erta: <em>She <strong>has already changed</strong> her focus.</em> — U diqqatini allaqachon oʻzgartirdi.</li>\n<li><strong>yet</strong> — <em>hali</em> (savol va inkorda): <em>Have you started <strong>yet</strong>? — Not <strong>yet</strong>.</em> — Hali boshladingizmi? — Hali yoʻq.</li>\n<li><strong>still</strong> — <em>hali ham</em> (kutilgan ish boʻlmay turibdi): <em>I <strong>still haven't</strong> removed the negativity.</em> — Salbiylikni hali ham olib tashlaganim yoʻq.</li>\n</ul>\n<p><em>recently</em> va <em>lately</em> esa &quot;soʻnggi paytlarda&quot; degani: <em>Good things <strong>have happened</strong> to me <strong>lately</strong>.</em> — Soʻnggi paytlarda menga yaxshi narsalar boʻlyapti.</p>\n<h3>Kalit nuqta: ravish qayerda turadi</h3>\n<p>Bu — oʻzbek oʻquvchilar eng koʻp adashadigan joy. Ingliz tili ravishga qatʼiy oʻrin beradi:</p>\n<ul>\n<li><strong>just / already</strong> → <code>have/has</code> bilan <code>V3</code> <strong>oʻrtasida</strong>: <em>I have <strong>just</strong> finished. She has <strong>already</strong> left.</em></li>\n<li><strong>yet</strong> → jumla <strong>oxirida</strong>, faqat savol va inkorda: <em>Has it started <strong>yet</strong>? I haven't decided <strong>yet</strong>.</em></li>\n<li><strong>still</strong> → inkor yordamchidan <strong>oldin</strong>: <em>I <strong>still</strong> haven't done it.</em> (❗ <em>I haven't still</em> emas)</li>\n<li><strong>recently / lately</strong> → odatda jumla <strong>oxirida</strong>: <em>I've read that book <strong>recently</strong>.</em></li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbekchada bu ishlarni koʻpincha oddiy oʻtgan zamon bilan aytamiz: <em>&quot;Endigina tugatdim&quot;, &quot;Allaqachon oʻzgardi&quot;</em>. Ingliz tili esa natija hozir tirik boʻlgani uchun <strong>present perfect</strong> talab qiladi. Diqqat: <em>&quot;hozirgina&quot; ≠ past simple</em> — <em>&quot;I just finished&quot;</em> soʻzlashuvda uchraydi, lekin toʻgʻri, band koʻtaruvchi shakl — <em>&quot;I <strong>have</strong> just <strong>finished</strong>&quot;</em>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni ovoz chiqarib mustahkamlang. Har kuni oʻzingiz haqingizda uchta jumla ayting: <em>&quot;I have just… I have already… I haven't … yet.&quot;</em> Ravishni toʻgʻri joyga qoʻying — bir necha kunda til oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada bu ishlarni koʻpincha oddiy oʻtgan zamon bilan aytamiz: \"Endigina tugatdim\", \"Allaqachon oʻzgardi\". Ingliz tilida natija hozir tirik boʻlgani uchun present perfect kerak: \"I have just finished\". \"hozirgina\" = just, \"allaqachon\" = already, \"hali (yoʻq)\" = yet, \"hali ham\" = still.",
+      "errorFixUz": "❌ I already have changed. Have you finished already? (inkor/savolda) ✅ I have already changed. Have you finished yet? — just/already `have/has` bilan `V3` oʻrtasida; savol va inkorda esa jumla oxirida `yet` ishlatiladi.",
+      "examples": [
+        {
+          "en": "I have just started a positive routine.",
+          "uz": "Men endigina ijobiy tartib boshladim."
+        },
+        {
+          "en": "She has already changed her focus.",
+          "uz": "U diqqatini allaqachon oʻzgartirdi."
+        },
+        {
+          "en": "I still haven't removed the negativity from my day.",
+          "uz": "Kunimdagi salbiylikni hali ham olib tashlaganim yoʻq."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I have ___ finished the vocabulary lesson.",
+          "options": [
+            "just",
+            "yet",
+            "still"
+          ],
+          "answer": "just",
+          "hintUz": "\"hozirgina\" → just; u have va V3 oʻrtasida turadi (have just finished)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Have you started your positive plan ___?",
+          "options": [
+            "yet",
+            "already",
+            "just"
+          ],
+          "answer": "yet",
+          "hintUz": "savolda \"hali\" → yet, jumla oxirida turadi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She has ___ attracted good things into her life.",
+          "options": [
+            "already",
+            "yet",
+            "still"
+          ],
+          "answer": "already",
+          "hintUz": "ijobiy jumlada \"allaqachon\" → already, have/has bilan V3 oʻrtasida"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): soʻnggi paytda oʻzgargan biror narsa — \"I have just … . I have already … . I haven't … yet.\"",
+          "answer": null,
+          "hintUz": "have/has + V3; just/already — oʻrtada, yet — oxirida (savol/inkor)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "first-conditional-extended",
+      "titleUz": "Kengaytirilgan birinchi shart: unless / as long as / provided that / in case",
+      "titleEn": "First conditional extended — unless / as long as / provided / in case",
+      "bandLifter": "IELTS Part 3 — discuss conditions and consequences precisely",
+      "cefrCanDo": "B1→B2: I can express a condition with unless / as long as / provided that / in case",
+      "bodyHtml": "<p>Joe Vitale butun kitob davomida bitta shartni takrorlaydi: <em>&quot;<strong>If</strong> you focus on the positive, you <strong>will attract</strong> it.&quot;</em> Yaxshi narsalar shunchaki kelmaydi — ular <strong>shart</strong> bilan keladi: <em>toki ijobiy qolsangiz</em>, <em>ishonmasangiz kelmaydi</em>, <em>har ehtimolga qarshi tayyor turing</em>. Oʻtgan darsda oddiy <strong>birinchi shart</strong> (first conditional) bilan tanishgansiz: <em>If + present, … will …</em>. Bu darsda uni <strong>aniqroq bogʻlovchilar</strong> bilan kengaytiramiz: <strong>unless / as long as / provided that / in case</strong>.</p>\n<p>POV hikoyada sabab-natija zanjiri aynan shu: <em>Eve abstains from mice → she feels better.</em> Buni shartga aylantirsak: <em>&quot;<strong>As long as</strong> she abstains from mice, she <strong>will feel</strong> healthy.&quot;</em></p>\n<h3>Toʻrtta bogʻlovchi — har biri boshqa maʼno</h3>\n<ul>\n<li><strong>unless</strong> = <em>agar … maslar</em> (= <em>if not</em>): salbiy shart. <em>You <strong>won't attract</strong> good things <strong>unless</strong> you believe.</em> — Ishonmasangiz, yaxshilikni tortmaysiz.</li>\n<li><strong>as long as</strong> = <em>toki … turar ekan</em>, shart kuchda boʻlsa: <em>You <strong>will succeed as long as</strong> you stay positive.</em> — Toki ijobiy qolar ekansiz, yutasiz.</li>\n<li><strong>provided that</strong> = <em>sharti bilan</em>, rasmiyroq: <em>I'll help you <strong>provided that</strong> you try.</em> — Harakat qilsang, yordam beraman.</li>\n<li><strong>in case</strong> = <em>har ehtimolga qarshi</em> ( tayyorgarlik, natija emas): <em>Take an umbrella <strong>in case</strong> it rains.</em> — Yomgʻir yogʻsa kerak boʻladi deb, soyabon oling.</li>\n</ul>\n<p>Diqqat: shart ergash gapida <strong>kelasi zamon ishlatilmaydi</strong> — <em>present simple</em> qoladi: <em>unless you <strong>stay</strong> (❗ <em>will stay</em> emas) positive</em>.</p>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida bu maʼnolarni koʻpincha bitta <em>&quot;-sa&quot;</em> qoʻshimchasi va kontekst bilan beramiz: <em>&quot;tirishsang&quot;, &quot;tirishmasang&quot;</em>. Ingliz tili esa alohida bogʻlovchi tanlaydi, va ular <strong>oʻzaro almashmaydi</strong>: <em>unless</em> = shart yoʻqligi, <em>as long as</em> = shart davom etishi, <em>in case</em> = ehtiyot chorasi. <em>&quot;unless&quot;</em> ichida &quot;not&quot; allaqachon bor, shuning uchun yana inkor qoʻshmang: ❗ <em>unless you don't try</em> emas, ✅ <em>unless you try</em>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har bir bogʻlovchiga oʻzingiz haqingizda bitta rost jumla tuzing va ovoz chiqarib ayting: <em>&quot;I will improve <strong>as long as</strong> I practise. I won't improve <strong>unless</strong> I start today.&quot;</em> Maʼno farqini gapirib his qiling — shundagina til ularni ajrata boshlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada bu maʼnolarni koʻpincha bitta \"-sa\" qoʻshimchasi bilan beramiz: \"tirishsang\", \"tirishmasang\". Ingliz tili alohida bogʻlovchi tanlaydi va ular almashmaydi: unless = agar …maslar (if not), as long as = toki …turar ekan, provided that = sharti bilan, in case = har ehtimolga qarshi. Shart gapida kelasi zamon emas, present simple qoladi.",
+      "errorFixUz": "❌ You won't succeed unless you don't try. If you will focus, you will attract it. ✅ You won't succeed unless you try. If you focus, you will attract it. — \"unless\" ichida allaqachon inkor bor (yana \"don't\" qoʻshmang); shart gapida \"will\" ishlatilmaydi.",
+      "examples": [
+        {
+          "en": "You won't attract good things unless you believe.",
+          "uz": "Ishonmasangiz, yaxshi narsalarni tortmaysiz."
+        },
+        {
+          "en": "You will improve as long as you stay positive.",
+          "uz": "Toki ijobiy qolar ekansiz, oʻsib borasiz."
+        },
+        {
+          "en": "Take an umbrella in case it rains.",
+          "uz": "Yomgʻir yogʻsa kerak boʻladi deb, soyabon oling."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "You will attract good things ___ you stay positive.",
+          "options": [
+            "as long as",
+            "unless",
+            "in case"
+          ],
+          "answer": "as long as",
+          "hintUz": "\"toki …turar ekan\" (shart davom etsa natija ham davom etadi) → as long as"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you change your focus, nothing will improve.",
+          "options": [
+            "Unless",
+            "As long as",
+            "Provided"
+          ],
+          "answer": "Unless",
+          "hintUz": "\"agar oʻzgartirmasangiz\" (if not) → Unless"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'll write the goal on the wall ___ I forget it.",
+          "options": [
+            "in case",
+            "unless",
+            "as long as"
+          ],
+          "answer": "in case",
+          "hintUz": "ehtiyot chorasi (\"unutib qoʻysam kerak boʻladi\") → in case"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"I will … as long as … . I won't … unless … .\"",
+          "answer": null,
+          "hintUz": "shart gapida present simple; unless ichida inkor bor, yana qoʻshmang"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/20/main.mp3",
+      "durationSec": 754,
+      "bytes": 9054632,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/20/vocab.mp3",
+      "durationSec": 417,
+      "bytes": 5015993,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/20/ministory.mp3",
+      "durationSec": 597,
+      "bytes": 7179136,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/20/pov.mp3",
+      "durationSec": 415,
+      "bytes": 4987510,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Attractor Factor Main Text Hello, welcome to the next lesson. This is AJ from Let’s start our next lesson the “Attractor Factor.” The Attractor Factor is the name of a book by Joe Vitale. Joe Vitale is an interesting man. He is an Internet marketer and businessman.",
+      "He’s kind of a marketing expert, especially for Internet marketing. But, he also writes about very general topics, about how to achieve your goals and how to reach your dreams in life. He’s a very positive man. He has a lot of energy, a very interesting and creative guy. I really like him.",
+      "I use some of his information and skills that he teaches. I use it for my own business, for my own Internet marketing. He wrote this book The Attractor Factor as a more general book to help everybody get what they want in life, to help everybody achieve their dreams.",
+      "The Attractor Factor is a quite simple book, a very simple idea and yet it’s very powerful. Joe believes that we attract things to our life. And how do we do that? With our thinking and our emotion.",
+      "So for example, if we always think very positive thoughts and we always have very strong positive emotions, he believes we will attract positive things and positive people into our life.",
+      "On the other hand, if we think about negative things, problems all the time, and we’re always feeling negative, frustrated, angry, sad or depressed, than we will attract more negative stuff into our life. It’s the basic idea of The Attractor Factor.",
+      "And so, he states very strongly and clearly that we have to be careful what we focus on, what we think about and which feelings we feel during every day. Because of course, we want to attract, bring, positive things into our life, things and people and events.",
+      "So, I’m going to read a little bit from The Attractor Factor and then I’ll talk more about it. Here we go. Most people I talk to every day know what they don’t want. ‘I don’t want this backache. I don’t want this headache. I don’t want these bills. I don’t want to struggle in my business. ’ You know the list. You have one of your own.",
+      "Unfortunately, that’s where most of us stop. The nature of our conversations, the nature of our newspaper reporting, the nature of our radio and television shows and our talk shows surround us with ideas of what we don’t want.",
+      "It feels good to complain. We don’t feel alone. We feel heard. We feel relieved. We feel understood. Sometimes we even get answers that make our problems easier. But, what we don’t realize is that we are activating the attractor force in a negative way.",
+      "When we say ‘I don’t want these bills’ our focus is on bills. The spirit of life will deliver whatever you focus on. So if you’re talking about your bills you’ll get more bills. You’ll attract it by spending energy on it. Most people live on the level of fear.",
+      "As Eleanor Moody wrote, ‘Let us remember that fear is only wrongly directed faith. We are having faith in things we do not want rather than having faith in things we desire. ’ Again, this is the level most people live at. It isn’t bad, it just isn’t very positive. And it probably isn’t getting you the health, wealth or happiness you want.",
+      "Unfortunately, we seldom take this process to level two. It’s a rare person, it’s a special person, who will stop complaining, stop fighting and stop fearing long enough to focus on the opposite of what they are experiencing. Yet this level brings miracles and the manifestations that we want.",
+      "Knowing what you don’t want is the springboard to your miracles. It’s the springboard to knowing what you do want. Knowing what you don’t want is simply your current reality and current reality can be changed. So it’s important as a first step to remove negativity.",
+      "One way to protect yourself from the negative influences of the world is to abstain from them. I remember how Jack Canfield forbad any negativity in his office. I love the idea. I don’t watch the news or read the newspapers. Because after a while, you begin to see how you are given only one-sided, very negative news.",
+      "None of the news is designed to help your well-being. But you also have to watch your friends. The people around you will share their views of the world with you. And sometimes it’s not easy to separate their views from your view. If your friends are very negative you must be very, very careful.",
+      "Okay, that’s the end of the section from The Attractor Factor by Joe Vitale. And so, he’s really just talking about negative thinking, negative focus and Joe Vitale and many others talk about this same very basic idea. You get what you focus on. If you focus on problems you get more problems. If you focus on being poor you stay poor.",
+      "If you focus on not having enough money, you continue not to have enough money. Thinking can create reality is the idea. What you focus on becomes real and stays real. So he’s saying if you focus on negative things you get more of those negative things. So what’s important is to change from negative focus to positive focus.",
+      "For example, don’t focus on being fat. You say oh, I’m fat. I don’t want to be fat. I don’t want to be fat. I don’t want to be fat. You will attract more fatness. You’ll stay fat. Why?",
+      "Because you’re focused on fat and you’re focused on being fat, but you have to change that a little bit and make it a positive focus. For example, you say I want to be strong, healthy and thin. It’s a small change that’s really easy to do, but it will make a big difference.",
+      "So, you start focusing all your mental energy on being strong, healthy, thin; strong, healthy, thin; strong, healthy, thin and that’s what you focus on. As you focus every day, every moment, every hour, every minute on being strong, healthy and thin you will attract strength, happiness and thinness into your life.",
+      "In other words, your brain will start to find solutions. Your brain will take the appropriate actions to get what you are focusing on. So be very careful about this. It’s okay as a first step; step one decide what do you not want. What are you sick of in your life? That’s fine. You can say I’m sick of being bad at English.",
+      "I’m sick of being a terrible speaker. That’s okay that’s step one, but you have to go to step two, to level two and that is decide what you do want. What’s the positive thing you want that’s what you have to focus on all the time? So you decide, I will speak excellent English.",
+      "And every minute, in every day, in every month, in every year you focus on the positive thing. I will speak excellent English. I will speak excellent English. You don’t think about the problems. You don’t think about the mistakes. You don’t think about the negative bad thing that you don’t want.",
+      "You focus on the positive thing that you do want. And you know it’s easy to fall into the negative thinking. I do it too. With the business sometimes, I’ll think oh we’re having problems. We don’t have enough sales this week.",
+      "And then, I’m thinking all week, we don’t have enough sales, we don’t have enough sales, we don’t have enough sales and that’s what I’m focusing on. What happens? We continue to have low sales. I have to, you know, smack myself in the face and jump around, do something to break my negative thinking and I focus then on the positive.",
+      "We will have great sales this week. We will have great sales every month. Our sales are increasing and I think about that again and again. I actually made a little picture and I put it on the wall with our sales goal. We will have this many sales every week. And I look at that and I remind myself of the positive goal, the positive thing.",
+      "And so, you know, our business does get better. I’m focused on solutions. I’m focused on the positive not just complaining.",
+      "So, that’s the basic idea very, very simple, but it can make a very big change in your life if you do it constantly, all the time. So good luck, please do this. Take your negative complaining beliefs and ideas and statements and change them into positive statements, what you do want.",
+      "And then every day focus on those things that you do want. You will bring those things to you, just by focusing on them. You don’t have to do anything else, just by focusing on them every day all the time they will come to you. And that is the end of The Attractor Factor by Joe Vitale. See you for the vocabulary."
+    ],
+    "vocab": [
+      "Attractor Factor Vocabulary Text Hello, this is AJ. Welcome to the vocabulary lesson for the “Attractor Factor.” Now the vocabulary lesson is sometimes a little…not so exciting, right?",
+      "It’s probably the least exciting lesson, so it’s even more important that you breathe and you bring your shoulders back and you move your body during this lesson. You have to keep your energy high so you’ll focus, so you’ll concentrate on the vocabulary lesson. Are you feeling good? Wake up! Let’s do it!",
+      "\u0001 Our first word is activate (verb is to activate). And Joe said we don’t realize that we are activating the attractor force in a negative way. Activate really means to turn on. That’s all it means.",
+      "It means something was off before or something was not happening, something was not working and then suddenly you turn it on, suddenly it is working. Suddenly it is happening. So if you activate the attraction force, the attraction power, it just means you turned it on, right? It was off before now you’re turning it on.",
+      "Now you are causing it to start. \u0001 Our second word is manifestation (verb is to manifest) A manifestation just means a happening. It means something becomes real. It means to become real if you’re using it as a verb, to manifest. To manifest means to become real. So, you could say my idea manifested. It became real.",
+      "Before it was only in your head, it was an idea. For example, I have this goal, this dream to speak English well. Then, finally, I speak English well. You can say I manifested my idea. The idea manifested, it became real. Before it was an idea and now it’s real. So a manifestation is a thing that becomes real.",
+      "All right, he’s saying if you focus on these positive things with your mind, eventually they will become real. They will become real manifestations, real things or real happenings. \u0001 Our next word is springboard. He says that your dreams are your springboard to miracles.",
+      "A springboard is something that begins a process, something that causes a beginning or a start. It",
+      "gives a little push, it gives some power. It comes from like a diving board, like in the Olympics, the swimmers, you know they climb up and they jump up and down and then they jump into the water. They’re standing on that board, right? That board is a springboard.",
+      "It pushes them up into the air and helps them go higher. So a springboard is anything that gives more energy to something, especially at the beginning. It gives energy to something you are starting. So, if you have a dream it will give energy. It will give energy to you so that it will become real. It gives a big start.",
+      "All right, so a springboard, something that gives energy, something that starts something, causes something to start. So dreams are springboards to miracles. Dreams cause miracles. Dreams give energy to miracles. Dreams cause miracles to start. They’re a springboard to miracles. \u0001 Our next word or actually phrase is to abstain from.",
+      "So, he says you need to abstain from negative influences. To abstain from means to avoid, to not eat, to not drink, to not listen to or to not use something. Say I am abstaining from alcohol. It means I’m not using alcohol. I am not drinking alcohol. I am avoiding alcohol.",
+      "So he says you need to abstain from negative thoughts, negative influences. Avoid negative influences. Don’t listen to negative influences or people or things. Abstain from them, avoid them. And then he said that Jack Canfield forbid negativity in his office. And to forbid means to deny. It means to not let something happen. You say “no!”",
+      "I forbid you to drive the car. It means I will not let you drive the car. I deny you. I stop you from driving the car. Okay, so forbid has this idea of to prevent, to stop, to deny and to forbid someone from doing something. He forbade negativity. He said no negativity in this office. No one can be negative in my office, in my business.",
+      "His employees, he forbid them from being negative. He would not let them be negative. He stopped them. He denied them from doing it. And that is all of the vocabulary for the “Attractor Factor”, a shorter vocabulary lesson for this one. I hope you enjoyed it. See you next for the mini-story. Bye-bye."
+    ],
+    "pov": [
+      "Attractor Factor POV Text Hello, welcome to the POV (Point of View) mini-stories for “Attractor Factor.” Let’s begin. Since starting 10 years ago, Eve has felt bad. She has felt tried every day. She has had no energy. This started 10 years ago.",
+      "Before 10 years ago she felt great, but since 10 years ago…you know until now, until recently…she has felt very tried. She has not had energy. She hasn’t had energy. In fact, starting 10 years ago she has gotten sick all the time. She has frequently gotten sick, since 10 years ago until recently.",
+      "And during that time she has tried many different things. She tired exercise one time, it did not help. She tried various medicines and drugs, but none of them helped. So, since 10 years ago, during this time she has been very frustrated. She has been frustrated because she felt bad.",
+      "She has been frustrated because she couldn’t find a solution. Until one day she decided to abstain from eating mice. So on that day she decided “no more mice.” She was surprised. After a few days she felt better. And she felt better, stronger and more healthy, it was amazing. And so, she forbid her kittens from eating mice, too.",
+      "And they began to feel healthier and stronger. She thought “wow!” And this became the springboard for a whole new healthy life. It was the sudden beginning of a whole new healthy life. Abstaining from mice was the springboard to a whole new healthy life for Eve and for her kittens.",
+      "And so next she abstained from eating fish, too, and she felt even better. So, she forbid her kittens from eating fish and they felt even better. Wow, she was feeling great. So finally, she decided to abstain from drinking beer. She stopped drinking beer, no more beer and she felt outstanding!",
+      "Now, of course, she did not forbid her kittens from drinking beer because we all know that kittens need beer to grow. So her kittens continued to drink beer, but they abstained from mice and they abstained from fish and they felt great, too.",
+      "And so, as a result, Eve and all her kittens became healthy and happy and had lots and lots of energy. All right, that’s the end of our first story.",
+      "Next, we’re going to the future. This is an idea for a future story. I’m going to tell you about a story that might happen in the future. For example, there will be a cat named Eve. She’s going to be sick all the time. In fact, she will have been sick for maybe 10, maybe 15 years.",
+      "So she will have been sick that entire time, staring 10 years in the past and then going into the present. So, she’ll have been sick for a long time. But one day she’s going to decide to abstain from eating mice. She will stop eating mice and she’s going to feel better. She’ll feel healthier. She’ll have more energy.",
+      "She’ll stop getting sick. So she’ll forbid her kittens from eating mice also and they’re going to feel great. They’re going to feel stronger and healthier and have more energy, too. This will become the springboard to a whole new life for Eve and her kittens.",
+      "The beginning, the sudden powerful beginning of a whole new life, the springboard. So next she’s going to abstain from eating fish, too. She’ll stop eating fish and she’ll feel even better, more energy, more health, feeling fantastic.",
+      "So, of course, she’ll forbid her kittens from eating fish and they’ll feel better, more energy, more fantastic. And, finally, she’ll make a very difficult and big decision. She’ll abstain from drinking from drinking beer. She’ll stop drinking beer.",
+      "Now, of course, she won’t forbid her kittens from drinking beer because kittens need beer to grow, but Eve will stop, she’ll stop drinking beer. And, the result? Eve’s going to feel super amazing, outstanding! Her kittens will feel outstanding! They will all be healthy and energetic and have a lot of energy and just feel fantastic!",
+      "They’re going to be super fantastic healthy cats. And, that is the end of the POV stories for “Attractor Factor.” I hope you’re feeling strong and healthy, too. Deep breath, move your body, big smile. See you next time."
+    ],
+    "sixmin": [
+      "Sophie: Hello and welcome to 6 Minute English. I'm Sophie…",
+      "Neil: And I'm Neil. So, Sophie, the subject of today's show is attraction – do you believe in love at first sight?",
+      "Sophie: No, I don't. I think it takes time to get to know somebody well enough to know if you love them. But I have a friend who says when she saw her husband for the first time…",
+      "Neil: That was before they got married?",
+      "Sophie: That's right – when they met for the first time, that was it: a bolt out of the blue. And they got married three months later.",
+      "Neil: A bolt out of the blue means something totally unexpected. Well, that sounds very romantic. And leads me on to today's quiz question. Sophie, what percentage of Americans said they believe in love at first sight? Is it… a) 26%? b) 56%? Or c) 86%?",
+      "Sophie: I'm not an old romantic like you Neil, so I'm going to go for a) 26%.",
+      "Neil: Well, we'll find out later on in the show if you're right to be sceptical or not, Sophie. And sceptical for those of you who don't know, means to have doubts about something.",
+      "Sophie: I think you can be physically attracted to somebody straight away. I just don't think you can fall in love with somebody so easily. Love is about other things: compatibility, personality and a good sense of humour.",
+      "Neil: Yes, humour is important, but apparently, Sophie, for men it's all about the waist-hip ratio. According to research, the ideal waist-hip ratio for women is 0.7 – where ratio means the relationship between two sizes – and you get this figure by dividing the waist measurement by the hip measurement.",
+      "Sophie: I see. And why do men find 0.7 so irresistible?",
+      "Neil: Well, let's listen to Dr Anna Machin, an Evolutionary Anthropologist from the University of Oxford, explaining what a man is looking for.",
+      "INSERT: Dr Anna Machin, Evolutionary Anthropologist, University of Oxford He's going to look for signs for fertility and what we call fecundity and good health. And the major indicator of that in women is the waist-hip ratio. And the waist-hip ratio – the absolute ideal – what men find most attractive regardless of culture – this has been tested in many different cultures round the world – is 0.7 and that's really your classic hourglass figure. And the reason why that universally is attractive is because it's tied to the health of that individual. There's a very strong relationship between someone circulating oestrogen and testosterone – obviously you want the oestrogen to be high and the testosterone to be low for a woman to be fertile, and also her general health, so .7 is linked to lower risk of heart disease, lower risk of diabetes and certain sorts of cancers.",
+      "Neil: So a waist-hip ratio of 0.7 correlates – or has a strong relationship – with good general health and fertility in women.",
+      "Sophie: And men find this attractive because it identifies fertile women – women who will be able to conceive – or get pregnant – and have babies successfully.",
+      "Neil: Dr Machin also mentions that 0.7 is the classic hourglass figure – which means curvy!",
+      "Sophie: Do you like curves, Neil?",
+      "Neil: Mind your own business, Sophie. But all this waist-hip theory of attraction isn't very romantic, is it?",
+      "Sophie: You're right, it isn't. And whilst we do judge people by the way they look – we also use our sense of smell to sniff out our ideal mate – or sexual partner. Apparently, we can detect whether people are genetically different to us by the way they smell. And parents who have different immune systems create healthier babies.",
+      "Neil: So it's back to having babies again – all biology and chemistry – and not about feelings at all.",
+      "Sophie: Well, let's leave chemistry behind for a moment and listen to Professor David Perrett, at the School of Psychology and Neuroscience at St Andrews University in Scotland. He talks about other factors that play a role in attraction.",
+      "INSERT: David Perrett, Professor at the School of Psychology and Neuroscience at St Andrews University in Scotland Plastic surgery really doesn't count for much in the end. You could be with somebody who's aesthetically very beautiful but if they don't smile or react then that counts for much less. So we can change our faces by interacting with others and doing so in a pleasant manner, and that will aid our attractiveness and make others interested in us.",
+      "Neil: What does aesthetically mean, Sophie?",
+      "Sophie: It means judging something by the way it looks. And whilst we all enjoy a pretty face, most of us are looking for more than that. We are looking for people who appear friendly and approachable, and who we share interests with.",
+      "Neil: Exactly – and personally, I think kind eyes are very important – with a bit of a twinkle. What about you, Sophie?",
+      "Sophie: I like a good sense of humour.",
+      "Neil: Very good. Now, remember I asked you, Sophie: What percentage of Americans said they believe in love at first sight? Is it… a) 26%, b) 56% or c) 86%?",
+      "Sophie: I said 26%.",
+      "Neil: Sorry, that's the wrong answer, Sophie. 56% of Americans believe in love at first sight, and the percentage is even higher for married people and those in relationships, according to a poll conducted by the website CBS.com in 2013.",
+      "Sophie: Well, Americans are a romantic bunch.",
+      "Neil: Me too, and I'm British. Now, here are the words we heard today. bolt out of the blue sceptical ratio correlates fertile conceive hourglass figure mate aesthetically",
+      "Sophie: Well, that's the end of this edition of 6 Minute English. Join us again soon! Meanwhile, visit our website: bbclearningenglish.com, where you'll find guides to grammar, exercises, videos and articles to read and improve your English.",
+      "Neil: And we are on social media too. Make sure to visit our profiles on Facebook, Twitter, Instagram and YouTube.",
+      "Both: Bye!",
+      "Vocabulary: bolt out of the blue something totally unexpected sceptical have doubts about something ratio the relationship between two sizes correlates has a strong relationship fertile able to produce babies conceive get pregnant hourglass figure curvy, with a well-defined waistline mate sexual partner aesthetically judging something by the way it looks"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Was Eve a doggy?",
+        "a": "She was not a doggy, she was a cat."
+      },
+      {
+        "q": "What did she abstain from?",
+        "a": "She abstained from eating mice."
+      },
+      {
+        "q": "Did she abstain from eating chicken or did she abstain from eating mice?",
+        "a": "Well, she abstained from eating mice."
+      },
+      {
+        "q": "Who abstained from eating mice?",
+        "a": "Well, Eve. Eve the cat decided to abstain from eating mice."
+      },
+      {
+        "q": "So did Eve eat mice?",
+        "a": "No she didn’t, she did not. She abstained from eating mice, she did not eat mice."
+      },
+      {
+        "q": "What was Eve?",
+        "a": "A cat, Eve was a cat."
+      },
+      {
+        "q": "Did she eat mice?",
+        "a": "No she didn’t. She abstained from eating mice, she did not eat mice."
+      },
+      {
+        "q": "Who did she forbid from eating mice?",
+        "a": "Her kittens, her little baby cats. She forbid her kittens from eating mice also."
+      },
+      {
+        "q": "No, they didn’t. Why not?",
+        "a": "Because Eve forbid them to eat mice. She said “you cannot eat mice.”"
+      },
+      {
+        "q": "Did her kittens eat mice?",
+        "a": "No they didn’t. Neither Eve nor her kittens ate mice."
+      },
+      {
+        "q": "How did Eve feel after abstaining from eating mice?",
+        "a": "Well she felt great. She felt very healthy."
+      },
+      {
+        "q": "Why did she feel healthy?",
+        "a": "Because she abstained from eating mice."
+      },
+      {
+        "q": "How about her kittens?",
+        "a": "They felt healthy, too. They also felt healthy because they also abstained from eating mice. Of course, they abstained because Eve forbid them to eat mice."
+      },
+      {
+        "q": "So how did she feel, Eve?",
+        "a": "She felt fantastic. She felt great. In fact, this was the springboard to a whole new life for Eve."
+      },
+      {
+        "q": "EffortlessEnglishClub.com 3 Was this the beginning of a whole new life?",
+        "a": "Yes it was. It was the beginning of a whole new life for Eve. It was the springboard, the sudden powerful beginning to a whole new life."
+      },
+      {
+        "q": "Was it a slow beginning or a sudden, fast, powerful beginning?",
+        "a": "It was a sudden, fast, powerful beginning. It was a springboard to a whole new life for Eve."
+      },
+      {
+        "q": "What was a springboard to a whole new life for Eve?",
+        "a": "Well not eating mice, abstaining from mice was the springboard, the sudden beginning to a whole new life."
+      },
+      {
+        "q": "Wow, what did she abstain from next?",
+        "a": "She abstained from fish. She abstained from eating fish next."
+      },
+      {
+        "q": "What about her kittens?",
+        "a": "Well, she forbid them from eating fish, too. She forbid them from eating mice and then"
+      },
+      {
+        "q": "And how did they feel?",
+        "a": "Wow, they felt super great! No fish, no mice, they felt fantastic, very, very healthy!"
+      },
+      {
+        "q": "What did she abstain from next?",
+        "a": "Beer. Eve abstained from beer."
+      },
+      {
+        "q": "Who abstained from drinking beer?",
+        "a": "Eve, Eve abstained from drinking beer."
+      },
+      {
+        "q": "Did she forbid her kittens to drink beer?",
+        "a": "No, she decided to let her kittens to continue drinking beer."
+      },
+      {
+        "q": "How did she feel after abstaining from beer?",
+        "a": "She felt fantastic, super fantastic, outstanding! Eve felt outstanding after abstaining from drinking beer."
+      },
+      {
+        "q": "Why did she feel outstanding?",
+        "a": "Well, because she abstained from beer."
+      },
+      {
+        "q": "Who did not abstain from drinking beer?",
+        "a": "Oh, her baby kittens. Her baby kittens did not abstain from drinking beer."
+      },
+      {
+        "q": "Did her baby kittens continue to drink beer?",
+        "a": "Yes they did. They continued to drink beer."
+      },
+      {
+        "q": "Why did they continue to drink beer?",
+        "a": "Well, because, obviously, baby kittens need beer to grow."
+      },
+      {
+        "q": "So who abstained from beer?",
+        "a": "Eve, Eve abstained from beer."
+      },
+      {
+        "q": "Who didn’t abstain from beer?",
+        "a": "Her kittens. Her kittens didn’t abstain. Eve did abstain from drinking beer."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to activate (the attractor force)",
+      "pos": "v",
+      "uz": "ishga tushirmoq, yoqmoq (avval oʻchiq boʻlgan narsani)",
+      "defEn": "to turn something on so it starts working",
+      "example": "We activate the attractor force with our thinking."
+    },
+    {
+      "en": "to manifest / a manifestation",
+      "pos": "v/n",
+      "uz": "roʻyobga chiqmoq; xayoldagi narsaning haqiqatga aylanishi",
+      "defEn": "to become real; a thing that becomes real",
+      "example": "My idea manifested — it became real."
+    },
+    {
+      "en": "a springboard (to)",
+      "pos": "n",
+      "uz": "turtki, sakrash taxtasi (biror ishni kuch bilan boshlab beruvchi narsa)",
+      "defEn": "something that gives energy and starts a process",
+      "example": "Your dreams are a springboard to miracles."
+    },
+    {
+      "en": "to abstain from",
+      "pos": "v",
+      "uz": "voz kechmoq, oʻzini tiymoq (isteʼmol qilmaslik, uzoqlashmoq)",
+      "defEn": "to avoid or not use something on purpose",
+      "example": "You need to abstain from negative influences."
+    },
+    {
+      "en": "to forbid (something)",
+      "pos": "v",
+      "uz": "taqiqlamoq, yoʻl qoʻymaslik",
+      "defEn": "to not allow something to happen",
+      "example": "Jack Canfield forbade any negativity in his office."
+    },
+    {
+      "en": "to attract (into your life)",
+      "pos": "v",
+      "uz": "oʻziga tortmoq, jalb qilmoq",
+      "defEn": "to draw something toward you",
+      "example": "Positive emotions attract positive people."
+    },
+    {
+      "en": "negative influences",
+      "pos": "phrase",
+      "uz": "salbiy taʼsirlar (kayfiyatni tushiradigan narsa/odamlar)",
+      "defEn": "people or things that affect you in a bad way",
+      "example": "Protect yourself from negative influences."
+    },
+    {
+      "en": "to focus on",
+      "pos": "phrase",
+      "uz": "eʼtiborini qaratmoq, diqqatni jamlamoq",
+      "defEn": "to give all your attention to something",
+      "example": "Focus on what you do want, not what you don't."
+    },
+    {
+      "en": "current reality",
+      "pos": "phrase",
+      "uz": "hozirgi voqelik, ayni holat",
+      "defEn": "the way things are for you right now",
+      "example": "Current reality can be changed."
+    },
+    {
+      "en": "to fall into (negative thinking)",
+      "pos": "phrase",
+      "uz": "(salbiy fikrga) berilib ketmoq, ixtiyorsiz tushib qolmoq",
+      "defEn": "to slip into a bad habit or state without meaning to",
+      "example": "It's easy to fall into negative thinking."
+    }
+  ],
+  "englishpod": {
+    "id": "0240",
+    "title": "Daily Life – Getting A Pet",
+    "titleUz": "Kundalik hayot — Uy hayvoni olish",
+    "warmup": {
+      "uz": "Bu suhbatda er-xotin uy hayvoni olish ustida bahslashadi: kuchukmi, mushukmi yoki toʻtiqushmi? Attractor Factor darsining Eve mushugiga chiroyli ulanadi. Biri \"yoʻq\" desa, biri \"ha\" deb turadi — nimaga fokuslansa, oʻsha yutadi. Sizningcha, oxirida qaysi hayvonni olishadi?",
+      "en": "In this dialogue a couple argue about getting a pet — a puppy, a cat, or a parrot? It links nicely to the Attractor Factor lesson and Eve the cat: one focuses on \"no\", the other on \"yes\". Which pet do you predict they end up with?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0240/dg.mp3",
+        "durationSec": 59,
+        "bytes": 503537
+      },
+      "pr": {
+        "path": "englishpod/0240/pr.mp3",
+        "durationSec": 840,
+        "bytes": 13467604
+      },
+      "rv": {
+        "path": "englishpod/0240/rv.mp3",
+        "durationSec": 242,
+        "bytes": 3911744
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "We have been over this a hundred times ! We are not getting a pet!"
+      },
+      {
+        "speaker": "B",
+        "en": "Why not? Come on! Just a cute little puppy. or a kitty!"
+      },
+      {
+        "speaker": "A",
+        "en": "Who is going to look after a dog or a cat?"
+      },
+      {
+        "speaker": "B",
+        "en": "I will! I’ll feed it, bathe it and walk it every day! We can get a Labrador or a German Shepard !"
+      },
+      {
+        "speaker": "A",
+        "en": "What if we want to take a vacation ? Who will we leave it with? Plus, our apartment is too small for that breed of dog."
+      },
+      {
+        "speaker": "B",
+        "en": "Ok. How about we get a cat or a ferret!"
+      },
+      {
+        "speaker": "A",
+        "en": "We’re planning on having children soon, I don’t think those animals are a good idea with a baby in the house."
+      },
+      {
+        "speaker": "B",
+        "en": "Fine! Let’s get a bird then! We can keep it in its cage and teach it to talk! A parrot would be awesome!"
+      },
+      {
+        "speaker": "A",
+        "en": "I’ll tell you what, I can get you some hamsters and we’ll take it from there ."
+      },
+      {
+        "speaker": "B",
+        "en": "Yay!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "a hundred times",
+        "uz": "yuz marta (koʻp marta, qayta-qayta maʼnosida)",
+        "defEn": "many times; again and again"
+      },
+      {
+        "en": "to look after",
+        "uz": "qaramoq, gʻamxoʻrlik qilmoq (masʼuliyatni olmoq)",
+        "defEn": "to take care of someone or something"
+      },
+      {
+        "en": "to bathe",
+        "uz": "yuvintirmoq, choʻmiltirmoq",
+        "defEn": "to wash a person or an animal"
+      },
+      {
+        "en": "a breed",
+        "uz": "zot, nasl (hayvonning turi)",
+        "defEn": "a particular kind or type of animal, e.g. of dog"
+      },
+      {
+        "en": "to take it from there",
+        "uz": "shu yerdan davom ettirmoq, keyin koʻramiz deb boshlamoq",
+        "defEn": "to continue on from a point once you have started"
+      },
+      {
+        "en": "awesome",
+        "uz": "zoʻr, ajoyib",
+        "defEn": "extremely good; excellent"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "161020",
+    "title": "Do opposites attract?",
+    "titleUz": "Qarama-qarshiliklar bir-birini tortadimi?",
+    "audio": {
+      "main": {
+        "path": "sixmin/161020/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6036896,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "What percentage of Americans said they believe in love at first sight?",
+        "qUz": "Amerikaliklarning necha foizi ilk koʻrishdayoq sevgiga ishonishini aytgan?",
+        "options": [
+          "26%",
+          "56%",
+          "86%"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 56%. Sophie 26% dedi va xato qildi. 2013-yilgi CBS.com soʻrovnomasiga koʻra amerikaliklarning 56% ilk koʻrishda sevgiga ishonadi, turmush qurganlar orasida bu raqam yanada yuqori."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "a bolt out of the blue",
+        "uz": "kutilmaganda boʻlgan voqea, momaqaldiroqdek kutilmagan narsa",
+        "defEn": "something totally unexpected"
+      },
+      {
+        "en": "sceptical",
+        "uz": "shubha bilan qaraydigan, ishonqiramaydigan",
+        "defEn": "having doubts about something"
+      },
+      {
+        "en": "ratio",
+        "uz": "nisbat (ikki oʻlcham orasidagi bogʻliqlik)",
+        "defEn": "the relationship between two sizes or amounts"
+      },
+      {
+        "en": "to correlate",
+        "uz": "oʻzaro bogʻliq boʻlmoq, mos kelmoq",
+        "defEn": "to have a strong relationship with something"
+      },
+      {
+        "en": "an hourglass figure",
+        "uz": "qumsoat shaklidagi qomat (beli ingichka, egri-bugri)",
+        "defEn": "a curvy body shape with a well-defined waist"
+      },
+      {
+        "en": "aesthetically",
+        "uz": "tashqi koʻrinishiga qarab, goʻzallik jihatidan",
+        "defEn": "judging something by the way it looks"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "The Law of Attraction: focus on what you want",
+      "channel": "Joe Vitale"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a positive change you want to attract into your life. What have you just started or not done yet? And what will happen — as long as you keep going, or unless you give up?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect + just/already/yet/still (I have just…, I haven't … yet) va kengaytirilgan birinchi shart (as long as…, unless…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/20/main.mp3",
+      "bytes": 9054632
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/20/main.pdf",
+      "bytes": 167180
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/20/vocab.mp3",
+      "bytes": 5015993
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/20/ministory.mp3",
+      "bytes": 7179136
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/20/pov.mp3",
+      "bytes": 4987510
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/20/pov.pdf",
+      "bytes": 142598
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0240/dg.mp3",
+      "bytes": 503537
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0240/transcript.pdf",
+      "bytes": 86345
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/161020/audio.mp3",
+      "bytes": 6036896
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/161020/transcript.pdf",
+      "bytes": 201884
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

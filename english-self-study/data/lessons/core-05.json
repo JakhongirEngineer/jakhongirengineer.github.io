@@ -1,0 +1,798 @@
+{
+  "schemaVersion": 2,
+  "id": "core-05",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 5,
+  "slug": "thought-mastery",
+  "title": "Thought Mastery",
+  "titleUz": "Fikrni boshqarish",
+  "level": "A2-B1",
+  "tags": [
+    "mindset",
+    "thoughts",
+    "nlp",
+    "gerund-infinitive",
+    "modals-deduction"
+  ],
+  "intro": {
+    "uz": "Thought Mastery — fikrlaringizni boshqarish va yoʻnaltirish. AJ Hoge NLP (neuro-linguistic programming) yordamida miyani xuddi kompyuterdek dasturlashni, salbiy tasavvurlarni ijobiyga almashtirishni koʻrsatadi. Bu haftaning ikki grammatikasi shu ichki suhbat tilida: gerundiy va infinitiv 1 (enjoy doing / want to do) va hozirgi zamon xulosasi (must / might / can't be).",
+    "en": "Thought Mastery — controlling and directing your own thoughts. AJ Hoge uses NLP (neuro-linguistic programming) to show how to program your brain like a computer and swap negative pictures for positive ones. This week's two grammar topics are the language of that inner talk: gerund vs infinitive 1 (enjoy doing / want to do) and modals of present deduction (must / might / can't be)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida enjoy/keep/stop dan keyin -ing, want/decide/need dan keyin to + feʼlni toʻxtamasdan toʻgʻri ishlata olasiz va biror fikr yoki holat haqida ishonch darajangizni (must be / might be / can't be) ayta olasiz.",
+    "en": "By the end you can correctly use -ing after enjoy/keep/stop and to + verb after want/decide/need without pausing, and say how sure you are about a thought or situation (must be / might be / can't be)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "gerund-infinitive-1",
+      "titleUz": "Gerundiy va infinitiv 1: enjoy doing / want to do",
+      "titleEn": "Gerund vs infinitive (1)",
+      "bandLifter": "IELTS Part 2 — say what you enjoy doing and what you decided to do",
+      "cefrCanDo": "B1: I can choose -ing or to + verb correctly after common verbs",
+      "bodyHtml": "<p>Bu darsning butun mavzusi — fikrni boshqarish, ichki suhbat. Va ichki suhbat aynan shu qolip bilan yuradi: <em>&quot;I <strong>keep thinking</strong> about it. I <strong>decided to change</strong>. I <strong>stopped worrying</strong>.&quot;</em> Eʼtibor bering — baʼzi feʼllardan keyin <strong>-ing</strong> (<em>thinking, worrying</em>), baʼzilaridan keyin esa <strong>to + feʼl</strong> (<em>to change</em>) keladi. Qaysi biri qachon? Mana shu — bu haftaning grammatikasi.</p>\n<h3>Ikki shakl: <code>-ing</code> (gerund) va <code>to + feʼl</code> (infinitive)</h3>\n<p>Ingliz tilida bir feʼldan keyin ikkinchi feʼl kelsa, u ikki shaklning birida boʻladi:</p>\n<ul>\n<li><strong>gerund</strong> — feʼl + <strong>-ing</strong>: <em>doing, thinking, studying</em> (ot kabi, ish nomi sifatida ishlaydi)</li>\n<li><strong>infinitive</strong> — <strong>to</strong> + feʼl: <em>to do, to think, to study</em></li>\n</ul>\n<p>Muammo shundaki, qaysi shakl kelishini <strong>birinchi feʼlning oʻzi</strong> belgilaydi. Buni quruq qoida bilan emas, koʻp eshitib, quloq bilan esda qoldiramiz.</p>\n<h3><code>-ing</code> talab qiladiganlar: enjoy / keep / stop / finish</h3>\n<p>Zavq, davomiylik va toʻxtash feʼllari koʻpincha <strong>-ing</strong> oladi:</p>\n<ul>\n<li><em>I <strong>enjoy learning</strong> English.</em> — Ingliz tili oʻrganishdan zavq olaman.</li>\n<li><em>She <strong>kept listening</strong> to Swahili every day.</em> — U har kuni Swahilini tinglashda davom etdi.</li>\n<li><em>I <strong>stopped worrying</strong> about small mistakes.</em> — Kichik xatolar haqida tashvishlanishni toʻxtatdim.</li>\n</ul>\n<p>Shu guruh: <em>enjoy, keep, stop, finish, avoid, mind, practise</em> — hammasi <strong>-ing</strong>.</p>\n<h3><code>to + feʼl</code> talab qiladiganlar: want / decide / need / begin</h3>\n<p>Xohish, qaror va rejaga oid feʼllar <strong>to + feʼl</strong> oladi:</p>\n<ul>\n<li><em>Sri <strong>wanted to study</strong> Swahili.</em> — Sri Swahili oʻrganmoqchi edi.</li>\n<li><em>She <strong>decided to sleep</strong> only 30 minutes.</em> — U atigi 30 daqiqa uxlashga qaror qildi.</li>\n<li><em>I <strong>need to practise</strong> every single day.</em> — Har kuni mashq qilishim kerak.</li>\n</ul>\n<p>Shu guruh: <em>want, decide, need, hope, plan, learn, would like</em> — hammasi <strong>to + feʼl</strong>.</p>\n<h3>Oʻzbekcha bilan solishtiring</h3>\n<p>Oʻzbek tilida bu farq <strong>yoʻq</strong>: ikkala holatda ham <em>&quot;-ish&quot;</em> qoʻshimchasi ishlaydi — <em>&quot;oʻqi<strong>shni</strong> yaxshi koʻraman&quot;</em>, <em>&quot;oʻqi<strong>shni</strong> xohlayman&quot;</em>. Ingliz tili esa ikkiga ajratadi: <em>&quot;I enjoy study<strong>ing</strong>&quot;</em>, lekin <em>&quot;I want <strong>to</strong> study&quot;</em>. Shuning uchun oʻzbek oʻquvchi koʻpincha ❌ <em>&quot;I want studying&quot;</em> yoki ❌ <em>&quot;I enjoy to study&quot;</em> deb yuboradi. Bu — juda tez-tez uchraydigan xato.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> qoidani yodlamang — jumlalarni butunligicha ovoz chiqarib takrorlang: <em>&quot;I enjoy learning… I decided to change… I keep trying.&quot;</em> Miya qaysi feʼl qaysi shaklni &quot;chaqirishini&quot; tovush orqali oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida bu farq yoʻq: “oʻqishni yaxshi koʻraman” ham, “oʻqishni xohlayman” ham bir xil “-ish” bilan yasaladi. Ingliz tili esa ikkiga ajratadi: enjoy/keep/stop dan keyin feʼl + -ing (I enjoy studying), lekin want/decide/need dan keyin to + feʼl (I want to study).",
+      "errorFixUz": "❌ I want studying. I enjoy to learn. ✅ I want to study. I enjoy learning. want/decide/need/hope → to + feʼl; enjoy/keep/stop/finish/avoid → feʼl + -ing. Buni feʼllar guruhi bilan eslab qoling.",
+      "examples": [
+        {
+          "en": "Sri wanted to study Swahili.",
+          "uz": "Sri Swahili oʻrganmoqchi edi."
+        },
+        {
+          "en": "She kept listening to Swahili every day.",
+          "uz": "U har kuni Swahilini tinglashda davom etdi."
+        },
+        {
+          "en": "I decided to change my morning routine.",
+          "uz": "Ertalabki tartibimni oʻzgartirishga qaror qildim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I enjoy ___ to English every morning.",
+          "options": [
+            "listening",
+            "to listen",
+            "listen"
+          ],
+          "answer": "listening",
+          "hintUz": "enjoy dan keyin feʼl + -ing: listening"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She decided ___ only 30 minutes a day.",
+          "options": [
+            "to sleep",
+            "sleeping",
+            "sleep"
+          ],
+          "answer": "to sleep",
+          "hintUz": "decide dan keyin to + feʼl: to sleep"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Keep ___ — don't give up now!",
+          "options": [
+            "trying",
+            "to try",
+            "try"
+          ],
+          "answer": "trying",
+          "hintUz": "keep dan keyin feʼl + -ing: trying"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I enjoy … . I want to … . I decided to … .” Har uchala qolipni ishlating.",
+          "answer": null,
+          "hintUz": "enjoy/keep/stop → -ing; want/decide/need → to + feʼl"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "modals-present-deduction",
+      "titleUz": "Hozirgi zamon xulosasi: must / might / can't be",
+      "titleEn": "Modals of present deduction: must / might / can't be",
+      "bandLifter": "IELTS Speaking — sound natural when you guess and deduce",
+      "cefrCanDo": "B1→B2: I can express how certain I am (must / might / can't be)",
+      "bodyHtml": "<p>Fikrni boshqarishning bir qismi — fikrni <strong>baholash</strong>: <em>&quot;That thought <strong>can't be</strong> true. It <strong>might be</strong> just fear. That worry <strong>must be</strong> coming from an old memory.&quot;</em> Bu yerda <em>must / might / could / can't</em> feʼllari haqiqatni emas, bizning <strong>xulosamizni</strong>, taxminimizni bildiradi. EnglishPod suhbatida ham buni eshitasiz: <em>&quot;It <strong>must have</strong> a virus.&quot;</em>, 6 Minute Englishʼda esa: <em>&quot;<strong>Can</strong> that <strong>be</strong> true?&quot;</em></p>\n<h3>Maʼnosi: taxmin qanchalik ishonchli</h3>\n<p>Bu modallar hozirgi holat haqidagi <strong>mantiqiy xulosa</strong> uchun ishlatiladi — biz aniq koʻrmayapmiz, lekin dalildan kelib chiqib taxmin qilyapmiz. Farq — <strong>ishonch darajasida</strong>:</p>\n<table>\n<thead>\n<tr>\n<th>Modal</th>\n<th>Maʼnosi</th>\n<th>Ishonch</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>must be</strong></td>\n<td>aniq shundaydir</td>\n<td>~95% ha</td>\n</tr>\n<tr>\n<td><strong>might / could be</strong></td>\n<td>boʻlishi mumkin</td>\n<td>~50%</td>\n</tr>\n<tr>\n<td><strong>can't be</strong></td>\n<td>boʻlishi mumkin emas</td>\n<td>~95% yoʻq</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>He isn't answering. He <strong>must be</strong> busy.</em> — Javob bermayapti. Band boʻlsa kerak.</li>\n<li><em>This thought <strong>might be</strong> wrong.</em> — Bu fikr xato boʻlishi mumkin.</li>\n<li><em>That <strong>can't be</strong> true.</em> — Bu rost boʻlishi mumkin emas.</li>\n</ul>\n<p>Diqqat: &quot;aniq yoʻq&quot; (inkor xulosa) uchun <em>mustn't</em> emas, <strong>can't</strong> ishlatamiz: <em>&quot;He <strong>can't be</strong> at home&quot;</em> = &quot;u uyda boʻlishi mumkin emas&quot;.</p>\n<h3>Shakli sodda</h3>\n<p><strong>modal + be</strong> (yoki asosiy feʼl) — feʼlga <em>-s</em> ham, <em>to</em> ham qoʻshilmaydi, va u shaxsga qarab oʻzgarmaydi:</p>\n<ul>\n<li><em>She <strong>must know</strong> the answer.</em> (❌ <em>must to know</em>, ❌ <em>must knows</em>)</li>\n<li><em>It <strong>could be</strong> a mistake.</em> — Bu xato boʻlishi mumkin.</li>\n<li><em>They <strong>might be</strong> at home now.</em> — Ular hozir uyda boʻlishi mumkin.</li>\n</ul>\n<p><em>could</em> va <em>might</em> deyarli bir xil — ikkalasi ham &quot;boʻlishi mumkin&quot; degan zaif taxminni bildiradi, shuning uchun ularni bemalol almashtira olasiz.</p>\n<h3>Oʻzbekcha bilan solishtiring</h3>\n<p>Oʻzbek tilida taxminni <em>&quot;-sa kerak&quot;</em>, <em>&quot;boʻlishi mumkin&quot;</em>, <em>&quot;boʻlmasa kerak&quot;</em> bilan aytamiz: <em>&quot;Band boʻlsa kerak&quot;</em>. Ingliz tili buni bitta modal soʻzga jamlaydi: <em>&quot;He <strong>must be</strong> busy.&quot;</em> Oʻzbek oʻquvchi koʻpincha faqat <em>&quot;maybe he is busy&quot;</em> deb ketaveradi — bu notoʻgʻri emas, ammo <em>&quot;he must be busy&quot;</em> ancha tabiiy va aniqroq eshitiladi hamda darajangizni koʻrsatadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> kun davomida atrofingizga qarab ovoz chiqarib taxmin qiling: <em>&quot;She's smiling — she <strong>must be</strong> happy. That bag <strong>might be</strong> expensive. He <strong>can't be</strong> serious!&quot;</em> Shu bilan bu modallar oʻz-oʻzidan tilingizga oʻrnashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha taxminni “-sa kerak”, “boʻlishi mumkin”, “boʻlmasa kerak” bilan aytamiz: “Band boʻlsa kerak”. Ingliz tili buni bitta modal soʻzga jamlaydi: “He must be busy.” Oʻzbek oʻquvchi koʻpincha faqat “maybe he is busy” deydi — bu xato emas, ammo “he must be busy” ancha tabiiyroq va aniqroq eshitiladi.",
+      "errorFixUz": "❌ He must to be busy. He must is busy. ✅ He must be busy. must/might/could/can't + be (feʼlga to ham, -s ham qoʻshilmaydi). “Aniq yoʻq” uchun mustn't emas, can't be ishlatiladi: It can't be true.",
+      "examples": [
+        {
+          "en": "This computer is so slow — it must have a virus.",
+          "uz": "Bu kompyuter juda sekin — virus boʻlsa kerak."
+        },
+        {
+          "en": "That negative thought might be just fear.",
+          "uz": "U salbiy fikr shunchaki qoʻrquv boʻlishi mumkin."
+        },
+        {
+          "en": "That can't be true — I don't believe it.",
+          "uz": "Bu rost boʻlishi mumkin emas — ishonmayman."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "He isn't answering his phone. He ___ busy.",
+          "options": [
+            "must be",
+            "must to be",
+            "must is"
+          ],
+          "answer": "must be",
+          "hintUz": "aniqqa yaqin taxmin (~95%): must + be"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'm not sure — it ___ a small mistake.",
+          "options": [
+            "might be",
+            "might is",
+            "might to be"
+          ],
+          "answer": "might be",
+          "hintUz": "~50% taxmin: might + be"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "That ___ true! Nobody speaks 247 languages.",
+          "options": [
+            "can't be",
+            "mustn't be",
+            "don't be"
+          ],
+          "answer": "can't be",
+          "hintUz": "“aniq boʻlishi mumkin emas” → can't be"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Atrofingizdagi bir narsa haqida ovoz chiqarib uchta taxmin ayting: “… must be … . … might be … . … can't be … .”",
+          "answer": null,
+          "hintUz": "modal + be; ishonchga qarab must / might / can't be tanlang"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/05/main.mp3",
+      "durationSec": 855,
+      "bytes": 10274038,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/05/vocab.mp3",
+      "durationSec": 460,
+      "bytes": 5534279,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/05/ministory.mp3",
+      "durationSec": 1222,
+      "bytes": 14670123,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ Hoge. Welcome to the next lesson. Today we’re going to talk about “Thought Mastery.” And what thought mastery is, it’s controlling and managing your thoughts. And when you control your thoughts, when you manage your thoughts, when you can change and shift your thoughts, you change and shift your motivation.",
+      "You change and shift your emotion. And that causes you to change and shift your actions. And a lot of what we’re going to talk about today comes from NLP. That’s neuro-linguistic programming which is a very long word. Neuro means nerve or brain, something to do with the nerves or the brain or the nervous system, neuro.",
+      "Linguistic we’ve learned already. Linguistic means language. And programming, of course, is similar to programming a computer, telling it something, what to do. So what it talks about is how to program your brain with language and with thoughts and with pictures. That’s neuro-linguistic programming.",
+      "It was developed by several different people, one of the most famous people is Richard Bandler developed this system called NLP. And NLP is designed to help you kind of control your brain a little better. To decide the kind of images, decide the kind of thoughts you want to have in your brain.",
+      "And by doing that, by changing your thoughts you will change your emotions and your actions. One of the key techniques of NLP is to take images that you have in your brain and to modify them and change them.",
+      "So a lot of times we have negative pictures in our head and we don’t realize how powerful they are, how much they affect us, how they change the way we act, how they change the way we feel. And so what we want to do is look at the pictures that we make in our head and we want to choose them.",
+      "We want to change them and choose better pictures. Let me give you an example. Let’s talk about English class, English class. Imagine in your head an English class. What do you see? What picture comes into your head when I say English class? For example, do you see a room with a lot of students in it?",
+      "Are they sitting at little desks in rows? Are they moving a lot or are they still? What about the teacher? Where is the teacher? Is the teacher at the front of the class standing above the students talking down to them? Do the students look happy? Are they smiling or do they look bored? What about the quality of this picture in your head?",
+      "Is it bright and sunny and colorful? Or is it kind of dark, maybe black and white? Is it loud? Is there music or is it quiet? Or is it silent? Is it big and in your face, close to you, or small and far away?",
+      "All of these qualities of the picture will change your emotional feeling. So, for example, if we take this picture and we imagine this class, this is the image I have in my head when I think English class, and you know, it’s not a very positive one. It comes from an experience I had in Japan.",
+      "It’s kind of the typical English class that I see in my head whenever I hear that word. It’s kind of dark, there’s no movement. It’s not a happy picture. So what do I want to do if I want to change my belief about English and English classes? One thing I can do is change the pictures I make in my head.",
+      "So, for example, we can take that picture, we can change it. We can choose a better picture. Instead I can see a circle of students. Let’s imagine a circle of students. And then I’m going to add color. Everybody is wearing nice colorful clothes. And then I imagine everybody smiling, big smiles.",
+      "And I imagine movement, I add movement to the picture. So now people are up, they’re jumping around, they’re moving, they’re talking. They’re alive. I add sound. I add happy, talking, smiling, laughing, maybe a little music in the background. I take this happy, colorful picture and I make it bigger in my head.",
+      "I bring it closer to me and bigger so it fills up everything in front of me. Now do that yourself. Imagine this happy picture of an English class and make it big and colorful, with sound, with laughter, with music. Does it change the way you feel about this word…English class? It probably does.",
+      "So we can do this with anything, with any image. And what you do is you take first your negative image, so let’s go back again to the negative, sad image of an English class. Maybe you can remember one from your past.",
+      "What we’re going to do now is look at that negative picture and we’re going to change it like it’s a TV set and we’re going to play around with it. So the first thing I want you to do is make it darker. So you have this picture in your head, it’s a negative feeling, it’s a negative memory…make it darker.",
+      "Make the picture darker in your head. Next, push it away from you. So if it’s close to you, push it away so that it becomes smaller and smaller and smaller. Keep pushing it away until it disappears to nothing. And now suddenly, think of the positive, happy picture.",
+      "So replace it with the big, large, colorful, loud picture in your head of a happy, fun English class. See it in your head and let yourself feel how you would feel if you were in that picture.",
+      "So put yourself now into the picture, step into it so now you are in that English class with all these smiling, happy people with all this color, with all this laughter, with all the music. Does that change how you feel? It should, it usually does. So what you want to do now is program yourself to do this every time.",
+      "So what you do, you do this same process again and again and again. Maybe 50 times, maybe 100 times. You do it quickly. So, for example, you go back again. Go back to the negative image. Okay, see that negative class, oh, boring, terrible, that old memory you have. And again, quickly, make it darker, make it smaller.",
+      "Push it away, smaller, smaller, smaller, until it disappears. And now suddenly, boom, see the big, happy, colorful picture again. This great, happy, wonderful English class, and step into the picture",
+      "again. Feel yourself there with all these people who are laughing and having a great time. See the color. Make it big. Okay, great. Now back again to the negative one, the old memory. See it again, the old, negative, terrible English class. And again, make it darker.",
+      "Turn the light down, darker, darker, and then now make it smaller and push it away, farther, farther, farther, until it disappears. Boom! See the big, happy, wonderful English class again, color, laughter, happiness. Step into that picture. Be part of it. Now you can do this again and again and again.",
+      "In fact, you could do this every day, maybe 10 times or 20 times. If you’re really motivated you could do it 100 times in a row at the same time, very fast. You take the negative picture, you shrink it, you make it darker, you push it away. It disappears suddenly, boom, a big, happy, positive, colorful picture.",
+      "And then you go back to the negative, disappear, boom, a big, happy, colorful, positive picture, again and again and again. So here’s what happens. What’s really interesting is when you do this again and again and again you are programming your brain like a computer.",
+      "So after you do it enough times, in the future when you think English class, or someone says English class, automatically this process happens. Automatically, boom, you see in your head a big, happy, wonderful picture and you feel really good.",
+      "You’re teaching yourself to feel good about this phrase or this idea or this experience called English class. And in this way you can totally change your feelings about English or English class. You can do this with any negative memory or negative image you have in your head.",
+      "If you’ve had several bad experiences with English, take those pictures, take those memories, do this same process. Look at them carefully. Then make them darker, then smaller. Then push them away, and then suddenly, boom, replace them with a big, positive, happy, colorful picture and then join the picture.",
+      "And back again and again and again and again, you know, probably you need a total of 100 to 200 times, so you can do it very, very fast. It just takes a few seconds, so in 5 minutes or 10 minutes, you could do this 100 times or 150 times. And you’re programming your brain just like a computer to think in a more positive way.",
+      "So you can totally change the way you feel about English learning. You can totally change your old, negative memories, beliefs and feelings about English. What will this do for you? It will give you so much more energy when you learn English.",
+      "It will totally change your feelings about learning English that will help your motivation and that will cause you to learn faster. All of the things we’re learning in this program and these lessons are about getting you to learn faster. It’s not just about feeling happy about English, it’s about learning more quickly, more efficiently.",
+      "And it just so happens that having more positive emotions and more energy and more motivation will cause you to learn English much, much faster. I’ve seen this myself in my experience as a teacher with many of my students. And there’s also a lot of academic research about this same topic. And it all says the same",
+      "thing. That when you’re happy, when you’re motivated, when you have strong, positive feelings and thoughts about the language you’re learning, in this case English, you learn much faster. That the psychology and the emotion is more important than the method. Good methods are important, of course.",
+      "You want to use the best methods, but without the psychology, without the emotion, no method will work successfully. You absolutely must take care of this part of the learning process. You must manage your thoughts, your emotions, your motivation, if you truly want to speak excellent English. So, your homework is go through this process.",
+      "Take some of your negative feelings and memories about English. And then using the same process, see the picture. Make it darker, smaller, push it away, and then suddenly replace it with a big, strong, positive image, picture. And I want you to do this again and again and again. I want you to do it 100 times in a row, very quickly.",
+      "I think you’ll find that it will make big changes to the way you feel about English and will really boost up and strengthen your motivation. Okay, that is all for this lesson. I will see you for the vocab."
+    ],
+    "vocab": [
+      "Hello, this is AJ. Welcome to the vocabulary lesson for “Thought Mastery.” This is going to be a little bit of a short vocabulary lesson but that’s okay. Let’s start. Let’s start again with NLP. NLP is an abbreviation for neuro-linguistic programming. NLP is a technique or really it’s a method for managing your brain.",
+      "It’s a psychological method. And the parts NLP, the parts of that abbreviation are N means neuro, neuro. So neuro means nerve, it really means nerve, something to do with the nervous system, related to the nervous system. So, for example, we have neurosurgeons.",
+      "A surgeon is a doctor, a kind of doctor, so a neurosurgeon is a doctor who specializes, a doctor who focuses on nerves, especially the brain. So again, neuro means related to nerves related to the brain, related to the nervous system, neuro. You see this in a lot of different words, so neurosurgeon, neuroscience, etc.",
+      "Okay, and then we have linguistic which we’ve talked about already but let’s talk about it one more time. Linguistic means related to language, related to language, linguistic. And of course, programming again, programming means to develop specific commands for something, a system of actions.",
+      "Usually we use it with computers but you can do it with your own brain, too. Alright, so that’s NLP, neuro-linguistic programming. Another word I use in this talk, a very common word, is modify, to modify. To modify means to change something a little bit.",
+      "It has the idea of a little bit, so if you say modify the picture, it means change the picture but it usually has this idea of a small amount, not totally. So we modify the color, for example, we change just the color. Then we modify the size, we make something larger or smaller.",
+      "And we modify, this, this, this, this, and then totally it might be a big change, but each individual change is small. So we use the word modify, to modify. Alright, another word I used, another phrase actually I used in this lesson was boost up.",
+      "To boost or to boost up, sometimes we say to boost, sometimes we add up and we say to boost up. They both have a similar meaning. To boost means to make something stronger or higher. So, for example, we can boost up a child, what does that mean?",
+      "Well usually, we use it in a situation where the child is sitting on the floor, but they need to be higher. For example, to eat at the table, maybe they’re too low. They’re short so we want to boost them up. We give them a taller chair, boost up the child. In this talk I’m talking about boosting up your energy.",
+      "It means lifting your energy, bringing your energy higher. So a boost means to give something extra, extra high, push something up is the",
+      "idea. You boost up, it means you push up or lift up. So you want to boost up your motivation. You want to boost up your energy. You want to increase it, lift it up, push it up. Another word I used in this talk, in fact I’ve used it a lot in these lessons, is the word mastery.",
+      "You probably already know mastery, but let’s talk about it a little bit. Mastery means to be excellent at something. So it comes from the word master, which is a noun. A master is someone who is really, really, really good at something. For example, we’ll talk about Tiger Woods again. Tiger Woods is a master at golf.",
+      "Right, he’s a super, really excellent, amazing, wow, wonderful guy at golf. He is a golf master. So mastery, mastery is the situation of being really good at something. It’s the quality of being really good at something. I have mastery in English. It means I am super great at English. So you have mastery. I have mastery in playing tennis.",
+      "I have tennis mastery. If you say “I have tennis mastery” it means you’re a great tennis player. You are great at every part of tennis, you can do everything. You’re one of the top tennis players. So that’s what mastery means, to have mastery. To have golf mastery, English mastery, tennis mastery.",
+      "It’s not just good, it’s not just very good, it’s super good. It’s the top. It’s the very top. So you want English mastery, right? You want to have total skill in English like a native speaker.",
+      "So I have English mastery, all native speakers…well I won’t say all… but most native speakers have English mastery if they were born in an English speaking country. If you’re born in a Spanish speaking country you have Spanish mastery.",
+      "So as a student, you want to acquire, you want to get that same mastery, that excellent level, that top level of ability. Okay, that is the end of our vocabulary lesson, a very short and easy vocabulary lesson for this lesson. Listen to it a couple of times and then go, as always, to the mini-story.",
+      "Remember, the mini-story is the most important lesson. In all of these lesson packs, it’s always the mini-story that you should focus on. The main article, yes, but also the mini-story. The mini-story is where you will get most of your English. The mini-story is designed to teach you grammar, especially grammar, intuitively, naturally.",
+      "You don’t need to think about it, just listen and answer the questions. Listen and answer the questions. All these easy repetitive questions are actually putting the grammar, English grammar, into your brain a little deeper each time. Don’t think about it, just enjoy the stories again and again and again. Okay, I will see you next time."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English – the programme where we bring you an interesting topic and six items of vocabulary. I'm Neil.",
+      "Catherine: And I'm Catherine. Now, this programme is six minutes long.",
+      "Neil: Yes. It's 6 Minute English!",
+      "Catherine: And we have a challenge for everyone – can you stay focused for the full six minutes?",
+      "Neil: Sounds easy? Maybe not, because today we're talking about our attention spans: are they shrinking?",
+      "Catherine: That's right, so we're asking today: is the length of time we can focus on something – that's our attention span – actually getting shorter? Now, one study says that – in fact, it claims the human attention span is now shorter than that of a goldfish.",
+      "Neil: Can that be true? Smartphones, the internet, social media – these all certainly do take up a lot of our attention. But how much? How long do we look at our mobile phones for in a day, on average? Is it… a) around 30 minutes, b) around two and a half hours, or c) over three hours?",
+      "Catherine: I tend to be quite busy, but I know some people are really addicted to their mobile phones so I'm going to say around two and a half hours - that's answer 'b'.",
+      "Neil: OK, so, a report released by Microsoft said the average human attention span in 2000 was 12 seconds. Since then it's fallen to just eight seconds.",
+      "Catherine: Right, and that's a massive change in a very short time. Now, the year 2000 was just before the boom in digital media and smartphones, so many think they're to blame for all these distractions – now, distractions are things which take away our focus or attention.",
+      "Neil: Yes. And we mentioned goldfish earlier – goldfish reportedly have an attention span of nine seconds. That's one more than phone-obsessed humans with a mere eight seconds!",
+      "Catherine: And there's a phrase in English – we say ‘to have the attention span of a goldfish'. Or ‘the memory of a goldfish'. So these poor… poor gold goldfish, Neil.",
+      "Neil: Yes, they get a bad press, don't they? That's a phrase which means ‘criticism' – especially criticism in the media and especially in newspapers – or the ‘press', as we call it.",
+      "Catherine: So – is it really true than humans are now even more easily distracted than fish?",
+      "Neil: Well, BBC radio programme More or Less recently investigated this claim.",
+      "Catherine: That's right. And they found out a couple of things. Firstly – they couldn't find evidence of the research that Microsoft quoted in their report. In other words, the programme couldn't find scientific evidence that our attention spans are in fact shrinking.",
+      "Neil: And secondly – the psychologist they spoke to said there are problems with the idea of measuring attention spans in the first place. It's a term that's widely used, but it's not very scientific.",
+      "Catherine: Sounds fishy.",
+      "Neil: Yes. Fishy means ‘suspicious', by the way. Sorry, goldfish. Again.",
+      "Catherine: So, are we humans in fact more easily distracted than before? More or Less asked Dr Gemma Briggs, a psychologist at the Open University, if human beings are less able to focus these days.",
+      "INSERT: Dr Gemma Briggs, Psychology lecturer, Open University It's all down to the individual; it's all down to how you choose to apply your attention. So attention-switching ability may well have developed in recent years, in the age of the smartphone and the internet. But because someone's distracted by their smartphone or wanting to quickly Google something, it doesn't mean that they then don't have the ability to control and sustain their attention when they carry out another task.",
+      "Neil: So she says we're not necessarily more easily distracted. Instead, we may actually be better at switching our attention quickly between different tasks.",
+      "Catherine: That's right. She's really saying we can multitask better than before. And that means we can focus on many different tasks, each for a shorter period of time.",
+      "Neil: She said: “It's all down to how you choose to apply your attention.” Let's just highlight that phrase down to. Here, it means ‘depends on'. It all depends on how you choose to apply your attention.",
+      "Catherine: So – maybe our attention spans aren't getting shorter, we just choose to look at our phones a lot more.",
+      "Neil: Which reminds me today's question. I asked you how long on average we spend looking at our phones, and you said?",
+      "Catherine: Well, my attention span is not that short that I can't remember that I said two and a half hours.",
+      "Neil: And the answer – if you believe the research – is 2.42 hours per day so, pretty good guess there, Catherine.",
+      "Catherine: Thank you.",
+      "Neil: That comes from Chicago-based research firm Dscout. And what about this: the group they surveyed touched their mobiles over 2,600 times a day. Do you touch your phone 2,600 times a day, Catherine?",
+      "Catherine: I try not to, what about you?",
+      "Neil: It's probably more than that to be honest. Now, I'm sure everyone wants to get back to touching their phones – or maybe they're even touching them now as they listen – but either way, let's have a review of today's phrases.",
+      "Catherine: OK, so first we had attention span – that's the length of time we can focus on something. And mine is definitely shorter than it used to be… Neil? Neil?",
+      "Neil: Sorry – I just got distracted there by a message on my phone. Apologies.",
+      "Catherine: That's alright. So, next up we had a bad press. Goldfish get a bad press. Social media gets a bad press. And this means they all get criticism in the media.",
+      "Neil: And we had fishy. If something's fishy, it's suspicious.",
+      "Catherine: And we had multitask. To multitask is to do several things at once.",
+      "Neil: Then we had down to. Here it means ‘depends on', though it can mean other things in other contexts. You could say, it's all down to the context!",
+      "Catherine: And that's our quick review, and our programme for today. So, did you stay focused all the way through? Or were you distracted?",
+      "Neil: If you're looking for distractions – may I recommend our Facebook, Twitter, Instagram and YouTube pages?",
+      "Both: Goodbye."
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What was Sri?",
+        "a": "Well, she was a linguist."
+      },
+      {
+        "q": "What is a linguist?",
+        "a": "A linguist is a person who studies languages. Aha."
+      },
+      {
+        "q": "So what did Sri study?",
+        "a": "Languages, Sri studied languages. She was a linguist."
+      },
+      {
+        "q": "Was Sri a truck driver?",
+        "a": "No, she wasn’t a truck driver. Sri was a linguist."
+      },
+      {
+        "q": "Who was a linguist?",
+        "a": "Sri, Sri was a linguist."
+      },
+      {
+        "q": "How many languages did Sri speak? Three?",
+        "a": "No, not three."
+      },
+      {
+        "q": "Six?",
+        "a": "No, not six."
+      },
+      {
+        "q": "How many languages did she speak?",
+        "a": "247, Sri was an amazing linguist. She spoke 247 languages."
+      },
+      {
+        "q": "Wow. Did she have total mastery or was she pretty good?",
+        "a": "Total mastery, she had total mastery in 247 languages."
+      },
+      {
+        "q": "What kind of linguist was Sri?",
+        "a": "An incredible linguist, a super linguist, an amazing linguist."
+      },
+      {
+        "q": "Where do people speak Swahili?",
+        "a": "Africa, in Africa."
+      },
+      {
+        "q": "Did Sri want to speak Swahili or did she want to speak Japanese?",
+        "a": "Well, she already spoke Japanese perfectly, so she wanted a new language. She was bored, time for a new language. She wanted to speak Swahili."
+      },
+      {
+        "q": "Did she try to learn with her eyes or her ears?",
+        "a": "With her eyes, a visual method. Visual means with the eyes, connected to the eyes, related to seeing, visual. Visual. She tried a visual method first."
+      },
+      {
+        "q": "What kind of method did she try to learn Swahili with?",
+        "a": "A visual method, she tried a visual method for learning Swahili."
+      },
+      {
+        "q": "Did she listen to them or did she read them?",
+        "a": "Well, she read them, right? It was a visual method, she used her eyes. She read textbooks. She read grammar rules."
+      },
+      {
+        "q": "What language was she studying?",
+        "a": "Swahili, she was studying Swahili with a visual method."
+      },
+      {
+        "q": "Was the visual method successful for Sri?",
+        "a": "No, no, no, no, no, it was not successful for Sri. Sri failed with the visual method."
+      },
+      {
+        "q": "For how long did she study with the visual method?",
+        "a": "For two years, right? She studied with a visual method for two years."
+      },
+      {
+        "q": "Which language did she study for two years?",
+        "a": "Swahili, right? She studied Swahili with a visual method for two years."
+      },
+      {
+        "q": "Who studied Swahili with a visual method for two years?",
+        "a": "Sri, Sri studied Swahili with a visual method for two years."
+      },
+      {
+        "q": "Was she successful after two years?",
+        "a": "No, she failed. She was not successful after two years. She still could not speak Swahili."
+      },
+      {
+        "q": "Did she change her approach or did she keep the same approach?",
+        "a": "Well, she changed it. She modified her approach."
+      },
+      {
+        "q": "What did she modify?",
+        "a": "Her approach, her method, her technique. She changed her technique. She changed her way of learning. She modified her approach."
+      },
+      {
+        "q": "She modified her approach to what?",
+        "a": "To learning Swahili, she modified her approach to learning Swahili. She changed her technique for learning Swahili."
+      },
+      {
+        "q": "What kind of approach did she try next? Was it a visual approach again?",
+        "a": "No, it wasn’t. She modified her approach. She changed that."
+      },
+      {
+        "q": "Sounds interesting. What kind of method did she try next?",
+        "a": "Kinesthetic, she tried a kinesthetic method."
+      },
+      {
+        "q": "Who tried a kinesthetic method?",
+        "a": "Sri, Sri tried a kinesthetic method."
+      },
+      {
+        "q": "For what?",
+        "a": "For learning Swahili, she tried a kinesthetic method for learning Swahili."
+      },
+      {
+        "q": "Did she try to learn with her body or with her ears?",
+        "a": "With her body, she tried to learn Swahili with her body. She tried a kinesthetic method."
+      },
+      {
+        "q": "What was the kinesthetic method?",
+        "a": "Well, it was called TPR and she had to jump and move while learning. The teacher said “Jump” in Swahili, of course, and Sri would jump. The teacher said “Sit” in Swahili. And Sri would sit. She did this every day. Every day she jumped and sat and moved and walked and wrote and read, as the teacher told her to in Swahili. It was a kinesthetic method, right? She had to move her body. She was learning with movement. Kinesthetic."
+      },
+      {
+        "q": "Did this boost her learning?",
+        "a": "Oh yes, it did."
+      },
+      {
+        "q": "Did the kinesthetic method lessen or boost her learning?",
+        "a": "It boosted her learning. It increased her learning."
+      },
+      {
+        "q": "What boosted Sri’s learning of Swahili?",
+        "a": "The kinesthetic method, the kinesthetic method boosted her learning of Swahili."
+      },
+      {
+        "q": "Did it boost her learning a little or a lot?",
+        "a": "Of course, a lot, it boosted her learning a lot."
+      },
+      {
+        "q": "Which was faster, the visual method or the kinesthetic method?",
+        "a": "Well, the kinesthetic method obviously. The kinesthetic method was much faster. It boosted her learning a lot more."
+      },
+      {
+        "q": "What did it boost?",
+        "a": "It boosted her learning. It boosted her learning speed."
+      },
+      {
+        "q": "Of what?",
+        "a": "Of Swahili, it boosted her learning speed of Swahili."
+      },
+      {
+        "q": "What boosted her learning speed of Swahili?",
+        "a": "The kinesthetic method."
+      },
+      {
+        "q": "Did Sri become a master of Swahili by using the kinesthetic method?",
+        "a": "No, she did not. She did not become a master. She became good but she did not become a master by using the kinesthetic method."
+      },
+      {
+        "q": "Did she change her approach again, a little bit?",
+        "a": "Yes, she did. She changed it again. She modified it again."
+      },
+      {
+        "q": "What did she do next?",
+        "a": "Well, she added something this time. She continued to learn with the kinesthetic method but she added something more."
+      },
+      {
+        "q": "What did she add? What kind of method did she add next?",
+        "a": "Well, she added an auditory method."
+      },
+      {
+        "q": "Auditory, another new word, auditory. Auditory means related to hearing or listening, related to the ears. It shares the same root as audio, right? Audio meaning sound. Auditory means related to sound, related to listening, related to hearing, auditory. So a listening method is what she changed to or added. She added a listening method. What kind of method did she add?",
+        "a": "Auditory, she added an auditory method."
+      },
+      {
+        "q": "Who added an auditory method?",
+        "a": "Sri, of course. Sri added an auditory method."
+      },
+      {
+        "q": "Why?",
+        "a": "Because she wanted total mastery of Swahili."
+      },
+      {
+        "q": "Which language did she want to totally master?",
+        "a": "She wanted to totally master Swahili, of course."
+      },
+      {
+        "q": "So what did she add to her learning method?",
+        "a": "She added an auditory method, an auditory approach."
+      },
+      {
+        "q": "What did she add an auditory approach to? What did she add it to?",
+        "a": "She added it to the kinesthetic method. She was already using the kinesthetic method, then she added the auditory method to it. She added them together, doing both."
+      },
+      {
+        "q": "And she added a visual method?",
+        "a": "No, no, no, no, no, she did not add the visual method. She subtracted the visual method. She eliminated the visual method."
+      },
+      {
+        "q": "So what did she add?",
+        "a": "An auditory method, she added an auditory method."
+      },
+      {
+        "q": "How many hours did she listen to Swahili every day?",
+        "a": "23.5."
+      },
+      {
+        "q": "So how many hours did she sleep every day?",
+        "a": ".5, only 30 minutes. She decided to only sleep 30 minutes each day and she listened to Swahili 23.5 hours every day."
+      },
+      {
+        "q": "Was she successful?",
+        "a": "Yes she was."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "neuro-linguistic programming (NLP)",
+      "pos": "phrase",
+      "uz": "miyani til va tasavvurlar orqali “dasturlash” usuli",
+      "defEn": "a method for managing your brain using language and images",
+      "example": "AJ explains thought mastery using neuro-linguistic programming."
+    },
+    {
+      "en": "to modify (something)",
+      "pos": "v",
+      "uz": "bir oz oʻzgartirmoq, moslashtirmoq",
+      "defEn": "to change something a little bit, not totally",
+      "example": "You can modify the picture in your head."
+    },
+    {
+      "en": "to boost up (your energy)",
+      "pos": "phrase",
+      "uz": "koʻtarmoq, kuchaytirmoq, oshirmoq",
+      "defEn": "to make something stronger, higher or greater",
+      "example": "This will boost up your motivation to learn."
+    },
+    {
+      "en": "mastery",
+      "pos": "n",
+      "uz": "mukammal egallash, ustalik, yuqori daraja",
+      "defEn": "the situation of being excellent at something",
+      "example": "You want total mastery of English."
+    },
+    {
+      "en": "to have mastery in (something)",
+      "pos": "phrase",
+      "uz": "biror sohada mukammal darajaga ega boʻlmoq",
+      "defEn": "to be at the very top level of a skill",
+      "example": "Sri had mastery in 247 languages."
+    },
+    {
+      "en": "to manage your thoughts",
+      "pos": "phrase",
+      "uz": "fikrlaringizni boshqarmoq",
+      "defEn": "to control and direct what you think",
+      "example": "You must manage your thoughts and emotions."
+    },
+    {
+      "en": "to shift your thoughts",
+      "pos": "phrase",
+      "uz": "fikrlarni oʻzgartirmoq, yoʻnaltirmoq",
+      "defEn": "to move your thinking from one thing to another",
+      "example": "When you shift your thoughts, you shift your emotions."
+    },
+    {
+      "en": "to program your brain",
+      "pos": "phrase",
+      "uz": "miyani dasturlash (odat/reaksiyani shakllantirish)",
+      "defEn": "to train your brain to react automatically, like a computer",
+      "example": "You program your brain by repeating the process again and again."
+    },
+    {
+      "en": "a negative image",
+      "pos": "phrase",
+      "uz": "salbiy tasavvur, salbiy tasvir (miyadagi)",
+      "defEn": "a bad or unhappy picture you make in your head",
+      "example": "Take a negative image and make it smaller and darker."
+    },
+    {
+      "en": "to strengthen your motivation",
+      "pos": "phrase",
+      "uz": "ishtiyoqingizni mustahkamlamoq",
+      "defEn": "to make your desire to act stronger",
+      "example": "Positive pictures strengthen your motivation."
+    }
+  ],
+  "englishpod": {
+    "id": "0007",
+    "title": "The Office – Virus!",
+    "titleUz": "Ofisda — Virus!",
+    "warmup": {
+      "uz": "Bu suhbatda kompyuter qayta-qayta qotib qoladi, Samuel esa unda koʻplab zararlangan fayllar borligini aniqlaydi. AJ bugun miyani xuddi kompyuterdek dasturlash haqida gapiradi — salbiy fikrlar ham “virus” kabi ishlashiga xalaqit beradi. Sizningcha, virusning sababi nima — ehtiyotsiz internetmi yoki eskirgan himoya dasturmi?",
+      "en": "In this dialogue a computer keeps freezing, and Samuel finds it is full of infected files. Today AJ talks about programming your brain like a computer — negative thoughts work like a “virus” that clogs it. What do you think caused the virus — careless browsing, or out-of-date software?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0007/dg.mp3",
+        "durationSec": 73,
+        "bytes": 617870
+      },
+      "pr": {
+        "path": "englishpod/0007/pr.mp3",
+        "durationSec": 677,
+        "bytes": 10859333
+      },
+      "rv": {
+        "path": "englishpod/0007/rv.mp3",
+        "durationSec": 424,
+        "bytes": 6821994
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Oh great! This stupid computer froze again! That’s the third time today! Hey Samuel, can you come take a look at my PC? It’s acting up again. It must have a virus or something."
+      },
+      {
+        "speaker": "B",
+        "en": "Just give me a second; I’ll be right up."
+      },
+      {
+        "speaker": "B",
+        "en": "I ran a virus scan on your computer, and it turns out that you have a lot of infected files!"
+      },
+      {
+        "speaker": "A",
+        "en": "But I’m quite careful when I’m browsing the internet, I have no idea how I could have picked up a virus."
+      },
+      {
+        "speaker": "B",
+        "en": "Well, you have to make sure that your anti-virus software is updated regularly; yours wasn’t up to date, that’s probably what was causing your problems."
+      },
+      {
+        "speaker": "A",
+        "en": "Ok. Anything else?"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, try not to kick or hit the computer!"
+      },
+      {
+        "speaker": "A",
+        "en": "Um yeah… Sorry about that."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to freeze (a computer)",
+        "uz": "qotib qolmoq, ishlashdan toʻxtamoq (kompyuter)",
+        "defEn": "to stop working properly and not respond"
+      },
+      {
+        "en": "to take a look (at something)",
+        "uz": "koʻrib chiqmoq, nazar tashlamoq",
+        "defEn": "to examine or check something"
+      },
+      {
+        "en": "to act up",
+        "uz": "yaxshi ishlamay qolmoq, injiqlik qilmoq",
+        "defEn": "to stop working or behaving properly"
+      },
+      {
+        "en": "to be right up",
+        "uz": "hozir yuqoriga chiqaman (tez yetib boraman)",
+        "defEn": "to go upstairs or come very soon"
+      },
+      {
+        "en": "to pick up (a virus)",
+        "uz": "yuqtirmoq, ilashtirib olmoq",
+        "defEn": "to get or acquire something, often without meaning to"
+      },
+      {
+        "en": "to browse (the internet)",
+        "uz": "internetni koʻrib/kezib chiqmoq",
+        "defEn": "to look through or search the internet"
+      },
+      {
+        "en": "up to date",
+        "uz": "eng soʻnggi holatda, yangilangan",
+        "defEn": "having all the most recent information or updates"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170518",
+    "title": "Goldfish, brains and phones",
+    "titleUz": "Oltin baliq, miya va telefonlar",
+    "audio": {
+      "main": {
+        "path": "sixmin/170518/audio.mp3",
+        "durationSec": 379,
+        "bytes": 6074480,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How long do we look at our mobile phones for in a day, on average?",
+        "qUz": "Oʻrtacha bir kunda telefonimizga qancha vaqt qaraymiz?",
+        "options": [
+          "around 30 minutes",
+          "around two and a half hours",
+          "over three hours"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) around two and a half hours. Tadqiqotga koʻra, oʻrtacha kuniga 2.42 soat — bu taxminan ikki yarim soat. Catherine ham xuddi shu javobni tanlab, toʻgʻri topdi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "attention span",
+        "uz": "diqqat muddati (bir narsaga qancha vaqt eʼtibor bera olish)",
+        "defEn": "the length of time we can focus on something"
+      },
+      {
+        "en": "distractions",
+        "uz": "chalgʻituvchi narsalar",
+        "defEn": "things which take away our focus or attention"
+      },
+      {
+        "en": "a bad press",
+        "uz": "ommaviy axborotdagi salbiy fikr, tanqid",
+        "defEn": "criticism, especially in the media or newspapers"
+      },
+      {
+        "en": "fishy",
+        "uz": "shubhali, gumondor",
+        "defEn": "suspicious; seeming not quite right or honest"
+      },
+      {
+        "en": "to multitask",
+        "uz": "bir vaqtda bir necha ish qilmoq",
+        "defEn": "to do several things at the same time"
+      },
+      {
+        "en": "down to",
+        "uz": "bogʻliq, -ga qarab (bu yerda: bogʻliq)",
+        "defEn": "depending on; determined by something"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Reprogram Your Mind and Master Your Thoughts",
+      "channel": "Jim Kwik"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a habit or belief you want to change. What do you enjoy doing, and what have you decided to change? When a negative thought comes, how do you check it — must it be true, or might it just be fear?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: gerundiy/infinitiv (I enjoy … , I decided to … , I keep …) va hozirgi zamon xulosasi (that thought must/might/can't be …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/05/main.mp3",
+      "bytes": 10274038
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/05/main.pdf",
+      "bytes": 53345
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/05/vocab.mp3",
+      "bytes": 5534279
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/05/ministory.mp3",
+      "bytes": 14670123
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0007/dg.mp3",
+      "bytes": 617870
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0007/transcript.pdf",
+      "bytes": 93924
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170518/audio.mp3",
+      "bytes": 6074480
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170518/transcript.pdf",
+      "bytes": 223471
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

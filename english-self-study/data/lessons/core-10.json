@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 2,
+  "id": "core-10",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 10,
+  "slug": "reading-power",
+  "title": "Reading Power",
+  "titleUz": "Oʻqishning kuchi",
+  "level": "B1",
+  "tags": [
+    "reading",
+    "input",
+    "quantifiers",
+    "comparatives",
+    "krashen"
+  ],
+  "intro": {
+    "uz": "Dr. Stephen Krashenning gʻoyasi: til koʻnikmalari qoidalarni yodlashdan emas, koʻp va zavq bilan oʻqishdan oʻsadi. Oson romanlarni koʻp oʻqisangiz, grammatika, imlo va soʻz boyligi oʻz-oʻzidan yaxshilanadi. Oʻqish esa hajm bilan oʻlchanadi — shuning uchun bu haftaning ikki grammatikasi: miqdor va sanaladigan/sanalmaydigan otlar (much / many / a lot of) hamda mutanosiblik qolipi (the more…, the more…). Filbert maymun haqidagi POV hikoyada oʻqishning kuchini eshitasiz.",
+    "en": "Dr. Stephen Krashen's idea: language skills grow not from memorising rules but from reading a lot, for pleasure. Read many easy novels and your grammar, spelling and vocabulary improve on their own. And reading is measured in volume — so this week's two grammar topics are quantity with countable/uncountable nouns (much / many / a lot of) and the proportional pattern (the more…, the more…). You'll hear the power of reading in the POV story about Filbert the monkey."
+  },
+  "canDo": {
+    "uz": "Dars oxirida qancha oʻqishingiz haqida toʻgʻri gapira olasiz (much / many / a lot of) va \"qancha koʻp … shuncha koʻp …\" qolipi bilan ikki narsaning birga oʻzgarishini ravon tasvirlab bera olasiz.",
+    "en": "By the end you can talk correctly about how much you read (much / many / a lot of) and fluently describe two things changing together with the \"the more…, the more…\" pattern."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "quantifiers-countability",
+      "titleUz": "Miqdor va sanaladigan/sanalmaydigan otlar: much / many / a lot of",
+      "titleEn": "Quantifiers & countability — much / many / a lot of",
+      "bandLifter": "IELTS Part 1 — talk about how much you read and study",
+      "cefrCanDo": "B1: I can use much/many/a lot of correctly with count and uncount nouns",
+      "bodyHtml": "<p>Bu darsning butun gʻoyasi bir soʻz bilan oʻlchanadi: <strong>miqdor</strong>. AJ takror-takror aytadi: <em>&quot;Read <strong>a lot of</strong> books. Readers have <strong>much bigger</strong> vocabularies. <strong>How many</strong> novels can you read this year?&quot;</em> Oʻqish — bu hajm masalasi: kuniga bir oz, yiliga koʻp. Shuning uchun bu haftaning A grammatikasi — miqdorni toʻgʻri aytish: <strong>much / many / a lot of</strong> va ular ortidagi asosiy farq — <strong>sanaladigan va sanalmaydigan otlar</strong>.</p>\n<h3>Avval bitta savol: ot sanaladimi yoki yoʻqmi?</h3>\n<p>Ingliz tili har bir otni ikki guruhga ajratadi. Bu farqni sezmasangiz, much/many hech qachon toʻgʻri chiqmaydi.</p>\n<ul>\n<li><strong>Sanaladigan (countable):</strong> dona-dona sanash mumkin, koʻplik shakli bor — <em>a book → two books, a novel → many novels, a word → words.</em></li>\n<li><strong>Sanalmaydigan (uncountable):</strong> donalab sanalmaydi, koʻplik <code>-s</code> olmaydi — <em>reading, input, vocabulary, grammar, information, advice, time.</em></li>\n</ul>\n<p>Diqqat: <em>information</em>, <em>advice</em>, <em>vocabulary</em> oʻzbekchada koʻplikdek tuyulsa ham, ingliz tilida <strong>sanalmaydi</strong> — <em>informations</em> yoki <em>advices</em> deb boʻlmaydi.</p>\n<h3>Uch quti: <code>many</code>, <code>much</code>, <code>a lot of</code></h3>\n<table>\n<thead>\n<tr>\n<th>Soʻz</th>\n<th>Qaysi ot bilan</th>\n<th>Misol</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>many</strong></td>\n<td>sanaladigan koʻplik</td>\n<td><em>many books, many words</em></td>\n</tr>\n<tr>\n<td><strong>much</strong></td>\n<td>sanalmaydigan</td>\n<td><em>much input, much time</em></td>\n</tr>\n<tr>\n<td><strong>a lot of</strong></td>\n<td>ikkalasi ham</td>\n<td><em>a lot of books, a lot of reading</em></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>I read <strong>a lot of</strong> novels.</em> (sanaladigan) — Men koʻp roman oʻqiyman.</li>\n<li><em>You don't need <strong>much</strong> grammar to enjoy a story.</em> (sanalmaydigan) — Hikoyadan zavq olishga koʻp grammatika kerak emas.</li>\n<li><em><strong>How many</strong> books did you finish?</em> (savol) — Nechta kitob tugatdingiz?</li>\n</ul>\n<p>Bir foydali qoida: <strong>much</strong> va <strong>many</strong> koʻpincha inkor va savolda ishlatiladi (<em>I don't have much time. How many words…?</em>), tasdiqda esa tabiiyroq varianti — <strong>a lot of</strong> (<em>I read a lot of books</em>, <code>I read much books</code> emas).</p>\n<h3>Ingliz↔oʻzbek farqi</h3>\n<p>Oʻzbek tilida <strong>koʻp</strong> hamma narsaga yetadi: <em>koʻp kitob, koʻp suv, koʻp vaqt</em> — bitta soʻz. Ingliz tili esa otga qarab <strong>much</strong>mi yoki <strong>many</strong>mi tanlashga majbur qiladi. Yana bir tuzoq: oʻzbekchada <em>&quot;koʻp kitob&quot;</em> — birlikda (kitob<strong>lar</strong> emas). Ingliz tilida sanaladigan ot koʻplik boʻlishi shart: <em>many book<strong>s</strong></em> (❗ <em>many book</em> emas).</p>\n<p>❌ <em>I learned many informations. She reads much books.</em>\n✅ <em>I learned <strong>much information</strong>. She reads <strong>a lot of</strong> books.</em>\nSababi: <em>information</em> sanalmaydi → <strong>much</strong>; <em>books</em> sanaladi → <strong>many / a lot of</strong>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingiz haqingizda ovoz chiqarib ayting: <em>&quot;I read a lot of … . I don't have much … . How many … do I know?&quot;</em> Ovoz chiqarib takrorlasangiz, much/many tanlovi miyada avtomatlashadi — qoidani oʻylab oʻtirmaysiz.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada \"koʻp\" hamma narsaga yetadi: koʻp kitob, koʻp vaqt, koʻp maʼlumot. Ingliz tili esa otga qarab tanlashga majbur qiladi: sanaladigan koʻplik bilan many (many books), sanalmaydigan bilan much (much time). Yana bir farq: oʻzbekcha \"koʻp kitob\" birlikda, ingliz tilida esa sanaladigan ot koʻplik boʻlishi shart — many books.",
+      "errorFixUz": "❌ I learned many informations. She reads much books. ✅ I learned much information. She reads a lot of books. information sanalmaydi → much; books sanaladi → many yoki a lot of.",
+      "examples": [
+        {
+          "en": "I read a lot of novels every month.",
+          "uz": "Men har oy koʻp roman oʻqiyman."
+        },
+        {
+          "en": "You don't need much grammar to enjoy a story.",
+          "uz": "Hikoyadan zavq olish uchun koʻp grammatika kerak emas."
+        },
+        {
+          "en": "How many books did you finish this year?",
+          "uz": "Bu yil nechta kitob tugatdingiz?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I don't have ___ time to read today.",
+          "options": [
+            "much",
+            "many",
+            "a lot"
+          ],
+          "answer": "much",
+          "hintUz": "time sanalmaydi → much (inkorda)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "How ___ novels do you read in a month?",
+          "options": [
+            "many",
+            "much",
+            "a lot"
+          ],
+          "answer": "many",
+          "hintUz": "novels sanaladigan koʻplik → many"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Good readers get ___ input every day.",
+          "options": [
+            "a lot of",
+            "many",
+            "much of"
+          ],
+          "answer": "a lot of",
+          "hintUz": "a lot of ham sanaladigan, ham sanalmaydigan ot bilan ishlaydi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"I read a lot of … . I don't have much … . I know many … .\"",
+          "answer": null,
+          "hintUz": "sanaladigan → many/a lot of; sanalmaydigan → much/a lot of"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "the-more-the-more",
+      "titleUz": "Mutanosiblik: the more…, the more…",
+      "titleEn": "The more…, the more… (proportional)",
+      "bandLifter": "IELTS Part 2/3 — describe how one thing changes as another does",
+      "cefrCanDo": "B2: I can link two changes with the more…, the more…",
+      "bodyHtml": "<p>Bu darsning butun xulosasi bir jumlada yashiringan. AJ MAIN talkda uni deyarli soʻzma-soʻz aytadi: <em>&quot;<strong>The more</strong> you read, <strong>the better</strong> your grammar, <strong>the better</strong> your spelling.&quot;</em> Va yana: <em>&quot;<strong>The more</strong> you read over time, <strong>the bigger</strong> the difference.&quot;</em> Bu — <strong>mutanosiblik qolipi</strong> (correlative): bir narsa oshgani sari ikkinchisi ham oshadi. Uni tabiiy ishlata olsangiz, bu — darrov seziladigan B2 belgisi.</p>\n<h3>Maʼnosi: ikki narsa birga oʻzgaradi</h3>\n<p>Qolip ikki qismdan iborat va ikkalasi ham <strong>the + qiyosiy daraja</strong> bilan boshlanadi:</p>\n<blockquote>\n<p><strong>The more</strong> you read, <strong>the more</strong> you know.</p>\n</blockquote>\n<p>Birinchi qism — sabab/shart (<em>qancha koʻp oʻqisang</em>), ikkinchi qism — natija (<em>shuncha koʻp bilasan</em>). Oʻzbekchadagi <strong>&quot;qancha … shuncha …&quot;</strong> aynan shu.</p>\n<ul>\n<li><em><strong>The more</strong> you listen, <strong>the easier</strong> it gets.</em> — Qancha koʻp tinglasangiz, shuncha osonlashadi.</li>\n<li><em><strong>The bigger</strong> your input, <strong>the faster</strong> you improve.</em> — &quot;Input&quot;ingiz qancha katta boʻlsa, shuncha tez oʻsasiz.</li>\n</ul>\n<h3>Qiyosiy shaklni toʻgʻri yasang</h3>\n<p>Har ikki <code>the</code>dan keyin <strong>qiyosiy daraja</strong> keladi:</p>\n<ul>\n<li>qisqa sifat + <strong>-er</strong>: <em>more, better, bigger, easier</em> (<em>good → better</em>, <code>gooder</code> emas).</li>\n<li>uzun sifat oldiga <strong>more</strong>: <em>the more difficult, the more confident.</em></li>\n<li>otni ham qoʻshsa boʻladi: <em>the more <strong>books</strong> you read, the more <strong>words</strong> you learn.</em></li>\n</ul>\n<p>Bu darsning POV hikoyasiga bogʻlab qarang. U yerda AJ <strong>present perfect</strong> bilan gapiradi (<em>&quot;For many years he <strong>has read</strong> philosophy books…&quot;</em>), va natija sekin-asta yigʻiladi: <strong>qancha koʻp</strong> Filbert Dalay Lamani oʻqigan sari, <strong>shuncha</strong> tinch boʻlib borgan. Yaʼni qolip odatda umumiy haqiqat uchun <strong>present simple</strong>da ishlaydi (<em>the more you read, the more you know</em>), ammo hikoyada u vaqt zamoniga moslashadi (<em>the more he read, the more peaceful he became</em>).</p>\n<h3>Ingliz↔oʻzbek farqi</h3>\n<p>Oʻzbek tilida &quot;qancha … shuncha …&quot; tuzilishi tanish, ammo ingliz tilida ikkita nozik nuqta bor: (1) har ikki qism oldida <strong>the</strong> turishi shart, (2) darrov <strong>qiyosiy daraja</strong> kelishi kerak. Oʻzbekchada esa oddiy sifat ishlatiladi (<em>qancha koʻp — shuncha yaxshi</em>), ingliz tili esa <em>good</em> emas, <em>better</em> talab qiladi.</p>\n<p>❌ <em>More you read, more you know. The much you read, the good your grammar.</em>\n✅ <em><strong>The more</strong> you read, <strong>the more</strong> you know. <strong>The more</strong> you read, <strong>the better</strong> your grammar.</em>\nSababi: har ikki boʻlak <strong>the</strong> bilan boshlanadi va <strong>qiyosiy</strong> shaklni oladi (<em>more, better</em>).</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bitta shaxsiy jumla tuzing va uni har kuni ovoz chiqarib ayting: <em>&quot;The more I read in English, the more confident I feel.&quot;</em> Shu bitta qolip nutqingizga darhol B2 tusini beradi — mukammal bilishga emas, tabiiy aytishga harakat qiling.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchadagi \"qancha … shuncha …\" qolipi tanish, ammo ingliz tilida ikki nozik nuqta bor: har ikki boʻlak the bilan boshlanadi va darrov qiyosiy daraja keladi. Oʻzbekcha oddiy sifat ishlatadi (qancha koʻp — shuncha yaxshi), ingliz tili esa good emas, better talab qiladi.",
+      "errorFixUz": "❌ More you read, more you know. The much you read, the good your grammar. ✅ The more you read, the more you know. The more you read, the better your grammar. Har ikki boʻlak the bilan boshlanadi va qiyosiy shakl oladi (more, better).",
+      "examples": [
+        {
+          "en": "The more you read, the better your grammar gets.",
+          "uz": "Qancha koʻp oʻqisangiz, grammatikangiz shuncha yaxshilanadi."
+        },
+        {
+          "en": "The more Filbert read, the more peaceful he became.",
+          "uz": "Filbert qancha koʻp oʻqigan sari, shuncha tinch boʻlib bordi."
+        },
+        {
+          "en": "The more input you get, the faster you improve.",
+          "uz": "Qancha koʻp \"input\" olsangiz, shuncha tez oʻsasiz."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The more you read, ___ your vocabulary grows.",
+          "options": [
+            "the more",
+            "more",
+            "the most"
+          ],
+          "answer": "the more",
+          "hintUz": "juft qolip: the more…, the more…"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The more novels you finish, the ___ your English gets.",
+          "options": [
+            "better",
+            "best",
+            "gooder"
+          ],
+          "answer": "better",
+          "hintUz": "good ning qiyosiy shakli — better"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you practise, the easier it becomes.",
+          "options": [
+            "The more",
+            "More",
+            "Much more"
+          ],
+          "answer": "The more",
+          "hintUz": "qolip \"the\" bilan boshlanadi: The more…"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: \"The more I …, the more/better I … .\"",
+          "answer": null,
+          "hintUz": "har ikki boʻlak the + qiyosiy daraja"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/10/main.mp3",
+      "durationSec": 927,
+      "bytes": 11133223,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/10/vocab.mp3",
+      "durationSec": 522,
+      "bytes": 6272646,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/10/ministory.mp3",
+      "durationSec": 684,
+      "bytes": 8215437,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/10/pov.mp3",
+      "durationSec": 581,
+      "bytes": 6982843,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hi, this is AJ. Time for the next lesson. Now this is one of my favorite topics by one of my favorite people so I want you to be extra happy, extra strong body and physiology for this one. So stand up straight. Get those shoulders back. Chest up. Breathe deep. Get that air going in there. Energize your body.",
+      "Big, big, super big smile, huge smile. Make everyone think you’re super crazy. Now move your body. Come on, get it moving now. If you’re standing you just kind of wiggle around. Move those arms, move those legs. If you can, start walking. Get the blood going. Get that energy going. Let’s go! Are you ready?",
+      "This lesson is called “The Power of Reading” and it comes from an article by Dr. Stephen Krashen. He’s one of my favorite people in the world. Dr. Stephen Krashen is probably the number one expert on language learning and language teaching in the world.",
+      "He is just an incredible professor, an incredible researcher, an incredible intellectual. He has done an incredible amount of research on the topic of learning languages. And today we’re going to talk about just one part of his research. Really, Effortless English is based a lot on Dr.",
+      "Stephen Krashen’s research, all of the methods we use. But we’re going to talk about just one particular method, one particular idea, very strong idea that comes from Dr. Stephen Krashen and his research and that is the power of reading. Specifically it’s the power of pleasure reading. It’s the power of easy reading.",
+      "We’ll talk about that more in a minute. But first let me read a little bit from this article. Now this article, as you might guess, is about the power of reading. And Dr. Krashen did a lot of research about reading. Specifically about how do people, native speakers, and people learning foreign languages, how do they learn vocabulary?",
+      "How do they get good grammar? How do they get excellent writing skills? One of the most important methods is reading. Reading for pleasure. Now when we talk about reading there are kind of two different ways to learn reading, even for small children, learning a native language.",
+      "Now one method, the old method, is that you learn reading skills. So you have to study and analyze vocabulary, for example. Spelling in English is very difficult and tough so we have to study that a lot in school. Well, we don’t have to but often with old methods and old teachers we do. We study, study, study spelling.",
+      "We study, study, study vocabulary. And we learn all these skills. We use all these textbooks to learn reading. And, of course, people learning new language, a foreign language, well guess what. You do the same things, right? You learn textbooks. You’re reading all these textbooks and you’re trying to learn all these “reading skills.”",
+      "Now the other way, the other method, and this is the method, in fact that works much, much better according to Dr. Krashen’s research, according to a lot of other research. It’s just reading for fun, imagine that! And what that means is reading a lot of easy books. Now for children that might be comic books.",
+      "It might be just children’s novels. And it’s just reading, reading, reading, in other words we learn to read by reading. We learn vocabulary from reading. We learn a lot of our grammar from reading. We learn our writing skills from reading. Not by analyzing and studying grammar. Not be trying to memorize vocabulary.",
+      "If you read something very easy, you know most of the words. And then you find a new word, you don’t need to memorize it. You will start to understand that word just because you understand the general meaning of the story. You understand the whole paragraph. You understand the sentence. So that one word you can guess the meaning.",
+      "And then guess what happens? You see that new word again somewhere else in the book. And then you start, it’s in a different situation. A little bit different paragraph, a little bit different sentence, and now you’re “Ah” you understand it a little more. Then you see it again in another paragraph, somewhere else in the book.",
+      "And over time you will naturally learn that word. You’ll never try to memorize it. You will never study it but you will learn it. You will know it forever. That’s the best way to learn vocabulary. There’s a lot of research about this. They compare people who try to memorize vocabulary with books, textbooks, that is.",
+      "And then other people who learn just by reading easy books all the time. They’re reading novels all the time. They’re reading, reading, reading. Which group of people learns more vocabulary faster? The readers, the people who are just reading for fun. They’re just reading a lot of fun, easy novels and books.",
+      "Those people have much bigger vocabularies than people who are actually trying to study vocabulary. It’s the same for grammar. People who are studying grammar, study, study grammar rules, study grammar textbooks. And then other people who are just reading lots of novels. They’re reading, reading, reading all the time.",
+      "Comic books, novels, articles, stories, the readers have better grammar than the people who are studying grammar from textbooks. It’s a huge difference. And the more you read over time, the bigger the difference. The better your grammar gets compared to people who are using textbooks. So this is a huge topic. It is so important.",
+      "So let me read a little bit from Dr. Krashen and then we’ll talk a little more. Okay, this is from Dr. Krashen: “When second language learners read for pleasure, they develop the competence they need to move from the beginning ordinary conversational level to a level where they can use the second language for more demanding purposes.",
+      "Such as the serious study of literature, business and so on. When they read for pleasure they can continue to improve in their second language without classes, without teachers, without study. And even without people to converse with.",
+      "When we read we really have no choice. We must develop literacy. We rarely find well-read people who have serious problems with grammar, spelling and so on. They write acceptably well because they can’t help it. They have subconsciously acquired good writing style as well as the conventions of writing.",
+      "Our problem in language education, as Frank Smith has pointed out, is that we have confused cause and effect. We have assumed that we first learn language skills and then apply these skills to reading and writing. But that is not the way the human brain works.",
+      "Rather, reading for meaning, reading about things that matter to us is the cause of language development.” So, very interesting, what does that mean? So what it means is that you don’t first learn skills. You learn writing skills. You learn spelling skills. You learn how to do a sentence. You learn how to make a paragraph.",
+      "And then later you can read and write well. That’s exactly the opposite of what actually happens. What actually happens is you read and you read and you read. You read sentences. You read paragraphs. You read stories. You read books. You read novels.",
+      "And after reading so much you subconsciously, you intuitively acquire, get, learn great reading skills, great writing skills, great vocabulary, great grammar. It comes from reading a lot for pleasure. The reading comes first. And, in fact, I would add listening to that. And Dr. Krashen adds that as well.",
+      "This article is about reading but, in fact, listening is the same thing. So when you’re reading and listening a lot, that’s the first step. And you need to do so much of it. You’ve got to read and listen for pleasure, for fun, a lot, a lot, a lot. Now the good news is you have to do it a lot but it’s fun, it’s easy.",
+      "You’re listening to stuff you like, so it’s okay. You’re reading stuff you enjoy. You’re not thinking about grammar rules. You’re not thinking about vocabulary. You’re just reading and listening and enjoying yourself. You do that first, the grammar skills then come later. They come from the listening and the reading.",
+      "The writing skills come from reading a lot. Your vocabulary comes from reading a lot and listening, too. Your pronunciation comes from listening a lot. It’s the input that is the most important. And specific kind of input, it’s got to be meaningful, real, enjoyable, pleasurable. So that’s the power of reading.",
+      "Now I’m not going to talk about all the specific research studies in this book, but if you like get his book. The book is called The Power of Reading, that’s the title, The Power of Reading. It’s by Dr. Stephen Krashen. Now Stephen is spelled S-t-e-p-h-e-n. And Krashen is spelled K-r-a-s-h-e-n, so Dr.",
+      "Stephen Krashen and the book title, The Power of Reading. You can get it on amazon. com. So if you want to see all the huge number of research studies at different universities around the world about this topic of reading and learning better grammar skills, better vocabulary, better speaking, better pronunciation.",
+      "If you want to see the proof, the evidence, then get his book. You can look at all the different studies. There’s so many of them. But, y’know, if you trust me you can take my word for it. You can trust that I am trying to help you as best I can, that I really care about you. You can trust that this is in fact how it works. That if",
+      "you want to write well, if you want to have a great English vocabulary, if you want to have great English grammar you need to read and read and read. And what you need to read are novels. Novels are the key, easy novels. So here’s my rule. What does easy mean for you? My rule is you should not need a dictionary to read the book.",
+      "So if you grab a, let’s say you grab a book by Stephen King, kind of a famous writer in the United States. You get a Stephen King book, in English of course, and you start reading it but, oh, there’s so many words you don’t know. And you need a dictionary. You get your dictionary and you’re looking up all these words.",
+      "Well, it’s too difficult for you. If you need a dictionary to understand it, it’s too difficult. Okay, so, you know, put it aside and wait. You can read it later when your reading skills are higher. But for now find an easier book. I recommend children’s novels. I think they are a fantastic way to learn.",
+      "You can get the Goosebumps books for example. There’s a whole series. They’re for kids. They’re called Goosebumps. And there’s, I don’t know how many, there’s probably 30 or 50 of them, okay? They’re short and they’re pretty easy. You can probably read them without a dictionary. What you should do is read all of them. Read all 30 of them.",
+      "Read them, just enjoy them. Don’t use a dictionary. If you see a word you don’t know, just guess the meaning and keep reading. If you’re wrong, it doesn’t matter. You’ll see that word again and again and again. Eventually you will understand that word. You won’t need a dictionary. Just enjoy the story.",
+      "Another set of books I like are The Hardy Boys books. These are so old I read them when I was a kid. And there’s another series of books called Nancy Drew.",
+      "So The Hardy Boys books and the Nancy Drew books, another set of kids books, kids novels, they’re fairly long but not too long, that are really great if you want to do a lot of pleasure reading that does not require a dictionary.",
+      "So again, Nancy Drew books and The Hardy Boys books, and again, there are so many of them, 20, 30 or more in each series. You can read the whole series if you want to. And of course you can just go to any bookstore that has English books. Look in the children’s section or the young adults’ section.",
+      "Another series of books I like are by Roald Dahl, I think Dahl is D-a-h-l, if I’m right. Anyway, he wrote books such a Charlie and the Chocolate Factory, James and the Giant Peach. He’s got a lot of books so you could look for some of those.",
+      "And, of course, there are movies that go with those books so you could watch the movies, too, and listen to them. You can also get audiobooks. This is something I think is really great. If you can find an audiobook and a regular book you can read it and then you can listen to it at the same time. And again, using children’s novels.",
+      "So read a lot of children’s novels. And after you finish all The Hardy Boys books and after you finish all the Goosebumps books, then find a book maybe by Stephen King. OR maybe if that’s still too difficult, then find something for young adults. And then read a lot of those books.",
+      "Eventually, probably within one year’s time if you’re reading all the time, if you’re reading every day, within one year you’ll be reading adult novels. You’ll",
+      "be reading the same books that I read for pleasure, for fun, that native speakers read. But don’t start there. Go back and just start with children’s novels and read and read and read. Your grammar will improve automatically and effortlessly. Your vocabulary will explode, it will increase so much so fast. You won’t believe it.",
+      "It’s amazing. So please, follow this. Reading is so powerful but it has to be reading for fun, reading for pleasure. Alright, I hope you enjoyed this topic. I’ll see you next time."
+    ],
+    "vocab": [
+      "Hello, this is AJ again. Big smile…deep breath. Move that body, let’s start the vocabulary lesson for “The Power of Reading.” Okay, one of the words we had in there was competence. Now, Dr. Krashen said people develop competence when they read.",
+      "They develop the competence they need to move from the beginning level to a level where they can use the language for more difficult purposes. Competence, competence. Competence means skill or ability. So when you read you develop more advanced skill in English. You develop more advanced competence in English.",
+      "So competence means skill or ability. And then we have the word demanding, right? He says you develop the competence for more demanding purposes. More demanding purposes, more demanding actions. More demanding challenges. Demanding just means difficult. Difficult. So in other words you get better and better.",
+      "You can do more difficult things with the language. So in the beginning maybe you have very simple, low level English or maybe intermediate level English. Probably most of you are intermediate level. If you read my website and bought my lessons you are definitely intermediate level.",
+      "So if you’re intermediate level but you want to use English for more demanding purposes, more difficult purposes. Maybe now you can talk a little bit but you can’t go to a high level business meeting and use English very well. That’s a demanding purpose. It’s a more difficult situation. It’s a more demanding situation.",
+      "So again, demanding has this idea of difficult, something that’s difficult. Alright, then we also had the word literacy. Literacy, that people develop literacy by reading. Surprise, surprise, that seems pretty logical. Literacy means the ability to read well. So again, literacy is just the skill, the competence, the ability to read well.",
+      "It has this idea of proficiency or ability. It means you’re good at something. Now, usually it means good at reading. We do sometimes use it in a more general way, where you could say “I have good computer literacy,” for example. Now, we’re not talking about reading. We’re just saying computer ability.",
+      "Basic competence with a computer, we would say computer literacy. It means I understand computers, I can use computers. I’m not an expert but, y’know, I’m good enough. But more specifically, and in this article especially, literacy just means the ability to read well. Okay, we had another little phrase, well read.",
+      "In the sentence it said “We rarely find well read people who have serious problems with grammar.” Okay, so well read means, it just means that you have read a lot of books. A well read person is someone who has read a lot. That means you have read a lot. You know a lot about books.",
+      "Well not about books, it means you actually have read books. You’ve read a lot of books. So",
+      "that’s what well read means. So that sentence “We rarely find well read people who have serious problems with grammar,” it means people who read a lot almost never have grammar problems. And by reading a lot we mean reading novels, reading books. Okay, we’re not talking about textbooks. Reading textbooks won’t help you.",
+      "You have to read novels, lots and lots of novels. So that’s the key. But if you’re well read, if you’ve read a lot of novels, and, y’know, magazines and comic books are fine, too, then you will rarely, almost never have problems with grammar and spelling. The more you read, the better your grammar, the better your spelling.",
+      "Okay, next is subconsciously. Subconsciously, right? The reason you won’t have problems is that you have subconsciously learned good grammar. You have subconsciously learned good spelling. You have subconsciously learned good writing. So, of course, subconsciously means intuitively. Another synonym is latently, latently or intuitively.",
+      "It means you weren’t really trying to do it, it just happened. It’s kind of happening at the bottom of your brain, or the back of your brain. You don’t realize it’s happening, but it’s happening. If you learn subconsciously, you learn but you don’t know you’re learning. And that’s a great way to learn because it’s so easy.",
+      "And that’s what Effortless English is about. That’s why we call it Effortless English, without effort, easy. So we’re talking about some subconscious learning. The idea is that you’re learning but you’re not trying hard. And, in fact, in many cases, I would say in most cases, not just English, that’s the best way to learn.",
+      "It’s actually the fastest and most effective way to learn. Alright, next we had the word conventions. Dr. Krashen said people who read a lot learn good writing conventions. They learn the conventions of writing. Conventions, in this situation, means rules or habits.",
+      "The rules of writing, the normal habits of writing, the conventions of writing. It’s the rules that most of us follow for writing. So the conventions of writing, again the rules of writing, when you read a lot of novels especially, and I mean a lot, I mean every day you’re reading, you’re reading…why are you doing it every day?",
+      "Because you enjoy it. You’re reading really cool, funny stories or interesting information. You’re not forcing yourself. It’s easy. Because you love it. It’s something you like. So anyway, when you’re reading a lot like that you learn the conventions of writing. You learn the rules of good writing.",
+      "If you want to write well, read books with good writing. Makes sense, right? Because then you’re constantly getting good writing, right? You’re reading, you’re reading, you’re learning how do you make a good sentence? How do you make a good paragraph? How do you tell a good story?",
+      "The more you read you just learn that subconsciously, intuitively. You don’t need to learn a bunch of horrible writing books that teach you all these rules about how to make a sentence and how to get the subject and the verb to agree and all that bullshit. Forget that. Read, read, read and you will acquire.",
+      "You will learn the conventions of writing. You will learn better and better writing just by reading a lot of books. So that’s conventions, conventions means rules, rules.",
+      "And finally, we have the word assume. Or in the past we said assumed. And the sentence says “We have assumed that first we learn language skills and then we apply then, then we use them for reading and writing.” But that’s wrong. Actually we read, read, read and then we use the skills. We get the skills from reading, from listening.",
+      "So assume means to believe. To assume means to believe or to guess. It’s a belief but there’s no evidence. There’s not a strong reason to believe it, it’s a belief with no evidence. So to assume means to believe. To believe, that sometimes has an idea of guessing but belief is really the best thing, to believe, to assume.",
+      "Alright, that’s it. That’s all of the vocabulary for “The Power of Reading.” Next, let’s do the mini-story. Big smile. See you next time, bye bye."
+    ],
+    "pov": [
+      "Okay, welcome to the POV, that’s point of view, lesson for “The Power of Reading.” Okay, and I’m going to tell the same story about Filbert the monkey. We’re going to have tow points of view. One is going to start with “Since 2002…” and the other one will be in the future. So let’s start with the first one. You ready? You feel good?",
+      "You smiling? Standing tall, shoulders back! Deep breath, let’s do it.",
+      "Since 2002, since the year 2002, Filbert has enjoyed shooting mosquitoes with his gun. He has liked to shoot mosquitoes with his gun, since 2002. In 2001 did Filbert enjoy shooting mosquitoes? No, no he didn’t. Not in 2001. In 2001 and before he never shot mosquitoes, but since 2002 he has liked to shoot mosquitoes with his gun.",
+      "He has loved it, in fact. Since 2002 Filbert the monkey has loved to shoot mosquitoes with his gun. From 2002 right up until almost now, during that whole time. So since 2002 he has enjoyed shooting mosquitoes. And since 2002 he has practiced every day.",
+      "In fact, in the morning, in the afternoon, in the evening and at night, he has practiced shooting mosquitoes every day since 2002. Since 2003 he has had total competence with his rifle, with his big long gun. Since when? Since 2003 he has had total competence. He has had total competence with his rifle. Since 2003 he has had what?",
+      "Since 2003 he has had total competence with his rifle. Now of course, shooting mosquitoes is a very demanding, tough thing to do. It’s very difficult. So he has practiced constantly shooting mosquitoes with his rifle. Now Filbert the monkey has also been a very well read monkey for many years.",
+      "For many years he has read philosophy books, every day reading about philosophy and shooting his gun at the same time, pow, pow, pow, read, pow, pow, pow, read. He has been a very well read monkey. Probably since 2001, since 2001 he has been a very well read monkey. Something happened recently.",
+      "He started to read books by the Dalai Lama. He read books by the Dalai Lama constantly. And then something else happened. He subconsciously learned the philosophy of the Dalai Lama. And he changed. Filbert the monkey changed. Why did he change? Because he read a lot of books by the Dalai Lama of Tibet. How did he change?",
+      "Well, he became very peaceful. Because he read a lot of books by the Dalai Lama of Tibet he became very peaceful. And he decided to never kill again. He threw his gun into the river and he said “I will never kill again.” Filbert the monkey became a very peaceful, loving monkey. The End",
+      "Okay, now, you probably noticed again there was a change. It happens in most of these stories that begin with “Since 2002…” or “Since something…” And the change happened when I said “He started to read books by the Dalai Lama.” Right? That happened, it was a sudden thing. It was one point in time. He started.",
+      "You can’t continually start something, right? It just, you start it, it happens and then it’s done. You’re finished starting. Now you’re doing it. So in one point of time he started reading books by the Dalai Lama. He changed. He became a peaceful monkey. He decided to never kill again. He threw his gun in the river.",
+      "He became a peaceful monkey. Alright, you don’t need to think about it any more than that. Just notice the change. Notice when it happens. That’s all. Keep listening. Okay, next let’s do our future point of view. So the future point of view we kind of imagine that I’m talking about something that will happen in the future.",
+      "Maybe I’m imagining this story and I say “Oh this is a future story, this is what will happen in the future.” Maybe I’m predicting the future. It doesn’t matter but mainly the point of view is the future, in the future.",
+      "In the future there will be a monkey. He’ll like to shoot mosquitoes. What will his name be? His name will be Filbert.",
+      "His name will be Filbert. Filbert the monkey will love to shoot mosquitoes with his gun, with his rifle. In fact, he’ll have total competence with that rifle. He’ll be excellent with that rifle. He’ll have total, complete competence with the rifle. Now, of course, shooting mosquitoes is very demanding. It’s very tough.",
+      "It’s very difficult. So, he’ll practice every day. He’s going to practice in the morning. He’s going to practice in the afternoon. He’s going to practice in the evening. He’s going to practice at night. He’s going to practice constantly because it’s so demanding to shoot mosquitoes. Now, of course, he’s not only going to shoot mosquitoes.",
+      "He’s going to be a well read monkey also. He’ll be a very well read monkey. He’ll read a lot of philosophy books. Especially books by the Dalai Lama of Tibet, he’s going to read a lot of books by the Dalai Lama. And because of this, he’s going to subconsciously learn the philosophy of the Dalai Lama of Tibet.",
+      "He’ll learn about the peaceful philosophy of the Dalai Lama. He’ll learn about compassion and not killing. And so one day he’ll decide to never kill again. He’s going to throw his gun in the river and he’s going to say “I will never kill again. I am now a peaceful monkey.” And, of course, he will be.",
+      "He will become a very peaceful, loving, kind-hearted monkey. The End",
+      "That’s the end of our future point of view story. Once again, so easy, right? Just listen. Just listen for my pronunciation. Listen how I make little changes. When I change the point of view I make small changes to the vocabulary. I say oh, oh, oh, I say gonna, gonna, gonna, and that’s all.",
+      "You don’t need to think about a bunch of grammar rules. Throw away your damn grammar book. Get rid of that textbook. Just listen to these stories again and again. Remember, deep learning, you’re going to listen to this same story every day for seven days, maybe over the course of two weeks. Maybe more, I don’t know.",
+      "But you’re going to learn it deeply. You’re going to get this repetition again, again, again. And then the next lesson, again, again, again. And the next lesson, again, again, again. And soon you will learn this grammar subconsciously. That’s what we’re doing. That’s the purpose of these stories, to learn this grammar subconsciously.",
+      "So all you need to do is listen and enjoy the stories. Okay, I will see you next time. That’s the end of the POV lesson for “The Power of Reading.” And by the way, one last homework assignment, go find some easy novels, easy children’s novels…Goosebumps, Hardy Boys, Nancy Drew, Charlie and the Chocolate Factory, I don’t care. Go buy some.",
+      "Get on Amazon and find some and start reading. Read every day for fun. Read something easy. Read something fun.",
+      "Okay, see you next time."
+    ],
+    "sixmin": [
+      "Alice: Hello and welcome to 6 Minute English. I'm Alice…",
+      "Neil: And I'm Neil. Have you ever written any poetry, Alice?",
+      "Alice: No. Have you?",
+      "Neil: Oh yes. I've got a sheaf of poems from my youth.",
+      "Alice: A sheaf of something means a bundle of things, particularly paper. What about now? Are you still writing?",
+      "Neil: No, my creative juices have dried up.",
+      "Alice: What a shame! I would have liked to hear some of your poems! Creative juices means a flow of ideas and the subject of today's show is creativity and writer's block – which means not being able to write because of a psychological problem.",
+      "Neil: So not like tennis elbow or golfer's knee, then.",
+      "Alice: No, Neil, because a psychological problem refers to the mind not the body. And whilst some people view writer's block as nonsense others believe it is a serious psychological condition that can get better with treatment.",
+      "Neil: Well, I have a question for you, Alice. How does author of the Da Vinci Code, Dan Brown, deal with writer's block? Does he… a) hang upside down from the ceiling in gravity boots? b) clean his 6-bedroom house from top to bottom with a toothbrush? Or c) run a half-marathon listening to opera music by Richard Wagner?",
+      "Alice: I think it's c) run a half-marathon listening to Wagner. Exercise and music might get your creative juices flowing again.",
+      "Neil: Well, we'll find out whether you got the right answer later on in the show. But first, Alice, can you tell us where the term writer's block comes from?",
+      "Alice: Well, the term was coined – or invented – in 1950 by a Viennese psychoanalyst Edmund Bergler. Let's listen to Zachary Leader, Professor of English Literature at Roehampton University talking about the psychoanalytic theory of writer's block.",
+      "INSERT: Zachary Leader, Professor of English Literature at Roehampton University Before writers were blocked the other metaphors that were used were things like 'drying up'… or 'being frozen' or 'stuck in a rut' and so forth. And the difference between being blocked and drying up is that in the case of blockage the problem is externalised and objectified – it's not yourself that's the problem – it's something that's outside you like an obstacle or an impediment – something that you could really cut away, and as a consequence a cure like a growth or a foreign body.",
+      "Neil: So writer's block is a metaphor for an obstacle – something external rather than internal inside of you – that's preventing you from working. Doesn't that sound like an excuse for not doing anything, Alice? 'It's not my fault – this impediment thing is getting in the way'.",
+      "Alice: Yes. Well, impediment is another word for obstacle. But how do you cut away a foreign body that isn't actually there?",
+      "Neil: I suppose psychoanalysts have an answer for that. But seriously, I think writers probably do have a hard time. You can sit down at your desk every morning at 9 o'clock to write but that doesn't mean you're going to think of things to say. Though we're never stuck for words, are we?",
+      "Alice: Not usually, Neil, no. But did you know that the Ancient Greeks had Muses – or goddesses of creativity – to help them?",
+      "Neil: So… Beyoncé isn't a real muse? I've heard people say, you know, 'Beyoncé is my muse; she's such a great singer, songwriter, dancer, role model!'",
+      "Alice: Well, these days, 'muse' can refer to anyone who inspires an artist, writer, or musician. But in Ancient Greece, there were nine Muses – and depending on what type of creative thing you did – philosophy, poetry, science and so on – you invoked – or called upon – that particular Muse to inspire you.",
+      "Neil: I call upon you, oh Alice, to enlighten us with more information about the Greek Muses.",
+      "Alice: Alright then. So let's listen to Angie Hobbs instead. She's Professor of the Public Understanding of Philosophy, University of Sheffield here in the UK – and here she is now, talking about what the Greek Muses symbolized.",
+      "INSERT: Angie Hobbs, Professor of the Public Understanding of Philosophy, University of",
+      "Sheffield: We've seen that the Muses were connected to running water, to springs, to fountains, fluidity. So if you're musing, you are letting your mind wander, you're opening yourself up to new influences and new ideas, and not thinking in too structured a way.",
+      "Neil: Musing, letting your mind wander, thinking in a fluid, unstructured way – that all sounds very pleasant – maybe I should have another go at writing.",
+      "Alice: Well, according to research, some people are better at mind wandering and opening themselves up to new ideas than others. Their minds work differently – they have more dopamine in the thalamus region of the brain.",
+      "Neil: The thalamus controls consciousness, sleep and the senses and dopamine is the feel- good chemical in the brain. Is that right?",
+      "Alice: Yes, and having more dopamine in the thalamus enables some people to see the world in a different way – and they express this creatively – through science, music, the arts. Now, before you start musing on how much dopamine you have in your brain, Neil, perhaps you can tell us the answer to today's quiz question?",
+      "Neil: I asked: How does author of the Da Vinci Code, Dan Brown, deal with writer's block? Does he… a) hang upside down from the ceiling in gravity boots? b) clean his 6-bedroom house from top to bottom with a toothbrush? Or c) run a half-marathon listening to opera music by Richard Wagner?",
+      "Alice: And I said c) run a half-marathon listening to opera music by Richard Wagner.",
+      "Neil: And you were wrong, Alice! The answer is a) hang upside down from the ceiling in gravity boots.",
+      "Alice: Really?",
+      "Neil: Yes. I expect all that increased blood flow to the brain is helpful in clearing writer's block.",
+      "Alice: Yes. Good plan. OK, here are the words we learned today. creative juices writer's block coined impediment",
+      "Muses: invoked thalamus dopamine",
+      "Neil: So, Alice, shall I compare thee to a summer's day? Thou art more lovely…",
+      "Alice: That's not your poem, Neil – It's Shakespeare's! Well, and that's the end of today's 6 Minute English.",
+      "Neil: OK, I'm off to lie on the sofa and evoke my muse. Please join us again soon!",
+      "Both: Bye!",
+      "Vocabulary: creative juices a flow of ideas writer's block not being able to write because of a psychological problem coined invented impediment obstacle",
+      "Muses: Goddesses of creativity invoked called upon thalamus An area of the brain that controls consciousness, sleep and the senses dopamine The chemical in the brain that makes you feel good"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What was there?",
+        "a": "There was a monkey."
+      },
+      {
+        "q": "And what was his name?",
+        "a": "Filbert, his name was Filbert."
+      },
+      {
+        "q": "What was Filbert?",
+        "a": "Filbert was a monkey, of course."
+      },
+      {
+        "q": "What did Filbert like to do?",
+        "a": "Oh, you don’t know? Well, Filbert liked to shoot mosquitoes with a gun."
+      },
+      {
+        "q": "What did he like to shoot?",
+        "a": "Mosquitoes, Filbert liked to shoot mosquitoes."
+      },
+      {
+        "q": "With what?",
+        "a": "With his gun…pow, pow, pow…"
+      },
+      {
+        "q": "Was he very skilled with his gun?",
+        "a": "Oh, yes. He was very skilled. He was very good with the gun. He had total competence with his gun."
+      },
+      {
+        "q": "Who had total competence with his gun?",
+        "a": "Filbert the monkey, Filbert the monkey had total competence, total skill with his gun."
+      },
+      {
+        "q": "He had total competence with what kind of gun? With a small handgun?",
+        "a": "No, he didn’t have total competence with a handgun."
+      },
+      {
+        "q": "Who had competence with a rifle?",
+        "a": "Well, Filbert the monkey, Filbert the monkey had total competence, total skill, great, high skill with his rifle."
+      },
+      {
+        "q": "Is it easy to shoot mosquitoes?",
+        "a": "No, it’s not. It’s not easy to shoot mosquitoes. It’s very demanding. It’s very tough. It’s very difficult to shoot mosquitoes."
+      },
+      {
+        "q": "Is it easy to shoot mosquitoes or is it difficult to shoot mosquitoes?",
+        "a": "It’s difficult. It’s very demanding. It’s very tough. It’s very difficult. It’s demanding to shoot mosquitoes. It makes you tired. It’s tough. It’s not easy."
+      },
+      {
+        "q": "Was Filbert a stupid monkey?",
+        "a": "No, no, no, no, no, no. Filbert was a very intelligent monkey actually. In fact he was very well read."
+      },
+      {
+        "q": "What kind of monkey was Filbert?",
+        "a": "He was a well read monkey."
+      },
+      {
+        "q": "So did he read a lot of books?",
+        "a": "Yes, he read a lot of books. He was a well read monkey."
+      },
+      {
+        "q": "So he was a well read chicken, right?",
+        "a": "Not a chicken, he wasn’t a chicken. He was a monkey. He was a well read monkey. He was a monkey that read a lot of books."
+      },
+      {
+        "q": "Who was a well read monkey?",
+        "a": "Filbert, Filbert was a well read monkey. He was a well read monkey and he had total competence with a rifle. In fact he could shoot and read at the same time."
+      },
+      {
+        "q": "What did he shoot?",
+        "a": "He shot mosquitoes. He shot mosquitoes every day."
+      },
+      {
+        "q": "What did he read?",
+        "a": "Well, he read philosophy books."
+      },
+      {
+        "q": "While he read books by the Dalai Lama, what did he do?",
+        "a": "He shot mosquitoes, right? While reading books by the Dalai Lama he also shot mosquitoes, pow, pow, pow, reading reading reading, pow, pow, pow, reading reading reading, pow, pow, pow, reading reading reading. So at the same time he read books by the Dalai Lama and he shot mosquitoes. He was a well read monkey with competence in the rifle."
+      },
+      {
+        "q": "Did he consciously learn the Dalai Lama’s philosophy?",
+        "a": "No, not consciously. He didn’t try to learn it. He didn’t try to memorize it. Not a lot of effort. He subconsciously learned the Dalai Lama’s philosophy."
+      },
+      {
+        "q": "Did he learn it effortlessly?",
+        "a": "Yes, he did. He learned it effortlessly."
+      },
+      {
+        "q": "Did he learn it intuitively, naturally?",
+        "a": "Yes, he learned it subconsciously. He learned the Dalai Lama’s philosophy subconsciously, naturally and intuitively."
+      },
+      {
+        "q": "What did he learn subconsciously?",
+        "a": "The Dalai Lama’s philosophy, he learned the Dalai Lama’s philosophy subconsciously."
+      },
+      {
+        "q": "Who learned the Dalai Lama’s philosophy subconsciously?",
+        "a": "Filbert the monkey, Filbert the mosquito shooting monkey subconsciously learned the Dalai Lama’s philosophy."
+      },
+      {
+        "q": "Was Filbert a peaceful monkey?",
+        "a": "No, every day he was shooting mosquitoes, pow, pow, pow, pow, pow, pow, pow."
+      },
+      {
+        "q": "What did he do?",
+        "a": "He threw his gun into the river."
+      },
+      {
+        "q": "What kind of monkey did Filbert become?",
+        "a": "He became a very peaceful monkey."
+      },
+      {
+        "q": "Did he become a peaceful monkey or a violent monkey?",
+        "a": "He became a peaceful monkey."
+      },
+      {
+        "q": "Why did he become a peaceful monkey?",
+        "a": "Well, because he subconsciously learned from the Dalai Lama. He subconsciously learned the philosophy of the Dalai Lama, which was peace and kindness."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "competence",
+      "pos": "n",
+      "uz": "koʻnikma, malaka; qobiliyat",
+      "defEn": "the skill or ability to do something well",
+      "example": "Readers develop competence in the language."
+    },
+    {
+      "en": "demanding",
+      "pos": "adj",
+      "uz": "qiyin, koʻp kuch talab qiladigan",
+      "defEn": "difficult; needing a lot of effort or skill",
+      "example": "A business meeting is a demanding purpose for your English."
+    },
+    {
+      "en": "literacy",
+      "pos": "n",
+      "uz": "savodxonlik, yaxshi oʻqiy olish qobiliyati",
+      "defEn": "the ability to read and write well",
+      "example": "When we read, we develop literacy."
+    },
+    {
+      "en": "well read",
+      "pos": "adj",
+      "uz": "koʻp kitob oʻqigan, mutolaali",
+      "defEn": "having read many books",
+      "example": "Well-read people rarely have grammar problems."
+    },
+    {
+      "en": "subconsciously",
+      "pos": "adv",
+      "uz": "ong osti bilan, oʻzi sezmagan holda; intuitiv",
+      "defEn": "without realising it; intuitively",
+      "example": "You subconsciously learn good grammar by reading."
+    },
+    {
+      "en": "conventions (of writing)",
+      "pos": "n",
+      "uz": "yozuv qoidalari va odatlari",
+      "defEn": "the usual rules or habits of writing",
+      "example": "Readers pick up the conventions of writing naturally."
+    },
+    {
+      "en": "to assume",
+      "pos": "v",
+      "uz": "deb oʻylab qoʻymoq, dalilsiz ishonmoq",
+      "defEn": "to believe or guess something without proof",
+      "example": "We wrongly assume that skills come before reading."
+    },
+    {
+      "en": "reading for pleasure",
+      "pos": "phrase",
+      "uz": "zavq uchun oʻqish, mazza qilib oʻqish",
+      "defEn": "reading for fun and enjoyment, not for study",
+      "example": "Reading for pleasure is the fastest way to improve."
+    },
+    {
+      "en": "to acquire (a skill)",
+      "pos": "v",
+      "uz": "tabiiy ravishda egallamoq, oʻz-oʻzidan oʻrganmoq",
+      "defEn": "to get or learn something naturally over time",
+      "example": "You acquire vocabulary just by reading a lot."
+    },
+    {
+      "en": "meaningful input",
+      "pos": "phrase",
+      "uz": "maʼnoli material (tushunarli oʻqish va tinglash)",
+      "defEn": "language you read or hear that you understand and enjoy",
+      "example": "It's the meaningful input that matters most."
+    }
+  ],
+  "englishpod": {
+    "id": "0140",
+    "title": "Daily Life – Buying a Computer",
+    "titleUz": "Kundalik hayot — Kompyuter sotib olish",
+    "warmup": {
+      "uz": "Suhbatda xaridorning 3 yillik kompyuteri sekin ishlayapti, sotuvchi esa \"texnologiya tobora tez eskiradi (faster and faster)\" deydi — bu haftaning B grammatikasiga mos! Filbert darsi esa boshqa haqiqatni koʻrsatadi: kompyuter eskiradi, ammo oʻqish koʻnikmasi va kitoblar hech qachon eskirmaydi. Sizningcha, xaridor yangi kompyuter sotib oladimi?",
+      "en": "In this dialogue a customer's 3-year-old computer runs slowly, and the clerk says technology becomes obsolete faster and faster — a link to this week's grammar B! Filbert's lesson shows the opposite truth: computers get old, but reading skill and books never do. Do you think the customer will buy the new computer?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0140/dg.mp3",
+        "durationSec": 68,
+        "bytes": 577098
+      },
+      "pr": {
+        "path": "englishpod/0140/pr.mp3",
+        "durationSec": 866,
+        "bytes": 13882202
+      },
+      "rv": {
+        "path": "englishpod/0140/rv.mp3",
+        "durationSec": 526,
+        "bytes": 8455754
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "en": "So can you fix it?"
+      },
+      {
+        "speaker": "Sales Clerk",
+        "en": "I’m sorry sir. This computer is not broken or damaged. It’s simply just too old! That’s why your programs and applications are running slow. There really isn’t much I can do."
+      },
+      {
+        "speaker": "Customer",
+        "en": "What do you mean? I bought this computer just three years ago!"
+      },
+      {
+        "speaker": "Sales Clerk",
+        "en": "Yes, but technology is ever changing and technology is becoming obsolete faster and faster!"
+      },
+      {
+        "speaker": "Customer",
+        "en": "Ok, I know where this is going. How much will it cost me to get a new computer?"
+      },
+      {
+        "speaker": "Sales Clerk",
+        "en": "Well, this desktop over here is our latest model. It has a four gigahertz processor with sixteen gigabytes in RAM and a hard disk with one terabyte. Of course, it includes a mouse, keyboard and desk speakers."
+      },
+      {
+        "speaker": "Customer",
+        "en": "I have no idea what you are talking about. I just want to know if it’s good and if I will be able to play solitaire without the computer crashing or freezing all the time!"
+      },
+      {
+        "speaker": "Sales Clerk",
+        "en": "This PC is top of the line and I guarantee it will never freeze! If it does, we’ll give you your money back!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "I have no idea",
+        "uz": "tushunmayapman, mutlaqo bilmayman",
+        "defEn": "to be completely unaware of something"
+      },
+      {
+        "en": "where this is going",
+        "uz": "gap nimaga borayotgani, ishning yoʻnalishi",
+        "defEn": "the direction an event or conversation is taking"
+      },
+      {
+        "en": "ever changing",
+        "uz": "doim oʻzgarib turadigan",
+        "defEn": "always becoming different"
+      },
+      {
+        "en": "obsolete",
+        "uz": "eskirgan, ishdan chiqqan (endi keraksiz)",
+        "defEn": "no longer useful or up to date"
+      },
+      {
+        "en": "to freeze",
+        "uz": "muzlab qolmoq, qotib qolmoq (kompyuter)",
+        "defEn": "to suddenly stop functioning"
+      },
+      {
+        "en": "to crash",
+        "uz": "ishdan chiqmoq, birdan oʻchib qolmoq",
+        "defEn": "to suddenly stop functioning"
+      },
+      {
+        "en": "top of the line",
+        "uz": "eng zoʻr, eng yuqori darajadagi model",
+        "defEn": "the best and most advanced model available"
+      },
+      {
+        "en": "to guarantee",
+        "uz": "kafolat bermoq",
+        "defEn": "to make a firm promise, often in writing"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "160811",
+    "title": "How to cure writer's block",
+    "titleUz": "Yozuvchilik tiqilinchini qanday yengish mumkin",
+    "audio": {
+      "main": {
+        "path": "sixmin/160811/audio.mp3",
+        "durationSec": 376,
+        "bytes": 6020736,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How does the author of the Da Vinci Code, Dan Brown, deal with writer's block?",
+        "qUz": "\"Da Vinchi kodi\" muallifi Dan Braun yozuvchilik tiqilinchini qanday yengadi?",
+        "options": [
+          "He hangs upside down from the ceiling in gravity boots",
+          "He cleans his 6-bedroom house with a toothbrush",
+          "He runs a half-marathon listening to Wagner"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) shiftga teskari osilib turadi (gravity boots yordamida). Alice c) deb xato qildi. Miyaga qon koʻproq oqib borgani ijodiy tiqilinchni bartaraf etishga yordam beradi — yaʼni qancha koʻp qon oqsa, fikr shuncha ravon boʻladi (grammatika B!)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "creative juices",
+        "uz": "ijodiy ilhom, gʻoyalar oqimi",
+        "defEn": "a flow of ideas"
+      },
+      {
+        "en": "writer's block",
+        "uz": "yozuvchilik tiqilinchi (yoza olmay qolish)",
+        "defEn": "not being able to write because of a psychological problem"
+      },
+      {
+        "en": "coined",
+        "uz": "(soʻz yoki atama) oʻylab topilgan, yaratilgan",
+        "defEn": "invented (a new word or phrase)"
+      },
+      {
+        "en": "impediment",
+        "uz": "toʻsiq, gʻov",
+        "defEn": "an obstacle that gets in the way"
+      },
+      {
+        "en": "Muses",
+        "uz": "ilhom parilari (ijod maʼbudalari)",
+        "defEn": "the goddesses of creativity in Greek myth"
+      },
+      {
+        "en": "invoked",
+        "uz": "chorlangan, yordamga chaqirilgan",
+        "defEn": "called upon (for help or inspiration)"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Learn English through a short story: the power of reading",
+      "channel": "Learn English Through Story"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How much do you read in English, and what do you read? Talk about how many books or articles you get through, and finish with this idea: the more you read, the more your English improves.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: miqdor (I read a lot of…; I don't have much…; How many…?) va mutanosiblik qolipi (The more I read, the better/more … .).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/10/main.mp3",
+      "bytes": 11133223
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/10/main.pdf",
+      "bytes": 56297
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/10/vocab.mp3",
+      "bytes": 6272646
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/10/ministory.mp3",
+      "bytes": 8215437
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/10/pov.mp3",
+      "bytes": 6982843
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/10/pov.pdf",
+      "bytes": 81782
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0140/dg.mp3",
+      "bytes": 577098
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0140/transcript.pdf",
+      "bytes": 96501
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/160811/audio.mp3",
+      "bytes": 6020736
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/160811/transcript.pdf",
+      "bytes": 140903
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

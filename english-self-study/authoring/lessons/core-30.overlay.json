@@ -1,0 +1,168 @@
+{
+  "slug": "tribes",
+  "title": "Tribes",
+  "titleUz": "Qabilalar — oʻz odamlaring",
+  "level": "B1-B2",
+  "tags": ["community", "leadership", "relative-clauses", "cleft", "fluency"],
+  "intro": {
+    "uz": "Soʻnggi dars — Seth Godinʼning \"Tribes\" gʻoyasi haqida: qabila endi oila emas, balki bir maʼnoni va maqsadni baham koʻradigan odamlar toʻdasi. Bu haftaning ikki grammatikasi aynan odamlar va ravonlik haqida: ergash gaplar yakuni (nodefining, qisqargan va takror) va urgʻu-ravonlik yakuni (cleft \"What…is…\" / \"It's…that…\" hamda nutq bogʻlovchilari va yumshatish). Tony haqidagi POV hikoyada bularning zaminini eshitasiz.",
+    "en": "The final lesson is about Seth Godin's idea of \"Tribes\": a tribe is no longer just a family but a group of people who share a meaning and a purpose. This week's two grammar topics are all about people and fluency: the relative-clause capstone (non-defining, reduced and review) and the emphasis-and-fluency capstone (cleft \"What…is…\" / \"It's…that…\" plus discourse markers and hedging). You'll hear the groundwork in the POV story about Tony."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz \"qabilangiz\"dagi odamlarni ergash gaplar bilan (vergulli qoʻshimcha va qisqargan shakllar) toʻxtamasdan tasvirlab bera olasiz va fikringizni cleft (What…is… / It's…that…) hamda yumshatuvchi iboralar bilan ravon, urgʻu bilan ayta olasiz.",
+    "en": "By the end you can describe the people in your \"tribe\" with relative clauses (non-defining and reduced) without pausing, and give your point with emphasis and fluency using cleft sentences (What…is… / It's…that…) and hedging phrases."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "relative-clauses-capstone",
+      "titleUz": "Ergash gaplar yakuni: qoʻshimcha (nodefining), qisqargan va takror",
+      "titleEn": "Relative clauses capstone — non-defining, reduced & review",
+      "bandLifter": "IELTS Part 2 — describe a person and add extra detail smoothly",
+      "cefrCanDo": "B2: I can add extra information about people with non-defining and reduced relative clauses",
+      "contrastUz": "Oʻzbek tilida sifatlovchi ergash gap ismdan OLDIN keladi: \"menga ishongan ustozim\". Ingliz tilida esa KEYIN: \"my mentor who believed in me\". Yana bir farq — oʻzbekchada vergul bilan aniqlovchi/qoʻshimchani ajratmaymiz, ingliz tilida esa aynan vergul maʼnoni oʻzgartiradi: \"My brother who lives in London\" (bir nechta aka) ≠ \"My brother, who lives in London,\" (aka bitta).",
+      "errorFixUz": "❌ My mentor, that believed in me, changed my life. ✅ My mentor, who believed in me, changed my life. Vergulli (qoʻshimcha) ergash gapda \"that\" ishlatilmaydi — faqat who/which. \"that\" faqat vergulsiz aniqlovchi gaplarga xos.",
+      "examples": [
+        { "en": "My mentor, who believed in me, changed my life.", "uz": "Ustozim, menga ishongan boʻlgani uchun, hayotimni oʻzgartirdi." },
+        { "en": "Seth Godin, who wrote \"Tribes\", is a business writer.", "uz": "\"Tribes\" kitobini yozgan Seth Godin — biznes yozuvchisi." },
+        { "en": "A real tribe is a group grounded in respect.", "uz": "Haqiqiy qabila — hurmatga asoslangan guruh." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Seth Godin, ___ wrote \"Tribes\", is a business writer.",
+          "options": ["who", "that", "which"],
+          "answer": "who",
+          "hintUz": "vergulli (qoʻshimcha) gap + odam → who; \"that\" bu yerda ishlatilmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Rwanda, ___ is in Africa, needed real help.",
+          "options": ["which", "who", "that"],
+          "answer": "which",
+          "hintUz": "vergulli qoʻshimcha gap + narsa/joy → which"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The people ___ me are all volunteers. (who are helping → qisqargan)",
+          "options": ["helping", "who helping", "helps"],
+          "answer": "helping",
+          "hintUz": "qisqargan ergash gap: \"who are helping\" → \"helping\""
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz \"qabilangiz\"dagi bir odamni tasvirlang (ovoz chiqarib): \"My …, who …, …\" — vergulli qoʻshimcha ergash gap bilan.",
+          "answer": null,
+          "hintUz": "ism + vergul + who/which + qoʻshimcha maʼlumot + vergul"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "cleft-discourse-markers",
+      "titleUz": "Urgʻu va ravonlik yakuni: cleft (What…is… / It's…that…) + nutq bogʻlovchilari",
+      "titleEn": "Emphasis & fluency capstone — cleft + discourse markers",
+      "bandLifter": "IELTS — the Fluency & Coherence lifter: emphasise a point and hedge naturally",
+      "cefrCanDo": "B2: I can emphasise a key idea with cleft sentences and soften my speech with hedging",
+      "contrastUz": "Oʻzbek tilida urgʻuni soʻz tartibi yoki \"aynan\" soʻzi beradi: \"Seni aynan mana shu odamlar ushlab turadi\". Ingliz tili buni maxsus qolip bilan quradi: \"It's these people that keep you going\". Yumshatishda ham farq bor: oʻzbekcha \"-ku, -da, aslida\"; inglizcha esa I'd say, kind of, in a way kabi alohida iboralar bilan yumshatadi.",
+      "errorFixUz": "❌ What a tribe gives you are belonging. It's the people which keep you going. ✅ What a tribe gives you IS belonging. It's the people WHO keep you going. What-cleftdan keyin feʼl bitta narsaga moslanadi (is), odamlar uchun esa it-cleftda who ishlatiladi.",
+      "examples": [
+        { "en": "What a tribe gives you is belonging.", "uz": "Qabila senga beradigan narsa — bu tegishlilik hissi." },
+        { "en": "It's the people who keep you going.", "uz": "Seni ushlab turadigan — aynan odamlar." },
+        { "en": "To be honest, it was love that Tony needed, not power.", "uz": "Rostini aytsam, Tonyga kerak boʻlgan narsa — kuch emas, sevgi edi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "___ a tribe gives you is belonging.",
+          "options": ["What", "That", "Which"],
+          "answer": "What",
+          "hintUz": "What-cleft: What + gap + is + urgʻuli qism"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "It's the people ___ keep you going.",
+          "options": ["who", "which", "what"],
+          "answer": "who",
+          "hintUz": "it-cleft + odamlar → who (which emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___, a tribe is really about belonging. (yumshatish)",
+          "options": ["To be honest", "That is why", "Because of"],
+          "answer": "To be honest",
+          "hintUz": "yumshatuvchi/bogʻlovchi ibora jumla boshida: To be honest…"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Bitta muhim fikringizni cleft bilan ayting (ovoz chiqarib): \"What matters most to me is …\" yoki \"It's … that …\", boshiga \"I'd say…\" qoʻshib.",
+          "answer": null,
+          "hintUz": "What…is… yoki It's…that… + yumshatuvchi ibora (I'd say / to be honest)"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "a tribe", "pos": "n", "uz": "qabila; bir maʼno/maqsadni baham koʻradigan odamlar guruhi", "defEn": "a group of people who share a meaning, purpose or interest", "example": "The Effortless English Club is really a tribe." },
+    { "en": "to yearn for", "pos": "v", "uz": "kuchli intilmoq, chin dildan istamoq", "defEn": "to want or desire something very strongly", "example": "Every tribe yearns for leadership and connection." },
+    { "en": "to assemble (a tribe)", "pos": "v", "uz": "toʻplamoq, birga jamlab yaxlit qilmoq", "defEn": "to put separate parts together to make a whole", "example": "You have a chance to assemble a tribe and lead it." },
+    { "en": "leverage", "pos": "n", "uz": "taʼsir kuchi, oshirilgan taʼsir imkoni", "defEn": "increased power or a way to get more influence", "example": "The Internet gives individuals more leverage." },
+    { "en": "circles of interest", "pos": "phrase", "uz": "qiziqish doiralari (bir narsani yoqtiradigan kishilar guruhi)", "defEn": "groups of people who share the same interest or hobby", "example": "A fan club is a circle of interest, not quite a tribe." },
+    { "en": "to make a difference", "pos": "phrase", "uz": "hissa qoʻshmoq, yaxshi tomonga oʻzgartirmoq", "defEn": "to improve a situation or someone's life; to help", "example": "Anyone who wants to make a difference can." },
+    { "en": "faith (in something)", "pos": "n", "uz": "kuchli ishonch, eʼtiqod", "defEn": "strong confidence and belief in something", "example": "Tribes are about faith and belief in an idea." },
+    { "en": "grounded in", "pos": "phrase", "uz": "asoslangan, ildizi bogʻlangan (biror narsadan boshlanadigan)", "defEn": "connected to and starting from something", "example": "A real tribe is grounded in respect and admiration." },
+    { "en": "a common purpose", "pos": "phrase", "uz": "umumiy maqsad", "defEn": "a shared aim that connects people", "example": "A modern tribe is connected by a common purpose." },
+    { "en": "brilliant", "pos": "adj", "uz": "zoʻr, ajoyib; juda aqlli", "defEn": "great and very intelligent", "example": "Belief in a tribe is a brilliant strategy." }
+  ],
+  "englishpod": {
+    "title": "Daily Life – Talking About Relatives",
+    "titleUz": "Kundalik hayot — Qarindoshlar haqida",
+    "warmup": {
+      "uz": "Bu suhbatda ikki doʻst oilaviy yigʻin haqida gaplashadi va turli qarindoshlarni sanaydi: brother-in-law, great uncle, step-son, ex-wife… Qabila (tribe) darsiga mos: oila — eng birinchi \"qabilamiz\". Sizningcha, ingliz tilidagi qarindosh nomlari oʻzbekchadan koʻra aniqroqmi yoki chalkashroqmi?",
+      "en": "In this dialogue two friends talk about a family get-together and list all kinds of relatives: brother-in-law, great uncle, step-son, ex-wife… It fits the Tribes theme: family is our very first \"tribe\". Do you think English relative names are clearer or more confusing than Uzbek ones?"
+    },
+    "keyVocab": [
+      { "en": "brother-in-law", "uz": "qaynaka/kuyov (turmush oʻrtogʻining akasi yoki singlisining eri)", "defEn": "the husband of your sister, or the brother of your spouse" },
+      { "en": "a get-together", "uz": "kichik yigʻin, davra", "defEn": "a small, informal social gathering" },
+      { "en": "cousin", "uz": "amakivachcha / xolavachcha / togʻavachcha", "defEn": "the son or daughter of an uncle or aunt" },
+      { "en": "aunt", "uz": "amma / xola (ota yoki onaning singlisi)", "defEn": "the sister of one's father or mother" },
+      { "en": "great uncle", "uz": "buvi yoki buvaning akasi (katta amaki)", "defEn": "the brother of one's grandmother or grandfather" },
+      { "en": "step-son", "uz": "oʻgay oʻgʻil", "defEn": "a son of one's husband or wife from a previous marriage" },
+      { "en": "ex-wife", "uz": "sobiq xotin", "defEn": "a woman who was formerly a particular man's wife" }
+    ]
+  },
+  "sixmin": {
+    "title": "Family history",
+    "titleUz": "Oila tarixi",
+    "quiz": [
+      {
+        "q": "What's the name for the study of ancient handwriting?",
+        "qUz": "Qadimgi qoʻlyozmalarni oʻrganadigan fan qanday ataladi?",
+        "options": ["Scriptography", "Palaeography", "Scribology"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) Palaeography. Neil a) Scriptography dedi va xato qildi. Palaeography — qadimgi va tarixiy qoʻlyozmalarni oʻqish va sanasini aniqlash bilan shugʻullanadigan fan."
+      }
+    ],
+    "vocab": [
+      { "en": "genealogy", "uz": "shajara, nasl-nasab (oila tarixini oʻrganish)", "defEn": "the study of family history" },
+      { "en": "roots", "uz": "ildiz, kelib chiqish", "defEn": "your origins; where your family comes from" },
+      { "en": "skeletons in the closet", "uz": "yashirin sirlar (oiladagi maxfiy gaplar)", "defEn": "embarrassing secrets that are kept hidden" },
+      { "en": "census", "uz": "aholini roʻyxatga olish", "defEn": "an official count of the people in a population" },
+      { "en": "family lore", "uz": "avloddan-avlodga oʻtadigan oilaviy rivoyat/bilim", "defEn": "knowledge and stories passed on from one generation to the next" },
+      { "en": "descended from", "uz": "avlodi, naslidan boʻlgan", "defEn": "connected by a blood relationship to an ancestor" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Seth Godin: The tribes we lead",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell me about your \"tribe\" — the people who keep you going. Who is in it, and what is it that really connects you?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: ergash gaplar (My friend, who…; the people helping me…) va cleft/urgʻu (What connects us is…; It's … that …), yumshatuvchi iboralar bilan (I'd say…, to be honest…).",
+    "targetSec": 60
+  }
+}

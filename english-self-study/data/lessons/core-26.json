@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 2,
+  "id": "core-26",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 26,
+  "slug": "search-for-meaning",
+  "title": "Search for Meaning",
+  "titleUz": "Maʼno izlash",
+  "level": "B1-B2",
+  "tags": [
+    "meaning",
+    "purpose",
+    "reported-speech",
+    "reporting-verbs",
+    "viktor-frankl"
+  ],
+  "intro": {
+    "uz": "AJ Viktor Franklning “Man's Search for Meaning” kitobidan gapiradi: baxt va muvaffaqiyatni quvib boʻlmaydi — ular oʻzimizdan kattaroq maqsadga xizmat qilganda oʻzi keladi. Bu haftaning ikki grammatikasi mutafakkirlarning fikrini yetkazishga xizmat qiladi: oʻzlashtirma gap va zamon siljishi (Frankl said that…) hamda bayon feʼllari (argue / claim / suggest / point out). Chris haqidagi POV hikoyada ham buni eshitasiz.",
+    "en": "AJ talks about Viktor Frankl's “Man's Search for Meaning”: happiness and success cannot be chased — they come as a side effect of serving a cause bigger than yourself. This week's two grammar topics help you report that wisdom: reported speech with backshift (Frankl said that…) and reporting verbs (argue / claim / suggest / point out). You'll hear it in the POV story about Chris too."
+  },
+  "canDo": {
+    "uz": "Dars oxirida boshqa birovning aytganini toʻgʻri zamon siljishi bilan qayta ayta olasiz (“He said that he was…”) va fikrni argue / claim / suggest / point out feʼllari bilan aniq qolipda bayon qila olasiz.",
+    "en": "By the end you can report what someone said with correct backshift (“He said that he was…”) and present an idea accurately using argue / claim / suggest / point out with the right pattern."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "reported-speech-backshift",
+      "titleUz": "Oʻzlashtirma gap: bayon va zamon siljishi (backshift)",
+      "titleEn": "Reported speech — statements & backshift",
+      "bandLifter": "IELTS Part 3 — report other people's views and studies accurately",
+      "cefrCanDo": "B1→B2: I can report a statement, shifting the tense and time words correctly",
+      "bodyHtml": "<p>Bu darsda siz bir mutafakkirning donoligini boshqalarga yetkazmoqchi boʻlasiz: <em>&quot;Frankl <strong>said that</strong> happiness <strong>could not</strong> be pursued.&quot;</em> Aynan mana shu — <strong>oʻzlashtirma gap</strong> (reported speech): kimningdir gapini oʻz ogʻzidan emas, oʻzimiz orqali qayta bayon qilish. Frankl, AJ, kitob — hammasi biror fikrni aytadi, siz esa uni ustozingizga yoki doʻstingizga <em>&quot;U dediki…&quot;</em> deb yetkazasiz. Va bu yerda ingliz tilining oʻzbekchaga sira oʻxshamaydigan bir odati bor: <strong>zamon siljishi</strong> (backshift).</p>\n<h3>Toʻgʻri gap va oʻzlashtirma gap</h3>\n<p>Toʻgʻri gap (direct speech) — soʻzni aynan, qoʻshtirnoq ichida takrorlash. Oʻzlashtirma gap (reported speech) — uni oʻz jumlangizga singdirish, odatda <strong>that</strong> bogʻlovchisi bilan:</p>\n<ul>\n<li>Direct: <em>Frankl said, &quot;Happiness <strong>cannot</strong> be pursued.&quot;</em></li>\n<li>Reported: <em>Frankl said <strong>that</strong> happiness <strong>could not</strong> be pursued.</em></li>\n</ul>\n<h3>Kalit qoida: zamon bir qadam orqaga suriladi (backshift)</h3>\n<p>Bosh feʼl (<em>said</em>) oʻtmishda boʻlgani uchun, ergash gapdagi feʼl ham <strong>bir pogʻona orqaga</strong> siljiydi:</p>\n<table>\n<thead>\n<tr>\n<th>Direct (aynan gap)</th>\n<th>Reported (bayon)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>present simple (<em>is, admonish</em>)</td>\n<td>past simple (<em>was, admonished</em>)</td>\n</tr>\n<tr>\n<td>present continuous (<em>is trying</em>)</td>\n<td>past continuous (<em>was trying</em>)</td>\n</tr>\n<tr>\n<td>will</td>\n<td>would</td>\n</tr>\n<tr>\n<td>can</td>\n<td>could</td>\n</tr>\n<tr>\n<td>must / have to</td>\n<td>had to</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>&quot;I <strong>admonish</strong> my students.&quot;</em> → <em>He said that he <strong>admonished</strong> his students.</em></li>\n<li><em>&quot;Success <strong>will</strong> follow you.&quot;</em> → <em>He said that success <strong>would</strong> follow me.</em></li>\n<li><em>&quot;Meaning <strong>is</strong> more important.&quot;</em> → <em>He argued that meaning <strong>was</strong> more important.</em></li>\n</ul>\n<h3><code>here / now</code> → <code>there / then</code></h3>\n<p>Zamon bilan birga oʻrin va vaqt soʻzlari ham siljiydi, chunki siz boshqa joyda, boshqa paytda gapiryapsiz:</p>\n<ul>\n<li><strong>now → then</strong>, <strong>today → that day</strong>, <strong>here → there</strong>, <strong>this → that</strong>, <strong>tomorrow → the next day</strong></li>\n</ul>\n<p><em>&quot;I feel free <strong>now</strong>.&quot;</em> → <em>She said she felt free <strong>then</strong>.</em></p>\n<h3><code>say</code> va <code>tell</code> — adashtirmang</h3>\n<p>Ikkalasi ham &quot;aytmoq&quot;, lekin qoliplari boshqa: <strong>tell</strong> dan keyin <strong>kim</strong>ga aytilgani (odam) keladi, <strong>say</strong> dan keyin esa kelmaydi:</p>\n<ul>\n<li>✅ <em>He <strong>told me</strong> that…</em> / ✅ <em>He <strong>said</strong> that…</em></li>\n<li>❌ <em>He said me that…</em> / ❌ <em>He told that…</em></li>\n</ul>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida bayon qilganda zamon <strong>oʻzgarmaydi</strong>: <em>&quot;U baxtni quvib boʻlmaydi <strong>dedi</strong>.&quot;</em> — feʼl (<em>boʻlmaydi</em>) hozirgi zamonda qolaveradi va <em>&quot;dedi&quot;</em> jumla oxirida turadi. Ingliz tili esa buning aksi: <em>that</em> boshda keladi va ichkaridagi feʼl <strong>orqaga suriladi</strong> (<em>boʻlmaydi</em> → <em>could not be</em>). Shuning uchun oʻzbek oʻquvchi koʻpincha zamonni siljitishni unutadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni ovoz chiqarib mustahkamlang. Doʻstingiz hozir aytgan gapni darrov qayta ayting: <em>&quot;He said (that) he <strong>was</strong> tired.&quot;</em> Har kuni MAIN talkdan bitta jumlani tanlab, <em>&quot;AJ said that…&quot;</em> deb qayta soʻzlab bering — backshift shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida bayon qilganda zamon oʻzgarmaydi: “U baxtni quvib boʻlmaydi dedi” — feʼl hozirgi zamonda qoladi va “dedi” oxirda keladi. Ingliz tili esa “that”ni boshga qoʻyadi va ichkaridagi feʼlni bir qadam orqaga suradi: cannot → could not, is → was, will → would. Shuningdek now→then, here→there, this→that.",
+      "errorFixUz": "❌ Frankl said me that happiness is a byproduct. ✅ Frankl said that happiness was a byproduct. / ✅ Frankl told me that happiness was a byproduct. “say”dan keyin odam kelmaydi (tell + odam); va bosh feʼl oʻtmishda boʻlsa, ergash gap feʼli ham orqaga suriladi (is → was).",
+      "examples": [
+        {
+          "en": "Frankl said that happiness could not be pursued.",
+          "uz": "Frankl baxtni quvib boʻlmaydi, dedi."
+        },
+        {
+          "en": "He told his students that success would follow them.",
+          "uz": "U oʻquvchilariga muvaffaqiyat ularga ergashadi, dedi."
+        },
+        {
+          "en": "She said that she felt free then.",
+          "uz": "U oʻsha payt oʻzini erkin his qilganini aytdi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Frankl said that happiness ___ be pursued.",
+          "options": [
+            "could not",
+            "cannot",
+            "will not"
+          ],
+          "answer": "could not",
+          "hintUz": "bosh feʼl said (oʻtmish) → cannot orqaga suriladi: could not"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He ___ me that meaning was the most important thing.",
+          "options": [
+            "told",
+            "said",
+            "spoke"
+          ],
+          "answer": "told",
+          "hintUz": "odam (me) kelsa → tell; “said” dan keyin odam kelmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She said that she ___ tired that day.",
+          "options": [
+            "was",
+            "is",
+            "will be"
+          ],
+          "answer": "was",
+          "hintUz": "is → was; “now/today” ham “then/that day”ga siljidi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Bugun kimdir aytgan bitta gapni ovoz chiqarib qayta ayting: “She/He said that … (was/would/could) …”.",
+          "answer": null,
+          "hintUz": "that + zamonni bir qadam orqaga suring; say (odamsiz) yoki tell + odam"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "reporting-verbs",
+      "titleUz": "Bayon feʼllari: suggest / argue / claim / point out + qoliplar",
+      "titleEn": "Reporting verbs & patterns",
+      "bandLifter": "IELTS Part 3 — discuss ideas in academic register (argue/claim/suggest)",
+      "cefrCanDo": "B2: I can choose the right reporting verb and its pattern (that / -ing / obj+to)",
+      "bodyHtml": "<p>Diqqat qilsangiz, Frankl shunchaki gapirmaydi — u <strong>daʼvo qiladi</strong> (<em>claims</em>), <strong>isbotlaydi</strong> (<em>argues</em>), <strong>eʼtiborni qaratadi</strong> (<em>points out</em>) va oʻquvchilariga bir yoʻlni <strong>taklif qiladi</strong> (<em>suggests</em>). <em>&quot;He <strong>argued that</strong> meaning matters more than experience.&quot;</em> Ingliz tilida &quot;aytdi&quot;ning oʻnlab, aniqroq feʼllari bor — va ularning har biri <strong>oʻz qolipiga</strong> ega. Bu — akademik, IELTS Part 3 uslubi: fikrni kimga tegishli ekanini va qanday aytilganini aniq koʻrsatadi.</p>\n<h3>Nega faqat <code>say</code>/<code>tell</code> yetarli emas</h3>\n<p><em>He said that…</em> — betaraf. Ammo maʼnoni kuchaytirmoqchi boʻlsangiz, boshqa feʼl tanlaysiz:</p>\n<ul>\n<li><strong>argue that…</strong> — dalil bilan isbotlamoq: <em>He <strong>argued that</strong> happiness cannot be pursued.</em></li>\n<li><strong>claim that…</strong> — daʼvo qilmoq (balki isbotsiz): <em>She <strong>claimed that</strong> the method didn't work.</em></li>\n<li><strong>point out that…</strong> — muhim faktga eʼtibor qaratmoq: <em>AJ <strong>points out that</strong> we choose the meaning.</em></li>\n<li><strong>suggest</strong> — taklif qilmoq (bu feʼlning qolipi alohida — pastga qarang).</li>\n</ul>\n<h3>Har feʼlning oʻz qolipi</h3>\n<p>Qolip 1 — <strong>feʼl + that + gap</strong> (argue / claim / point out / suggest):</p>\n<ul>\n<li><em>Frankl <strong>argued that</strong> we create meaning from our experiences.</em></li>\n<li><em>The book <strong>points out that</strong> success is a byproduct.</em></li>\n</ul>\n<p>Qolip 2 — <strong>suggest + -ing</strong> (odam qoʻshilmaydi!):</p>\n<ul>\n<li><em>His mother <strong>suggested trying</strong> a new strategy.</em> — Onasi yangi yoʻlni sinab koʻrishni taklif qildi.</li>\n</ul>\n<p>Qolip 3 — <strong>feʼl + obj + to</strong> (advise / urge / admonish — kimnidir biror ishga undash). Bu darsning POV hikoyasida aynan shu qolip present perfect bilan yangraydi:</p>\n<ul>\n<li><em>His mother <strong>has admonished him to</strong> eat vegetables.</em> — Onasi uni sabzavot yeyishga qattiq undab kelgan.</li>\n<li><em>I would <strong>advise you to</strong> find a bigger meaning.</em></li>\n</ul>\n<h3>Eng koʻp uchraydigan xato: <code>suggest</code></h3>\n<p><strong>suggest</strong> feʼli <em>obj + to</em> qolipini <strong>qabul qilmaydi</strong>. Oʻzbekcha &quot;menga … qilishni taklif qildi&quot; jumlasini soʻzma-soʻz oʻgirsa, xato chiqadi:</p>\n<ul>\n<li>❌ <em>She suggested me to try.</em> / ❌ <em>She suggested to try.</em></li>\n<li>✅ <em>She suggested <strong>trying</strong>.</em> / ✅ <em>She suggested <strong>that</strong> I try.</em></li>\n</ul>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida deyarli hamma bayon <em>&quot;dedi&quot;</em>, <em>&quot;maslahat berdi&quot;</em> bilan tugaydi va feʼl jumla oxirida keladi. Ingliz tili esa feʼlni <strong>boshda</strong> qoʻyadi va har biriga mos qolip talab qiladi: <em>argue/claim/point out</em> → <em>that</em>; <em>suggest</em> → <em>-ing</em> yoki <em>that</em>; <em>advise/urge/admonish</em> → <em>obj + to</em>. Qaysi feʼl qaysi qolipni olishini eslab qolish — B2 aniqligining belgisi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bitta fikrni uch xil feʼl bilan ovoz chiqarib ayting: <em>&quot;He <strong>said</strong> that… He <strong>argued</strong> that… He <strong>pointed out</strong> that…&quot;</em> Soʻng POVdagi jumlani takrorlang: <em>&quot;His mother admonished him <strong>to</strong> eat vegetables.&quot;</em> Qolip quloqqa singib, oʻzi tabiiy chiqadigan boʻladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada deyarli hamma bayon “dedi” yoki “maslahat berdi” bilan tugaydi. Ingliz tili feʼlni boshga qoʻyadi va har biriga alohida qolip beradi: argue/claim/point out + that; suggest + -ing yoki that; advise/urge/admonish + obj + to. POV hikoyada bu present perfectda yangraydi: “His mother has admonished him to eat vegetables.”",
+      "errorFixUz": "❌ She suggested me to try a new strategy. ✅ She suggested trying a new strategy. / ✅ She suggested that I try. “suggest” obj+to qolipini olmaydi — undan keyin -ing yoki that keladi (bu oʻzbekcha “menga … qilishni taklif qildi”dan soʻzma-soʻz oʻgirilganda chiqadigan xato).",
+      "examples": [
+        {
+          "en": "Frankl argued that we create meaning from our experiences.",
+          "uz": "Frankl maʼnoni tajribamizdan oʻzimiz yaratamiz, deb daʼvo qildi."
+        },
+        {
+          "en": "His mother suggested trying a new strategy.",
+          "uz": "Onasi yangi yoʻlni sinab koʻrishni taklif qildi."
+        },
+        {
+          "en": "His mother admonished him to eat vegetables.",
+          "uz": "Onasi uni sabzavot yeyishga qattiq undadi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Frankl ___ that success is a byproduct of helping others.",
+          "options": [
+            "argued",
+            "suggested to",
+            "said me"
+          ],
+          "answer": "argued",
+          "hintUz": "argue/claim/point out + that + gap"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "His mother suggested ___ a new strategy.",
+          "options": [
+            "trying",
+            "to try",
+            "him to try"
+          ],
+          "answer": "trying",
+          "hintUz": "suggest + -ing (obj+to emas!)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "His mother admonished him ___ his vegetables.",
+          "options": [
+            "to eat",
+            "eating",
+            "that eat"
+          ],
+          "answer": "to eat",
+          "hintUz": "admonish/advise/urge + obj + to + feʼl"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Bir fikrni uch xil feʼl bilan ayting (ovoz chiqarib): “He said that… He argued that… He pointed out that…”.",
+          "answer": null,
+          "hintUz": "argue/claim/point out + that; suggest + -ing; advise/urge + obj + to"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/26/main.mp3",
+      "durationSec": 881,
+      "bytes": 10574289,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/26/vocab.mp3",
+      "durationSec": 383,
+      "bytes": 4598807,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/26/ministory.mp3",
+      "durationSec": 727,
+      "bytes": 8726343,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/26/pov.mp3",
+      "durationSec": 368,
+      "bytes": 4411631,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Search for Meaning Main Text Hello, this is AJ, welcome to the next lesson. This lesson is called “Search for Meaning.” And I’m going to read a small section from a book called Man’s Search for Meaning by Viktor Frankl. This is a quite powerful book. Viktor Frankl was a psychologist in Germany before World War II.",
+      "And he and all of his family were taken by the Nazis and they were put in concentration camps. Viktor Frankl survived, his entire family was killed. Now he survived, but he suffered terribly in the concentration camps.",
+      "And I’m sure all of you have seen movies or are familiar with all the horrible terrible things that happened in the German Nazi concentration camps. But what’s amazing about Viktor Frankl is that he took these terrible experiences and he created a meaningful life from them. He did not quit. He did not become angry and bitter.",
+      "He did not learn to hate people. Instead, he learned to love and to help people and he wrote this incredible book called Man’s Search for Meaning. Because what he learned in the concentration camp was that our experiences are not the most important thing, it’s the meaning we create from our experiences.",
+      "That’s what gives our lives power or what destroy us.",
+      "And so in this book he talks about all the different prisoners that were in the concentration camp with him and he talks about which ones remained strong and which ones eventually gave up, quit and they died, which ones became depressed, which ones lost all hope and which ones continued to have strong minds and to still have hope.",
+      "So, really, he looked at this experience to learn more about human nature in this terrible, terrible situation. And he decided that the difference was the meaning that people gave to their experiences. And a lot of coaches, a lot of psychologists, talk about this experience, this idea.",
+      "That the meaning we give something is more important than the experience itself. For example, you can have a child that is abused by its parents, treated terribly and you can have another child that’s abused by its parents, treated terribly and they grow up and they have totally different lives.",
+      "One child starts to drink or becomes an alcoholic or a drug addict and they have a terrible life. The other child becomes very successful and caring and loving and helps people and grows and heals the pain.",
+      "What’s the difference, they both had the same situation, the same kinds of experiences? Well the difference is the meaning that they gave to their experience. Some people have a terrible experience and they decide that all people are bad. That’s the meaning they give.",
+      "Now Viktor Frankl… That would be an easy conclusion, right? You’re in a concentration camp in Germany and you’re seeing the worst possible behavior from human beings. They’re murdering and killing people. They’re torturing them. If you’re a prisoner it would be very easy to decide the meaning of this is all people are terrible.",
+      "Humanity is horrible. And, indeed, many people did decide that and they became bitter and angry and they lost hope. Viktor Frankl decided the opposite. The meaning he gave was that human beings are powerful and strong, they can survive anything. He focused on the prisoners who survived, who continued to love and to help people.",
+      "That’s what he saw in this experience. Same experience, but he focused on something different. He found a different meaning. He found hope. He found courage. He found love in this terrible situation. And this is something we do in every part of our lives.",
+      "Not just these big terrible things, but everything in our life we always decide the meaning. Any experience you have you will choose a meaning for it, consciously or subconsciously, usually subconsciously, right? Usually we are not aware of the meaning we’re giving it at the time, but we have to be careful about that.",
+      "For example, let’s talk about something much less serious than concentration camps and death in Germany. Let’s just talk about English learning. Now most of you had rather negative experiences learning English in school. You had probably very boring teachers. I’m sure you had terrible, terrible textbooks.",
+      "Maybe some of you did very badly on tests in your English classes. Most of you probably had bad experiences trying to speak English. You studied and you felt like you should be able to speak English, but you had trouble. It’s difficult for you or it as difficult for you. So what’s the meaning of these experiences?",
+      "Many, many students decided that the meaning is this “Ah, English is so hard, it’s impossible.” Some students decide the meaning is “Ah, I’m not good at English. I’m terrible at English.” Right? That’s the meaning that a lot of students, a lot of learners, give to the experience. But other students decide a different meaning.",
+      "They decide “Well, those methods were not powerful. Those methods didn’t work, so I’ll find a different way to learn.” Same experience, right? Both groups of students had the same terrible experiences in school. One group decides “English is too hard. I’m not good at English.” A different group decides “It’s not me, it’s just the method.",
+      "I just need to find a different method.” So they keep trying different methods, different methods and then they succeed.",
+      "They succeed because they gave the bad experience a different meaning. They decided “It’s just the method. It’s not me. It’s not English. It’s just the learning method in school, so I will find a better way.” So you need to look at these meaning and decide on your meanings. Decide and choose positive meaning.",
+      "Decide and choose meanings that are real and accurate, don’t make something worse than it is. Let me read a quick section from Viktor Frankl’s book. And in this section he’s talking about the meaning of success and how to find success. Here it is.",
+      "“Again and again, I admonish my students, both in Europe and in America, don’t aim at success. The more you aim at it and make it a target the more you’re going to miss it.",
+      "For success, like happiness, cannot be pursued, it must ensue and it only does so as the unintended side effect of one’s dedication to a cause greater than one’s self or as the byproduct of one’s surrender to a person other than one’s self. “Happiness must happen and the same holds true for success.",
+      "You have to let it happen by not caring too much about it. I want you to listen to your conscience and do what your conscience commands and to do this with the best of your knowledge and ability.",
+      "Then you will live to see that in the long run…in the long run…success will follow you precisely because you had forgotten about it, precisely because you focused on something bigger than yourself.” Okay, that’s a nice little paragraph there. So what’s he’s saying is he’s talking about meaning again.",
+      "And he says you need to find a meaning bigger than just you. If you just focus on your personal success, like getting a good score on a test or getting a better job, you will actually find it difficult to succeed. You will not get that success easily.",
+      "But if you find a different meaning, if you focus on a goal that’s bigger than you, bigger than just you, if you focus on contributing and connecting to other people and helping other people and using your success to help people and to do something bigger than just you, you will actually succeed more.",
+      "So what’s he’s saying is if you choose a goal bigger than just yourself, if you choose to help more than just yourself, you will also benefit more and that, in fact, you’ll get more success than if you’re selfish.",
+      "So that’s a nice idea -- and we’ve talked a little bit about it in past lessons, but I want to talk about it again -- finding a bigger meaning for your life, not just you. And that goes for everything you do, so when you’re learning English, again, finding a meaning for your English learning that’s bigger than just you.",
+      "Yes, absolutely, think of all the great reasons that you will benefit, personally, from improved English. Sure. Those are great goals, those are great reasons, but you must also find reasons bigger than just you.",
+      "How will you use your English ability to help other people, to help your company and your coworkers, to help your family, to help your friends, to help other people who are learning English? That’s what you’ve got to do. You’ve got to find a bigger meaning. That bigger meaning will guarantee your success.",
+      "You’ll succeed faster if you have a bigger meaning. If you only have small, personal, selfish goals you might succeed, but you’ll succeed more slowly. And this is true in all areas of life, not just learning English.",
+      "The more you can find a bigger meaning for your life beyond just yourself the more power and passion and success you will have. It’s kind of strange, it’s a paradox. A paradox is something that seems to be opposite. It means to opposite things that are true at the same time, paradox.",
+      "So the more you think about other people the more you will benefit yourself. So, for example, in business, if you think more about your customers and helping them and helping their lives you will benefit more.",
+      "You will get more customers and more money and you’ll become richer and richer by helping other people, by thinking about other people. If you think only about money for yourself then customers will not trust you and you’ll actually make less money, so it’s the same idea.",
+      "So that’s why I focus so much as a teacher and as a businessperson on helping my members, helping my students. That’s what excites me. It’s a bigger purpose than just me and that gives me the energy and the drive and it helps me succeed at a much higher level.",
+      "So I hope you’ll do the same with your English learning, with your career, with everything in your life. Try to find a bigger, deeper meaning beyond just yourself. Well, that’s the end of our lesson “Search for Meaning.” I hope you enjoyed it.",
+      "And, if you get a chance, absolutely, please, read the book Man’s Search for Meaning by Viktor Frankl. It’s a powerful book. I will see you next time."
+    ],
+    "vocab": [
+      "Search for Meaning Vocabulary Text Hello, this is AJ, welcome to the vocabulary lesson for “Search for Meaning.” Our first word is admonished, to admonish. And Viktor Frankl said “He admonished his students.” To admonish means to command or to ask someone to do something very strongly. So, for example, I say “Don’t study grammar!",
+      "Don’t study grammar!” I am admonishing you, right? I’m telling you to do something. I’m commanding you. So to admonish, again, is to tell someone to do something kind of strongly or to ask very strongly. “Please, don’t study grammar! Please, don’t study grammar! Please, don’t do it!” I am admonishing you. I’m asking very strongly.",
+      "It’s kind of between and commanding, to admonish. Our next word is to pursue or pursued. You probably know this word already, but very quickly. To pursue means to chase, to try to get something; to follow it and try to catch it. So Viktor Frankl says that “Happiness cannot be pursued.” You cannot chase it. You cannot grab it.",
+      "He said “it must ensue.” To ensure means to happen, to happen. It means to happen next, to come after, so it’s the opposite. So he’s saying that you cannot grab happiness, you must let happiness come to you. Happiness happens automatically. To ensue means to happen. Happiness happens. You can’t get it. It’s not a thing you can grab.",
+      "It’s something that just happens. It’s a result, it’s a consequence. It happens after something else, so to ensure means, again, to happen, to happen next, to happen after, to ensure. Our next word is unintended. He said that “Happiness and success are the unintended side effects of focusing on a cause greater than one’s self.”",
+      "Unintended means, obviously, not intended. To intend means to want something consciously, to try to do something consciously, so unintended means by accident, by accident. He’s saying happiness happens accidentally. Success happens accidentally. You don’t focus on it, you’re not trying to do it, but it happens. It’s a side effect.",
+      "It’s not the direct effect it’s a small effect, it’s an accidental effect. So he’s saying that if you focus on something bigger than yourself, helping other people, happiness will come automatically. You’re not trying to get happiness, it’s unintended, but it will happen.",
+      "So, again, unintended means something you’re not trying to do or something that happens accidentally.",
+      "And our next word is byproduct. Happiness is the byproduct of helping other people. Again, byproduct is very similar to side effect. It’s an extra product, is what it means. A byproduct means an extra product, it’s something extra. So the main thing is helping people. That’s your main focus.",
+      "It’s the main thing you’re doing. But then there’s something extra, the extra thing is happiness. So you focus on helping other people, but you get a byproduct, you get something extra. The extra thing is happiness, the extra thing is success. Success is a byproduct of helping other people. It’s an extra thing, an extra result.",
+      "Again, byproduct- byproduct- byproduct. And, finally -- this is a quick vocabulary lesson, just one more word -- conscience, conscience. Now this is spelled differently than conscious. They sound very, very close. They’re very, very close in pronunciation.",
+      "The difference is there’s a little bit of an “en”, “en” sound at the end of this word…con-science, con-science, conscience, conscience. Hear the little “ah, ah, en, en, en” sound at the end? Conscience. Conscience means your morals. It’s your ideas of right and wrong.",
+      "It’s the part of your mind that tells you something is right, good or something is wrong, bad. That’s your conscience. So Viktor Frankl says “You must listen to and follow your conscience, always.” You must always follow your feelings of right and wrong.",
+      "If something is right you must do it, even if it’s difficult, even if you are criticized, even if you lose your job. You must always do what you think is right, what is good. Follow your conscience; follow your feeling of goodness. All right, so conscience, that’s our last word.",
+      "So that is the end of the vocabulary lesson for “Search for Meaning.” I hope you enjoyed it. I hope you will find your own meaning for learning English and for your life, something bigger than just yourself, so that you can feel excited, happy and passionate about your life. All right, I will see you next time."
+    ],
+    "pov": [
+      "Search for Meaning POV Text Hello, welcome to the POV (point of view) stories for “Search for Meaning.” Same story, let’s start. Chris has always hated vegetables. He has only liked steak. He has only eaten steak, always, since he was a little baby. Since he was a little baby Chris has hated vegetables.",
+      "Since he was a little baby he has only eaten steak. He has only liked steak. Of course his mother has been worried about him. She has been worried about him because he never ate vegetables. His mother has admonished him every day. Every day since he was a baby, until recently, his mother has admonished him.",
+      "She has admonished him and she has said “Chris, eat your vegetables. You must eat your vegetables.” Well, she has admonished him every day, but Chris has ignored her every day. He has never eaten his vegetables. He has never listened to her. He has continued to eat steak and only steak.",
+      "He has eaten steak for breakfast, he has eaten steak for lunch, he has eaten steak for dinner every day since he was a baby. He has been a steak eatin’ baby all his life. Of course this has had unintended consequences. Because he has eaten only steak he has become fat very quickly. He has become very, very fat.",
+      "In fact, each year he has gotten fatter and fatter and fatter very, very fast until, finally, he weighed 725 pounds when he was five years old. Of course this was terrible. And at that time, when he became five, his mother became very worried and so she decided to pursue a new strategy. She pursued a new strategy with Chris.",
+      "She said to Chris one day, “Chris, you know they kill poor kind little cows to make steak and you love animals, so Chris, follow your conscience.” Oh, Chris became upset. He thought about the little poor cows being killed! Well, what ensured, next, was that Chris stopped eating steak.",
+      "He completely stopped and he learned to love vegetables. He ate vegetables every day. And, of course, because he ate vegetables every day he became thin and healthy and strong. He was a happy little boy.",
+      "And that is the end of our first point of view story for “Search for Meaning.” Next, let’s go to the future. In the future, 100 years from now, in space or something, I don’t know, into the future. There will be a boy named Chris. This boy will hate vegetables. He’s going to hate them.",
+      "He’ll never eat vegetables. He’ll only like steak and he’ll only eat steak. Of course his mother is going to admonish him every day to eat vegetables. She’ll say “Chris, eat your vegetables. You must eat your vegetables!” There will be unintended consequences. He will become fatter and fatter and fatter.",
+      "He won’t want to be fat, but it will be an unintended consequence of eating steak and only steak. So he’ll become a very fat little boy. In fat, he’ll become super fat, obese. He’ll weight 725 pounds. He’ll only be five years old. Now, of course, his mom is going to be very worried and she’ll decide to pursue a new strategy.",
+      "One day she’s going to say to him “Chris, they kill poor kind little cows to make steak and you love animals, so Chris, follow your conscience.” And Chris will become very upset, of course, and he’ll decide to stop eating steak. In fact, what will ensue is that he’ll stop eating steak completely.",
+      "He’ll learn to love vegetables and he’ll become thin and super healthy and very strong. Chris will become a happy, healthy, thin little boy. And that is the end of our point of view stories for “Search for Meaning.” I hope you enjoy them.",
+      "Always enjoy your learning, enjoy your listening, smile, big, deep breaths, move your body, strong physiology, always. I will see you next time, bye-bye."
+    ],
+    "sixmin": [
+      "Neil: Hello. Welcome to 6 Minute English, I'm Neil.",
+      "Neil: And we are sitting here in New Broadcasting House, in the middle of London. Would you say, Sam, that this is an isolated place?",
+      "Sam: Oh no, not at all. Isolated means far away from other places and people.",
+      "Neil: Does that mean then, do you think, that you can't be lonely here, with all these people around and all these things to do?",
+      "Sam: Ah, good question. Can you be lonely in a crowd? Yes, of course, I think you can be because being lonely isn't about physical isolation. I think you can be lonely anywhere if you feel that you are disconnected from the world around you, if you feel that no one understands you. If you are living happily in isolation in The Scottish Highlands, for example, I'm sure you could feel lonely if you came here to London.",
+      "Neil: Well, loneliness is today's topic. The BBC has just completed a big survey about it which we will learn more about shortly. But first, of course, a question: Where is the most isolated inhabited place on the planet - by which I mean the place furthest away from anywhere else with the fewest people living there. Is it: a) McMurdo Station in Antarctica b) Siwa Oasis in Egypt's Western Desert, or is it c) the island of Tristan da Cunha in the South Atlantic What do you think, Sam?",
+      "Sam: I've got absolutely no idea, so this is just a guess - I think it's the one in Antarctica. I'm going to go with that.",
+      "Neil: Well, we'll have the answer later on in the programme. Loneliness is seen as a big problem for the mental health of the population, so much so that the British government has a minister for loneliness. But which age group suffers most from loneliness. Here is a BBC report about the research. James Gallagher, BBC Health and science correspondent There is a common stereotype that loneliness affects only the old and the isolated. It does, but what this experiment also shows is that loneliness is felt throughout life. People aged between 16 and 24 experience loneliness more often and more intensely than any other age group.",
+      "Neil: So according to the research, Sam, which section of society is most affected by loneliness?",
+      "Sam: This might be a surprise, but it's 16 to 24 year olds.",
+      "Neil: I was surprised by that because like many, I would've guessed that it was older people.",
+      "Sam: The reporter did say that that was a stereotype. A stereotype is nothing to do with stereo music, but it's the noun we use to describe a very simple and basic judgement of someone and their character and personality based on their age, nationality, profession and so on. So a stereotype of British people is that we can't cook, we have bad teeth, we are very reserved and never say what we mean.",
+      "Neil: I don't know what you mean, my cooking is wonderful, Sam. And the stereotype is that old people get lonely.",
+      "Sam: Much like the stereotypes of British people, this may be true in some cases - I've eaten some of your home-cooked meals remember, Neil - but it's not true for the majority. It is young people who feel lonely more often and more intensely. Intensely here means strongly. The feeling of loneliness is stronger in young people than older people.",
+      "Neil: The reporter goes on to give some explanation for why young people might be more lonely. James Gallagher, BBC Health and science correspondent Researchers from the University of Manchester who analysed the data, suggested feeling lonely may plague the young because it's a time of identity change. Figuring out your place in the world and of learning to regulate emotions.",
+      "Neil: He says that feeling lonely may plague young people, what does he mean there?",
+      "Sam: If you are plagued by something, it means that it troubles you, it bothers you and not just once, it's something that happens continually or repeatedly.",
+      "Neil: And he says this may be because at that age we are still figuring out our place in the world. We are trying to understand the world and what we are supposed to do with our lives.",
+      "Sam: He also suggests that younger people have not yet learned how to regulate their emotions, which is another way of saying to control their emotions.",
+      "Neil: Right. Time to review this week's vocabulary, but before that let's have the answer to the quiz. I asked: Where is the most isolated inhabited place on the planet? Is it: a) McMurdo Station in Antarctica b) Siwa Oasis in Egypt's Western Desert or c) the island of Tristan da Cunha in the South Atlantic What did you say, Sam?",
+      "Sam: I said a).",
+      "Neil: Well, I'm afraid to say the answer is actually c) the island of Tristan da Cunha in the South Atlantic. It has a population of fewer than 300 and it's only accessible by a 6-day voyage by ship from South Africa.",
+      "Sam: So not a popular place for a weekend break!",
+      "Neil: Indeed not. Now it's time for a recap of our vocabulary. The first word was isolated which Tristan da Cunha certainly is. It means far away from other place and people.",
+      "Sam: Then there was stereotype the noun for a simplistic view of person or group based on their nationality, age, profession and the like.",
+      "Neil: Intensely means strongly.",
+      "Sam: Being plagued by something means it causes you problems and difficulties.",
+      "Neil: If you are trying to figure something out, you are trying to understand it.",
+      "Sam: And to regulate something means to control it.",
+      "Neil: Well, sadly, that's the end of the programme. Hopefully you won't feel too lonely without us, remember we are always here on Instagram, Facebook, Twitter, YouTube, our App and of course the website bbclearningenglish.com. See you soon. Goodbye.",
+      "Sam: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Did Chris vegetables or did he hate vegetables?",
+        "a": "Well, Chris hated vegetables. He never ate vegetables."
+      },
+      {
+        "q": "What did Chris eat?",
+        "a": "Steak. Chris only ate steak."
+      },
+      {
+        "q": "Did he eat vegetables or did he eat steak?",
+        "a": "He ate steak. He only ate steak."
+      },
+      {
+        "q": "What did his mother do?",
+        "a": "She admonished Chris."
+      },
+      {
+        "q": "Who did she admonish?",
+        "a": "She admonished Chris."
+      },
+      {
+        "q": "Who admonished Chris?",
+        "a": "His mother. His mother admonished him."
+      },
+      {
+        "q": "How did she admonish him?",
+        "a": "Well, she said “Eat your vegetables. You must eat your vegetables.” She admonished him every day to eat his vegetables."
+      },
+      {
+        "q": "What did she admonish him to do?",
+        "a": "To eat vegetables. She admonished him to eat his vegetables."
+      },
+      {
+        "q": "Did she admonish him to eat more steak?",
+        "a": "No, no, no, no, she didn’t admonish him to eat more steak. She admonished him to eat vegetables."
+      },
+      {
+        "q": "Did Chris eat vegetables every day?",
+        "a": "No, no, no, he never ate vegetables. He never ate vegetables. He only ate steak every day. Steak for breakfast, steak for lunch, steak for dinner, steak for snacks, Chris only ate steak. He never ever, ever ate vegetables. And so every day his mother admonished him. She admonished him strongly, she said, “Eat your vegetables! You must eat your vegetables!” But Chris never did."
+      },
+      {
+        "q": "Did Chris want to become fat?",
+        "a": "No, no, no, he didn’t. It was an unintended consequence, an unintended result. He did not want to become fat, but he did become fat."
+      },
+      {
+        "q": "Why did Chris become fat?",
+        "a": "Well, because he only ate steak every day, breakfast, lunch, dinner, steak, steak, steak. An unintended consequence of this was that he became fat."
+      },
+      {
+        "q": "Was it an intended consequence or an unintended consequence?",
+        "a": "Well, it was unintended. He didn’t want it, he wasn’t planning to become fat, but it still happened. It was an unintended consequence."
+      },
+      {
+        "q": "What was an unintended consequence of his eating?",
+        "a": "Well, fatness, becoming fat. Becoming fat was an unintended consequence of eating steak every day."
+      },
+      {
+        "q": "What kind of consequence as it?",
+        "a": "Unintended. It was an unintended consequence."
+      },
+      {
+        "q": "How much did Chris weigh?",
+        "a": "He weighed 725 pounds."
+      },
+      {
+        "q": "How old was Chris?",
+        "a": "Well, Chris was five years old. Chris was five years old and he weighted 725 pounds. He was terribly, hugely obese."
+      },
+      {
+        "q": "What did she do?",
+        "a": "She pursued a new strategy. She followed, she tried, a new strategy."
+      },
+      {
+        "q": "What did she pursue?",
+        "a": "She pursued a new strategy."
+      },
+      {
+        "q": "Why did she pursue a new strategy?",
+        "a": "Well, because Chris was getting fatter and fatter and she was worried."
+      },
+      {
+        "q": "Who pursued a new strategy with Chris?",
+        "a": "Well, his mother. His mother pursued a new strategy."
+      },
+      {
+        "q": "What did she want Chris to follow?",
+        "a": "His conscience. His feelings about right and wrong; good and bad. His ideas about right and wrong, good and bad. She wanted him to follow his conscience, follow his good ideas, his good feelings, his good values, his good morals, his conscience."
+      },
+      {
+        "q": "Did she want him to follow his conscience or his craving for steak?",
+        "a": "Well, she wanted him to follow his conscience. She did not want him to follow his craving for steak she wanted him to follow his conscience."
+      },
+      {
+        "q": "What did she want him to follow?",
+        "a": "His conscience. She said “They kill little small nice cows to make steak and you love animals, so follow your conscience.”"
+      },
+      {
+        "q": "Whose conscience did she want him to follow?",
+        "a": "Well, his conscience, his own conscience. She wanted him to follow his own conscience, his own feelings of right and wrong, good and bad."
+      },
+      {
+        "q": "Did she want him to eat more steak?",
+        "a": "No, she wanted him to stop eating steak."
+      },
+      {
+        "q": "Why did she want him to stop eating steak?",
+        "a": "Well, because he was obese. He weighted 725 pounds and he was only five years old. So she tried a new strategy, she said “Follow your conscience. You love animals. You don’t want them to die. Follow your conscience.”"
+      },
+      {
+        "q": "What happened next?",
+        "a": "He stopped eating steak."
+      },
+      {
+        "q": "What ensured next?",
+        "a": "He stopped eating steak."
+      },
+      {
+        "q": "Did he stop eating vegetables?",
+        "a": "No, no, no, no, that didn’t ensue. That didn’t happen. What ensued was that he stopped eating steak."
+      },
+      {
+        "q": "What ensued?",
+        "a": "Well, he stopped eating steak. Next, what happened next, what ensured, was that Chris stopped eating steak."
+      },
+      {
+        "q": "So what ensured was that Chris stopped eating vegetables, right?",
+        "a": "No, no, no, that didn’t ensue. He didn’t stop eating vegetables. What ensued was that he stopped eating steak. Chris stopped eating steak. In fact, he learned to love vegetables and over time he became thinner and thinner and healthier and healthier. And one day when he was seven years old he was super healthy, super thin and he looked great. His mom was very, very happy."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to admonish (someone)",
+      "pos": "v",
+      "uz": "qattiq undamoq, tanbeh berib chorlamoq",
+      "defEn": "to strongly urge or tell someone to do something",
+      "example": "Frankl admonished his students not to aim at success."
+    },
+    {
+      "en": "to pursue (something)",
+      "pos": "v",
+      "uz": "quvmoq, ortidan yugurib erishishga urinmoq",
+      "defEn": "to chase something and try hard to get it",
+      "example": "Happiness cannot be pursued directly."
+    },
+    {
+      "en": "to ensue",
+      "pos": "v",
+      "uz": "keyin yuz bermoq, natijada kelib chiqmoq",
+      "defEn": "to happen afterwards as a result",
+      "example": "Success will ensue if you focus on a bigger goal."
+    },
+    {
+      "en": "an unintended side effect",
+      "pos": "phrase",
+      "uz": "koʻzda tutilmagan yon taʼsir",
+      "defEn": "an extra result you did not plan for",
+      "example": "Happiness is an unintended side effect of helping others."
+    },
+    {
+      "en": "an unintended consequence",
+      "pos": "phrase",
+      "uz": "koʻzda tutilmagan oqibat",
+      "defEn": "a result you did not want or expect",
+      "example": "Eating only steak had an unintended consequence."
+    },
+    {
+      "en": "a byproduct (of)",
+      "pos": "n",
+      "uz": "qoʻshimcha natija, yon mahsul",
+      "defEn": "an extra thing produced besides the main one",
+      "example": "Success is a byproduct of serving a bigger cause."
+    },
+    {
+      "en": "to follow your conscience",
+      "pos": "phrase",
+      "uz": "vijdoningizga quloq solmoq (ich-tuygʻusiga amal qilmoq)",
+      "defEn": "to act according to your sense of right and wrong",
+      "example": "You must follow your conscience, even when it is hard."
+    },
+    {
+      "en": "a cause greater than yourself",
+      "pos": "phrase",
+      "uz": "oʻzingizdan kattaroq maqsad (gʻoya)",
+      "defEn": "a goal or purpose bigger than your own interests",
+      "example": "Dedicate yourself to a cause greater than yourself."
+    },
+    {
+      "en": "a paradox",
+      "pos": "n",
+      "uz": "paradoks (bir vaqtda qarama-qarshi koʻrinadigan haqiqat)",
+      "defEn": "two opposite things that are both true at once",
+      "example": "It's a paradox: helping others helps you the most."
+    },
+    {
+      "en": "to find meaning (in something)",
+      "pos": "phrase",
+      "uz": "maʼno topmoq (biror narsada)",
+      "defEn": "to discover a reason or purpose that matters to you",
+      "example": "Try to find meaning in learning English."
+    }
+  ],
+  "englishpod": {
+    "id": "0241",
+    "title": "The Office — Interview Skills: Education Background",
+    "titleUz": "Ish suhbati — taʼlim tajribasi",
+    "warmup": {
+      "uz": "Bu suhbatda Rebekka ish intervyusida taʼlimi va koʻngilli faoliyatlari haqida gapiradi — u uysizlarga yordam berishni “really fulfilling” deb ataydi. Franklning gʻoyasiga mos: oʻzidan kattaroq ishga xizmat qilish maʼno beradi. Sizningcha, koʻngilli boʻlish (volunteering) nega odamga qoniqish keltiradi?",
+      "en": "In this dialogue Rebecca talks about her education and volunteering in a job interview — she calls helping the homeless “really fulfilling.” It fits Frankl's idea: serving something bigger gives life meaning. Why do you think volunteering feels fulfilling?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0241/dg.mp3",
+        "durationSec": 72,
+        "bytes": 605728
+      },
+      "pr": {
+        "path": "englishpod/0241/pr.mp3",
+        "durationSec": 827,
+        "bytes": 13270098
+      },
+      "rv": {
+        "path": "englishpod/0241/rv.mp3",
+        "durationSec": 354,
+        "bytes": 5699084
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Now, if I look here I see that you completed a BA in English?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes, that’s right. After graduating from high school in New York I attended York University in the UK. My major was English, and my minor was business studies . I completed my BA in 2004."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Yes, I’m pleased to see that you also got a distinction."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes that’s right. I’ve always enjoyed studying. My friends say I’m a bit of a bookworm, but my father always pushed us to succeed academically."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Well, it looks like his encouragement paid off Rebecca. So how about extracurricular activities at University"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well I’ve always been keen on on writing, so I became the editor for the University student magazine, which I really loved. Also I volunteered for a group called Shelter, to help the homeless in York."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "What did that involve?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Providing warm meals and shelter, especially in the winter months . I found it really fulfilling to be part of that group ."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "I’m sure. Okay, now let’s move on to your work experience, shall we?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes, okay."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "major",
+        "uz": "asosiy yoʻnalish (universitetdagi asosiy fan)",
+        "defEn": "the main subject you study at university"
+      },
+      {
+        "en": "minor",
+        "uz": "qoʻshimcha yoʻnalish (ikkinchi fan)",
+        "defEn": "a second, smaller subject you study at university"
+      },
+      {
+        "en": "distinction",
+        "uz": "aʼlo darajali baho, imtiyozli natija",
+        "defEn": "a mark or award given for excellent academic work"
+      },
+      {
+        "en": "a bookworm",
+        "uz": "kitobga oʻch odam, kitob kuyunchagi",
+        "defEn": "a person who loves reading and studying"
+      },
+      {
+        "en": "to pay off",
+        "uz": "oʻzini oqlamoq, samara bermoq",
+        "defEn": "to bring a good result after effort"
+      },
+      {
+        "en": "keen on (something)",
+        "uz": "biror narsaga ishtiyoqmand, qiziqadigan",
+        "defEn": "very interested in or eager to do something"
+      },
+      {
+        "en": "to volunteer",
+        "uz": "koʻngilli boʻlmoq (majburanmas, tekin yordam bermoq)",
+        "defEn": "to do something willingly without being forced or paid"
+      },
+      {
+        "en": "fulfilling",
+        "uz": "qoniqish beruvchi, mamnun qiladigan",
+        "defEn": "making you feel happy and satisfied"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "181108",
+    "title": "Loneliness",
+    "titleUz": "Yolgʻizlik",
+    "audio": {
+      "main": {
+        "path": "sixmin/181108/audio.mp3",
+        "durationSec": 378,
+        "bytes": 15104640,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Where is the most isolated inhabited place on the planet?",
+        "qUz": "Sayyoradagi eng chekka, odam yashaydigan joy qayerda?",
+        "options": [
+          "McMurdo Station in Antarctica",
+          "Siwa Oasis in Egypt",
+          "Tristan da Cunha in the South Atlantic"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) Tristan da Cunha (Janubiy Atlantikadagi orol). Sam a) Antarktida dedi va xato qildi. Orolda 300 dan kam odam yashaydi va u yerga Janubiy Afrikadan kema bilan 6 kun suzib borish kerak."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "isolated",
+        "uz": "chekka, ajralib qolgan (odamlardan uzoq)",
+        "defEn": "far away from other places and people"
+      },
+      {
+        "en": "a stereotype",
+        "uz": "qolip fikr, andoza tasavvur",
+        "defEn": "a fixed, oversimplified idea about a type of person or group"
+      },
+      {
+        "en": "intensely",
+        "uz": "kuchli, qattiq (his qilib)",
+        "defEn": "very strongly"
+      },
+      {
+        "en": "to be plagued by (something)",
+        "uz": "biror narsadan azob chekmoq, tinimsiz bezovta boʻlmoq",
+        "defEn": "to be troubled by something again and again"
+      },
+      {
+        "en": "to figure (something) out",
+        "uz": "aql bilan yechmoq, tushunib olmoq",
+        "defEn": "to understand or find the answer to something"
+      },
+      {
+        "en": "to regulate (emotions)",
+        "uz": "boshqarmoq, jilovlamoq (his-tuygʻuni)",
+        "defEn": "to control something so it stays balanced"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Viktor Frankl: Finding meaning in life's hardest moments",
+      "channel": "TED-Ed"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a writer, teacher or thinker who influenced you. Report what they said or argued, and explain the meaning you found in it. What did they claim, and what did they suggest you do?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: oʻzlashtirma gap va zamon siljishi (He said that he was…; She told me that…) hamda bayon feʼllari (argue / claim / suggest / point out — masalan, “He argued that…”, “She suggested trying…”).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/26/main.mp3",
+      "bytes": 10574289
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/26/main.pdf",
+      "bytes": 169884
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/26/vocab.mp3",
+      "bytes": 4598807
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/26/ministory.mp3",
+      "bytes": 8726343
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/26/pov.mp3",
+      "bytes": 4411631
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/26/pov.pdf",
+      "bytes": 147890
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0241/dg.mp3",
+      "bytes": 605728
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0241/transcript.pdf",
+      "bytes": 93859
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/181108/audio.mp3",
+      "bytes": 15104640
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/181108/transcript.pdf",
+      "bytes": 125102
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

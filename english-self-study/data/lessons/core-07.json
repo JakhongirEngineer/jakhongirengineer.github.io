@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 2,
+  "id": "core-07",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 7,
+  "slug": "repetition",
+  "title": "Repetition",
+  "titleUz": "Takrorlash — kuch bilan qayta-qayta",
+  "level": "B1",
+  "tags": [
+    "repetition",
+    "used-to-would",
+    "time-prepositions",
+    "habits",
+    "mastery"
+  ],
+  "intro": {
+    "uz": "Repetition — mahoratga eltadigan yagona yoʻl: bir ishni kuch va eʼtibor bilan qayta-qayta takrorlash (repetition with intensity), har safar kichik yangi farq (distinction) qoʻshib. Bu haftaning ikki grammatik mavzusi shu gʻoyaga bogʻlangan: oʻtmish odatlari — used to / would (eski tiqishtirib yodlashni yangi kunlik mashq bilan solishtiramiz) va payt predloglari — for / since / during / ago (takror doim vaqt bilan oʻlchanadi).",
+    "en": "Repetition is the only road to mastery: doing something again and again with power and focus (repetition with intensity), adding a small new distinction each time. This week's two grammar topics build on that idea: past habits — used to / would (contrasting old cramming with new daily practice) and time prepositions — for / since / during / ago (repetition is always measured in time)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻtmishda nima qilgan yoki qanday boʻlgan boʻlishingizni (used to / would) toʻxtamasdan ayta olasiz va biror ishni qancha vaqt, qachondan beri yoki qachon qilganingizni (for / since / during / ago) toʻgʻri ayta olasiz.",
+    "en": "By the end you can say what you used to do or how you used to be (used to / would) without pausing, and say how long, since when, or when you did something (for / since / during / ago) correctly."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "used-to-would",
+      "titleUz": "Oʻtmish odatlari: used to / would",
+      "titleEn": "Past habits & states — used to / would",
+      "bandLifter": "IELTS Part 2 — talk about how your life or habits used to be different",
+      "cefrCanDo": "B1: I can describe past habits and states that are no longer true (used to / would)",
+      "bodyHtml": "<p>Bu darsda AJ butun umri ingliz tilini qayta-qayta eshitib kelayotganini aytadi: <em>&quot;Every day for 40 years I <strong>have been</strong> listening to English.&quot;</em> Koʻpchiligimiz esa ilgari boshqacha oʻqirdik — imtihon oldidan bir kechada hamma soʻzni yodlab, keyin tashlab qoʻyardik. Ana shu <strong>oʻtgan, endi yoʻq odat</strong>ni ingliz tili maxsus qolip bilan aytadi: <strong>used to</strong> va <strong>would</strong>. Bu — eski usulni yangi kunlik mashq bilan solishtirishning ayni oʻzi.</p>\n<h3><code>used to</code> — oʻtmishdagi odat YOKI holat (hozir yoʻq)</h3>\n<p><strong>used to + feʼlning sof shakli</strong> — bir paytlar rost boʻlgan, ammo endi rost boʻlmagan ish yoki holatni bildiradi. Uni aytganingizdayoq tinglovchi <em>&quot;demak, hozir bunday emas&quot;</em> deb tushunadi.</p>\n<ul>\n<li><em>I <strong>used to</strong> cram before exams.</em> — Ilgari imtihon oldidan tiqishtirib yodlardim (hozir yoʻq).</li>\n<li><em>She <strong>used to</strong> be very shy.</em> — U ilgari juda uyatchan edi (hozir emas).</li>\n<li><em>There <strong>used to</strong> be a music shop here.</em> — Bu yerda ilgari musiqa doʻkoni bor edi.</li>\n</ul>\n<p>Eʼtibor bering: <strong>used to</strong> ham odat (<em>cram, study</em>), ham holat (<em>be shy, have, like</em>) uchun ishlaydi.</p>\n<h3><code>would</code> — faqat oʻtmishda TAKRORLANGAN harakat</h3>\n<p><strong>would + feʼlning sof shakli</strong> — oʻtmishda qayta-qayta boʻlgan harakatni bildiradi. Bu darsning mavzusiga juda mos: takror. Lekin bitta shart bor — <strong>would faqat harakat</strong> uchun, holat uchun emas.</p>\n<ul>\n<li><em>When he was young, he <strong>would</strong> practise the guitar for hours.</em> — Yoshligida u soatlab gitara chalardi.</li>\n<li><em>Every day AJ <strong>would</strong> repeat the same scales.</em> — AJ har kuni oʻsha gammalarni takrorlardi.</li>\n</ul>\n<p>❗ Holatga (<em>be, have, like, know</em>) <strong>would</strong> ishlatilmaydi: <em>He would be shy</em> xato — bu yerda faqat <em>used to</em>.</p>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida buni <strong>-ar edi / -(a)digan edi</strong> bilan aytamiz: <em>&quot;chalar edi&quot;, &quot;uyatchan edi&quot;, &quot;borardi&quot;</em>. Oʻzbekcha bu qolip harakatni ham, holatni ham koʻtaraveradi — ingliz tilida esa chiziq aniq: harakat = <em>used to</em> yoki <em>would</em>, holat = <strong>faqat</strong> <em>used to</em>.</p>\n<h3>Xato va tuzatish</h3>\n<blockquote>\n<p>❌ <em>I use to study all night. He would be lazy.</em>\n✅ <em>I <strong>used to</strong> study all night. He <strong>used to</strong> be lazy.</em>\nSavol/inkorda <strong>use to</strong> (d tushadi): <em>Did you <strong>use to</strong> cram? I <strong>didn't use to</strong> practise daily.</em> Holat uchun esa hech qachon <em>would</em> emas — faqat <em>used to</em>.</p>\n</blockquote>\n<blockquote>\n<p><strong>Eslatma:</strong> buni ovoz chiqarib mustahkamlang. Har kuni oʻzingiz haqingizda ikki jumla ayting: <em>&quot;I <strong>used to</strong> … , but now I …&quot;</em> va <em>&quot;When I was a child, I <strong>would</strong> … .&quot;</em> Eski odat bilan yangi odatni solishtiring — miya farqni takrordan oʻzi ilib oladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida buni “-ar edi / -(a)digan edi” bilan aytamiz: “chalar edi”, “uyatchan edi”. Bu qolip oʻzbekchada harakatni ham, holatni ham koʻtaraveradi. Ingliz tilida esa chiziq aniq: takrorlangan HARAKAT uchun “used to” yoki “would”; HOLAT (be, have, like, know) uchun esa faqat “used to” — “would” emas.",
+      "errorFixUz": "❌ I use to study all night. He would be lazy. ✅ I used to study all night. He used to be lazy. Savol/inkorda “d” tushadi: Did you use to…? / I didn’t use to… . Holat uchun hech qachon “would” emas — faqat “used to”.",
+      "examples": [
+        {
+          "en": "I used to cram before exams, but now I practise every day.",
+          "uz": "Ilgari imtihon oldidan tiqishtirib yodlardim, endi esa har kuni mashq qilaman."
+        },
+        {
+          "en": "When he was young, he would practise the guitar for hours.",
+          "uz": "Yoshligida u soatlab gitara chalardi."
+        },
+        {
+          "en": "She used to be very shy.",
+          "uz": "U ilgari juda uyatchan edi (hozir emas)."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ study by cramming, but now I practise every day.",
+          "options": [
+            "used to",
+            "use to",
+            "am used to"
+          ],
+          "answer": "used to",
+          "hintUz": "oʻtmishdagi, endi yoʻq odat → used to (tasdiqda “d” bor)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Every day AJ ___ repeat the same singing scales.",
+          "options": [
+            "would",
+            "will",
+            "uses to"
+          ],
+          "answer": "would",
+          "hintUz": "oʻtmishda takrorlangan HARAKAT → would"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Asher ___ be terrible at the guitar.",
+          "options": [
+            "used to",
+            "would",
+            "use to"
+          ],
+          "answer": "used to",
+          "hintUz": "HOLAT (be) → faqat used to; “would” holat uchun ishlamaydi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I used to … , but now I …” va “When I was a child, I would … .”",
+          "answer": null,
+          "hintUz": "used to = odat yoki holat; would = faqat takrorlangan harakat"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "time-duration-prepositions",
+      "titleUz": "Payt predloglari: for / since / during / ago",
+      "titleEn": "Time & duration prepositions — for / since / during / ago",
+      "bandLifter": "IELTS Part 1 — say how long and when accurately",
+      "cefrCanDo": "B1: I can use for / since / during / ago correctly with the right tense",
+      "bodyHtml": "<p>Takror doim vaqt bilan oʻlchanadi. AJ aynan shunday gapiradi: <em>&quot;every day <strong>for</strong> 40 years&quot;</em>, <em>&quot;years and years and years&quot;</em>. Mini-hikoyada esa Asher <em>&quot;<strong>for</strong> one year&quot;</em> AJga taqlid qiladi, keyin <em>&quot;three years later&quot;</em> rok-yulduzga aylanadi. Vaqt va davomiylikni toʻgʻri aytish uchun toʻrtta kalit soʻz kerak: <strong>for / since / during / ago</strong>. Oʻzbek oʻquvchilar ularni koʻpincha almashtirib yuboradi — keling, farqini aniq ochamiz.</p>\n<h3><code>for</code> — QANCHA vaqt (davomiylik)</h3>\n<p><strong>for + vaqt uzunligi</strong>: ish qancha davom etganini aytadi.</p>\n<ul>\n<li><em>Michael Jordan practised <strong>for</strong> twenty years.</em> — Yigirma yil mashq qildi.</li>\n<li><em>I have listened to this lesson <strong>for</strong> two hours.</em> — Bu darsni ikki soatdan beri tinglayapman.</li>\n</ul>\n<h3><code>since</code> — QACHONDAN beri (boshlanish nuqtasi)</h3>\n<p><strong>since + boshlanish nuqtasi</strong> (aniq sana yoki hodisa): ish qachon boshlanganini aytadi. Odatda present perfect bilan keladi.</p>\n<ul>\n<li><em>He has played the guitar <strong>since</strong> 2019.</em> — 2019-yildan beri gitara chaladi.</li>\n<li><em>I have studied English <strong>since</strong> I was a child.</em> — Bolaligimdan beri ingliz tili oʻrganaman.</li>\n</ul>\n<h3><code>during</code> — biror davr ICHIDA (+ ot)</h3>\n<p><strong>during + ot/davr</strong>: hodisa qaysi davr ichida boʻlishini aytadi. Undan keyin <strong>ot</strong> keladi (raqam emas).</p>\n<ul>\n<li><em>I imitate AJ's pronunciation <strong>during</strong> the lesson.</em> — Dars davomida AJ talaffuziga taqlid qilaman.</li>\n<li><em>She stayed calm <strong>during</strong> the exam.</em> — Imtihon davomida xotirjam turdi.</li>\n</ul>\n<h3><code>ago</code> — hozirdan ORQAGA sanab (+ oʻtgan zamon)</h3>\n<p><strong>vaqt + ago</strong>: shu paytdan necha vaqt oldin boʻlganini aytadi. U <strong>soʻzdan keyin</strong> turadi va <strong>oddiy oʻtgan zamon</strong> bilan ishlaydi.</p>\n<ul>\n<li><em>Asher became a rock god three years <strong>ago</strong>.</em> — Asher uch yil oldin rok-yulduz boʻldi.</li>\n<li><em>I started this course six months <strong>ago</strong>.</em> — Bu kursni olti oy oldin boshladim.</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbekcha bir necha soʻz bir vaqtning oʻzida bir nechta maʼnoni koʻtaradi: <em>&quot;beri&quot;</em> = <strong>since</strong>, <em>&quot;davomida / mobaynida&quot;</em> = <strong>for</strong> yoki <strong>during</strong>, <em>&quot;oldin&quot;</em> = <strong>ago</strong>. Ingliz tilida esa har biri qatʼiy: <strong>for</strong> = davomiylik, <strong>since</strong> = nuqta, <strong>during</strong> = ot bilan davr, <strong>ago</strong> = orqaga sanoq.</p>\n<h3>Xato va tuzatish</h3>\n<blockquote>\n<p>❌ <em>for 2020 · since three years · before two years · during two hours</em>\n✅ <em>since 2020 · for three years · two years ago · for two hours</em>\nEng koʻp uchraydigan chalkashlik: raqamli davomiylik uchun <em>since</em> emas, <strong>for</strong>; sana uchun <em>for</em> emas, <strong>since</strong>; <em>&quot;… oldin&quot;</em> uchun <em>before</em> emas, <strong>ago</strong>.</p>\n</blockquote>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻz hayotingizdan bir necha jumlada mashq qiling: <em>&quot;I have studied English <strong>for</strong> … years, <strong>since</strong> … . I started <strong>ago</strong>, and I practise every day <strong>during</strong> …&quot;</em> Ovoz chiqarib ayting — vaqt soʻzlari shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada bitta soʻz bir nechta maʼnoni koʻtaradi: “beri” = since, “davomida / mobaynida” = for yoki during, “oldin” = ago. Ingliz tilida har biri qatʼiy: for = QANCHA vaqt (davomiylik), since = QACHONDAN beri (boshlanish nuqtasi), during = biror davr ICHIDA (+ ot), ago = hozirdan ORQAGA sanab (+ oddiy oʻtgan zamon).",
+      "errorFixUz": "❌ for 2020 / since three years / before two years / during two hours. ✅ since 2020 / for three years / two years ago / for two hours. Raqamli davomiylik → for; sana/nuqta → since; “… oldin” → before emas, ago.",
+      "examples": [
+        {
+          "en": "Michael Jordan practised the same skills for twenty years.",
+          "uz": "Michael Jordan oʻsha mahoratlarni yigirma yil mashq qildi."
+        },
+        {
+          "en": "He has played the guitar since 2019.",
+          "uz": "U 2019-yildan beri gitara chaladi."
+        },
+        {
+          "en": "Asher became a great guitarist three years ago.",
+          "uz": "Asher uch yil oldin zoʻr gitarachi boʻldi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I have studied English ___ three years.",
+          "options": [
+            "for",
+            "since",
+            "ago"
+          ],
+          "answer": "for",
+          "hintUz": "davomiylik (qancha vaqt) → for"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He has played the guitar ___ 2019.",
+          "options": [
+            "since",
+            "for",
+            "during"
+          ],
+          "answer": "since",
+          "hintUz": "boshlanish nuqtasi / sana → since"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Asher fired AJ two years ___.",
+          "options": [
+            "ago",
+            "before",
+            "since"
+          ],
+          "answer": "ago",
+          "hintUz": "hozirdan orqaga sanoq → time + ago (oddiy oʻtgan zamon bilan)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “I have studied English for … , since … . I started … ago.”",
+          "answer": null,
+          "hintUz": "for = davomiylik, since = nuqta, ago = orqaga sanoq"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/07/main.mp3",
+      "durationSec": 1491,
+      "bytes": 17898718,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/07/vocab.mp3",
+      "durationSec": 445,
+      "bytes": 5355243,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/07/ministory.mp3",
+      "durationSec": 1082,
+      "bytes": 12994321,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hi this is AJ. Welcome to the seventh lesson. Let’s begin. This one is called “Repetition with Intensity.” Intensity means power, concentrated power, really, is what it means. Of course, repetition means doing something again and again and again and again and again.",
+      "So maybe this is the bad news or the good news, I don’t know, but the truth is to learn English, to learn any language, to learn any skill, to be a master you have to have a lot of repetition. And this is something that a lot of people don’t like and they go “Oh my god, I’m bored. I don’t want to listen to this again.",
+      "I don’t want to do this again and again and again.” I’ll give you a small example. I’ve recently started taking singing lessons and every lesson we do the same thing. We do these scales, nah, nah, nah, nah, nah, nah, nah, nah, nah, nah, nah, nah. Every single time. Every day, same scales, same exercises.",
+      "And anyone who wants to get really good at singing, and I do want to get good, has to do this. You have to repeat. You can’t just say “Oh, I already know this. I did it 10 times so I’m finished and let’s do something new.” Unfortunately a lot of people have this idea with language learning for some reason.",
+      "Most people understand if you learn a sport you have to repeat the same basic actions again and again and again. If you want to be great at basketball, you probably know you have to practice dribbling, [which] means bouncing the ball, passing and shooting the ball, again and again and again and again.",
+      "Michael Jordan practiced these same basic skills from a child until he finished his career. What, 20 years maybe, every day practicing the same skills, again and again. And not just practicing, practicing with emotion, practicing with power, practicing with energy, every day for 20 years or more.",
+      "We’ve already mentioned Tiger Woods a lot, same thing with golf. He practices the same skills again and again and again and again, every single day, years and years and years. So why, when we’re learning English or learning a language, do we say “Oh, I don’t want to study this any more, I already know it. I already know the present tense.",
+      "I already know these words. I already know this grammar. I already know this lesson.” What, maybe you listened to it 7 times, 5 times? It’s not enough. We need a lot of repetition, a lot of repetition with power, with intensity.",
+      "Your whole life, that’s why babies learn so quickly and so well, that’s why I’m a master of English and not a master of Spanish. Because every day for 40 years I have been listening to English, the same basic English. When I was 5 years old I didn’t tell my mom “Mom, I already know the past tense so stop using it.",
+      "Let’s learn something more difficult now. I’m bored with the past tense.”",
+      "Of course, that’s ridiculous, right? I’m still hearing the past tense used correctly constantly, every single day of my life. And that’s why I can use the past tense without thinking, totally effortlessly.",
+      "Because it’s something I hear again and again and again and again and again and I have since I was born until right now and you need to decide that you’re going to do this, too. So forget this idea of levels. Forget levels, there is no level.",
+      "You’re not an advanced English speaker and then suddenly “Oh, I don’t need to worry about the past tense anymore. Oh, I already know the present tense, I’m an advanced speaker.” Well bullshit! It’s not true. You never finish.",
+      "And in fact you have to focus on the basic things, the most frequent, core, fundamental, important parts of the language. You have to focus on them every day, you never stop. Yes, you’ll start to learn some advanced vocabulary. Yes, you’ll learn some of that great advanced grammar that you always want to learn.",
+      "But that stuff is just extra. Always, the core, main focus of your learning must be the fundamentals, the high frequency words, the most common grammar structures, and the basic pronunciation of the language. You never stop practicing those. You never stop improving them. Every day you continue to focus on them. Okay, you believe me?",
+      "Alright, we agree? Alright, good. Well, your next question is probably how. Because the problem with this is that it gets boring. Right, and you’re like “Oh, I don’t want to do it again.” And this is a problem that everybody has. Everyone who wants to be a master has this same exact problem.",
+      "I’m sure Michael Jordan at sometime said “I’m sick of shooting free throws.” Free throws are the basic, same shot, all basketball players practice them every day for all their life. Probably at some time he decided, “Oh man, I’ve already done this 20,000 times, I don’t want to do it again.” But then he said, oh, I need to.",
+      "He realized that he could never stop. How does Tiger Woods keep going? How does he continue to practice the same things every day when he’s already a master? It’s an emotional problem, right? It’s a mental problem. It’s not a physical problem. It’s easy to do, the problem is we stop wanting to do it.",
+      "So again, it’s a problem of our mentality. It’s a problem of our psychology. And we have to learn how to practice with a lot of repetition but continue to feel strong, continue to have energy and intensity. That’s the trick. That’s the secret. We’ve already talked about some ways to do this.",
+      "So one way you do this is to manage your emotions. Manage your peak states. You get in that peak state. That’s why I keep reminding you…are you smiling? Are you moving? Is your head up? Are your shoulders back? Are you breathing deeply? I continue to remind you about this because it’s important. It will keep your energy high.",
+      "It will help you repeat again and again and again without boredom. When your body, when your physiology is strong, you get bored less easily, you focus more. You concentrate more. You can do more repetitions. You can repeat more of the same thing. That’s great.",
+      "So that’s one of the key things, what we’ve already talked about, managing your emotions. Managing your beliefs will also help. Thinking constantly about what you want in the end. Imagining yourself as a successful English speaker. All of these things are",
+      "building your energy. And that will help you repeat more often with more energy. But there’s one more secret to repetition and this is something that all masters do and have always done. It’s a key point to using repetition most powerfully.",
+      "Because if you just repeat and do the same thing, if you do it badly, well then you’re teaching yourself to perform badly. If you practice English every day with no energy, repeating, repeating, well you’ll learn to be bored and tired when speaking English. And you don’t want that. So here’s what you’re going to do.",
+      "First, of course, you’re going to get yourself in that peak state again. Always, every time before you listen to English, you’re going to manage your body, your physiology. You’re going to move. You’re going to smile. You’re going to change your posture. You’re going to breathe. You’re going to change your emotions.",
+      "You’re going to change your focus. You’re going to think about that big goal, all those great benefits to speaking English. And you’re going to do your incantations. You’re going to say “I’m a great English speaker” or “I’m getting better and better with English every day.” And now you’re feeling great. And you start to repeat.",
+      "You say “Okay, now, I’m going to listen to that lesson again. Again, 7 times, 12 times, 20 times, 50 times, 100 times.” On the 100th time how are you going to keep your energy still? Well, you’re going to get in that peak state but you’re also going to change your focus. When you repeat, you don’t just do the same exact thing.",
+      "You find small distinctions each time. A distinction is a difference, an important difference, okay? An important difference. So you’re doing the same thing, maybe you’re listening to the same lesson, for example. But you, with your mind, are doing something a little differently each time, a different distinction each time.",
+      "What do I mean? Let me give you an example. Let’s say you listen to this lesson the first time. The first time you probably want to focus on just understanding. You need to understand all the words I’m using. You need to understand my pronunciation.",
+      "You need to, most importantly, understand the whole meaning of this lesson, of what I’m saying, the meaning, the basic meaning of the English I’m speaking. So the first time you probably read and listen at the same time. And you’re focused just on the meaning, just on understanding.",
+      "Maybe you do that 1 time, maybe 4 times, maybe 10 times, it depends, everybody’s different. But eventually you start to feel bored. Eventually you think “I understand this, I understand the meaning. I know all these vocabulary words, no problem.” Most people will then change.",
+      "They’ll go to a new lesson “I’m bored, I already know this vocabulary, time for a new lesson.” That’s what most people do. But someone who is focused on mastery will not do that. They will stay with the same lesson. What they will do is find a new distinction, an important difference, a new way to focus.",
+      "For example, you know now all of the vocabulary. You understand easily. So next you change your focus, a new distinction. Next, you don’t focus on just understanding. Next, you focus on speed. You decide “I’m going to answer those mini-story questions very fast.” And it becomes a game.",
+      "So the first time maybe you answer somewhat slowly. The next time you listen you try to get faster. Maybe you still need to pause, but you’re getting faster. The next time you try to go faster, answer those questions more quickly. Then you try to not use the pause button. Answer before I answer. And it becomes this game, a challenge.",
+      "It’s repetition, it’s the same thing again but now you have a new distinction, a new focus, a little bit different way of repeating. First, you were focused on just meaning and understanding. Now, you’re focused on speed, the speed of your response, faster and faster and faster. And that’s kind of a game, it keeps your brain awake.",
+      "It keeps your brain alive. It keeps you learning with this same repetition. Now eventually that will become boring. You’ll get really fast. You’ll become faster than me. At that point you have two choices. You can stop and go to a new lesson, what most people will do. But you are a master, you want to master English.",
+      "So you will not do that. You will continue repeating the same lesson but, what do you need now? A new distinction, a slightly new way to focus on the same lesson. So next, for example, you might focus on listening deeply and carefully to pronunciation, to my pronunciation. What do I mean by that?",
+      "I mean you listen carefully, how do I pronounce each word? You especially listen to my intonation. Intonation is kind of the music of a language, it’s when I go up and when I go down. It’s when I stretch a word or say a word very quickly. All of those things are important.",
+      "If you want to improve your pronunciation you’ve got to first listen very carefully. Not like a normal person, just listening and hearing it. You have to really focus on the sounds. You want to hear the emotion in my voice. You want to focus, when do I get loud and when do I get quiet. What do I stress, what do I not stress.",
+      "So that’s your next distinction, you’re going to focus on listening very carefully. Not so much for meaning, you already know that, you’re going to focus this time on the sound, the music. Pretend you are a musician and you want to hear the notes, the rhythm, the small important sounds of my pronunciation. Hear everything.",
+      "So you do that again and again and again, 5 times, 10 times, 15 times, 20 times or more, focused on pronunciation, each lesson, the main lesson, the vocabulary lesson, the mini-story lesson. This time you’re focused on pronunciation, listening, listening, listening super carefully. Very detailed listening.",
+      "What’s going to happen eventually? Boredom, you’re eventually going to get bored. Not in the beginning, in the beginning it’s a new challenge. Your brain is awake and alive but this will become easier and easier and finally you’ll think “Oh, I finished listening to his pronunciation, I can hear it.” Now you have another choice.",
+      "Is it time to go to the new lesson or do you find a new distinction? Well, of course, you’re a master so you’re going to find a new distinction, yet again, a new focus, a small difference, something a little bit different to focus on using still the same lesson.",
+      "You’ve been listening deeply for my pronunciation, well your next step is to imitate my pronunciation, to imitate me. And to imitate means to copy perfectly.",
+      "So now what you’re going to do, you’re going to listen to me, after every sentence you’re going to pause. And you’re going to say the same sentence. Now here’s what you do not do. You do not do listen and repeat. So I say “Hi, how are you?” You pause “Hi, how are you?” I mean that’s the normal school way of doing it, listen and repeat.",
+      "You’re not repeating, repeating has no power, repeating does nothing. You’re imitating. Think like an actor or an actress. Your job is to be me, be AJ. So when I say imitate, I mean copy everything. Copy my speech exactly, perfectly, the sounds of the words, the exact pronunciation. That’s just the beginning.",
+      "The whole sentence, the words in the sentence, that’s easy, that’s just the beginning. I’m talking about my intonation, the exact music. You were listening to it before, now you’re going to do it. So when I go up, you’re going to go up. And when I go down, you’re going to go down. When I’m loud, you will speak loudly.",
+      "When I’m quiet, you will speak quietly. You want to sound like me, just like an actor. You want to copy my emotion. So when you speak it has the same emotion and power as my speaking. Copy my accent. If you’re really serious, copy how I move. You can’t see me but you can imagine how am I moving. Am I standing stiff, not moving?",
+      "Not usually. I usually move around a lot when I’m speaking. My hands are moving. My face is moving. You should do that, too. That’s the final distinction, imitation. You can do this with anybody, not just me. You can watch a movie and copy the actor or actress.",
+      "And this is great because you have a picture to look at, so you can definitely, you can copy how they’re moving their body, how they’re moving as they speak. And then you’re going to copy exactly how they speak. When they pause, you pause. When they’re loud, you are loud. When they stretch a word, you stretch it. You copy everything.",
+      "And that’s an even deeper distinction, a deeper level of repetition. So this is very important. This is how the masters do it. This is how Michael Jordan gets better and better and better, or got better and better and better as a basketball player. He didn’t just shoot, shoot, shoot, same thing every day.",
+      "No, every week or every month he changed his distinctions. He reached a certain level, he decided “I want to go higher.” So he focused on something a little different. Same action, same skill, but now he’s focusing on something even higher or something even deeper.",
+      "And when that became easy, he found something else, something else that was new and he went higher still. And he kept doing that endlessly. Same with Tiger Woods, same with anyone who is really great at what they do. It’s what you did naturally as a native speaker of your language.",
+      "You didn’t know it, it was happening unconsciously, intuitively, effortlessly. But it’s what you did as a child as you grew up. You were at a certain level but then every day or every week or every month you focused on something new, you got something new. So that’s what I want you to do. This is your homework.",
+      "This is your homework for life, for the rest of your life, every day. You’re going to learn more deeply than other people. You’re going to repeat more with more intensity. And the way you’re going to do it is by always finding new distinctions. You can start with these lessons now. You’re going to",
+      "go more slowly. And you can follow my plan. You can add more to this. There’s always a new distinction. If imitating me becomes easy, think of something else. Keep getting better and better. But for now, try my plan. So in the beginning you’re going to listen for what? Basically for understanding, that’s the first level of repetition.",
+      "Listen for understanding. Focus on the meaning, the general and specific meaning of what I’m saying. And do that for as long as you can, until you can hear it and instantly know the meaning, no problem, no effort. When that becomes super easy, then you go to the next level, the next distinction which is you’re going to focus on speed.",
+      "You’re going to focus on answering the mini-story questions faster and faster and faster and faster, until you can beat me. What’s next? What’s the next distinction? That becomes easy, then what do you do?",
+      "Well then maybe after 50 or 100 repetitions with the mini-stories going fast, then maybe you decide “Well, now I’m going to listen very, very carefully and deeply to AJ’s pronunciation.” Every tiny detail of pronunciation, the intonation, the individual sounds, the loudness, the pauses, the emotion.",
+      "Everything, carefully, carefully listening to the music of English, the music of my speech. And you’ll do that as many times as possible. And then finally you’ll go to the deepest distinction, the deepest for us right now, which is imitation. When that has become easy, you will go on to imitate me perfectly.",
+      "You will try to copy exactly my pronunciation. Be me when you speak. By following this system for every single lesson you will get a lot more repetitions for each lesson. Therefore, you’ll learn it much more deeply. Not just a couple times then on to the next one and forget it. You won’t forget this. You will never forget this.",
+      "If you follow this system, every lesson will be stuck in your brain 10 years from now. You’ll still remember it. I promise you but you have to follow this system. Okay, then. Good luck. Keep finding those new distinctions, always, again and again and again. Increase your repetition. Increase the intensity.",
+      "And always go deeper, deeper, deeper to a deeper level."
+    ],
+    "vocab": [
+      "Hello, this is AJ Hoge again. And this is the vocabulary lesson for “Repetition.” Again, pretty easy today. Let’s talk about the vocabulary. First, let’s use that word distinction. I talked about it a lot in the main story so let’s just repeat it again, review it again, one more time. And again a distinction is an important difference.",
+      "It often has the idea of a small difference, not always but often. But it’s a difference, a distinction, something that makes two things different, so a small difference, an important difference, a distinction. Right, next is the word vital. Vital means very, very important. Repetition is vital. Repetition is vital for mastery.",
+      "It’s very, very important for mastery. So again, vital, vital means very important, even necessary. Vital is something that is very important and necessary, so vital. Next is the word intensity. I used it a lot, intensity. Intensity again means power.",
+      "It really has the idea of concentrated power, so doing something with a lot of focus, concentration, a lot in a small time. So repetition with intensity means a lot of energy, concentrated energy is what we’re talking about in this lesson.",
+      "When I say you need to have repetition with intensity, you need to have repetition with concentrated energy, concentrated power, emotional power. That’s what we’re talking about with intensity. It’s kind of the opposite of laziness. The next word is imitate. I told you to imitate me, imitate my speaking.",
+      "And as I said in the main story, imitate means copy. It’s a verb, to imitate, to copy. But really imitate is a bit stronger. To imitate means to copy very closely, exactly. And we usually use it when we’re talking about people. So, for example, you can copy a piece of paper, you can copy a paper. But you can’t imitate a paper.",
+      "We usually imitate people, something that’s alive. Something that’s moving, we imitate it. So if you imitate a person, it means you try to speak like them. You try to look like them. You dress like them, everything. You try to be exactly like them. That’s called imitating and the noun is imitation.",
+      "That process, that action is called imitation. And the verb is to imitate. Next we have one of my favorite words, bullshit. Bullshit is a great word and we say this word, bullshit, we say it when we totally disagree with something.",
+      "When we think something is foolish or crazy or wrong, it really shows that you think something is wrong, totally wrong. So if somebody tells me, a student tells me “AJ, I already know the past tense. I don’t need to learn it anymore. I want to learn the future perfect progressive.” And I say “Bullshit, you’re totally wrong.",
+      "You don’t already know the past tense. Because you just made a mistake with it. You just said yesterday I go to the",
+      "store and then you say I already know the past tense. There’s a problem here.” And a lot of students do this. They say “I know this, I know this.” They don’t know it because they constantly make the same mistakes with it. When I talk about knowing, I mean deep acquisition. Remember acquisition?",
+      "It means you have something and you keep it and you never, ever lose it. That’s real knowing. So when students say “I already know it,” I usually say “Bullshit.” It means you’re totally wrong or I think you’re totally wrong. So you can use that word, that phrase, anytime you totally disagree with someone, with what they’re saying.",
+      "When you think they’re saying something that’s totally foolish or wrong, you say “Bullshit.” Or you can say “That is bullshit.” That’s another way to use it. It’s a very common word. Okay, and then in this talk I talked a little bit about scales. I was talking about my own singing practice and how I have to practice scales every day.",
+      "So we’re talking about a musical scale. Scale has other meanings but in this case, in this situation we’re talking about a musical scale. And a musical scale is just notes that go up and down. It’s a series of notes. You probably know, do re mi fa so…nah nah nah nah nah…right? Usually 8 maybe in a scale.",
+      "So it’s just a series of notes and there are lots of different scales in music. We don’t need to talk about the details of that. But basically a series of notes in music, we call that a scale, a set series. Okay, that is all, that is all of our vocabulary lesson today for “Repetition.”",
+      "Now, as always, it’s very important to listen to these many times. That’s the whole point of this lesson today, right? Or I should say this week because you’re going to be listening deeply for the entire week, maybe even longer than that. So none of this is going to help you if you don’t use it correctly.",
+      "If you just listen to each lesson one time, or a few times, one or two days, you will not get the same benefit. You’ll be entertained, maybe. You might enjoy it. You might learn a couple words, but you’re not going to learn extremely deeply.",
+      "You’re not going to learn how to speak English effortlessly and automatically like a native speaker. To do that you’ve got to really have this deep level of repetition with intensity. You have to follow this system to succeed at that level and I hope you’ll do it. I’m sure you will. I know you’re serious about it so you’re going to do it.",
+      "Good luck. I look forward to hearing about your success on our forums on our member site. See you next time, bye bye."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English, I'm Neil. This is the programme where in just six minutes we discuss an interesting topic and teach some related English vocabulary. And joining me to do this is Rob.",
+      "Rob: Hello… err sorry Neil, how long did you say this programme is?",
+      "Neil: Six minutes – it's 6 Minute English, Rob.",
+      "Rob: Right. OK. Sorry, what's your name again?",
+      "Neil: Neil! My name is Neil, Rob. What has happened to your memory?!",
+      "Rob: Sorry, Neil – too many things on my mind, it's affecting my short-term memory, but what I can remember is that in this programme we're talking about improving our memory.",
+      "Neil: We are and I think you might find it quite useful! Storing information is an important function of our brains and scientists are always looking at ways to improve it but also to stop it deteriorating – or becoming worse.",
+      "Rob: Yes, and we all know that memories – that's the noun word for things we remember from the past – are nice to have but also important for remembering who people are, where things are kept and how things look.",
+      "Neil: Soon we'll be discussing a new idea for improving your memory but not before I've set today's quiz question. There are many ways we can improve our memory but one way is through the type of food we eat. According to the BBC Food website, which type of food supports good memory function? Is it… a) eggs b) spinach, or c) bananas?",
+      "Rob: Well, as a kid I was always told that spinach was good for me – Popeye ate it to make him strong – so I'll say b) spinach.",
+      "Neil: Well, I'll have the answer later on. Now, let's talk more about improving our memory. Memory is the ability to encode, store and recall information but a number of factors can affect people’s memory processes including health, anxiety, mood, stress and tiredness.",
+      "Rob: That's why, for example, if you're taking an exam it's important to get a good night's sleep and to keep healthy. But Neil, when you're revising for an exam, what helps you to remember facts?",
+      "Neil: I tend to write things down again and again and again and again.",
+      "Rob: Well, that's one way. But people have different styles to help them remember. According to the BBC's iWonder guide, there are three different styles - visual, auditory and kinaesthetic, that's learning by ‘doing’ and practicing something over and over again. That sounds like me.",
+      "Neil: But recently, a new study has come up with a method that could possibly be the best way to improve your memory and that's by drawing. Daryl O'Connor, who's Professor of Psychology at the University of Leeds, has been speaking about it on the BBC Radio 4 programme, All In The Mind. See if you can work out why… Daryl O'Connor, Professor of Psychology at the University of Leeds The authors certainly argue that one of the things that happens by drawing these particular objects, that it leads to this increased contextual representation of the object in one's mind… It makes a lot of intuitive sense – the idea that if you have encoded something in a greater level of detail, you're more likely to remember it… It's much stronger than just remembering writing down the words.",
+      "Neil: OK, so let's try to explain that. Drawing something leads to increased contextual representation of the object. When something is contextual, it is in the situation where it usually exists.",
+      "Rob: So as you draw something you are creating a picture in your mind about what it is, how you use it and where it is used. I wonder if this means artists have good memories…",
+      "Neil: Maybe. Daryl O'Connor says that when you draw you are encoding something in a greater level of detail, more than you would by just writing things down. Encoding is changing information into a form that can be stored and later recalled.",
+      "Rob: That's because as you draw, you're thinking about different aspects of the object. He says it makes intuitive sense – intuitive means it is 'based on feelings rather than facts or proof' - so, you just feel it is the best thing to do.",
+      "Neil: Of course this is just one more way to improve your memory. I have also heard that doing crossword puzzles and Sudoku can help, especially when you're older.",
+      "Rob: Yes, as we get older we can often have more difficulty retrieving information from our memory - and people with Alzheimer’s find it very difficult to encode information – so any way to keep our memory working is a good thing. Basically we need brain training!",
+      "Neil: Brain training and eating the right food Rob! You might remember that earlier I asked you, according to the BBC Food website, which type of food supports good memory function? Is it… a) eggs b) spinach, or c) bananas? And Rob, you said…",
+      "Rob: I do remember and I said b) spinach.",
+      "Neil: And that is sort of the wrong answer. In fact they were all correct – they are all examples of food that can help support good memory. Apparently, foods rich in B vitamins are important as they provide protection for the brain as we age and support good memory function. I think it's time to change my diet! Now on to the vocabulary we looked at in this programme.",
+      "Rob: So today we've been talking about our memory – we use our memory to remember things and memories is the noun for things we remember from the past.",
+      "Neil: Then we discussed a learning style known as kinaesthetic, that is learning by ‘doing’ and practising something over and over again.",
+      "Rob: We heard from Professor Daryl O'Connor, who talked about contextual representation - when something is contextual, you see it in the situation where it usually exists.",
+      "Neil: Next we talked about encoding. That is changing information into a form that can be stored and later recalled.",
+      "Rob: And we mentioned intuitive sense – having an intuitive sense means doing something 'based on feelings rather than facts or proof' - so, you just feel it is the best thing to do.",
+      "Neil: And finally we mentioned Alzheimer’s – a disease affecting the brain that makes it difficult to remember things and it gets worse as you get older.",
+      "Rob: Well there are lots of new words to remember there – but that's all for this programme.",
+      "Neil: Don't forget to visit us on Facebook, Twitter, Instagram and YouTube and our website",
+      "Rob: Goodbye!",
+      "VOCABULARY: memories things we remember from the past kinaesthetic learning by 'doing' and practicing something over and over again contextual seeing something in the situation where it usually exists encoding changing information into a form that can be stored and later recalled intuitive sense doing something based on feelings rather than facts or proof Alzheimer’s (disease) a disease affecting your brain that makes it difficult to remember things and it gets worse as you get older"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Hm, interesting. Who wanted to be a rock’n’roll god?",
+        "a": "Asher did, Asher wanted to be a rock’n’roll god."
+      },
+      {
+        "q": "What did he want to play? The drums?",
+        "a": "No, not the drums, he wanted to play the guitar."
+      },
+      {
+        "q": "Did he want to be a good guitarist?",
+        "a": "Hell, no, he didn’t want to be a good guitarist. He wanted to be the best guitarist in the world, a rock god."
+      },
+      {
+        "q": "What did he want?",
+        "a": "He wanted to be the best guitarist in the world. He wanted to be a rock god."
+      },
+      {
+        "q": "Who wanted that?",
+        "a": "Asher, Asher wanted that. Asher wanted to be the best guitarist in the world. Asher wanted to be a rock god."
+      },
+      {
+        "q": "You know there’s a problem. What’s the problem?",
+        "a": "The problem is he doesn’t play the guitar. He didn’t play the guitar. He never has played the guitar. No guitar for Asher."
+      },
+      {
+        "q": "Who did he find?",
+        "a": "He found the best guitar teacher in the world."
+      },
+      {
+        "q": "Where?",
+        "a": "In the world."
+      },
+      {
+        "q": "Did he find the best guitar teacher in Mexico?",
+        "a": "No, not in Mexico, not just Mexico, in the world…he found the best guitar teacher in the world."
+      },
+      {
+        "q": "Who was the best guitar teacher in the world?",
+        "a": "Well, AJ Hoge, of course."
+      },
+      {
+        "q": "What did Asher say?",
+        "a": "He said “Teach me to be a rock god.”"
+      },
+      {
+        "q": "Who did he say that to?",
+        "a": "He said that to AJ. He said to AJ “Teach me to be a rock god.”"
+      },
+      {
+        "q": "Why did he say that to AJ?",
+        "a": "Obviously, because AJ is the best guitar teacher in the world. Everybody knows that."
+      },
+      {
+        "q": "Hm. What did AJ say?",
+        "a": "He said “You must look good to be good.” Hm."
+      },
+      {
+        "q": "What?",
+        "a": "AJ said “Imitate me. Dress like me. Look cool like me. Then you’ll be the best guitarist in the world.”"
+      },
+      {
+        "q": "What did AJ want Asher to do?",
+        "a": "He wanted Asher to imitate him, imitate him."
+      },
+      {
+        "q": "Who did he want Asher to imitate?",
+        "a": "Him, AJ, AJ wanted Asher to imitate him."
+      },
+      {
+        "q": "Did he want him to imitate Jimi Hendrix?",
+        "a": "No, not Jimi Hendrix, he wanted Asher to imitate him, AJ."
+      },
+      {
+        "q": "Did he want him to copy him a little bit?",
+        "a": "No, not a little bit, he wanted him to imitate him, perfectly copy him."
+      },
+      {
+        "q": "Did he want him to imitate his dress, how he dressed?",
+        "a": "Yes, he said imitate how I dress."
+      },
+      {
+        "q": "Did he want him to imitate how he moved?",
+        "a": "Yes, he said imitate how I move. Look cool like me."
+      },
+      {
+        "q": "Yes, Asher thought that he needed to practice the guitar. He said “Don’t I have to practice the guitar?”",
+        "a": "AJ said “No, just look good.”"
+      },
+      {
+        "q": "Did AJ want Asher to practice the guitar?",
+        "a": "No, no, he didn’t want Asher to practice the guitar."
+      },
+      {
+        "q": "Why not?",
+        "a": "Because AJ said “You must look good to be good.” Looking good is the only important distinction."
+      },
+      {
+        "q": "How long, for how long did Asher imitate AJ?",
+        "a": "One year, for one year Asher imitated AJ perfectly, almost perfectly."
+      },
+      {
+        "q": "How often did he imitate AJ?",
+        "a": "Well, every day, every day he imitated AJ for one full year."
+      },
+      {
+        "q": "Who did he imitate for one year?",
+        "a": "AJ, he imitated AJ for one year."
+      },
+      {
+        "q": "Who imitated AJ for one year, every day?",
+        "a": "Asher, Asher imitated AJ every day for one year."
+      },
+      {
+        "q": "After one year, could Asher play the guitar?",
+        "a": "No, he couldn’t. After one year he could not play the guitar, still could not play the guitar."
+      },
+      {
+        "q": "How good was he after one year?",
+        "a": "Well, he was terrible. After one year he was still terrible at the guitar."
+      },
+      {
+        "q": "Did AJ help Asher?",
+        "a": "No, no, no. No, he didn’t, he did not help Asher. Asher was still terrible at the guitar. He was not a rock god. He could not play."
+      },
+      {
+        "q": "Did Asher fire AJ?",
+        "a": "Yes, he did. He fired AJ. He cut AJ, stopped paying AJ. Oh no."
+      },
+      {
+        "q": "And remember, to suck means to be very bad at something. So was AJ a great guitar teacher or a terrible guitar teacher?",
+        "a": "AJ was a terrible guitar teacher. He sucked at teaching guitar."
+      },
+      {
+        "q": "Is it a little bit important to find a great player?",
+        "a": "No, it’s not a little bit important. It’s vital, very important, necessary."
+      },
+      {
+        "q": "What’s vital?",
+        "a": "Finding a great guitar player is vital."
+      },
+      {
+        "q": "Vital for who?",
+        "a": "Vital for Asher, important for Asher."
+      },
+      {
+        "q": "Why is it vital for Asher to find a great guitar player?",
+        "a": "Well, it’s vital, it’s important because he needs to learn from the best."
+      },
+      {
+        "q": "What’s vital for Asher to do?",
+        "a": "Well, it’s vital for him to find a great guitar player."
+      },
+      {
+        "q": "Who should Asher seek out?",
+        "a": "He should seek out Jimmy Page. He should find Jimmy Page. To seek out means to find, to look for and find. It really means to look for."
+      },
+      {
+        "q": "Should he look for Jimmy Page or should he look for AJ?",
+        "a": "He should look for Jimmy Page. He should seek out Jimmy Page."
+      },
+      {
+        "q": "Who is Jimmy Page?",
+        "a": "Jimmy Page is the best guitar player in the world."
+      },
+      {
+        "q": "What does Asher need to do?",
+        "a": "He needs to seek out Jimmy Page. It’s vital, in fact. It’s vital that he seek out Jimmy Page."
+      },
+      {
+        "q": "Where was Jimmy Page?",
+        "a": "In England, Jimmy Page was in England."
+      },
+      {
+        "q": "Why was Jimmy Page in England?",
+        "a": "Well, it’s obvious, because he’s English. Jimmy Page is English so he was in England."
+      },
+      {
+        "q": "Who found Jimmy Page?",
+        "a": "Asher, Asher found Jimmy Page."
+      },
+      {
+        "q": "Who showed Asher key distinctions on the guitar?",
+        "a": "Jimmy Page, of course. Jimmy Page showed him a new key distinction on the guitar every day, a new thing to focus on, an important difference to learn."
+      },
+      {
+        "q": "Did he learn new distinctions?",
+        "a": "Yes, he did, Asher learned a lot of new distinctions."
+      },
+      {
+        "q": "Who did he learn new distinctions from?",
+        "a": "He learned new distinctions from Jimmy Page, of course."
+      },
+      {
+        "q": "Did he learn new distinctions about the piano?",
+        "a": "No, not about the piano."
+      },
+      {
+        "q": "About what?",
+        "a": "About the guitar, he learned new distinctions about playing the guitar, about the guitar."
+      },
+      {
+        "q": "Who practiced every day with new distinctions and repetition?",
+        "a": "Asher did, of course. Asher practiced the guitar every day, a lot of repetitions, a lot of new distinctions."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "repetition with intensity",
+      "pos": "phrase",
+      "uz": "kuch va eʼtibor bilan qayta-qayta takrorlash",
+      "defEn": "doing something again and again with concentrated energy and focus",
+      "example": "Mastery comes from repetition with intensity, not just listening once."
+    },
+    {
+      "en": "a distinction",
+      "pos": "n",
+      "uz": "muhim (koʻpincha kichik) farq",
+      "defEn": "an important, often small, difference",
+      "example": "Each time you repeat, focus on a new distinction."
+    },
+    {
+      "en": "vital",
+      "pos": "adj",
+      "uz": "juda muhim, hatto zarur",
+      "defEn": "very important, even necessary",
+      "example": "Repetition is vital for mastery."
+    },
+    {
+      "en": "intensity",
+      "pos": "n",
+      "uz": "jamlangan kuch, quvvat (eʼtibor bilan)",
+      "defEn": "concentrated power or energy",
+      "example": "Practise with intensity, not with laziness."
+    },
+    {
+      "en": "to imitate (someone)",
+      "pos": "v",
+      "uz": "aynan, mukammal nusxa koʻchirmoq (odamdan)",
+      "defEn": "to copy someone very closely and exactly",
+      "example": "Don't just repeat — imitate my intonation like an actor."
+    },
+    {
+      "en": "imitation",
+      "pos": "n",
+      "uz": "taqlid, aynan nusxa koʻchirish jarayoni",
+      "defEn": "the act of copying someone exactly",
+      "example": "Imitation is the deepest level of repetition."
+    },
+    {
+      "en": "deep acquisition",
+      "pos": "phrase",
+      "uz": "chuqur oʻzlashtirish (bir marta olib, hech qachon yoʻqotmaslik)",
+      "defEn": "learning something so deeply that you keep it forever",
+      "example": "Real knowing means deep acquisition, not memorising for a test."
+    },
+    {
+      "en": "the fundamentals",
+      "pos": "phrase",
+      "uz": "asosiy, eng koʻp uchraydigan narsalar (poydevor)",
+      "defEn": "the core, most frequent, basic parts of the language",
+      "example": "Always keep practising the fundamentals — the high-frequency words."
+    },
+    {
+      "en": "intonation",
+      "pos": "n",
+      "uz": "ohang, tilning “musiqasi” (ovoz koʻtarilishi-tushishi)",
+      "defEn": "the music of a language — when the voice rises and falls",
+      "example": "Copy my intonation, not just the words."
+    },
+    {
+      "en": "to seek out (someone)",
+      "pos": "v",
+      "uz": "izlab topmoq, qidirib topmoq",
+      "defEn": "to look for and find someone or something",
+      "example": "It's vital to seek out a great teacher to model."
+    }
+  ],
+  "englishpod": {
+    "id": "0052",
+    "title": "Daily Life – Pizza Delivery",
+    "titleUz": "Kundalik hayot — Pitsa yetkazib berish",
+    "warmup": {
+      "uz": "Suhbatda mijoz telefon orqali pitsa buyurtma qiladi. Sotuvchi “ikkinchi pitsa ham birinchisiga oʻxshash boʻlsinmi?” deb soʻraydi — mijoz esa xuddi shu buyurtmani takrorlaydi, lekin kichik farq (boshqa qoʻshimchalar, thin crust) qoʻshadi. Bu — AJning gʻoyasi: takror, ammo har safar yangi distinction. Sizningcha, buyurtma oʻz vaqtida yetib boradimi?",
+      "en": "In this dialogue a customer phones in a pizza order. The seller asks, “same as the first?” — and the customer repeats the order but adds a small difference (new toppings, thin crust). That's AJ's idea: repetition, but with a new distinction each time. Do you think the order will arrive on time?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0052/dg.mp3",
+        "durationSec": 51,
+        "bytes": 438775
+      },
+      "pr": {
+        "path": "englishpod/0052/pr.mp3",
+        "durationSec": 806,
+        "bytes": 12933665
+      },
+      "rv": {
+        "path": "englishpod/0052/rv.mp3",
+        "durationSec": 346,
+        "bytes": 5573550
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Good evening, Pizza House. This is Marty speaking. May I take your order?"
+      },
+      {
+        "speaker": "B",
+        "en": "Um yes… I’d like a medium pizza with pepperoni, olives, and extra cheese."
+      },
+      {
+        "speaker": "A",
+        "en": "We have a two-for-one special on large pizzas. Would you like a large pizza instead?"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure, that sounds good."
+      },
+      {
+        "speaker": "A",
+        "en": "Great! Would you like your second pizza to be the same as the first?"
+      },
+      {
+        "speaker": "B",
+        "en": "No, make the second one with ham, pineapple and green peppers. Oh, and make it thin crust."
+      },
+      {
+        "speaker": "A",
+        "en": "Okay, thin crust. Your total is $21.50 and your order will arrive in thirty minutes or it’s free!"
+      },
+      {
+        "speaker": "B",
+        "en": "Perfect. Thank you. Bye.."
+      },
+      {
+        "speaker": "A",
+        "en": "Sir, wait!! I need your address!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "medium",
+        "uz": "oʻrtacha oʻlcham (na katta, na kichik)",
+        "defEn": "an average size, not too big or small"
+      },
+      {
+        "en": "total",
+        "uz": "umumiy toʻlov summasi",
+        "defEn": "the complete amount you must pay"
+      },
+      {
+        "en": "instead",
+        "uz": "oʻrniga",
+        "defEn": "in replacement of something"
+      },
+      {
+        "en": "sounds good",
+        "uz": "yaxshi eshitiladi, roziman",
+        "defEn": "seems or appears to be okay; I agree"
+      },
+      {
+        "en": "pepperoni",
+        "uz": "pepperoni (pitsaga qoʻyiladigan achchiq kolbasa)",
+        "defEn": "a spicy sausage usually put on pizza"
+      },
+      {
+        "en": "olive",
+        "uz": "zaytun (kichik, tuxumsimon meva)",
+        "defEn": "a small, egg-shaped black or green fruit used as food or for making oil"
+      },
+      {
+        "en": "crust",
+        "uz": "pitsaning cheti / xamiri (poʻsti)",
+        "defEn": "the border or edge of a pizza, or of bread"
+      },
+      {
+        "en": "two-for-one",
+        "uz": "bittasiga toʻlab, ikkita olish (biri bepul)",
+        "defEn": "pay for one and get another one free"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "190131",
+    "title": "Improving your memory",
+    "titleUz": "Xotirani yaxshilash",
+    "audio": {
+      "main": {
+        "path": "sixmin/190131/audio.mp3",
+        "durationSec": 378,
+        "bytes": 6040345,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "According to the BBC Food website, which type of food supports good memory function?",
+        "qUz": "BBC Food saytiga koʻra, qaysi turdagi ovqat xotira ishlashini yaxshi qoʻllab-quvvatlaydi?",
+        "options": [
+          "Eggs",
+          "Spinach",
+          "All of them"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) hammasi. Rob b) spinach (ismaloq) dedi, lekin Neil aytdi: aslida uchalasi ham toʻgʻri — tuxum, ismaloq va banan B guruh vitaminlariga boy boʻlib, xotirani qoʻllab-quvvatlaydi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "memories",
+        "uz": "xotiralar (oʻtmishdan eslab qolgan narsalar)",
+        "defEn": "things we remember from the past"
+      },
+      {
+        "en": "kinaesthetic",
+        "uz": "harakat orqali oʻrganish (biror ishni qayta-qayta bajarib)",
+        "defEn": "learning by ‘doing’ and practising something over and over again"
+      },
+      {
+        "en": "contextual",
+        "uz": "oʻz muhitida, oʻrnida koʻrilgan",
+        "defEn": "seeing something in the situation where it usually exists"
+      },
+      {
+        "en": "encoding",
+        "uz": "kodlash — maʼlumotni saqlanadigan shaklga oʻtkazish",
+        "defEn": "changing information into a form that can be stored and later recalled"
+      },
+      {
+        "en": "intuitive sense",
+        "uz": "ich-ichdan sezish (dalilga emas, his-tuygʻuga tayangan)",
+        "defEn": "doing something based on feelings rather than facts or proof"
+      },
+      {
+        "en": "Alzheimer’s (disease)",
+        "uz": "Altsgeymer kasalligi (xotirani susaytiruvchi, yoshga qarab kuchayadigan miya kasalligi)",
+        "defEn": "a disease affecting the brain that makes it difficult to remember things and gets worse with age"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Why repetition is the secret to speaking English fluently",
+      "channel": "AJ Hoge — Effortless English"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How did you use to study English, and how has that changed? How long have you been learning now, and what would you do differently a few years ago?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: oʻtmish odatlari (I used to … ; when I was young I would …) va payt predloglari (for / since / during / … ago).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/07/main.mp3",
+      "bytes": 17898718
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/07/main.pdf",
+      "bytes": 59551
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/07/vocab.mp3",
+      "bytes": 5355243
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/07/ministory.mp3",
+      "bytes": 12994321
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0052/dg.mp3",
+      "bytes": 438775
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0052/transcript.pdf",
+      "bytes": 96879
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/190131/audio.mp3",
+      "bytes": 6040345
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/190131/transcript.pdf",
+      "bytes": 251097
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

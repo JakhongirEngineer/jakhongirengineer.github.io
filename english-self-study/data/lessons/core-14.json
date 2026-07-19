@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 2,
+  "id": "core-14",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 14,
+  "slug": "superior-man",
+  "title": "Superior Man",
+  "titleUz": "Ustun inson — qoʻrquvdan oʻtish",
+  "level": "B1",
+  "tags": [
+    "mindset",
+    "fear",
+    "purpose",
+    "future-forms",
+    "goals"
+  ],
+  "intro": {
+    "uz": "David Deidaning “The Way of the Superior Man” kitobi asosida: buyuk inson boʻlish — qoʻrquvni tan olib, uning ustidan oʻtishdir. Har bir kuchli odam qoʻrqadi, lekin oʻz chegarasidan (edge) oʻtib, orzusi tomon harakat qiladi. Bu haftaning ikki grammatik mavzusi: maqsad infinitivi (to / in order to / so that — har ishni SABAB bilan qilish) va kelasi zamon shakllari (will / going to / hozirgi davomiy — rejalarni aytish). Kristin haqidagi POV hikoyada kelajak shakllarini bevosita eshitasiz.",
+    "en": "Based on David Deida's “The Way of the Superior Man”: becoming a great person means admitting your fear and going past it. Every strong person is afraid, but they step past their edge toward their dream. This week's two grammar topics: the infinitive of purpose (to / in order to / so that — doing everything FOR a reason) and the future forms (will / going to / present continuous — stating your plans). You'll hear the future forms directly in the POV story about Kristin."
+  },
+  "canDo": {
+    "uz": "Dars oxirida har bir harakatingizning sababini “to / in order to / so that” bilan toʻxtamasdan ayta olasiz va kelajak rejalaringizni toʻgʻri shaklda (I'm going to… / I'll… / I'm …ing) tasvirlab bera olasiz.",
+    "en": "By the end you can state the reason for each action with “to / in order to / so that” without pausing, and describe your future plans with the right form (I'm going to… / I'll… / I'm …ing)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "infinitive-of-purpose",
+      "titleUz": "Maqsad infinitivi: to / in order to / so that",
+      "titleEn": "Infinitive of purpose",
+      "bandLifter": "IELTS Speaking & Writing — explain WHY you do something (purpose linkers)",
+      "cefrCanDo": "B1→B2: I can express purpose with to / in order to / so that",
+      "bodyHtml": "<p>Superior Man darsining butun gʻoyasi bitta savolga tayanadi: <em>nima uchun?</em> Nima uchun qoʻrquvdan oʻtasiz, nima uchun har kuni mashq qilasiz? POV hikoyada Kristin har bir ishni aniq <strong>maqsad</strong> bilan qiladi: pul topadi <em><strong>to buy</strong> a rocket</em>, raketa oladi <em><strong>to go</strong> to the moon</em>, oyga boradi <em><strong>to meditate</strong></em>. Bu — <strong>maqsad infinitivi</strong> (infinitive of purpose): ishning <em>sababini</em>, uning <em>nima uchunligini</em> bildiradigan qolip. B2 darajasidagi ravon nutqda har bir harakat sababga ulanadi — aynan shu tafakkur &quot;ustun inson&quot;ning belgisi.</p>\n<h3>Eng sodda shakl: <code>to + feʼl</code></h3>\n<p>Maqsad = nima uchun. Ingliz tilida eng koʻp ishlatiladigan shakl — oddiy <strong>to + feʼlning asosiy shakli</strong>:</p>\n<ul>\n<li><em>She bought a rocket <strong>to go</strong> to the moon.</em> — U oyga borish uchun raketa sotib oldi.</li>\n<li><em>I train hard <strong>to grow</strong>.</em> — Men oʻsish uchun qattiq mashq qilaman.</li>\n<li><em>He faces his fear <strong>to feel</strong> alive.</em> — U oʻzini tirik his qilish uchun qoʻrquviga qarshi boradi.</li>\n</ul>\n<h3>Rasmiyroq shakllar: <code>in order to</code> va <code>so as to</code></h3>\n<p><strong>in order to</strong> — <em>to</em> bilan bir xil maʼno, ammo rasmiyroq va taʼkidliroq. Yozma matnda va IELTS Writing/Speakingda chiroyli koʻrinadi:</p>\n<ul>\n<li><em>He left his safe job <strong>in order to</strong> live his dream.</em> — U orzusi bilan yashash uchun tinch ishini tark etdi.</li>\n</ul>\n<p><strong>so as to</strong> — asosan inkor maʼnoda, <em>so as not to</em> (…qilmaslik uchun) koʻrinishida:</p>\n<ul>\n<li><em>She planned everything <strong>so as not to</strong> miss the launch.</em> — Uchirishni oʻtkazib yubormaslik uchun hammasini rejalashtirdi.</li>\n</ul>\n<h3><code>so that</code> — maqsadning egasi boshqa boʻlsa yoki modal kerak boʻlsa</h3>\n<p>Agar maqsadning egasi boshqa odam boʻlsa yoki <em>can / will</em> kabi modal kerak boʻlsa, &quot;to + feʼl&quot; ishlamaydi — <strong>so that + ega + feʼl</strong> qolipini ishlatamiz:</p>\n<ul>\n<li><em>He works hard <strong>so that</strong> his family can live well.</em> — Oilasi yaxshi yashashi uchun u qattiq ishlaydi.</li>\n<li><em>Speak slowly <strong>so that</strong> everyone can understand you.</em> — Hamma tushunishi uchun sekin gapiring.</li>\n</ul>\n<h3>English ↔ Uzbek farqi</h3>\n<p>Oʻzbekcha <em>&quot;-ish uchun&quot;</em> yoki <em>&quot;maqsadida&quot;</em> doim &quot;uchun&quot; soʻzini oʻz ichiga oladi. Shu sabab oʻquvchilar inglizchada ham &quot;for&quot; qoʻshib yuboradi. Ammo maqsad <strong>feʼl</strong> bilan aytilsa, ingliz tili <em>for + feʼl</em> EMAS, <strong>to + feʼl</strong> ishlatadi. &quot;for&quot; faqat <strong>ot</strong> bilan keladi:</p>\n<ul>\n<li><em>for money</em> (pul uchun) — ot bilan → <strong>for</strong></li>\n<li><em>to earn money</em> (pul topish uchun) — feʼl bilan → <strong>to</strong></li>\n</ul>\n<p><strong>Xato tuzatish:</strong> ❌ <em>I bought a rocket <strong>for go</strong> to the moon. I study <strong>for improve</strong>.</em> ✅ <em>I bought a rocket <strong>to go</strong> to the moon. I study <strong>to improve</strong>.</em> Maqsad feʼl bilan berilsa — <strong>to + feʼl</strong> (yoki <em>in order to</em>); &quot;for&quot; esa faqat ot bilan.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qolipni yodlab emas, ovoz chiqarib mustahkamlang. Kun davomida qilgan har bir ishingizga bitta sabab ulang: <em>&quot;I opened the app <strong>to listen</strong>. I stood up <strong>to feel</strong> energy. I repeat aloud <strong>to remember</strong>.&quot;</em> Miya sababni his qilib, qolipni oʻzi oʻzlashtiradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha “-ish uchun” / “maqsadida” doim “uchun” soʻzini oʻz ichiga oladi, shuning uchun oʻquvchilar inglizchada ham “for” ishlatib yuboradi. Ammo maqsad feʼl bilan aytilsa, ingliz tili “for + feʼl” EMAS, “to + feʼl” ishlatadi: “pul topish uchun” = “to earn money” (❗ “for earn” emas). “for” faqat ot bilan keladi: “for money”.",
+      "errorFixUz": "❌ I bought a rocket for go to the moon. I study for improve. ✅ I bought a rocket to go to the moon. I study to improve. Maqsad feʼl bilan → “to + feʼl” (yoki “in order to”); “for” esa faqat ot bilan (for money).",
+      "examples": [
+        {
+          "en": "She bought a rocket to go to the moon.",
+          "uz": "U oyga borish uchun raketa sotib oldi."
+        },
+        {
+          "en": "He left his safe job in order to live his dream.",
+          "uz": "U orzusi bilan yashash uchun tinch ishini tark etdi."
+        },
+        {
+          "en": "Speak slowly so that everyone can understand you.",
+          "uz": "Hamma tushunishi uchun sekin gapiring."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "She started a business ___ money.",
+          "options": [
+            "to make",
+            "for make",
+            "for making"
+          ],
+          "answer": "to make",
+          "hintUz": "maqsad feʼl bilan → to + feʼl; “for” faqat ot bilan"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He faces his fear ___ live his dream.",
+          "options": [
+            "in order to",
+            "for to",
+            "for"
+          ],
+          "answer": "in order to",
+          "hintUz": "rasmiyroq maqsad shakli: in order to + feʼl"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Speak slowly ___ everyone can understand.",
+          "options": [
+            "so that",
+            "to",
+            "for that"
+          ],
+          "answer": "so that",
+          "hintUz": "egasi boshqa / modal (can) kerak → so that + ega + feʼl"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): bugun qilgan uch ishingizni sababi bilan — “I … to … . I … in order to … . I … so that … .”",
+          "answer": null,
+          "hintUz": "maqsad feʼl bilan → to / in order to; egasi boshqa boʻlsa → so that"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "future-forms",
+      "titleUz": "Kelasi zamon shakllari: will / going to / hozirgi davomiy",
+      "titleEn": "Future forms — will / going to / present continuous",
+      "bandLifter": "IELTS Part 1 & 2 — talk about your plans and predictions naturally",
+      "cefrCanDo": "B1: I can choose will / going to / present continuous for the right meaning",
+      "bodyHtml": "<p>Bu darsning kelajak POV hikoyasida AJ bir xil voqeani turli shakllarda aytadi: <em>&quot;<strong>She'll</strong> want to visit the moon. <strong>She's gonna</strong> want to visit the moon. In 20 years <strong>there'll</strong> be a woman named Kristin.&quot;</em> MAIN talkda esa: <em>&quot;<strong>You're going to</strong> keep following this system.&quot;</em> Hammasi kelajak haqida, ammo shakllar har xil. Nega? Chunki ingliz tilida kelajak uchun <strong>bitta emas, uchta</strong> asosiy yoʻl bor — va qaysi birini tanlash gapning maʼnosiga bogʻliq. &quot;Ustun inson&quot; rejalarini aniq aytadi: <em>&quot;I'm going to…, I'll…&quot;</em> — mana shu tizim.</p>\n<h3>1. <code>going to</code> — reja va niyat (oldindan qaror qilingan)</h3>\n<p>Gapirishdan <strong>oldin</strong> oʻylab qoʻyilgan reja yoki niyat uchun:</p>\n<ul>\n<li><em><strong>I'm going to</strong> start my own business.</em> — Oʻz biznesimni boshlamoqchiman.</li>\n<li><em><strong>She's going to</strong> face her fear this year.</em> — U bu yil qoʻrquviga qarshi boradi.</li>\n</ul>\n<p>Shuningdek, koʻz oldidagi <strong>dalilga</strong> asoslangan bashorat uchun: <em>Look at the clouds — <strong>it's going to</strong> rain.</em></p>\n<h3>2. <code>will</code> — shu ondagi qaror, vaʼda, taklif, bashorat</h3>\n<p>Gapirayotgan <strong>paytda</strong> tugʻilgan qaror, vaʼda yoki taklif:</p>\n<ul>\n<li><em>— I'm cold. — <strong>I'll</strong> close the window.</em> — (shu ondagi qaror)</li>\n<li><em><strong>I'll</strong> never give up.</em> — Hech qachon taslim boʻlmayman. (vaʼda)</li>\n<li><em>I think <strong>you'll</strong> succeed.</em> — Menimcha, muvaffaqiyat qozonasiz. (umumiy bashorat, fikr)</li>\n</ul>\n<h3>3. Present continuous (<code>am/is/are + -ing</code>) — kelishilgan uchrashuv</h3>\n<p>Vaqti va odami <strong>aniq belgilangan</strong> reja (kundalik daftardagidek):</p>\n<ul>\n<li><em><strong>I'm meeting</strong> my mentor tomorrow at five.</em> — Ertaga soat beshda ustozim bilan uchrashaman.</li>\n<li><em><strong>We're starting</strong> the new course on Monday.</em> — Yangi kursni dushanba kuni boshlaymiz.</li>\n</ul>\n<h3>English ↔ Uzbek farqi</h3>\n<p>Oʻzbek tilida kelajak asosan <strong>bitta</strong> shakl bilan beriladi: <em>qilaman, boraman, boshlayman</em>. Shu sabab oʻquvchilar deyarli hamma narsaga &quot;will&quot; ishlatib yuboradi. Ammo:</p>\n<ul>\n<li>reja <strong>allaqachon qaror qilingan</strong> boʻlsa → <strong>going to</strong> yoki <strong>present continuous</strong> tabiiyroq;</li>\n<li>qaror <strong>shu ondagi</strong> boʻlsa, yoki bu vaʼda/bashorat boʻlsa → <strong>will</strong>.</li>\n</ul>\n<p><strong>Xato tuzatish:</strong> ❌ <em>I <strong>will visit</strong> my family this weekend — I already bought the tickets.</em> ✅ <em><strong>I'm going to</strong> visit / <strong>I'm visiting</strong> my family this weekend.</em> Reja oldindan tayyor (chipta olingan) → <em>going to</em> / present continuous; &quot;will&quot; esa shu ondagi qaror va bashorat uchun.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> POVdagi <em>&quot;she'll…&quot;</em> va <em>&quot;she's gonna…&quot;</em> ni tinglab, quloq bilan farqni sezing. Keyin oʻz kelajagingiz haqida uchta jumla ayting: <em>&quot;Next year <strong>I'm going to</strong>… Tomorrow <strong>I'm</strong>…ing… If it's hard, <strong>I'll</strong>…&quot;</em> Ovoz chiqarib ayting — tanlov avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida kelajak asosan bitta shakl bilan beriladi (qilaman, boraman), shuning uchun oʻquvchilar hamma narsaga “will” ishlatadi. Ingliz tili esa maʼnoga qarab tanlaydi: oldindan qaror qilingan reja → going to; vaqti belgilangan uchrashuv → hozirgi davomiy (I'm meeting…); shu ondagi qaror, vaʼda yoki bashorat → will.",
+      "errorFixUz": "❌ I will visit my family this weekend, I already bought the tickets. ✅ I'm going to visit / I'm visiting my family this weekend. Reja oldindan tayyor (chipta olingan) → going to / present continuous; “will” esa shu ondagi qaror va bashorat uchun.",
+      "examples": [
+        {
+          "en": "I'm going to start my own business.",
+          "uz": "Oʻz biznesimni boshlamoqchiman (rejam bor)."
+        },
+        {
+          "en": "Don't worry — I'll help you.",
+          "uz": "Xavotir olmang — yordam beraman (shu ondagi qaror)."
+        },
+        {
+          "en": "I'm meeting my mentor tomorrow at five.",
+          "uz": "Ertaga soat beshda ustozim bilan uchrashaman (belgilangan uchrashuv)."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I've decided — I ___ start my own business next year.",
+          "options": [
+            "am going to",
+            "will",
+            "meet"
+          ],
+          "answer": "am going to",
+          "hintUz": "oldindan qaror qilingan reja → am going to"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The phone is ringing. Don't move — I ___ answer it.",
+          "options": [
+            "'ll",
+            "'m going to",
+            "answer"
+          ],
+          "answer": "'ll",
+          "hintUz": "shu ondagi qaror → will ('ll)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ my mentor tomorrow at five.",
+          "options": [
+            "'m meeting",
+            "will meeting",
+            "meet"
+          ],
+          "answer": "'m meeting",
+          "hintUz": "vaqti belgilangan uchrashuv → hozirgi davomiy (am/is/are + -ing)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: kelasi yilingiz haqida bir reja va bir vaʼda — “Next year I'm going to … . Whatever happens, I'll … .”",
+          "answer": null,
+          "hintUz": "reja → going to / present continuous; vaʼda yoki bashorat → will"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/14/main.mp3",
+      "durationSec": 831,
+      "bytes": 9985181,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/14/vocab.mp3",
+      "durationSec": 764,
+      "bytes": 9173572,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/14/ministory.mp3",
+      "durationSec": 815,
+      "bytes": 9785800,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/14/pov.mp3",
+      "durationSec": 564,
+      "bytes": 6781000,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hi, this is AJ. Welcome to the next lesson. This lesson is called “The Way of the Superior Man” and we’re going to talk about a book with the same title, The Way of the Superior Man, by David Deida, his last name is D-e-i-d-a. David Deida, another very interesting book.",
+      "I’m trying to introduce you to a lot of interesting books and after these lessons are all over maybe you can go find these books and read them yourself. What a cool idea. But first, let’s get started. Get your body strong, strong physiology, right? Breathe deep, chest up, chin up, eyes up. Smile big. Deep breaths, move your body.",
+      "Come on, get some energy in your body. Let’s get started. So, The Way of the Superior Man, it’s an excellent book and it is in fact written for men, although I think there are a lot of great ideas in there for women, too. But I do think that men especially will enjoy the book.",
+      "So, if you’re a man, I especially recommend that you go get it. But even if you’re a woman you could read it. You’re allowed to. It’s okay. Now this book is really about how to be a superior man, I guess what the title says. How to be a great person is what it really means.",
+      "How to live that life of your dreams, very similar to a lot of the topics we’re talking about, right? They all have a similar theme. Do you notice the topics are similar? Do you think I’m trying to convince you of something? Well, I am. I’m trying to convince you to live the life of your dreams, whatever that it.",
+      "I don’t know what it is, but you know. Whatever those big dreams you have, I want you to get them. Now, of course, one of those dreams is to speak excellent English and I’m helping you with that right now. You’re helping yourself with that right now, too.",
+      "And you’re going to continue helping yourself speak excellent English, even after you finish all of these lessons. You’re going to keep following this system. You’re going to find more listening, more English listening, and you’re going to listen to it every day.",
+      "You’re going to find cool, fun, interesting English books, novels especially. And you’re going to read them every day. You’re going to keep following this system even after you finish all of my lessons. It never stops. It never ends. But that’s okay because you enjoy it. Because you’re smiling, you’re moving. This is great. You love it.",
+      "So why would you stop? No reason, you’re going to keep going forever. Alright, so get that big smile, come on – smile. And let’s get started. I’m going to read a section of The Way of the Superior Man. This section talks about fear, because what stops us? What stops us from living our dreams? Usually it’s fear.",
+      "Some kind of fear, fear of failure is a very common one. Probably the most common, I think, fear of what other people think. Fear of other people’s opinions. Fear of not www.",
+      "being normal. Well, all these fears, everybody has them. It doesn’t matter who they are, even if they are a top performer. Even if they are super rich, super successful, super wonderful, everything is great in their life, they have fear and they had fear. So we have to learn how to deal with fear.",
+      "So let me read about this topic from David Deida and then we’ll talk about it more. Here we go: “Pick an area of your life. Perhaps your intimate relationship, your career, your relationship with your children, or your spiritual practice. For instance, you are currently doing something to earn a living.",
+      "Where do your fears stop you from making a larger contribution to mankind, from earning a higher income or from earning money in a more creative and enjoyable way? If you are absolutely fearless, would you be earning a living in exactly the same way as you are now? Your edge, your limit, is where you stop.",
+      "Where you compromise your fullest potential, your biggest dream and instead cater to your fear. Have you lost touch with the fears that are limiting and shaping your income and style of livelihood? If you have deluded yourself and feel that you are not afraid, then you are lying to yourself. All men are afraid unless they are dead.",
+      "If you cannot admit this, you are pretending to yourself and to others. Your friends will feel your fear even if you do not. Thus, they will lose trust in you, knowing you are deluding yourself, lying to yourself and are therefore likely to lie to them, consciously or unconsciously.",
+      "Or perhaps you are very aware of your fears, your fear to take risks, your fear of failing, or your fear of succeeding. Perhaps you are comfortable with your life and you fear the lifestyle change that might accompany a change in career. Even though the new career will be closer to what you really want to do with your life.",
+      "Some men fear the feeling of fear and therefore don’t even approach their edge, don’t even approach their potential or their limit. They choose a job they know they can do well and easily. And don’t approach the fullest potential they have within them. Their lives are secure and comfortable but dead. They lack aliveness. They lack depth.",
+      "They lack the inspirational energy that is the sign of a man living his fullest. If you are this kind of man, who is hanging back, working hard perhaps but not challenging yourself, well then, other men will not be able to trust you. They will not trust that you can and will help them live fully.” Okay, that is the end of the section.",
+      "Let’s talk about it. What does it mean? So, he’s talking about fear and one of his points, point number one, everyone has fear. All men www.",
+      "and women have fear. We’re all afraid of something. We’re all afraid of what other people will think. Nobody likes to be criticized, for example. We’re all afraid of failing, maybe some people a little bit afraid, some people very, very afraid. But all of us have that fear. Sometimes we have fear of success.",
+      "We’re afraid that our life will not be comfortable anymore. “Oh my god, if I’m successful then I’ll have more stress,” or something. Or I’ll be a bad person, or, I don’t know. We all have that kind of fear, too. Sometimes very small in some people and in some people it is a very big fear. The point is, everybody has fear.",
+      "So, he’s saying that you have to live with your fear. You have to see your fear. You have to recognize it. You have to welcome it. You have to accept it. You say “Yes, I have fear. Yes, I’m afraid of this.” That’s okay. That’s the first step. You have to accept your fear. You have to be honest.",
+      "If you tell yourself, if you tell everybody “I’m not afraid of anything. I’m not afraid. I’m doing what I want to do,” then you’re probably lying. Maybe not consciously lying, maybe you’re subconsciously lying. But that’s what he’s saying. So next he’s saying that you must go past your fear.",
+      "If you stop because of fear, your life will become dead. It’s very strong language he’s using, right? He’s very strong about this. He’s saying if you stop because of fear you will become dead. You will become a weak man. He’s talking about men here but, it’s the same for women. So he’s saying you’ll become a weak man, a lying man.",
+      "Other men won’t respect you. They won’t trust you. Because they see you’re afraid and you’re not living your true life. You’re not living your full potential, your full ability. You’re not trying to live your real dream. So, he’s saying if you do that, if you stop because of fear, then other people, they’ll stop respecting you.",
+      "They will know. And you will feel dead. Some part of you will feel dead. On the other hand, the good news, he’s saying if you do continue, you have the fear – yes – but you keep going. You keep pushing yourself, challenging yourself. Then you will feel alive. You will feel energy. People will notice.",
+      "They will see that you are living your dream or trying to, at least. And in this article he is specifically talking about jobs and work. And, I chose this for a reason because it’s one area most people do stop because of fear. Most people work a job that, oh, it’s okay maybe.",
+      "I mean a lot of people work a job that they hate, they actually hate the job. They go every day, but they never change. They’re afraid to try something more. Other people just do something that’s comfortable. They don’t hate their job. But they don’t love it.",
+      "It’s okay, and then day after day, week after week, year after year, same boring job. And they become more and more dead in their life. And unfortunately, I think that’s probably the normal thing. I think most people do that. I’ve seen it in my family. Most people in my family have done it. I’ve seen it a lot.",
+      "Most people I meet, they’re not super excited and thrilled and feeling wonderful about their job or their career. Because they’re not living their real dream, they gave up. They quit. Don’t do that. If you have done that, well, it’s never too late to change. You can change right now. Just do it. So he’s saying start here.",
+      "Start with your job, start with your career. www.",
+      "What do you really, really, really want to do? If you really dream big, what kind of career or job or business would make you feel excited and alive every day? Try to do that job. Try to do that career. You might need to study more. You might need to learn a lot. You might need to take a big risk.",
+      "You might need to quit your job that you have now. It might take time. But start trying to do it now. Keep working at it. Do it. Don’t stop because of your fear. And he says this is a neverending process. You never stop challenging yourself. You never stop pushing past fear. The fear will always be there.",
+      "There will always be something new, a bigger dream you want to try and the fear is going to try to stop you and you always have to keep going. As long as you’re alive, this will happen. It will always happen. It never, ever stops. It’s true in my life. I’ve seen it. Y’know when I quit my job to start Effortless English, I was afraid.",
+      "In fact I was terrified, very afraid. I was afraid I was going to fail. I was afraid I would have no money. Be homeless, crazy fears. But I did it anyway. And I’m very happy that I did because now I am very excited. I feel very alive. I love what I do. But I’m not stopping. Now I want to grow Effortless English.",
+      "I want to bring more people into the company. I want to do seminars. All of these give me more new fears. Oh my god, maybe I won’t be very good at a seminar. I have to stand in front of hundreds of people. Oh my god, I’m afraid, right? The fears always come. But you just keep going anyway. I’m not going to be stopped by those fears.",
+      "I will continue. And you must continue as well. Alright, that’s enough for now. Stay strong. Big smile, strong physiology. Challenge your fears. Keep going. See you next time. www."
+    ],
+    "vocab": [
+      "Hi, this is AJ Hoge. Welcome to the vocabulary lesson for “Superior Man.” Let’s start. Our first word is intimate, intimate. In the first sentence David Dieda says pick an area of your life, choose an area of your life. And he says perhaps your intimate relationships.",
+      "So intimate, intimate relationship for example, intimate just means very close, very personal. So your intimate relationships are your closest relationships. Your husband or wife, boyfriend, girlfriend, mother, father, daughter, son, those kind of relationships.",
+      "Maybe your very close, closest friends, so your intimate relationships, your very close relationships. Sometimes if someone says your intimate relationship, no “s”, relationship, then they’re usually talking about someone you’re dating or you’re married to, so they’re talking about your husband or wife, boyfriend or girlfriend.",
+      "So sometimes it’s used just to mean that kind of love relationship between a husband/wife boyfriend/girlfriend. But sometimes it’s a little more general and it just means your closest relationships. So if there’s an “s” there, intimation relationships, then we’re talking about the people who are closest to you. Our next word is spiritual.",
+      "He says perhaps you should think about your spiritual practice. Spiritual is similar to religious. It’s quite close to religious…spiritual, religious, very similar. The difference is that religious is organized, or religion is organized, right? So we’re talking about Christianity, Islam, Hinduism, Buddhism, Judaism, those are religions.",
+      "So if you’re practicing one of those specifically, you can say “Oh, I am religious. I am a religious person. I am a Buddhist, I am a very strong Buddhist. I am religious.” But spiritual is really very personal. It’s not organized. You might say you have a belief about god or you have a belief about the universe or about life.",
+      "But maybe it’s not Buddhism or Christianity or Islam, maybe it’s not a specific religion. It’s your own personal feeling. Your own personal experience, that’s spiritual. Spiritual. So spiritual is the direct experience, the direct feeling. Religion or religious refers to something organized.",
+      "Okay, so your spiritual practice, it’s your practice or how you pray or meditate, for example. Next we see the phrase “earn a living.” He says are you currently doing something to earn a living that gives you passion. To earn a living means to make money. It really means to work, usually it’s how you make money.",
+      "So you can say “I earn a living by teaching English,” right? I make money by teaching English. It’s my job. It’s my career. Alright, so to earn a living means to make money or to work. So in this article he talks www.",
+      "about earning a living. How do you earn a living? How do you make money? Does it excite you? Does it give you passion or are you kind of bored or are you afraid to do something better? Okay, so earn a living. Next he uses the word edge. He says your edge is where you stop. He says you have to go to your edge and go past your edge.",
+      "An edge is a limit or a boundary. It’s a stopping point. Alright, so it’s a limit or a boundary, edge. So we have, here, he’s talking about an emotional edge, right? It means it’s where you stop because of fear. It’s your limit, your emotional limit. So maybe you have a good job but you’re afraid to start your own business.",
+      "You want to start your own business but you’re afraid, right? That’s your limit. That’s your edge, your stopping point. He says you must go past the edge. You must go past the limit. Our next word is compromise. He says do you compromise your fullest potential. Do you compromise your dream? Now compromise has different meanings.",
+      "Some of them are very positive meanings, in fact. But here, this is kind of a negative meaning for compromise. Here this means to weaken, to make something weaker, to ruin it, to dishonor it. So if you compromise your dream, it means you make your dream weaker.",
+      "So if your dream is to have your own business, your own company, but you don’t do it. You just work a really good job for someone else. You are compromising your dream. You are making your dream weaker. You’re killing your dream. So he’s saying, of course, don’t compromise your dream. Don’t weaken your dream. Don’t kill your dream.",
+      "Don’t destroy your dream. Next we have the phrase “cater to.” He says do you cater to your fears. He’s asking you. Do you cater to your fears or do you push beyond your fears? Do you break your fears? Do you cater to them or do you go past them? To cater to something is to help it, to give help to it.",
+      "It means to spoil it like you spoil a child, right? You have a little child and you give them candy and money all the time. What happens? The child becomes horrible, right? So it’s this idea. If you cater to your fear it means you give energy to your fear. You help your fear. You’re spoiling your fear like a child.",
+      "It becomes stronger and stronger and stronger. So that’s to cater to, cater to, cater to something. If you cater to something, you’re helping it or you’re trying to help it. You’re giving it energy. Okay, our next word is delude or deluded. Here we’re using it as a verb. He asks have you deluded yourself.",
+      "Have you deluded yourself and said I am not afraid? Are you deluding yourself? To delude means to lie, to lie to. So if you delude yourself, it means you lie to yourself. You’re fooling yourself. You’re tricking yourself. So it’s this idea of tricking, fooling, lying to.",
+      "To delude, to delude is to lie to, to trick, to fool…to delude, to delude. Our next word is accompany, accompany. He asks are you afraid of the change that might accompany a change in career. Okay, to accompany means to go with, to join with, to appear with.",
+      "So he’s saying are you afraid of the change in your life that will come with or go with the change in your career. They go together, right? If you change www.",
+      "your career then your life will also change. Your whole life will change. Those two changes go together. They accompany each other. They go with each other. So accompany means to go with, to happen at the same time, to be joined together with. Alright, so happen with, go with, accompany, accompany.",
+      "Alright, next is the phrase “approach their edge,” “approach your edge,” “approach the edge.” He says some men fear the feeling of fear that happens when they approach their edge. So he’s saying some men are afraid of fear. They’re afraid of fear itself.",
+      "And they’re afraid of the fear that happens when they get close to their limit, when they get close to their edge, right? If you’re comfortable, you’re relaxed doing the same thing every day, you won’t feel fear.",
+      "But if you approach your limit, if you try to go to your limit or past your limit doing something new, changing, that’s when the fear happens, that’s when it comes. When you approach your edge, when you get near. To approach means to get near, right? To go near something, go towards it, get near it.",
+      "So if you get near your limit, your current limit, if you get near your fear now, well that fear gets stronger, stronger, stronger. But, eventually you go past it, the fear disappears. But it’s when you’re getting close to changing, that’s when the fear happens. When you approach your edge. Next is the word inspirational.",
+      "He’s saying when you live your dreams you have inspirational energy. Inspirational, here, means creative, creative energy, inspirational energy. It means hopeful, hopeful energy, positive energy. So inspirational means positive, creative, hopeful…all those ideas together. It’s really all those things at the same time, inspirational.",
+      "Inspirational energy. Inspirational energy, hopeful, creative, positive energy. And finally we have the phrase “hanging back.” He asks are you hanging back. Are you working hard but you’re not challenging yourself? Are you working hard but you’re not trying to live your biggest dream? Are you hanging back? To hang back means to wait.",
+      "It means to delay. It means to hesitate. So to hang back is to hesitate. To hang back is to wait. So he’s saying “Are you waiting? Are you just waiting? Are you delaying and hesitating? Or are you really taking action? Are you really trying to live your dream? Are you taking action? Are you doing it or are you waiting?",
+      "Are you hanging back?” Are you hanging back, waiting? Okay, that is the end of the vocabulary for the Superior Man. Big smile. See you for the mini-story. www."
+    ],
+    "pov": [
+      "Hello, this is AJ. Welcome to the point of view stories for “Superior Man.” Same story, different points of view. Let’s start.",
+      "Since 1999 Kristin has wanted to go to the moon. What has she wanted? She has wanted to go to the moon. She has wanted to go to the moon since when? Since 1999. Since 1999 Kristin has wanted to go where? She has wanted to go to the moon since 1999. Who has wanted to go to the moon since 1999?",
+      "Kristin, of course, Kristin has wanted to go to the moon since 1999. Why has she wanted to go to the moon? Well, for spiritual reasons. She has wanted to go for spiritual reasons. What kind of reasons? Spiritual, she has wanted to go to the moon for spiritual reasons. In fact, she has wanted to meditate on the moon.",
+      "She’s dreamed about meditating on the moon. That has been her dream. What has been her dream? www.",
+      "Her dream has been to meditate on the moon. To meditate on the moon has been her dream. Since when? 1999, since 1999 her dream has been to meditate on the moon. But, of course, rockets are expensive. They were expensive in the past. They’re expensive now. Probably in the future, too. So they are expensive. Rockets are expensive.",
+      "So since 1999 she has realized that she will need to make a lot of money. She has realized that she needed a lot of money, or would need or will need. What has she realized since 1999? She has realized that she needed, or needs, a lot of money. Yeah, she has realized it, she’s known that. But her job did not pay a lot of money.",
+      "So one day she started her own business. She decided to cater to penguins. She decided to help, to focus on, penguins. She catered to penguins by selling fish to them. She sold fish to penguins every day. Kristin sold fish to penguins and she became very rich because penguins have a lot of money and they love fish.",
+      "So finally one day she bought her rocket and she went to the edge of space in her rocket. And then she continued all the way to the moon. But she was not alone. A penguin accompanied her. Bob the penguin accompanied Kristin to the moon. Together they went to the moon.",
+      "Together they sat on the moon and meditated…ommmm…they meditated for 10 days together on the moon. They felt calm, peaceful and happy.",
+      "Okay, that is the end of the first POV story. Now you notice a lot of little changes in there. Maybe some of you were thinking “Oh my god, why did he say this? Why did he say that? But he said both! He said, uh, present and past…aaaahhh, I don’t know!” Right?",
+      "Students ask me this all the time, all these specific rules because you’re confused because you learned from grammar rules. Forget about it. Don’t ask me those questions because I won’t answer them. Even if you ask them on the forum, I will not answer grammar questions because they hurt you. They confuse you. Forget them. Just listen.",
+      "All you need to know is in some situations you can use more than one choice. There’s more choices available. You don’t need to know why. It’s not important. Native speakers don’t know why, okay? Doesn’t matter. Just listen. Hear the changes. Let them go into your subconscious. Let them go into your mind. Trust your brain.",
+      "You don’t need to think about it consciously. Trust your brain to understand subconsciously. Effortless English teaches www.",
+      "you grammar subconsciously, effortlessly. So don’t think about it. If you think about it you’ll learn more slowly. So just listen. That’s all you need to do. Alright, let’s go on to the next story which is the future.",
+      "In 20 years, 20 years from now there’ll be this beautiful woman named Kristin. She’ll want to visit the moon. She’s gonna want to visit the moon. She’ll want to go there for spiritual reasons. In fact, she’ll want to meditate on the moon for 10 days. Unfortunately, in the future, rockets are still gonna be expensive.",
+      "They’re super expensive now and they’re still gonna be expensive in the future. So she’ll need to earn a great living to save money to buy an expensive rocket. But her job won’t pay her much money. She won’t have a great job. She won’t have much money. And so she’ll start her own business. She’ll start a new business.",
+      "She’ll decide to cater to penguins. She’ll sell fish to penguins. That’s gonna be her business. And it will be a successful business because penguins will be super rich and they’re gonna give her a lot of money because they love fish. And eventually she’ll buy her big powerful rocket.",
+      "And she’ll go to the edge of space and she’ll continue and go all the way to the moon. But she’s not gonna go alone. She’s gonna go with her favorite penguin Bob. Bob will accompany Kristin. He’s gonna accompany her all the way to the moon.",
+      "Together Kristin and Bob the penguin will go to the moon and they’ll meditate together on the moon for 10 days. They’ll be peaceful, calm and happy.",
+      "Okay, that is the end of the point of view stories. Again, big smile. Feel strong. Do not think about grammar. Just listen, just relax, just notice. That’s all you need to do. See you next time. Bye bye. www."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English – the programme where we bring you an interesting topic and six items of vocabulary. I’m Neil. Today we’re talking about jobs.",
+      "Dan: And I’m Dan. And specifically, we’re looking at the trend for having more than one job…",
+      "Neil: Yes. On that note – Dan, were you ever asked this question as a kid? “What do you want to be when you grow up?” Do you remember your answer?",
+      "Dan: I wanted to be a ninja turtle. And you?",
+      "Neil: That doesn’t surprise me. I think I wanted to be a professional footballer. I wanted to play for England. Well, for many people, that question gets harder the older they become! It’s one reason why more and more people have what we call portfolio careers these days – so they can do a bit of everything.",
+      "Dan: A portfolio, as a noun, means 'a case for carrying large pictures' – or it can mean the collection of pictures themselves. But we also use it as an adjective to describe groups of certain things – in this case, careers.",
+      "Neil: Indeed, we could say someone who is a part-time teacher and a part-time musician has a portfolio career.",
+      "Dan: Sounds like a good combination. First, let’s do today’s question – it’s job-related. Many surnames in English originally come from professions. The surname Baker, for example, was originally given to people who worked as… bakers! What about the surname Bond, as in double-oh-seven, James Bond? Who had this surname? Was it: a) Farmers b) Spies c) Guards",
+      "Neil: It can’t be spies, can it? So I’m going to guess guards. C.",
+      "Dan: Great, well let’s find out at the end of the programme.",
+      "Neil: Now, the portfolio career. Emily Wapnick is the Canadian author of a book called How to Be Everything: A Guide for Those Who (Still) Don’t Know What They Want to Be When",
+      "Dan: Which specific example of a portfolio career does she mention?",
+      "INSERT: Emily Wapnick, Author More and more people are doing multiple things and multiple jobs and it’s not just to make ends meet. A lot of people are choosing this kind of lifestyle. They’ve got, you know, three different businesses that are just thriving. Or they’re a serial entrepreneur. Or they’ve got a career in two different areas. There’s a guy I mention who is a psychotherapist and a luthier – he makes violins – and he’s very successful in both.",
+      "Neil: Emily is clearly a fan of this kind of working. She says she knows a man who’s both a psychotherapist and a luthier – someone who makes violins.",
+      "Dan: She says this trend is more than just about working to make ends meet – in other words, working to make enough money to live. And she used another interesting expression – a serial entrepreneur – what’s that exactly?",
+      "Neil: Well, an entrepreneur is someone who starts and runs businesses – and the use of serial here as an adjective describes someone who does the same thing again and again. Though we should say, the adjective is more often used for criminal activity – such as a serial killer or serial murderer.",
+      "Dan: Not the kind of portfolio career I had in mind. A serial entrepreneur, on the other hand, starts and runs business after business.",
+      "Neil: Another thing, because Emily believes the world of work is changing fast – it’s sensible to be able to do more than one thing. In other words, it’s wise to add another string to your bow.",
+      "Dan: A great phrase, which really just means 'to learn new skills you can use in the future'. I’d like to learn Japanese – that would add another string to my bow.",
+      "Neil: So desu, ne? But choosing a portfolio career is not for everyone, of course. It often simply comes down to money.",
+      "Dan: Here’s Charles Handy, writer and philosopher, and the man who popularised the term portfolio career in the first place.",
+      "INSERT: Charles Handy, Writer 80% of the people in corporate jobs hate them, or are dissatisfied with them. Whereas if you’re doing your own thing, 80% of them really like the freedom and the entrepreneurial spirit, even if they’re not making an awful lot of money. It’s a balancing job really, you’re free but you’re poor. Or you’re slaved but you’re richer.",
+      "Neil: Sounds like a difficult choice – be poor or be a slave. What would you choose, Dan?",
+      "Dan: I’d rather be poor and free, thank you very much.",
+      "Neil: Well, let’s explain a term he used – a corporate job. What does corporate mean?",
+      "Dan: Quite literally, it’s the adjective from the term corporation - a corporate job is a job at a big corporation, company or organisation – usually well paid, and with certain benefits.",
+      "Neil: Could we say James Bond has a corporate career?",
+      "Dan: Yes, I guess so! And thank you for reminding me to answer today’s question: which profession does the surname Bond come from?",
+      "Neil: And I said the Bonds were guards.",
+      "Dan: I’m afraid you were wrong. Bonds were originally peasant farmers who were bound to work for a particular lord. This word goes back over 1,000 years… The spying game came much later!",
+      "Neil: Indeed! Let’s spy today’s words once more. We had portfolio – which can be used in different ways. There’s a portfolio career, as well as the original meaning of a portfolio of art. Any others?",
+      "Dan: Yes, people talk about a portfolio of investments – if you invest in several companies at once to reduce the risk.",
+      "Neil: Talking of money, we had to make ends meet. People often work a number of different part-time jobs to make ends meet – to make enough money to live on.",
+      "Dan: Though having a lot of part-time jobs is not the same as being a serial entrepreneur. Serial means doing something repeatedly, usually a crime!",
+      "Neil: And an entrepreneur is someone who starts and runs businesses.",
+      "Dan: I’d love to start a business… First, I need to learn a new skill - add another string to my bow and learn yoga. Then maybe one day I’ll run a yoga business.",
+      "Neil: Not for me though, I prefer the corporate life – a secure job in a big corporation!",
+      "Dan: OK, but then you can come to my yoga classes after work!",
+      "Neil: Alright.",
+      "Dan: And that's the end of today's 6 Minute English. Please join us again soon.",
+      "Neil: And we are on social media of course. Make sure to visit our Facebook, Twitter, Instagram and YouTube pages.",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who wanted to visit the moon?",
+        "a": "Well, Kristin did. Kristin wanted to visit the moon."
+      },
+      {
+        "q": "Where did she want to go?",
+        "a": "She wanted to go to the moon."
+      },
+      {
+        "q": "Who wanted to go there?",
+        "a": "Kristin, Kristin wanted to go to the moon."
+      },
+      {
+        "q": "What did she want?",
+        "a": "To go to the moon, Kristin wanted to go to the moon."
+      },
+      {
+        "q": "Why?",
+        "a": "Why did Kristin want to go to the moon? She wanted to go for spiritual reasons."
+      },
+      {
+        "q": "What kind of reasons did she have?",
+        "a": "She had spiritual reasons. Kristin wanted to go to the moon for spiritual reasons. Of course, obviously."
+      },
+      {
+        "q": "Who had spiritual reasons for going to the moon?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did she have practical normal reasons or spiritual reasons?",
+        "a": "She had spiritual reasons for going to the moon. She had spiritual reasons for going to the moon. In fact, she wanted to meditate on the moon for 10 days. To meditate means to sit and breathe quietly and have a calm mind, calm brain. It’s kind of relaxing your body, relaxing your brain. So it’s a little bit like praying if you’re Christian or Muslim or Jewish, you pray. Buddhists and Hindus they meditate. They sit and they focus their mind, clear their mind. So she wants to do that on the moon. So this is her spiritual reason for going to the moon. So Kristin wanted to go to the moon. She wanted to go for spiritual reasons."
+      },
+      {
+        "q": "Did she need to earn a good living to pay for the rocket?",
+        "a": "Yes, she needed to earn a great living to pay for the rocket. She needed to make a lot of money to pay for the rocket."
+      },
+      {
+        "q": "What kind of living did she need to earn? Poor or great?",
+        "a": "Great, she needed to earn a great living to pay for the rocket. She needed to make a lot of money to pay for the rocket."
+      },
+      {
+        "q": "Who needed to earn a great living?",
+        "a": "Kristin, Kristin needed to earn a great living."
+      },
+      {
+        "q": "What did she need to earn?",
+        "a": "A great living, Kristin needed to earn a great living. She needed to make a lot of money."
+      },
+      {
+        "q": "Why did Kristin need to earn a great living?",
+        "a": "Well, to pay for the very expensive rocket. She needed to earn a great living to pay for a huge, expensive rocket."
+      },
+      {
+        "q": "Did Kristin’s job pay a lot of money?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "What?",
+        "a": "She decided to cater to penguins. She decided to sell to penguins. She decided to help penguins. Penguins would be her customers."
+      },
+      {
+        "q": "Who did Kristin cater to?",
+        "a": "She catered to penguins."
+      },
+      {
+        "q": "Who catered to penguins?",
+        "a": "Kristin, Kristin catered to penguins."
+      },
+      {
+        "q": "Did she help penguins? Did she focus on penguins?",
+        "a": "Yes, she did. She catered to penguins."
+      },
+      {
+        "q": "Did Kristin cater to dogs?",
+        "a": "No, no, no, not dogs. Kristin catered to penguins."
+      },
+      {
+        "q": "How did she cater to penguins?",
+        "a": "Well, she helped them by selling fish to them. She sold fish to penguins. That was her new business."
+      },
+      {
+        "q": "Did she make a little money or a lot of money?",
+        "a": "She earned a lot of money."
+      },
+      {
+        "q": "Did she buy a car?",
+        "a": "No, no, no."
+      },
+      {
+        "q": "Did she buy a house?",
+        "a": "No, no, no. She bought a rocket, a huge powerful rocket."
+      },
+      {
+        "q": "Why did she buy a huge powerful rocket?",
+        "a": "To go to the moon, of course, to go to the moon."
+      },
+      {
+        "q": "Did it go to the limit of the earth? Did it go to the limit of earth and space, the boundary?",
+        "a": "Yes, it did. It went to the edge of space, the edge of earth. It went to the edge of space, right to the limit."
+      },
+      {
+        "q": "Did it go to the edge of the water?",
+        "a": "No, no, not the edge of the water."
+      },
+      {
+        "q": "Did it go to the edge of her emotions?",
+        "a": "Not the edge of her emotions, it went to the edge of space. To the limit, the boundary between the earth and space."
+      },
+      {
+        "q": "Did it go past the edge of space?",
+        "a": "Yes, the rocket went past the edge of space."
+      },
+      {
+        "q": "Where did the rocket go?",
+        "a": "To the moon, the rocket went to the moon."
+      },
+      {
+        "q": "Was Kristin alone in the rocket?",
+        "a": "No, she was not alone."
+      },
+      {
+        "q": "Who was with Kristin?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did Bob join with Kristin? Did Bob go with Kristin?",
+        "a": "Yes, Bob the penguin accompanied Kristin."
+      },
+      {
+        "q": "What accompanied Kristin?",
+        "a": "A penguin, a penguin accompanied Kristin."
+      },
+      {
+        "q": "Did a giraffe accompany Kristin or did a penguin accompany Kristin?",
+        "a": "Well, a penguin accompanied Kristin."
+      },
+      {
+        "q": "Who accompanied Kristin?",
+        "a": "Bob, Bob the penguin accompanied Kristin."
+      },
+      {
+        "q": "Who did Bob accompany?",
+        "a": "Bob accompanied Krsitin."
+      },
+      {
+        "q": "Where did he accompany her to?",
+        "a": "He accompanied her to the moon. He went with her to the moon."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "an intimate relationship",
+      "pos": "phrase",
+      "uz": "yaqin, samimiy munosabat (eng yaqin insonlar bilan)",
+      "defEn": "a very close, personal relationship",
+      "example": "Pick an area of your life — perhaps your intimate relationship."
+    },
+    {
+      "en": "spiritual",
+      "pos": "adj",
+      "uz": "maʼnaviy, ruhiy (shaxsiy eʼtiqod, tashkiliy dinga bogʻliq emas)",
+      "defEn": "about personal belief and inner experience, not organized religion",
+      "example": "She wanted to go to the moon for spiritual reasons."
+    },
+    {
+      "en": "to earn a living",
+      "pos": "phrase",
+      "uz": "kun koʻrmoq, tirikchilik uchun pul topmoq",
+      "defEn": "to make money, usually through work",
+      "example": "How do you earn a living?"
+    },
+    {
+      "en": "an edge",
+      "pos": "n",
+      "uz": "chegara, oxirgi nuqta (bu yerda: qoʻrquv chegarasi)",
+      "defEn": "a limit or boundary; the point where you stop",
+      "example": "Your edge is where you stop because of fear."
+    },
+    {
+      "en": "to compromise (a dream)",
+      "pos": "v",
+      "uz": "zaiflashtirmoq, chippakka chiqarmoq (orzuni)",
+      "defEn": "to weaken or damage something valuable",
+      "example": "Don't compromise your biggest dream."
+    },
+    {
+      "en": "to cater to (your fears)",
+      "pos": "phrase",
+      "uz": "yon bermoq, kuch bermoq (qoʻrquvga); erkalatmoq",
+      "defEn": "to give energy to something and let it grow, like spoiling a child",
+      "example": "Do you cater to your fears or push past them?"
+    },
+    {
+      "en": "to delude yourself",
+      "pos": "phrase",
+      "uz": "oʻzingizni aldamoq, oʻzini oʻzi chalgʻitmoq",
+      "defEn": "to lie to or fool yourself",
+      "example": "If you say you're not afraid, you're deluding yourself."
+    },
+    {
+      "en": "to accompany (someone)",
+      "pos": "v",
+      "uz": "hamroh boʻlmoq, birga bormoq",
+      "defEn": "to go with someone or happen together with something",
+      "example": "Bob the penguin accompanied Kristin to the moon."
+    },
+    {
+      "en": "to approach your edge",
+      "pos": "phrase",
+      "uz": "oʻz chegarangizga yaqinlashmoq (qoʻrquv boshlanadigan nuqtaga)",
+      "defEn": "to get near your limit, where fear begins",
+      "example": "Fear comes when you approach your edge."
+    },
+    {
+      "en": "to hang back",
+      "pos": "phrase",
+      "uz": "ortga tortmoq, ikkilanmoq, kutib turmoq",
+      "defEn": "to hesitate or wait instead of taking action",
+      "example": "Are you hanging back instead of chasing your dream?"
+    }
+  ],
+  "englishpod": {
+    "id": "0110",
+    "title": "Daily Life – Registering for University",
+    "titleUz": "Kundalik hayot — Universitetga roʻyxatdan oʻtish",
+    "warmup": {
+      "uz": "Bu suhbatda Syuzan keyingi semestr uchun fanlarga roʻyxatdan oʻtadi va psixologiyadan qoʻshimcha yoʻnalish (minor) olmoqchi boʻladi. Bu — Superior Man gʻoyasiga mos: oʻsish uchun oʻzingizni qiynash, qoʻshimcha yuk olib chegarangizdan oʻtish. Sizningcha, u shuncha fanni bir semestrda bitira oladimi, yoki oʻz chegarasidan oshib ketadimi?",
+      "en": "In this dialogue Susan registers for next semester's courses and wants a minor in psychology. It fits the Superior Man theme: pushing yourself and stepping past your edge in order to grow. Do you think she can handle all those subjects in one semester, or is she going past her limit?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0110/dg.mp3",
+        "durationSec": 71,
+        "bytes": 599877
+      },
+      "pr": {
+        "path": "englishpod/0110/pr.mp3",
+        "durationSec": 759,
+        "bytes": 12182362
+      },
+      "rv": {
+        "path": "englishpod/0110/rv.mp3",
+        "durationSec": 367,
+        "bytes": 5912097
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Excuse me? Is this where I register? I’d like to sign up for my courses for next semester."
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, of course. I need your student ID please."
+      },
+      {
+        "speaker": "A",
+        "en": "Here you are."
+      },
+      {
+        "speaker": "B",
+        "en": "Okay, Susan. It says here that you are a business major and you are in your second year. Is this information correct?"
+      },
+      {
+        "speaker": "A",
+        "en": "Yes. I do want to take some additional credits this year to get a minor in psychology."
+      },
+      {
+        "speaker": "B",
+        "en": "Sure. That’s not a problem. Do you have the list of courses you want to take this semester?"
+      },
+      {
+        "speaker": "A",
+        "en": "Yeah. Here’s my list. I’m not sure if the class schedule will allow me to take all of them though."
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, that’s perfect. What about the subjects for your minor?"
+      },
+      {
+        "speaker": "A",
+        "en": "Oh yeah! Almost forgot! I need to take fundamental linguistics, consumer psychology and neuroanatomy."
+      },
+      {
+        "speaker": "B",
+        "en": "Wow, you are going to be busy this semester! Okay, here you go. You are registered now; you’ll have to make your first tuition payment before classes start."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to sign up for",
+        "uz": "roʻyxatdan oʻtmoq, yozilmoq (biror narsaga)",
+        "defEn": "to officially put your name on a list for something"
+      },
+      {
+        "en": "a major",
+        "uz": "asosiy mutaxassislik yoʻnalishi (universitetda)",
+        "defEn": "the main field a student studies at university"
+      },
+      {
+        "en": "a minor",
+        "uz": "qoʻshimcha (ikkinchi) yoʻnalish",
+        "defEn": "a second, smaller field of study alongside your major"
+      },
+      {
+        "en": "credits",
+        "uz": "kreditlar (diplom uchun toʻplanadigan ballar)",
+        "defEn": "points you count towards your degree at university"
+      },
+      {
+        "en": "a schedule",
+        "uz": "jadval, dastur (vaqt jadvali)",
+        "defEn": "a timetable; a list of appointments and times"
+      },
+      {
+        "en": "tuition",
+        "uz": "oʻqish toʻlovi",
+        "defEn": "the fees you pay for education"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170413",
+    "title": "Multiple careers",
+    "titleUz": "Bir vaqtda bir nechta kasb",
+    "audio": {
+      "main": {
+        "path": "sixmin/170413/audio.mp3",
+        "durationSec": 378,
+        "bytes": 15108480,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Which profession does the surname Bond originally come from?",
+        "qUz": "“Bond” familiyasi asli qaysi kasbdan kelib chiqqan?",
+        "options": [
+          "Farmers",
+          "Spies",
+          "Guards"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) Farmers (dehqonlar). Neil c) Guards deb xato qildi. Aslida “Bond”lar bir zodagonga biriktirilgan dehqonlar (peasant farmers) boʻlgan — josuslik oʻyini ancha keyin paydo boʻlgan."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "a portfolio career",
+        "uz": "portfel-karyera (bir vaqtda bir nechta ish bilan shugʻullanish)",
+        "defEn": "a working life made up of several different part-time jobs or roles"
+      },
+      {
+        "en": "to make ends meet",
+        "uz": "zoʻrgʻa kun koʻrmoq, daromadni xarajatga yetkazmoq",
+        "defEn": "to earn just enough money to live on"
+      },
+      {
+        "en": "an entrepreneur",
+        "uz": "tadbirkor (biznes ochib yurituvchi)",
+        "defEn": "someone who starts and runs businesses"
+      },
+      {
+        "en": "serial",
+        "uz": "ketma-ket, qayta-qayta (bir ishni takror qiluvchi)",
+        "defEn": "doing the same thing again and again (a serial entrepreneur)"
+      },
+      {
+        "en": "corporate (a corporate job)",
+        "uz": "korporativ (yirik kompaniyaga oid ish)",
+        "defEn": "relating to a big company; a corporate job is a job at a large corporation"
+      },
+      {
+        "en": "to add another string to your bow",
+        "uz": "kelajakda asqotadigan yangi koʻnikma orttirmoq",
+        "defEn": "to learn a new skill you can use in the future"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Face Your Fears and Live Your Dream",
+      "channel": "The School of Life"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of one big dream you have. What are you going to do to reach it, and what fear will you have to push past? Explain the reason behind each step.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: maqsad infinitivi (I study to…, I work hard in order to…, … so that …) va kelasi zamon shakllari (I'm going to…, I'll…, I'm …ing).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/14/main.mp3",
+      "bytes": 9985181
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/14/main.pdf",
+      "bytes": 50299
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/14/vocab.mp3",
+      "bytes": 9173572
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/14/ministory.mp3",
+      "bytes": 9785800
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/14/pov.mp3",
+      "bytes": 6781000
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/14/pov.pdf",
+      "bytes": 75994
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0110/dg.mp3",
+      "bytes": 599877
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0110/transcript.pdf",
+      "bytes": 92421
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170413/audio.mp3",
+      "bytes": 15108480
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170413/transcript.pdf",
+      "bytes": 105095
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

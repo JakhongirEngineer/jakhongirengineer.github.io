@@ -1,0 +1,168 @@
+{
+  "slug": "excitement",
+  "title": "Excitement",
+  "titleUz": "Hayajon — ishtiyoq va maqsad",
+  "level": "B1-B2",
+  "tags": ["excitement", "goals", "questions", "verb-patterns", "gerund-infinitive"],
+  "intro": {
+    "uz": "Hayajon — baxtning eng amaliy sinonimi. Tim Ferrissning “The 4-Hour Work Week” kitobidan olingan bu darsda AJ maqsad qoʻyishni oʻrgatadi: maqsad zerikarli emas, hayajonlantiradigan boʻlsin. Bu haftaning ikki grammatikasi: savollar, bilvosita savollar va soʻroq qoʻshimchasi (savol berish); hamda feʼl qoliplari — love doing / want to do / look forward to -ing. Brad haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Excitement — the most practical synonym for happiness. Built on a section of Tim Ferriss's “The 4-Hour Work Week,” this lesson teaches you to choose goals that excite you, not bore you. This week's two grammar topics: questions, indirect questions and question tags (how to ask); and verb patterns — love doing / want to do / look forward to -ing. You'll hear both in the POV story about Brad."
+  },
+  "canDo": {
+    "uz": "Dars oxirida ishtiyoq haqida muloyim, bilvosita savol bera olasiz (“Can you tell me what excites you?”) va soʻroq qoʻshimchasidan foydalana olasiz (“You love this, don't you?”), hamda feʼl qoliplarini toʻgʻri qoʻllab oʻz maqsadlaringizni tasvirlab bera olasiz (“I love learning… I want to speak… I'm looking forward to…”).",
+    "en": "By the end you can ask a polite indirect question about excitement (“Can you tell me what excites you?”) and use question tags (“You love this, don't you?”), and describe your goals with correct verb patterns (“I love learning… I want to speak… I'm looking forward to…”)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "questions-indirect-tags",
+      "titleUz": "Savollar, bilvosita savollar va soʻroq qoʻshimchasi",
+      "titleEn": "Questions, indirect questions & question tags",
+      "bandLifter": "IELTS Speaking — ask polite, well-formed questions and use natural tags",
+      "cefrCanDo": "B2: I can ask polite indirect questions and add question tags correctly",
+      "contrastUz": "Oʻzbek tilida savolni ohang yoki “-mi” bilan yasaymiz va soʻz tartibi oʻzgarmaydi (“pul xohlaysanmi?”). Ingliz tili esa yordamchi feʼlni (do/does/is) oldinga chiqaradi: “Do you want money?”. Bilvosita savolda esa u yana ega ortiga qaytadi: “Can you tell me where the store is?”. Soʻroq qoʻshimchasi (“…, don't you?”) — oʻzbekcha “…, shundaymi?”.",
+      "errorFixUz": "❌ Can you tell me where is the bank? You love this, no? ✅ Can you tell me where the bank is? You love this, don't you? Bilvosita savolda oddiy jumla tartibi (do/does yoʻq), tag esa ijobiy jumladan keyin inkor (don't you) boʻladi.",
+      "examples": [
+        { "en": "What would excite you?", "uz": "Sizni nima hayajonlantiradi?" },
+        { "en": "Can you tell me what you really want?", "uz": "Aslida nimani xohlashingizni ayta olasizmi?" },
+        { "en": "You love this idea, don't you?", "uz": "Bu gʻoyani yaxshi koʻrasiz, shundaymi?" }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Can you tell me where ___?",
+          "options": ["the station is", "is the station", "the station"],
+          "answer": "the station is",
+          "hintUz": "bilvosita savolda oddiy jumla tartibi (ega + feʼl): the station is"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You love this song, ___?",
+          "options": ["don't you", "do you", "isn't it"],
+          "answer": "don't you",
+          "hintUz": "ijobiy jumla → inkor tag; “love” asosiy feʼl → don't you"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "What ___ she want for her birthday?",
+          "options": ["does", "do", "is"],
+          "answer": "does",
+          "hintUz": "he/she/it uchun savol → does; keyin feʼl sof qoladi (want)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Doʻstingizdan ishtiyoqi haqida ovoz chiqarib soʻrang: bitta bilvosita savol (“Can you tell me what excites you?”) va bitta tagli jumla (“You love …, don't you?”).",
+          "answer": null,
+          "hintUz": "bilvosita savolda oddiy tartib; tag ijobiy jumladan keyin inkor boʻladi"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "verb-patterns-consolidation",
+      "titleUz": "Feʼl qoliplari: love doing / want to do / look forward to -ing",
+      "titleEn": "Verb patterns: love doing / want to do / look forward to -ing",
+      "bandLifter": "IELTS Speaking — link verbs smoothly (loving, wanting, looking forward to)",
+      "cefrCanDo": "B2: I can choose the gerund or infinitive after common verbs without error",
+      "contrastUz": "Oʻzbekchada “oʻrganishni yaxshi koʻraman” va “gapirmoqchiman” — ikkalasi ham “-ish/-moq” bilan tugaydi. Ingliz tili esa ikkiga ajratadi: baʼzi feʼl -ing talab qiladi (love learning), baʼzisi to + feʼl (want to speak). “look forward to” dagi “to” — predlog, shuning uchun undan keyin -ing keladi (looking forward to speaking).",
+      "errorFixUz": "❌ I want speaking. I'm looking forward to speak. ✅ I want to speak. I'm looking forward to speaking. want → to + feʼl; look forward to → -ing (bu yerda “to” — predlog).",
+      "examples": [
+        { "en": "I love learning English and I want to speak it well.", "uz": "Ingliz tili oʻrganishni yaxshi koʻraman va uni yaxshi gapirmoqchiman." },
+        { "en": "I'm looking forward to starting my new goal.", "uz": "Yangi maqsadimni boshlashni intiqlik bilan kutyapman." },
+        { "en": "Speaking in public excites me.", "uz": "Ommaviy nutq meni hayajonlantiradi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I love ___ new languages.",
+          "options": ["learning", "to learning", "learn"],
+          "answer": "learning",
+          "hintUz": "love + -ing (gerund): learning"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I want ___ English fluently.",
+          "options": ["to speak", "speaking", "speak"],
+          "answer": "to speak",
+          "hintUz": "want + to + feʼl: to speak"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'm looking forward to ___ you soon.",
+          "options": ["meeting", "meet", "to meet"],
+          "answer": "meeting",
+          "hintUz": "look forward TO — bu “to” predlog, keyin -ing keladi: meeting"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz maqsadingiz haqida rost gap ayting (ovoz chiqarib): “___ing is exciting. I want to … and I can't wait to … .”",
+          "answer": null,
+          "hintUz": "jumla boshida gerund (ega); want/can't wait → to + feʼl"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "specificity", "pos": "n", "uz": "aniqlik, tafsilotlilik (juda aniq va batafsil boʻlish)", "defEn": "the quality of being specific, detailed and exact", "example": "It's a matter of specificity — say the exact amount." },
+    { "en": "imprecise", "pos": "adj", "uz": "noaniq, mavhum (batafsil emas)", "defEn": "not exact or clear; too general", "example": "“What do you want?” is too imprecise a question." },
+    { "en": "to be fated for", "pos": "phrase", "uz": "muqarrar duchor boʻlmoq, peshonasiga yozilgan", "defEn": "to be destined or certain to end in something", "example": "That vague question is fated for confusion." },
+    { "en": "worthwhile", "pos": "adj", "uz": "arziydigan, foydali (behuda emas)", "defEn": "useful and important enough to be worth the effort", "example": "He had a worthwhile purpose for needing the money." },
+    { "en": "ambiguous", "pos": "adj", "uz": "noaniq, ikki maʼnoli, tushunarsiz", "defEn": "not clear; open to more than one meaning", "example": "The word “happiness” has become ambiguous." },
+    { "en": "bear with me", "pos": "phrase", "uz": "sal sabr qiling, biroz kuting", "defEn": "please be patient with me for a moment", "example": "Bear with me while I think about the answer." },
+    { "en": "indifference", "pos": "n", "uz": "befarqlik, loqaydlik (hech qanday his yoʻqligi)", "defEn": "a total lack of interest, feeling or concern", "example": "The opposite of love is not hate but indifference." },
+    { "en": "synonym", "pos": "n", "uz": "sinonim, maʼnodosh soʻz", "defEn": "a word with the same or a very similar meaning", "example": "Excitement is a synonym for happiness." },
+    { "en": "bliss", "pos": "n", "uz": "cheksiz baxt, samimiy huzur (oddiy baxtdan kuchliroq)", "defEn": "extreme, powerful happiness", "example": "Many people tell you to follow your bliss." },
+    { "en": "to follow your passion", "pos": "phrase", "uz": "ishtiyoqingiz ortidan bormoq, sevgan ishingizni qilmoq", "defEn": "to do what excites and inspires you most", "example": "People suggest that you follow your passion." }
+  ],
+  "englishpod": {
+    "title": "The Weekend – Rock Band",
+    "titleUz": "Dam olish kunlari — Rok guruh",
+    "warmup": {
+      "uz": "Suhbatda bir yigit hayajon bilan oʻz rok guruhini tuzayotganini aytadi — u nogʻora chalishni oʻrganib, endi qoʻshiqchi qidiryapti. Bu ham darsning mavzusiga mos: ishtiyoq odamni harakatga soladi. Sizningcha, uning rejasi jiddiymi yoki shunchaki hayajonmi?",
+      "en": "In this dialogue an excited guy says he's forming a rock band — he's learned the drums and now needs a singer. It fits the theme: excitement drives people to act. Do you think his plan is serious, or just excitement?"
+    },
+    "keyVocab": [
+      { "en": "an instrument", "uz": "cholgʻu asbob", "defEn": "a device that is used to make music" },
+      { "en": "a thousand times", "uz": "ming marta (koʻp marta degan boʻrttirma)", "defEn": "very many times; an exaggeration for emphasis" },
+      { "en": "to form (a band)", "uz": "tuzmoq, tashkil qilmoq (guruh)", "defEn": "to create or organize a group" },
+      { "en": "to audition", "uz": "sinovdan oʻtmoq (tanlov uchun namoyish qilmoq)", "defEn": "to take part in a trial performance to get a place" },
+      { "en": "an amplifier", "uz": "kuchaytirgich (ovozni kuchaytiradigan qurilma)", "defEn": "a device that makes sound louder" },
+      { "en": "bass", "uz": "bas gitara (past, chuqur ovozli cholgʻu)", "defEn": "the low, deep-sounding instrument in a band" },
+      { "en": "we are set", "uz": "tayyormiz, hammasi tayyor", "defEn": "we are ready; everything is prepared" }
+    ]
+  },
+  "sixmin": {
+    "title": "Is gaming a sport?",
+    "titleUz": "Oʻyin — bu sportmi?",
+    "quiz": [
+      {
+        "q": "In 1950, Bertie the Brain was one of the first computer games. How tall was this computer?",
+        "qUz": "1950-yilda Bertie the Brain birinchi kompyuter oʻyinlaridan biri edi. Bu kompyuter qanchalik baland edi?",
+        "options": ["one metre tall", "about four metres tall", "about ten metres tall"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) taxminan toʻrt metr. Catherine oʻn metr dedi va xato qildi. Bertie the Brain taxminan toʻrt metr balandlikda edi — hozir esa oʻyinlarni kaftda ushlab oʻynaymiz!"
+      }
+    ],
+    "vocab": [
+      { "en": "eSports", "uz": "kibersport (koʻp oʻyinchili kompyuter oʻyinlari boʻyicha musobaqalar)", "defEn": "multi-player video game competitions which people pay to watch" },
+      { "en": "competitively", "uz": "musobaqa tarzda, raqobatlashib", "defEn": "playing against other people to win" },
+      { "en": "to get into (something)", "uz": "biror narsaga qiziqib qolmoq, berilib ketmoq", "defEn": "to become really interested in something" },
+      { "en": "professional", "uz": "professional (pul evaziga, yuqori darajada ish qiladigan)", "defEn": "someone who is paid to do something because they are very good at it" },
+      { "en": "an industry", "uz": "soha, sanoat (koʻp qismlardan iborat biznes)", "defEn": "an area of business made up of many different parts" },
+      { "en": "a scene", "uz": "muhit, olam (biror faoliyatning butun dunyosi)", "defEn": "the world of a particular activity — its events, people and competitions" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to find what excites you — and chase it",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "What excites you most in life right now — and what's one exciting goal you're working towards? Ask a friend too: “Can you tell me what excites you? You have a big goal, don't you?”",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: savollar va soʻroq qoʻshimchasi (Can you tell me…? …, don't you?) hamda feʼl qoliplari (I love …ing, I want to …, I'm looking forward to …ing).",
+    "targetSec": 60
+  }
+}

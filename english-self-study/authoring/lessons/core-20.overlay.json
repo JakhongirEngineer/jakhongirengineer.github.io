@@ -1,0 +1,167 @@
+{
+  "slug": "attractor-factor",
+  "title": "Attractor Factor",
+  "titleUz": "Attractor Factor — nimaga eʼtibor bersang, oʻsha keladi",
+  "level": "B1",
+  "tags": ["mindset", "law-of-attraction", "positivity", "present-perfect", "conditionals"],
+  "intro": {
+    "uz": "Attractor Factor — Joe Vitalening gʻoyasi: nimaga diqqat qaratsangiz, oʻsha narsani hayotingizga tortasiz. Salbiylikka emas, ijobiy maqsadga fokuslaning. Bu haftaning ikki grammatik mavzusi shu gʻoyaga mos: soʻnggi paytda hozirgina boshlangan yaxshi oʻzgarishlar (present perfect + just / already / yet / still) va yaxshilikni tortadigan shartlar (kengaytirilgan birinchi shart: unless / as long as / provided that / in case). Eve mushuk haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "The Attractor Factor is Joe Vitale's idea: you attract into your life whatever you focus on. Stop feeding the negative; focus on the positive goal. This week's two grammar topics match that idea: the good changes that have just started happening lately (present perfect + just / already / yet / still) and the conditions that draw good things in (extended first conditional: unless / as long as / provided that / in case). You'll hear both in the POV story about Eve the cat."
+  },
+  "canDo": {
+    "uz": "Dars oxirida soʻnggi paytda oʻzgargan biror narsani toʻxtamasdan tasvirlab bera olasiz (\"I have just… / I haven't … yet\") va biror natijaning shartini aniq bogʻlovchilar bilan ayta olasiz (\"as long as… / unless…\").",
+    "en": "By the end you can describe something that has changed lately without pausing (\"I have just… / I haven't … yet\") and state the condition behind a result with precise connectors (\"as long as… / unless…\")."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-just-already-yet",
+      "titleUz": "Present perfect + just / already / yet / still (+ recently / lately)",
+      "titleEn": "Present perfect + just / already / yet / still",
+      "bandLifter": "IELTS Part 1 — talk about what has changed in your life recently",
+      "cefrCanDo": "B1: I can say what I have just / already / not yet done and place the adverb correctly",
+      "contrastUz": "Oʻzbekchada bu ishlarni koʻpincha oddiy oʻtgan zamon bilan aytamiz: \"Endigina tugatdim\", \"Allaqachon oʻzgardi\". Ingliz tilida natija hozir tirik boʻlgani uchun present perfect kerak: \"I have just finished\". \"hozirgina\" = just, \"allaqachon\" = already, \"hali (yoʻq)\" = yet, \"hali ham\" = still.",
+      "errorFixUz": "❌ I already have changed. Have you finished already? (inkor/savolda) ✅ I have already changed. Have you finished yet? — just/already `have/has` bilan `V3` oʻrtasida; savol va inkorda esa jumla oxirida `yet` ishlatiladi.",
+      "examples": [
+        { "en": "I have just started a positive routine.", "uz": "Men endigina ijobiy tartib boshladim." },
+        { "en": "She has already changed her focus.", "uz": "U diqqatini allaqachon oʻzgartirdi." },
+        { "en": "I still haven't removed the negativity from my day.", "uz": "Kunimdagi salbiylikni hali ham olib tashlaganim yoʻq." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I have ___ finished the vocabulary lesson.",
+          "options": ["just", "yet", "still"],
+          "answer": "just",
+          "hintUz": "\"hozirgina\" → just; u have va V3 oʻrtasida turadi (have just finished)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Have you started your positive plan ___?",
+          "options": ["yet", "already", "just"],
+          "answer": "yet",
+          "hintUz": "savolda \"hali\" → yet, jumla oxirida turadi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She has ___ attracted good things into her life.",
+          "options": ["already", "yet", "still"],
+          "answer": "already",
+          "hintUz": "ijobiy jumlada \"allaqachon\" → already, have/has bilan V3 oʻrtasida"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): soʻnggi paytda oʻzgargan biror narsa — \"I have just … . I have already … . I haven't … yet.\"",
+          "answer": null,
+          "hintUz": "have/has + V3; just/already — oʻrtada, yet — oxirida (savol/inkor)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "first-conditional-extended",
+      "titleUz": "Kengaytirilgan birinchi shart: unless / as long as / provided that / in case",
+      "titleEn": "First conditional extended — unless / as long as / provided / in case",
+      "bandLifter": "IELTS Part 3 — discuss conditions and consequences precisely",
+      "cefrCanDo": "B1→B2: I can express a condition with unless / as long as / provided that / in case",
+      "contrastUz": "Oʻzbekchada bu maʼnolarni koʻpincha bitta \"-sa\" qoʻshimchasi bilan beramiz: \"tirishsang\", \"tirishmasang\". Ingliz tili alohida bogʻlovchi tanlaydi va ular almashmaydi: unless = agar …maslar (if not), as long as = toki …turar ekan, provided that = sharti bilan, in case = har ehtimolga qarshi. Shart gapida kelasi zamon emas, present simple qoladi.",
+      "errorFixUz": "❌ You won't succeed unless you don't try. If you will focus, you will attract it. ✅ You won't succeed unless you try. If you focus, you will attract it. — \"unless\" ichida allaqachon inkor bor (yana \"don't\" qoʻshmang); shart gapida \"will\" ishlatilmaydi.",
+      "examples": [
+        { "en": "You won't attract good things unless you believe.", "uz": "Ishonmasangiz, yaxshi narsalarni tortmaysiz." },
+        { "en": "You will improve as long as you stay positive.", "uz": "Toki ijobiy qolar ekansiz, oʻsib borasiz." },
+        { "en": "Take an umbrella in case it rains.", "uz": "Yomgʻir yogʻsa kerak boʻladi deb, soyabon oling." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "You will attract good things ___ you stay positive.",
+          "options": ["as long as", "unless", "in case"],
+          "answer": "as long as",
+          "hintUz": "\"toki …turar ekan\" (shart davom etsa natija ham davom etadi) → as long as"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you change your focus, nothing will improve.",
+          "options": ["Unless", "As long as", "Provided"],
+          "answer": "Unless",
+          "hintUz": "\"agar oʻzgartirmasangiz\" (if not) → Unless"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'll write the goal on the wall ___ I forget it.",
+          "options": ["in case", "unless", "as long as"],
+          "answer": "in case",
+          "hintUz": "ehtiyot chorasi (\"unutib qoʻysam kerak boʻladi\") → in case"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"I will … as long as … . I won't … unless … .\"",
+          "answer": null,
+          "hintUz": "shart gapida present simple; unless ichida inkor bor, yana qoʻshmang"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "to activate (the attractor force)", "pos": "v", "uz": "ishga tushirmoq, yoqmoq (avval oʻchiq boʻlgan narsani)", "defEn": "to turn something on so it starts working", "example": "We activate the attractor force with our thinking." },
+    { "en": "to manifest / a manifestation", "pos": "v/n", "uz": "roʻyobga chiqmoq; xayoldagi narsaning haqiqatga aylanishi", "defEn": "to become real; a thing that becomes real", "example": "My idea manifested — it became real." },
+    { "en": "a springboard (to)", "pos": "n", "uz": "turtki, sakrash taxtasi (biror ishni kuch bilan boshlab beruvchi narsa)", "defEn": "something that gives energy and starts a process", "example": "Your dreams are a springboard to miracles." },
+    { "en": "to abstain from", "pos": "v", "uz": "voz kechmoq, oʻzini tiymoq (isteʼmol qilmaslik, uzoqlashmoq)", "defEn": "to avoid or not use something on purpose", "example": "You need to abstain from negative influences." },
+    { "en": "to forbid (something)", "pos": "v", "uz": "taqiqlamoq, yoʻl qoʻymaslik", "defEn": "to not allow something to happen", "example": "Jack Canfield forbade any negativity in his office." },
+    { "en": "to attract (into your life)", "pos": "v", "uz": "oʻziga tortmoq, jalb qilmoq", "defEn": "to draw something toward you", "example": "Positive emotions attract positive people." },
+    { "en": "negative influences", "pos": "phrase", "uz": "salbiy taʼsirlar (kayfiyatni tushiradigan narsa/odamlar)", "defEn": "people or things that affect you in a bad way", "example": "Protect yourself from negative influences." },
+    { "en": "to focus on", "pos": "phrase", "uz": "eʼtiborini qaratmoq, diqqatni jamlamoq", "defEn": "to give all your attention to something", "example": "Focus on what you do want, not what you don't." },
+    { "en": "current reality", "pos": "phrase", "uz": "hozirgi voqelik, ayni holat", "defEn": "the way things are for you right now", "example": "Current reality can be changed." },
+    { "en": "to fall into (negative thinking)", "pos": "phrase", "uz": "(salbiy fikrga) berilib ketmoq, ixtiyorsiz tushib qolmoq", "defEn": "to slip into a bad habit or state without meaning to", "example": "It's easy to fall into negative thinking." }
+  ],
+  "englishpod": {
+    "title": "Daily Life – Getting A Pet",
+    "titleUz": "Kundalik hayot — Uy hayvoni olish",
+    "warmup": {
+      "uz": "Bu suhbatda er-xotin uy hayvoni olish ustida bahslashadi: kuchukmi, mushukmi yoki toʻtiqushmi? Attractor Factor darsining Eve mushugiga chiroyli ulanadi. Biri \"yoʻq\" desa, biri \"ha\" deb turadi — nimaga fokuslansa, oʻsha yutadi. Sizningcha, oxirida qaysi hayvonni olishadi?",
+      "en": "In this dialogue a couple argue about getting a pet — a puppy, a cat, or a parrot? It links nicely to the Attractor Factor lesson and Eve the cat: one focuses on \"no\", the other on \"yes\". Which pet do you predict they end up with?"
+    },
+    "keyVocab": [
+      { "en": "a hundred times", "uz": "yuz marta (koʻp marta, qayta-qayta maʼnosida)", "defEn": "many times; again and again" },
+      { "en": "to look after", "uz": "qaramoq, gʻamxoʻrlik qilmoq (masʼuliyatni olmoq)", "defEn": "to take care of someone or something" },
+      { "en": "to bathe", "uz": "yuvintirmoq, choʻmiltirmoq", "defEn": "to wash a person or an animal" },
+      { "en": "a breed", "uz": "zot, nasl (hayvonning turi)", "defEn": "a particular kind or type of animal, e.g. of dog" },
+      { "en": "to take it from there", "uz": "shu yerdan davom ettirmoq, keyin koʻramiz deb boshlamoq", "defEn": "to continue on from a point once you have started" },
+      { "en": "awesome", "uz": "zoʻr, ajoyib", "defEn": "extremely good; excellent" }
+    ]
+  },
+  "sixmin": {
+    "title": "Do opposites attract?",
+    "titleUz": "Qarama-qarshiliklar bir-birini tortadimi?",
+    "quiz": [
+      {
+        "q": "What percentage of Americans said they believe in love at first sight?",
+        "qUz": "Amerikaliklarning necha foizi ilk koʻrishdayoq sevgiga ishonishini aytgan?",
+        "options": ["26%", "56%", "86%"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 56%. Sophie 26% dedi va xato qildi. 2013-yilgi CBS.com soʻrovnomasiga koʻra amerikaliklarning 56% ilk koʻrishda sevgiga ishonadi, turmush qurganlar orasida bu raqam yanada yuqori."
+      }
+    ],
+    "vocab": [
+      { "en": "a bolt out of the blue", "uz": "kutilmaganda boʻlgan voqea, momaqaldiroqdek kutilmagan narsa", "defEn": "something totally unexpected" },
+      { "en": "sceptical", "uz": "shubha bilan qaraydigan, ishonqiramaydigan", "defEn": "having doubts about something" },
+      { "en": "ratio", "uz": "nisbat (ikki oʻlcham orasidagi bogʻliqlik)", "defEn": "the relationship between two sizes or amounts" },
+      { "en": "to correlate", "uz": "oʻzaro bogʻliq boʻlmoq, mos kelmoq", "defEn": "to have a strong relationship with something" },
+      { "en": "an hourglass figure", "uz": "qumsoat shaklidagi qomat (beli ingichka, egri-bugri)", "defEn": "a curvy body shape with a well-defined waist" },
+      { "en": "aesthetically", "uz": "tashqi koʻrinishiga qarab, goʻzallik jihatidan", "defEn": "judging something by the way it looks" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "The Law of Attraction: focus on what you want",
+      "channel": "Joe Vitale"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a positive change you want to attract into your life. What have you just started or not done yet? And what will happen — as long as you keep going, or unless you give up?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect + just/already/yet/still (I have just…, I haven't … yet) va kengaytirilgan birinchi shart (as long as…, unless…).",
+    "targetSec": 60
+  }
+}

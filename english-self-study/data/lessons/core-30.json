@@ -1,0 +1,864 @@
+{
+  "schemaVersion": 2,
+  "id": "core-30",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 30,
+  "slug": "tribes",
+  "title": "Tribes",
+  "titleUz": "Qabilalar — oʻz odamlaring",
+  "level": "B1-B2",
+  "tags": [
+    "community",
+    "leadership",
+    "relative-clauses",
+    "cleft",
+    "fluency"
+  ],
+  "intro": {
+    "uz": "Soʻnggi dars — Seth Godinʼning \"Tribes\" gʻoyasi haqida: qabila endi oila emas, balki bir maʼnoni va maqsadni baham koʻradigan odamlar toʻdasi. Bu haftaning ikki grammatikasi aynan odamlar va ravonlik haqida: ergash gaplar yakuni (nodefining, qisqargan va takror) va urgʻu-ravonlik yakuni (cleft \"What…is…\" / \"It's…that…\" hamda nutq bogʻlovchilari va yumshatish). Tony haqidagi POV hikoyada bularning zaminini eshitasiz.",
+    "en": "The final lesson is about Seth Godin's idea of \"Tribes\": a tribe is no longer just a family but a group of people who share a meaning and a purpose. This week's two grammar topics are all about people and fluency: the relative-clause capstone (non-defining, reduced and review) and the emphasis-and-fluency capstone (cleft \"What…is…\" / \"It's…that…\" plus discourse markers and hedging). You'll hear the groundwork in the POV story about Tony."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz \"qabilangiz\"dagi odamlarni ergash gaplar bilan (vergulli qoʻshimcha va qisqargan shakllar) toʻxtamasdan tasvirlab bera olasiz va fikringizni cleft (What…is… / It's…that…) hamda yumshatuvchi iboralar bilan ravon, urgʻu bilan ayta olasiz.",
+    "en": "By the end you can describe the people in your \"tribe\" with relative clauses (non-defining and reduced) without pausing, and give your point with emphasis and fluency using cleft sentences (What…is… / It's…that…) and hedging phrases."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "relative-clauses-capstone",
+      "titleUz": "Ergash gaplar yakuni: qoʻshimcha (nodefining), qisqargan va takror",
+      "titleEn": "Relative clauses capstone — non-defining, reduced & review",
+      "bandLifter": "IELTS Part 2 — describe a person and add extra detail smoothly",
+      "cefrCanDo": "B2: I can add extra information about people with non-defining and reduced relative clauses",
+      "bodyHtml": "<p>Bu — soʻnggi dars, va uning mavzusi <em>odamlar</em>: qabila (tribe) — bir maʼnoni baham koʻradigan insonlar tuguni. AJ <em>&quot;everyone is now a leader&quot;</em> deydi, POV hikoyada esa Tony <em>orphans, who had no parents,</em> ni yangi ota-onalar bilan bogʻlaydi. Odamlarni tasvirlash uchun bizga <strong>ergash gaplar</strong> (relative clauses) kerak: <em>my mentor, <strong>who</strong> believed in me; the people <strong>who</strong> keep you going.</em> L06'da koʻrganimizni shu yerda yakunlaymiz.</p>\n<h3>Ikki tur: aniqlovchi va qoʻshimcha (vergul bor yoki yoʻq)</h3>\n<p>Bir xil soʻzlar (<em>who, which, that</em>) ikki xil vazifada keladi — farqi <strong>vergulda</strong>, va farqi maʼnoda katta:</p>\n<ul>\n<li><strong>Aniqlovchi (defining) — vergulsiz.</strong> Qaysi odam/narsa haqida gapirayotganimizni <em>aniqlaydi</em>; uni olib tashlasangiz, maʼno buziladi.\n<ul>\n<li><em>The leader <strong>who</strong> inspired me changed my life.</em> — Qaysi leader? Aynan meni ilhomlantirgani.</li>\n</ul>\n</li>\n<li><strong>Qoʻshimcha (non-defining) — vergul bilan.</strong> Kim/nima ekani allaqachon maʼlum; ergash gap shunchaki <em>qoʻshimcha maʼlumot</em> beradi. Olib tashlasangiz ham asosiy gap butun qoladi.\n<ul>\n<li><em>My mentor, <strong>who</strong> believed in me, changed my life.</em> — Ustoz bitta; &quot;menga ishongan&quot; — qoʻshimcha izoh.</li>\n</ul>\n</li>\n</ul>\n<h3>Qoʻshimcha ergash gap: vergul ichidagi izoh</h3>\n<p>Non-defining gap koʻpincha ismlar va yagona narsalar bilan keladi — chunki ular allaqachon aniq:</p>\n<ul>\n<li><em>Seth Godin, <strong>who</strong> wrote &quot;Tribes&quot;, is a business writer.</em></li>\n<li><em>Rwanda, <strong>which</strong> is in Africa, needed real help — not golf clubs.</em></li>\n</ul>\n<p>Muhim qoida: qoʻshimcha (vergulli) gapda <strong><code>that</code> ishlatilmaydi</strong> — faqat <em>who/which</em>:</p>\n<ul>\n<li>❌ <em>My mentor, <strong>that</strong> believed in me, …</em> ✅ <em>My mentor, <strong>who</strong> believed in me, …</em> — nega? <code>that</code> faqat aniqlovchi (vergulsiz) gaplarga xos.</li>\n</ul>\n<h3>Qisqargan ergash gaplar (reduced)</h3>\n<p>Ravon nutqda <em>who is / that are</em> koʻpincha <strong>tushib qoladi</strong>, va gap yengillashadi:</p>\n<ul>\n<li><em>the people <strong>who are</strong> helping me</em> → <em>the people <strong>helping</strong> me</em></li>\n<li><em>a tribe <strong>that is</strong> grounded in respect</em> → <em>a tribe <strong>grounded in</strong> respect</em></li>\n<li><em>the orphans <strong>who were</strong> left alone</em> → <em>the orphans <strong>left alone</strong></em></li>\n</ul>\n<p>Bu — B2 ravonligining belgisi: ortiqcha soʻzsiz, tabiiy.</p>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida sifatlovchi ergash gap ismdan <strong>oldin</strong> keladi: <em>&quot;menga <strong>ishongan</strong> ustozim&quot;</em>. Ingliz tilida esa <strong>keyin</strong>: <em>&quot;my mentor <strong>who believed in me</strong>&quot;</em>. Yana bir farq: oʻzbekchada vergul bilan &quot;aniqlovchi/qoʻshimcha&quot; ajratmaymiz — ingliz tilida esa aynan <strong>vergul</strong> maʼnoni oʻzgartiradi. <em>My brother who lives in London</em> (bir nechta akam bor, biri Londonda) va <em>My brother, who lives in London,</em> (akam bitta, u Londonda) — butunlay boshqa maʼno.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻz &quot;qabilangiz&quot;ni ovoz chiqarib tasvirlang: <em>&quot;My best friend, who never gives up, keeps me going. The teacher who changed my life said…&quot;</em> Har kuni bitta odam haqida vergulli va vergulsiz ikki jumla ayting — quloq vergulning maʼnosini oʻzi ilgʻab oladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida sifatlovchi ergash gap ismdan OLDIN keladi: \"menga ishongan ustozim\". Ingliz tilida esa KEYIN: \"my mentor who believed in me\". Yana bir farq — oʻzbekchada vergul bilan aniqlovchi/qoʻshimchani ajratmaymiz, ingliz tilida esa aynan vergul maʼnoni oʻzgartiradi: \"My brother who lives in London\" (bir nechta aka) ≠ \"My brother, who lives in London,\" (aka bitta).",
+      "errorFixUz": "❌ My mentor, that believed in me, changed my life. ✅ My mentor, who believed in me, changed my life. Vergulli (qoʻshimcha) ergash gapda \"that\" ishlatilmaydi — faqat who/which. \"that\" faqat vergulsiz aniqlovchi gaplarga xos.",
+      "examples": [
+        {
+          "en": "My mentor, who believed in me, changed my life.",
+          "uz": "Ustozim, menga ishongan boʻlgani uchun, hayotimni oʻzgartirdi."
+        },
+        {
+          "en": "Seth Godin, who wrote \"Tribes\", is a business writer.",
+          "uz": "\"Tribes\" kitobini yozgan Seth Godin — biznes yozuvchisi."
+        },
+        {
+          "en": "A real tribe is a group grounded in respect.",
+          "uz": "Haqiqiy qabila — hurmatga asoslangan guruh."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Seth Godin, ___ wrote \"Tribes\", is a business writer.",
+          "options": [
+            "who",
+            "that",
+            "which"
+          ],
+          "answer": "who",
+          "hintUz": "vergulli (qoʻshimcha) gap + odam → who; \"that\" bu yerda ishlatilmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Rwanda, ___ is in Africa, needed real help.",
+          "options": [
+            "which",
+            "who",
+            "that"
+          ],
+          "answer": "which",
+          "hintUz": "vergulli qoʻshimcha gap + narsa/joy → which"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The people ___ me are all volunteers. (who are helping → qisqargan)",
+          "options": [
+            "helping",
+            "who helping",
+            "helps"
+          ],
+          "answer": "helping",
+          "hintUz": "qisqargan ergash gap: \"who are helping\" → \"helping\""
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz \"qabilangiz\"dagi bir odamni tasvirlang (ovoz chiqarib): \"My …, who …, …\" — vergulli qoʻshimcha ergash gap bilan.",
+          "answer": null,
+          "hintUz": "ism + vergul + who/which + qoʻshimcha maʼlumot + vergul"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "cleft-discourse-markers",
+      "titleUz": "Urgʻu va ravonlik yakuni: cleft (What…is… / It's…that…) + nutq bogʻlovchilari",
+      "titleEn": "Emphasis & fluency capstone — cleft + discourse markers",
+      "bandLifter": "IELTS — the Fluency & Coherence lifter: emphasise a point and hedge naturally",
+      "cefrCanDo": "B2: I can emphasise a key idea with cleft sentences and soften my speech with hedging",
+      "bodyHtml": "<p>Haqiqiy guruh suhbatini tinglang: <em>&quot;What a tribe gives you <strong>is</strong> belonging. It's the people <strong>that</strong> keep you going. I'd say, on the whole, that's what matters.&quot;</em> Bu — ravonlik yakuni. Ikki qurol: <strong>cleft</strong> jumlalar (urgʻu berish uchun gapni ikkiga &quot;yorib&quot; tashlash) va <strong>nutq bogʻlovchilari</strong> bilan <strong>yumshatish</strong> (hedging). POV hikoyada Tony bir umr <em>yearned to make a difference</em> — shu maʼnoni endi urgʻu bilan aytamiz: <em>What Tony yearned to do was make a difference.</em></p>\n<h3>1. What-cleft: <code>What … is/was …</code></h3>\n<p>Oddiy gapni oling va urgʻu bermoqchi boʻlgan qismni oxiriga chiqaring, boshiga <em>What…</em> qoʻying:</p>\n<ul>\n<li><em>A tribe gives you belonging.</em> → <em><strong>What</strong> a tribe gives you <strong>is</strong> belonging.</em></li>\n<li><em>Tony wanted to help.</em> → <em><strong>What</strong> Tony wanted <strong>was</strong> to help.</em> (POV — oʻtmish → <em>was</em>)</li>\n<li><em>I love the people here.</em> → <em><strong>What</strong> I love about this club <strong>is</strong> the people.</em></li>\n</ul>\n<p>Bu qolip &quot;mana <strong>asosiysi</strong> shu&quot; degan kuchli urgʻu beradi.</p>\n<h3>2. It-cleft: <code>It's … that/who …</code></h3>\n<p>Bitta soʻz yoki iborani ajratib koʻrsatish uchun <em>It's/It was … that/who …</em> ishlatiladi:</p>\n<ul>\n<li><em><strong>It's</strong> the people <strong>who</strong> keep you going.</em> — Aynan odamlar.</li>\n<li><em><strong>It was</strong> love <strong>that</strong> Tony needed, not power.</em> — Aynan sevgi (POV — <em>was</em>).</li>\n<li><em><strong>It's</strong> respect <strong>that</strong> a real tribe is grounded in.</em></li>\n</ul>\n<h3>3. Nutq bogʻlovchilari va yumshatish (hedging)</h3>\n<p>Ravon nutq faqat toʻgʻri grammatika emas — u <strong>bogʻlangan</strong> va <strong>muloyim</strong> boʻladi. Bu kichik iboralar fikrni ulaydi va qatʼiylikni yumshatadi:</p>\n<ul>\n<li><strong>Bogʻlash:</strong> <em>on the whole</em> (umuman olganda), <em>to be honest</em> (rostini aytsam), <em>as I said</em>, <em>in other words</em>.</li>\n<li><strong>Yumshatish (hedging):</strong> <em>I'd say…</em> (aytardimki), <em>kind of / sort of</em> (bir qadar), <em>in a way</em> (bir maʼnoda), <em>more or less</em> (taxminan).</li>\n<li><em>&quot;<strong>To be honest</strong>, a tribe is, <strong>in a way</strong>, a family. <strong>I'd say</strong> it's <strong>more or less</strong> about belonging.&quot;</em></li>\n</ul>\n<p>Yumshatish &quot;juda qatʼiy koʻrinmaslik&quot; uchun — IELTSʼda Fluency &amp; Coherence ballini koʻtaradigan tabiiy belgidir.</p>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida urgʻuni <strong>soʻz tartibi</strong> yoki <em>&quot;aynan&quot;</em> soʻzi beradi: <em>&quot;Seni <strong>aynan mana shu odamlar</strong> ushlab turadi&quot;</em>. Ingliz tili buni maxsus qolip bilan quradi: <em>&quot;<strong>It's these people that</strong> keep you going&quot;</em>. Yumshatishda ham farq bor: oʻzbekcha <em>&quot;-ku, -da, aslida&quot;</em> yumshatadi; inglizchada esa <em>I'd say, kind of, in a way</em> kabi alohida iboralar bu vazifani bajaradi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bir oddiy jumlani oling va uni uch xil ayting — oddiy, <em>What…</em>-cleft, va <em>It's…that…</em> bilan: <em>&quot;Belonging matters.&quot; / &quot;What matters is belonging.&quot; / &quot;It's belonging that matters.&quot;</em> Keyin boshiga <em>&quot;To be honest, I'd say…&quot;</em> qoʻshib, ovoz chiqarib takrorlang — ravonlik shundan tugʻiladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida urgʻuni soʻz tartibi yoki \"aynan\" soʻzi beradi: \"Seni aynan mana shu odamlar ushlab turadi\". Ingliz tili buni maxsus qolip bilan quradi: \"It's these people that keep you going\". Yumshatishda ham farq bor: oʻzbekcha \"-ku, -da, aslida\"; inglizcha esa I'd say, kind of, in a way kabi alohida iboralar bilan yumshatadi.",
+      "errorFixUz": "❌ What a tribe gives you are belonging. It's the people which keep you going. ✅ What a tribe gives you IS belonging. It's the people WHO keep you going. What-cleftdan keyin feʼl bitta narsaga moslanadi (is), odamlar uchun esa it-cleftda who ishlatiladi.",
+      "examples": [
+        {
+          "en": "What a tribe gives you is belonging.",
+          "uz": "Qabila senga beradigan narsa — bu tegishlilik hissi."
+        },
+        {
+          "en": "It's the people who keep you going.",
+          "uz": "Seni ushlab turadigan — aynan odamlar."
+        },
+        {
+          "en": "To be honest, it was love that Tony needed, not power.",
+          "uz": "Rostini aytsam, Tonyga kerak boʻlgan narsa — kuch emas, sevgi edi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "___ a tribe gives you is belonging.",
+          "options": [
+            "What",
+            "That",
+            "Which"
+          ],
+          "answer": "What",
+          "hintUz": "What-cleft: What + gap + is + urgʻuli qism"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "It's the people ___ keep you going.",
+          "options": [
+            "who",
+            "which",
+            "what"
+          ],
+          "answer": "who",
+          "hintUz": "it-cleft + odamlar → who (which emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___, a tribe is really about belonging. (yumshatish)",
+          "options": [
+            "To be honest",
+            "That is why",
+            "Because of"
+          ],
+          "answer": "To be honest",
+          "hintUz": "yumshatuvchi/bogʻlovchi ibora jumla boshida: To be honest…"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Bitta muhim fikringizni cleft bilan ayting (ovoz chiqarib): \"What matters most to me is …\" yoki \"It's … that …\", boshiga \"I'd say…\" qoʻshib.",
+          "answer": null,
+          "hintUz": "What…is… yoki It's…that… + yumshatuvchi ibora (I'd say / to be honest)"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/30/main.mp3",
+      "durationSec": 753,
+      "bytes": 9035257,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/30/vocab.mp3",
+      "durationSec": 789,
+      "bytes": 9471583,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/30/ministory.mp3",
+      "durationSec": 1487,
+      "bytes": 17849343,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/30/pov.mp3",
+      "durationSec": 676,
+      "bytes": 8109089,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Tribes Main Text Hi, this is AJ, welcome to our next and final lesson. Are you ready? This is it! So you’ve got to be strong for this one, this is our last week. Remember, keep your body strong. We’ve got to get this English, get this learning, deep into your body not just your brain. So I want you moving. I want you smiling.",
+      "I want those shoulders back. I want you to use all the tools for this one, okay? Let’s go. This one is called “Tribes.” This comes from a book called Tribes by Seth Godin, so Seth Godin again; a different book. And in this book Seth Godin talks about modern tribes. What’s a tribe? A tribe is basically a family, a big extended family.",
+      "So it’s not just a mother and father and sister/brother, not just grandparents. It’s really a whole collection of families that are connected together, so a collection of families that create one big group called a tribe. Now, of course, there’s sort of an old historical meaning to this.",
+      "We talk about Native American Tribes, African Tribes, but there’s also a modern meaning and that’s what Seth Godin is writing about. He’s writing about modern tribes. Now a modern tribe is not based on family. It’s just a group of people that are connected by some common purpose, some common meaning.",
+      "And, of course, the Internet makes it possible for us to have international tribes. We can connect with people all over the world who share the same purpose, the same meaning or similar purposes, similar meanings, as ourselves.",
+      "Seth Godin, again, is a business writer, so he writes a lot about this phenomenon, this experience of tribes on the Internet from a business perspective. But, really, it’s also a phenomenon, an experience that is very general.",
+      "People are connecting with each other all over the world for learning, for social purposes, for dating, for business, of course, for many different purposes.",
+      "And at Effortless English this is one of my big goals for Effortless English is to create a tribe of enthusiastic, passionate, positive, English learners and really more than just English learners. The meaning of Effortless English, the purpose of Effortless English, is not just learning English. Have you noticed?",
+      "It’s about living better lives, happier lives, more passionate lives, more energetic lives, healthier lives.",
+      "We’re just using English to connect with each other. We’re using English to find other people who want these same things, so we can encourage each other, so we can learn together. English is our tool. It’s the way we can all share together.",
+      "It doesn’t matter if we’re from the United States or from Mexico or from somewhere in South America or from Spain or Germany or Japan or Thailand, anywhere in the world, we can share together. We can connect using English as our tool. But English is not our final purpose. It is not the final meaning or purpose of our tribe.",
+      "So let me read a little bit from Seth Godin’s book Tribes, which is an excellent book, by the way, and then I’ll talk more about it. So here we go. “The Opportunity -- It’s simple, there are tribes everywhere now.",
+      "Inside and outside of organizations, in public and in private, in nonprofits, in classrooms, across the planet, every one of these tribes is yearning for leadership and connection. This is an opportunity for you, an opportunity to find or assemble a tribe and lead it. The question isn’t ‘Is it possible for me to do this?",
+      "’ Now the question is ‘Will I choose to do it? ’ “For a long time I’ve been writing about the fact that everyone is now a connector; a member. The explosion in media channels, combined with the increased leverage of individuals within organizations, means that just about anyone can influence just about anyone else.",
+      "“This book says something new, something even better, more exciting. Everyone is not just a connector, not just a member, everyone is now a leader. The explosion in tribes, groups and circles of interest means that anyone who wants to make a difference can. Without leaders there are no followers. You’re a leader. We need you.",
+      "“Something to Believe In – Tribes are about faith; they are about something to believe in. Tribes are about belief in an idea and in a community and they are grounded in respect and admiration for the leader of the tribe and for the other members, as well. Do you believe in what you do every day?",
+      "It turns out that belief happens to be a brilliant strategy.” Okay. That’s a nice, interesting section from Seth Godin’s book Tribes. And what I like about this is that phrase “that everyone is now a leader.” And I want you to think about that. Everyone is now a leader.",
+      "We’re all members too, but we’re also all leaders and I want you to be a leader in our Effortless English Club. I want you to be a leader. I want you to inspire and help other people, not just yourself. For example, we have excellent leaders already in our club.",
+      "Many of the mini-stories in these lessons have characters with names of Effortless English leaders. For example, Inca, Inca is one of our fantastic leaders. She is from the Czech Republic, I believe, and she is just amazing. She’s always helping other members in our club.",
+      "She’s always answering their questions. She’s always encouraging them. She is a true leader. There’s Big Jan, who’s another one of our fantastic leaders. There’s Vanilla. There are so many great leaders in our group and I want you to be one of them.",
+      "Since you have finished all of these lessons I know that you have a very good level of English and I know that you can now, very easily, go onto our Forums or our Master Member Site or both and you can be a leader now. You have done something amazing. You completed all of these lessons. You did all of the mini-stories.",
+      "Your English ability has increased and improved so quickly, so well, I know you can do it. So I want you to get on those Forums, I want you to get on the Master Member Site and I want you to communicate with our other members. Help them.",
+      "Because some of those people are just starting and maybe, like you, maybe they have some doubts, maybe they have some worries and maybe they need someone to encourage them. Maybe they need someone to say something kind to them or nice to them.",
+      "Maybe they need someone to help them feel stronger and more confident or to show them an example of leadership. You can do that now. So, please, now is the time where you can share, you can give to other people now. You can now be the teacher. And that is my true purpose in the Effortless English Club.",
+      "Not to be the big leader and the big teacher, just me, but to create more teachers, more leaders. I want you to do that now. I want you to feel that same happiness and gift when you help another person. When you help them feel better, feel stronger, feel happier.",
+      "So, please, get on our Forums, join our Master Member Site and do that for someone else now. Just a kind word, just a little encouragement, just answer one question and you’ll make a big difference for someone else. You’ll help someone else. I hope you’ll do it. So now is the time for the final step.",
+      "The final step is to use everything you have learned. Number one, that means to use the actual English you have learned, the vocabulary, you’re new speaking ability, all of that. And that means connection with people and speaking to them and writing to them. It means real communication, not just studying.",
+      "You can’t just be a student only, you’ve got to get out there and use it. Well, you can do that now. You’ve completed all these lessons, you now have the ability. You probably already had the ability before; you definitely have the ability now. So get on Skype and talk to other members. Get on the Forums. Find somebody.",
+      "Make an appointment with them. Talk to them on Skype. Or talk to them on the phone. Or just get on the Forums and write in English. Write your story. Write about your emotions. Help other people connect. Use it.",
+      "The second thing you must do, this final step, is to lead, as I’ve been saying and I’m going to say it again. You’re last and final step is to share the strength, the confidence, the ability you now have with other people. Inspire them, lead them. You’re a leader. We need you. I will see you next time.",
+      "I will see you on the Master Member Site where I will be giving you videos every month. I’ll see you on the forums. Take care. Thank you so much for listening to these lessons. I hope you have grown happier, stronger and, of course, I hope you have become a much more confident English speaker.",
+      "It’s been my privilege and my honor to teach you and to help you. Thank you so much."
+    ],
+    "vocab": [
+      "Tribes Vocabulary Text Hi, this is AJ, welcome to the vocabulary lesson for “Tribes.” Let’s start. I already talked about the word tribe, but let me talk about it again. So, again, a tribe…the original meaning of tribe was really a collection of families that were grouped together.",
+      "So, for example, we had African Tribes, Native American Tribes. So you would have many different families and they are connected to each other and they form one big group and that group is called a tribe. But now we have a much more general meaning of the word tribe.",
+      "And a tribe is a collection of people who share a meaning or a purpose or an interest in life. So now we use it in this very general way. You might talk about a tribe of computer users, for example. So you might have a group, a club, of Apple users, people who love Apple Computers.",
+      "And then you have another group, another club, let’s say in San Francisco of Apple users. And you have another group, another club, of Apple users in Chicago. And then, somehow, they all connect to each other. So the group in New York and the group in Chicago and the group in San Francisco, maybe they meet one time every year.",
+      "They have a big seminar or a convention and they all connect with each other and now we might call them a tribe. We might call them the Apple Users Tribe because you’ve got all these different groups and now they’re connected to each other. They have formed a larger group of people.",
+      "And the Effortless English Club, I think of it as a tribe, right? We have people in all different parts of the world and we have little small groups within our club. So we might have a bunch of students from Vietnam and we might have a bunch of students from Brazil.",
+      "But then these groups connect with each other and then they also connect with people from other countries, so all together we form a big tribe. Our next word is yearning or to yearn. It’s a verb; to yearn for or to yearn to. To yearn means to really want. It means to desire, to strongly desire. It’s a strong word.",
+      "So if you say, “I yearn for her”, all right, it means I want her so much. I desire her. I need her so much. It’s a very strong word. So it’s to desire very strongly.",
+      "So, Seth Godin says, “Every tribe is yearning for leadership and connection.” So he means that everybody in a group really, really wants leadership and they really, really want connection. They desire leadership. They desire connection. So he’s saying people in groups, they want a meaning.",
+      "They want to share a meaning with each other and with a leader. So, to yearn means to want a lot or to really, really, really desire. Our next word is assemble, to assemble. He says that “Right now everybody has an opportunity to find or assemble a tribe.” To assemble means to create or to put together.",
+      "It means you have different pieces; you put them together in one big whole, w-h-o-l-e, whole. So assemble means just put parts together to create a whole thing, to assemble. Our next word is leverage. He said “Now individuals have increased leverage within organizations.”",
+      "And leverage just means an increased power or a way to get more power. So, for example, normally, in a normal company, maybe I could have influence or I could have power with my small group, my department, here in San Francisco. I go to work, to my office, I can influence the people in my office, maybe 10 people.",
+      "So I have this amount of power, this small amount of power. But using the Internet with a website, with email, with phones, I can connect with people in the same company in New York, in Chicago, in Texas and in other countries. I have more leverage. It means I have more ways to influence or more ways to have power.",
+      "So leverage just kind of has this idea of increased power, increased power or an increased way to get power or ways to get power.",
+      "So he’s saying now in any group, any organization, individual people have much more power because they can influence people in other places, in other countries using the Internet, using phones, using video, whatever. They have more ways to influence people, more ways to get power or to lead. And that is leverage.",
+      "Our next phrase is “circles of interest.” He said, “Right now because of the Internet we have an explosion of tribes, an explosion of groups, an explosion of circles of interest.” Circles of interest. It’s really similar to tribes, but it’s a weaker phrase. It has a weaker feeling.",
+      "Circles of interest just means groups of people who share the same interest, maybe a hobby, maybe people who all love Brad Pitt. You know it’s like a Brad Pitt Fan Club. You might say that’s a circle of interest. So they don’t have a big purpose in life that they all share, but they share something they’re all interested in.",
+      "So, for example, again the Apple Computer example is a good example of a circle of interest. If you just have, you know, 20 people and they all like Apple Computers and maybe they meet once a month, you might call that a circle of interest.",
+      "So, again, it’s like of like a club, really, circle of interest; a club, a little, small organization. And tribe has just a stronger feeling. That’s the only difference. Circle of interest just feels less emotional. A tribe is a circle of interest that has a strong meaning, a strong purpose; very emotional connections to each other.",
+      "Our next phrase is “to make a difference.” Seth Godin says that “Everyone wants to make a difference. Everyone can make a difference.” To make a difference means to improve a situation or to improve someone’s life. It means to contribute. It means to help. If you said “Wow, he really made a difference”, it means he really helped people.",
+      "He really improved something. You can make a difference at your job. It means you go to work and you actually improve the company, for example. You say “Oh, they made a difference. They improved the company.” Or you could say the opposite, “I didn’t make a difference at my company.” It means I didn’t help anything.",
+      "I didn’t improve anything. I went to work and then I went home, nothing changed. Things were not different. Everything stayed the same. So it has a very positive meaning. To make a difference means to change something in a better way. It means to improve something or to help, so it’s a very positive word.",
+      "So if say “You can make a difference”, it means you can help. You can improve people’s lives. You can improve something. You can help. You can contribute. Our next word is faith. I think we’ve had this word before; we’ll talk about it again. Faith is just a strong confidence and belief in something.",
+      "So Seth Godin says “Tribes are about faith. They’re about belief in an idea. They’re about belief in a community.” So he’s just saying tribes are about faith. It means to have a tribe, a real tribe. It means the members and the leader they need to have a strong belief.",
+      "They need to have strong confidence in some purpose or in each other or both. So it means they have to really, really believe in each other. They have to really feel a strong confidence, belief, emotion about some idea, some purpose, some meaning or some people or person. And that is faith.",
+      "Faith, faith, a very strong belief, a very strong confidence in something; faith in something or faith about something. Our next phrase is “grounded in.” He said “Tribes are grounded in respect and admiration for the leader of the tribe and for the other members of the tribe.”",
+      "Grounded in really means connected to or created from, so if something is grounded in respect it means it starts from respect. It’s created from respect. It really means that respect is the first thing. That everything else starts with respect.",
+      "Think of a plant, a small plant. The little plant is growing from the ground, right? A plant starts in the ground, it starts in the earth, and then it grows up, up, up, up, up and it becomes a big tree, maybe. But we say it is grounded, right? It is connected to the earth. It must start in the earth.",
+      "It must start in the ground. It starts from the ground from the seed and it must always stay connected to the earth. So the tree is grounded in the earth, right? It starts from the earth, connected to the earth first. So it’s that same idea, so it means a tribe is grounded in respect. It means respect is first.",
+      "Respect and admiration are first. And the tribe must always stay connected to and always begin with respect. It’s the most important value. Respect for the leader, respect for other members. It’s the first value, the first purpose and it’s the most important one and it’s the one that the members must always stay connected to.",
+      "So, again, think of that plant idea for grounded in, grounded in respect. Tribes are grounded in respect. It means that’s where they start. It’s the most important idea. And our last word is brilliant. Most of you probably know this word already, but brilliant means great, fantastic. It also has an idea of very intelligent.",
+      "So you can say “She is brilliant.” It means she is very, very intelligent, very, very smart. So Seth Godin says that “Faith in a tribe is a brilliant strategy.” It’s a very intelligent strategy. It’s a very intelligent plan. All right, well that is the end of our vocabulary for “Tribes.” I will see you in the mini-story."
+    ],
+    "pov": [
+      "Tribes POV Text Hi, this is AJ, welcome to the point of view stories for “Tribes”. Our final point of view stories and you know that to do. You’ve got to move that body, especially with the mini-stories and the point-of-view stories. You will get this grammar. And that’s what the point of view stories teach, they teach grammar.",
+      "You will get it into your body if you move with the stories. If you really move your body and smile and all these crazy things I tell you to do, it will help you learn the grammar faster, better and more deeply. You have to trust me about that, so please do it. Do it whenever you review the other lessons. Do it with this lesson.",
+      "Do it with any lesson, any time you’re listening to English. Let’s begin.",
+      "Since five years ago Tony has hated his life. Five years ago Tony got a new office job. Since then he has hated his life. Since then he has worked in an office every day. Has he worked on Saturdays and Sundays? Oh, yeah, he’s worked on Saturdays and he has worked on Sundays.",
+      "He has worked every day since five years ago, since he got his new office job. And since then how has he felt about his life and his job? Well, he has hated his life. He has hated his job. Since that time he has hated everything. He has been miserable. He has been unhappy. Since when has Tony been unhappy? Since five years ago.",
+      "What happened five years ago? He got a new job. He got a new job and since then he has been very, very unhappy.",
+      "Has he been unhappy from then until recently? That’s right. He has been unhappy since then until recently. During the whole time he has been unhappy. During that whole time he has hated his life. He’s hated his job. In fact, for all of his life he has yearned to make a difference.",
+      "Since he was a small child Tony has yearned to make a difference. Since when has he yearned to make a difference? Well, since he was a child. Beginning when he was a child, continuing all his life until now, he has yearned to make a difference. What has he yearned to do? He has yearned to make a difference.",
+      "And who has yearned to make a difference? Tony, of course, Tony has yearned to make a difference. But, unfortunately five years ago he got a terrible job. And since five years ago he has hated his life. Since five years ago he has worked in an office every day and he has hated his job.",
+      "Finally, one day, he quit his job and he went to Africa. He wanted to help tribes in Africa. In face, he wanted to help tribes in Rwanda. So, of course, obviously, naturally, he gave golf clubs and golf balls to poor tribes in Africa, in Rwanda. But no one wanted the golf clubs. No one in the poor tribes wanted the golf balls.",
+      "In fact, they got very, very angry. The said “Go away! We don’t want these golf clubs. We hate golf!” Poor Tony, Tony was sad. Well, he still wanted to make a difference, so next he went to New York City. He decided to help homeless people, but he tried to get leverage on the homeless people. He tried to get power over them.",
+      "He tried to get leverage on the homeless people by saying “I’ll give you food if, only if, you go to school.” Well, the homeless people also got angry. They said “Go away you asshole!” Ah, poor Tony, he was sad again. But then one day he finally realized “Ah…” He realized that he must ground his efforts to help in love.",
+      "He realized “Ah, I must ground my efforts in love. I must begin with love.” And so he helped orphans. He helped connect orphans with new parents and he grounded his efforts in love. He began with the feeling of love and he always felt the feeling of love while helping them.",
+      "Because of this Tony, the children and the parents were all very, very happy.",
+      "All right. Into the future I have this idea. I have this idea for a story and it will happen in the future. There will be a guy, his name will be Tony. A big, tall guy named Tony. But, unfortunately, Tony is going to hate his life. He’ll hate it. Why? Well, because he’s going to work in an office every day.",
+      "I mean he will work every day. He’ll work on Saturdays. He’ll work on Sundays. He’ll always work every day and he’ll hate it. He’ll hate his job. He’ll hate his life. And Tony will yearn to make a difference. In fact, he’ll have always wanted to make a difference. It’s something that will have always been something he wanted.",
+      "Since he was a child he’ll have wanted to do this. So he’ll yearn to make a difference, but he’ll hate his life. Well one day he will finally quit his job and he’ll go to Africa. And, of course, he’ll decide to give golf clubs and golf balls to poor tribes in Rwanda, to people in poor tribes in Rwanda.",
+      "He’ll give the golf clubs and the golf balls to the poor tribes of people in Rwanda. But they’re not going to be happy. They’re going to be angry with Tony. They’ll yell “Go away. We hate golf!” And Tony will be very, very sad. He’ll be super sad, poor Tony. But he’ll still want to make a difference. Ah, so next he’ll go to New York City.",
+      "He’ll decide to help homeless people. But there’s a problem because he’s going to try to get leverage on them. He’ll say to them “I’ll give you food, but only if you go to school.” And the homeless people will be angry with him, too. They’re going to get really angry! They’ll say “Go away you asshole!” And Tony will be really, really sad.",
+      "He’ll be so sad because he just wants to help. Well, finally, he’ll realize that he must ground his efforts in love. He’ll realize “Ah, I must ground my efforts in love.” And so next he’ll help connect orphans with new parents and he’ll feel love when he does this. He’ll always feel love.",
+      "He’ll begin with love and he’ll continue to feel love while he helps the orphans and the new parents. And because of this Tony and the children and the parents are all going to be very, very happy.",
+      "And that is the end of our point of view stories for “Tribes.” It’s the end of our lessons. Yee-haw! So next we have a few commentaries, you can listen to those. It’s just me talking and you’ll have some text. No lessons, just talking about some topics. But, basically, you are finished with the lessons. Yeah!",
+      "Remember listen to these lessons every day for at least one week, seven days, more is fine. Remember to move your body, smile, jump and shout while you do it! Remember to always enjoy your English learning. I will see you next time, bye-bye. EffortlessEnglishClub.",
+      "com."
+    ],
+    "sixmin": [
+      "Catherine: Hello and welcome to 6 Minute English. I'm Catherine…",
+      "Neil: And I'm Neil. Do you realise, Catherine, that we are related to each other?",
+      "Catherine: Don't be silly, Neil. I think I'd know if you were in my family.",
+      "Neil: Well, we'll talk more about that later in the show, but I should say at this point that today we're discussing genealogy – or the study of family history. And I think it's pretty fascinating stuff. Do you ever watch the TV programme Who do you think you are, Catherine? You know, where celebrities find out about their family history?",
+      "Catherine: Yeah, I've seen a couple of them. For example, one celebrity – who was very proud of his working class London roots – or origins – discovered that he's actually a direct descendent of an English king!",
+      "Neil: Well, that's quite a discovery! The thing is though, Catherine, what if there isn't anything exciting in your family history – no mysteries, no skeletons in the closet…",
+      "Catherine: Well, I reckon if you go back far enough Neil, there's always something exciting or unexpected in anybody's family history. And skeletons in the closet by the way, means secrets! Now, I think it's time for today's quiz question. Researching family history often involves reading old documents such as birth, marriage and death certificates, and these can be difficult to decipher – or understand. So what's the name for the study of ancient handwriting? Is it… a) Scriptography? 2017 b) Palaeography? Or c) Scribology?",
+      "Neil: Well, it must be a) Scriptography.",
+      "Catherine: And we'll see if you were right or not later on in the show. Now, why do you think most people look into their genealogy, Neil? Is it just curiosity?",
+      "Neil: Well, Catherine, we all love a good mystery story – especially if it's connected with our own family. And these days, it's easy to do research online because many old paper documents have been digitised and are available online.",
+      "Catherine: BBC presenter Mike Williams investigated his own family history. And here, he's talking about his great grandfather's story. And if you listen carefully you can hear him rustling the real paper documents!",
+      "INSERT: Mike Williams, BBC presenter The Williamses are my father's side and on my mother's the Heino's – it's a name that we think comes from Finland. If I look at this document here – it's a copy of the census of England and Wales 1911 - you can see my grandfather, the son, and his father – the head of the household – Michael Heino, or Michel Heino, who, the family lore has it, jumped ship and ended up in Liverpool.",
+      "Neil: What's a census, Catherine?",
+      "Catherine: It's an official count of people in a population. So Mike Williams's great-grandfather appeared on the 1911 census for England and Wales but because of his surname the family think he might originally have come from Finland.",
+      "Neil: The exciting event in Mike Williams' history – passed down through family lore – which means 'knowledge passed on from one generation to the next' – is that his great grandfather jumped ship.",
+      "Catherine: Which means he left the ship he was working on without permission to do so. 2017",
+      "Neil: And he started a new life in England. I suppose quite a few people have immigration stories in their family histories – sometimes without knowing it.",
+      "Catherine: Actually that's something that many people are fascinated by – and has also become easier to investigate these days now companies offer to test the DNA in your saliva for as little as a hundred dollars.",
+      "Neil: And then they come up with results saying you're related to Alexander the Great or Brad Pitt… remember I said that we were related? Well, let's now listen to Else Churchill, from the Society of Genealogists here in London, who explains what I meant.",
+      "INSERT: Else Churchill, Society of Genealogists, London There's what you might call the 'gateway ancestor' – and the idea of history and genealogy is that's normally somebody that is so well documented that their descendants are well known – in England it's something like Edward III. And we're all probably descended from Edward III. Is it nice to have royal ancestors? Well, millions of people are descended from Edward III, and so in that sense, that's where the connection might be. So the chances are an awful lot of people are distantly connected to each other.",
+      "Catherine: Else Churchill says it's likely that millions of us are distantly related to a gateway ancestor like King Edward III of England. And that means that all those people related to Edward III are also distantly related to each other. So it seems that paying a company a hundred dollars to reveal that you're related to Edward III is a waste of money.",
+      "Neil: Yes, in the sense that it's you and millions of other people. And in fact, we're all related to each other somehow, via Edward III or someone else.",
+      "Catherine: And another popular finding for British people is to say that you're descended from the Vikings, and again this is true for many people - so it isn't particularly meaningful.",
+      "Neil: If you're descended from a person or a group it means they are among your ancestors.",
+      "Catherine: 2017 Now, remember I asked: what's the name for the study of ancient handwriting? Is it… a) Scriptography? b) Palaeography? Or c) Scribology?",
+      "Neil: I said a) Scriptography. And I'm pretty confident that's the right answer.",
+      "Catherine: Well, Neil, you're pretty confident but unfortunately it was wrong! The correct answer is b) Palaeography. Palaeography is the study of ancient and historical handwriting, including the practice of deciphering, reading, and dating historical manuscripts.",
+      "Neil: Oh well, here are the words we learned: genealogy roots skeletons in the closet decipher census family lore descended from",
+      "Catherine: And that's the end of today's 6 Minute English. Don't forget to join us again soon!",
+      "Both: Bye! 2017",
+      "Vocabulary: genealogy the study of family history roots origins skeletons in the closet secrets decipher discover the meaning of something that's hard to understand census an official count of the people in a population family lore knowledge passed on from one generation to the next descended from connected by a blood relationship with them"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who hated his life?",
+        "a": "Tony, Tony hated his life."
+      },
+      {
+        "q": "He hated his what?",
+        "a": "He hated his life."
+      },
+      {
+        "q": "Did he hate his wife?",
+        "a": "No. Not his wife, his life. Tony hated his life."
+      },
+      {
+        "q": "What did Tony do? How did Tony feel?",
+        "a": "Well, he hated his life."
+      },
+      {
+        "q": "Every day what did Tony do?",
+        "a": "Worked in an office. Every day Tony worked in an office."
+      },
+      {
+        "q": "Where did Tony work?",
+        "a": "In an office. Every day he worked in an office."
+      },
+      {
+        "q": "What did he do in the office?",
+        "a": "He worked. He worked in an office."
+      },
+      {
+        "q": "And how often did he work in an office?",
+        "a": "Every day."
+      },
+      {
+        "q": "Did Tony work on Saturday?",
+        "a": "Yes, he did. He worked every day. He worked on Saturday. He worked on Sunday. Seven days a week. He worked every day."
+      },
+      {
+        "q": "Did he love it?",
+        "a": "Oh, no. Hell no! He didn’t love it, he hated it! Tony hated his job. Tony hated his life."
+      },
+      {
+        "q": "What did he want?",
+        "a": "He wanted to make a difference. He wanted to help people. He wanted to improve people’s lives. He wanted to make a difference."
+      },
+      {
+        "q": "Did he want to help people or did he want to hurt people?",
+        "a": "Well, he wanted to help people. He wanted to make a difference."
+      },
+      {
+        "q": "Who wanted to make a difference?",
+        "a": "Tony, of course. Tony wanted to make a difference. He wanted to help people."
+      },
+      {
+        "q": "Did he want to make a difference or did he want to do nothing?",
+        "a": "Obviously, he wanted to make a difference. Tony wanted to make a difference. In fact, Tony yearned to make a difference."
+      },
+      {
+        "q": "Did he want to make a difference a little or did he really want to make a difference?",
+        "a": "He really, really wanted to make a difference. He yearned to make a difference."
+      },
+      {
+        "q": "What did he yearn to do?",
+        "a": "He yearned to make a difference."
+      },
+      {
+        "q": "Did he yearn to make a difference or did he not yearn to make a difference?",
+        "a": "Well that’s easy, he yearned, he yearned to make a difference. He wanted to make a difference. He desired to make a difference, to help."
+      },
+      {
+        "q": "Who? Who yearned to make a difference?",
+        "a": "Tony, Tony yearned. And he yearned and he yearned to make a difference."
+      },
+      {
+        "q": "Did AJ yearn to make a difference?",
+        "a": "No. Not AJ. AJ was an asshole. But Tony, Tony yearned to make a difference. He really, really wanted to make a difference! He yearned to make a difference!"
+      },
+      {
+        "q": "Did AJ yearn to make a difference or did Tony yearn to make a difference?",
+        "a": "Tony, Tony yearned to make a difference. He really wanted to make a difference."
+      },
+      {
+        "q": "And AJ?",
+        "a": "No- no, he didn’t want to make a difference. He didn’t want to help. He was selfish. He didn’t care."
+      },
+      {
+        "q": "What did he want to do?",
+        "a": "He wanted to make people happy."
+      },
+      {
+        "q": "How did he try to make people happy? What did he do in Africa?",
+        "a": "Well, of course, obviously, he gave golf clubs to tribes in Rwanda."
+      },
+      {
+        "q": "Oh, of course, of course. What did he do?",
+        "a": "He gave golf clubs to tribes in Rwanda, to poor tribes in Rwanda."
+      },
+      {
+        "q": "Who did he give golf clubs to?",
+        "a": "He gave golf clubs to tribes in Rwanda."
+      },
+      {
+        "q": "Where?",
+        "a": "In Rwanda, the Country of Rwanda, which is in Africa."
+      },
+      {
+        "q": "Who gave golf clubs and golf balls to tribes in Rwanda?",
+        "a": "Tony did. Tony gave golf clubs to tribes in Rwanda."
+      },
+      {
+        "q": "Why? Why did he give golf clubs and golf balls to tribes in Rwanda?",
+        "a": "Well, to make them happy, of course. He gave golf clubs and golf balls to tribes in Rwanda to make them happy."
+      },
+      {
+        "q": "What kind of tribes did he give golf clubs and golf balls to? What kind of tribes?",
+        "a": "Poor tribes. Poor tribes in Rwanda. He gave golf clubs and golf balls to poor tribes in Rwanda, poor groups of people in Rwanda to make them happy."
+      },
+      {
+        "q": "Were the people in the poor tribes happy when they got the golf clubs and the golf balls? Were they happy when Tony gave them the golf clubs and the golf balls?",
+        "a": "No, they weren’t. They were not happy. In fact they got angry! They said “We don’t need these damn golf clubs! We don’t play golf! We don’t like golf! Go away!”"
+      },
+      {
+        "q": "How did the people in the tribes in Rwanda feel about the golf clubs? How did they feel?",
+        "a": "They were angry. They were angry. They didn’t like golf. They were angry. They said “Go away!” to Tony."
+      },
+      {
+        "q": "How did Tony feel?",
+        "a": "Tony was sad. Tony was sad. He wanted to help, but the people in Rwanda, the tribes in Rwanda, all got angry. They were angry with Tony."
+      },
+      {
+        "q": "Who were they angry with? Who were they angry at?",
+        "a": "Well, they were angry with Tony. They were angry at Tony."
+      },
+      {
+        "q": "Why were they angry at Tony?",
+        "a": "Well, because they didn’t like golf, obviously. The people in the tribes in Rwanda didn’t like golf, so they were angry at Tony. They said “Go away!”"
+      },
+      {
+        "q": "Who did he say this to?",
+        "a": "He said it homeless people in New York City."
+      },
+      {
+        "q": "What did he say to homeless people in New York City?",
+        "a": "He said “I’ll give you food if you go to school.”"
+      },
+      {
+        "q": "Why did Tony say “I’ll give you food if, only if, you go to school?” Why?",
+        "a": "Because he wanted to get leverage on the homeless people. He wanted to get leverage on them."
+      },
+      {
+        "q": "He wanted to get what?",
+        "a": "Leverage. He wanted to get leverage on the homeless people or over the homeless people. He wanted to get power over them or power to influence, power to change them. He wanted power over them. He wanted to get leverage over them. He wanted to push them to go to school. He wanted to have power to change them. So Tony tried to get leverage on them by giving food, only if they went to school."
+      },
+      {
+        "q": "What was Tony’s leverage? What was Tony’s power over the homeless people?",
+        "a": "Food, food was his power; his way of power, his means of power."
+      },
+      {
+        "q": "Was food leverage? (I’m using it as a noun now.) Was food leverage? Was it power for Tony?",
+        "a": "Yes, it was. It was power over the homeless. Food was leverage for Tony. Food gave Tony power over the homeless people."
+      },
+      {
+        "q": "Did Tony try to get leverage on the homeless people, over the homeless people?",
+        "a": "Yes, he did. He tried to get leverage over them. He tried to force them. He tried to push them to go to school."
+      },
+      {
+        "q": "What did Tony try to get on the homeless people?",
+        "a": "Leverage. Tony tried to get leverage on the homeless people."
+      },
+      {
+        "q": "How? How did Tony try to get leverage on the homeless people?",
+        "a": "Well, by giving them food or with food. Tony tried to get leverage with food. He said “I’ll give you food, but only if you go to school.” Food was Tony’s leverage."
+      },
+      {
+        "q": "What was his leverage?",
+        "a": "Food, food was his leverage."
+      },
+      {
+        "q": "Whose leverage was food?",
+        "a": "Well it was Tony’s leverage. It was Tony’s power over the homeless people or on the homeless people. And so Tony tried to get leverage on the homeless people by saying “I’ll give you food if, only if, you go to school.”"
+      },
+      {
+        "q": "Were the homeless people happy with Tony?",
+        "a": "No, they were not! They were very angry! They said “Go away you asshole!”"
+      },
+      {
+        "q": "How did they feel about Tony?",
+        "a": "They were angry, very angry. They said…they said “Go away you asshole!”"
+      },
+      {
+        "q": "Did they like Tony?",
+        "a": "No, obviously. They did not like Tony. They called him an asshole, a jerk, a bad person."
+      },
+      {
+        "q": "Why were they angry with Tony?",
+        "a": "Well, because he tried to get leverage over them. He tried to have power over them. Tony tried to get leverage with food. And the homeless people were very, very, very angry. They yelled at Tony, they said “Go away you asshole!”"
+      },
+      {
+        "q": "He realized that he must ground his efforts in what?",
+        "a": "In love. He must begin with the feeling of love. He must start his efforts he must start his ideas to help people with love. He realized “I must start with love. I must ground my efforts in love.”"
+      },
+      {
+        "q": "He must ground his what in love?",
+        "a": "His efforts. His efforts to help people, his attempts to help people, he realized that he must ground them in love. Start his efforts with love. Begin with love. Always stay connected to love first. He realized that love was most important, it must come first."
+      },
+      {
+        "q": "Who realized that he had to ground his efforts in love?",
+        "a": "Tony did, of course, Tony. Tony realized, “Ah, I must ground my efforts in love.” He realized that he must ground his efforts in love."
+      },
+      {
+        "q": "He had to what his efforts in love?",
+        "a": "Ground. He realized that he must ground his efforts in love, connect and begin his efforts in love, with love."
+      },
+      {
+        "q": "How did Tony feel when he helped the orphans? How did he feel?",
+        "a": "Well he felt love, right? His efforts were grounded in love. He felt love when he was helping."
+      },
+      {
+        "q": "When he helped the tribes in Africa…when he tried to help the tribes in Africa…were his efforts grounded in love?",
+        "a": "No-no, they weren’t. He was not thinking about love. He was not feeling love when he gave the golf clubs and the golf balls."
+      },
+      {
+        "q": "When he tried to help the homeless people were his efforts grounded in love? Did he begin with love? Did he feel love all the time?",
+        "a": "No. His efforts were not grounded in love with the homeless people."
+      },
+      {
+        "q": "But when he helped the orphans find new parents were his efforts grounded in love?",
+        "a": "Yes, they were. When he helped the orphans and the new parents his efforts were grounded in love. He started first with the feeling of love then he helped."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "a tribe",
+      "pos": "n",
+      "uz": "qabila; bir maʼno/maqsadni baham koʻradigan odamlar guruhi",
+      "defEn": "a group of people who share a meaning, purpose or interest",
+      "example": "The Effortless English Club is really a tribe."
+    },
+    {
+      "en": "to yearn for",
+      "pos": "v",
+      "uz": "kuchli intilmoq, chin dildan istamoq",
+      "defEn": "to want or desire something very strongly",
+      "example": "Every tribe yearns for leadership and connection."
+    },
+    {
+      "en": "to assemble (a tribe)",
+      "pos": "v",
+      "uz": "toʻplamoq, birga jamlab yaxlit qilmoq",
+      "defEn": "to put separate parts together to make a whole",
+      "example": "You have a chance to assemble a tribe and lead it."
+    },
+    {
+      "en": "leverage",
+      "pos": "n",
+      "uz": "taʼsir kuchi, oshirilgan taʼsir imkoni",
+      "defEn": "increased power or a way to get more influence",
+      "example": "The Internet gives individuals more leverage."
+    },
+    {
+      "en": "circles of interest",
+      "pos": "phrase",
+      "uz": "qiziqish doiralari (bir narsani yoqtiradigan kishilar guruhi)",
+      "defEn": "groups of people who share the same interest or hobby",
+      "example": "A fan club is a circle of interest, not quite a tribe."
+    },
+    {
+      "en": "to make a difference",
+      "pos": "phrase",
+      "uz": "hissa qoʻshmoq, yaxshi tomonga oʻzgartirmoq",
+      "defEn": "to improve a situation or someone's life; to help",
+      "example": "Anyone who wants to make a difference can."
+    },
+    {
+      "en": "faith (in something)",
+      "pos": "n",
+      "uz": "kuchli ishonch, eʼtiqod",
+      "defEn": "strong confidence and belief in something",
+      "example": "Tribes are about faith and belief in an idea."
+    },
+    {
+      "en": "grounded in",
+      "pos": "phrase",
+      "uz": "asoslangan, ildizi bogʻlangan (biror narsadan boshlanadigan)",
+      "defEn": "connected to and starting from something",
+      "example": "A real tribe is grounded in respect and admiration."
+    },
+    {
+      "en": "a common purpose",
+      "pos": "phrase",
+      "uz": "umumiy maqsad",
+      "defEn": "a shared aim that connects people",
+      "example": "A modern tribe is connected by a common purpose."
+    },
+    {
+      "en": "brilliant",
+      "pos": "adj",
+      "uz": "zoʻr, ajoyib; juda aqlli",
+      "defEn": "great and very intelligent",
+      "example": "Belief in a tribe is a brilliant strategy."
+    }
+  ],
+  "englishpod": {
+    "id": "0350",
+    "title": "Daily Life – Talking About Relatives",
+    "titleUz": "Kundalik hayot — Qarindoshlar haqida",
+    "warmup": {
+      "uz": "Bu suhbatda ikki doʻst oilaviy yigʻin haqida gaplashadi va turli qarindoshlarni sanaydi: brother-in-law, great uncle, step-son, ex-wife… Qabila (tribe) darsiga mos: oila — eng birinchi \"qabilamiz\". Sizningcha, ingliz tilidagi qarindosh nomlari oʻzbekchadan koʻra aniqroqmi yoki chalkashroqmi?",
+      "en": "In this dialogue two friends talk about a family get-together and list all kinds of relatives: brother-in-law, great uncle, step-son, ex-wife… It fits the Tribes theme: family is our very first \"tribe\". Do you think English relative names are clearer or more confusing than Uzbek ones?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0350/dg.mp3",
+        "durationSec": 37,
+        "bytes": 329478
+      },
+      "pr": {
+        "path": "englishpod/0350/pr.mp3",
+        "durationSec": 719,
+        "bytes": 11532665
+      },
+      "rv": {
+        "path": "englishpod/0350/rv.mp3",
+        "durationSec": 296,
+        "bytes": 4773158
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "What are you doing this weekend?"
+      },
+      {
+        "speaker": "B",
+        "en": "My brother in law is having a small get together at his house and he invited me."
+      },
+      {
+        "speaker": "A",
+        "en": "Is it a family thing or just friends?"
+      },
+      {
+        "speaker": "B",
+        "en": "A bit of both. Some cousins, aunts and uncles will be there, but also some friends from the neighborhood."
+      },
+      {
+        "speaker": "A",
+        "en": "Is your great uncle Rick going to be there? He is really funny."
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah he is going to be there with his step-son and his ex-wife."
+      },
+      {
+        "speaker": "A",
+        "en": "You mean your sister?"
+      },
+      {
+        "speaker": "B",
+        "en": "No, Rick is actually my great uncle, so he is my grandmother’s brother."
+      },
+      {
+        "speaker": "A",
+        "en": "You lost me."
+      },
+      {
+        "speaker": "B",
+        "en": "I’ll explain later, let’s go."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "brother-in-law",
+        "uz": "qaynaka/kuyov (turmush oʻrtogʻining akasi yoki singlisining eri)",
+        "defEn": "the husband of your sister, or the brother of your spouse"
+      },
+      {
+        "en": "a get-together",
+        "uz": "kichik yigʻin, davra",
+        "defEn": "a small, informal social gathering"
+      },
+      {
+        "en": "cousin",
+        "uz": "amakivachcha / xolavachcha / togʻavachcha",
+        "defEn": "the son or daughter of an uncle or aunt"
+      },
+      {
+        "en": "aunt",
+        "uz": "amma / xola (ota yoki onaning singlisi)",
+        "defEn": "the sister of one's father or mother"
+      },
+      {
+        "en": "great uncle",
+        "uz": "buvi yoki buvaning akasi (katta amaki)",
+        "defEn": "the brother of one's grandmother or grandfather"
+      },
+      {
+        "en": "step-son",
+        "uz": "oʻgay oʻgʻil",
+        "defEn": "a son of one's husband or wife from a previous marriage"
+      },
+      {
+        "en": "ex-wife",
+        "uz": "sobiq xotin",
+        "defEn": "a woman who was formerly a particular man's wife"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170126",
+    "title": "Family history",
+    "titleUz": "Oila tarixi",
+    "audio": {
+      "main": {
+        "path": "sixmin/170126/audio.mp3",
+        "durationSec": 378,
+        "bytes": 6044917,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "What's the name for the study of ancient handwriting?",
+        "qUz": "Qadimgi qoʻlyozmalarni oʻrganadigan fan qanday ataladi?",
+        "options": [
+          "Scriptography",
+          "Palaeography",
+          "Scribology"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) Palaeography. Neil a) Scriptography dedi va xato qildi. Palaeography — qadimgi va tarixiy qoʻlyozmalarni oʻqish va sanasini aniqlash bilan shugʻullanadigan fan."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "genealogy",
+        "uz": "shajara, nasl-nasab (oila tarixini oʻrganish)",
+        "defEn": "the study of family history"
+      },
+      {
+        "en": "roots",
+        "uz": "ildiz, kelib chiqish",
+        "defEn": "your origins; where your family comes from"
+      },
+      {
+        "en": "skeletons in the closet",
+        "uz": "yashirin sirlar (oiladagi maxfiy gaplar)",
+        "defEn": "embarrassing secrets that are kept hidden"
+      },
+      {
+        "en": "census",
+        "uz": "aholini roʻyxatga olish",
+        "defEn": "an official count of the people in a population"
+      },
+      {
+        "en": "family lore",
+        "uz": "avloddan-avlodga oʻtadigan oilaviy rivoyat/bilim",
+        "defEn": "knowledge and stories passed on from one generation to the next"
+      },
+      {
+        "en": "descended from",
+        "uz": "avlodi, naslidan boʻlgan",
+        "defEn": "connected by a blood relationship to an ancestor"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Seth Godin: The tribes we lead",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell me about your \"tribe\" — the people who keep you going. Who is in it, and what is it that really connects you?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: ergash gaplar (My friend, who…; the people helping me…) va cleft/urgʻu (What connects us is…; It's … that …), yumshatuvchi iboralar bilan (I'd say…, to be honest…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/30/main.mp3",
+      "bytes": 9035257
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/30/main.pdf",
+      "bytes": 165041
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/30/vocab.mp3",
+      "bytes": 9471583
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/30/ministory.mp3",
+      "bytes": 17849343
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/30/pov.mp3",
+      "bytes": 8109089
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/30/pov.pdf",
+      "bytes": 175144
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0350/dg.mp3",
+      "bytes": 329478
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0350/transcript.pdf",
+      "bytes": 86305
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170126/audio.mp3",
+      "bytes": 6044917
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170126/transcript.pdf",
+      "bytes": 159597
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

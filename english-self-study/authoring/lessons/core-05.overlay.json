@@ -1,0 +1,168 @@
+{
+  "slug": "thought-mastery",
+  "title": "Thought Mastery",
+  "titleUz": "Fikrni boshqarish",
+  "level": "A2-B1",
+  "tags": ["mindset", "thoughts", "nlp", "gerund-infinitive", "modals-deduction"],
+  "intro": {
+    "uz": "Thought Mastery — fikrlaringizni boshqarish va yoʻnaltirish. AJ Hoge NLP (neuro-linguistic programming) yordamida miyani xuddi kompyuterdek dasturlashni, salbiy tasavvurlarni ijobiyga almashtirishni koʻrsatadi. Bu haftaning ikki grammatikasi shu ichki suhbat tilida: gerundiy va infinitiv 1 (enjoy doing / want to do) va hozirgi zamon xulosasi (must / might / can't be).",
+    "en": "Thought Mastery — controlling and directing your own thoughts. AJ Hoge uses NLP (neuro-linguistic programming) to show how to program your brain like a computer and swap negative pictures for positive ones. This week's two grammar topics are the language of that inner talk: gerund vs infinitive 1 (enjoy doing / want to do) and modals of present deduction (must / might / can't be)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida enjoy/keep/stop dan keyin -ing, want/decide/need dan keyin to + feʼlni toʻxtamasdan toʻgʻri ishlata olasiz va biror fikr yoki holat haqida ishonch darajangizni (must be / might be / can't be) ayta olasiz.",
+    "en": "By the end you can correctly use -ing after enjoy/keep/stop and to + verb after want/decide/need without pausing, and say how sure you are about a thought or situation (must be / might be / can't be)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "gerund-infinitive-1",
+      "titleUz": "Gerundiy va infinitiv 1: enjoy doing / want to do",
+      "titleEn": "Gerund vs infinitive (1)",
+      "bandLifter": "IELTS Part 2 — say what you enjoy doing and what you decided to do",
+      "cefrCanDo": "B1: I can choose -ing or to + verb correctly after common verbs",
+      "contrastUz": "Oʻzbek tilida bu farq yoʻq: “oʻqishni yaxshi koʻraman” ham, “oʻqishni xohlayman” ham bir xil “-ish” bilan yasaladi. Ingliz tili esa ikkiga ajratadi: enjoy/keep/stop dan keyin feʼl + -ing (I enjoy studying), lekin want/decide/need dan keyin to + feʼl (I want to study).",
+      "errorFixUz": "❌ I want studying. I enjoy to learn. ✅ I want to study. I enjoy learning. want/decide/need/hope → to + feʼl; enjoy/keep/stop/finish/avoid → feʼl + -ing. Buni feʼllar guruhi bilan eslab qoling.",
+      "examples": [
+        { "en": "Sri wanted to study Swahili.", "uz": "Sri Swahili oʻrganmoqchi edi." },
+        { "en": "She kept listening to Swahili every day.", "uz": "U har kuni Swahilini tinglashda davom etdi." },
+        { "en": "I decided to change my morning routine.", "uz": "Ertalabki tartibimni oʻzgartirishga qaror qildim." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I enjoy ___ to English every morning.",
+          "options": ["listening", "to listen", "listen"],
+          "answer": "listening",
+          "hintUz": "enjoy dan keyin feʼl + -ing: listening"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She decided ___ only 30 minutes a day.",
+          "options": ["to sleep", "sleeping", "sleep"],
+          "answer": "to sleep",
+          "hintUz": "decide dan keyin to + feʼl: to sleep"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Keep ___ — don't give up now!",
+          "options": ["trying", "to try", "try"],
+          "answer": "trying",
+          "hintUz": "keep dan keyin feʼl + -ing: trying"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I enjoy … . I want to … . I decided to … .” Har uchala qolipni ishlating.",
+          "answer": null,
+          "hintUz": "enjoy/keep/stop → -ing; want/decide/need → to + feʼl"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "modals-present-deduction",
+      "titleUz": "Hozirgi zamon xulosasi: must / might / can't be",
+      "titleEn": "Modals of present deduction: must / might / can't be",
+      "bandLifter": "IELTS Speaking — sound natural when you guess and deduce",
+      "cefrCanDo": "B1→B2: I can express how certain I am (must / might / can't be)",
+      "contrastUz": "Oʻzbekcha taxminni “-sa kerak”, “boʻlishi mumkin”, “boʻlmasa kerak” bilan aytamiz: “Band boʻlsa kerak”. Ingliz tili buni bitta modal soʻzga jamlaydi: “He must be busy.” Oʻzbek oʻquvchi koʻpincha faqat “maybe he is busy” deydi — bu xato emas, ammo “he must be busy” ancha tabiiyroq va aniqroq eshitiladi.",
+      "errorFixUz": "❌ He must to be busy. He must is busy. ✅ He must be busy. must/might/could/can't + be (feʼlga to ham, -s ham qoʻshilmaydi). “Aniq yoʻq” uchun mustn't emas, can't be ishlatiladi: It can't be true.",
+      "examples": [
+        { "en": "This computer is so slow — it must have a virus.", "uz": "Bu kompyuter juda sekin — virus boʻlsa kerak." },
+        { "en": "That negative thought might be just fear.", "uz": "U salbiy fikr shunchaki qoʻrquv boʻlishi mumkin." },
+        { "en": "That can't be true — I don't believe it.", "uz": "Bu rost boʻlishi mumkin emas — ishonmayman." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "He isn't answering his phone. He ___ busy.",
+          "options": ["must be", "must to be", "must is"],
+          "answer": "must be",
+          "hintUz": "aniqqa yaqin taxmin (~95%): must + be"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'm not sure — it ___ a small mistake.",
+          "options": ["might be", "might is", "might to be"],
+          "answer": "might be",
+          "hintUz": "~50% taxmin: might + be"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "That ___ true! Nobody speaks 247 languages.",
+          "options": ["can't be", "mustn't be", "don't be"],
+          "answer": "can't be",
+          "hintUz": "“aniq boʻlishi mumkin emas” → can't be"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Atrofingizdagi bir narsa haqida ovoz chiqarib uchta taxmin ayting: “… must be … . … might be … . … can't be … .”",
+          "answer": null,
+          "hintUz": "modal + be; ishonchga qarab must / might / can't be tanlang"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "neuro-linguistic programming (NLP)", "pos": "phrase", "uz": "miyani til va tasavvurlar orqali “dasturlash” usuli", "defEn": "a method for managing your brain using language and images", "example": "AJ explains thought mastery using neuro-linguistic programming." },
+    { "en": "to modify (something)", "pos": "v", "uz": "bir oz oʻzgartirmoq, moslashtirmoq", "defEn": "to change something a little bit, not totally", "example": "You can modify the picture in your head." },
+    { "en": "to boost up (your energy)", "pos": "phrase", "uz": "koʻtarmoq, kuchaytirmoq, oshirmoq", "defEn": "to make something stronger, higher or greater", "example": "This will boost up your motivation to learn." },
+    { "en": "mastery", "pos": "n", "uz": "mukammal egallash, ustalik, yuqori daraja", "defEn": "the situation of being excellent at something", "example": "You want total mastery of English." },
+    { "en": "to have mastery in (something)", "pos": "phrase", "uz": "biror sohada mukammal darajaga ega boʻlmoq", "defEn": "to be at the very top level of a skill", "example": "Sri had mastery in 247 languages." },
+    { "en": "to manage your thoughts", "pos": "phrase", "uz": "fikrlaringizni boshqarmoq", "defEn": "to control and direct what you think", "example": "You must manage your thoughts and emotions." },
+    { "en": "to shift your thoughts", "pos": "phrase", "uz": "fikrlarni oʻzgartirmoq, yoʻnaltirmoq", "defEn": "to move your thinking from one thing to another", "example": "When you shift your thoughts, you shift your emotions." },
+    { "en": "to program your brain", "pos": "phrase", "uz": "miyani dasturlash (odat/reaksiyani shakllantirish)", "defEn": "to train your brain to react automatically, like a computer", "example": "You program your brain by repeating the process again and again." },
+    { "en": "a negative image", "pos": "phrase", "uz": "salbiy tasavvur, salbiy tasvir (miyadagi)", "defEn": "a bad or unhappy picture you make in your head", "example": "Take a negative image and make it smaller and darker." },
+    { "en": "to strengthen your motivation", "pos": "phrase", "uz": "ishtiyoqingizni mustahkamlamoq", "defEn": "to make your desire to act stronger", "example": "Positive pictures strengthen your motivation." }
+  ],
+  "englishpod": {
+    "title": "The Office – Virus!",
+    "titleUz": "Ofisda — Virus!",
+    "warmup": {
+      "uz": "Bu suhbatda kompyuter qayta-qayta qotib qoladi, Samuel esa unda koʻplab zararlangan fayllar borligini aniqlaydi. AJ bugun miyani xuddi kompyuterdek dasturlash haqida gapiradi — salbiy fikrlar ham “virus” kabi ishlashiga xalaqit beradi. Sizningcha, virusning sababi nima — ehtiyotsiz internetmi yoki eskirgan himoya dasturmi?",
+      "en": "In this dialogue a computer keeps freezing, and Samuel finds it is full of infected files. Today AJ talks about programming your brain like a computer — negative thoughts work like a “virus” that clogs it. What do you think caused the virus — careless browsing, or out-of-date software?"
+    },
+    "keyVocab": [
+      { "en": "to freeze (a computer)", "uz": "qotib qolmoq, ishlashdan toʻxtamoq (kompyuter)", "defEn": "to stop working properly and not respond" },
+      { "en": "to take a look (at something)", "uz": "koʻrib chiqmoq, nazar tashlamoq", "defEn": "to examine or check something" },
+      { "en": "to act up", "uz": "yaxshi ishlamay qolmoq, injiqlik qilmoq", "defEn": "to stop working or behaving properly" },
+      { "en": "to be right up", "uz": "hozir yuqoriga chiqaman (tez yetib boraman)", "defEn": "to go upstairs or come very soon" },
+      { "en": "to pick up (a virus)", "uz": "yuqtirmoq, ilashtirib olmoq", "defEn": "to get or acquire something, often without meaning to" },
+      { "en": "to browse (the internet)", "uz": "internetni koʻrib/kezib chiqmoq", "defEn": "to look through or search the internet" },
+      { "en": "up to date", "uz": "eng soʻnggi holatda, yangilangan", "defEn": "having all the most recent information or updates" }
+    ]
+  },
+  "sixmin": {
+    "title": "Goldfish, brains and phones",
+    "titleUz": "Oltin baliq, miya va telefonlar",
+    "quiz": [
+      {
+        "q": "How long do we look at our mobile phones for in a day, on average?",
+        "qUz": "Oʻrtacha bir kunda telefonimizga qancha vaqt qaraymiz?",
+        "options": ["around 30 minutes", "around two and a half hours", "over three hours"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) around two and a half hours. Tadqiqotga koʻra, oʻrtacha kuniga 2.42 soat — bu taxminan ikki yarim soat. Catherine ham xuddi shu javobni tanlab, toʻgʻri topdi."
+      }
+    ],
+    "vocab": [
+      { "en": "attention span", "uz": "diqqat muddati (bir narsaga qancha vaqt eʼtibor bera olish)", "defEn": "the length of time we can focus on something" },
+      { "en": "distractions", "uz": "chalgʻituvchi narsalar", "defEn": "things which take away our focus or attention" },
+      { "en": "a bad press", "uz": "ommaviy axborotdagi salbiy fikr, tanqid", "defEn": "criticism, especially in the media or newspapers" },
+      { "en": "fishy", "uz": "shubhali, gumondor", "defEn": "suspicious; seeming not quite right or honest" },
+      { "en": "to multitask", "uz": "bir vaqtda bir necha ish qilmoq", "defEn": "to do several things at the same time" },
+      { "en": "down to", "uz": "bogʻliq, -ga qarab (bu yerda: bogʻliq)", "defEn": "depending on; determined by something" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Reprogram Your Mind and Master Your Thoughts",
+      "channel": "Jim Kwik"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a habit or belief you want to change. What do you enjoy doing, and what have you decided to change? When a negative thought comes, how do you check it — must it be true, or might it just be fear?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: gerundiy/infinitiv (I enjoy … , I decided to … , I keep …) va hozirgi zamon xulosasi (that thought must/might/can't be …).",
+    "targetSec": 60
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "focus",
+  "title": "Emotional Mastery 2",
+  "titleUz": "Hissiy ustalik 2 — mental fokus",
+  "level": "A2-B1",
+  "tags": ["focus", "modals-of-advice", "conditionals", "visualization", "anxiety"],
+  "intro": {
+    "uz": "Emotional Mastery 2 — hissiyotni tana orqali emas, mental fokus orqali boshqarish. AJ tashvish (anxiety) sizni sekinlashtirishini, yakuniy natijaga va kuchli sabablarga eʼtibor qaratish esa tez oʻrgatishini tushuntiradi. Bu haftaning ikki grammatikasi shu gʻoyaning tili: maslahat modallari (should / ought to / had better / why don't you) va nol hamda birinchi shart (real sabab-natija).",
+    "en": "Emotional Mastery 2 — controlling your emotions through mental focus, not just your body. AJ explains that anxiety slows you down, while focusing on the end result and compelling reasons speeds you up. This week's two grammar topics are the language of that idea: modals of advice (should / ought to / had better / why don't you) and the zero & first conditional (real cause and effect)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻzingizga va boshqalarga toʻxtamasdan maslahat bera olasiz (You should… / You'd better…) va haqiqiy sabab-natijani toʻgʻri shakllantira olasiz (If I…, I will…).",
+    "en": "By the end you can give advice to yourself and others without pausing (You should… / You'd better…) and form real cause-and-effect correctly (If I…, I will…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "modals-of-advice",
+      "titleUz": "Maslahat modallari: should / ought to / had better / why don't you",
+      "titleEn": "Modals of advice",
+      "bandLifter": "IELTS Part 3 — give and justify advice and recommendations",
+      "cefrCanDo": "B1: I can give advice and make suggestions using should / had better",
+      "contrastUz": "Oʻzbek tilida maslahatni “-sang yaxshi”, “-ing kerak” yoki “nega ...maysan?” bilan beramiz. Ingliz tili buni bitta modal soʻz bilan hal qiladi va undan keyingi feʼlni oʻzgartirmaydi: should/had better dan keyin feʼl sof shaklda (to va -s siz), faqat ought va have to dan keyin “to” keladi. “Why don't you…?” savol koʻrinishida boʻlsa ham, aslida taklif/maslahat.",
+      "errorFixUz": "❌ You should to focus on the result. He should focuses. ✅ You should focus on the result. He should focus. Sababi: should / had better / can — bularning barchasi feʼlni sof (to-siz, -s-siz) shaklda talab qiladi; faqat ought “to” bilan keladi (ought to focus).",
+      "examples": [
+        { "en": "You should focus on the end result, not on tests.", "uz": "Testga emas, yakuniy natijaga eʼtibor bering." },
+        { "en": "You'd better relax before you study.", "uz": "Oʻqishdan oldin tinchlanganingiz maʼqul." },
+        { "en": "Why don't you write down your reasons for learning English?", "uz": "Ingliz tili oʻrganish sabablaringizni yozib qoʻysangiz-chi?" }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "You feel anxious? You ___ focus on the end result, not the problems.",
+          "options": ["should", "should to", "shoulds"],
+          "answer": "should",
+          "hintUz": "should + sof feʼl (to va -s qoʻshilmaydi): should focus"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The exam is tomorrow. You'd ___ get some sleep tonight.",
+          "options": ["better", "better to", "should"],
+          "answer": "better",
+          "hintUz": "had better + sof feʼl: you'd better get (ogohlantiruvchi maslahat)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you visualize your goal every morning?",
+          "options": ["Why don't", "Why not do", "Why aren't"],
+          "answer": "Why don't",
+          "hintUz": "taklif/maslahat: “Why don't you + sof feʼl?”"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingizga uchta maslahat ayting (ovoz chiqarib): “I should … I shouldn't … I'd better … .”",
+          "answer": null,
+          "hintUz": "modaldan keyin feʼl sof shaklda (to va -s siz)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "zero-first-conditional",
+      "titleUz": "Nol va birinchi shart: haqiqiy sabab-natija",
+      "titleEn": "Zero & first conditional",
+      "bandLifter": "IELTS Part 1 & 3 — talk about real situations and their results",
+      "cefrCanDo": "B1: I can talk about real conditions and their likely results (if + present, will)",
+      "contrastUz": "Oʻzbek tilida ikkala jumla qismi ham kelasi zamonda kelishi mumkin: “Mashq qilsang, yaxshilanadi”. Ingliz tilida esa “if” dan keyin hech qachon “will” ishlatilmaydi — u yerda present simple turadi; “will” faqat natija qismida keladi. Nol shartda (doimiy haqiqat) ikkala tomon ham present simple.",
+      "errorFixUz": "❌ If you will practise, your English will improve. ✅ If you practise, your English will improve. Qoida: “ikkita will boʻlmaydi” — “if” qismida present simple, natija qismida will.",
+      "examples": [
+        { "en": "If I feel anxious, I learn slowly.", "uz": "Xavotirlansam, sekin oʻrganaman." },
+        { "en": "If you focus on the end result, you will feel motivated.", "uz": "Yakuniy natijaga eʼtibor bersang, ilhomlanasan." },
+        { "en": "If a robber breaks into the house, I will call 911.", "uz": "Uyga oʻgʻri kirsa, 911 ga qoʻngʻiroq qilaman." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "If you heat water, it ___.",
+          "options": ["boils", "will boil", "boiled"],
+          "answer": "boils",
+          "hintUz": "doimiy haqiqat = nol shart: present + present (boils)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If you practise every day, your English ___.",
+          "options": ["will improve", "improve", "improved"],
+          "answer": "will improve",
+          "hintUz": "kelajak ehtimoli = birinchi shart: natija qismida will + feʼl"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If the fire alarm ___ off, we will leave the building.",
+          "options": ["goes", "will go", "went"],
+          "answer": "goes",
+          "hintUz": "“if” qismida present simple (goes) — bu yerda will ishlatilmaydi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ikkita jumla ayting: bittasi nol shart (“If I …, I …”), bittasi birinchi shart (“If I …, I will …”).",
+          "answer": null,
+          "hintUz": "“if” qismida doim present simple; will faqat natijada"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "language acquisition", "pos": "phrase", "uz": "tilni egallash (oʻrganib, saqlab qolish)", "defEn": "getting a language and keeping it, so you don't forget it", "example": "Anxiety is the number one negative factor in language acquisition." },
+    { "en": "anxiety", "pos": "n", "uz": "xavotir, asabiylik, stress hissi", "defEn": "a feeling of nervousness or stress", "example": "Anxiety makes you learn more slowly." },
+    { "en": "to feel anxious", "pos": "phrase", "uz": "xavotirlanmoq, asabiy/tashvishli boʻlmoq", "defEn": "to feel worried, nervous or stressed", "example": "I feel anxious before a big test." },
+    { "en": "to visualize (something)", "pos": "v", "uz": "koʻz oldiga keltirmoq, xayolda koʻrmoq", "defEn": "to see something in your mind; to imagine it", "example": "Every day he visualizes arriving in New York." },
+    { "en": "vividly", "pos": "adv", "uz": "yorqin, aniq va rangdor tarzda", "defEn": "clearly, colorfully and powerfully", "example": "Imagine your future vividly." },
+    { "en": "listening comprehension", "pos": "phrase", "uz": "tinglab tushunish (eshitganini anglash)", "defEn": "understanding what you hear", "example": "Relaxed students have better listening comprehension." },
+    { "en": "to focus on (something)", "pos": "phrase", "uz": "eʼtibor qaratmoq, diqqatni bir narsaga jamlash", "defEn": "to give your attention to one thing", "example": "Focus on the end result, not on your mistakes." },
+    { "en": "the end result", "pos": "phrase", "uz": "yakuniy natija (pirovard maqsad)", "defEn": "the final outcome you want to reach", "example": "Focus on the end result every day." },
+    { "en": "compelling reasons", "pos": "phrase", "uz": "kuchli, ilhomlantiruvchi sabablar", "defEn": "strong, inspiring reasons that make you want to act", "example": "You need compelling reasons to learn English." },
+    { "en": "ultimately", "pos": "adv", "uz": "oxir-oqibat, pirovardida", "defEn": "finally; in the end", "example": "Ultimately, you must study every day." }
+  ],
+  "englishpod": {
+    "title": "Global View – Calling 911",
+    "titleUz": "Global koʻrinish — 911 ga qoʻngʻiroq qilish",
+    "warmup": {
+      "uz": "Bu suhbatda oʻqituvchi bolalardan “qanday vaziyatda 911 ga qoʻngʻiroq qilasiz?” deb soʻraydi va bolalar “agar ... boʻlsa” deb javob beradi. Emotional Mastery mavzusiga mos: xavotir (anxiety) paytida ham tinch fikrlash muhim. Bolalar sanaydigan har bir javob — birinchi shart (grammatika B!). Sizningcha, ular yana qaysi favqulodda vaziyatlarni aytishi mumkin?",
+      "en": "In this dialogue a teacher asks children when they would call 911, and they answer with “If…”. It fits the Emotional Mastery theme: staying calm and thinking clearly under stress. Every answer the children give is a first conditional (grammar B!). What other emergencies do you think they might name?"
+    },
+    "keyVocab": [
+      { "en": "to dress up", "uz": "chiroyli/maxsus kiyim kiymoq, boshqa qiyofaga kirmoq", "defEn": "to put on special or fancy clothes, or a disguise" },
+      { "en": "profession", "uz": "kasb (maxsus tayyorgarlik talab qiladigan)", "defEn": "an occupation that requires special training" },
+      { "en": "a lifeguard", "uz": "qutqaruvchi (suvda choʻkishdan asrovchi)", "defEn": "a person who protects people from drowning" },
+      { "en": "to dial", "uz": "raqam termoq (telefon)", "defEn": "to press the buttons to make a telephone call" },
+      { "en": "to break into (a house)", "uz": "(uyga) buzib/zoʻrlik bilan kirmoq", "defEn": "to enter a house illegally, especially by force" },
+      { "en": "to go off (an alarm)", "uz": "(signal) qattiq jiringlamoq, ishga tushmoq", "defEn": "to ring or sound loudly, e.g. an alarm" },
+      { "en": "a heart attack", "uz": "yurak xuruji (infarkt)", "defEn": "a dangerous condition where the heart stops beating properly" },
+      { "en": "a robber", "uz": "oʻgʻri, talonchi", "defEn": "a person who robs or steals" }
+    ]
+  },
+  "sixmin": {
+    "title": "Laughing could kill you",
+    "titleUz": "Kulgi sizni oʻldirishi mumkin",
+    "quiz": [
+      {
+        "q": "How many times a day does the average adult laugh?",
+        "qUz": "Oʻrtacha katta odam kuniga necha marta kuladi?",
+        "options": ["17", "70", "700"],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 17. Tim 70 dedi va xato qildi. Neil aytadiki, oʻrtacha katta odam kuniga atigi 17 marta kuladi — bolalar esa kuniga taxminan 300 marta! Demak, koʻproq kulishimiz kerak (you should laugh more — grammatika A!)."
+      }
+    ],
+    "vocab": [
+      { "en": "a guffaw", "uz": "qah-qah kulgi (baland, tiyib boʻlmas kulgi)", "defEn": "a loud laugh that you can't control" },
+      { "en": "to laugh your head off", "uz": "qotib-qotib, oʻlaridek kulmoq", "defEn": "to laugh very loudly for a long time" },
+      { "en": "to choke", "uz": "boʻgʻilmoq (nafas yoʻli tiqilib qolmoq)", "defEn": "to stop breathing because something is blocking your throat" },
+      { "en": "diaphragm", "uz": "diafragma (oʻpka ostidagi nafas mushagi)", "defEn": "the sheet of muscle separating your lungs from your stomach" },
+      { "en": "gasping", "uz": "hansirash, nafasi qaytish", "defEn": "having difficulty breathing; struggling for air" },
+      { "en": "to chuckle", "uz": "ohista, sekingina kulmoq", "defEn": "to laugh quietly" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to master your emotions and focus your mind",
+      "channel": "TEDx Talks"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "A friend feels anxious and stressed about learning English. What advice would you give them? Tell them what they should focus on, and say what will happen if they follow your advice.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: maslahat modallari (You should… / You'd better… / Why don't you…?) va shart gaplar (If you focus on…, you will…).",
+    "targetSec": 60
+  }
+}

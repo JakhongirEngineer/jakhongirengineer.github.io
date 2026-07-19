@@ -1,0 +1,152 @@
+{
+  "slug": "taoism",
+  "title": "Taoism",
+  "titleUz": "Taoizm — tabiat bilan uygʻunlik",
+  "level": "B1",
+  "tags": ["philosophy", "wu-wei", "modals", "passive-voice", "subconscious"],
+  "intro": {
+    "uz": "Taoizm — tabiat bilan kurashmay, oqim bilan yashash falsafasi (wu wei — majburlamaslik). Alan Wattsning fikricha, ong osti miya eng kuchli qism: yechimni zoʻrlab emas, unga imkon berib topamiz. Bu haftaning ikki grammatikasi ham shu gʻoyaga mos: ehtimollik modallari (might / may / could — majburlamaslik) va majhul nisbat 1 (is done / was done — bajaruvchisiz ish).",
+    "en": "Taoism — the philosophy of living in harmony with nature instead of fighting it (wu wei — non-forcing). Alan Watts argues that the subconscious mind is the most powerful part: we find answers by allowing, not forcing. This week's two grammar topics fit that idea: modals of possibility (might / may / could) and the agentless passive (is done / was done)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida noaniq rejalar va ehtimolliklarni might / may / could bilan toʻxtamasdan ayta olasiz va oddiy ishlarni majhul nisbatda (is done / was done) — bajaruvchini koʻrsatmasdan — tasvirlab bera olasiz.",
+    "en": "By the end you can talk about uncertain plans and possibilities with might / may / could without pausing, and describe simple actions in the passive (is done / was done) without naming the doer."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "modals-of-possibility",
+      "titleUz": "Ehtimollik modallari: might / may / could (majburlamaslik)",
+      "titleEn": "Modals of possibility — might / may / could",
+      "bandLifter": "IELTS Speaking — hedge predictions and future plans naturally (it might…, it may…)",
+      "cefrCanDo": "B1: I can express degrees of possibility about the present and future",
+      "contrastUz": "Oʻzbekchada ehtimol maʼnosi feʼl oxirida yashiringan: “yogʻ-ishi mumkin”, “bils-a kerak”, yoki alohida “balki/ehtimol” soʻzi bilan. Ingliz tilida esa ehtimol feʼldan OLDIN alohida modal soʻz bilan chiqadi (might/may/could) va undan keyin feʼl sof shaklda qoladi.",
+      "errorFixUz": "❌ It might to rain. She may knows. ✅ It might rain. She may know. Modaldan keyin feʼl doim sof (base) shaklda: “to” ham, “-s” ham qoʻshilmaydi, modalning oʻzi ham oʻzgarmaydi.",
+      "examples": [
+        { "en": "The answer might come by itself.", "uz": "Javob oʻzidan kelishi mumkin." },
+        { "en": "You may be disappointed if you use brute strength.", "uz": "Qoʻpol kuch ishlatsangiz, hafsalangiz pir boʻlishi mumkin." },
+        { "en": "You could just let it flow.", "uz": "Shunchaki oqimga qoʻyib berishingiz ham mumkin." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "It ___ rain later, so take an umbrella.",
+          "options": ["might", "might to", "mights"],
+          "answer": "might",
+          "hintUz": "modal + sof feʼl: might rain (“to” va “-s” yoʻq)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Don't strain — the solution ___ come by itself.",
+          "options": ["may", "mays", "may to"],
+          "answer": "may",
+          "hintUz": "may + sof feʼl (come); modalga “-s” qoʻshilmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She ___ know the answer; let's ask her calmly.",
+          "options": ["could", "could to", "coulds"],
+          "answer": "could",
+          "hintUz": "modal oʻzgarmaydi va keyin sof feʼl keladi: could know"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ehtimolli uchta reja ayting (ovoz chiqarib): “Tonight I might … Tomorrow I may … This weekend I could … .”",
+          "answer": null,
+          "hintUz": "might/may/could + sof feʼl (to/-s yoʻq)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "passive-voice-1",
+      "titleUz": "Majhul nisbat 1: is done / was done (bajaruvchisiz)",
+      "titleEn": "Passive voice 1 — is done / was done",
+      "bandLifter": "IELTS Writing Task 1 & 2 — describe processes and facts impersonally (is made, was built)",
+      "cefrCanDo": "B1: I can form simple present and past passives when the doer is unknown or unimportant",
+      "contrastUz": "Oʻzbekchada majhul nisbat feʼlning ICHIDA -il-/-in- qoʻshimchasi bilan yasaladi va bir soʻz yetadi: “eshik yopildi”, “ish qilindi”. Ingliz tilida esa doim IKKI qism kerak: be feʼli + feʼlning 3-shakli (was closed, is done). Oʻzbek oʻquvchilar aynan “be” feʼlini tushirib qoldiradi.",
+      "errorFixUz": "❌ The door closed by me. The book wrote in English. ✅ The door was closed by me. The book was written in English. Majhulda “be” (am/is/are/was/were) hech qachon tushmaydi, asosiy feʼl esa V3 (3-shakl) boʻladi.",
+      "examples": [
+        { "en": "English is taught with stories here.", "uz": "Bu yerda ingliz tili hikoyalar bilan oʻrgatiladi." },
+        { "en": "The book was written by Alan Watts.", "uz": "Kitob Alan Watts tomonidan yozilgan." },
+        { "en": "We are forced to ignore almost everything.", "uz": "Biz deyarli hamma narsani eʼtiborsiz qoldirishga majbur boʻlamiz." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The food ___ digested automatically.",
+          "options": ["is", "does", "has"],
+          "answer": "is",
+          "hintUz": "hozirgi majhul: is + V3 (is digested)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The book ___ written by Alan Watts.",
+          "options": ["was", "did", "has"],
+          "answer": "was",
+          "hintUz": "oʻtmish majhul: was + V3 (was written)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The door was ___ by me this morning.",
+          "options": ["closed", "close", "closing"],
+          "answer": "closed",
+          "hintUz": "be + V3: was closed (asosiy feʼl 3-shaklda)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Uyingizdagi ikki ishni majhul nisbatda ayting: “… is done every day. … was made … .”",
+          "answer": null,
+          "hintUz": "be + V3 (is done / was made); “be” ni tushirmang"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "to strain (your mind)", "pos": "v", "uz": "zoʻriqmoq, haddan tashqari urinmoq (miyani qiynamoq)", "defEn": "to try too hard, using too much effort", "example": "Don't strain your mind; contemplate the problem calmly." },
+    { "en": "to contemplate (a problem)", "pos": "v", "uz": "xotirjam, sokin oʻylamoq (shoshmasdan)", "defEn": "to think about something calmly and slowly", "example": "Contemplate your goal instead of forcing an answer." },
+    { "en": "to visualize (something)", "pos": "v", "uz": "koʻz oldiga keltirmoq, tasavvur qilmoq", "defEn": "to imagine or picture something in your mind", "example": "Visualize your question, then simply wait." },
+    { "en": "brute strength", "pos": "phrase", "uz": "hayvoniy, qoʻpol kuch (juda kuchli, ammo qoʻpol)", "defEn": "raw, animal-like power; the opposite of subtle", "example": "Gorillas have brute strength." },
+    { "en": "to supervise", "pos": "v", "uz": "kuzatib, nazorat qilib turmoq", "defEn": "to watch and control something carefully", "example": "You don't need to supervise your heartbeat." },
+    { "en": "a single track", "pos": "phrase", "uz": "bir yoʻnalish; bittalab, birma-bir", "defEn": "one line or way; one thing at a time", "example": "Conscious thinking runs along a single track." },
+    { "en": "to take into consideration", "pos": "phrase", "uz": "hisobga olmoq, eʼtiborga olmoq", "defEn": "to think about something before deciding", "example": "She took the baby gorilla into consideration." },
+    { "en": "innumerable", "pos": "adj", "uz": "son-sanoqsiz, sanab boʻlmas darajada koʻp", "defEn": "too many to count", "example": "The subconscious handles innumerable things at once." },
+    { "en": "to handle", "pos": "v", "uz": "uddalamoq, eplamoq, boshqarmoq", "defEn": "to manage or deal with something", "example": "Your brain can handle many variables at the same time." },
+    { "en": "crude", "pos": "adj", "uz": "qoʻpol, sodda va ibtidoiy", "defEn": "very simple and primitive", "example": "Words are crude; they work one by one." }
+  ],
+  "englishpod": null,
+  "sixmin": {
+    "title": "Sighing",
+    "titleUz": "Xoʻrsinish (uh tortish)",
+    "quiz": [
+      {
+        "q": "How many times does a mouse sigh in an hour, on average?",
+        "qUz": "Sichqon soatiga oʻrtacha necha marta xoʻrsinadi?",
+        "options": ["Twice", "10 times", "40 times"],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 40 marta. Catherine 40 dedi va haq boʻldi. Sichqonlarning yuragi tezroq uradi, shuning uchun oʻpkasini koʻproq “qayta sozlashi” (reset) kerak — inson esa oʻrtacha soatiga 12 marta xoʻrsinadi."
+      }
+    ],
+    "vocab": [
+      { "en": "survival mechanism", "uz": "omon qolish mexanizmi (tirik qolish uchun beixtiyor qilinadigan ish)", "defEn": "something the body does automatically in order to survive" },
+      { "en": "to reset", "uz": "qayta ishga tushirmoq, dastlabki holatga qaytarmoq", "defEn": "to return something to its original settings" },
+      { "en": "a reflex", "uz": "refleks, ixtiyorsiz (avtomatik) harakat", "defEn": "a physical action or reaction you can't control" },
+      { "en": "to breathe a sigh of relief", "uz": "yengil nafas olmoq (xavotirdan xalos boʻlib)", "defEn": "to feel relief when something bad has not happened" },
+      { "en": "frustration", "uz": "gʻashlik, umidsizlik (ishlar yurishmagandagi holat)", "defEn": "the feeling you have when things aren't going well" },
+      { "en": "resignation", "uz": "taqdirga tan berish, chorasizlikdan koʻnish", "defEn": "accepting something bad that you cannot change" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Alan Watts — The Watercourse Way: Wu Wei & Effortless Action",
+      "channel": "Alan Watts Org"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about a problem you are trying to solve. What might happen if you stop forcing it? Describe how the answer could come by itself — and say what is usually done, step by step, when the problem is finally solved.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: ehtimollik modallari (it might…, it may…, you could…) va majhul nisbat (is done / was done — bajaruvchini koʻrsatmasdan).",
+    "targetSec": 60
+  }
+}

@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 2,
+  "id": "core-03",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 3,
+  "slug": "focus",
+  "title": "Emotional Mastery 2",
+  "titleUz": "Hissiy ustalik 2 — mental fokus",
+  "level": "A2-B1",
+  "tags": [
+    "focus",
+    "modals-of-advice",
+    "conditionals",
+    "visualization",
+    "anxiety"
+  ],
+  "intro": {
+    "uz": "Emotional Mastery 2 — hissiyotni tana orqali emas, mental fokus orqali boshqarish. AJ tashvish (anxiety) sizni sekinlashtirishini, yakuniy natijaga va kuchli sabablarga eʼtibor qaratish esa tez oʻrgatishini tushuntiradi. Bu haftaning ikki grammatikasi shu gʻoyaning tili: maslahat modallari (should / ought to / had better / why don't you) va nol hamda birinchi shart (real sabab-natija).",
+    "en": "Emotional Mastery 2 — controlling your emotions through mental focus, not just your body. AJ explains that anxiety slows you down, while focusing on the end result and compelling reasons speeds you up. This week's two grammar topics are the language of that idea: modals of advice (should / ought to / had better / why don't you) and the zero & first conditional (real cause and effect)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻzingizga va boshqalarga toʻxtamasdan maslahat bera olasiz (You should… / You'd better…) va haqiqiy sabab-natijani toʻgʻri shakllantira olasiz (If I…, I will…).",
+    "en": "By the end you can give advice to yourself and others without pausing (You should… / You'd better…) and form real cause-and-effect correctly (If I…, I will…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "modals-of-advice",
+      "titleUz": "Maslahat modallari: should / ought to / had better / why don't you",
+      "titleEn": "Modals of advice",
+      "bandLifter": "IELTS Part 3 — give and justify advice and recommendations",
+      "cefrCanDo": "B1: I can give advice and make suggestions using should / had better",
+      "bodyHtml": "<p>Bu darsning butun MAIN talki bir savol atrofida aylanadi: <em>&quot;What <strong>should</strong> you focus on? What <strong>should</strong> you <strong>not</strong> focus on?&quot;</em> AJ oʻzini oʻziga maslahat berayotgandek gapiradi: <em>&quot;You <strong>should</strong> smile. You <strong>shouldn't</strong> focus on tests.&quot;</em> Bu — <strong>maslahat modallari</strong>. Ular buyruq emas, muloyim koʻrsatma: &quot;shunday qilsang yaxshi boʻladi&quot;. Emotional Mastery — bu oʻz-oʻzini murabbiylik, shuning uchun bu modallarsiz mavzuni gapirib boʻlmaydi.</p>\n<h3><code>should</code> va <code>ought to</code> — asosiy maslahat</h3>\n<p>Ikkalasi ham &quot;yaxshi boʻlardi, toʻgʻri boʻlardi&quot; degan maʼnoni beradi. Ular deyarli bir xil, faqat <code>ought to</code> biroz rasmiyroq va nutqda kamroq uchraydi.</p>\n<ul>\n<li><em>You <strong>should</strong> focus on the end result.</em> — Yakuniy natijaga eʼtibor bering.</li>\n<li><em>You <strong>shouldn't</strong> worry about tests.</em> — Test haqida tashvishlanmang.</li>\n<li><em>You <strong>ought to</strong> visualize your goal every day.</em> — Har kuni maqsadingizni koʻz oldingizga keltirishingiz kerak.</li>\n</ul>\n<p>Shakl juda sodda va oʻzbek oʻquvchilar uchun qulay: modaldan keyin feʼl <strong>doim sof shaklda</strong> turadi — <code>to</code> ham, <code>-s</code> ham qoʻshilmaydi. <em>He should <strong>focus</strong></em> (❗ <em>focuses</em> emas, ❗ <em>to focus</em> emas). Yagona istisno — <code>ought</code>, undan keyin <code>to</code> keladi: <em>ought <strong>to</strong> focus</em>.</p>\n<h3><code>had better</code> — kuchliroq, ogohlantiruvchi maslahat</h3>\n<p><code>had better</code> (nutqda qisqaradi: <em>you'd better</em>) — bu shunchaki maslahat emas, <strong>ogohlantirish</strong>: &quot;shunday qilmasang, yomon boʻladi&quot;.</p>\n<ul>\n<li><em>You'<strong>d better</strong> relax before the exam.</em> — Imtihondan oldin tinchlaning (aks holda yomon boʻladi).</li>\n<li><em>You'<strong>d better not</strong> focus on the past.</em> — Oʻtmishga eʼtibor qaratmang (yaxshimas).</li>\n</ul>\n<p>Diqqat: <code>had better</code> dan keyin ham feʼl sof shaklda keladi (<em>better <strong>relax</strong></em>, ❗ <em>better to relax</em> emas), va inkori <code>had better **not**</code>.</p>\n<h3><code>Why don't you…?</code> — doʻstona taklif</h3>\n<p><code>Why don't you…?</code> savol shaklida boʻlsa-da, aslida <strong>maslahat/taklif</strong> beradi: &quot;shunday qilib koʻrsangchi?&quot;.</p>\n<ul>\n<li><em><strong>Why don't you</strong> write down your reasons?</em> — Sabablaringizni yozib qoʻysangiz-chi?</li>\n<li><em><strong>Why don't you</strong> smile and move right now?</em> — Hozir jilmayib, biroz harakat qilsangiz-chi?</li>\n</ul>\n<h3>Inglizcha ↔ oʻzbekcha farq</h3>\n<p>Oʻzbek tilida maslahatni koʻpincha <em>&quot;-sang yaxshi&quot;</em>, <em>&quot;-ing kerak&quot;</em> yoki <em>&quot;nega ...maysan?&quot;</em> bilan beramiz. Ingliz tili buni bitta modal soʻz bilan hal qiladi va undan keyingi feʼlni <strong>oʻzgartirmaydi</strong>. Eng koʻp uchraydigan xato — modaldan keyin <code>to</code> qoʻshib yuborish:</p>\n<ul>\n<li>❌ <em>You should <strong>to</strong> focus on the result.</em></li>\n<li>✅ <em>You should <strong>focus</strong> on the result.</em></li>\n</ul>\n<p>Sababi: <code>should / must / can / had better</code> — bularning barchasi feʼlni sof (infinitive without <em>to</em>) shaklida talab qiladi. Faqat <code>ought</code> va <code>have to</code> <code>to</code> bilan keladi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu modallarni ovoz chiqarib mashq qiling — oʻzingizga murabbiy boʻling. Bugun oynaga qarab uchta jumla ayting: <em>&quot;I should focus on the end result. I shouldn't worry about mistakes. I'd better practise every day.&quot;</em> Miya oʻz ovozini eshitganda maslahatni tezroq singdiradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida maslahatni “-sang yaxshi”, “-ing kerak” yoki “nega ...maysan?” bilan beramiz. Ingliz tili buni bitta modal soʻz bilan hal qiladi va undan keyingi feʼlni oʻzgartirmaydi: should/had better dan keyin feʼl sof shaklda (to va -s siz), faqat ought va have to dan keyin “to” keladi. “Why don't you…?” savol koʻrinishida boʻlsa ham, aslida taklif/maslahat.",
+      "errorFixUz": "❌ You should to focus on the result. He should focuses. ✅ You should focus on the result. He should focus. Sababi: should / had better / can — bularning barchasi feʼlni sof (to-siz, -s-siz) shaklda talab qiladi; faqat ought “to” bilan keladi (ought to focus).",
+      "examples": [
+        {
+          "en": "You should focus on the end result, not on tests.",
+          "uz": "Testga emas, yakuniy natijaga eʼtibor bering."
+        },
+        {
+          "en": "You'd better relax before you study.",
+          "uz": "Oʻqishdan oldin tinchlanganingiz maʼqul."
+        },
+        {
+          "en": "Why don't you write down your reasons for learning English?",
+          "uz": "Ingliz tili oʻrganish sabablaringizni yozib qoʻysangiz-chi?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "You feel anxious? You ___ focus on the end result, not the problems.",
+          "options": [
+            "should",
+            "should to",
+            "shoulds"
+          ],
+          "answer": "should",
+          "hintUz": "should + sof feʼl (to va -s qoʻshilmaydi): should focus"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The exam is tomorrow. You'd ___ get some sleep tonight.",
+          "options": [
+            "better",
+            "better to",
+            "should"
+          ],
+          "answer": "better",
+          "hintUz": "had better + sof feʼl: you'd better get (ogohlantiruvchi maslahat)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you visualize your goal every morning?",
+          "options": [
+            "Why don't",
+            "Why not do",
+            "Why aren't"
+          ],
+          "answer": "Why don't",
+          "hintUz": "taklif/maslahat: “Why don't you + sof feʼl?”"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingizga uchta maslahat ayting (ovoz chiqarib): “I should … I shouldn't … I'd better … .”",
+          "answer": null,
+          "hintUz": "modaldan keyin feʼl sof shaklda (to va -s siz)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "zero-first-conditional",
+      "titleUz": "Nol va birinchi shart: haqiqiy sabab-natija",
+      "titleEn": "Zero & first conditional",
+      "bandLifter": "IELTS Part 1 & 3 — talk about real situations and their results",
+      "cefrCanDo": "B1: I can talk about real conditions and their likely results (if + present, will)",
+      "bodyHtml": "<p>Bu darsdagi har bir texnika bitta shaklga tushadi: <em>agar men X qilsam, holatim Y boʻladi</em>. AJ buni ochiq aytadi: <em>&quot;<strong>If</strong> you focus on problems, your emotions <strong>become</strong> weaker.&quot;</em> EnglishPod suhbatida esa bolalar 911 raqamini qachon terishni sanaydilar: <em>&quot;<strong>If</strong> a robber breaks into the house! <strong>If</strong> the fire alarm goes off!&quot;</em> Bu — <strong>shart gaplar</strong> (conditionals). Bu hafta eng haqiqiy, eng koʻp ishlatiladigan ikkitasini ochamiz: <strong>nol</strong> va <strong>birinchi</strong> shart.</p>\n<h3>Nol shart (zero conditional): doimiy haqiqat</h3>\n<p>Nol shart — har doim rost boʻladigan sabab-natija: qonuniyat, ilmiy haqiqat, doimiy odat. Ikkala tomonda ham <strong>hozirgi oddiy zamon</strong> (present simple) turadi:</p>\n<blockquote>\n<p><strong>if</strong> + present simple, ... present simple</p>\n</blockquote>\n<ul>\n<li><em>If you <strong>heat</strong> water, it <strong>boils</strong>.</em> — Suvni qizdirsang, qaynaydi.</li>\n<li><em>If I <strong>feel</strong> anxious, I <strong>learn</strong> slowly.</em> — Xavotirlansam, sekin oʻrganaman.</li>\n<li><em>If you <strong>focus</strong> on the past, you <strong>feel</strong> bad.</em> — Oʻtmishga eʼtibor qaratsang, oʻzingni yomon his qilasan.</li>\n</ul>\n<p>Bu yerda <code>if</code> oʻrniga koʻpincha <code>when</code> ishlatsa ham boʻladi — maʼno oʻzgarmaydi, chunki gap doimiy haqiqat haqida.</p>\n<h3>Birinchi shart (first conditional): kelajakdagi haqiqiy ehtimol</h3>\n<p>Birinchi shart — <strong>kelajakda roʻy berishi mumkin</strong> boʻlgan haqiqiy vaziyat va uning natijasi. Shart qismida <strong>present simple</strong>, natija qismida <strong>will + feʼl</strong>:</p>\n<blockquote>\n<p><strong>if</strong> + present simple, ... <strong>will</strong> + feʼl</p>\n</blockquote>\n<ul>\n<li><em>If you <strong>visualize</strong> your goal, you <strong>will feel</strong> motivated.</em> — Maqsadingni koʻz oldingga keltirsang, ilhomlanasan.</li>\n<li><em>If a robber <strong>breaks</strong> into the house, I <strong>will call</strong> 911.</em> — Uyga oʻgʻri kirsa, 911 ga qoʻngʻiroq qilaman.</li>\n<li><em>If you <strong>practise</strong> every day, your English <strong>will improve</strong>.</em> — Har kuni mashq qilsang, inglizching yaxshilanadi.</li>\n</ul>\n<h3>Inglizcha ↔ oʻzbekcha farq (eng muhim nuqta)</h3>\n<p>Oʻzbek tilida ikkala jumla qismi ham kelasi zamonda boʻlishi mumkin: <em>&quot;Mashq qilsang, yaxshilanadi&quot;</em>. Ammo ingliz tilida <code>if</code> dan keyin <strong>hech qachon <code>will</code> ishlatilmaydi</strong> — u yerda present simple turadi. Bu — oʻzbek oʻquvchilarning eng koʻp qiladigan xatosi:</p>\n<ul>\n<li>❌ <em>If you <strong>will practise</strong>, your English will improve.</em></li>\n<li>✅ <em>If you <strong>practise</strong>, your English will improve.</em></li>\n</ul>\n<p>Yaʼni: <code>will</code> faqat <strong>natija</strong> qismida keladi, <code>if</code> qismida emas. Yodda tuting — <em>&quot;ikkita will boʻlmaydi&quot;</em>.</p>\n<h3>Ikkalasini ajratish</h3>\n<ul>\n<li>Doimiy, har doim rost → <strong>nol shart</strong> (present + present): <em>If I don't sleep, I feel tired.</em></li>\n<li>Aniq bir kelajak holati → <strong>birinchi shart</strong> (present + will): <em>If I sleep well tonight, I will feel great tomorrow.</em></li>\n</ul>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qolipni oʻzingiz haqingizda ovoz chiqarib mashq qiling. Har kuni ikkita jumla ayting: <em>&quot;If I study today, I will feel proud.&quot;</em> va <em>&quot;If I focus on tests, I feel nervous.&quot;</em> Ikkala shakl orasidagi farqni quloq bilan seza boshlaysiz — grammatikani yodlamasdan.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida ikkala jumla qismi ham kelasi zamonda kelishi mumkin: “Mashq qilsang, yaxshilanadi”. Ingliz tilida esa “if” dan keyin hech qachon “will” ishlatilmaydi — u yerda present simple turadi; “will” faqat natija qismida keladi. Nol shartda (doimiy haqiqat) ikkala tomon ham present simple.",
+      "errorFixUz": "❌ If you will practise, your English will improve. ✅ If you practise, your English will improve. Qoida: “ikkita will boʻlmaydi” — “if” qismida present simple, natija qismida will.",
+      "examples": [
+        {
+          "en": "If I feel anxious, I learn slowly.",
+          "uz": "Xavotirlansam, sekin oʻrganaman."
+        },
+        {
+          "en": "If you focus on the end result, you will feel motivated.",
+          "uz": "Yakuniy natijaga eʼtibor bersang, ilhomlanasan."
+        },
+        {
+          "en": "If a robber breaks into the house, I will call 911.",
+          "uz": "Uyga oʻgʻri kirsa, 911 ga qoʻngʻiroq qilaman."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "If you heat water, it ___.",
+          "options": [
+            "boils",
+            "will boil",
+            "boiled"
+          ],
+          "answer": "boils",
+          "hintUz": "doimiy haqiqat = nol shart: present + present (boils)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If you practise every day, your English ___.",
+          "options": [
+            "will improve",
+            "improve",
+            "improved"
+          ],
+          "answer": "will improve",
+          "hintUz": "kelajak ehtimoli = birinchi shart: natija qismida will + feʼl"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If the fire alarm ___ off, we will leave the building.",
+          "options": [
+            "goes",
+            "will go",
+            "went"
+          ],
+          "answer": "goes",
+          "hintUz": "“if” qismida present simple (goes) — bu yerda will ishlatilmaydi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda ikkita jumla ayting: bittasi nol shart (“If I …, I …”), bittasi birinchi shart (“If I …, I will …”).",
+          "answer": null,
+          "hintUz": "“if” qismida doim present simple; will faqat natijada"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/03/main.mp3",
+      "durationSec": 846,
+      "bytes": 10163549,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/03/vocab.mp3",
+      "durationSec": 492,
+      "bytes": 5918330,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/03/ministory.mp3",
+      "durationSec": 900,
+      "bytes": 10810520,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hello and welcome to the next lesson “Emotional Mastery 2.” So in Emotional Mastery 1 we learned about changing our physiology, changing our bodies to change our emotions. Remember in that less I said there are two ways to change your emotions. Number one is physiology, we talked about that.",
+      "There is something else you can change so you can be in a peak emotional state as you learn English and that is your focus, your mental focus. What you think about consistently, that will change your emotion also. So what do I mean by mental focus? How do you change your mental focus? What should you focus on?",
+      "What should you not focus on? First, let’s talk about the negative. What should you not focus on? Try to remember when you were in school in your English classes. What did you focus on when you were in school? What did you think about, worry about, consistently, frequently? Well probably tests, right? That was one I always thought about.",
+      "You probably were focused on tests a lot. “I gotta pass this test, I gotta pass this test.” Tests, and then grades. “Will I get an A? Will I get a B? Will I get a C? Will I fail this course?” So you were thinking about judgment, other people judging you, the teacher judging you, getting a grade, getting a score.",
+      "How did you feel about that? When you think about tests, tests, tests a lot and you think a lot about a score, a grade, A, B, C. Or maybe now you’re thinking about the TOEFL exam and you’re worried “What number will I get on the TOEFL exam?” How does that affect your emotions? Do you feel more relaxed or more stressful?",
+      "Well, most people feel more stressful, of course. The more you think about judgment, the more you think about a test score, the more nervous you become, the more worried you become. And that’s not good. You actually learn more slowly when you’re worried. You learn more slowly when you’re nervous, when you have anxiety.",
+      "Again, I’ll talk about Dr. Stephen Krashen, our favorite researcher. Anxiety is a major part of his research. It is the single number one most negative factor in language acquisition, in language learning. Anxiety means worry or stress and there are many, many studies about this.",
+      "They study different language learners, study different English learners. And they put them in a situation where they are more stressed or more worried. And they have others that are in a more relaxed situation. And the relaxed students always learn better and faster.",
+      "So let’s say after six months the relaxed students will have better grammar, better pronunciation, better listening and understanding, better writing skill, better everything.",
+      "The anxious students, the worried, nervous students, the stressed students, of course, have worse pronunciation, worse speaking ability, less vocabulary, worse writing, less",
+      "listening comprehension, listening understanding. So what was happening in school was you were actually learning to fail. You were training yourself to be stressed and nervous. You were training yourself to focus on things, tests, grades, teacher’s opinion of you, that make you feel nervous and that nervousness made you learn more slowly.",
+      "So you don’t want to focus on that. Something else you don’t want to focus on. You don’t want to focus on every small step to reach your goal. Your goal is to speak excellent English, to feel strong and confident when you speak. That’s a great goal. But what happens if you focus on everything you must do to reach the goal?",
+      "For example, you think “Oh god, to become a great speaker that means I’ve got to study every day. I’ve got to learn 20,000 vocabulary words. I’ve got to listen to 2 or 3,000 hours of English.” How does that make you feel? Probably a little nervous, probably stressed, right, you think “Oh my god, it’s too much.”",
+      "So you want to focus on the little individual steps because it’s going to seem huge, it’s going to seem so big it’s going to kill your motivation. What else do you not want to focus on? Problems. Problems, so many students focus on problems. In my classes in San Francisco they come to me “AJ, my pronunciation is bad.",
+      "AJ I make grammar mistakes.” Well, of course you do. You’re a student. You’re learning. It’s normal. You’re going to make mistakes. You’re going to have problems sometimes. You’re going to make a mistake with your pronunciation. I do, I’m a native speaker, I’m an English teacher. I make mistakes all the time. It’s normal.",
+      "You can’t focus on it. If you focus on it, if you focus on the negative, if you focus on mistakes, if you focus on problems your emotions become weaker and weaker. You actually get worse. So you just need to relax about this. Everybody is human. Everybody makes mistakes. It’s a normal thing. Finally, you do not want to focus on the past.",
+      "Most of my students have very negative experiences with English from the past. Most did not enjoy their English classes in school. When I ask about their past with English “Oh, oh, it was terrible.” People tell me, students tell me “I’m not good at English. I was always bad in my English classes.",
+      "I’ve studied for 6 years, 8 years, 10 years, still I cannot speak well.” Focused on the past, well the past is not the same as the present. The past doesn’t equal the future as Tony Robbins likes to say. And it’s true. In the past you used very old traditional methods that made you feel bad.",
+      "Sitting in a class still, not moving, being graded and tested constantly. Studying boring grammar textbooks, that’s not a method for success for most people. Some people succeed with that but very few. So the past was different. You’re now learning in a very different way. You are different now. Don’t focus on the past.",
+      "Alright, so enough of what not to do. What should you focus on if you want to be happy, if you want to be excited, if you want to learn very quickly, faster than before. What should you focus on? What should you think about consistently all the time?",
+      "Well number one, instead of focusing on the little steps and all the little problems, instead",
+      "focus on the end result. The final result, that’s what you need to focus on. Focus on your ultimate success. So in other words use your imagination and see yourself, imagine yourself speaking English fluently, quickly. Imagine yourself smiling as you speak English with a native speaker.",
+      "Imagine yourself feeling strong and confident as you speak English easily, effortlessly. Every day focus on this thought, the end result. What you will ultimately reach, ultimately achieve, what you will finally do. Focus on the end result every day, the final result. Do not focus on the little steps you must take every day.",
+      "Focus on the final result every day. Second, focus on the purpose, the reason you are learning English. I mean why? If your purpose is to take the TOEFL exam, you’re going to be stressed and depressed. Nobody is excited about a test, nobody I know. That’s not a good emotional thing to focus on. It’s not a good reason to learn English.",
+      "Taking a test is a terrible reason because it makes you feel stressed, nervous, tired and bored. You need bigger, better reasons. Yes, maybe you need to take the TOEFL exam but why? Why do you want to pass the TOEFL exam? Maybe you want a great job that requires English, where you can use English in international trade perhaps.",
+      "Maybe you want to study in the United States, go to a University in the United States, have a great adventure in another country. Well that makes you feel good, right, thinking about that? Imagine yourself in New York City or in San Francisco, meeting native speakers, talking effortlessly, easily.",
+      "Making new friends, a great new job with more money, now those are great things to focus on. So you want to focus on compelling strong reasons why you’re learning English, why it’s important, the benefits, things that make you feel great. Do not focus on a test, please.",
+      "So those are the two things, you focus on the end result and they’re related, they’re basically the same thing. Number two you focus on the reasons why, the purpose. So you have to imagine very vividly, very strongly in your head what it is you will finally do. See the end result. And then feel the emotions.",
+      "The last step is you want to see the end result with emotion, let yourself feel that it’s real. So when you focus on speaking great English, feel the emotions. Feel proud. Feel happy. Feel confident. Smile big. Imagine how you will feel speaking excellent English. Okay, so let’s review very quickly about focus.",
+      "The main thing about focus, it’s very, very simple. You’re going to focus on the end result, the final result. You want to focus on the thing that makes you feel great, the situation, the benefits, all the great things that will improve in your life by speaking excellent English. That’s what you need to focus on every day. Write it down.",
+      "Write down, make a list of all the great things that will happen in your life when you speak excellent English. New friends, maybe? Maybe great new travel experiences. Maybe living or working abroad. Maybe a better job. I don’t know, you have to make your own list, but make it a big list.",
+      "Write down all the great things that will happen in your life and then every day",
+      "focus on those. Review those every day. Teach your brain to focus on these positive inspiring things, not on these negative things, not on problems, not on the past. Okay, so that is it for this main speech on “Emotional Mastery 2.” Focus. Next let’s listen to the vocabulary and then we’ll have the mini-story."
+    ],
+    "vocab": [
+      "Hello. Welcome to the vocabulary lesson for “Emotional Mastery 2.” Let’s get started. Now are you smiling? Is your posture strong? Are your shoulders back? Is your head up? Are you moving? You should be. Get in a strong peak emotional state right now before we begin. Okay, let’s start. Acquisition, the word acquisition.",
+      "I talk about language acquisition. Acquisition means to get something and keep it. So to get and keep. So language acquisition means you get language, in other words you learn it. You get it and you keep it. So the idea is that you don’t lose it. And sometimes, some teachers talk about language learning and language acquisition.",
+      "And the idea is that learning is more temporary, for example, in school for a test you learn English, you take the test then you forget it. That’s language learning. Language acquisition means you get the English, you keep it, you never forget it. So acquisition, to get and keep something. Another word we use in this lesson is anxiety.",
+      "Anxiety. Anxiety is nervousness or a feeling of stress. So anxiety, a feeling of nervousness or a feeling of stress. Anxiety, it’s the feeling, it’s a noun. Now the adjective is anxious. So you might say “I am anxious” or “I feel anxious.” It means I feel worried, I feel nervous, I feel stressed. I feel anxious.",
+      "So anxiety is the noun, anxious the adjective. Our next word, vividly. I say imagine your future vividly. Imagine your goal vividly. Vividly means clearly, colorfully. It has this idea of very powerfully, right? You can imagine your future. Let’s say, imagine yourself speaking English very well.",
+      "Maybe the picture is kind of small and dark, not clear. But if I say imagine your future vividly, you see yourself speaking English but it’s a big, clear, colorful picture. So vividly has this idea of colorfully. The adjective is vivid. Vivid, we sometimes talk about a vivid picture, a vivid photograph.",
+      "Very colorful, clear, strong photograph, a vivid photograph. Alright, another word we have in this lesson is visualize. You probably know visual. Visual means related to seeing, related to the eyes. To say “I am a visual person” means I like to look at things. My emotions are strongest when I look.",
+      "So visual, related to seeing or about seeing, about your eyes. To visualize is a verb, it’s an action. And it really means to imagine. It means to see in your head. So visualize your future means see your future in your head. I can say “Visualize a hamburger right now” it means see a hamburger in your head, visualize. Visualize.",
+      "Another word we have in this lesson is comprehension. I talk about listening comprehension. Comprehension means understanding, very simple. So listening comprehension means listening understanding. It means you understand what’s",
+      "happening. The verb is to comprehend. I comprehended the story. I understood the story. So what’s the difference, understand and comprehend? Well, comprehend is really more formal, it sounds a little more intellectual or something. Understand is more common. Okay, our next word is ultimately. Ultimately or ultimate.",
+      "Ultimately means finally. In the end, finally. Ultimately you must study every day. It means finally, the final point, you must study every day. Ultimately. And ultimate means final, the last. Sometimes ultimate has the idea of most or best, it can have that idea in some situations also. But the direct meaning is final or last.",
+      "And our final ultimate word in this lesson is compelling. Compelling. Compelling means inspiring, something that motivates you. You say “That was a compelling story,” it was an emotionally powerful story. It was an inspiring story. It created strong emotion. It made you want to do something.",
+      "So in the lesson I say you need compelling reasons to learn English. You need inspiring reasons to learn English. You need strong, positive, emotional reasons to learn English. Reasons that make you want to take action, to do something. Compelling has this idea of wanting to take action, wanting to do something.",
+      "And that is all for our vocabulary lesson for “Emotional Mastery 2.” Again, listen to it a few times. Remember you need to be in a peak emotional state. If you get tired, anytime, any lesson, pause, change your posture. Breathe deeply. Smile and move. Feel better and then come back and start again. Okay, I’ll see you for the mini-story."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English, where we bring you an entertaining topic and six related items of vocabulary. I'm Neil… and those guffaws you can hear are coming from Tim. So what's so funny, Tim?",
+      "Tim: Can you pass me a glass of water?",
+      "Neil: Yes, OK, here you go.",
+      "Tim: It was just something our producer said before I came into the studio. A guffaw by the way is a loud laugh that you can't control...",
+      "Neil: So while Tim laughs his head off – and that means to laugh very loudly for a long time – I'll introduce the show. Today, Tim, we're talking about laughter and how it could kill you…",
+      "Tim: Oh come on, Neil! That's not funny! Laughing is good for you – everyone knows that!",
+      "Neil: Well, not when you laugh like that, Tim! You're bright red in the face, you've got tears streaming down your face. And you nearly choked on a glass of water! Choke means to stop breathing because something is blocking your throat by the way. Now, without laughing or choking, can you please tell me how many times a day the average adult laughs? Is it… a) 17, b) 70 or c) 700?",
+      "Tim: Hmm. Surely it depends on what type of person you are?",
+      "Neil: Maybe it does. That's why I'm asking about the average number of times Tim, so just make an intelligent guess.",
+      "Tim: OK, well I laugh a lot so I'm going to say 70 times a day. 700 times seems like you'd be laughing all the time… But you've worried, me Neil – I know we sometimes say, I nearly died laughing – but nobody does actually die laughing, do they?",
+      "Neil: Well, I think the risk of dying of laughter is probably low – but in theory, what happens when we laugh is potentially dangerous! Let's listen to cognitive neuroscientist Sophie Scott talking about what happens when we laugh.",
+      "INSERT: Sophie Scott, cognitive neuroscientist Laughter – in a competition for control over your ribcage in your brain between laughter and breathing and speaking – laughter will always win. And laughter just takes those same muscles and it squeezes them – eh eh eh eh – and the air goes – out out out out – and notably it does not want to let you breathe in. It's trying to kill you. It's quite dangerous.",
+      "Tim: So when you laugh a lot your diaphragm – that's the sheet of muscle below your lungs – contracts and squeezes the air out of your lungs.",
+      "Neil: This makes it hard to breathe – which is why you were gasping for breath earlier, Tim! And that's why laughter can kill you!",
+      "Tim: Gasping means having difficulty breathing. Well, I've caught my breath now – I didn't die – and I think it's fair to say, Neil, that laughter is good for you. When you laugh, your body releases happy hormones… And according to some research, people feel less pain as a result of having a good laugh.",
+      "Neil: So scientists are saying laughter is a sort of natural painkiller?",
+      "Tim: Apparently, yes. They've done research where they make people laugh, and then test their pain levels afterwards. And they found that if people only chuckle a bit it doesn't act as a painkiller, but if you laugh a lot, it does.",
+      "Neil: So a chuckle sounds like this [chuckles]. Chuckling means to laugh quietly. So you need belly laughter then – great big guffaws?",
+      "Tim: That's right. A guffaw is pretty much the opposite of a chuckle. I was guffawing earlier in the show. Would you like to demonstrate your own guffaw, Neil?",
+      "Neil: [hearty guffaw]",
+      "Tim: Fantastic – can I try pinching you now, and test whether you feel any pain?",
+      "Neil: No, you can't, Tim. It's time for the answer to today's quiz question. I asked you: How many times a day does the average adult laugh? Is it… a) 17, b) 70 or c) 700?",
+      "Tim: I said 70…",
+      "Neil: Sorry. The right answer is actually 17 – less than you thought I'm afraid, Tim. But children laugh on average 300 times a day.",
+      "Tim: That's a big difference! You see, Neil, we all need to laugh more. You shouldn't be trying to tell us that laughing is dangerous.",
+      "Neil: Maybe you're right. So let's move on and go over the words we learned today. The first one is 'guffaw' – which is a loud laugh that you can't control...",
+      "Tim: “Neil surprised us with his deep guffaw.”",
+      "Neil: Next up – number two – to 'laugh your head off' – means to laugh very loudly for a long time.",
+      "Tim: “It's a really funny movie – you'll laugh your head off!”",
+      "Neil: OK – number three – 'choke' means to stop breathing because something is blocking your throat.",
+      "Tim: “I nearly choked to death on a cheese sandwich.”",
+      "Neil: Poor Tim – you should eat more slowly! 'Diaphragm' is our next word, and that's the sheet of muscle separating your lungs from your stomach. We use our diaphragms for breathing, talking, and laughing!",
+      "Tim: “Do opera singers have more powerful diaphragms than other people?”",
+      "Neil: I don't know the answer to that, Tim. So number five, which is 'gasping', which means having difficulty breathing. “He was gasping for breath as he swam to the surface of the swimming pool.”",
+      "Tim: But 'gasp' also means to be shocked or surprised by something. For example, “I gasped in astonishment when I heard Neil laugh.”",
+      "Neil: Our final word is 'chuckle' which means to laugh quietly.",
+      "Tim: “The audience chuckled through the show but they didn't seem very amused.”",
+      "Neil: Oh dear. Well I hope our audience has been amused today. If you're looking for more laughs, then please check out our Facebook, Twitter, Instagram and YouTube pages. You may find something to make you chuckle or guffaw there. Tim and Neil Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What does Elvis want to do?",
+        "a": "Swim, Elvis wants to swim."
+      },
+      {
+        "q": "What is Elvis?",
+        "a": "Well, of course, Elvis is a spider."
+      },
+      {
+        "q": "How many legs does Elvis have?",
+        "a": "Eight, just checking."
+      },
+      {
+        "q": "Okay, Elvis has eight legs because?",
+        "a": "Because he’s a spider, of course."
+      },
+      {
+        "q": "What is his problem?",
+        "a": "Well, his problem is he can’t swim."
+      },
+      {
+        "q": "Does he want to swim a short way or a long way?",
+        "a": "A long way, he wants to swim a very long way."
+      },
+      {
+        "q": "How far does Elvis the spider want to swim?",
+        "a": "He wants to swim across the Atlantic Ocean."
+      },
+      {
+        "q": "So where does Elvis live?",
+        "a": "Elvis lives in London, he’s a British spider."
+      },
+      {
+        "q": "Which city does he live in? New York?",
+        "a": "No, London. Elvis the spider lives in London and he has a problem. He can’t swim."
+      },
+      {
+        "q": "Where does he want to swim to?",
+        "a": "He wants to swim to New York City."
+      },
+      {
+        "q": "Who wants to swim to New York City?",
+        "a": "Elvis the spider."
+      },
+      {
+        "q": "From where?",
+        "a": "From London, he wants to swim to New York City from London."
+      },
+      {
+        "q": "Can he swim now?",
+        "a": "No, no, no, Elvis can’t swim now. He can’t swim now but he wants to swim from London to New York City."
+      },
+      {
+        "q": "What does he decide to do?",
+        "a": "To practice, he decides to practice."
+      },
+      {
+        "q": "Where does he practice?",
+        "a": "In the North Sea."
+      },
+      {
+        "q": "What does he practice in the North Sea?",
+        "a": "Swimming, he practices swimming in the North Sea."
+      },
+      {
+        "q": "So Elvis the dog practices swimming in the North Sea?",
+        "a": "No, not the dog, Elvis the spider, of course. Elvis the spider practices swimming in the North Sea."
+      },
+      {
+        "q": "Is it hot? Is it warm?",
+        "a": "No, it’s cold. It’s very cold in the North Sea."
+      },
+      {
+        "q": "Is the North Sea hot or cold?",
+        "a": "Well, it’s cold, it’s very cold in the North Sea."
+      },
+      {
+        "q": "Does he freeze? Is he very, very cold?",
+        "a": "Yes, he freezes."
+      },
+      {
+        "q": "Where does he freeze?",
+        "a": "In the North Sea, of course, he freezes in the North Sea."
+      },
+      {
+        "q": "Does Elvis almost die?",
+        "a": "Yeah, exactly, he almost drowns. He almost goes under the water forever."
+      },
+      {
+        "q": "Why does he almost drown?",
+        "a": "Because he’s freezing, it’s so cold he can’t swim."
+      },
+      {
+        "q": "Does Elvis swim successfully or not?",
+        "a": "Not, he does not swim successfully. He almost drowns. He almost dies."
+      },
+      {
+        "q": "Why does he go to the YMCA pool? Why? What’s his purpose?",
+        "a": "Well, his purpose is to practice for swimming from London to New York."
+      },
+      {
+        "q": "What does he want to practice for?",
+        "a": "He wants to practice for swimming from London to New York."
+      },
+      {
+        "q": "What is his purpose? What is his reason for practicing?",
+        "a": "Well, swimming from London to New York. That is his ultimate purpose."
+      },
+      {
+        "q": "So what is his ultimate purpose? What is his final goal?",
+        "a": "His ultimate, his final purpose, is to swim from London to New York."
+      },
+      {
+        "q": "Is his ultimate purpose to swim from London to Rome?",
+        "a": "No, that’s not his ultimate purpose. His ultimate purpose is to swim from London to New York."
+      },
+      {
+        "q": "What does he want to swim across?",
+        "a": "Across the Atlantic Ocean to New York."
+      },
+      {
+        "q": "Does he want to swim across New York?",
+        "a": "Not across New York, to New York."
+      },
+      {
+        "q": "Does he want to swim to the Atlantic Ocean?",
+        "a": "No, he wants to swim across the Atlantic Ocean."
+      },
+      {
+        "q": "Is that his ultimate purpose?",
+        "a": "Yes, it is. It’s his final reason for practicing. His ultimate purpose is to swim from London to New York."
+      },
+      {
+        "q": "Whose ultimate purpose is it?",
+        "a": "Elvis the spider, it’s Elvis’ ultimate purpose."
+      },
+      {
+        "q": "Every day does he imagine himself arriving in New York?",
+        "a": "Yes, every day he visualizes, he imagines himself arriving in New York."
+      },
+      {
+        "q": "Every day does he seem himself in his mind arriving in New York successfully?",
+        "a": "Yes, absolutely. He visualizes, every day he visualizes, he imagines, he sees, every day he visualizes himself arriving in New York. All his eight legs swimming across the Atlantic arriving in New York."
+      },
+      {
+        "q": "What does he visualize?",
+        "a": "He visualizes arriving in New York City."
+      },
+      {
+        "q": "How often does he visualize this?",
+        "a": "Every day, every day he visualizes arriving in New York."
+      },
+      {
+        "q": "Does he visualize vividly?",
+        "a": "Yes he does. He visualizes vividly. He visualizes powerfully, clearly and colorfully, vividly."
+      },
+      {
+        "q": "How does he visualize?",
+        "a": "Vividly, he vividly sees himself arriving in New York City."
+      },
+      {
+        "q": "Does he vividly imagine success?",
+        "a": "Oh yes, very clearly. Very powerfully, very colorfully, he sees success. He imagines success. He vividly visualizes arriving in New York. And he practices every day."
+      },
+      {
+        "q": "Where does he practice swimming every day?",
+        "a": "At the YMCA, every day he practices swimming at the YMCA pool. He swims with all his eight legs in the pool. Swimming every day, swimming and visualizing. Swimming and visualizing. Swimming and visualizing. He sees in his head arriving in New York. And he swims in the pool, swims in the pool."
+      },
+      {
+        "q": "What does Elvis ultimately do?",
+        "a": "He ultimately is successful. He ultimately arrives in New York City. He ultimately swims from London to New York City. He finally swims from London to New York City."
+      },
+      {
+        "q": "Who is ultimately successful?",
+        "a": "Elvis, Elvis the spider is ultimately successful. He has problems, he has difficulties but ultimately, but finally, he is successful."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "language acquisition",
+      "pos": "phrase",
+      "uz": "tilni egallash (oʻrganib, saqlab qolish)",
+      "defEn": "getting a language and keeping it, so you don't forget it",
+      "example": "Anxiety is the number one negative factor in language acquisition."
+    },
+    {
+      "en": "anxiety",
+      "pos": "n",
+      "uz": "xavotir, asabiylik, stress hissi",
+      "defEn": "a feeling of nervousness or stress",
+      "example": "Anxiety makes you learn more slowly."
+    },
+    {
+      "en": "to feel anxious",
+      "pos": "phrase",
+      "uz": "xavotirlanmoq, asabiy/tashvishli boʻlmoq",
+      "defEn": "to feel worried, nervous or stressed",
+      "example": "I feel anxious before a big test."
+    },
+    {
+      "en": "to visualize (something)",
+      "pos": "v",
+      "uz": "koʻz oldiga keltirmoq, xayolda koʻrmoq",
+      "defEn": "to see something in your mind; to imagine it",
+      "example": "Every day he visualizes arriving in New York."
+    },
+    {
+      "en": "vividly",
+      "pos": "adv",
+      "uz": "yorqin, aniq va rangdor tarzda",
+      "defEn": "clearly, colorfully and powerfully",
+      "example": "Imagine your future vividly."
+    },
+    {
+      "en": "listening comprehension",
+      "pos": "phrase",
+      "uz": "tinglab tushunish (eshitganini anglash)",
+      "defEn": "understanding what you hear",
+      "example": "Relaxed students have better listening comprehension."
+    },
+    {
+      "en": "to focus on (something)",
+      "pos": "phrase",
+      "uz": "eʼtibor qaratmoq, diqqatni bir narsaga jamlash",
+      "defEn": "to give your attention to one thing",
+      "example": "Focus on the end result, not on your mistakes."
+    },
+    {
+      "en": "the end result",
+      "pos": "phrase",
+      "uz": "yakuniy natija (pirovard maqsad)",
+      "defEn": "the final outcome you want to reach",
+      "example": "Focus on the end result every day."
+    },
+    {
+      "en": "compelling reasons",
+      "pos": "phrase",
+      "uz": "kuchli, ilhomlantiruvchi sabablar",
+      "defEn": "strong, inspiring reasons that make you want to act",
+      "example": "You need compelling reasons to learn English."
+    },
+    {
+      "en": "ultimately",
+      "pos": "adv",
+      "uz": "oxir-oqibat, pirovardida",
+      "defEn": "finally; in the end",
+      "example": "Ultimately, you must study every day."
+    }
+  ],
+  "englishpod": {
+    "id": "0197",
+    "title": "Global View – Calling 911",
+    "titleUz": "Global koʻrinish — 911 ga qoʻngʻiroq qilish",
+    "warmup": {
+      "uz": "Bu suhbatda oʻqituvchi bolalardan “qanday vaziyatda 911 ga qoʻngʻiroq qilasiz?” deb soʻraydi va bolalar “agar ... boʻlsa” deb javob beradi. Emotional Mastery mavzusiga mos: xavotir (anxiety) paytida ham tinch fikrlash muhim. Bolalar sanaydigan har bir javob — birinchi shart (grammatika B!). Sizningcha, ular yana qaysi favqulodda vaziyatlarni aytishi mumkin?",
+      "en": "In this dialogue a teacher asks children when they would call 911, and they answer with “If…”. It fits the Emotional Mastery theme: staying calm and thinking clearly under stress. Every answer the children give is a first conditional (grammar B!). What other emergencies do you think they might name?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0197/dg.mp3",
+        "durationSec": 58,
+        "bytes": 500194
+      },
+      "pr": {
+        "path": "englishpod/0197/pr.mp3",
+        "durationSec": 665,
+        "bytes": 10667466
+      },
+      "rv": {
+        "path": "englishpod/0197/rv.mp3",
+        "durationSec": 376,
+        "bytes": 6051047
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Alright class, now that we’re all dressed up let’s see what professions you chose. Ah, I see a fireman, a police officer, a medic, and a lifeguard! Can anyone tell me what these people have in common?"
+      },
+      {
+        "speaker": "B",
+        "en": "They save people from bad things?"
+      },
+      {
+        "speaker": "A",
+        "en": "That’s right! Now class, if something bad happened and you had to get help, do you know what phone number you would call?"
+      },
+      {
+        "speaker": "C",
+        "en": "911!"
+      },
+      {
+        "speaker": "A",
+        "en": "Yes, you would pick up the phone and dial 911. What are some emergency situations where you would need to dial 911?"
+      },
+      {
+        "speaker": "B",
+        "en": "If my grandpa has a heart attack!"
+      },
+      {
+        "speaker": "C",
+        "en": "If there is an accident!"
+      },
+      {
+        "speaker": "B",
+        "en": "If a robber breaks into the house!"
+      },
+      {
+        "speaker": "C",
+        "en": "If the fire alarm goes off!"
+      },
+      {
+        "speaker": "B",
+        "en": "Pff! I wouldn’t call 911 if the fire alarm went off in my house. The only time that ever happens is when we’re having spaghetti for supper, and Mom burns the garlic bread, as usual."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to dress up",
+        "uz": "chiroyli/maxsus kiyim kiymoq, boshqa qiyofaga kirmoq",
+        "defEn": "to put on special or fancy clothes, or a disguise"
+      },
+      {
+        "en": "profession",
+        "uz": "kasb (maxsus tayyorgarlik talab qiladigan)",
+        "defEn": "an occupation that requires special training"
+      },
+      {
+        "en": "a lifeguard",
+        "uz": "qutqaruvchi (suvda choʻkishdan asrovchi)",
+        "defEn": "a person who protects people from drowning"
+      },
+      {
+        "en": "to dial",
+        "uz": "raqam termoq (telefon)",
+        "defEn": "to press the buttons to make a telephone call"
+      },
+      {
+        "en": "to break into (a house)",
+        "uz": "(uyga) buzib/zoʻrlik bilan kirmoq",
+        "defEn": "to enter a house illegally, especially by force"
+      },
+      {
+        "en": "to go off (an alarm)",
+        "uz": "(signal) qattiq jiringlamoq, ishga tushmoq",
+        "defEn": "to ring or sound loudly, e.g. an alarm"
+      },
+      {
+        "en": "a heart attack",
+        "uz": "yurak xuruji (infarkt)",
+        "defEn": "a dangerous condition where the heart stops beating properly"
+      },
+      {
+        "en": "a robber",
+        "uz": "oʻgʻri, talonchi",
+        "defEn": "a person who robs or steals"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170831",
+    "title": "Laughing could kill you",
+    "titleUz": "Kulgi sizni oʻldirishi mumkin",
+    "audio": {
+      "main": {
+        "path": "sixmin/170831/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6039526,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many times a day does the average adult laugh?",
+        "qUz": "Oʻrtacha katta odam kuniga necha marta kuladi?",
+        "options": [
+          "17",
+          "70",
+          "700"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 17. Tim 70 dedi va xato qildi. Neil aytadiki, oʻrtacha katta odam kuniga atigi 17 marta kuladi — bolalar esa kuniga taxminan 300 marta! Demak, koʻproq kulishimiz kerak (you should laugh more — grammatika A!)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "a guffaw",
+        "uz": "qah-qah kulgi (baland, tiyib boʻlmas kulgi)",
+        "defEn": "a loud laugh that you can't control"
+      },
+      {
+        "en": "to laugh your head off",
+        "uz": "qotib-qotib, oʻlaridek kulmoq",
+        "defEn": "to laugh very loudly for a long time"
+      },
+      {
+        "en": "to choke",
+        "uz": "boʻgʻilmoq (nafas yoʻli tiqilib qolmoq)",
+        "defEn": "to stop breathing because something is blocking your throat"
+      },
+      {
+        "en": "diaphragm",
+        "uz": "diafragma (oʻpka ostidagi nafas mushagi)",
+        "defEn": "the sheet of muscle separating your lungs from your stomach"
+      },
+      {
+        "en": "gasping",
+        "uz": "hansirash, nafasi qaytish",
+        "defEn": "having difficulty breathing; struggling for air"
+      },
+      {
+        "en": "to chuckle",
+        "uz": "ohista, sekingina kulmoq",
+        "defEn": "to laugh quietly"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to master your emotions and focus your mind",
+      "channel": "TEDx Talks"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "A friend feels anxious and stressed about learning English. What advice would you give them? Tell them what they should focus on, and say what will happen if they follow your advice.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: maslahat modallari (You should… / You'd better… / Why don't you…?) va shart gaplar (If you focus on…, you will…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/03/main.mp3",
+      "bytes": 10163549
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/03/main.pdf",
+      "bytes": 53035
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/03/vocab.mp3",
+      "bytes": 5918330
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/03/ministory.mp3",
+      "bytes": 10810520
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0197/dg.mp3",
+      "bytes": 500194
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0197/transcript.pdf",
+      "bytes": 93962
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170831/audio.mp3",
+      "bytes": 6039526
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170831/transcript.pdf",
+      "bytes": 323049
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

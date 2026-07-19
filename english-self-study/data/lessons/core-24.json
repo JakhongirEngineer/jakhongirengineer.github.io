@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 2,
+  "id": "core-24",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 24,
+  "slug": "adventure",
+  "title": "Adventure",
+  "titleUz": "Sarguzasht",
+  "level": "B1-B2",
+  "tags": [
+    "adventure",
+    "travel",
+    "articles",
+    "narrative-tenses",
+    "storytelling"
+  ],
+  "intro": {
+    "uz": "Sarguzasht — hayotni yangilik, sayohat va tavakkal bilan toʻldirish. Tim Ferriss buni “Adventure Deficit Disorder” (sarguzasht yetishmovchiligi) deb ataydi: koʻp kattalar bir xil zerikarli tartibda qotib qoladi. Bu haftaning ikki grammatik mavzusi: artikllar 3 — a/an, the va artiklsiz shaklning toʻliq mustahkamlanishi, hamda hikoya zamonlari — past continuous va past perfect. Michelle haqidagi POV hikoyada voqeani qatlamma-qatlam eshitasiz.",
+    "en": "Adventure — filling life with novelty, travel and risk. Tim Ferriss calls its absence “Adventure Deficit Disorder”: many adults get stuck in the same boring routine. This week's two grammar topics: articles 3 — the full consolidation of a/an, the and the zero article, plus narrative tenses — past continuous and past perfect. You'll hear the story unfold in layers in the POV about Michelle."
+  },
+  "canDo": {
+    "uz": "Dars oxirida sayohat va sarguzasht haqida gapirganda a/an, the va artiklsiz shaklni toʻgʻri tanlab qoʻya olasiz, hamda oʻz sarguzashtingizni past continuous (I was travelling…) va past perfect (I had never seen…) yordamida qatlam-qatlam soʻzlab bera olasiz.",
+    "en": "By the end you can choose a/an, the and the zero article correctly when talking about travel and adventure, and tell your own adventure in layers using the past continuous (I was travelling…) and the past perfect (I had never seen…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "articles-3-consolidation",
+      "titleUz": "Artikllar 3: a/an, the, artiklsiz — toʻliq mustahkamlash",
+      "titleEn": "Articles 3 — full a/an/the/zero consolidation",
+      "bandLifter": "IELTS Speaking & Writing — accurate a/an, the and zero article",
+      "cefrCanDo": "B1→B2: I can choose a/an, the or no article correctly in connected speech",
+      "bodyHtml": "<p>Bu dars sarguzasht va sayohat haqida. Masalan: <em>Go find <strong>an</strong> adventure. Take <strong>a</strong> trip. Go to <strong>the</strong> airport, get on <strong>the</strong> plane, and just enjoy ø nature.</em> Bir jumlada uch xil holat — <strong>a</strong>, <strong>the</strong> va hech qanday artikl (ø). Sayohat — artikllarni his qilishning eng qulay maydoni, chunki har bir gap aniq bir narsaga ishora qiladi. Bu — bizning eng katta ogʻriq nuqtamiz (pain #1) ustidan hal qiluvchi zarba.</p>\n<h3>Uch tanlov: <code>a/an</code>, <code>the</code>, yoki ø (artiklsiz)</h3>\n<p>Har safar ot aytishdan oldin miya bitta savol beradi: <em>tinglovchi bu aynan qaysi narsa ekanini bilyaptimi?</em></p>\n<ul>\n<li><strong>a / an</strong> — <em>bittasi, qaysidir biri</em> (birinchi marta tilga olinyapti, tinglovchi hali bilmaydi): <em>I want <strong>a</strong> holiday. I met <strong>an</strong> interesting guide.</em></li>\n<li><strong>the</strong> — <em>aynan oʻsha</em> (ikkalamiz ham qaysi biri ekanini bilamiz — avval aytilgan, yagona, yoki vaziyatdan aniq): <em>We went to <strong>the</strong> airport. <strong>The</strong> trip changed my life.</em></li>\n<li><strong>ø (artiklsiz)</strong> — umumiy maʼnodagi <strong>sanaladigan koʻplik</strong> va <strong>sanalmaydigan</strong> otlar: <em>I love ø travelling. ø Adventure makes life exciting. ø Mountains are beautiful.</em></li>\n</ul>\n<p>Sayohat tilida uchalasi yonma-yon yashaydi: <em>I booked <strong>a</strong> flight. At <strong>the</strong> airport I felt free. I finally had ø freedom.</em></p>\n<h3>Kichik, ammo hal qiluvchi qoidalar</h3>\n<ul>\n<li><strong>a → an</strong>: keyingi soʻz <em>tovushi</em> unli boʻlsa — <em>an hour, an honest man</em> (harfga emas, tovushga qarang).</li>\n<li><strong>the</strong> — yagona narsalar bilan: <em>the sun, the sea, the world, the Internet.</em></li>\n<li>Umumlashtirganda <strong>ø</strong>: <em>I like ø music</em> (umuman musiqa), lekin <em>I like <strong>the</strong> music in this film</em> (aynan shu).</li>\n</ul>\n<h3>Ingliz↔oʻzbek farqi (bu yerda eng koʻp xato)</h3>\n<p>Oʻzbek tilida <strong>artikl umuman yoʻq</strong>. &quot;Sayohatga chiqdim&quot; desangiz, bu &quot;a trip&quot;mi yoki &quot;the trip&quot;mi — kontekst hal qiladi. Ingliz tili esa buni <strong>majburan</strong> koʻrsatadi: birinchi marta — <em>a trip</em>, keyin oʻsha narsa — <em>the trip</em>. Shuning uchun oʻzbek oʻquvchi koʻpincha artiklni umuman tashlab yuboradi (❌ <em>I want adventure</em>), yoki hamma joyda <em>the</em> qoʻyadi.</p>\n<h3>Xatoni tuzatamiz</h3>\n<blockquote>\n<p>❌ <em>I went to airport and took plane.</em>\n✅ <em>I went to <strong>the</strong> airport and took <strong>the</strong> plane.</em>\nSababi: aeroport ham, samolyot ham vaziyatdan aniq (yagona, biladigan narsa) → <strong>the</strong>. Sanaladigan birlik ot <strong>hech qachon</strong> artiklsiz qolmaydi — hech boʻlmasa <em>a/an</em> kerak.</p>\n</blockquote>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>Artikllar — IELTS Speaking va Writingʼda tekshiruvchi eng birinchi payqaydigan aniqlik belgisi. <em>&quot;I took <strong>a</strong> trip to <strong>the</strong> mountains and discovered ø real adventure&quot;</em> — bir jumlada uchala tanlovni toʻgʻri qoʻyib, siz darajangizni ovoz chiqarmasdan koʻrsatasiz.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> artiklni qoidadan emas, ovozdan oʻrganing. Har kuni sayohat haqida uchta jumla ayting: <em>&quot;I want <strong>a</strong> long trip. <strong>The</strong> best trip was to Samarkand. I love ø travelling.&quot;</em> Ovoz chiqarib takrorlang — quloq oʻzi qaysi biri &quot;tabiiy&quot; ekanini eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida artikl umuman yoʻq: “sayohatga chiqdim” — bu “a trip”mi yoki “the trip”mi, faqat kontekstdan bilinadi. Ingliz tili buni majburan koʻrsatadi: birinchi marta — a trip (qaysidir biri), keyin oʻsha narsa — the trip (aynan oʻsha). Umumiy maʼnodagi sanaladigan koʻplik va sanalmaydigan otlarda esa artiklsiz (ø): I love ø travelling.",
+      "errorFixUz": "❌ I went to airport and took plane. ✅ I went to the airport and took the plane. Vaziyatdan aniq (yagona, biladigan) narsa → the; sanaladigan birlik ot hech qachon artiklsiz qolmaydi — hech boʻlmasa a/an kerak.",
+      "examples": [
+        {
+          "en": "I took a trip to the mountains.",
+          "uz": "Men togʻlarga sayohatga chiqdim."
+        },
+        {
+          "en": "We waited at the airport for hours.",
+          "uz": "Biz aeroportda soatlab kutdik."
+        },
+        {
+          "en": "Adventure makes life exciting.",
+          "uz": "Sarguzasht hayotni qiziqarli qiladi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Last summer I took ___ amazing trip to Thailand.",
+          "options": [
+            "an",
+            "a",
+            "the"
+          ],
+          "answer": "an",
+          "hintUz": "birinchi marta tilga olinyapti + keyingi tovush unli (amazing) → an"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "We got to ___ airport two hours early.",
+          "options": [
+            "the",
+            "a",
+            "an"
+          ],
+          "answer": "the",
+          "hintUz": "vaziyatdan aniq (yagona, biladigan narsa) → the"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I really love ___ travelling.",
+          "options": [
+            "no article",
+            "a",
+            "the"
+          ],
+          "answer": "no article",
+          "hintUz": "umumiy maʼnodagi sanalmaydigan ot → artiklsiz (ø)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): eng yaxshi sayohatingiz haqida uchta jumla — “I took a … . The … was … . I love ø … .” — uchala tanlovni (a / the / artiklsiz) ishlating.",
+          "answer": null,
+          "hintUz": "birinchi marta → a/an; aynan oʻsha → the; umumiy → artiklsiz"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "narrative-tenses",
+      "titleUz": "Hikoya zamonlari: past continuous va past perfect",
+      "titleEn": "Narrative tenses — past continuous & past perfect",
+      "bandLifter": "IELTS Part 2 — tell a story in vivid layers",
+      "cefrCanDo": "B1→B2: I can narrate a past event with background and earlier actions",
+      "bodyHtml": "<p>Har bir sarguzasht — bu <strong>hikoya</strong>. Michelle haqidagi POVʼni oʻtmishda soʻzlab bering: <em>&quot;Michelle <strong>was working</strong> too hard when she suddenly <strong>had</strong> a meltdown. She <strong>had</strong> never <strong>felt</strong> so free until she moved to Thailand.&quot;</em> Aynan shu ikki zamon — <strong>past continuous</strong> va <strong>past perfect</strong> — hikoyani jonlantiradi va IELTS Part 2ʼda (&quot;Describe an adventure…&quot;) darajangizni koʻtaradi.</p>\n<h3>Past continuous: fon — nima <em>davom etayotgan</em> edi</h3>\n<p><strong>was / were + V-ing</strong> — oʻtmishning bir nuqtasida <strong>davom etayotgan</strong>, tugamagan harakat. U hikoyaning <em>fonini</em> chizadi; keyin qisqa, tugallangan harakat (past simple) uni &quot;kesib&quot; oʻtadi.</p>\n<ul>\n<li><em>I <strong>was travelling</strong> through the mountains when the storm <strong>started</strong>.</em> — Togʻlarda sayohat qilayotgan edim, shunda boʻron boshlandi.</li>\n<li><em>While she <strong>was screaming</strong> at her boss, everyone <strong>stopped</strong> and <strong>looked</strong>.</em> — U boshligʻiga baqirayotganda, hamma toʻxtab qaradi.</li>\n</ul>\n<p>Qolip: <strong>uzoq fon (was + V-ing) + <code>when</code> + qisqa hodisa (past simple)</strong>.</p>\n<h3>Past perfect: oldinroq boʻlgan ish — &quot;orqaga qadam&quot;</h3>\n<p><strong>had + V3</strong> — oʻtmishdagi bir paytdan <em>yana ham oldin</em> boʻlib oʻtgan ishni koʻrsatadi. Hikoyada tartibni chalkashtirmasdan &quot;ortga&quot; qaytishga imkon beradi.</p>\n<ul>\n<li><em>By the time she quit, the stress <strong>had built</strong> for five years.</em> — U ishdan ketganda, zoʻriqish besh yildan beri toʻplanib boʻlgandi.</li>\n<li><em>She <strong>had</strong> never <strong>seen</strong> the ocean before she moved to Thailand.</em> — Tailandga koʻchishidan oldin u okeanni hech koʻrmagandi.</li>\n</ul>\n<h3>Ikkisi birga — hikoyaning yuragi</h3>\n<ul>\n<li><em>Michelle <strong>had worked</strong> at IBM for years and she <strong>was earning</strong> great money, but one day she just <strong>broke</strong>.</em> — uch qatlam: eng oldingi ish (had worked), fon (was earning), asosiy hodisa (broke).</li>\n</ul>\n<h3>Ingliz↔oʻzbek farqi</h3>\n<p>Oʻzbekcha hikoyada koʻpincha hammasi bitta oʻtgan zamonda ketadi: <em>&quot;Ishlardim, boʻron boshlandi, avval hech koʻrmagandim.&quot;</em> Ingliz tili esa vaqt qatlamlarini <strong>alohida shakllar</strong> bilan ajratadi: davom etayotgani → <em>was working</em>; undan oldingisi → <em>had worked</em>. Oʻzbekcha &quot;-yotgan edim&quot; ≈ past continuous, &quot;-gan edim&quot; ≈ past perfect.</p>\n<h3>Xatoni tuzatamiz</h3>\n<blockquote>\n<p>❌ <em>When the storm started, I travelled in the mountains.</em>\n✅ <em>When the storm started, I <strong>was travelling</strong> in the mountains.</em>\nSababi: sayohat allaqachon <strong>davom etayotgan</strong> fon edi (bir zumlik hodisa emas) → past continuous. Va: ❌ <em>Before I moved, I never saw the sea.</em> ✅ <em>Before I moved, I <strong>had</strong> never <strong>seen</strong> the sea.</em></p>\n</blockquote>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>Part 2ʼda voqeani boy, ketma-ket qatlamlar bilan aytish — B1→B2 chegarasini belgilaydigan asosiy koʻnikma. <em>&quot;I <strong>was hiking</strong> alone when I realised I <strong>had lost</strong> the trail&quot;</em> kabi bitta jumla ikki zamonni ustalik bilan qorishtiradi — bu ballni koʻtaradigan tabiiy hikoyachilikdir.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻz sarguzashtingizni ovoz chiqarib soʻzlab bering. Bitta &quot;fon + hodisa&quot; jumlasidan boshlang: <em>&quot;I <strong>was walking</strong> home when…&quot;</em> Keyin bitta &quot;orqaga qadam&quot; qoʻshing: <em>&quot;…because I <strong>had forgotten</strong> my key.&quot;</em> Har kuni bittadan — miya hikoya qatlamlarini oʻzi seza boshlaydi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha hikoyada koʻpincha hammasi bitta oʻtgan zamonda ketadi: “ishlardim, boʻron boshlandi, avval koʻrmagandim”. Ingliz tili vaqt qatlamlarini alohida shakllar bilan ajratadi: davom etayotgani → was working (oʻzbekcha “-yotgan edim”), undan oldingisi → had worked (oʻzbekcha “-gan edim”).",
+      "errorFixUz": "❌ When the storm started, I travelled in the mountains. ✅ When the storm started, I was travelling in the mountains. Fon — davom etayotgan ish → past continuous (was/were + V-ing); undan oldin boʻlgan ish → past perfect (had + V3): ✅ Before I moved, I had never seen the sea.",
+      "examples": [
+        {
+          "en": "I was travelling when the storm started.",
+          "uz": "Boʻron boshlanganda men sayohat qilayotgan edim."
+        },
+        {
+          "en": "By the time she quit, the stress had built for years.",
+          "uz": "U ishdan ketganda, zoʻriqish yillar davomida toʻplanib boʻlgandi."
+        },
+        {
+          "en": "She had never seen the ocean before she moved to Thailand.",
+          "uz": "Tailandga koʻchishidan oldin u okeanni hech koʻrmagandi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ through the mountains when the storm started.",
+          "options": [
+            "was travelling",
+            "travelled",
+            "have travelled"
+          ],
+          "answer": "was travelling",
+          "hintUz": "davom etayotgan fon + when → past continuous (was + V-ing)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "By the time she quit, the stress ___ for years.",
+          "options": [
+            "had built",
+            "built",
+            "was building"
+          ],
+          "answer": "had built",
+          "hintUz": "oʻtmishdagi paytdan yana oldin boʻlgan ish → past perfect (had + V3)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She had never ___ the ocean before that trip.",
+          "options": [
+            "seen",
+            "saw",
+            "seeing"
+          ],
+          "answer": "seen",
+          "hintUz": "had + V3 (uchinchi shakl): see → seen"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): kichik sarguzashtingizni bitta “fon + hodisa” bilan boshlang — “I was … when …” — keyin bitta “orqaga qadam” qoʻshing: “… because I had …”.",
+          "answer": null,
+          "hintUz": "fon → was/were + V-ing; oldingi ish → had + V3"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/24/main.mp3",
+      "durationSec": 770,
+      "bytes": 9236830,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/24/vocab.mp3",
+      "durationSec": 651,
+      "bytes": 7809551,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/24/ministory.mp3",
+      "durationSec": 630,
+      "bytes": 7554778,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/24/pov.mp3",
+      "durationSec": 336,
+      "bytes": 4036960,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Adventure Main Text Hello, this is AJ. Here we are again for our next lesson. Now this lesson, once again, is based on a small excerpt, a small section from the book The 4-Hour Workweek by Tim Ferriss. Again, I highly recommend this book. It’s a fantastic book, just a great book. I love it.",
+      "And this lesson is called “Adventure”, one of my favorite words, in fact, adventure. And in this section Tim Ferriss talks about what he calls “ADD for Adults.” Now it’s a bit of a joke because ADD means Attention Deficit Disorder. You don’t need to understand that. But, what it means basically, is its children who cannot concentrate.",
+      "So usually it’s something for children and it’s a child who cannot concentrate. And usually this happens in school, right? They can’t concentrate and so the doctors or the school or the teachers they decide “Your child has ADD. Your child has a problem. He can’t concentrate.” Now, in my opinion, this is mostly a bullshit diagnosis.",
+      "This is mostly a bullshit problem. Because the real problem is bored because the school sucks! So, in my opinion, ADD is actually quite healthy. Healthy children get ADD because they’re bored in school because the schools suck, so usually a teaching problem.",
+      "In fact, in my opinion, always, 100%, the teachers and the school are responsible. You don’t blame the child. You don’t blame the student, even if it’s an adult student. You have to take responsibility. Anyway, this ADD thing he’s kind of joking about this. But he has a different definition for ADD for adults, not for children.",
+      "He calls it “Adventure Deficit Disorder.” Deficit means you don’t have enough. Disorder is like a disease. So adult ADD means adults who don’t have enough adventure in their life, they don’t have enough adventure in their life. And Tim Ferriss believes this is a very serious disease that most adults have.",
+      "So what he’s saying is most adults are damn boring, they’re boring. They have no adventure in their life. They have no excitement in their life. And I agree, most of the adults I have met are boring, there’s no adventure in their life. So, Tim Ferriss talks about getting more adventure into your life.",
+      "Not just having exciting goals, but having your entire life be an adventure. It means you’re trying new things, you’re growing. You’re doing difficult things sometimes, sometimes scary things, but exciting, too. So let me read this section and then I’ll talk more about it.",
+      "“Adventure Deficit Disorder”– Somewhere between college graduation and your second job a chorus of people enters your internal dialogue in your mind, in your head. They say ‘Be realistic and stop pretending. Life isn’t like the movies, stop dreaming.",
+      "’ If you’re five years old and you say you want to be an astronaut your parents tell you that you can be anything you want to be. It’s harmless, like telling a child that Santa Clause exists. If you’re 25 and you announce that you want to start a new circus the response is quite different.",
+      "People say ‘Be realistic, become a lawyer, become an accountant or a doctor. Have babies and raise your babies to repeat the same cycle. ’ If you do manage to ignore all the doubters and you start your own business, adventure deficit disorder does not disappear it just takes a different form.",
+      "For example, when I started my own company in 2001 it was with a clear goal in mind. My goal was to make $1,000 per day. And my goal was to make $1,000 per day from passive income, to make money whether I was banging my head on a computer or cutting my toenails on the beach. This business was to be an automated source of cash flow.",
+      "But, if you look at my chronology, it is obvious that this didn’t happen until a meltdown forced it despite the income. Why? Well, my goal wasn’t specific enough. I had not defined alternative activities that would replace the initial workload. Therefore I just continued working, even though there was no financial need.",
+      "I needed to feel productive and I had no other activities. This is how most people work until death. Most people think ‘I’ll just work until I have $1,000 or $1,000,000 and then I’ll do what I want.",
+      "’ However, if you don’t define the alternative activities that dollar figure will increase indefinitely so that you can avoid the fear-inducing uncertainty of not know what to do next. This is why both employees and entrepreneurs become fat men in red BMWs.” Alright, that’s quite a little section there.",
+      "Tim Ferriss has quite strong ideas, as you can see, about life and about working. In his opinion, working for money is a bad thing. You want to work for passion. You want to work for excitement. You want to have a life full of passion and excitement, you’re life should not be dominated by trying to get money.",
+      "But he says what happens is that a lot of times we work and work and work not because we need money, just because we’re afraid to do something else. We don’t know what else to do. For example, a lot of people who retire, after they retire they lose their passion for life, they’re very unhappy. That seems crazy.",
+      "Why are they unhappy they’re free? It’s because they don’t know what else to do. They have no other dreams. So what he’s saying is that we often work a lot, just to avoid thinking about our life. Because we have no imagination, we’ve lost our imagination, we’ve lost our dreams, and so we just focus on work all the time.",
+      "And, you know, I can relate to this story.",
+      "This story sounds similar to my own story. Because after about one year, after I started my company Effortless English, well after one year I was making enough money. I didn’t need to work and yet I was still on the computer all the time.",
+      "I still do it sometimes, on the computer checking the advertising, checking the sales all the time. Why am I doing this? Well because I haven’t created enough other activities that are exciting and passionate for me. Now I’m doing that now, but I have to be careful about this.",
+      "I have to be careful that I don’t focus on work just to avoid boredom, just to avoid adventure. I have to make myself be adventurous. That’s why I travel all the time. That’s why I spend three to four months in Southeast Asia. So I break my pattern so I don’t just get stuck in this same boring routine doing the same thing all the time.",
+      "I force myself to break that, every year, break it, and go someplace different than San Francisco. And so you need to do that, too. You have to find some adventure in your life. Go someplace new. Find a new crazy goal, something strange and wonderful. Don’t get stuck just working, working, working.",
+      "And if you have a job where you’re forced to work, work and work all the time, you know, get a new job for God sakes. Find a new job. Even if you start your own company, don’t let the company own you. You own the company the company does not own you.",
+      "Make sure you create a company that will give you plenty of free time so that you can have adventure in your life, so you can travel, where you can learn amazing new things, different things. Not for money, just to learn, just to enjoy, just for the challenge and the adventure. So find other activities outside of work.",
+      "If work is your only focus in life you’re going to become boring. That’s why I’m taking singing lessons and I’m practicing singing every day. Because I’ve always wanted to do music and to be a singer, so now I’m doing it and it’s exciting. I love it.",
+      "That’s why I travel to Thailand and to Malaysia and why I want to go to Vietnam and to South India and I want to go all over the world. Because it’s an adventure, I don’t know what’s going to happen. There’s always a surprise every day when I do that. It’s not the same boring routine all the time.",
+      "And so I encourage you to do the exact same thing. Do something crazy, do something different. Bring surprise into your life. Bring variety into your life. Bring adventure into your life. Go find it. If you do that you’ll find that, again, your energy and your love for life are going to increase so much.",
+      "So I challenge you, go find adventure. Have you been just doing the same thing every day, every week, every year after year? Well it’s never too late, change it. Break that pattern and just do something crazy and fun and adventurous. You will not regret it, you’ll be so happy you did it. And then make it a habit again and again.",
+      "Always be finding new adventures, breaking your patterns.",
+      "Any time you just find yourself doing the same thing again, again, again, break it and do something different, do something new. Even if it’s crazy, just do it. Travel to some new place you’ve never been. And don’t just travel, don’t plan the vacation, go without a guide book. Try that.",
+      "You’ve never been there, no guide book, oh my God. That will be fun. That will be surprising and interesting. That will be adventurous. Or start some crazy new project, even in your hometown. Go do something totally different that you’ve never done before.",
+      "Start breaking those mental patterns then you’ll get more creativity in your life and more energy. Alright, I will see you next time. I want to hear about your adventures. Again, go to the Forums, tell us your adventures. What crazy, fun, amazing things are you doing now or have you decided to do soon? Tell us.",
+      "Tell us so we can become excited. Maybe we’ll try it, too. Maybe we’ll join you."
+    ],
+    "vocab": [
+      "Adventure Vocabulary Text Hello, welcome to the vocabulary lesson for “Adventure.” Now this will be a little bit shorter because it’s a little bit easier this time. Let’s start at the very beginning we have the phrase ‘internal dialogue’.",
+      "He says that after you graduate from college or perhaps high school and maybe before your second job, sometime in that time period, a chorus of people…chorus means group, a group of people…a group of people enters your internal dialogue. Internal means inside, so he means inside your mind, inside your brain. Dialogue means conversation.",
+      "So what is he talking about? He means that other people’s opinions, what other people say, it gets inside your head. You start hearing all these suggestions and advice because everybody is telling you what to do. Your parents are telling you, you know, get a good job. Get a good job. Get a good. Get a good job.",
+      "And so that becomes part of your internal dialogue. It becomes part of your conversation, the conversation in your brain. So internal dialogue means the conversation happening inside your head and other people put those ideas in your head. They become part of your internal conversation, internal dialogue.",
+      "Okay, next we talked about the word deficit. Deficit means not enough. It means not having enough. So adventure deficit means not having enough adventure, not having enough adventure. And disorder basically means disease. It’s a kind of disease. But it’s really more of a mental disease.",
+      "We use it for mental problems, so we say a mental disorder, a mental disease. All right, next we go down a little bit and we see the word automated, automated. So Tim Ferriss created a company and his idea was to have automated income. Automated means automatic, it has this idea of being done by machines or computers.",
+      "So automated income means automatic income, it means he doesn’t have to work for it, it just happens automatically. So, for example, he has a website. People buy his product and the computer takes the money from the credit card. The computer sends information to the warehouse. The warehouse sends the product to the customer.",
+      "Tim Ferris does nothing, he sits on the beach. He doesn’t need to do anything, everything is automatic, right? There’s",
+      "an automatic system. So that’s what automated means, automated means a process that is automatic, a process that happens automatically. So his idea was to have a business that was automated. That means the business happened automatically with computers, with other people and he wouldn’t need to do anything.",
+      "That was his idea. In fact, he wanted automated cash flow. Cash means money. Flow means movement, moving, movement, so money, movement, cash flow. Of course, he’s talking about positive cash flow. It means money moving to him, right? Money coming to him, it means the money is moving from his business to his pocket or to his bank.",
+      "That’s cash flow. Negative cash flow means the money is leaving your bank. It’s going to other people. You don’t want that you want. You want positive cash flow, money moving to you. So he wanted automated cash flow, automatic money coming to him. That was his goal. But he says there was a problem.",
+      "He says “If you look at my chronology you will see that it did not happen in the beginning.” So he said if you look at my chronology, chronology means history. It’s almost exactly the same meaning. Chronology means history or timeline. But history is really a simple synonym, a simple word that means the same thing.",
+      "So he says if you look at my history, if you look at my chronology. Look at my history when I started the company and then the first year, the second year, the third year, look at that chronology, look at that history. He says “If you look at that chronology, if you look at that history, you see that I did not stop working.”",
+      "He said “I could have. I could have had automated income, but instead I kept working and working and working. I didn’t need to work, but I kept working anyway.” He said “I worked until a meltdown forced me to stop working.” A meltdown, what’s a meltdown? A meltdown is an emotional crisis.",
+      "It means you totally lose control of your emotions, usually because of stress. So you’re working, more pressure, more stress, more stress, more stress, you’re trying to control, you’re trying to control and suddenly, aaahhh, meltdown! You lose all your control. You lose all your emotional control. You just go crazy, basically.",
+      "So this happened to Tim Ferriss. He built this company and he was making more money, more money, and more money. He was working harder, harder, harder, more, more, more, more, more stress, more stress, more stress, more busy, more busy, more busy. Finally, his mind and body broke.",
+      "A meltdown, he lost control, aaaahhh, I can’t do this, too much stress! He totally lost control, he had a meltdown. And when he lost control of his feelings he just kind of went crazy for a while. He finally stopped, he realized, oh my God, what am I doing? Why am I working so much? I don’t need to, I have plenty of money.",
+      "Why am I still working, working, working? Why am I so stressed? I have enough money. My money can be automated. Why am I doing this? Why am I making my life unhappy? Why am I",
+      "making my life so stressed? That’s what he asked himself after the meltdown, after the emotional crisis. And he realized the reason was that he did not have alternate activities, other activities to replace the workload. Workload means amount of work, very simple. It’s the amount of work you have.",
+      "You can say “I have a heavy workload.” A heavy workload means you have a lot of work to do, you’re super busy. Or you can say “I have a light workload.” It means you don’t have much to do. You’re not busy. Your job is quite easy. Or you could even talk about it just temporarily, you can say “This week I have a very light workload.",
+      "But next week, wow, next week I have a very heavy workload.” So it’s just the amount of work you have. So he’s saying his problem was he had this heavy workload and he could stop, but the problem was he had nothing to replace it with. He didn’t have something else to do, so he was afraid.",
+      "“If I stop working I’ll be totally bored and that will be even more horrible. It will make me even more unhappy.” So that’s why he kept working, working, working, working, working, he didn’t have an exciting alternative to work. And then, finally, of course he had a meltdown, ah, he kind of went crazy because of all the stress.",
+      "And then he realized, wow, I need more exciting, more meaningful alternatives. I don’t want to be a slave to my business. And then, finally, we have the word inducing, fear-inducing. He said “We work and work and work more and more and more to avoid the fear-inducing uncertainty.” Fear- inducing uncertainty.",
+      "Inducing means causing, so it’s fear-causing uncertainty, the uncertainly causes fear. That’s what the phrase means. So he’s saying we want to avoid uncertainly that causes fear. We don’t like uncertainty. We don’t want to be uncertain because it causes fear, it induces fear.",
+      "So here we’re using it as an adjective, fear-inducing uncertainty. What kind of certainty? Fear-causing uncertainty, fear-inducing uncertainty. So he’s saying if you don’t have other big dreams you’ll be afraid, you’ll be uncertain. I don’t know what to do. What will I do? There’s nothing there.",
+      "That’s very scary, so you keep working, working, working. So he’s saying if you have big dreams, other activities outside work then you will have certainty and you will not be afraid. No fear-inducing uncertainty or fear-causing uncertainty. All right, well, that’s the end of our vocabulary lesson for “Adventure.”",
+      "Let’s move on to the mini-story."
+    ],
+    "pov": [
+      "Adventure POV Text Hello this is AJ. Welcome to the point of view stories for “Adventure.” Let’s begin. For the last five years Michelle has hated her job. She has really hated her job for the last five years. Why? Well, because for the last five years her workload has been much too heavy.",
+      "She has had a very heavy workload for the last five years. Now she has made a lot of money. For the last five years she’s made tons of money, a huge amount of money. She has been a Vice President of IBM for the last five years. So five years ago she got this job, Vice President.",
+      "Since five years ago…for the last five years…she has been a Vice President at IBM. During that time she has made a lot of money every year. In fact, for the last five years she has had a lot of cash flow, very strong positive cash flow. She’s had great cash flow during that time. But, unfortunately, Michelle has been miserable.",
+      "She has been totally, completely miserable at her job. She has been miserable because she’s been stressed, she’s been so stressed. And the stress has built and it has built and it has built until, finally, one day she had a meltdown, a total complete meltdown. She screamed at her boss, she said “I have too much work! I hate this damn job!",
+      "I hate it! I hate it! I hate it! I hate it!” Woo, she had a total meltdown. In fact, she screamed at her boss for five hours without stopping. It was a total meltdown. She lost all control of her emotions. And, finally, after five hours of screaming, ah, she stopped. And her boss was kind of angry, actually. And he said “Well, no problem!",
+      "We’ll just automate your job.” And he did, he automated Michelle’s job. Michelle was replaced by a computer. But she was very happy because she moved to Thailand and she lived on a beach and every day she felt relaxed and happy. Okay, that’s the end of our first story and you’ll notice, again, there was a change.",
+      "By now you should understand and you should know why the change happened. Just listen to it, just see it, understand the meaning and do not think about grammar terms. For God’s sakes, please don’t do that. Let’s go to the next story, into the future. In the future there will be a woman named Michelle.",
+      "Michelle is going to hate her job because her workload will be much too heavy. She’ll have too much work. Yes, she’s going to make a lot of money. Her job is going to be Vice President at IBM. She’ll be a Vice President at IBM.",
+      "And she’s going to have great positive cash flow, lots of money coming to her into her bank account. But the problem is going to be that she will be miserable. She’s going to be totally miserable because of her job. She’s going to have so much stress in her life. And, finally, one day she’ll have a meltdown.",
+      "She’ll scream at her boss “Ah! I have too much work! I hate this job! I hate it! I hate it! I hate it! I hate it!” She’ll scream and she’ll scream and she’ll scream for five hours. Finally, after five hours, she’ll stop, ah. Now her boss, he’ll be a little angry. And he’ll say “Well, no problem! We’ll automate your job!”",
+      "And he’s going to automate her job. Michelle will be replaced by a computer. But it’s okay because she’s going to be super happy. She’ll move to Thailand, she’ll live on a beach and she’ll feel relaxed and happy every day. Okay, that is the end of the point of view stories, the POV lesson for “Adventure.” I will see you next time.",
+      "Bye-bye."
+    ],
+    "sixmin": [
+      "Neil: Hello. Welcome to 6 Minute English, I'm Neil.",
+      "Neil: Now Rob, you like your food, don't you?",
+      "Rob: Oh yes, yum yum, food! One of my favourite things.",
+      "Neil: And what do you think of street food?",
+      "Rob: I love street food. There are some great places in London where you can find delicious foods from all over the world, cooked in front of you in market stalls on the street.",
+      "Neil: It's quite new though, isn't it - not really a British tradition.",
+      "Rob: I guess not, but it seems to be much more popular these days.",
+      "Neil: Well our topic today is street food, but before we tuck into that, here is today's question. Recently archaeologists in Jordan discovered what they believe is the oldest remains of bread. How old is this bread? Is it… a) 18,000 years old b) 14,000 years old, or c) 5,500 years old? What do you think?",
+      "Rob: I don't know - but what I do know is, I wouldn't really want to try a sandwich made from that bread!",
+      "Neil: Mmm, it might be a bit mouldy.",
+      "Rob: Yes! Anyway, I'm going to have a guess and say c) 5,500 years old.",
+      "Neil: Right, we will find out the answer later in the programme. Mark Laurie is from the Nationwide Caterers Association. He is an expert in the business of street food in the UK. He appeared on BBC radio's The Food Programme and was asked how the business of street food has changed in recent years. In his answer he talks about the areas where there is most growth in street food. What are those areas?",
+      "Mark Laurie: It's been phenomenal the growth in street food, it's really taken off, it's really become quite mainstream. Part of the cultural fabric of the country really, or it's beginning to be, certainly in the bigger cities and increasingly in the sort of provinces, if you like.",
+      "Neil: So where does he say the popularity of street food is growing?",
+      "Rob: He says that it's in the bigger cities and also in the provinces. The provinces is a word which means the parts of a country outside of the cities.",
+      "Neil: So essentially, he's saying it's getting more popular everywhere.",
+      "Rob: Exactly. In fact he says the growth is phenomenal. This means he thinks the growth is spectacular, really big.",
+      "Neil: Yes he says that it's really taken off. Taken off is one of those phrasal verbs that can be used in many different ways. In this sense, when something takes off it means it becomes successful and popular.",
+      "Rob: You know, street food isn't really something you associate with Britain. Perhaps it's the climate or British food - so street food is something that we are now getting used to and enjoying more. In fact Mark says that it's now becoming mainstream. This means that is no longer something that it's seen as being unusual or different. It's becoming an accepted part of the everyday eating experience.",
+      "Neil: Well, let’s listen again to Mark Laurie talking about the growth of street food in the UK.",
+      "Mark Laurie: It's been phenomenal the growth in street food, it's really taken off, it's really become quite mainstream. Part of the cultural fabric of the country really, or it's beginning to be, certainly in the bigger cities and increasingly in the sort of provinces, if you like.",
+      "Neil: Mark Laurie goes on to talk about why street food has become popular. What kind of food does he say it's not like?",
+      "Mark Laurie: Yeah, it's just really captured the imagination of the public. It's honest food, it's authentic food and it's people that you can trust making it. It's not some microwave food or whatever that you might get in your local pub.",
+      "Neil: So street food is many things, but what isn't it?",
+      "Rob: Well he says that it's not like food you might get in some pubs. That food, he says, may be some microwave food. Which is food prepared in a microwave oven.",
+      "Neil: You know I quite like a microwave meal now and then and I reheat my leftovers in the microwave.",
+      "Rob: But I guess if you were paying for a nice meal you wouldn't expect reheated leftovers! I think the point he is making is that in many places the food you are served is not freshly made. It may be pre-prepared and finished off in a microwave. Street food, he says, is authentic.",
+      "Neil: Yes, authentic. It's real, fresh and cooked right in front of you and if it's food from a particular country it's probably being prepared by people from that culture.",
+      "Rob: He also says that this has captured the imagination of the public. It's something that the public have experienced and thought - 'Yep, you know, I like this, this is a great idea.'",
+      "Neil: Well, all this talk of food is making me hungry, so let's get the answer to the quiz and review today's vocabulary before we head off and grab a bite to eat. We asked about the age of bread discovered by archaeologists in Jordan. Was it a) 18,000 years old, b) 14,000 years or c) 5,500 years?",
+      "Rob: Mmm, and I said it was c) 5,500 years.",
+      "Neil: And I'm afraid it's a lot mouldier than that. The answer was 14,000 years.",
+      "Rob: Very tasty I'm sure.",
+      "Neil: Yes! Right then, the vocabulary. We started off with the adjective phenomenal to describe something that is amazing, remarkable and extraordinary.",
+      "Rob: Then we had to take off, a phrasal verb which means to become popular. Street food has really taken off in the UK: it's become really popular.",
+      "Neil: And not just in the cities but also in the provinces, which is a noun to describe areas of a country that aren't the major cities.",
+      "Rob: Something which captures the imagination is something which makes you interested and not just for a short time.",
+      "Neil: And one thing which has captured the imagination of the British public is authentic street food. Something authentic is real, it's genuine, it's not a fake or a copy.",
+      "Rob: And finally we had microwave food, food prepared in a microwave oven. And that kind of food is not seen by some as authentic.",
+      "Neil: Well, it's time to eat, so that's all we have time for today. Join us again next time and remember you can find us on Instagram, Facebook, Twitter, YouTube and of course on our website bbclearningenglish.com. See you soon, bye.",
+      "Rob: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Why did she hate her job?",
+        "a": "Well, because her workload was too heavy. She had too much work."
+      },
+      {
+        "q": "Whose workload was too heavy?",
+        "a": "Michelle’s, Michelle’s workload was too heavy."
+      },
+      {
+        "q": "How did Michelle feel about her job?",
+        "a": "She hated it. Michelle hated her job."
+      },
+      {
+        "q": "Was her workload too light, too easy?",
+        "a": "No it wasn’t. It wasn’t too light it was too heavy. Her workload was too heavy."
+      },
+      {
+        "q": "What was too heavy?",
+        "a": "Her workload. Her workload was too heavy, so she hated her job."
+      },
+      {
+        "q": "What was her position?",
+        "a": "Well, Vice President. Her position was Vice President."
+      },
+      {
+        "q": "Which company was she a Vice President at?",
+        "a": "IBM. She was a Vice President at IBM."
+      },
+      {
+        "q": "EffortlessEnglishClub.com 2 What was her position?",
+        "a": "Vice President. Michelle was a Vice President at IBM."
+      },
+      {
+        "q": "Did she make a little money or a lot of money?",
+        "a": "Well, of course, she made a lot of money. She had a very high-paying job. She was a Vice President at IBM. Michelle made a lot of money."
+      },
+      {
+        "q": "Who made a lot of money?",
+        "a": "Michelle, Michelle made a lot of money at IBM."
+      },
+      {
+        "q": "Did she have great cash flow from her job?",
+        "a": "Oh, yeah, great cash flow, a lot of money moving from IBM into her bank."
+      },
+      {
+        "q": "Did Michelle have bad cash flow or great cash flow?",
+        "a": "She had great cash flow."
+      },
+      {
+        "q": "Was her cash flow positive or negative?",
+        "a": "Positive. She had more money coming, less money leaving her bank."
+      },
+      {
+        "q": "Why did Michelle have positive cash flow?",
+        "a": "Well, because she had a great job at IBM. She was a Vice President at IBM. She made a lot of money, so she had positive cash flow not negative cash flow."
+      },
+      {
+        "q": "So what was the problem?",
+        "a": "Well, the problem was her workload was too heavy, so Michelle was miserable."
+      },
+      {
+        "q": "Was she happy?",
+        "a": "No, no, no, very, very unhappy. She was miserable."
+      },
+      {
+        "q": "EffortlessEnglishClub.com 3 Why was Michelle miserable?",
+        "a": "Because her workload was too heavy. She felt a lot of stress. She was too busy. Her workload was too much."
+      },
+      {
+        "q": "Did she lose control of her emotions one day?",
+        "a": "That’s right. She lost control of her emotions one day. She had a meltdown."
+      },
+      {
+        "q": "What did she have?",
+        "a": "A meltdown. Michelle had a meltdown."
+      },
+      {
+        "q": "Why did she have a meltdown?",
+        "a": "Because she was too stressed, she had a very heavy workload. She was too stressed, so, finally, one day she had a meltdown."
+      },
+      {
+        "q": "Was she in control of her emotions or did she have a meltdown?",
+        "a": "Well, obviously, she had a meltdown. She lost control of her emotions. She had a total, complete meltdown, total complete loss of control."
+      },
+      {
+        "q": "Wow. Was it a small meltdown or a total meltdown?",
+        "a": "Man, it was a total meltdown. A complete meltdown, she totally lost control. She went crazy screaming at her boss. “I hate this job! I have too much work!”"
+      },
+      {
+        "q": "Ha, what did her boss want to do?",
+        "a": "He wanted to automate her job."
+      },
+      {
+        "q": "EffortlessEnglishClub.com 4 Did he want computers and machines to do her job?",
+        "a": "That’s right. He wanted computes and machines to do her job. He wanted her job to become automatic, no person necessary."
+      },
+      {
+        "q": "What did her boss decide to do?",
+        "a": "He decided to automate Michelle’s job."
+      },
+      {
+        "q": "Was he going to hire a new person for her job?",
+        "a": "No, he was not. He wanted computers and machines to do her job. He wanted to automate her job."
+      },
+      {
+        "q": "What did he want to automate?",
+        "a": "Michelle’s job. He wanted to automate Michelle’s job."
+      },
+      {
+        "q": "Whose job did he want to automate?",
+        "a": "Well, Michelle’s job. Her boss wanted to automate Michelle’s job."
+      },
+      {
+        "q": "What happened to Michelle’s job?",
+        "a": "It was automated. Michelle’s job was automated. It became automatic."
+      },
+      {
+        "q": "What was Michelle replaced by?",
+        "a": "A computer. Michelle was replaced by a computer. She lost her job to a computer. Her job was automated."
+      },
+      {
+        "q": "How did Michelle feel now?",
+        "a": "Super happy, of course! She was very happy. She moved to a beach in Thailand and she relaxed every day. It was wonderful."
+      },
+      {
+        "q": "How did she feel about losing her job?",
+        "a": "She felt great!"
+      },
+      {
+        "q": "Where did she move?",
+        "a": "She moved to Thailand, paradise."
+      },
+      {
+        "q": "EffortlessEnglishClub.com 5 How did she feel?",
+        "a": "She felt relaxed and happy."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "internal dialogue",
+      "pos": "phrase",
+      "uz": "ichki suhbat (miyadagi ovoz, oʻz-oʻzi bilan gaplashish)",
+      "defEn": "the conversation happening inside your head",
+      "example": "Other people's opinions become part of your internal dialogue."
+    },
+    {
+      "en": "adventure deficit disorder",
+      "pos": "phrase",
+      "uz": "sarguzasht yetishmovchiligi (kattalarda: hayotda yetarli hayajon yoʻqligi)",
+      "defEn": "a jokey name for adults who don't have enough adventure in their life",
+      "example": "Tim Ferriss says most adults suffer from adventure deficit disorder."
+    },
+    {
+      "en": "automated income",
+      "pos": "phrase",
+      "uz": "avtomatlashtirilgan daromad (ishlamasdan, oʻzi keladigan pul)",
+      "defEn": "money that comes in automatically without you working for it",
+      "example": "He dreamed of automated income from a website."
+    },
+    {
+      "en": "positive cash flow",
+      "pos": "phrase",
+      "uz": "ijobiy pul oqimi (kiruvchi pul chiquvchidan koʻp)",
+      "defEn": "more money coming in than going out",
+      "example": "The business finally had strong positive cash flow."
+    },
+    {
+      "en": "a meltdown",
+      "pos": "n",
+      "uz": "asabiy portlash, hissiy inqiroz (oʻzini boshqara olmay qolish)",
+      "defEn": "an emotional crisis in which you lose all control",
+      "example": "After years of stress she finally had a meltdown."
+    },
+    {
+      "en": "a heavy workload",
+      "pos": "phrase",
+      "uz": "ogʻir ish yuki (bajarish kerak boʻlgan koʻp ish)",
+      "defEn": "a large amount of work you have to do",
+      "example": "Her workload was too heavy, so she was always tired."
+    },
+    {
+      "en": "fear-inducing uncertainty",
+      "pos": "phrase",
+      "uz": "qoʻrquv keltiruvchi noaniqlik",
+      "defEn": "not knowing what will happen, which causes fear",
+      "example": "We keep busy to avoid fear-inducing uncertainty."
+    },
+    {
+      "en": "chronology",
+      "pos": "n",
+      "uz": "voqealar tartibi, tarix (vaqt boʻyicha ketma-ketlik)",
+      "defEn": "the history or timeline of events in order",
+      "example": "If you look at my chronology, the change came late."
+    },
+    {
+      "en": "alternative activities",
+      "pos": "phrase",
+      "uz": "muqobil mashgʻulotlar (ish oʻrnini bosadigan boshqa qiziqishlar)",
+      "defEn": "other things to do that can replace work",
+      "example": "He had no alternative activities, so he just kept working."
+    },
+    {
+      "en": "to break a pattern",
+      "pos": "phrase",
+      "uz": "odatiy tartibni buzmoq, bir xillikdan chiqmoq",
+      "defEn": "to stop doing the same routine and do something new",
+      "example": "Travel helps me break my pattern every year."
+    }
+  ],
+  "englishpod": {
+    "id": "0228",
+    "title": "The Weekend – Going to the Beach",
+    "titleUz": "Dam olish kuni — dengiz boʻyiga borish",
+    "warmup": {
+      "uz": "Bu suhbatda bir oila shahardan chiqib, dengiz boʻyida kun oʻtkazadi — bolalar suvga tushadi, qumdan qalʼa quradi, meduza uchratishadi. AJ’ning “Adventure” gʻoyasiga mos: kichik sayohat ham odatiy tartibni buzadi va hayotga hayajon olib keladi. Sizningcha, oddiy plyaj kuni ham “sarguzasht” boʻla oladimi?",
+      "en": "In this dialogue a family leaves the city for a day at the beach — the kids swim, build a sandcastle and meet a jellyfish. It fits AJ's “Adventure” theme: even a small trip breaks the routine and brings excitement. Do you think an ordinary beach day can count as an adventure?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0228/dg.mp3",
+        "durationSec": 86,
+        "bytes": 722127
+      },
+      "pr": {
+        "path": "englishpod/0228/pr.mp3",
+        "durationSec": 854,
+        "bytes": 13690565
+      },
+      "rv": {
+        "path": "englishpod/0228/rv.mp3",
+        "durationSec": 351,
+        "bytes": 5660213
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Oh, George, what a beautiful day it is today! The sun is hot and there are just a few clouds scattered here and there! What a perfect day to be at the beach! The kids are going to have so much fun! And we’ll be able to relax in the sun while they’re playing."
+      },
+      {
+        "speaker": "B",
+        "en": "It does seem like the perfect day! I’m glad we chose to get out of the city and enjoy the nice weather! This looks like the perfect spot! Ok kids, put on your sunscreen while your mom and I set up camp. Here, Mary, help me lay down these beach towels."
+      },
+      {
+        "speaker": "A",
+        "en": "There we go. Can you help me with the umbrella? Perfect."
+      },
+      {
+        "speaker": "B",
+        "en": "Ok kids, here’sa beach ball and a Frisbee, a pail and a shovel. I want to see an impressive sandcastle by the time we leave. Don’t stray too far. Wait! Leave your sandals here or put on your wet shoes."
+      },
+      {
+        "speaker": "A",
+        "en": "And stay in the shallow area. I don’t want to see you go any farther than that sandbar! It’s too deep out there and we didn’t bring your floaties."
+      },
+      {
+        "speaker": "B",
+        "en": "You’re back already? The water was too cold, huh? I’ll tell you a secret. Do you see that small pool of water over there? It’ll be warmer in there. Go see if you can find some seashells or catch some minnows."
+      },
+      {
+        "speaker": "A",
+        "en": "What is that? A jellyfish? Jeremy, put that down right now! It could sting you!"
+      },
+      {
+        "speaker": "B",
+        "en": "Ah! Not onme! Ow!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "scattered",
+        "uz": "sochilib yotgan, u yer-bu yerda tarqalgan",
+        "defEn": "spread all over an area"
+      },
+      {
+        "en": "a spot",
+        "uz": "joy, maskan (aniq bir joy)",
+        "defEn": "a particular space or area"
+      },
+      {
+        "en": "to set up (camp)",
+        "uz": "joylashmoq, tayyorlab olmoq (masalan, dam olish joyini)",
+        "defEn": "to prepare or arrange something"
+      },
+      {
+        "en": "to lay down",
+        "uz": "yotqizmoq, tekis qoʻymoq",
+        "defEn": "to put something down flat"
+      },
+      {
+        "en": "a sandcastle",
+        "uz": "qumdan yasalgan qalʼa",
+        "defEn": "a small model of a castle made of sand"
+      },
+      {
+        "en": "to stray (too far)",
+        "uz": "guruhdan uzoqlashmoq, adashib ketmoq",
+        "defEn": "to go in a direction away from the group"
+      },
+      {
+        "en": "shallow",
+        "uz": "sayoz (chuqur emas)",
+        "defEn": "having little depth"
+      },
+      {
+        "en": "a sandbar",
+        "uz": "qum sayozligi (suv ostidagi qum tepaligi)",
+        "defEn": "a raised area of sand near the surface of the water"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180830",
+    "title": "Street food",
+    "titleUz": "Koʻcha taomlari",
+    "audio": {
+      "main": {
+        "path": "sixmin/180830/audio.mp3",
+        "durationSec": 379,
+        "bytes": 15179520,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Archaeologists in Jordan discovered what they believe is the oldest remains of bread. How old is this bread?",
+        "qUz": "Iordaniyadagi arxeologlar eng qadimgi non qoldiqlarini topishdi. Bu non necha yillik?",
+        "options": [
+          "18,000 years old",
+          "14,000 years old",
+          "5,500 years old"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 14,000 yillik. Rob c) 5,500 dedi va xato qildi. Neil aytadi: “The answer was 14,000 years” — bu dunyodagi eng qadimgi non qoldigʻi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "phenomenal",
+        "uz": "hayratlanarli, gʻoyat zoʻr",
+        "defEn": "amazing, remarkable and extraordinary"
+      },
+      {
+        "en": "to take off",
+        "uz": "keskin ommalashmoq, muvaffaqiyat qozonmoq",
+        "defEn": "to suddenly become popular and successful"
+      },
+      {
+        "en": "the provinces",
+        "uz": "viloyatlar (yirik shaharlardan tashqari hududlar)",
+        "defEn": "the parts of a country outside the major cities"
+      },
+      {
+        "en": "to capture the imagination",
+        "uz": "diqqatni jalb qilmoq, hayolni band etmoq",
+        "defEn": "to make people interested for more than a short time"
+      },
+      {
+        "en": "authentic",
+        "uz": "asl, haqiqiy (soxta emas)",
+        "defEn": "real and genuine, not a fake or a copy"
+      },
+      {
+        "en": "microwave food",
+        "uz": "mikrotoʻlqinli pechda tayyorlangan (issiqlangan) ovqat",
+        "defEn": "food prepared or reheated in a microwave oven"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Saying yes to adventure: seeking discomfort around the world",
+      "channel": "Yes Theory"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell the story of an adventure or a trip you took. Where did you go, and what were you doing when something unexpected happened? What had you never done before that day?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: artikllar (a trip, the airport, ø adventure) va hikoya zamonlari — past continuous (I was travelling…) va past perfect (I had never … before).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/24/main.mp3",
+      "bytes": 9236830
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/24/main.pdf",
+      "bytes": 164329
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/24/vocab.mp3",
+      "bytes": 7809551
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/24/ministory.mp3",
+      "bytes": 7554778
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/24/pov.mp3",
+      "bytes": 4036960
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/24/pov.pdf",
+      "bytes": 140499
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0228/dg.mp3",
+      "bytes": 722127
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0228/transcript.pdf",
+      "bytes": 90797
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180830/audio.mp3",
+      "bytes": 15179520
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180830/transcript.pdf",
+      "bytes": 205023
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

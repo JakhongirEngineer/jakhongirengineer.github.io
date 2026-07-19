@@ -1,0 +1,169 @@
+{
+  "slug": "adventure",
+  "title": "Adventure",
+  "titleUz": "Sarguzasht",
+  "level": "B1-B2",
+  "tags": ["adventure", "travel", "articles", "narrative-tenses", "storytelling"],
+  "intro": {
+    "uz": "Sarguzasht — hayotni yangilik, sayohat va tavakkal bilan toʻldirish. Tim Ferriss buni “Adventure Deficit Disorder” (sarguzasht yetishmovchiligi) deb ataydi: koʻp kattalar bir xil zerikarli tartibda qotib qoladi. Bu haftaning ikki grammatik mavzusi: artikllar 3 — a/an, the va artiklsiz shaklning toʻliq mustahkamlanishi, hamda hikoya zamonlari — past continuous va past perfect. Michelle haqidagi POV hikoyada voqeani qatlamma-qatlam eshitasiz.",
+    "en": "Adventure — filling life with novelty, travel and risk. Tim Ferriss calls its absence “Adventure Deficit Disorder”: many adults get stuck in the same boring routine. This week's two grammar topics: articles 3 — the full consolidation of a/an, the and the zero article, plus narrative tenses — past continuous and past perfect. You'll hear the story unfold in layers in the POV about Michelle."
+  },
+  "canDo": {
+    "uz": "Dars oxirida sayohat va sarguzasht haqida gapirganda a/an, the va artiklsiz shaklni toʻgʻri tanlab qoʻya olasiz, hamda oʻz sarguzashtingizni past continuous (I was travelling…) va past perfect (I had never seen…) yordamida qatlam-qatlam soʻzlab bera olasiz.",
+    "en": "By the end you can choose a/an, the and the zero article correctly when talking about travel and adventure, and tell your own adventure in layers using the past continuous (I was travelling…) and the past perfect (I had never seen…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "articles-3-consolidation",
+      "titleUz": "Artikllar 3: a/an, the, artiklsiz — toʻliq mustahkamlash",
+      "titleEn": "Articles 3 — full a/an/the/zero consolidation",
+      "bandLifter": "IELTS Speaking & Writing — accurate a/an, the and zero article",
+      "cefrCanDo": "B1→B2: I can choose a/an, the or no article correctly in connected speech",
+      "contrastUz": "Oʻzbek tilida artikl umuman yoʻq: “sayohatga chiqdim” — bu “a trip”mi yoki “the trip”mi, faqat kontekstdan bilinadi. Ingliz tili buni majburan koʻrsatadi: birinchi marta — a trip (qaysidir biri), keyin oʻsha narsa — the trip (aynan oʻsha). Umumiy maʼnodagi sanaladigan koʻplik va sanalmaydigan otlarda esa artiklsiz (ø): I love ø travelling.",
+      "errorFixUz": "❌ I went to airport and took plane. ✅ I went to the airport and took the plane. Vaziyatdan aniq (yagona, biladigan) narsa → the; sanaladigan birlik ot hech qachon artiklsiz qolmaydi — hech boʻlmasa a/an kerak.",
+      "examples": [
+        { "en": "I took a trip to the mountains.", "uz": "Men togʻlarga sayohatga chiqdim." },
+        { "en": "We waited at the airport for hours.", "uz": "Biz aeroportda soatlab kutdik." },
+        { "en": "Adventure makes life exciting.", "uz": "Sarguzasht hayotni qiziqarli qiladi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Last summer I took ___ amazing trip to Thailand.",
+          "options": ["an", "a", "the"],
+          "answer": "an",
+          "hintUz": "birinchi marta tilga olinyapti + keyingi tovush unli (amazing) → an"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "We got to ___ airport two hours early.",
+          "options": ["the", "a", "an"],
+          "answer": "the",
+          "hintUz": "vaziyatdan aniq (yagona, biladigan narsa) → the"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I really love ___ travelling.",
+          "options": ["no article", "a", "the"],
+          "answer": "no article",
+          "hintUz": "umumiy maʼnodagi sanalmaydigan ot → artiklsiz (ø)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): eng yaxshi sayohatingiz haqida uchta jumla — “I took a … . The … was … . I love ø … .” — uchala tanlovni (a / the / artiklsiz) ishlating.",
+          "answer": null,
+          "hintUz": "birinchi marta → a/an; aynan oʻsha → the; umumiy → artiklsiz"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "narrative-tenses",
+      "titleUz": "Hikoya zamonlari: past continuous va past perfect",
+      "titleEn": "Narrative tenses — past continuous & past perfect",
+      "bandLifter": "IELTS Part 2 — tell a story in vivid layers",
+      "cefrCanDo": "B1→B2: I can narrate a past event with background and earlier actions",
+      "contrastUz": "Oʻzbekcha hikoyada koʻpincha hammasi bitta oʻtgan zamonda ketadi: “ishlardim, boʻron boshlandi, avval koʻrmagandim”. Ingliz tili vaqt qatlamlarini alohida shakllar bilan ajratadi: davom etayotgani → was working (oʻzbekcha “-yotgan edim”), undan oldingisi → had worked (oʻzbekcha “-gan edim”).",
+      "errorFixUz": "❌ When the storm started, I travelled in the mountains. ✅ When the storm started, I was travelling in the mountains. Fon — davom etayotgan ish → past continuous (was/were + V-ing); undan oldin boʻlgan ish → past perfect (had + V3): ✅ Before I moved, I had never seen the sea.",
+      "examples": [
+        { "en": "I was travelling when the storm started.", "uz": "Boʻron boshlanganda men sayohat qilayotgan edim." },
+        { "en": "By the time she quit, the stress had built for years.", "uz": "U ishdan ketganda, zoʻriqish yillar davomida toʻplanib boʻlgandi." },
+        { "en": "She had never seen the ocean before she moved to Thailand.", "uz": "Tailandga koʻchishidan oldin u okeanni hech koʻrmagandi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ through the mountains when the storm started.",
+          "options": ["was travelling", "travelled", "have travelled"],
+          "answer": "was travelling",
+          "hintUz": "davom etayotgan fon + when → past continuous (was + V-ing)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "By the time she quit, the stress ___ for years.",
+          "options": ["had built", "built", "was building"],
+          "answer": "had built",
+          "hintUz": "oʻtmishdagi paytdan yana oldin boʻlgan ish → past perfect (had + V3)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She had never ___ the ocean before that trip.",
+          "options": ["seen", "saw", "seeing"],
+          "answer": "seen",
+          "hintUz": "had + V3 (uchinchi shakl): see → seen"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): kichik sarguzashtingizni bitta “fon + hodisa” bilan boshlang — “I was … when …” — keyin bitta “orqaga qadam” qoʻshing: “… because I had …”.",
+          "answer": null,
+          "hintUz": "fon → was/were + V-ing; oldingi ish → had + V3"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "internal dialogue", "pos": "phrase", "uz": "ichki suhbat (miyadagi ovoz, oʻz-oʻzi bilan gaplashish)", "defEn": "the conversation happening inside your head", "example": "Other people's opinions become part of your internal dialogue." },
+    { "en": "adventure deficit disorder", "pos": "phrase", "uz": "sarguzasht yetishmovchiligi (kattalarda: hayotda yetarli hayajon yoʻqligi)", "defEn": "a jokey name for adults who don't have enough adventure in their life", "example": "Tim Ferriss says most adults suffer from adventure deficit disorder." },
+    { "en": "automated income", "pos": "phrase", "uz": "avtomatlashtirilgan daromad (ishlamasdan, oʻzi keladigan pul)", "defEn": "money that comes in automatically without you working for it", "example": "He dreamed of automated income from a website." },
+    { "en": "positive cash flow", "pos": "phrase", "uz": "ijobiy pul oqimi (kiruvchi pul chiquvchidan koʻp)", "defEn": "more money coming in than going out", "example": "The business finally had strong positive cash flow." },
+    { "en": "a meltdown", "pos": "n", "uz": "asabiy portlash, hissiy inqiroz (oʻzini boshqara olmay qolish)", "defEn": "an emotional crisis in which you lose all control", "example": "After years of stress she finally had a meltdown." },
+    { "en": "a heavy workload", "pos": "phrase", "uz": "ogʻir ish yuki (bajarish kerak boʻlgan koʻp ish)", "defEn": "a large amount of work you have to do", "example": "Her workload was too heavy, so she was always tired." },
+    { "en": "fear-inducing uncertainty", "pos": "phrase", "uz": "qoʻrquv keltiruvchi noaniqlik", "defEn": "not knowing what will happen, which causes fear", "example": "We keep busy to avoid fear-inducing uncertainty." },
+    { "en": "chronology", "pos": "n", "uz": "voqealar tartibi, tarix (vaqt boʻyicha ketma-ketlik)", "defEn": "the history or timeline of events in order", "example": "If you look at my chronology, the change came late." },
+    { "en": "alternative activities", "pos": "phrase", "uz": "muqobil mashgʻulotlar (ish oʻrnini bosadigan boshqa qiziqishlar)", "defEn": "other things to do that can replace work", "example": "He had no alternative activities, so he just kept working." },
+    { "en": "to break a pattern", "pos": "phrase", "uz": "odatiy tartibni buzmoq, bir xillikdan chiqmoq", "defEn": "to stop doing the same routine and do something new", "example": "Travel helps me break my pattern every year." }
+  ],
+  "englishpod": {
+    "title": "The Weekend – Going to the Beach",
+    "titleUz": "Dam olish kuni — dengiz boʻyiga borish",
+    "warmup": {
+      "uz": "Bu suhbatda bir oila shahardan chiqib, dengiz boʻyida kun oʻtkazadi — bolalar suvga tushadi, qumdan qalʼa quradi, meduza uchratishadi. AJ’ning “Adventure” gʻoyasiga mos: kichik sayohat ham odatiy tartibni buzadi va hayotga hayajon olib keladi. Sizningcha, oddiy plyaj kuni ham “sarguzasht” boʻla oladimi?",
+      "en": "In this dialogue a family leaves the city for a day at the beach — the kids swim, build a sandcastle and meet a jellyfish. It fits AJ's “Adventure” theme: even a small trip breaks the routine and brings excitement. Do you think an ordinary beach day can count as an adventure?"
+    },
+    "keyVocab": [
+      { "en": "scattered", "uz": "sochilib yotgan, u yer-bu yerda tarqalgan", "defEn": "spread all over an area" },
+      { "en": "a spot", "uz": "joy, maskan (aniq bir joy)", "defEn": "a particular space or area" },
+      { "en": "to set up (camp)", "uz": "joylashmoq, tayyorlab olmoq (masalan, dam olish joyini)", "defEn": "to prepare or arrange something" },
+      { "en": "to lay down", "uz": "yotqizmoq, tekis qoʻymoq", "defEn": "to put something down flat" },
+      { "en": "a sandcastle", "uz": "qumdan yasalgan qalʼa", "defEn": "a small model of a castle made of sand" },
+      { "en": "to stray (too far)", "uz": "guruhdan uzoqlashmoq, adashib ketmoq", "defEn": "to go in a direction away from the group" },
+      { "en": "shallow", "uz": "sayoz (chuqur emas)", "defEn": "having little depth" },
+      { "en": "a sandbar", "uz": "qum sayozligi (suv ostidagi qum tepaligi)", "defEn": "a raised area of sand near the surface of the water" }
+    ]
+  },
+  "sixmin": {
+    "title": "Street food",
+    "titleUz": "Koʻcha taomlari",
+    "quiz": [
+      {
+        "q": "Archaeologists in Jordan discovered what they believe is the oldest remains of bread. How old is this bread?",
+        "qUz": "Iordaniyadagi arxeologlar eng qadimgi non qoldiqlarini topishdi. Bu non necha yillik?",
+        "options": ["18,000 years old", "14,000 years old", "5,500 years old"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 14,000 yillik. Rob c) 5,500 dedi va xato qildi. Neil aytadi: “The answer was 14,000 years” — bu dunyodagi eng qadimgi non qoldigʻi."
+      }
+    ],
+    "vocab": [
+      { "en": "phenomenal", "uz": "hayratlanarli, gʻoyat zoʻr", "defEn": "amazing, remarkable and extraordinary" },
+      { "en": "to take off", "uz": "keskin ommalashmoq, muvaffaqiyat qozonmoq", "defEn": "to suddenly become popular and successful" },
+      { "en": "the provinces", "uz": "viloyatlar (yirik shaharlardan tashqari hududlar)", "defEn": "the parts of a country outside the major cities" },
+      { "en": "to capture the imagination", "uz": "diqqatni jalb qilmoq, hayolni band etmoq", "defEn": "to make people interested for more than a short time" },
+      { "en": "authentic", "uz": "asl, haqiqiy (soxta emas)", "defEn": "real and genuine, not a fake or a copy" },
+      { "en": "microwave food", "uz": "mikrotoʻlqinli pechda tayyorlangan (issiqlangan) ovqat", "defEn": "food prepared or reheated in a microwave oven" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Saying yes to adventure: seeking discomfort around the world",
+      "channel": "Yes Theory"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell the story of an adventure or a trip you took. Where did you go, and what were you doing when something unexpected happened? What had you never done before that day?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: artikllar (a trip, the airport, ø adventure) va hikoya zamonlari — past continuous (I was travelling…) va past perfect (I had never … before).",
+    "targetSec": 60
+  }
+}

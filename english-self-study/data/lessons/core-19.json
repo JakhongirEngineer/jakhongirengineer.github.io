@@ -1,0 +1,784 @@
+{
+  "schemaVersion": 2,
+  "id": "core-19",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 19,
+  "slug": "leaders-make-mistakes",
+  "title": "Leaders Make Mistakes",
+  "titleUz": "Rahbarlar xato qiladi",
+  "level": "B1",
+  "tags": [
+    "mindset",
+    "leadership",
+    "mistakes",
+    "present-perfect",
+    "modal-perfect"
+  ],
+  "intro": {
+    "uz": "Tom Peters kitobidan olingan gʻoya: kuchli rahbarlar xato qilishdan qoʻrqmaydi — ular xato qiladi, oʻrganadi va yana urinib koʻradi. Bu haftaning ikki grammatik mavzusi shu gʻoyadan oʻsib chiqadi: hayotiy tajriba uchun present perfect (Have you ever…? / ever / never) va oʻtmishga afsus bilan qarash (should have / could have + needn't have). Todd va Louis pingvinlar haqidagi POV hikoyada birinchisini eshitasiz.",
+    "en": "An idea from Tom Peters: strong leaders are not afraid of mistakes — they make them, learn, and try again. This week's two grammar topics grow from that idea: the present perfect for life experience (Have you ever…? / ever / never) and looking back with regret (should have / could have + needn't have). You'll hear the first one in the POV story about the penguins Todd and Louis."
+  },
+  "canDo": {
+    "uz": "Dars oxirida “Have you ever …?” savolini bering va unga toʻxtamasdan javob bering, hamda oʻtmishdagi xato haqida afsus bilan gapiring: “I should have …, I could have …, I needn't have … .”",
+    "en": "By the end you can ask and answer “Have you ever …?” out loud without pausing, and talk about a past mistake with hindsight: “I should have …, I could have …, I needn't have … .”"
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-experience",
+      "titleUz": "Tajriba: Have you ever…? / ever / never",
+      "titleEn": "Present perfect for experience",
+      "bandLifter": "IELTS Part 1 — answer “Have you ever…?” about your life experience",
+      "cefrCanDo": "B1: I can ask and answer about life experiences (ever / never / before)",
+      "bodyHtml": "<p>Bu darsning butun gʻoyasi bitta savolda yashiringan: <em>&quot;<strong>Have you ever</strong> made a mistake?&quot;</em> Albatta qilgansiz — hamma xato qilgan. AJ aynan shuni takrorlaydi: rahbarlar ham xato qiladi, ular xatodan qoʻrqmaydi. Bu savol — <strong>present perfect</strong> (hozirgi tugallangan zamon)ning ikkinchi vazifasi: <strong>hayotiy tajriba</strong>. core-09 da biz uni <em>since / for</em> bilan koʻrgan edik (oʻtmishda boshlanib, hozirgacha davom etayotgan ish). Bu safar boshqasi — <em>qachonligi muhim boʻlmagan tajriba</em>.</p>\n<h3>Maʼnosi: hayotda bir marta boʻlgan (yoki boʻlmagan) ish</h3>\n<p>Bu yerda biz <strong>qachon</strong> boʻlganini aytmaymiz — faqat <em>umuman boshdan kechirdingizmi, yoʻqmi</em> degan savolga javob beramiz. Vaqt muhim emas, tajriba muhim.</p>\n<ul>\n<li><em><strong>Have you ever</strong> failed at something big?</em> — Hech qachon katta ishda muvaffaqiyatsizlikka uchraganmisiz?</li>\n<li><em>I <strong>have never</strong> given up.</em> — Men hech qachon taslim boʻlmaganman.</li>\n<li><em><strong>Have you ever</strong> been to Thailand?</em> — POV dagi pingvinlardek, hech qachon Tailandda boʻlganmisiz?</li>\n</ul>\n<p>Shakli tanish: <strong>have / has + V3</strong> (feʼlning uchinchi shakli — <em>made, tried, been, done, seen</em>). <em>I / you / we / they</em> bilan <strong>have</strong>, <em>he / she / it</em> bilan <strong>has</strong>.</p>\n<h3>Uchta kalit soʻz: <code>ever</code>, <code>never</code>, <code>before</code></h3>\n<ul>\n<li><strong>ever</strong> — savolda ishlatiladi, &quot;umuman, hayotingizda birortasi boʻlganmi?&quot;: <em><strong>Have</strong> you <strong>ever</strong> made a mistake?</em></li>\n<li><strong>never</strong> — inkor maʼno beradi, lekin <strong>not</strong> ishlatilmaydi (bitta gapda ikkita inkor boʻlmaydi): <em>I <strong>have never</strong> failed</em> (❗ <em>haven't never</em> emas).</li>\n<li><strong>before</strong> — koʻpincha oxirida keladi: <em>I <strong>have</strong> tried this <strong>before</strong>.</em></li>\n</ul>\n<p>Javobda odatda qisqa aytamiz: <em>&quot;Yes, I have.&quot;</em> / <em>&quot;No, I haven't.&quot;</em> / <em>&quot;No, never.&quot;</em></p>\n<h3>Ingliz ↔ oʻzbek farqi (bu yerda xato tugʻiladi)</h3>\n<p>Oʻzbekcha &quot;Hech qachon Londonda boʻlganmisiz?&quot; degan gapda biz oddiy oʻtgan zamonni ishlatamiz. Ingliz tili esa aniq vaqt aytilmagan tajriba uchun <strong>present perfect</strong> talab qiladi:</p>\n<ul>\n<li>❌ <em>Did you ever go to London?</em> (agar aniq vaqt boʻlmasa)</li>\n<li>✅ <em><strong>Have</strong> you <strong>ever been</strong> to London?</em></li>\n</ul>\n<p>Farqni yodda tuting: aniq vaqt bor boʻlsa (<em>yesterday, in 2019, last year</em>) — <strong>past simple</strong> (<em>I went, I made</em>). Aniq vaqt yoʻq, faqat &quot;hayotda boʻlganmi?&quot; boʻlsa — <strong>present perfect</strong> (<em>I have been, I have made</em>).</p>\n<h3>Nega bu B1→B2 belgisi</h3>\n<p>IELTS Part 1 va suhbatda &quot;<em>Have you ever…?</em>&quot; savoli doim uchraydi: <em>&quot;Have you ever travelled abroad? Have you ever worked in a team?&quot;</em> Bunga <em>&quot;Yes, I have — I've tried it a few times&quot;</em> deb tabiiy javob bersangiz, darajangiz darrov koʻrinadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> grammatikani yodlamang — ovoz chiqarib mashq qiling. Har kuni oʻzingizga uchta savol bering: <em>&quot;Have I ever made a mistake? Have I ever failed? Have I ever tried something new?&quot;</em> — va ovoz chiqarib javob bering: <em>&quot;Yes, I have.&quot;</em> Miya takrordan oʻzi oʻrganadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha “Hech qachon xato qilganmisiz?” gapida oddiy oʻtgan zamonni ishlatamiz. Ingliz tili esa aniq vaqt aytilmagan hayotiy tajriba uchun present perfect talab qiladi: “Have you ever made a mistake?”. Aniq vaqt bor boʻlsa (yesterday, in 2019) — past simple; aniq vaqt yoʻq, faqat “hayotda boʻlganmi?” boʻlsa — present perfect.",
+      "errorFixUz": "❌ Did you ever go to London? / I have never not failed. ✅ Have you ever been to London? I have never failed. Aniq vaqtsiz tajriba uchun have/has + V3; “never” oʻzi inkor beradi, yana “not” qoʻshilmaydi.",
+      "examples": [
+        {
+          "en": "Have you ever made a big mistake?",
+          "uz": "Hech qachon katta xato qilganmisiz?"
+        },
+        {
+          "en": "I have never given up.",
+          "uz": "Men hech qachon taslim boʻlmaganman."
+        },
+        {
+          "en": "Todd and Louis have never given up.",
+          "uz": "Todd va Louis hech qachon taslim boʻlmagan."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "___ you ever failed at something big?",
+          "options": [
+            "Have",
+            "Did",
+            "Are"
+          ],
+          "answer": "Have",
+          "hintUz": "aniq vaqtsiz tajriba savoli → Have + you + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I have ___ been to Thailand.",
+          "options": [
+            "never",
+            "not never",
+            "ever"
+          ],
+          "answer": "never",
+          "hintUz": "“never” oʻzi inkor beradi; “not” qoʻshilmaydi"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Have you ever ___ a new language?",
+          "options": [
+            "tried",
+            "try",
+            "tried to"
+          ],
+          "answer": "tried",
+          "hintUz": "have + V3 (uchinchi shakl): tried"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I have never … , but I have … .”",
+          "answer": null,
+          "hintUz": "have/has + V3; ever savolda, never inkorda"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "should-have-could-have",
+      "titleUz": "should have / could have (+ needn't have) — afsus",
+      "titleEn": "should have / could have — regret & hindsight",
+      "bandLifter": "IELTS Part 2/3 — reflect on a past choice: what you should/could have done",
+      "cefrCanDo": "B2: I can express regret and hindsight about past actions (should/could/needn't have + V3)",
+      "bodyHtml": "<p>AJ ning butun darsi xato haqida: xato qiling, oʻrganing, yana urinib koʻring. Ammo xatodan keyin miyaga bir fikr keladi: <em>&quot;Men boshqacha qilishim kerak edi.&quot;</em> Ingliz tilida bu — afsus va orqaga qarab baho berish (hindsight) tili: <strong>should have / could have (+ needn't have) + V3</strong>. Bu — sizning birinchi <em>modal-perfect</em> qolipingiz va IELTS da darajani koʻtaradigan kuchli vosita.</p>\n<h3>Maʼnosi: oʻtmish uchun afsus va tanqid</h3>\n<p>Ish allaqachon boʻlib boʻlgan — oʻzgartira olmaymiz. Biz faqat <em>orqaga qarab</em> baho beramiz. Uchta maʼno bor:</p>\n<ul>\n<li><strong>should have + V3</strong> — &quot;qilishim kerak edi (lekin qilmadim)&quot; — afsus yoki tanqid:\n<em>I <strong>should have tried</strong> harder.</em> — Koʻproq harakat qilishim kerak edi.</li>\n<li><strong>could have + V3</strong> — &quot;qila olardim (imkoni bor edi, lekin qilmadim)&quot; — imkoniyat boy berilgan:\n<em>They <strong>could have quit</strong>, but they kept swimming.</em> — Ular taslim boʻlishlari mumkin edi, lekin suzishda davom etdi.</li>\n<li><strong>needn't have + V3</strong> — &quot;shart emas edi (lekin qildim)&quot; — behuda qilingan ish:\n<em>I <strong>needn't have worried</strong> about the mistake.</em> — Xato haqida qaygʻurishim shart emas edi.</li>\n</ul>\n<h3>Shakli oddiy, ammo bir tuzoq bor</h3>\n<p>Qolip doim bir xil: <strong>should / could / needn't + have + V3</strong> — kim haqida gapirishdan qatʼi nazar oʻzgarmaydi (<em>he should have</em>, <em>they could have</em> — hammasi bir xil).</p>\n<p>Nutqda <em>have</em> qisqaradi va <strong>&quot;of&quot;</strong> kabi eshitiladi: <em>&quot;should've&quot;</em>, <em>&quot;could've&quot;</em>. Shuning uchun koʻpchilik xato yozadi:</p>\n<ul>\n<li>❌ <em>I should of tried.</em> / <em>I should have tried harder yesterday I did try.</em></li>\n<li>✅ <em>I <strong>should have</strong> tried.</em> — yozuvda doim <strong>have</strong>, hech qachon <em>of</em> emas.</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbekcha &quot;qilishim kerak edi&quot; — bitta ibora. Ingliz tili &quot;hozir kerak&quot; (<em>I should try</em>) va &quot;oʻtmishda kerak edi&quot; (<em>I should have tried</em>) ni <strong>have + V3</strong> bilan ajratadi. Xuddi shunday:</p>\n<table>\n<thead>\n<tr>\n<th>Oʻzbekcha</th>\n<th>Hozir</th>\n<th>Oʻtmish (afsus)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>kerak</td>\n<td><em>I should go</em></td>\n<td><em>I should have gone</em></td>\n</tr>\n<tr>\n<td>mumkin edi</td>\n<td><em>I can do it</em></td>\n<td><em>I could have done it</em></td>\n</tr>\n<tr>\n<td>shart emas</td>\n<td><em>You needn't worry</em></td>\n<td><em>You needn't have worried</em></td>\n</tr>\n</tbody>\n</table>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>IELTS Part 2/3 da tajribangizni baholab, <em>&quot;looking back, I could have done it differently&quot;</em> deb ayta olsangiz — bu B2 belgisi. AJ ning gʻoyasiga ham mos: xatoni tan oling, undan xulosa chiqaring: <em>&quot;I made mistakes, but I needn't have been afraid.&quot;</em></p>\n<blockquote>\n<p><strong>Eslatma:</strong> eng kuchli mashq — oʻz xatoingiz haqida uchta jumla ayting: <em>&quot;I should have started earlier. I could have asked for help. I needn't have worried so much.&quot;</em> Ovoz chiqarib ayting — qolip shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha “qilishim kerak edi” bitta ibora. Ingliz tili “hozir kerak” (I should try) va “oʻtmishda kerak edi” (I should have tried) ni have + V3 bilan ajratadi. should have = qilishim kerak edi (qilmadim); could have = qila olardim (imkon bor edi); needn't have = shart emas edi (lekin qildim).",
+      "errorFixUz": "❌ I should of tried. / I could tried harder. ✅ I should have tried. I could have tried harder. Nutqda “should've” eshitiladi, lekin yozuvda doim have + V3 — hech qachon “of” emas.",
+      "examples": [
+        {
+          "en": "I should have tried harder.",
+          "uz": "Koʻproq harakat qilishim kerak edi."
+        },
+        {
+          "en": "They could have quit, but they kept swimming.",
+          "uz": "Ular taslim boʻlishlari mumkin edi, lekin suzishda davom etdi."
+        },
+        {
+          "en": "I needn't have worried about the mistake.",
+          "uz": "Xato haqida qaygʻurishim shart emas edi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Looking back, I ___ started earlier.",
+          "options": [
+            "should have",
+            "should of",
+            "should had"
+          ],
+          "answer": "should have",
+          "hintUz": "afsus → should have + V3; yozuvda “of” emas, “have”"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She ___ asked for help, but she didn't.",
+          "options": [
+            "could have",
+            "could of",
+            "can have"
+          ],
+          "answer": "could have",
+          "hintUz": "boy berilgan imkon → could have + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You ___ worried so much — it was fine!",
+          "options": [
+            "needn't have",
+            "needn't",
+            "don't need"
+          ],
+          "answer": "needn't have",
+          "hintUz": "behuda qilingan ish → needn't have + V3"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz xatoingiz haqida rost gap ayting: “I should have … , I could have … , but I needn't have … .”",
+          "answer": null,
+          "hintUz": "should/could/needn't + have + V3"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/19/main.mp3",
+      "durationSec": 830,
+      "bytes": 9966401,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/19/vocab.mp3",
+      "durationSec": 783,
+      "bytes": 9405505,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/19/ministory.mp3",
+      "durationSec": 887,
+      "bytes": 10650932,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Leaders Make Mistakes Main Text Hello, this is AJ, welcome to the next lesson. This one is called “Leaders Make Mistakes” and it comes from a book called Leadership by Tom Peters. Tom Peters is one of my favorite business writers. The reason I like Tom Peters is that he’s very passionate. He’s not a boring businessperson.",
+      "Most business books are boring, but not Tom Peters.",
+      "His books are excellent and they’re full of passionate, emotional language and words and emotional passionate ideas about how to make business into something more, something special, not just greedy little people trying to get more money, but really trying to contribute and help people and do great things.",
+      "So that’s what Tom Peters writes about and it’s why I really like him. He’s got a great Website TomPeters. com and he’s got a lot of great books. And this book that I’m talking about today is called Leadership.",
+      "And there’s a little section and the section is called “Leaders Make Mistakes”, so I’m going to read this small section and then I’ll talk about it more. So here we go. “Leaders make mistakes and they make no bones about it. On the wall of my writing studio in Vermont hangs a quotation by David Kelly, “Fail faster, succeed sooner.”",
+      "Next to that quote hangs another by Diane Arbus who told her students “Learn not to be careful.” In placid times leaders may think they have all the answers.",
+      "In turbulent times leaders must have the best questions, questions that encourage others to undertake voyages of mutual discovery and the essence of that process is letting people screw up. If you try new stuff you screw up. If you try a lot of new stuff you screw up a lot. In fact, the best leaders make big mistakes.",
+      "Mistakes are not enough, big mistakes are mandatory. My all-time favorite PowerPoint slide is this ‘Reward excellent failures, punish mediocre successes. ’ These tumultuous times beg for bold initiatives. While thoughtless recklessness is not to be applauded, the word reckless must be examined carefully.",
+      "Most people who change the world -- Martin Luther King, Galileo, and Picasso -- they were indeed reckless, but not thoughtless. The Martin Luther Kings of the world, the Galileo’s, the Picasso’s, the Churchill’s, the de Gaulle’s, they attempted to create an",
+      "entirely new world against long odds. If that isn’t reckless I don’t know what the word means.” Okay, that’s the end of this section, passionate language from Tom Peters, as always. What’s he saying? Well, quite simply, he’s saying that you have to try new things.",
+      "You have to take risks in your life, in business. And when you take risks you will make mistakes, you will fail. Failure is mandatory. Mandatory means required, it means you must do it. You must make big mistakes because without big mistakes you will never have big successes. He’s saying that the essence of succeeding is failing.",
+      "The people who succeed the most, the people who become the richest or the companies that do the best, it doesn’t matter what area of life, they’re usually the people who have the biggest mistakes because they’re always trying new stuff.",
+      "They’re always trying to do something much, much better, much bigger, and much more interesting and many times, they fail. Many times they make mistakes, but they don’t stop. They don’t cry “I made a mistake, I failed”, they learn from it.",
+      "They look at the mistake, they learn and then they try something else even better and they keep doing that process again and again. They try something great, they fail, they learn, they think about it and then they try something else great, it never ends. Tom Peters says, “That is the process for huge success.",
+      "That is the process that all leaders must follow. Leaders must make mistakes and leaders must encourage their people, their team, to make mistakes also.” I love this because it’s absolutely true. It’s what I follow in my own business. I’ve made so many mistakes when I started Effortless English, when I started the company.",
+      "We started as a small membership site, but then that didn’t work. It was a failure, it was a big failure, so we quit and then we tried something else. We started recording the lessons and selling the lessons as a bundle, as a group. And then that worked, but our first Website was really ugly.",
+      "So then, eventually, we improved the Website and then our lessons. When I first made my original lessons the sound quality was not too good. I didn’t have any money, so I had to record them in my apartment. But now we’re in a recording studio and these have a much better, higher-quality sound. It’s a never-ending process.",
+      "As long as you try something new, as long as you try to be different you’re always going to make a mistake. Unfortunately, in school people are taught to be afraid of mistakes. What happens in school if you make a mistake? You get a big red (x). You fail your test. You fail on your paper. You get a bad grade.",
+      "You get criticized by the teacher. You get in trouble with your parents. All of school is focused on teaching you to avoid mistakes.",
+      "As you grew up going to school year after year you were taught again and again, don’t make mistakes. Don’t make mistakes. Don’t make mistakes. Don’t try something new. Don’t be different. School taught you to fail in life.",
+      "They taught you not to fail on tests, they taught you not to fail at small things, but that belief will cause you to fail in your life. It means you’ll never improve very much, you’ll never be special. You’ll never do anything great if you’re afraid to make mistakes. If you want to have a great life you absolutely must make mistakes.",
+      "If you make big mistakes you’ll have a great, big, fantastic life. It doesn’t matter if you like it that is the truth. So you need to learn how to screw up and you need to learn how to accept it and learn from it and do it again and again and again. That’s Tom Peters’ message, it’s also my message.",
+      "So, please, don’t be afraid of mistakes, mistakes are fantastic. That’s why on our forums and in our Master Member Site I always tell people “Write on the forums and communicate. Never worry about mistakes.” I want to see mistakes on those forums. I like the students who write on our forums and they have mistakes. I like it! Why?",
+      "Because most members never write anything because they’re afraid. Most members do nothing. They never contribute, they never write anything. Because why? They’re afraid they’ll make a mistake, so they don’t learn. They learn slowly because of fear. The people who are writing and making mistakes, they’re the ones who learn faster.",
+      "They’re the best members, they’re our Master Members. They’re not afraid. They keep making mistakes again and again. They make a lot of mistakes when they write on the forums. Everyone can see their mistakes, they don’t care. That’s why they learn faster, that’s why they improve more quickly. That’s why they are our best members.",
+      "They’re the ones that I really, really love, the ones who are not afraid to make mistakes. The ones who make those mistakes every day and they just keep communicating, they keep on going, they never stop, they’re the best students. And I try to follow this same philosophy myself, in my business and as a teacher.",
+      "As a teacher I always try new things. When I was teaching in the classroom I was always trying new activities, new approaches, new methods, constantly trying them. Most of them failed. Most of the time the students didn’t like it or it was not effective. Did I stop? Did I cry? “Oh no, I made a mistake.” No, I did not.",
+      "I learned and then I tried something else and I tried something else. So, this Effortless English System we have now is the result of many mistakes in the past. And I hope and I plan that in the future the Effortless English System will be even better because I will continue to try new stuff. We’re playing with video now.",
+      "We have a Master Member Site which uses video. That’s something new. Some of the videos are going to be bad. I’m going to make mistakes. I will always continue to make mistakes because I know that making mistakes is the key to growth. It’s the key to improvement, it’s the key to innovation, and it’s the key to big success.",
+      "You need to learn that, too. So this is my message to you, do not be afraid. Get on the forums now, today and write something, anything. Write about your life, write about what you like to do, write about music, write about movies, I don’t care, write about anything. Make mistakes.",
+      "Make grammar mistakes, make spelling mistakes. That’s the way you will improve and that’s the way you will get stronger as an English speaker. If you do nothing, if you refuse to write, if you’re afraid to make mistakes, you’re going to learn slowly, so that’s my challenge to you.",
+      "Every day, at least every week, get on the forums and write something and make mistakes. Do not correct your mistakes. Don’t worry about it. Don’t look at a grammar book. You just write something, five minutes, 10 minutes and, boom, you hit enter. You publish it with the mistakes. Let everyone see the mistakes.",
+      "That is my challenge to you. That is what you must do if you are serious. If you really want to improve as an English learner, if you really want to speak better and write better and understand better that’s what you must do. You must write on the forums every week, every day, with mistakes. I hope you’ll do that.",
+      "If you do that, if you do it a lot, then you can become one of our Master Members. And Master Members, I email them personally sometimes because they’re my favorite members. They’re the ones I really love, so I like to give my attention to them.",
+      "If you do nothing, if you sit and you stay quiet and you’re afraid to make a mistake, well, you’re just not going to learn very fast. So make your decision. I hope you’ll decide to be strong, to be brave and to make mistakes so you will improve very quickly. I will see you next time."
+    ],
+    "vocab": [
+      "Leaders Make Mistakes Vocabulary Text Hello, this is AJ, welcome to the vocabulary lesson for “Leaders Make Mistakes.” Let’s go to the beginning. They have a phrase “they make no bones about it.” Tom Peters says “Leaders make mistakes and they make no bones about it.” So that’s a little idiom there, to make no bones about something.",
+      "When you say “they make no bones about it”, it means they don’t apologize for it or they don’t try to hide it. They don’t feel bad about it. That’s the meaning of this phrase. It means you do something and you’re not worried about it. You don’t apologize for it. You don’t feel bad about it. You don’t try to hide it. You feel good.",
+      "So it says they make mistakes and they make no bones about it. It means they make mistakes and they don’t feel bad about making the mistakes, they feel good. They make mistakes and they don’t apologize. They don’t say “I’m sorry. I’m sorry I made a mistake,” right? They make no bones about it. They do not apologize.",
+      "They are direct and honest about it. They don’t try to hide it, they don’t feel bad about it and they don’t apologize. They make no bones about making mistakes. They don’t apologize for making mistakes. They don’t try to hide their mistakes. They don’t feel bad about mistakes. They make no bones about it.",
+      "Okay, then a little later he says “In placid times leaders can pretend to have the answers.” Okay, placid. Placid means calm, calm (c-a-l-m), calm. So it means nothing is changing, right? Everything is calm and slow and relaxed.",
+      "So during placid times in the economy, in history, when everything is calm, then the leaders can pretend they are strong. They can pretend they are perfect. They can pretend they know everything. So in calm times leaders could, in the past, pretend to know everything. They could pretend to be perfect.",
+      "But he says “In turbulent times leaders must have the best questions, not the best answers.” They can’t pretend to know everything. Instead, they have to ask a lot of questions, always asking questions, asking questions. So that’s what happens in turbulent times, what must happen in turbulent times.",
+      "Now turbulent, of course, is the opposite of placid. Turbulent means not calm. It means rough or changing fast, chaotic, so in chaotic times, in rough, difficult times, in times when everything is changing quickly, in turbulent times, turbulent. Turbulent is the opposite of calm, turbulent, not calm.",
+      "Tom says that these questions that leaders ask -- they ask everybody questions all the time – the questions must encourage other people to undertake voyages of mutual discovery. What does that mean? Undertake voyages of mutual discovery. Well, to undertake means to start, to start doing something.",
+      "So to undertake a voyage means to start a voyage and a voyage is a trip, it’s a journey, a trip. So he’s saying you must encourage other people to take a trip, to start a trip, to undertake, to start. So, again, to undertake something means to start something, usually something that takes a long time.",
+      "So you’re going to start something and it’s going to take a while to finish it, to undertake. And you’re going to undertake a voyage. Again, a voyage is a journey, it’s a trip. Now he’s not talking about a real trip, like New York to Los Angeles, he’s talking about an emotional trip, an intellectual trip.",
+      "It means changing what happens in your mind, so a trip, a voyage of mutual discovery. Mutual means shared, it means it’s something you do together with other people. So, for example, you have a team. You want your team to take a trip together, a mutual trip, mutual, together. It means everybody shares it, it happens to everybody.",
+      "That’s mutual, mutual means shared or happening to everybody. And, finally, the word discovery means learning, learning. Or to find new things, find something new, learn something new. So that whole phrase, which is a little difficult, to undertake voyages of mutual discovery, to start a trip of shared learning.",
+      "So what he’s saying is leaders encourage their people to learn new things together. Leaders encourage their people to do, to try, new things together. That’s what he means. And he says the essence of trying new stuff is letting people screw up. Alright, essence means the core, the most important idea. It’s what’s most important.",
+      "So the most important part of trying new stuff, the most important idea, the most important point of trying new stuff is letting people screw up. To screw up means to make a mistake or to fail. To screw up means to fail or to make a mistake. You say “Oh, I screwed up!” It means I made a mistake. I made a mistake, I screwed up.",
+      "To screw up means to make a mistake. He says “You must screw up. You must make mistakes. If you’re a leader you must encourage your people to screw up. You must encourage them to make mistakes. Help them to make mistakes. Congratulate them when they make big, interesting mistakes. Encourage them to screw up.” Out next word is mandatory.",
+      "He says “Big mistakes are mandatory.” Mandatory means required and necessary, something you must do. It is mandatory to make mistakes. It means you must make mistakes. It is required, it is necessary to make mistakes, it is mandatory.",
+      "If you want to succeed, if you want your business to grow and be great, well then you must make big mistakes. Big mistakes are mandatory if you want big success.",
+      "And a great phrase, he says “Reward excellent failures, punish mediocre successes.” Mediocre means normal, average. Not great, not terrible, just in the middle. So he says punish, punish people for mediocre success, for so-so success, for average, normal success.",
+      "Tom Peters says that average and normal are bad. They will hurt your business. Instead, reward excellent, great big failures. Next we have the phrase “to be applauded.” He says “Thoughtless, recklessness is not to be applauded.” To be applauded means to be rewarded, to be congratulated and to be complimented, right?",
+      "Applauding means clapping your hands like this (clap, clap, clap, clap, clap). I’m applauding right now…yeah, yeah! It means to be cheered, to be valued, to be applauded, to be complimented, to be rewarded. They all mean similar things. So he’s saying don’t applaud, don’t congratulate, don’t reward, don’t applaud thoughtless recklessness.",
+      "It means just random. Thoughtless means you don’t think about it. And reckless means taking big risks, to take big, big risks. Someone who is reckless, you know, they don’t care about failing at all. Reckless means you don’t care about the risks, you’re totally not afraid of taking a big chance. That’s reckless.",
+      "So he’s saying reckless or recklessness is the noun, it’s very good if it’s thoughtful. People who think about being reckless, people who think about taking big risks, people who think about trying something very different, if they think about it carefully and they really think about it and they have a plan, well that’s great.",
+      "And he gives examples, Martin Luther King and Galileo and Picasso. They were reckless, they tried very different, almost crazy things at that time in their life, in history and they succeeded, but they were thoughtful, they thought about it carefully. And he says, “Against long odds they tried to create an entirely new world.”",
+      "Against long odds, it means against difficult challenges, against difficult problems. It means there’s a low chance to succeed. The chance to succeed is very small. So against long odds, it means you’re going against what is normal. It means you’re going against what is probable.",
+      "You’re probably going to fail if you go against the long odds, if you go against what is normal, if you go against what is probable. So all these people, they tried something against long odds. It means they probably were going to fail. Most people thought they would fail. And, finally, we have the word ain’t, ain’t.",
+      "He said “If that ain’t reckless I don’t know what the word means.” Ain’t really just means is not or am not or are not. And it’s a very, very casual way to say is not or am not. Say “I ain’t hungry.” It means I am not hungry. Or “He ain’t handsome.” It means he is not handsome. So ain’t, again, is very, very casual.",
+      "It does not sound intelligent, it does not sound intellectual. It’s really the opposite, it kind of very emotional, very, very, very casual. That’s ain’t, it",
+      "means am not or are not or is not. You can use it for all of those. He ain’t hungry. I ain’t hungry. They ain’t hungry. Okay, that is the end of the vocabulary for “Leaders Make Mistakes.”"
+    ],
+    "pov": [
+      "Leaders Make Mistakes POV Text Hello, this is AJ, welcome to the POV (Point of View) stories for “Leaders Make Mistakes.” Same story, let’s begin. Number one, there were two penguins named Todd and Louis. Todd and Louis were normal penguins when they were young. When they were young they were very normal penguins.",
+      "They liked to eat fish and they liked the cold weather. However, five years ago they changed. Since that time they have hated the cold. Since five years ago they have complained about the cold every day. Since five years ago they have dreamed of Thailand. They have wanted to buy a beach resort in Thailand.",
+      "Since that time five years ago they have talked about buying a beach in Thailand. Every day they have told the other penguins “We make no bones about it, we hate the cold!” Staring five years ago and continuing every day they have told the penguins the same thing.",
+      "Every day they have said to everybody else, to all the other penguins, “We make no bones about it, we hate the cold!” They have done this again and again and again. The other penguins thought they were very strange. Until one day, finally, they undertook the long trip to Thailand. Against long odds they began.",
+      "Against long odds they undertook the long and dangerous trip from Antarctica to Thailand. They swam north and one day a big storm came and the ocean was very turbulent and dangerous. There were big, big waves (pow-pow), it was extremely turbulent, but they continued to swim north to Thailand. And Todd yelled “We ain’t gonna’ quit!",
+      "We ain’t quittin’! We’ll get to Thailand, we won’t stop!” And so they continued to swim. The storm continued for 20 days and Todd and Louis continued to swim through the turbulent ocean during the entire 20 days of the storm. Until one day the storm stopped and the ocean became very placid and calm.",
+      "The water became warm and they saw Thailand. They arrived in Thailand. They immediately swam to a beach. They climbed onto the beach and immediately they bought it because they were very rich penguins. They bought the beach in Thailand and they built a huge, magnificent resort.",
+      "And every day they laid on the beach under the sun next to the calm and placid waters of Thailand. They were warm, happy and feeling great.",
+      "www. And that is the end of the first POV story, next, into the future. This is my little idea for a story about the future. I’m going to tell you about it, are you ready? Let’s do it. In the future, maybe 10 years from now, there will be two penguins, two strange penguins. Their names will be Todd and Louis.",
+      "Todd and Louis won’t be normal. They won’t be the same as other penguins, they won’t like the cold. In fact, they’re going to hate the cold. They’ll have a dream. They’re going to want to buy a beach resort in Thailand. And they’re not going to make bones about this dream. They’re not going to apologize. They’re not going to hide it.",
+      "They’re going to say “We make no bones about it, we hate the cold!” They’ll tell everybody. They’re going to tell all the other penguins about their dream. And one day they’ll decide to do it. Against long odds they will undertake the long and dangerous trip to Thailand.",
+      "They’ll swim and they’ll swim and they’ll swim and then one day a big storm will come. The ocean will become very turbulent, but they’re not going go quit, they’ll keep going. The storm will last for 20 days and 20 nights, but they’ll keep swimming. And Todd is going to yell “We ain’t quittin’! We ain’t gonna’ stop!",
+      "We’re going to Thailand!” And they will, they will continue. They’ll keep swimming through the storm, through the turbulent ocean. Until one day the storm will stop. The storm is going to stop suddenly and the ocean will become very placid and calm. And the water will become very warm and they will see Thailand.",
+      "They will arrive in Thailand, finally. They will swim to the beach, they’ll come up onto the beach and they’ll yell “We want to buy this beach, right now!” Because, of course, they’re going to be extremely rich penguins. And they’ll do it, they’ll buy the beach and then they’ll build a magnificent, huge resort on the beach.",
+      "And every day they’re going to lay on the beach under the warm sun next to the placid waters of Thailand. They’ll be warm and happy and relaxed. The end. That is the end of the POV stories for “Leaders Make Mistakes.” As always, listen to these lessons every day for one week or two weeks or more if you want.",
+      "More is okay, less is not okay, so deep learning, deep learning. And always have energy in your body, energy in your mind when you listen. I will see you next time. Bye-bye."
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English, where we bring you an interesting topic and six items of vocabulary. I'm Neil, and joining me is Rob.",
+      "Rob: Hello there! And today we've got six minutes to talk about honesty and how honest people are – particularly when it comes to spending money. So Neil – what's an 'honesty box'?",
+      "Neil: Well, it's where you pay for something by putting money in a box – but it's up to you to put in the right amount. A small business might use this method to take money for things like parking your car or buying a newspaper because it means you don't need a sales assistant.",
+      "Rob: But that means people could take a newspaper or park their car without paying anything! An honesty box relies on people being honest. The adjective honest means truthful and not trying to cheat people.",
+      "Neil: And the noun is honesty – the quality of being truthful. Have you ever cheated an honesty box, Rob?",
+      "Rob: Absolutely not! I never have!",
+      "Neil: Honestly?",
+      "Rob: Honestly! And to cheat, by the way, means to trick or deceive someone to get something you want. Honesty is the best policy, as they say… 2015",
+      "Neil: Which of course leads us on to our quiz.",
+      "Dan: The 6 minute English quiz! Who said ‘honesty is the best policy’? Was it… a) Donald Trump b) Benjamin Franklin or c) Richard Nixon?",
+      "Rob: Honestly, Neil! Everyone will know the answer to that.",
+      "Neil: But do you know the answer to that, Rob?",
+      "Rob: Well, I'll have an honest guess. I think it's b) Benjamin Franklin.",
+      "Neil: Well, you might be right, but you might not – we'll find out at the end. I did like your use of 'honestly' there, Rob. We can use the adverb 'honestly' at the beginning of a sentence to show that we're feeling irritated – for example when your co-presenter picks a quiz question that's too easy!",
+      "Rob: OK, OK, let's move on now and hear from Philip Graves, a psychologist, and author of the book Consumerology, who can tell us about why honesty isn't always the best policy.",
+      "INSERT: Philip Graves, Psychologist and author of the book Consumerology The question is not 'Are most consumers honest, the question is 'Are most people honest?' – And the answer to that is 'no'. We have evolved with the capacity to be dishonest. It's part of our evolutionary psychological make up – because if we can gain an advantage over the people around us, we have a greater chance of surviving. Now what's important in that is that we also benefited from being in a social group and that was important in our evolutionary past so there is a balance to strike between the extent to which we can feather our own nest, so to speak, and the risk of being ostracised by the group.",
+      "Neil: A consumer is a person who buys things or services – for example, food or clothes.",
+      "Rob: Or the use of a parking space – or a taxi. 2015",
+      "Neil: Now, if I park my car and don't pay for the parking space, I'm being dishonest, but I'm also saving money.",
+      "Rob: And Philip Graves says being dishonest is part of our 'psychological make up'. What does that mean?",
+      "Neil: Our psychological make up is the way the human mind works – the way we think.",
+      "Rob: And it makes sense to be dishonest if you gain an advantage through this behaviour. So when you take something without paying for it, you save money you can spend on something else.",
+      "Neil: So why do we place such importance on being honest then? – If we benefit from being dishonest?",
+      "Rob: Because it's selfish behaviour – which other members of our social group won't like. If everybody acted selfishly and dishonestly all the time, the world would be a very unpleasant place!",
+      "Neil: Selfish – meaning only caring about yourself and not about other people. That's a good point, Rob.",
+      "Rob: Yes, societies work better if people behave co-operatively – which means working together towards shared goals.",
+      "Neil: So honesty really is the best policy then – at least most of the time!",
+      "Dan: And now it's time for the answer to the quiz. Who said ‘honesty is the best policy’?",
+      "Neil: 2015 What do you think, Rob?",
+      "Rob: OK. Was it Benjamin Franklin?",
+      "Neil: And that was… the right answer! Maybe the question was too easy! Benjamin Franklin wrote it in a book of proverbs called Poor Richard's Almanac between 1732 and 1758. Other famous quotes include 'There are no gains without pains' and 'Have you something to do tomorrow? Do it today.' OK let's follow Franklin's wise words and move right ahead with the vocabulary items we learned today.",
+      "Rob: First up was the adjective honest – meaning truthful and not trying to cheat people – For example, 'Neil has a very honest face'. OK, then there's … um …. honesty and honestly… the noun and adverb forms. For example, erm…",
+      "Neil: Honestly, Rob, hurry up and do the second item!",
+      "Rob: OK, OK, I'm getting there! To cheat – means to behave dishonestly to get what you want.",
+      "Neil: My granny always used to cheat in card games. It was so annoying!",
+      "Rob: And I always used to cheat in spelling tests at school!",
+      "Neil: How dishonest, Rob! OK, number three. Consumer – a person who buys goods or services for their own personal use.",
+      "Rob: For example, 'I am a big consumer of chocolate bars'.",
+      "Neil: That's terrible English, Rob! How about – 'We asked UK consumers how much money they spent on food every month'?",
+      "Rob: OK, I agree that's a better example. Anyway, I never consume chocolate. Number four! 2015",
+      "Neil: Psychological make up – the way our minds work. The way we think.",
+      "Rob: For example, 'He had the psychological make up of a serial killer…'",
+      "Neil: That's nasty! Moving on – selfish – caring only about yourself and not other people.",
+      "Rob: You only made yourself a cup of tea – that was a selfish thing to do!",
+      "Neil: What???",
+      "Rob: It was just an example. You're not selfish, Neil. You're actually the most co-operative person I know – you're happy to work with others towards a common goal.",
+      "Neil: Not selfish then?",
+      "Rob: Never selfish. Always co-operative… And honest too.",
+      "Neil: Great. Now, I honestly recommend that listeners visit our Facebook, Twitter, Instagram and YouTube pages.",
+      "Rob: You can co-operate with other learners in your common goal of improving your English! Bye-bye!",
+      "Neil: Goodbye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Where did Todd and Louis the penguins live?",
+        "a": "They lived in Antarctica."
+      },
+      {
+        "q": "Did they live in Florida or Antarctica?",
+        "a": "Well, they lived in Antarctica."
+      },
+      {
+        "q": "What were Todd and Louis?",
+        "a": "Well, they were penguins. Todd and Louis were penguins."
+      },
+      {
+        "q": "Were they ducks?",
+        "a": "No, they weren’t. They weren’t ducks they were penguins. Todd and Louis were penguins and they lived in Antarctica."
+      },
+      {
+        "q": "How is the weather in Antarctica?",
+        "a": "Well, it’s cold. The weather is always very cold in Antarctica."
+      },
+      {
+        "q": "Did Todd and Louis like the cold?",
+        "a": "Well, they were penguins, but they did not like the cold. Todd and Louis didn’t like the cold, they were strange penguins."
+      },
+      {
+        "q": "What didn’t they like?",
+        "a": "Well, they didn’t like the cold. Todd and Louis the penguins didn’t like the cold."
+      },
+      {
+        "q": "What did they want to buy?",
+        "a": "They wanted to buy a beach resort."
+      },
+      {
+        "q": "Where did they want to buy a beach resort?",
+        "a": "In Thailand, they wanted to buy a beach resort in Thailand."
+      },
+      {
+        "q": "And who, who wanted to buy a beach resort in Thailand?",
+        "a": "Todd and Louis the penguins. Todd and Louis the penguins wanted to buy a beach resort in Thailand."
+      },
+      {
+        "q": "Did they apologize because they hated the cold?",
+        "a": "No, they didn’t apologize. They said “We make no bones about it. We don’t feel bad about it. We’re not going to apologize. We make no bones about it, we hate the cold!”"
+      },
+      {
+        "q": "What did Todd and Louis say to the other penguins?",
+        "a": "They said we make no bones about it. We hate the cold!"
+      },
+      {
+        "q": "Did they try to hide their feelings?",
+        "a": "No, they said we make no bones about it. They were open. They were direct. We make no bones about it, we hate the cold! They were strong and direct."
+      },
+      {
+        "q": "Was it probable that they would succeed?",
+        "a": "No, it was not probable. Probably they would fail. Against long odds they started the trip."
+      },
+      {
+        "q": "Would they probably succeed or would they probably fail?",
+        "a": "They would probably fail, right? They were going against long odds, against long odds, against difficult challenges, against probable failure, against long odds."
+      },
+      {
+        "q": "Did they finish a long trip from Antarctica to Thailand?",
+        "a": "No, they didn’t finish they started, they undertook, they began. They undertook a long trip, a dangerous trip, a difficult trip from Antarctica to Thailand."
+      },
+      {
+        "q": "What did they undertake?",
+        "a": "They undertook a trip from Antarctica to Thailand."
+      },
+      {
+        "q": "And who?",
+        "a": "Louis and Todd, Louis and Todd undertook a long trip from Antarctica to Thailand."
+      },
+      {
+        "q": "And what were they? What were Todd and Louis?",
+        "a": "They were penguins. Todd and Louis were penguins who undertook a long, dangerous trip from Antarctica to Thailand."
+      },
+      {
+        "q": "During the storm was the ocean calm?",
+        "a": "No, it wasn’t clam it was turbulent. The ocean was turbulent, it was not clam."
+      },
+      {
+        "q": "Why was the ocean turbulent?",
+        "a": "Well, because there was a storm. The ocean was turbulent because there was a storm."
+      },
+      {
+        "q": "How was the ocean?",
+        "a": "It was turbulent. The ocean was very turbulent (pow), big storm (pow, pow). There were big, big waves, it was turbulent and cold and dangerous."
+      },
+      {
+        "q": "Would they quit?",
+        "a": "No, they would not quit. Todd yelled “We ain’t quitting!” We are not quitting! “We ain’t gonna’ quit!” We will not quit!"
+      },
+      {
+        "q": "What did Todd say?",
+        "a": "He said, he yelled “We ain’t quitting! We’re going to Thailand. Nothing can stop us, we ain’t gonna’ quit!"
+      },
+      {
+        "q": "Did the ocean become turbulent?",
+        "a": "No, it didn’t, it became placid, very calm."
+      },
+      {
+        "q": "What became placid?",
+        "a": "The ocean, the ocean became very placid, very, very calm."
+      },
+      {
+        "q": "Did it become turbulent or did it become placid?",
+        "a": "It became placid. The ocean became very placid and the water became very, very warm, warm and placid. And then they saw it, they saw Thailand. They arrived in Thailand! Todd and Louis the penguins made it to Thailand."
+      },
+      {
+        "q": "Where did they arrive?",
+        "a": "They arrived on a beach in Thailand."
+      },
+      {
+        "q": "Who arrived on a beach in Thailand?",
+        "a": "Todd and Louis, Todd and Louis arrived on a beach in Thailand."
+      },
+      {
+        "q": "What arrived on a beach in Thailand?",
+        "a": "Two penguins, two strange penguins arrived on a beach in Thailand; their names were Todd and Louis."
+      },
+      {
+        "q": "What did they buy?",
+        "a": "EffortlessEnglishClub.com 5"
+      },
+      {
+        "q": "Who bought the beach in Thailand?",
+        "a": "Todd and Louis, the very rich penguins."
+      },
+      {
+        "q": "Where did they buy a beach?",
+        "a": "In Thailand, they bought a beach in Thailand."
+      },
+      {
+        "q": "What did they buy in Thailand?",
+        "a": "A beach, they bought a beach in Thailand and they built a huge, beautiful resort. And every day Todd and Louis the penguins laid on the beach in the sun next to the warm, placid waters of Thailand."
+      },
+      {
+        "q": "What were they?",
+        "a": "They were warm, relaxed, happy penguins."
+      },
+      {
+        "q": "Why were they warm, relaxed, happy penguins?",
+        "a": "Because every day they laid on a beach in Thailand under the sun."
+      },
+      {
+        "q": "Who laid on a beach in Thailand under the sun every day?",
+        "a": "Todd and Louis the penguins, Todd and Louis the penguins laid under the sun every day on a beach in Thailand next to placid, warm waters. And they were happy, warm, wonderful penguins."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to make no bones about (something)",
+      "pos": "phrase",
+      "uz": "biror narsani yashirmaslik, uzr soʻramaslik; ochiq aytmoq",
+      "defEn": "to say or do something openly, without apologizing or hiding it",
+      "example": "Leaders make mistakes and they make no bones about it."
+    },
+    {
+      "en": "placid",
+      "pos": "adj",
+      "uz": "tinch, osoyishta, sokin",
+      "defEn": "calm and quiet; not changing",
+      "example": "In placid times, leaders can pretend to have all the answers."
+    },
+    {
+      "en": "turbulent",
+      "pos": "adj",
+      "uz": "notinch, notoʻxtov oʻzgaruvchan, notinch/dovulli (placid ning teskarisi)",
+      "defEn": "not calm; rough, chaotic, changing fast",
+      "example": "In turbulent times, leaders need the best questions."
+    },
+    {
+      "en": "to undertake (a voyage)",
+      "pos": "v",
+      "uz": "boshlamoq, qoʻl urmoq (uzoq davom etadigan ishga)",
+      "defEn": "to start something, usually something long or difficult",
+      "example": "Against long odds, they undertook the trip to Thailand."
+    },
+    {
+      "en": "a voyage of mutual discovery",
+      "pos": "phrase",
+      "uz": "birgalikda yangilik oʻrganish sayohati (mutual = umumiy, birgalikdagi)",
+      "defEn": "a shared journey of learning new things together",
+      "example": "Leaders send their people on voyages of mutual discovery."
+    },
+    {
+      "en": "the essence of (something)",
+      "pos": "phrase",
+      "uz": "mohiyati, asosiy magʻzi, eng muhim gʻoyasi",
+      "defEn": "the core or most important part of something",
+      "example": "The essence of trying new things is letting people screw up."
+    },
+    {
+      "en": "to screw up",
+      "pos": "phrase",
+      "uz": "xato qilmoq, ishni buzmoq (norasmiy)",
+      "defEn": "to make a mistake or fail (informal)",
+      "example": "If you try new stuff, you screw up."
+    },
+    {
+      "en": "mandatory",
+      "pos": "adj",
+      "uz": "majburiy, shart, zarur",
+      "defEn": "required and necessary; something you must do",
+      "example": "Mistakes are not enough — big mistakes are mandatory."
+    },
+    {
+      "en": "mediocre",
+      "pos": "adj",
+      "uz": "oʻrtamiyona, na yaxshi na yomon",
+      "defEn": "average; not good and not bad, just so-so",
+      "example": "Reward excellent failures, punish mediocre successes."
+    },
+    {
+      "en": "reckless / recklessness",
+      "pos": "adj",
+      "uz": "beparvo, xavf-xatarga eʼtibor bermay ish tutadigan",
+      "defEn": "taking big risks without caring about the danger",
+      "example": "They were reckless, but not thoughtless."
+    },
+    {
+      "en": "against long odds",
+      "pos": "phrase",
+      "uz": "muvaffaqiyat ehtimoli past boʻlsa ham, qiyinchiliklarga qaramay",
+      "defEn": "with a very small chance of success; against difficult challenges",
+      "example": "Against long odds, they tried to create a new world."
+    }
+  ],
+  "englishpod": {
+    "id": "0253",
+    "title": "The Office – Interview Skills: Talking About Weaknesses",
+    "titleUz": "Ofis — suhbat koʻnikmalari: kamchiliklar haqida gapirish",
+    "warmup": {
+      "uz": "Bu suhbatda Rebecca ish suhbatida oʻz kamchiligini aytishi kerak. AJ ning darsiga juda mos: kuchli odam xato va kamchiliklarini yashirmaydi — ochiq aytadi. Sizningcha, ish suhbatida oʻz kamchiligingizni aytish kuchmi yoki zaiflik?",
+      "en": "In this dialogue Rebecca has to describe her weakness in a job interview. It fits AJ's lesson perfectly: strong people don't hide their mistakes and weaknesses — they make no bones about them. Do you think naming your weakness in an interview is a strength or a weakness?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0253/dg.mp3",
+        "durationSec": 67,
+        "bytes": 567694
+      },
+      "pr": {
+        "path": "englishpod/0253/pr.mp3",
+        "durationSec": 785,
+        "bytes": 12590914
+      },
+      "rv": {
+        "path": "englishpod/0253/rv.mp3",
+        "durationSec": 288,
+        "bytes": 4644802
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Mr Parsons",
+        "en": "Okay Rebecca, well I think you’vegiven me a clear impression of your positive qualities, but let’s talk a little bit about your weaknesses."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Okay, well it’s always more difficult to describe them isn’t it?"
+      },
+      {
+        "speaker": "Mr Parsons",
+        "en": "Definitely, but if you had to pinpoint one weakness what would it be?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well as I mentioned before, I do tend to get frustrated if I don’t see progress in my work or career. I suppose I’m quite a restless character. My father always taught me to be a high achiever so."
+      },
+      {
+        "speaker": "Mr Parsons",
+        "en": "So would you say if things don’t go your way at work it could easily get you down?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well, in a way yes. But I must say that even if I’m not completely happy in my work I always give 110% I would never shirk my responsibilities. I suppose sometimes Iexpect too much too soon."
+      },
+      {
+        "speaker": "Mr Parsons",
+        "en": "Well, you know journalism is a highly competitive world, so you do need to keep pushing yourself it’s true. Okay well lets move on to talk about the job position here shall we?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes please."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "weakness",
+        "uz": "kamchilik, zaif tomon, nuqson",
+        "defEn": "a personal defect or failing"
+      },
+      {
+        "en": "to pinpoint",
+        "uz": "aniq koʻrsatmoq, aniqlab bermoq",
+        "defEn": "to locate or describe something exactly or precisely"
+      },
+      {
+        "en": "an impression",
+        "uz": "taassurot (biror voqeadan keyingi tuygʻu)",
+        "defEn": "the feeling or opinion one has after a specific event"
+      },
+      {
+        "en": "frustrated",
+        "uz": "koʻngli qolgan, asabi buzilgan, ranjigan",
+        "defEn": "upset or annoyed because you cannot do or get what you want"
+      },
+      {
+        "en": "to go someone's way",
+        "uz": "koʻngildagidek, rejaga muvofiq ketmoq",
+        "defEn": "to proceed according to one's plans or wishes"
+      },
+      {
+        "en": "to get someone down",
+        "uz": "ruhini tushirmoq, tushkunlikka solmoq",
+        "defEn": "to exhaust, discourage, or depress someone"
+      },
+      {
+        "en": "to shirk (responsibilities)",
+        "uz": "(masʼuliyatdan) bosh tortmoq, chetlamoq",
+        "defEn": "to avoid or neglect a duty or responsibility"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170727",
+    "title": "How honest are we?",
+    "titleUz": "Biz qanchalik halolmiz?",
+    "audio": {
+      "main": {
+        "path": "sixmin/170727/audio.mp3",
+        "durationSec": 379,
+        "bytes": 15160320,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Who said 'honesty is the best policy'?",
+        "qUz": "“Halollik — eng yaxshi siyosat” degan gapni kim aytgan?",
+        "options": [
+          "Donald Trump",
+          "Benjamin Franklin",
+          "Richard Nixon"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) Benjamin Franklin. U buni 1732–1758-yillar orasida yozilgan “Poor Richard's Almanac” maqollar kitobida yozgan. Rob ham shu javobni tanladi va toʻgʻri topdi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "honest",
+        "uz": "halol, rostgoʻy, aldamaydigan",
+        "defEn": "truthful and not trying to cheat people"
+      },
+      {
+        "en": "to cheat",
+        "uz": "aldamoq, firib bermoq, hiyla ishlatmoq",
+        "defEn": "to behave dishonestly to get what you want"
+      },
+      {
+        "en": "a consumer",
+        "uz": "isteʼmolchi (mahsulot yoki xizmat sotib oluvchi)",
+        "defEn": "a person who buys goods or services for their own use"
+      },
+      {
+        "en": "psychological make up",
+        "uz": "ruhiy tuzilma, ong ishlash tarzi",
+        "defEn": "the way the human mind works; the way we think"
+      },
+      {
+        "en": "selfish",
+        "uz": "xudbin, faqat oʻzini oʻylaydigan",
+        "defEn": "caring only about yourself and not about other people"
+      },
+      {
+        "en": "co-operative",
+        "uz": "hamkorlikka moyil, birga ishlaydigan",
+        "defEn": "willing to work together with others towards a shared goal"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Why the best leaders make the most mistakes",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Have you ever made a big mistake or failed at something? What happened — and looking back, what should you have done differently? What could you have done, and what needn't you have worried about?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect tajriba uchun (Have you ever …? / I have never …) va oʻtmishga afsus (I should have …, I could have …, I needn't have …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/19/main.mp3",
+      "bytes": 9966401
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/19/main.pdf",
+      "bytes": 171078
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/19/vocab.mp3",
+      "bytes": 9405505
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/19/ministory.mp3",
+      "bytes": 10650932
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/19/pov.pdf",
+      "bytes": 148853
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0253/dg.mp3",
+      "bytes": 567694
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0253/transcript.pdf",
+      "bytes": 91053
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170727/audio.mp3",
+      "bytes": 15160320
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170727/transcript.pdf",
+      "bytes": 265293
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

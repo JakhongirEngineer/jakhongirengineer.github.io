@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 2,
+  "id": "core-28",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 28,
+  "slug": "no-failure",
+  "title": "No Failure",
+  "titleUz": "Muvaffaqiyatsizlik yoʻq — faqat natija",
+  "level": "B1-B2",
+  "tags": [
+    "mindset",
+    "resilience",
+    "mixed-conditionals",
+    "connectors",
+    "cause-and-effect"
+  ],
+  "intro": {
+    "uz": "AJ Hogeʼning kuchli eʼtiqodi: muvaffaqiyatsizlik degan narsa yoʻq — faqat natija (feedback) va oʻrganish tajribasi bor. Watt haqidagi POV hikoyada mototsikl 110 marta ishlamaydi, ammo har safar u biror narsa oʻrganadi. Bu haftaning ikki grammatikasi shu gʻoyani tilga aylantiradi: aralash shart gap (oʻtmish sharti → hozirgi natija: If I hadn't failed, I would be…) va sabab-natija-maqsad bogʻlovchilari (because / so / therefore / in order to).",
+    "en": "AJ Hoge's core belief: there is no such thing as failure — only feedback and a learning experience. In the POV story about Watt, the motorcycle fails 110 times, yet each time he learns something. This week's two grammar topics turn that idea into language: mixed conditionals (past condition → present result: If I hadn't failed, I would be…) and cause–result–purpose connectors (because / so / therefore / in order to)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻtmishdagi bir voqea bugungi holatingizga qanday taʼsir qilganini aralash shart gap bilan ayta olasiz (If I hadn't …, I wouldn't be …) va fikringizni because / so / therefore / in order to bilan mantiqan bogʻlab, ravon tushuntira olasiz.",
+    "en": "By the end you can say how a past event shaped who you are today using a mixed conditional (If I hadn't …, I wouldn't be …), and connect your ideas logically with because / so / therefore / in order to."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "mixed-conditionals",
+      "titleUz": "Aralash shart gap: oʻtmish sharti → hozirgi natija",
+      "titleEn": "Mixed conditionals — past condition, present result",
+      "bandLifter": "IELTS Part 3 — discuss how past events shape the present",
+      "cefrCanDo": "B2: I can link a past condition to a present result (had + V3 → would + verb)",
+      "bodyHtml": "<p>Bu darsda AJ oʻz hayotidan bir voqeani aytadi: uni ishdan boʻshatishgan, va aynan oʻsha &quot;muvaffaqiyatsizlik&quot; uni bugungi erkin, mustaqil oʻqituvchiga aylantirgan. <em>&quot;There is no failure, only learning.&quot;</em> Aynan shu gʻoyani ingliz tili bitta chiroyli qolip bilan ifodalaydi — <strong>aralash shart gap</strong>: shart oʻtmishda, natija esa <strong>hozir</strong>. <em>&quot;If I <strong>hadn't failed</strong>, I <strong>wouldn't be</strong> so strong today.&quot;</em> Agar oʻsha xato boʻlmaganda, bugun bunchalik kuchli boʻlmasdim.</p>\n<h3>Maʼnosi: oʻtmishdagi shart → hozirgi natija</h3>\n<p>Oddiy (uchinchi) shart gap butunlay oʻtmishda qoladi: <em>If I had studied, I would have passed</em> — hammasi tugagan. <strong>Aralash shart</strong> esa oʻtmish bilan hozirni bogʻlaydi: oʻtmishda biror narsa boʻldi (yoki boʻlmadi), va uning natijasi <strong>hozir ham seziladi</strong>. Bu — darsning qoq markazidagi fikr: oʻtmishdagi &quot;muvaffaqiyatsizlik&quot; bugungi kuchingizni yasagan.</p>\n<ul>\n<li><em>If I <strong>hadn't lost</strong> my job, I <strong>wouldn't be</strong> a teacher now.</em> — Ishdan boʻshamaganimda, hozir oʻqituvchi boʻlmasdim.</li>\n<li><em>If Watt <strong>hadn't tried</strong> 110 times, he <strong>wouldn't have</strong> his Harley today.</em> — Watt 110 marta urinmaganda, bugun uning Harleyʼsi boʻlmasdi.</li>\n</ul>\n<h3>Shakli: had + V3 → would + sof feʼl</h3>\n<p>Qolip aniq va oʻzgarmas:</p>\n<ul>\n<li><strong>if-qism (oʻtmish sharti):</strong> <code>if + had + V3</code> — <em>if I had failed, if she hadn't left, if we had known.</em></li>\n<li><strong>asosiy qism (hozirgi natija):</strong> <code>would + sof feʼl</code> — <em>I would be, she would understand, we would live.</em></li>\n</ul>\n<p>Ikki qismning zamoni <strong>har xil</strong> — mana shu &quot;aralash&quot; degani. Oʻtmish uchun <code>had + V3</code>, hozir uchun <code>would + feʼl</code>. Ularni adashtirmang: natija <code>would have + V3</code> emas (u sof oʻtmish uchun), balki <code>would + feʼl</code>, chunki natija hozirda.</p>\n<p>Solishtiring:</p>\n<table>\n<thead>\n<tr>\n<th>Qolip</th>\n<th>if-qism</th>\n<th>natija</th>\n<th>maʼnosi</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Sof 3-shart</td>\n<td>if I <strong>had failed</strong></td>\n<td>I <strong>would have failed</strong></td>\n<td>hammasi oʻtmishda</td>\n</tr>\n<tr>\n<td><strong>Aralash</strong></td>\n<td>if I <strong>had failed</strong></td>\n<td>I <strong>would be</strong> weak now</td>\n<td>oʻtmish → <strong>hozir</strong></td>\n</tr>\n</tbody>\n</table>\n<p>Ikkinchi qatorga eʼtibor bering — bu darsning gʻoyasi shu: oʻtmishdagi voqea bugungi natijani yaratgan.</p>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tili ikkala qismni ham bir xil &quot;-ganimda … boʻlardim&quot; qolipi bilan beradi va zamonlarni ajratmaydi: <em>&quot;Xato qilmaganimda, hozir bilmasdim.&quot;</em> Ingliz tili esa shartni <strong>oʻtmishga</strong> (had + V3), natijani <strong>hozirga</strong> (would + feʼl) qatʼiy ajratadi. Shu bois oʻzbek oʻquvchi koʻpincha ikkala qismni ham bitta zamonda aytib yuboradi — asosiy xato shu.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> ❌ <em>If I didn't fail, I am strong.</em> ❌ <em>If I hadn't failed, I wouldn't have been strong now.</em> ✅ <em>If I <strong>hadn't failed</strong>, I <strong>wouldn't be</strong> strong now.</em> Oʻtmish sharti — <code>had + V3</code>; hozirgi natija — <code>would + sof feʼl</code>. Bir jumlani ovoz chiqarib takrorlang: <em>&quot;If I hadn't started English, I wouldn't be here now.&quot;</em> Miya qolipni takrordan oʻzlashtiradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tili ikkala qismni ham bir xil “-ganimda … boʻlardim” qolipi bilan beradi va zamonlarni ajratmaydi. Ingliz tili esa shartni oʻtmishga (had + V3), natijani hozirga (would + sof feʼl) qatʼiy ajratadi: “Agar xato qilmaganimda, hozir bilmasdim” = “If I hadn't made mistakes, I wouldn't know this now”.",
+      "errorFixUz": "❌ If I didn't fail, I am strong now. ❌ If I hadn't failed, I wouldn't have been strong now. ✅ If I hadn't failed, I wouldn't be strong now. Oʻtmish sharti — had + V3; hozirgi natija — would + sof feʼl (would have + V3 emas, chunki natija hozirda).",
+      "examples": [
+        {
+          "en": "If I hadn't lost my job, I wouldn't be a teacher now.",
+          "uz": "Ishdan boʻshamaganimda, hozir oʻqituvchi boʻlmasdim."
+        },
+        {
+          "en": "If Watt hadn't tried again, he wouldn't have his motorcycle today.",
+          "uz": "Watt yana urinmaganda, bugun uning mototsikli boʻlmasdi."
+        },
+        {
+          "en": "If I hadn't started English, I wouldn't be here right now.",
+          "uz": "Ingliz tilini boshlamaganimda, hozir bu yerda boʻlmasdim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "If I ___ failed so many times, I wouldn't be this strong today.",
+          "options": [
+            "hadn't",
+            "didn't",
+            "wouldn't"
+          ],
+          "answer": "hadn't",
+          "hintUz": "oʻtmish sharti → had + V3 (hadn't failed)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If she had learned from her mistakes, she ___ more confident now.",
+          "options": [
+            "would be",
+            "would have been",
+            "was"
+          ],
+          "answer": "would be",
+          "hintUz": "hozirgi natija → would + sof feʼl (would be), oʻtmish emas"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "If Watt ___ given up, he wouldn't be riding his Harley now.",
+          "options": [
+            "had",
+            "has",
+            "would"
+          ],
+          "answer": "had",
+          "hintUz": "if + had + V3 (had given up)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): oʻtmishdagi bir voqeani bugungi holatingizga bogʻlang — “If I hadn't …, I wouldn't … now.”",
+          "answer": null,
+          "hintUz": "if + had + V3 → would + sof feʼl (natija hozirda)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "cause-result-purpose-connectors",
+      "titleUz": "Sabab, natija, maqsad bogʻlovchilari: so / therefore / in order to",
+      "titleEn": "Cause, result & purpose connectors",
+      "bandLifter": "IELTS Part 3 — build a coherent argument (cause → effect)",
+      "cefrCanDo": "B2: I can link cause, result and purpose with because / so / therefore / in order to",
+      "bodyHtml": "<p>POV hikoyada Watt bilan sodir boʻlgan hamma narsa bir zanjir: mototsikl portladi, <strong>shuning uchun</strong> u oʻzini koyidi; keyin har safar biror narsa <strong>oʻrgandi</strong>, <strong>shuning natijasida</strong> oxiri muvaffaqiyatga erishdi. Butun darsning gʻoyasi — sof <strong>sabab → natija</strong>: <em>&quot;I failed, <strong>so</strong> I learned; <strong>therefore</strong> there is no failure.&quot;</em> Bu bogʻlovchilar fikringizni bogʻlab, uni izchil va ishonarli qiladi — IELTS Part 3ʼda bahoni koʻtaradigan aynan shu koherentlik.</p>\n<h3>Uch guruh: sabab, natija, maqsad</h3>\n<p><strong>1. Sabab (nega?)</strong> — <code>because</code>, <code>as</code>, <code>since</code>:</p>\n<ul>\n<li><em>He beat himself up <strong>because</strong> the bike exploded.</em> — Mototsikl portlagani uchun oʻzini koyidi.</li>\n</ul>\n<p><strong>2. Natija (shuning uchun / oqibatda)</strong> — <code>so</code>, <code>therefore</code>, <code>as a result</code>:</p>\n<ul>\n<li><em>The bike exploded, <strong>so</strong> he felt bad.</em> — kundalik, gaplashuv uslubi.</li>\n<li><em>He learned from every mistake; <strong>therefore</strong>, there was no failure.</em> — rasmiy, yozma uslub.</li>\n<li><em>He tried 110 times. <strong>As a result</strong>, he finally succeeded.</em> — natijani alohida jumlada urgʻulaydi.</li>\n</ul>\n<p><strong>3. Maqsad (nima uchun? qaysi niyatda?)</strong> — <code>in order to</code>, <code>so that</code>:</p>\n<ul>\n<li><em>He kept trying <strong>in order to</strong> learn.</em> — <code>in order to</code> + <strong>sof feʼl</strong> (oʻrganish uchun).</li>\n<li><em>He studied the feedback <strong>so that</strong> he could build a better bike.</em> — <code>so that</code> + <strong>gap</strong> (ega + feʼl).</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida sabab ham, natija ham koʻpincha bitta &quot;-gani uchun / shuning uchun&quot; bilan beriladi va bogʻlovchi jumla <strong>oxirida</strong> turadi. Ingliz tilida esa bu soʻzlarning oʻrni va uslubi farq qiladi: <code>because</code> sababni <strong>ergashtiradi</strong> (<em>because it exploded</em>), <code>so</code> esa natijani ikki jumla <strong>oʻrtasida</strong> bogʻlaydi (<em>it exploded, so…</em>). Eng koʻp uchraydigan xato — maqsadni ifodalashda <code>for</code> + feʼl ishlatish.</p>\n<p>Diqqat qiling: <code>because</code> va <code>so</code> <strong>bir xil</strong> ikki gʻoyani teskari tartibda bogʻlaydi:</p>\n<ul>\n<li><em>He failed <strong>because</strong> he was clumsy.</em> (natija → sabab)</li>\n<li><em>He was clumsy, <strong>so</strong> he failed.</em> (sabab → natija)</li>\n</ul>\n<p><code>therefore</code> va <code>as a result</code> esa <code>so</code>ga oʻxshaydi, ammo rasmiyroq va koʻpincha nuqtadan keyin, vergul bilan yoziladi: <em>He never gave up. <strong>Therefore</strong>, he succeeded.</em></p>\n<h3>Nega darajani koʻtaradi</h3>\n<p>Bir xil <code>and … and …</code> oʻrniga <code>because / therefore / as a result</code> ishlatganingizda, fikringiz mantiqan bogʻlangan koʻrinadi. <em>&quot;I failed several times. <strong>As a result</strong>, I discovered which methods work. <strong>Therefore</strong>, I don't call it failure.&quot;</em> — bu B2 koherentligining aniq belgisi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> ❌ <em>I practise every day for improve my English.</em> ✅ <em>I practise every day <strong>in order to</strong> improve my English.</em> Maqsad uchun <code>in order to</code> + <strong>sof feʼl</strong>, natija uchun <code>so</code> yoki <code>therefore</code>. Bitta voqeani uch xil bogʻlab, ovoz chiqarib ayting: <em>&quot;It exploded, <strong>so</strong> I learned. I learned <strong>because</strong> I kept trying. <strong>Therefore</strong>, there is no failure.&quot;</em></p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida sabab ham, natija ham koʻpincha bitta “-gani uchun / shuning uchun” bilan beriladi va bogʻlovchi jumla oxirida turadi. Ingliz tilida esa: because sababni ergashtiradi (because it exploded), so natijani ikki jumla oʻrtasida bogʻlaydi (it exploded, so…), in order to esa maqsadni beradi (+ sof feʼl).",
+      "errorFixUz": "❌ I practise every day for improve my English. ❌ He tried again for learn. ✅ I practise every day in order to improve my English. ✅ He tried again in order to learn. Maqsad uchun for + feʼl EMAS, balki in order to + sof feʼl (yoki so that + gap).",
+      "examples": [
+        {
+          "en": "The bike exploded, so he beat himself up.",
+          "uz": "Mototsikl portladi, shuning uchun u oʻzini koyidi."
+        },
+        {
+          "en": "He learned from every mistake; therefore, there was no failure.",
+          "uz": "U har bir xatodan oʻrgandi; shuning uchun muvaffaqiyatsizlik boʻlmadi."
+        },
+        {
+          "en": "He kept trying in order to build a better bike.",
+          "uz": "Yaxshiroq mototsikl yasash uchun urinishda davom etdi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The first bike wouldn't start, ___ he tried again.",
+          "options": [
+            "so",
+            "because",
+            "in order to"
+          ],
+          "answer": "so",
+          "hintUz": "natija (shuning uchun) → so, ikki jumla oʻrtasida"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He studied the feedback ___ improve his design.",
+          "options": [
+            "in order to",
+            "because",
+            "therefore"
+          ],
+          "answer": "in order to",
+          "hintUz": "maqsad → in order to + sof feʼl (improve)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He didn't beat himself up ___ he saw it as a learning experience.",
+          "options": [
+            "because",
+            "so",
+            "therefore"
+          ],
+          "answer": "because",
+          "hintUz": "sabab (nega?) → because"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda bitta voqeani uch xil bogʻlang (ovoz chiqarib): “I … , so … . I … because … . I did it in order to … .”",
+          "answer": null,
+          "hintUz": "so = natija, because = sabab, in order to = maqsad"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/28/main.mp3",
+      "durationSec": 696,
+      "bytes": 8350416,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/28/vocab.mp3",
+      "durationSec": 633,
+      "bytes": 7600469,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/28/ministory.mp3",
+      "durationSec": 709,
+      "bytes": 8511930,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/28/pov.mp3",
+      "durationSec": 273,
+      "bytes": 3270738,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "No Failure Main Text Welcome to the next lesson. This one is called “No Failure.” Nice title, I like it. And this comes from a website, actually. The website is LifeCoachesBlog. com and the title of the article is “There is No Failure, Only Learning Experience.” And this is one of my core beliefs, one of my central beliefs.",
+      "It’s a very powerful belief and I recommend that you decide to have this belief, also, because this belief will give you so much power and strength in your life. It’s a vital, core belief, a vital fundamental belief. By having this belief you will learn faster and faster. You will succeed more and more.",
+      "You will get everything you want in your life, just by believing this, this simple thing. Let me read it and then I’ll talk more about it. Here we go. “There is no failure, only feed back. We say that there is no such thing as success, failure, happiness or depression.",
+      "Not that people don’t feel these things, but that they’re labels that we tack on to things afterwards. “Your subjective experience of happiness is quite different from mine. All these emotional states are subjective processes. They’re not things; they are things that we do. We don’t have happiness, we do happiness.",
+      "Happiness is not a thing like an apple is a thing. Happiness is a process. Failure is the same. There is no such thing as failure until we label something as failure. “For example, contrast two different boys, boy one and boy two. They’re both learning how to ride their bicycles and they’re both fumbling about and falling down.",
+      "Boy one says ‘I keep failing and failing at this again. Maybe I can’t do this. Maybe I’m just a failure. ’ Say this enough and he starts feeling like a total failure and he’s not going to continue very long. “By two thinks differently. He thinks “Hum, the last two times I fell down I was holding my handlebar with only one hand.",
+      "Maybe there’s something to learn? After all, there was also one time I almost did not fall. So, hum, I must be able to do it eventually. I just need to learn more. ’",
+      "“Boy one just doesn’t get it because he treats his experience as failure and he doesn’t get anything out of his experience. Boy two develops his bicycle riding experience and skill because he doesn’t beat himself up. He doesn’t label himself as a failure; rather, he sees every experience as learning.",
+      "“Now imagine the opposite idea. Imagine how terrible and crazy the opposite idea would be. Imagine there is only failure and no learning experiences. Sounds kind of stupid, doesn’t it? Well it is stupid. The opposite is much more powerful and true. For if there is no failure, only learning experience, what would be different for you?",
+      "How would that change your life if you had that belief? “For example, when a missile is launched it doesn’t go in a perfect straight line to its target. Along the way it bumps into problems that cause it to go off course. But an accurate missile takes these experiences as feedback, as learning experiences.",
+      "And it corrects its course along the way until it finally hits its target. “You might be facing the same situation in different areas of your life. Some things are cruising along to their target very smoothly, while others are in the process of course correcting.",
+      "If there was no failure in your life, only learning experience, how would your life be different emotionally, mentally, socially, physically and spiritually?” Okay, interesting little article and very powerful and very simple, really.",
+      "But this simple idea has so much power, if you will adopt this idea, if you will have this idea as your own and make it stronger and stronger and stronger so that every time in your life, every experience, is only a learning experience. There is no failure, no failure, only results, only learning experiences, only feedback.",
+      "So if you had with trouble with English in the past you didn’t fail and you’re not a failure, you learned something. What did you learn? Maybe you learned that grammar and translation are not effective learning methods. That’s an important lesson to learn. A lot of people never understand that.",
+      "So, wow, that’s a powerful thing that you learned. Maybe you have learned, since then, that you can improve your English if you use the correct methods. That’s an important lesson to learn.",
+      "Maybe you learned that schools are not effective and so maybe you can try something different like learning independently, which is what you’re doing right now. The point is you don’t label yourself as a failure. You don’t say “I failed.” You didn’t fail. You learned something from those experiences.",
+      "Or you can learn something if you will think differently.",
+      "Every experience in your life can be seen this way. If you get fired from your job, well, you have some choices. You can decide that you’re a failure. “I’m a failure in my career. Something’s wrong with me.” That’s one meaning you can give it. You can decide there’s a failure. “I have failed.”",
+      "Or you can decide there is no failure there’s only learning and you can think “What have I learned? What have I learned? What did I learn from my job? What have I learned from being fired?” And I went through this experience myself in my life and being fired was a great learning experience, fantastic. I learned a lot of great things.",
+      "I learned things about myself. I realized that, for me, the students were more important than a school or a boss and I knew that would always be true. I learned that I like to be independent and make my own choices. I learned that I needed to be my own boss; that I needed to be independent.",
+      "I learned that I had a great teaching system that students loved, but the status quo, the traditional teachers and administrators did not like. I learned a lot of lessons from that experience. I don’t think it was a failure I think it was a huge success, in fact. It was a great learning experience.",
+      "In fact, when I look back in my life it’s usually the tough times, the difficult times that were the best learning experiences that changed my life the most and helped me grow the most, not the easy times. And this is true for most people. Most people learn the most when times are tough.",
+      "It’s a great opportunity, but only if you see it as a learning experience, only if you have this belief. If you decide “I’m a failure, I failed, I failed,” you learn nothing. You just get sad and depressed and weak. There is no failure, there’s only learning. Any time you have a tough situation ask the same question, “What have I learned?",
+      "What can I learn? What can I learn from this? What can I learn from this?” No failure. You will never fail at English, you’ll just learn. You’ll learn which methods are best and which methods don’t work. You’ll learn what you like and what you don’t like. You’ll never fail. Okay.",
+      "Well I hope you will think very deeply and seriously about this topic. It’s a very important topic. It’s so simple, but this small change can totally change your life. Never again use the word failure or fail, especially for yourself, never. Speak only about learning. Speak only about results. Speak only about feedback.",
+      "Never use the word failure for yourself. All right, well that is the end of this lesson. I will see you next time, bye-bye."
+    ],
+    "vocab": [
+      "No Failure Vocabulary Text Welcome to the vocabulary lesson for “No Failure.” Let’s begin. Our first word is feedback, feedback. There is on failure there is only feedback. Feedback just means information that comes to you after an action. Whoa, that’s a bit of a long explanation. What does that mean?",
+      "It means you do something and then something happens, right? There’s a reaction. There’s a consequence. So that’s what feedback is. Feedback is a consequence or a reaction. For example, if I try to memorize 10,000 new words, I study a vocabulary book and I do this for five days, I will get feedback. There will be results.",
+      "So maybe one month later I forget all the words, well that information, that reaction, that result, is feedback. It means it’s something I can learn from. It’s information that comes back to you, right? You do something and then information comes back. A result comes back. A reaction comes back. Something happens.",
+      "There’s some kind of information after you do something, after you say something. We call that feedback. It’s the information that comes back to you. It’s how you learn. You learn from feedback. You do something and then something happens.",
+      "Maybe something good happens, maybe something bad happens, whatever happens that result…that result is feedback. It’s information that comes back to you and then you can change what you’re doing. If you like the feedback, if you like the result, well, keep doing it more, if you don’t like it then you try something else.",
+      "All right, our next phrase is “to tack on.” So in this article he says “We tack on a label.” Right? It’s not the event that’s important it’s the label we tack on to it. So he’s saying something happens then we tack on the label “failure” or “failing.” To tack on means to put on; to put on something.",
+      "So if you tack on a label you tack on a name. It means you put the name onto the experience. Something happens and then you decide “This is a failure.” Right? You’re putting the name onto it, you’re tacking it on. So, again, tack on means to put on something or to stick onto something.",
+      "Our next word is process or processes, processes. And a process, really, it’s an event. It’s something that happens. It’s a series of actions. So it’s not a one-time thing, it’s something that happens over time, a process. So we talk about a learning process. That means the learning happens over time.",
+      "It’s not just suddenly it happens and it’s gone. A process happens over time, it continues over some time. That’s a process, something that continues over time, some action that continues over time, process; a process. Our next word is to contrast. This can be a noun, also, but we’re using it as a verb. So he says “Contrast two boys.”",
+      "So when you contrast something…you’re contrasting two boys. To contrast two boys means to compare them. Compare them. Look at the differences. When you contrast you’re looking at the differences. You’re comparing differences. So let’s contrast these two shirts.",
+      "It means we’re looking at the two shirts and we’re trying to find what’s different. We’re comparing and finding what’s different. To contrast, to contrast. So we’re looking at the two boys, we’re looking, how are they different? We’re comparing them to see how they’re different. We’re contrasting them.",
+      "He says “Boy one and boy two, they’re both learning how to ride bicycles and they’re both fumbling and falling down.” To fumble means to drop something or to be clumsy, to be clumsy. So when you fumble it means you drop something or you almost drop it.",
+      "So if you’re on a bike it means you almost fall on the bike or you actually do fall on the bike. So, again, fumbling has this idea of dropping, dropping something accidently or almost dropping it. Maybe you’re “Oh my God, oh!” Right? I’ve got a pen in my hand and “Oh, oh, oh, it’s going to fall!” But it doesn’t fall, I’m fumbling it.",
+      "It’s almost falling. Or even if it does fall you can say “I fumbled it.” It fell out of my hands or it fell down. That’s to fumble. Then later in the article he says that “Boy one decides that’s he’s failing. He says ‘I’m a failure.” And boy one just doesn’t get it. To get it means to understand.",
+      "So to get it, to get something, means to understand it. If you say, “Ahhh I get it!” that means, “Ahhh I understand it.” Or “I don’t get it!” that’s another common phrase. “I don’t get it! I don’t get it!” It means I don’t understand it. I don’t understand it.",
+      "So to get it or to get something means to understand it, to understand something. And then we have another phrase a little bit similar, but a different meaning, “to get something out of it”, so to get out of it or to get anything out of it or to get something out of it. It means an experience.",
+      "So, for example, you say “I didn’t get anything out of that class. I did not get anything out of that class.” To get something out of it means to get a benefit, to get a benefit; a learning experience or something else.",
+      "So if you say “I didn’t get anything out of the class”, it means I didn’t learn anything from the class. So, again, to get something out of an experience means to learn something from the experience. Or you could say the opposite, “I got a lot out of that class. I got a lot out of that class.” It means I learned a lot from that class.",
+      "So I got a lot out of it, I learned a lot from it, same meaning. Our next phrase is “to beat yourself up”, to beat yourself up. And he says “Boy two develops his bicycle riding skill because he doesn’t beat himself up. He doesn’t label himself as a failure.” To beat yourself up means to criticize yourself, quite simple.",
+      "It means you say negative things about yourself. You criticize yourself. You beat yourself up. So if I beat myself up I say “Oh, AJ you’re a failure. AJ you’re so stupid! AJ you suck, you’re a bad teacher!” Right? I’m beating myself up. I’m saying bad things to myself, beating myself up.",
+      "So he’s saying “Smart people do not beat themselves up. Smart people do not say bad things to themselves. They don’t say ‘I’m a failure. ’ They don’t beat themselves up.” They don’t criticize themselves. All right and, finally, one more word, one more phrase, actually, “cruising along.”",
+      "He says “Sometimes in your life things are cruising along.” Parts of your life are cruising along. Cruising along means going well, going smoothly, happening easily, and doing very well. You can say “Oh, wow, my business is cruising along.” It means my business is having no problems.",
+      "It’s moving forward with no problems, so cruising along. If something is cruising along it means it’s going steadily, it’s moving forward and there are no problems. You can say “Oh, my relationship with my girlfriend or wife or husband or boyfriend” you could say “my relationship is cruising along.”",
+      "It means there are no problems, everything this is fine and everything is moving forward, smoothly, steadily. So that’s cruising along, to be cruising along. And that is the end of our vocabulary lesson for “No Failure.” I will see you next time."
+    ],
+    "pov": [
+      "No Failure POV Text Hello, this is AJ, welcome to the point of view stores for “No Failure.” Let’s begin. Watt has always wanted to build his own motorcycle, right, for a long, long time, since he was quite young. So since he was very, very young he has wanted to build his own motorcycle.",
+      "And he has thought about it constantly, each day, for a long time. He’s thought about it and he’s thought about it. In fact, he has tried and tried and tried again. He has tried many times to build his own motorcycle. Now the first time he tried the motorcycle exploded, boom! And after that happened he beat himself up about it.",
+      "He criticized himself and he said “Watt, damn it. You’re so damn stupid, you failure!” And he beat himself up. But, of course, you know he has tied and tried and tried again. And so the next time he tried he dropped his tools, he fumbled around, he made a lot of mistakes and the next bike – the second bike – would not start.",
+      "However, that time, after the second bike, he got something out of it. He learned something. And he thought and he learned and then he tried again. He tried 108 more times. And, finally, after the 110th time he said “I get it! I get it! I know how to do it!” He learned. He understood.",
+      "And then, finally, he built a big, fast, read and black Harley- Davidson Motorcycle and he cruised along the street. He cruised along the street every day with a big, huge smile on his face. He was really happy. Okay. Next let’s go into the future! Fifty years from now there will be a guy named Watt.",
+      "Watt will want to build his own motorcycle. Now, he’ll try. And the first time he tries the bike will explode, boom! It’s going to explode and after it explodes he’ll beat himself up about it. He’ll say “Watt, damn it. You’re so damn stupid. You’re a failure.” He’ll really beat himself up about it, but he’ll try again.",
+      "And the next time he’s going to drop his tools and he’ll fumble around and he’ll make a lot of mistakes. And the second bike won’t start, it won’t start. But the second time he won’t beat himself up about it. He won’t. No. He’ll get something out of it. He’ll learn. He’ll learn and he’ll try again. He’ll try 108 more times.",
+      "Until finally one day he’ll say “I get it! I know how to do it!”",
+      "And then he’s going to build a big, fast, red and black Harley-Davidson Motorcycle. And he’ll cruise along the street every day, zoom, zoom, zoom, with a big, huge smile on his face. He’ll be very, very happy. And that is the end of our point of view stories for “No Failure.” I hope you’re very happy, too.",
+      "I hope you’re always happy, strong, smiling and breathing deeply with strong physiology every time you listen to my lessons. I will see you next time, bye-bye."
+    ],
+    "sixmin": [
+      "Neil: Welcome to 6 Minute English, where we bring you an interesting topic and six items of vocabulary.",
+      "Catherine: And all in just six minutes, of course. I'm Catherine.",
+      "Neil: And I'm Neil. Today – is technology built to fail? And are we throwing away too much technology and harming the planet? Catherine, tell me - how old is your TV?",
+      "Catherine: My TV has just had its fifth birthday.",
+      "Neil: And your mobile phone?",
+      "Catherine: It's about two and a half.",
+      "Neil: So you do like to have gizmos, but not necessarily the latest.",
+      "Catherine: Exactly.",
+      "Neil: Gizmo – nice word. A gizmo is a small piece of technology – otherwise called a gadget.",
+      "Catherine: And of course I'm not alone in buying gadgets from time to time. They actually keep on getting more advanced – so people keep buying new ones.",
+      "Neil: Technology also gets cheaper and cheaper. In fact, many gadgets are more expensive to fix than replace.",
+      "Catherine: And this means that we throw a lot of gadgets away – but how many?",
+      "Neil: See if you can guess: how much electronic waste is thrown away every year globally? Is it… a) 420 tonnes, b) 4.2 million tonnes or c) 42 million tonnes?",
+      "Catherine: And I do actually know the answer to this once, so I'm gonna keep quiet, just for once!",
+      "Neil: Ah, first time for everything! So, to bring us back to our main point. Is technology no longer built to last? Let's hear first from Professor Tim Cooper who is an expert in sustainable consumption and production at Nottingham Trent University in the UK.",
+      "Catherine: Sustainable, by the way, means 'able to continue over a long period of time'. We often use it to mean 'able to continue without causing harm' – like environmental damage. What's the problem with mobile phones?",
+      "INSERT: Tim Cooper, Professor of Sustainable Consumption and Production at",
+      "Nottingham Trent University: The classic example of this is the mobile phone, where, for example, screens are glued into the product. Now they know that if there was a screw there, the consumer could easily, when that screen cracks, which is obviously a very common problem with mobile phones, unscrew it and put a new screen on. They don't. They know perfectly well that that would be a way in which mobile phones would last longer. They don't want that, they want you to replace your mobile phone every year or two.",
+      "Neil: Professor Cooper says that mobile phones' screens crack often – and generally when that happens people buy a new one.",
+      "Catherine: That's partly because mobile phones' screens are glued on rather than screwed on. Now a screw is a piece of metal like a nail but with a raised twisted part – and we use screws to join two things together.",
+      "Neil: The verb form is the same – to screw – and the opposite is to unscrew. If you could unscrew a cracked screen and then replace it, there'd be no need to buy a whole new phone, he says.",
+      "Catherine: He thinks that generally, people have lowered their expectations when it comes to how long things should last.",
+      "Neil: Expectations is a good word – an expectation is a strong belief something will happen. Expectations can be raised or lowered.",
+      "Catherine: Or managed – to 'manage your expectations' means to not let your expectations get so high that you then become disappointed when something fails.",
+      "Neil: Yes, by way of an example, Professor Cooper says that his parents' washing machine lasted for 37 years. These days, they last between five and ten.",
+      "Catherine: Yeah. And we don't see electrical products as an investment in the same way that people used to. We now worry that what we buy today will become obsolete tomorrow.",
+      "Neil: Obsolete – no longer valid or useful. And also – he says we've become so used to cheap products that we don't want to spend more on good quality.",
+      "Catherine: So what's to be done?",
+      "Neil: Cooper suggests that if we can afford it, we really should try to buy higher quality products. And manufacturers should put labels on their products saying how long they are designed to last.",
+      "Catherine: An interesting idea. Cooper says that over 2m pounds worth of electrical goods are thrown away each year in the UK. He calls it a \"throwaway culture\".",
+      "Neil: A culture in which we throw things out much more easily. Not good for the planet either. So – will you try to keep your mobile for a bit longer, or are you already tempted by the latest model, Catherine?",
+      "Catherine: I'm happy with the one I've got, but I'm gonna protect the screen very carefully.",
+      "Neil: Yes, a good idea. Maybe this will help you make up your mind, though. I asked how many tonnes of electrical waste are thrown away globally.",
+      "Catherine: And I said I know the answer – it's actually 42m tonnes, according to a UN report back in 2015. The figure could be a lot higher now. And as you know – my mobile isn't very heavy – so 42m tonnes is an awful lot of phones! While we try to picture that, let's quickly run through today's vocabulary. So first up was gizmo - a small piece of technology – a gadget.",
+      "Neil: Smartphones, smart watches, fitness trackers, sat navs – all gizmos!",
+      "Catherine: We had sustainable – able to last or continue. We talk about sustainable energy, sustainable economic development…",
+      "Neil: The opposite would be unsustainable development… And another pair of words – to screw and to unscrew.",
+      "Catherine: A screw is that little metal thing like a nail that we use to join things together. You can screw shelves into the wall, you can screw furniture together…",
+      "Neil: And when you move house you unscrew it. Three more: to lower your expectations. What have you lowered your expectations about?",
+      "Catherine: Err, so many things… Becoming a millionaire - I don't think that's going to happen. Or I could say a company has lowered its expectations about performance over the next five years.",
+      "Neil: Yes – another one looking ahead into the future – I'm pretty sure my computer will be obsolete in ten years. It will no longer be used – it will be out of date.",
+      "Catherine: I just urge you, Neil, when you do get a new one – please recycle this one responsibly. We already live in a throwaway culture.",
+      "Neil: Yes – it's pretty unsustainable. Now, before your laptop or phone becomes obsolete – I suggest you check out our Facebook, Twitter, Instagram and YouTube pages! Bye for now.",
+      "Catherine: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What did he want to build?",
+        "a": "He wanted to build his own motorcycle."
+      },
+      {
+        "q": "Did he want to buy his own motorcycle?",
+        "a": "No, he didn’t. He didn’t want to buy one he wanted to build his own motorcycle. He wanted to create his own motorcycle."
+      },
+      {
+        "q": "What happened the first time?",
+        "a": "It exploded. The first time he tried to build a motorcycle it exploded, boom!"
+      },
+      {
+        "q": "Was he successful the first time?",
+        "a": "No, he wasn’t. He was not successful. The first motorcycle exploded."
+      },
+      {
+        "q": "What exploded?",
+        "a": "His first motorcycle. Watt’s first motorcycle exploded, boom!"
+      },
+      {
+        "q": "Did Watt criticize himself after the motorcycle exploded?",
+        "a": "Yes, he did. He criticized himself. He beat himself up about the motorcycle’s explosion. He beat himself up and he said to himself “Watt, damn it! You’re so damn stupid! You’re a failure!”"
+      },
+      {
+        "q": "What did Watt do?",
+        "a": "Watt beat himself up. He criticized himself. He said bad things to himself. He beat himself up."
+      },
+      {
+        "q": "Why did Watt beat himself up?",
+        "a": "Well, because his first motorcycle exploded. His first motorcycle exploded, so he beat himself up. He beat himself up about it and he said “Watt, damn it. You’re so damn stupid. You’re a failure.”"
+      },
+      {
+        "q": "Who beat himself up?",
+        "a": "Watt, Watt beat himself up."
+      },
+      {
+        "q": "He beat himself up about what?",
+        "a": "He beat himself up about the motorcycle exploding. He beat himself up and he said to himself “Damn it, Watt, you’re so stupid. You’re such a failure.”"
+      },
+      {
+        "q": "Was he clumsy the second time?",
+        "a": "Yes, he was clumsy. He fumbled around."
+      },
+      {
+        "q": "Did he drop his tools?",
+        "a": "Yes, he fumbled around. He fumbled his tools. He dropped his tools. He was clumsy. He made a lot of mistakes. Watt fumbled around the second time."
+      },
+      {
+        "q": "When did Watt fumble around a lot?",
+        "a": "Well, the second time, while building the second motorcycle. The second time he fumbled around. He made mistakes. He dropped his tools."
+      },
+      {
+        "q": "Who fumbled around?",
+        "a": "Watt did. Watt fumbled around. Watt made a lot of mistakes. Watt dropped his tools constantly."
+      },
+      {
+        "q": "What did he do?",
+        "a": "He fumbled around. He fumbled his tools. He made mistakes."
+      },
+      {
+        "q": "Because he fumbled around a lot what happened?",
+        "a": "Well, the second bike would not start. The second motorcycle would not start."
+      },
+      {
+        "q": "Did Watt beat himself up again?",
+        "a": "No, he didn’t. The second time he did not beat himself up. The second time he got something out of it."
+      },
+      {
+        "q": "Did he learn something after the second time?",
+        "a": "Yes, that’s right. He learned something. He got something out of it. He got something out of the experience. He learned something from the experience."
+      },
+      {
+        "q": "What happened after the second time?",
+        "a": "Well, he got something out of it. He learned."
+      },
+      {
+        "q": "Who got something out of it? Who learned?",
+        "a": "Watt, Watt got something out of it. Watt learned."
+      },
+      {
+        "q": "He got something out of what?",
+        "a": "He got something out of building the second bike. He learned from building the second bike."
+      },
+      {
+        "q": "So did he get something out of it or did he learn nothing?",
+        "a": "He got something out of it. He learned something."
+      },
+      {
+        "q": "Who got something out of it?",
+        "a": "Watt, Watt got something out of it. Watt learned something from the experience and so he tried again."
+      },
+      {
+        "q": "Did he learn from each new attempt?",
+        "a": "Yes, he did. He learned from each new attempt. He got something out of each new attempt. Each time he learned something more, learned something more. He got more out of it and more out of it. And finally one day he said “I get it! I get it! I know how to do it!”"
+      },
+      {
+        "q": "Did he finally understand how to succeed?",
+        "a": "Yes, he did. He said “I get it! I understand!”"
+      },
+      {
+        "q": "Did Watt get it?",
+        "a": "Yes, Watt got it. Watt understood."
+      },
+      {
+        "q": "What did he get?",
+        "a": "Well, he got, he understood how to build a working motorcycle."
+      },
+      {
+        "q": "Who got it, finally?",
+        "a": "Watt did. Watt finally got it. Watt finally understood."
+      },
+      {
+        "q": "And what did he say?",
+        "a": "He said “I get it! I understand! I get it! I know how to do it now!”"
+      },
+      {
+        "q": "What kind of motorcycle did he finally build?",
+        "a": "A big, fast, red and black Harley-Davidson Motorcycle."
+      },
+      {
+        "q": "Who finally built a big, fast, red and black Harley-Davidson Motorcycle?",
+        "a": "Watt did. Watt finally built a big, fast, red and black Harley-Davidson Motorcycle."
+      },
+      {
+        "q": "Did he drive along the street smoothly every day?",
+        "a": "Oh, yeah. He cruised along the street. He moved on the street smoothly without problems, no problems. His motorcycle worked perfectly. He cruised along the street every day. He moved smoothly. He drove smoothly along the street every day."
+      },
+      {
+        "q": "Who cruised along the street every day with a big smile?",
+        "a": "Watt did. Watt cruised along the street every day with a big smile."
+      },
+      {
+        "q": "Why did he cruise along the street every day with a big smile?",
+        "a": "Well, because he was happy. He was happy that he had a big, fast, red and black Harley-Davidson Motorcycle. He was happy, so when he cruised along the street he had a big smile."
+      },
+      {
+        "q": "What did he do every day?",
+        "a": "He cruised along the street. He cruised along the street every day."
+      },
+      {
+        "q": "On what? What did he cruise along the street on?",
+        "a": "Well, on his motorcycle. He cruised along the street every day on his big, fast, Harley- Davidson Motorcycle. And every day when he cruised along the street he had a big, huge smile on his face. He was very, very happy."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "feedback",
+      "pos": "n",
+      "uz": "qaytar aloqa; ishdan keyin keladigan natija/maʼlumot",
+      "defEn": "information or a result that comes back to you after an action",
+      "example": "There is no failure, only feedback."
+    },
+    {
+      "en": "to tack on (a label)",
+      "pos": "phrase",
+      "uz": "yorliq yopishtirmoq, nom qoʻymoq",
+      "defEn": "to add or stick something on, e.g. a name onto an experience",
+      "example": "We tack on the label 'failure' afterwards."
+    },
+    {
+      "en": "a process",
+      "pos": "n",
+      "uz": "jarayon (vaqt davomida davom etadigan harakatlar)",
+      "defEn": "a series of actions that continues over time",
+      "example": "Happiness is a process, not a thing."
+    },
+    {
+      "en": "to contrast",
+      "pos": "v",
+      "uz": "solishtirmoq, farqini koʻrsatmoq",
+      "defEn": "to compare two things to see how they differ",
+      "example": "Contrast two boys learning to ride a bicycle."
+    },
+    {
+      "en": "to fumble",
+      "pos": "v",
+      "uz": "qoʻldan tushirmoq, qoʻli kelishmaslik (noqulay harakat)",
+      "defEn": "to drop something or be clumsy",
+      "example": "He fumbled around and dropped his tools."
+    },
+    {
+      "en": "to get it",
+      "pos": "phrase",
+      "uz": "tushunmoq, anglab yetmoq",
+      "defEn": "to understand something",
+      "example": "Finally he said, 'I get it! I know how to do it!'"
+    },
+    {
+      "en": "to get something out of it",
+      "pos": "phrase",
+      "uz": "biror narsa oʻrganmoq, foyda olmoq (tajribadan)",
+      "defEn": "to gain a benefit or learn something from an experience",
+      "example": "The second time, he got something out of it."
+    },
+    {
+      "en": "to beat yourself up",
+      "pos": "phrase",
+      "uz": "oʻzini koyimoq, oʻzini ayblab urishmoq",
+      "defEn": "to criticize yourself harshly",
+      "example": "Don't beat yourself up over a mistake."
+    },
+    {
+      "en": "to be cruising along",
+      "pos": "phrase",
+      "uz": "silliq, muammosiz ketmoq (yaxshi borayotgan)",
+      "defEn": "to be going smoothly and steadily with no problems",
+      "example": "My business is cruising along nicely."
+    },
+    {
+      "en": "a learning experience",
+      "pos": "phrase",
+      "uz": "oʻrganish tajribasi (saboq)",
+      "defEn": "an event you learn something from, rather than a failure",
+      "example": "Being fired was a great learning experience for me."
+    }
+  ],
+  "englishpod": {
+    "id": "0014",
+    "title": "Daily Life – I'm in Debt",
+    "titleUz": "Kundalik hayot — Qarzga botganman",
+    "warmup": {
+      "uz": "Bu suhbatda Charli ishini yoʻqotib, qarzga botgan va Korleonedan yordam soʻraydi — ammo rad javob oladi. “No Failure” darsiga mos: AJ ham bir vaqtlar ishdan boʻshatilgan, lekin buni muvaffaqiyatsizlik emas, saboq deb qabul qilgan. Sizningcha, Charli oʻz ahvolini “muvaffaqiyatsizlik” deb qabul qiladimi yoki undan biror saboq ola oladimi?",
+      "en": "In this dialogue Charlie has lost his job and fallen into debt, so he asks Corleone for help — but he is turned down. It fits the 'No Failure' theme: AJ was once fired too, yet he treated it as learning, not failure. Do you think Charlie will see his situation as failure, or get a learning experience out of it?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0014/dg.mp3",
+        "durationSec": 89,
+        "bytes": 748671
+      },
+      "pr": {
+        "path": "englishpod/0014/pr.mp3",
+        "durationSec": 955,
+        "bytes": 15310786
+      },
+      "rv": {
+        "path": "englishpod/0014/rv.mp3",
+        "durationSec": 421,
+        "bytes": 6775370
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Hello, I’m here to see Mr. Corleone."
+      },
+      {
+        "speaker": "B",
+        "en": "Right this way, sir."
+      },
+      {
+        "speaker": "C",
+        "en": "Charlie! What can I do for you?"
+      },
+      {
+        "speaker": "B",
+        "en": "Mr. Corlone, I’m really sorry to trouble you, but I need your help."
+      },
+      {
+        "speaker": "C",
+        "en": "Anything for you, Charlie! Your father was like a brother to me."
+      },
+      {
+        "speaker": "B",
+        "en": "Well, sir, you see, this recession has hit me pretty hard; I lost my job and I’m in a lot of debt."
+      },
+      {
+        "speaker": "C",
+        "en": "I see……"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, you know, I’ve got credit card bills, car payments, I’ve got to pay my mortgage; and on top of all that, I have to pay my son’s college tuition."
+      },
+      {
+        "speaker": "C",
+        "en": "So you’re asking for a loan."
+      },
+      {
+        "speaker": "B",
+        "en": "Well, I just thought maybe you could help me out."
+      },
+      {
+        "speaker": "C",
+        "en": "What? At a time like this? I’m broke too, you know! You’re not the only one who has been hit by the recession! I lost half my money in the stock market crash! Go on! Get outta here!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to trouble (someone)",
+        "uz": "bezovta qilmoq, ovora qilmoq",
+        "defEn": "to disturb or bother someone"
+      },
+      {
+        "en": "recession",
+        "uz": "iqtisodiy tanazzul, inqiroz davri",
+        "defEn": "a period of time when the economy of a country is bad"
+      },
+      {
+        "en": "to hit someone pretty hard",
+        "uz": "qattiq zarba bermoq, ogʻir taʼsir qilmoq",
+        "defEn": "to have a strong, negative effect on someone"
+      },
+      {
+        "en": "debt",
+        "uz": "qarz (toʻlanishi kerak boʻlgan pul)",
+        "defEn": "the amount of money you owe to a person, bank or company"
+      },
+      {
+        "en": "on top of all that",
+        "uz": "buning ustiga, bundan tashqari",
+        "defEn": "besides that; in addition to everything else"
+      },
+      {
+        "en": "to ask for a loan",
+        "uz": "qarz (kredit) soʻramoq",
+        "defEn": "to request money that you will pay back later"
+      },
+      {
+        "en": "broke",
+        "uz": "puli qolmagan, xarob (moliyaviy)",
+        "defEn": "having no money at all"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170622",
+    "title": "Built to fail?",
+    "titleUz": "Buzilishga moʻljallanganmi?",
+    "audio": {
+      "main": {
+        "path": "sixmin/170622/audio.mp3",
+        "durationSec": 379,
+        "bytes": 6060658,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How much electronic waste is thrown away every year globally?",
+        "qUz": "Har yili dunyo boʻyicha qancha elektron chiqindi tashlanadi?",
+        "options": [
+          "420 tonnes",
+          "4.2 million tonnes",
+          "42 million tonnes"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 42 million tonna — 2015-yilgi BMT hisobotiga koʻra. Catherine javobni oldindan bilardi. Bu raqam yildan-yilga oshib bormoqda, chunki biz “throwaway culture” (bir marta ishlatib tashlab yuborish madaniyati)da yashaymiz."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "gizmo",
+        "uz": "kichik texnik moslama, gadjet",
+        "defEn": "a small piece of technology; a gadget"
+      },
+      {
+        "en": "sustainable",
+        "uz": "barqaror, uzoq davom eta oladigan (zarar yetkazmaydigan)",
+        "defEn": "able to continue over a long period without causing harm"
+      },
+      {
+        "en": "to screw / to unscrew",
+        "uz": "vint bilan biriktirmoq / vintni boʻshatmoq",
+        "defEn": "to join two things with a screw / to undo a screw"
+      },
+      {
+        "en": "to lower your expectations",
+        "uz": "kutganlaringni pasaytirmoq, talabni kamaytirmoq",
+        "defEn": "to reduce what you believe or hope will happen"
+      },
+      {
+        "en": "obsolete",
+        "uz": "eskirgan, ishlatishdan qolgan",
+        "defEn": "no longer valid, useful or up to date"
+      },
+      {
+        "en": "a throwaway culture",
+        "uz": "bir marta ishlatib tashlash madaniyati",
+        "defEn": "a culture in which we throw things out very easily instead of repairing them"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "There Is No Failure, Only Feedback — a mindset that changes everything",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a time something went wrong for you. What did you learn from it — and how would your life be different now if it hadn't happened? Explain the cause, the result, and what you did on purpose to move forward.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: aralash shart gap (If I hadn't …, I wouldn't be … now) va sabab-natija-maqsad bogʻlovchilari (because / so / therefore / in order to).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/28/main.mp3",
+      "bytes": 8350416
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/28/main.pdf",
+      "bytes": 153445
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/28/vocab.mp3",
+      "bytes": 7600469
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/28/ministory.mp3",
+      "bytes": 8511930
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/28/pov.mp3",
+      "bytes": 3270738
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/28/pov.pdf",
+      "bytes": 144412
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0014/dg.mp3",
+      "bytes": 748671
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0014/transcript.pdf",
+      "bytes": 94936
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170622/audio.mp3",
+      "bytes": 6060658
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170622/transcript.pdf",
+      "bytes": 217084
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

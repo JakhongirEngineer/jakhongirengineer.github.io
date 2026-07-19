@@ -1,0 +1,169 @@
+{
+  "slug": "small-is-beautiful",
+  "title": "Small is Beautiful",
+  "titleUz": "Kichik goʻzaldir",
+  "level": "B1",
+  "tags": ["economy", "consumerism", "quantifiers", "hedging", "moderation"],
+  "intro": {
+    "uz": "Iqtisodchi E.F. Schumacher \"Small is Beautiful\" kitobida ochkoʻzlik va hasadga qurilgan katta iqtisod sayyorani buzayotganini, yechim esa kichik, insonparvar, barqaror iqtisodda ekanini aytadi. Til oʻrganishda ham shu qoida: har kuni ozgina koʻp narsani beradi. Bu haftaning ikki grammatikasi aynan kichik miqdor tili: kichik miqdorlar (a few/a little va few/little; hardly any; only/just) va daraja ravishlari — yumshatish (quite / fairly / rather / a bit).",
+    "en": "In \"Small is Beautiful\", economist E.F. Schumacher argues that a huge economy built on greed and envy is destroying the planet, and that the answer is smaller, more human, sustainable economies. Language learning follows the same rule: a little every day beats a lot rarely. This week's two grammar topics are the language of small amounts: small quantities (a few/a little vs few/little; hardly any; only/just) and degree adverbs for softening (quite / fairly / rather / a bit)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida \"a few\" va \"few\" (yoki \"a little\" va \"little\") oʻrtasidagi ijobiy/salbiy farqni toʻgʻri ishlata olasiz va biror narsani \"very\" demasdan, meʼyorli ravishlar (quite / fairly / a bit) bilan yumshatib tasvirlab bera olasiz.",
+    "en": "By the end you can use the positive/negative difference between \"a few\" and \"few\" (or \"a little\" and \"little\") correctly, and describe something in a moderate, softened way using quite / fairly / a bit instead of always saying \"very\"."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "small-quantities",
+      "titleUz": "Kichik miqdorlar: a few/a little va few/little; hardly any; only/just",
+      "titleEn": "Small quantities: a few/a little vs few/little",
+      "bandLifter": "IELTS Part 1 — talk about how much time, money or free time you have accurately",
+      "cefrCanDo": "B1: I can show the difference between \"some\" (a few/a little) and \"almost none\" (few/little)",
+      "contrastUz": "Oʻzbek tilida \"biroz/ozgina\" (ijobiy) va \"deyarli yoʻq/juda kam\" (salbiy) alohida soʻzlar, shuning uchun oʻzbek oʻquvchi \"a little\" va \"little\" ni bir xil \"ozgina\" deb tarjima qilib yuboradi. Ingliz tilida esa oldida \"a\" bor-yoʻqligi maʼnoni agʻdaradi: \"a little time\" = biroz vaqt bor (yaxshi), \"little time\" = vaqt deyarli yoʻq (yomon). Yana oʻzbekchada sanaladigan/sanalmaydigan farqi yoʻq: \"a few\" + sanaladigan (a few minutes), \"a little\" + sanalmaydigan (a little money).",
+      "errorFixUz": "❌ I have a little friends. I have few time, please wait. ✅ I have a few friends. I have little time, so let's be quick. \"a few\" sanaladigan koʻplik bilan (friends), \"a little\" sanalmaydigan bilan (time); \"a\" ni tashlab qoʻysangiz maʼno \"deyarli yoʻq\"ga aylanadi.",
+      "examples": [
+        { "en": "Study just a little English every day.", "uz": "Har kuni atigi bir oz ingliz tili oʻqing." },
+        { "en": "I have a few good friends, and that is enough.", "uz": "Bir nechta yaqin doʻstim bor, shuning oʻzi yetarli." },
+        { "en": "There were hardly any people in the shop.", "uz": "Doʻkonda deyarli hech kim yoʻq edi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I only have ___ minutes, so let's be quick.",
+          "options": ["a few", "a little", "few"],
+          "answer": "a few",
+          "hintUz": "minutes — sanaladigan koʻplik, ijobiy \"biroz\" → a few"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Sorry, I have very ___ time today — I'm too busy.",
+          "options": ["little", "few", "a little"],
+          "answer": "little",
+          "hintUz": "time — sanalmaydigan; \"deyarli yoʻq\" (salbiy) → (very) little"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "This dress costs ___ ten dollars — that's cheap!",
+          "options": ["only", "few", "little"],
+          "answer": "only",
+          "hintUz": "son oldida \"bor-yoʻgʻi, atigi\" → only/just"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): kuniga qancha ingliz tili oʻrganasiz — \"I study just a little English …\" va \"I know a few useful words like … .\"",
+          "answer": null,
+          "hintUz": "a little + sanalmaydigan (English/time); a few + sanaladigan (words/friends)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "degree-intensifier-adverbs",
+      "titleUz": "Daraja ravishlari (yumshatish): quite / fairly / rather / a bit",
+      "titleEn": "Degree adverbs for softening: quite / fairly / a bit",
+      "bandLifter": "IELTS Fluency — hedge and moderate your opinions instead of always saying \"very\"",
+      "cefrCanDo": "B2: I can soften and grade an adjective (quite/fairly/a bit) rather than overusing \"very\"",
+      "contrastUz": "Oʻzbek oʻquvchi hamma narsaga \"very\" qoʻyadi (very good, very difficult) — bu A2 ohang. B2 nutqi meʼyorlaydi: ijobiy, muloyim maqtov uchun quite/fairly (ancha yaxshi, yetarlicha yaxshi), kutilmagan yoki noxush narsa uchun rather (ancha qiyin), salbiy sifatni yumshatish uchun a bit (biroz qimmat). Oʻzbekchada \"ancha, xiyla, biroz\" bor, ammo ular ingliz tilidagidek qatʼiy darajaga bogʻlanmagan.",
+      "errorFixUz": "❌ The book is very very difficult. It's a bit beautiful. ✅ The book is fairly difficult. It's quite beautiful. Kuchaytirish uchun \"very\"ni takrorlamang — pastroq daraja uchun fairly/quite ishlating; \"a bit\" faqat noxush sifat bilan keladi (a bit expensive), ijobiy sifat bilan emas.",
+      "examples": [
+        { "en": "The book is fairly difficult, but I recommend it.", "uz": "Kitob yetarlicha qiyin, lekin tavsiya qilaman." },
+        { "en": "These ideas are quite common now.", "uz": "Bu gʻoyalar hozir ancha keng tarqalgan." },
+        { "en": "That dress is a bit pricey for me.", "uz": "Bu koʻylak men uchun biroz qimmatroq." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The level of English in this book is ___ difficult.",
+          "options": ["fairly", "fair", "a fairly"],
+          "answer": "fairly",
+          "hintUz": "sifat oldida meʼyorli daraja → fairly difficult (yetarlicha qiyin)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Hmm, that's ___ expensive. Can you give me a better price?",
+          "options": ["a bit", "a bite", "bit"],
+          "answer": "a bit",
+          "hintUz": "noxush sifatni yumshatish → a bit expensive (biroz qimmatroq)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Her English is ___ good — better than she thinks.",
+          "options": ["quite", "quiet", "a quite"],
+          "answer": "quite",
+          "hintUz": "ijobiy, muloyim maqtov → quite good (ancha yaxshi)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: bugungi kuningizni \"very\" ishlatmasdan tasvirlang — \"Today I'm a bit … , the weather is quite … , my work is fairly … .\"",
+          "answer": null,
+          "hintUz": "a bit + noxush sifat; quite/fairly + ijobiy sifat; \"very\"ni ishlatmang"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "to cultivate (greed/envy)", "pos": "v", "uz": "oʻstirmoq, ragʻbatlantirmoq, parvarish qilmoq", "defEn": "to grow or encourage something", "example": "Our cultures cultivate greed and envy." },
+    { "en": "envy", "pos": "n", "uz": "hasad, rashk (birovda borligini yoqtirmaslik)", "defEn": "jealousy; a bad feeling when someone else has something good", "example": "Michael envied Jeff's beautiful hair." },
+    { "en": "a frenzy", "pos": "n", "uz": "junun, telbalik, nazoratsiz shovqinli harakat", "defEn": "wild, uncontrolled activity done without control", "example": "Michael got into a frenzy about Jeff's hair." },
+    { "en": "consumerism", "pos": "n", "uz": "isteʼmolchilik (koʻproq sotib olishni hayotning asosiy maqsadi deb bilish)", "defEn": "the belief that buying things is the most important thing in life", "example": "Modern culture is driven by consumerism." },
+    { "en": "to abate", "pos": "v", "uz": "pasaymoq, susaymoq, kamaymoq, tinchmoq", "defEn": "to slow down, lessen or stop", "example": "His preoccupation did not abate; it got stronger." },
+    { "en": "ruthlessness / ruthless", "pos": "n/adj", "uz": "shafqatsizlik, berahmlik; shafqatsiz, qattol", "defEn": "being very cruel and tough, showing no mercy", "example": "The richest societies pursue money with great ruthlessness." },
+    { "en": "to humanize (work)", "pos": "v", "uz": "insoniylashtirmoq, insonparvar qilmoq, odamga qulay qilmoq", "defEn": "to make something kinder and better for people", "example": "We should humanize work so it serves people." },
+    { "en": "monotonous", "pos": "adj", "uz": "bir xil, yakrang, zerikarli (bir ishni qayta-qayta qilish)", "defEn": "boring because it is always the same", "example": "A factory job can be very monotonous." },
+    { "en": "absurd", "pos": "adj", "uz": "bemaʼni, aqlga sigʻmas, kulguli", "defEn": "silly, ridiculous and foolish", "example": "This is absurd. Just buy a wig." },
+    { "en": "a preoccupation (with)", "pos": "n", "uz": "xayolni butunlay band qilgan narsa; oʻta berilganlik", "defEn": "something you think about all the time; almost an obsession", "example": "We have a preoccupation with money." }
+  ],
+  "englishpod": {
+    "title": "The Weekend – What a Bargain!",
+    "titleUz": "Dam olish kuni — Zoʻr savdo!",
+    "warmup": {
+      "uz": "Bu suhbatda xaridor ikki koʻylak uchun savdolashadi va oxir-oqibat arzon narxga kelishadi. Bu darsning gʻoyasiga mos: Schumacher isteʼmolchilik — doim koʻproq, koʻproq sotib olish istagi — hech qachon susaymaydi (does not abate) deb ogohlantiradi. Sizningcha, xaridorga ikkala koʻylak ham chindan kerak edimi, yoki u shunchaki yaxshi savdodan zavq oldimi?",
+      "en": "In this dialogue a shopper bargains over two dresses and finally gets a cheap price. It fits the lesson theme: Schumacher warns that consumerism — always wanting to buy more and more — never abates. Do you think the buyer really needed both dresses, or just enjoyed a good deal?"
+    },
+    "keyVocab": [
+      { "en": "a bargain", "uz": "arzon, foydali xarid; zoʻr savdo", "defEn": "a good deal; something bought at a cheap price" },
+      { "en": "to shop around", "uz": "narxni solishtirib, koʻp doʻkonni aylanmoq", "defEn": "to look in many stores to find the best price" },
+      { "en": "a discount", "uz": "chegirma (narxning pasaytirilishi)", "defEn": "a lowering of the price of something" },
+      { "en": "exclusive", "uz": "noyob, faqat shu yerdagi, alohida", "defEn": "not common; unique or special" },
+      { "en": "out of my price range", "uz": "menga qimmatlik qiladi, byudjetimga sigʻmaydi", "defEn": "too expensive; more than I can afford" },
+      { "en": "an offer", "uz": "taklif (arzon narxga sotib olish imkoni)", "defEn": "a chance to buy something at a low price" },
+      { "en": "pricey", "uz": "qimmat, qimmatroq", "defEn": "expensive" },
+      { "en": "a deal", "uz": "kelishuv, savdo (sotib olishga rozilik)", "defEn": "an agreement to buy something" }
+    ]
+  },
+  "sixmin": {
+    "title": "Microadventures!",
+    "titleUz": "Mikrosarguzashtlar!",
+    "quiz": [
+      {
+        "q": "How far is it around the world measured at the equator (the circumference)?",
+        "qUz": "Yer sharining ekvator boʻylab aylanasi (uzunligi) taxminan qancha?",
+        "options": ["30,000 km", "40,000 km", "50,000 km"],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 40,000 km. Rob Yerning aylanasi 40,075 km ekanini aytadi. Neil c) 50,000 km dedi va xato qildi. Mavzuga mos: butun dunyoni aylanish emas, uy yonidagi kichik sarguzasht ham (microadventure) zavq beradi — kichik goʻzaldir!"
+      }
+    ],
+    "vocab": [
+      { "en": "wanderlust", "uz": "sayohatga boʻlgan kuchli ishtiyoq", "defEn": "a strong desire to travel" },
+      { "en": "a sense of adventure", "uz": "sarguzasht ruhi (yangi, hayajonli ishni qilish hissi)", "defEn": "the feeling of doing a new, exciting and sometimes dangerous activity" },
+      { "en": "to coin (a phrase)", "uz": "yangi soʻz yoki ibora oʻylab topmoq", "defEn": "to use a word or phrase that no one has used before" },
+      { "en": "a hunch", "uz": "ich-ichdan sezish, taxmin (isbotsiz)", "defEn": "an idea you have based on feelings but with no proof" },
+      { "en": "charm", "uz": "joziba, yoqimlilik (zavq beruvchi tomon)", "defEn": "part of the pleasure or enjoyment of something" },
+      { "en": "on your doorstep", "uz": "uyingiz yonginasida, juda yaqin", "defEn": "very close to where you live" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Small is Beautiful: E.F. Schumacher and the Economics of Enough",
+      "channel": "The School of Life"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about the idea 'small is beautiful'. What is one thing you have only a little of, but that makes you happy? Do you own too many things — and is your life quite busy or fairly simple?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: kichik miqdorlar (a little / a few; only / just; hardly any) va daraja ravishlari (quite / fairly / a bit — \"very\"ni ishlatmasdan).",
+    "targetSec": 60
+  }
+}

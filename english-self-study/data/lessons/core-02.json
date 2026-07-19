@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 2,
+  "id": "core-02",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 2,
+  "slug": "emotional-mastery",
+  "title": "Emotional Mastery",
+  "titleUz": "Hissiyotlarni boshqarish",
+  "level": "A2-B1",
+  "tags": [
+    "emotions",
+    "present-continuous",
+    "stative-verbs",
+    "ed-ing-adjectives",
+    "dependent-prepositions"
+  ],
+  "intro": {
+    "uz": "Emotsional ustalik — hissiyotni tana orqali boshqarish: kuchli poza (posture), chuqur nafas, katta tabassum va harakat. AJ aytadi: muvaffaqiyatning 80% — hissiyot. Bu haftaning ikki grammatikasi ham aynan hissiyot tili: hozirgi davomiy va oddiy zamon (I am feeling / I feel) hamda holat feʼllari, va -ed/-ing sifatlari (I am bored, not boring) bilan bogʻliq predloglar (afraid of, excited about).",
+    "en": "Emotional mastery — managing your emotions through the body: strong posture, deep breathing, a big grin and movement. AJ says success is 80% emotion. This week's two grammar topics are the language of feeling itself: present continuous vs simple (I am feeling / I feel) with stative verbs, and -ed/-ing adjectives (I am bored, not boring) with dependent prepositions (afraid of, excited about)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida aynan hozirgi holatingiz bilan doimiy holatingizni ajratib ayta olasiz (I am feeling… / I feel…) va oʻz kayfiyatingizni toʻgʻri sifat va predlog bilan tasvirlay olasiz (I am excited about…, not I am exciting).",
+    "en": "By the end you can separate how you feel right now from how you feel in general (I am feeling… / I feel…) and describe your mood with the correct adjective and preposition (I am excited about…, not I am exciting)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-continuous-vs-simple",
+      "titleUz": "Hozirgi davomiy va oddiy zamon (+ holat feʼllari)",
+      "titleEn": "Present continuous vs present simple (+ stative verbs)",
+      "bandLifter": "IELTS Part 1 — say how you feel now vs how you usually feel",
+      "cefrCanDo": "B1: I can contrast a temporary state (am feeling) with a general one (feel)",
+      "bodyHtml": "<p>Bu darsda AJ hissiyotni boshqarishni oʻrgatadi. Hissiyot haqida gapirganda esa ingliz tili ikki xil &quot;hozir&quot;ni ajratadi. Diqqat qiling: <em>&quot;Right now I <strong>am feeling</strong> more energetic&quot;</em> (aynan shu daqiqada) va <em>&quot;People who <strong>feel</strong> good learn faster&quot;</em> (umuman, doim). Birinchisi — <strong>present continuous</strong> (hozirgi davomiy), ikkinchisi — <strong>present simple</strong> (hozirgi oddiy). Farqni his qilsangiz, oʻz kayfiyatingizni aniq ayta olasiz.</p>\n<h3>Present continuous: aynan hozir sodir boʻlayotgan ish</h3>\n<p>Shakli: <strong>am / is / are + -ing</strong>. Maʼnosi: ish <strong>shu daqiqada</strong>, gapirayotgan paytda davom etmoqda — vaqtincha, oʻtkinchi.</p>\n<ul>\n<li><em>I <strong>am listening</strong> to English right now.</em> — Hozir ingliz tili tinglayapman.</li>\n<li><em>She <strong>is smiling</strong> because AJ told her to.</em> — U hozir jilmayyapti.</li>\n<li><em>These days I <strong>am practising</strong> deep breathing.</em> — Shu kunlarda chuqur nafas olishni mashq qilyapman. (vaqtinchalik davr)</li>\n</ul>\n<h3>Present simple: umumiy haqiqat, odat, doimiy holat</h3>\n<p>Shakli: sof feʼl (+ <em>he/she/it</em> bilan <strong>-s</strong>). Maʼnosi: doim, odatda, umuman rost boʻlgan ish.</p>\n<ul>\n<li><em>I <strong>listen</strong> to English every day.</em> — Har kuni tinglayman. (odat)</li>\n<li><em>Water <strong>boils</strong> at 100 degrees.</em> — doimiy haqiqat.</li>\n<li><em>Movement <strong>creates</strong> energy.</em> — Harakat energiya beradi. (AJ aytadigan umumiy qoida)</li>\n</ul>\n<h3>Kalit: holat feʼllari (stative verbs) davomiy shaklga TUSHMAYDI</h3>\n<p>Bir guruh feʼl — his, fikr va egalik bildiradigan feʼllar — jarayon emas, <strong>holat</strong> ifodalaydi. Ular deyarli hech qachon <strong>-ing</strong> olmaydi: <em>love, like, hate, want, need, know, understand, believe, remember, mean, seem, own, belong.</em> Bu — oʻzbek oʻquvchilar eng koʻp qiladigan xato.</p>\n<ul>\n<li>❌ <em>I <strong>am knowing</strong> the answer. I <strong>am wanting</strong> to be rich.</em></li>\n<li>✅ <em>I <strong>know</strong> the answer. I <strong>want</strong> to be rich.</em></li>\n</ul>\n<p>Mini-hikoyadagi Vanilla ham <em>&quot;She <strong>wanted</strong> to be rich&quot;</em> deydi — <em>&quot;was wanting&quot;</em> emas.</p>\n<h3>Ingliz ↔ oʻzbek qarama-qarshiligi</h3>\n<p>Oʻzbek tilida &quot;hozir&quot; uchun ham, &quot;doim&quot; uchun ham koʻpincha bir xil forma ishlatiladi: <em>&quot;Ingliz tili oʻrganaman&quot;</em> jumlasi ham odatni, ham aynan hozirgi ishni bildira oladi. Ingliz tili esa ikkisini majburan ajratadi: odat → <em>I learn</em>, aynan hozir → <em>I am learning</em>. <em>Feel</em> feʼli ikkala shaklda ham keladi, lekin maʼnosi ozgina farq qiladi: <em>&quot;I feel tired&quot;</em> (umuman, holat) va <em>&quot;I am feeling better now&quot;</em> (aynan shu daqiqada oʻzgaryapti).</p>\n<blockquote>\n<p><strong>Eslatma:</strong> ovoz chiqarib mashq qiling. Aynan hozir nima qilayotganingizni ayting: <em>&quot;I am standing. I am breathing deeply. I am smiling.&quot;</em> Keyin odatingizni ayting: <em>&quot;Every day I study English.&quot;</em> Ikki &quot;hozir&quot;ni quloq bilan his qiling.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida \"hozir\" uchun ham, \"doim\" uchun ham koʻpincha bir xil forma ishlatiladi: \"oʻrganaman\" — ham odat, ham hozirgi ish. Ingliz tili ikkisini majburan ajratadi: odat/doimiy → present simple (I feel, I learn), aynan hozir/vaqtincha → present continuous (I am feeling, I am learning). Holat feʼllari (know, want, love) esa davomiy shaklga tushmaydi.",
+      "errorFixUz": "❌ I am knowing the answer. I am wanting to be rich. ✅ I know the answer. I want to be rich. know/want/love/need — holat feʼllari, jarayon emas holat bildiradi, shuning uchun -ing olmaydi.",
+      "examples": [
+        {
+          "en": "Right now I am feeling more energetic.",
+          "uz": "Aynan hozir oʻzimni tetikroq his qilyapman."
+        },
+        {
+          "en": "People who feel good learn faster.",
+          "uz": "Oʻzini yaxshi his qiladigan odamlar tezroq oʻrganadi."
+        },
+        {
+          "en": "Vanilla wanted to be rich.",
+          "uz": "Vanilla boy boʻlishni xohlardi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Right now, I ___ to English.",
+          "options": [
+            "am listening",
+            "listen",
+            "listening"
+          ],
+          "answer": "am listening",
+          "hintUz": "\"Right now\" — aynan hozir → am + -ing (present continuous)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I ___ the answer to this question.",
+          "options": [
+            "know",
+            "am knowing",
+            "knowing"
+          ],
+          "answer": "know",
+          "hintUz": "know — holat feʼli, davomiy shaklga tushmaydi: I know"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "AJ ___ us to smile every day.",
+          "options": [
+            "tells",
+            "is telling",
+            "tell"
+          ],
+          "answer": "tells",
+          "hintUz": "\"every day\" — odat → present simple; he/she/it bilan -s: tells"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): aynan hozir nima qilayotganingiz — \"Right now I am …\" — va doimiy odatingiz — \"Every day I …\".",
+          "answer": null,
+          "hintUz": "hozir → am + -ing; odat → present simple; holat feʼllari (know/want/love) -ing olmaydi"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "ed-ing-adjectives-prepositions",
+      "titleUz": "-ed/-ing sifatlari va bogʻliq predloglar",
+      "titleEn": "-ed/-ing adjectives & dependent prepositions of feeling",
+      "bandLifter": "IELTS Part 1 & 2 — describe feelings and reactions precisely",
+      "cefrCanDo": "B1: I can use -ed/-ing adjectives and the right preposition of feeling",
+      "bodyHtml": "<p>AJ MAIN talkda ogohlantiradi: <em>&quot;A lot of people <strong>feel bored</strong> when they learn English.&quot;</em> Eʼtibor bering — <em>bored</em>, <em>boring</em> emas. Bu ikki soʻz bir-biriga oʻxshaydi, ammo butunlay boshqa narsani aytadi. Kayfiyatni notoʻgʻri aytib qoʻymaslik uchun farqni bilish shart.</p>\n<h3>-ed va -ing sifatlari: kim his qiladi, nima his qildiradi</h3>\n<ul>\n<li><strong>-ed sifat = MEN qanday his qilyapman</strong> (his egasining holati): <em>bored, tired, excited, interested, worried, surprised, confused, depressed.</em></li>\n<li><strong>-ing sifat = NARSA qanday taʼsir qiladi</strong> (his manbai, sabab): <em>boring, tiring, exciting, interesting, worrying, surprising, confusing.</em></li>\n</ul>\n<p>Solishtiring:</p>\n<ul>\n<li><em>I am <strong>bored</strong>.</em> — Men zerikyapman. ✅ (mening holatim)</li>\n<li><em>The lesson is <strong>boring</strong>.</em> — Dars zerikarli. ✅ (darsning xususiyati)</li>\n<li>❌ <em>I am <strong>boring</strong>.</em> — bu &quot;Men zerikarli odamman&quot; degani! Koʻpchilik aynan shuni adashtiradi.</li>\n</ul>\n<p>Yana:</p>\n<ul>\n<li><em>I am <strong>excited</strong> about the exam. The exam is <strong>exciting</strong>.</em></li>\n<li><em>She was <strong>tired</strong>, so the digging was <strong>tiring</strong>.</em> (mini-hikoyadagi Vanilla)</li>\n</ul>\n<h3>Bogʻliq predloglar: his + oʻziga xos predlog (boʻlak sifatida yodlang)</h3>\n<p>His bildiruvchi koʻp sifat oʻzidan keyin <strong>doim bir xil predlog</strong> talab qiladi. Predlogni alohida emas, sifat bilan birga — bitta boʻlak (chunk) qilib yodlang:</p>\n<table>\n<thead>\n<tr>\n<th>Boʻlak (chunk)</th>\n<th>Maʼnosi</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>afraid of</strong></td>\n<td>...dan qoʻrqmoq</td>\n</tr>\n<tr>\n<td><strong>excited about</strong></td>\n<td>...dan hayajonlanmoq</td>\n</tr>\n<tr>\n<td><strong>worried about</strong></td>\n<td>...dan xavotirlanmoq</td>\n</tr>\n<tr>\n<td><strong>interested in</strong></td>\n<td>...ga qiziqmoq</td>\n</tr>\n<tr>\n<td><strong>tired of</strong></td>\n<td>...dan charchamoq / zerikmoq</td>\n</tr>\n<tr>\n<td><strong>proud of</strong></td>\n<td>...dan faxrlanmoq</td>\n</tr>\n<tr>\n<td><strong>good at</strong></td>\n<td>...ni yaxshi uddalamoq</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>I am <strong>afraid of</strong> speaking English.</em> — Ingliz tilida gapirishdan qoʻrqaman.</li>\n<li><em>She is <strong>excited about</strong> the future.</em></li>\n<li><em>Don't be <strong>worried about</strong> mistakes.</em></li>\n</ul>\n<h3>Ingliz ↔ oʻzbek qarama-qarshiligi</h3>\n<p>Oʻzbekchada his kelishik qoʻshimchasi bilan beriladi: &quot;...<strong>dan</strong> qoʻrqaman&quot;, &quot;...<strong>ga</strong> qiziqaman&quot;. Ingliz tilida bu vazifani predlog bajaradi va u <strong>kutilmagan</strong> boʻlishi mumkin: <em>interested <strong>in</strong></em> (&quot;qiziqaman&quot; — &quot;-ga&quot; emas, aynan &quot;in&quot;), <em>afraid <strong>of</strong></em>. Shuning uchun ularni soʻzma-soʻz tarjima qilib emas, tayyor boʻlak sifatida oʻrganish kerak.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har bir boʻlakni oʻzingiz haqingizda bitta rost jumla bilan ayting: <em>&quot;I am interested in music. I am afraid of dogs. I am excited about English.&quot;</em> Ovoz chiqarib takrorlang — predlog sifatga &quot;yopishib&quot; qoladi va nutqda oʻzi chiqadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada his kelishik qoʻshimchasi bilan beriladi: \"…dan qoʻrqaman\", \"…ga qiziqaman\". Ingliz tilida buni predlog bajaradi va u kutilmagan boʻladi: interested IN (\"-ga\" emas), afraid OF, excited ABOUT. Shuningdek -ed sifat mening holatimni (I am bored), -ing sifat esa narsaning xususiyatini (the lesson is boring) bildiradi.",
+      "errorFixUz": "❌ I am boring. I am interested for music. ✅ I am bored. I am interested in music. -ed = men his qilaman (bored), -ing = narsa taʼsir qiladi (boring); predlogni sifat bilan bitta boʻlak qilib yodlang (interested in).",
+      "examples": [
+        {
+          "en": "A lot of people feel bored when they learn English.",
+          "uz": "Koʻp odam ingliz tili oʻrganganda zerikadi."
+        },
+        {
+          "en": "The vocabulary lesson can be boring.",
+          "uz": "Soʻzlar darsi zerikarli boʻlishi mumkin."
+        },
+        {
+          "en": "Don't be worried about mistakes.",
+          "uz": "Xatolardan xavotirlanmang."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The vocabulary lesson is ___; I almost fell asleep.",
+          "options": [
+            "boring",
+            "bored",
+            "bore"
+          ],
+          "answer": "boring",
+          "hintUz": "narsaning xususiyati (dars taʼsir qiladi) → -ing: boring"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "After a long day at work, I feel ___.",
+          "options": [
+            "tired",
+            "tiring",
+            "tire"
+          ],
+          "answer": "tired",
+          "hintUz": "mening holatim (men his qilaman) → -ed: tired"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Don't be worried ___ your mistakes.",
+          "options": [
+            "about",
+            "of",
+            "for"
+          ],
+          "answer": "about",
+          "hintUz": "worried + about — bitta boʻlak (chunk) qilib yodlang"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda uchta rost gap ayting: \"I am interested in … . I am afraid of … . I am excited about … .\"",
+          "answer": null,
+          "hintUz": "-ed sifat + toʻgʻri predlog (in / of / about) — sifat bilan predlogni birga ayting"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/02/main.mp3",
+      "durationSec": 1058,
+      "bytes": 12707115,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/02/vocab.mp3",
+      "durationSec": 542,
+      "bytes": 6512845,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/02/ministory.mp3",
+      "durationSec": 1278,
+      "bytes": 15347270,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Okay, welcome to the main audio for “Emotional Mastery.” So let’s talk about emotional mastery in more detail now. How can you manage your emotions, how can you control, I don’t like the word control, but let’s just say manage your emotions so that you feel better and stronger while you’re learning English.",
+      "So it’s easy to say that “Oh, feel good when you’re learning English,” but unfortunately a lot of people feel bad when they’re learning English. A lot of people feel bored. Or maybe just in your life in general, you’re tired, you’re working hard, and it’s difficult to learn English also and still feel energetic and happy.",
+      "So we have to learn some techniques, some methods to manage our emotions, to make sure our emotions are feeling strong while we’re learning. And remember, again, that emotion and psychology are 80% of success. And a lot of people talk about this in the academic world. Dr.",
+      "Stephen Krashen, again he’s the top expert on language acquisition, language learning and language education, and he talks about this idea of non-linguistic factors. Which basically means psychological and emotional factors, that they’re more important than the method you’re using.",
+      "Tony Robbins, the famous peak performance coach, talks about this as well. He says directly success comes from emotion, 80% of success is emotion. The other 20% is the method, it’s how you do it. So we’ve got to master our emotions to master English. How are you going to do to that? Let’s talk about that now.",
+      "There are two keys to emotional mastery. One is your physiology, again it’s your body, how you use and manage your body. And second is your focus, your mental focus.",
+      "Now a lot of this comes from again Tony Robbins and Joe Vitale and some other peak performance coaches so I’m using their information and I’m applying it, I’m focusing it on this process of learning English and how can you take those ideas and use them to increase your English learning power, so you learn faster, so that you speak better.",
+      "So again we have two ways to manage our emotions. One is physiology, through the body. And the other is through focus, mental focus. What you think about again and again and again. In this lesson we’re going to talk about physiology, managing physiology. So this is an easy way to change your emotional state.",
+      "So let’s imagine that you are tired. You’ve gone to work, you’ve worked a very long day. You’re tired. And you’re thinking “I don’t want to study English.” How can you change that feeling? Well you can try to talk to yourself “Oh, I should study, I should study, I should feel better,” but usually that doesn’t work, right?",
+      "Usually you still feel tired. What you have to do is start with your body. Change your body. What does your body look like when you’re tired?",
+      "Usually your shoulders are going to be forward. Is your head going to be up or is your head going to be down? Well, usually when you’re tired you’re head is going to be a little bit down, your chin will be kind of down. What about your face? Will you have a big smile on your face or will your face be kind of loose?",
+      "Well, it’s usually going to be more use, right? You’re not usually smiling big when you feel tired. And your eyes, where are your eyes looking usually when you’re tired? Again, down. So the whole body tends to be forward and down when you feel tired.",
+      "So an easy, very simple way to change how you feel, how you physically feel, your emotion and in your body is to just make small changes in the way you’re using your body. Try it now. Lean forward. Put your shoulders forward. Put your chin down. Look down. Put your body into a tired position, notice how you feel. Now let’s change it.",
+      "Pull your shoulders back and your chest up. Bring your chin up. Bring your eyes up. Look up. And now, even if you don’t feel happy, I want you to smile really big. Put a big smile on your face, fake it. Look stupid. Okay, so a big smile, shoulders back, chest up, eyes up and a big stupid smile, a big grin, on your face.",
+      "Do you feel differently now? You probably do. Just by changing the position of your body, I’m doing it right now myself, I can feel that I feel more energetic. I feel happier just by shifting my body. When I go back and I put my shoulders forward and my chin down and my eyes down, I can feel some energy going down, right?",
+      "The energy in my body gets less. When I pull my shoulders back, my chest up, my chin up, my eyes up, I’m smiling big, just faking it, acting like a crazy person, I feel much better. And you do, too. So that is such an easy way to change how you feel, to change your emotional state just by shifting your body.",
+      "It’s a simple way to get control of your emotions and to master your emotions. So here’s what I want you to do. Every time you listen to these lessons or any English lessons or any kind of English studying, I want you to first change your body.",
+      "Before you listen to those lessons and while you’re listening, I want you to think about, consciously think about pulling your shoulders back, pushing your chest up, chin up, eyes up, and make yourself smile.",
+      "You probably didn’t smile much in your English classes when you were younger but this time I want you to smile even if you feel like you are being stupid. It doesn’t matter, do it. You’re going to change your body and by changing your body you’re going to feel better, you’re going to have more energy.",
+      "And when you have more energy, when you feel better, you learn faster. There’s a lot of research about this. And it shows that people who have more energy, who are feeling good emotionally, learn faster. People who are tired and bored learn much more slowly. What’s another way that you can change your emotion by changing your body?",
+      "Well another very easy way is through breathing. How you breathe determines the energy in your body and how you feel. So for example if you have a very shallow breath, you’re breathing very shallowly…small little breaths…tight chest.",
+      "You’re going to feel different than if you’re taking big breaths that are deep…that was just two breaths, already I can",
+      "feel in my body a lot more energy. So taking deep breaths, it’s such a simple way and yet it’s very powerful. That’s why in a lot of spiritual traditions, in Buddhism for example, and also in martial arts, in sports, you find that they will focus on breathing. They will tell their students to breathe more deeply.",
+      "They have a very kind of controlled way of breathing because they know by breathing very deeply they can change their emotional state and their physical state. Increase their energy. Increase the aliveness in their brain, the alertness in their brain. So this is another thing I want you to do before you learn English.",
+      "Any kind of studying, these lessons or a book, anything, I want you to focus on breathing deeply. Maybe just two minutes, for two minutes I want you to take deep breaths. Hold it for maybe 2, 3, 4 seconds and then let it out. Then do it again. Hold it…and breathe out…and again and again, 1 or 2 minutes deep breathing.",
+      "Of course at the same time remember you’re changing how your body is moving and how you’re sitting. You’re changing your posture. Of course posture means body position so you’re going to have a strong posture. It means you’re going to have the shoulders back, your chin up, your eyes up, chest out. That’s number one.",
+      "And then number two you’re going to breathe deeply. Hold…and out…and again. So again, strong posture, shoulders back, chin up, eyes up and then deep breathing. Do this for 1 or 2 minutes every time before you study English. I know it seems crazy, it seems so simple and yet it will totally change the way you feel while you’re learning.",
+      "Because you will feel differently you will learn differently. Just this simple, simple technique can increase your learning by two or three times, two or three times faster because your brain will be awake when you’re listening to English. When you’re bored, when you’re tired, your brain is half asleep.",
+      "You’re just not learning efficiently. When you’re breathing deeply and your body is in a strong posture you feel better and you learn faster. Of course the next factor we already talked about a little bit is your face. You gotta control your face. Why? Because your face shows emotion. But your face also can create emotion.",
+      "Just by smiling big, pretending, looking like a stupid person, it doesn’t matter. Just by faking it, just by making yourself smile bit you’ll actually change your emotion. You’ll change your feeling. It’s very hard to feel depressed and tired when you have a big smile, even if you’re forcing the smile.",
+      "So that’s another thing I want you to do. Everyone on the train will think you’re crazy while you’re listening to Effortless English but I want you to have a big smile every time while you’re listening to the lessons. Right now, do it. So you’re going to have a strong posture. You’re going to breathe deeply.",
+      "And you’re going to smile big, every time, before, during and after your English lessons. What’s another way we can control our physiology and therefore influence our emotional state? Well another thing about the body is the body likes to move so we’re going to talk about movement. You’re going to have a strong posture. You’re going to",
+      "breathe deeply. You’re going to have a big grin on your face, smiling. And then you’re going to move. Because movement creates energy and energy wakes up your body so that you learn faster. I mentioned this in the introduction a little bit. We’re going to talk about it more now in detail.",
+      "You should always be moving your body while you’re learning English. This is the opposite of everything you learned in school. In school they told you “Don’t move. Sit in your chair.” Right, so you’re sitting in your chair and what happened? Your body became stiff, you became tired. You were bored. Well this is the opposite.",
+      "You’re not in school anymore. You’re learning independently and it means you’re in control now. And so I want you to do the opposite of what happened in school. I want you to move your body every time you’re learning English. This can be very simple. If you’re sitting in a train, okay, it’s hard to walk around.",
+      "So you could just stretch your body. Consciously stretch, stretch your leg a little bit. Stretch your arm. Move your head around in a circle. Small little stretches, just make sure your body is moving even a little bit. Even better is to go for a walk. You have an iPod. You’re listening to the lessons. Get outside. Walk on the street.",
+      "Walk in the country. Walk in the woods. It doesn’t matter. Get out and walk. Move your body. Keep your posture strong while you’re walking. Shoulders back, chin up, eyes up, chest up…breathe deeply while you walk. And of course, smile big while you’re walking. Everyone will think you’re crazy. It doesn’t matter. Use this system.",
+      "I promise you you’re going to have a totally different experience while you’re learning English. Nothing like the schools you went to before. So it’s very important. If you want to, if you love to exercise, you can run while you’re learning English. Put on your running shoes.",
+      "Get some exercise in your body at the same time that you’re learning. You can do two things at the same time. So walk or run. Keep that body moving at the same time always. It’s going to keep energy coming into your body, flowing into your body. That wakes up your brain and that makes you learn so much faster.",
+      "Another idea is go to the gym. Bring your iPod again and work out, lift weights or do whatever you do at the gym. Again you’re using your body, engaging your body at the same time. Okay so let me just review very quickly how you’re going to use physiology to master your emotions. Number one, posture.",
+      "Shoulders back, chin up, eyes up, chest up. Number two, breathing…deep, deep breathing. Number three, your face. A big smile every time you’re learning English. Even if you feel terrible, I don’t care. Smile big while you’re listening to these lessons. And then finally, number four, movement.",
+      "You’re always going to be moving your body somehow. If you’re in your car, if you’re in the train or the bus, you’re going to maybe make small movements. But ideally the best thing to do is to be outside walking, moving that body, or in the gym, or even running. So you’re going to change your physiology.",
+      "Now what happens if after maybe 20 minutes, 30 minutes, you start to feel tired again. You’re listening to the lesson and you’re starting to get a little bored “Oh, AJ keeps talking…oh god…oh I’m getting bored with this.” Well, you can just quit…that’s what most people do. But don’t do that. What",
+      "you need to do is just wake your body up again so pause. Pause that lesson. Stop. Give yourself a little break. Change. Listen to some exciting fun music again. Get up, dance around, move, smile big, get your posture strong again, breathe more deeply. Wake up your body, maybe for 5 minutes…and then back to the lesson again.",
+      "Do this every time. Anytime during a lesson you start to feel tired or bored, just pause. Take a break, a 5 minute break and wake up your body. So anytime during a mini-story, during a main article, during a vocabulary lesson, it doesn’t matter. Pause anytime you feel your energy going down.",
+      "Change, listen to your favorite music, jump around, move, make your posture strong again, smile bigger. Start feeling great. Get that energy in your body then return to the lesson again. Okay, so that’s it for the main article here of “Emotional Mastery.” You’re going to focus on your physiology.",
+      "You’re going to focus on mastering your body, using your body to change your emotions. Using your body to change the energy that you feel and therefore using your body to learn English much, much faster."
+    ],
+    "vocab": [
+      "Okay, welcome to the vocabulary lesson for “Emotional Mastery.” Let’s get started. A few of the words I used in the main speech, the main article. First let’s talk about posture. Posture. So posture means the position of your body, it’s how you stand or sit. So we talk about good posture, for example.",
+      "Good posture means your shoulders are back. Your back is straight, your chin is up. That’s what we usually call good posture. And bad posture would mean, you know again, you’re leaning forward. Your shoulders are forward. Your back is not straight. So again, posture just means the position of your body, how you position your body.",
+      "How you hold your body, that’s posture. Another word I used was grin. A grin can be a noun, it’s a thing. Or it can be a verb, it’s something you do. So to grin means to smile, but to smile in a big way. When you grin, you’re not using a small smile. You’re using a very, very big smile.",
+      "Again, it’s also a noun so if you have a very big smile on your face, we say that is a grin. He has a big grin. You could use both, I guess. You could say he is grinning a big grin. Okay, so grin again is a large smile or the act of doing a large smile. Another phrase I used was “tends to be.” He tends to be an angry person.",
+      "Tends to be means usually is. So he usually is an angry person. He tends to be an angry person. So it’s something that usually happens, usually is true, mostly is true. But not always, not always. So I could say, Tomoe tends to be happy. It means she usually is happy. It’s her normal thing to do or normal thing to feel.",
+      "But not always, sometimes she’s not happy. So tends to be, usually is or often is or mostly is. Okay, another word I used was shifting. Shifting your body and the verb is to shift. To shift your body means to move it. It really means kind of to change its position. A shift is a change of position.",
+      "So if I have my head down and then I shift it, then maybe I move it to a different position. Now it’s up. I shifted from down to up. We use this in other areas, not just body. You can use it for driving, for example. When you’re driving you can shift from first gear to second gear.",
+      "Or reverse, you’re going backwards, then you stop, you shift the car and you change and you go forward. So again, you’re changing the gear’s position. Okay, so shift is a change in position. I used the word shallow, shallow breath or shallow breathing. And I also used the word deep, deep breathing or a deep breath.",
+      "So they’re opposites, of course. Deep, we also use this with water, for example. Deep water means water that goes down very far. Shallow water means water that’s not very deep, right? It’s the opposite, water that does not go down far. So shallow breathing is the same idea.",
+      "It means breathing that is very small, that doesn’t go down into your body very much. So…that’s shallow",
+      "breathing, right? It’s small little breaths. The air does not go down deep into the body. That is shallow breath or shallow breathing. And the opposite is deep. Deep breathing is…right, the air goes down into my body very far, very deeply. But shallow…does not go deeply. Okay, so we use this a lot with breathing.",
+      "Shallow breathing and deep breathing, they’re opposites. Another word I used is force, to force, using it as a verb, an action. To force something or to force yourself to do something. It’s a very common phrase. The whole thing again, to force yourself to do something. For example, force yourself to smile. So force means to try hard.",
+      "It has an idea that you don’t want to do it but you do it anyway. You make yourself do something difficult. You make yourself do something maybe you don’t want to do. So you use effort. You use your energy. You use your power to do something. So when you force something it’s the opposite of really relaxed.",
+      "It’s the opposite of doing it effortlessly. So force yourself to smile means use your energy. Make yourself smile, even if you don’t want to. Use energy. Force it. Try hard to smile. So that’s to force yourself to do something. Another word I used is depressed or depression.",
+      "So depression is the noun, depressed is the feeling, it’s an adjective. Like I feel depressed, it’s how you feel. So depressed means very, very sad. Feeling very, very sad and bad about yourself, about your life, about everything. So if you say “I’m sad,” usually that’s more specific, you have a reason. I’m sad about something.",
+      "I’m sad because I lost my job. But if you’re depressed, it’s a very more general kind of feeling. You’re depressed about everything usually. “I’m depressed because I lost my job and I have no money and I don’t have a girlfriend,” many reasons. Depression is deeper than just sadness.",
+      "So again, to be depressed, you say “I am depressed” or “I have depression.” This is a general kind of rule in English. It’s not always, but generally we say “I have a noun…a thing.” I have depression. Not I have depressed. Say, I have depression. But if you’re talking about an adjective, then you use “am”. I am depressed.",
+      "They mean basically the same thing. I have depression means I have the feeling of being depressed. I am depressed is more common. It just means I feel very, very, very sad. Okay, well that is the end of the vocabulary lesson for “Emotional Mastery.” Listen to it a couple of times.",
+      "In general the vocabulary lessons are the least important lesson. So if you listen to them a few times, if they’re boring, if you understand them all, it’s fine, you can skip the vocabulary. I want you to focus mostly on the main article, the main speech and on the mini-story. Those are the two most important lessons.",
+      "The vocabulary gives you a quick little lesson about some of the words and phrases. Listen to it a few times until you know these words, but once you know the words focus on the main story, the main article and on the mini-story. Okay, I will see you in the next lesson."
+    ],
+    "sixmin": [
+      "Dan: Hello and welcome to 6 Minute English– the show that brings you an interesting topic, authentic listening practice and six new items of vocabulary. I'm Dan…",
+      "Neil: And I'm Neil. In this episode we'll be discussing if happiness is genetic",
+      "Dan: How happy would you say you are Neil?",
+      "Neil: I’m pretty happy I think. Why do you ask?",
+      "Dan: Well, in March this year the UN published its fifth world happiness report.",
+      "Neil: Is that the one that ranks all of the countries based on how happy they are?",
+      "Dan: You've heard of it then. Over all there are 155 countries included, and Norway came top of them all, overtaking Denmark, which was the leader for the years 2012 to 2016.",
+      "Neil: Well what about the UK?",
+      "Dan: Ah, well that’s this week’s questions, isn’t it? Where did the UK place? a) in the top 10 b) between 11th and 20th c) after 21st",
+      "Neil: Well, I’m going to say c) after 21st",
+      "Dan: Ok, you know the drill. No answers until the end of the show.",
+      "Neil: So, Norway, eh? And Denmark the previous year? They’re neighbours!",
+      "Dan: Yes. In fact, for the last 5 years, the results have been pretty much the same. Nordic countries tend to dominate the top of the table.",
+      "Neil: Dominate meaning ‘control’. Ok, well how are the results decided?",
+      "Dan: It’s very simple. They ask 1000 people in each country a single subjective question.",
+      "Neil: Subjective means ‘based on personal experience, beliefs or feelings’. …Well, what’s the question?",
+      "Dan: Imagine a ladder, with steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?",
+      "Neil: That’s actually quite simple.",
+      "Dan: Yep. The Nordic countries all score an average close to 7.5 out of 10.",
+      "Neil: So we have a number of neighbouring countries which all claim to be extremely happy. There must be a connection….is it the weather?",
+      "Dan: Well, that’s a logical conclusion, but there is another idea. I’ll let Professor Andrew Oswald from the University of Warwick explain.",
+      "INSERT: Professor Andrew Oswald, University of Warwick We think that there is a genetic component, in part, to why the Danes do so well coming so regularly at the head of happiness international league tables. It does appear from the data that the Danes have the smallest amount of the, you might say, dangerous, short kind of genetic pattern. So they may have a kind of inoculation against the possibility of depression.",
+      "Neil: So, professor Oswald mentioned there is a genetic component, or part, to Danish DNA which gives them an inoculation, or illness protection, against depression and sadness.",
+      "Dan: Yep. All of the Nordic countries have a similar make-up.",
+      "Neil: But he said ‘in part’. That means it doesn’t explain everything. So, there’s something missing.",
+      "Dan: There’s no fooling you! Michael Booth has written a book about Nordic happiness. He has another theory.",
+      "INSERT: Michael Booth, Author There are so many reasons why the Danes are happy, why they’re content that have nothing to do with DNA. Of course they’re happy! They’re rich! They’re sexy! They’re funny! They don’t work that much!",
+      "Neil: Ah. So being rich, funny, sexy and not working much is why they are content, meaning ‘satisfied’. That sounds a bit like you, Dan.",
+      "Dan: I can’t publicly comment on that Neil, I’m sorry! But there is one more piece we’re missing. Hygge. It’s a loanword and only just appeared in the British dictionaries. We don’t have a direct translation, but it basically means cosiness.",
+      "Neil: Cosiness, ‘meaning warm, comfortable and safe’.",
+      "Dan: Yes. Danes love simple comforts. A warm cosy room, some drinks, some candles and a fire, and they are happy. Maybe that’s the secret.",
+      "Neil: Well, the secret to my happiness right now is finding out if I was right in the quiz.",
+      "Dan: Oh yes! I asked: Where did the UK place in the World Happiness Report 2017 a) in the top 10 b) between 11th and 20th c) after 21st",
+      "Neil: I said c) after 21st",
+      "Dan: And I’m afraid you’re wrong my friend. We placed b) between 11th and 20th. We were actually 19th.",
+      "Neil: Well, let’s make our listeners happy by going through the vocabulary.",
+      "Dan: Ok. First we had dominate. If you dominate something or someone, you control it. It’s quite an aggressive word. You wouldn’t use it for people much. But, give us an example, Neil.",
+      "Neil: You can talk about a team dominating play in a sport. Next we had subjective. If something is subjective it is based on personal experience, beliefs or feelings rather than facts, which are objective. What type of things are subjective, Dan?",
+      "Dan: Oh, it’s our opinions of art, music, jokes, food. You know, I like sausages and ice-cream but no one else does!",
+      "Neil: That’s because it’s disgusting!",
+      "Dan: Then we had component. A component is part of something that makes up a larger whole. Televisions and computers have many components in them.",
+      "Neil: And a person can be an essential component in a team, like a goal-keeper in football. After that was inoculation. An inoculation is a form of disease protection. It is a synonym of….Dan?",
+      "Dan: Vaccination. I went on holiday last year and had to have my inoculations updated. Then we had content. If you are content, you are satisfied and want nothing. What makes you content, Neil?",
+      "Neil: A warm sunny day in my garden with a good book. And finally we had cosiness. Cosiness comes from cosy, which means ‘warm, comfortable and safe’. Where’s cosy for you Dan?",
+      "Dan: Oh easy. On a freezing cold day, it’s tucked up in bed with a nice cup of tea. And that’s the end of today's 6 Minute English. Please join us again soon!",
+      "Neil: And we are on social media too, of course - Facebook, Twitter, Instagram and YouTube. See you there.",
+      "Both: Bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Who wanted to be rich?",
+        "a": "Vanilla, Vanilla wanted to be rich."
+      },
+      {
+        "q": "Who was Vanilla?",
+        "a": "Vanilla was a beautiful, intelligent woman."
+      },
+      {
+        "q": "What kind of woman was Vanilla?",
+        "a": "She was a beautiful, intelligent woman."
+      },
+      {
+        "q": "And what did she want?",
+        "a": "She wanted to be rich."
+      },
+      {
+        "q": "What did she say?",
+        "a": "She said “Show me the money.”"
+      },
+      {
+        "q": "Who wanted a lot of money?",
+        "a": "Vanilla, Vanilla wanted a lot of money."
+      },
+      {
+        "q": "Where did she go?",
+        "a": "Las Vegas."
+      },
+      {
+        "q": "Why did she go to Las Vegas?",
+        "a": "To get rich, of course, she went to Las Vegas to get rich."
+      },
+      {
+        "q": "Who went to Las Vegas to get rich?",
+        "a": "Vanilla, Vanilla went to Las Vegas to get rich."
+      },
+      {
+        "q": "Did she run into Caesar’s Palace or did she walk into Caesar’s Palace?",
+        "a": "She walked, she walked calmly into Caesar’s Palace."
+      },
+      {
+        "q": "What is Caesar’s Palace?",
+        "a": "It’s a casino."
+      },
+      {
+        "q": "Did Vanilla go to a casino in Japan?",
+        "a": "No, no, no, no, no. She didn’t go to a casino in Japan. She went to a casino in Las Vegas."
+      },
+      {
+        "q": "What was the casino’s name?",
+        "a": "Caesar’s Palace, the casino’s name was Caesar’s Palace."
+      },
+      {
+        "q": "And where was it?",
+        "a": "Las Vegas, it was in Las Vegas."
+      },
+      {
+        "q": "Was Vanilla happy or sad?",
+        "a": "She was happy. She had a big grin on her face. A big, huge smile."
+      },
+      {
+        "q": "Was she grinning or was she frowning?",
+        "a": "She was grinning. She had a big smile on her face. She was grinning."
+      },
+      {
+        "q": "Who, who was grinning?",
+        "a": "Vanilla, Vanilla was grinning."
+      },
+      {
+        "q": "When was she grinning?",
+        "a": "When she walked into Caesar’s Palace, when she walked into Caesar’s Palace she was grinning."
+      },
+      {
+        "q": "Why?",
+        "a": "Well, because she thought she was going to become rich."
+      },
+      {
+        "q": "Why was she grinning?",
+        "a": "Because she knew she was going to become rich."
+      },
+      {
+        "q": "Which table did she walk to?",
+        "a": "The blackjack table, she walked to the blackjack table."
+      },
+      {
+        "q": "Did she walk to the poker table?",
+        "a": "No, no, no, no, no, no, not the poker table. She walked to the blackjack table."
+      },
+      {
+        "q": "Who walked to the blackjack table?",
+        "a": "Vanilla, Vanilla walked to the blackjack table."
+      },
+      {
+        "q": "What was she doing when she walked to the blackjack table?",
+        "a": "She was grinning, of course. She was grinning when she walked to the blackjack table."
+      },
+      {
+        "q": "How much money did she take out of her pocket?",
+        "a": "$6,000.00."
+      },
+      {
+        "q": "Where did she take it out of?",
+        "a": "Out of her pocket, she took $6,000.00 out of her pocket."
+      },
+      {
+        "q": "Whose pocket?",
+        "a": "Vanilla’s, Vanilla’s pocket, of course. Her own pocket. She took $6,000.00 out of her own pocket."
+      },
+      {
+        "q": "How much money did she bet?",
+        "a": "Well, all of it, all $6,000.00. She bet all $6,000.00."
+      },
+      {
+        "q": "And did she win or did she lose?",
+        "a": "Well, Vanilla lost."
+      },
+      {
+        "q": "Huh, who’s Warren Buffett?",
+        "a": "Warren Buffett is the richest man in the world."
+      },
+      {
+        "q": "Does Warren Buffett play blackjack?",
+        "a": "No."
+      },
+      {
+        "q": "What does he do?",
+        "a": "He buys stocks."
+      },
+      {
+        "q": "He buys what?",
+        "a": "He buys stocks. Stocks are parts of companies, like a piece of a company. So Warren Buffett buys stocks. He goes to New York and buys stocks."
+      },
+      {
+        "q": "When Vanilla was in Las Vegas, where was Warren Buffett?",
+        "a": "New York, he was in New York. Warren Buffett was in New York when Vanilla was in Las Vegas."
+      },
+      {
+        "q": "Did Warren Buffett lose money in New York or make money?",
+        "a": "He made money."
+      },
+      {
+        "q": "How much money did Warren Buffett make?",
+        "a": "He made $60 billion."
+      },
+      {
+        "q": "How much did Vanilla make?",
+        "a": "Zero, she made no money. In fact, she lost money. Vanilla lost $6,000.00. Warren Buffett made $60 billion."
+      },
+      {
+        "q": "Did Vanilla grin?",
+        "a": "Well no."
+      },
+      {
+        "q": "Did Warren Buffett grin after he made $60 billion?",
+        "a": "No, he didn’t grin, he frowned."
+      },
+      {
+        "q": "Who frowned?",
+        "a": "Warren Buffett frowned."
+      },
+      {
+        "q": "And who grinned?",
+        "a": "Well, Vanilla grinned. She cried and then she grinned."
+      },
+      {
+        "q": "Why did she go to Alaska?",
+        "a": "She went to Alaska to dig for gold."
+      },
+      {
+        "q": "What did she want to do?",
+        "a": "She wanted to dig for gold."
+      },
+      {
+        "q": "Who wanted to dig for gold?",
+        "a": "Vanilla, Vanilla wanted to dig for gold."
+      },
+      {
+        "q": "Why did Vanilla’s back hurt?",
+        "a": "Because she had bad posture, of course."
+      },
+      {
+        "q": "Did she have good posture or did she have bad posture?",
+        "a": "Vanilla had bad posture while she was digging."
+      },
+      {
+        "q": "What kind of posture did Vanilla have?",
+        "a": "Bad, she had bad posture."
+      },
+      {
+        "q": "Was her back straight or was it bent?",
+        "a": "It was bent. Her back was bent. She had bad posture while she was digging for gold."
+      },
+      {
+        "q": "Where did she have bad posture?",
+        "a": "Well, in Alaska, she had bad posture in Alaska while she was digging for gold."
+      },
+      {
+        "q": "When, when did she have bad posture?",
+        "a": "While she was digging for gold."
+      },
+      {
+        "q": "Did she cry, did she feel bad, was she depressed?",
+        "a": "Yes, Vanilla was depressed."
+      },
+      {
+        "q": "How did she feel?",
+        "a": "Depressed."
+      },
+      {
+        "q": "Was she super-sad?",
+        "a": "Yes, she was depressed."
+      },
+      {
+        "q": "Why was Vanilla depressed?",
+        "a": "Because her back hurt and she had no money."
+      },
+      {
+        "q": "Where did Vanilla go next?",
+        "a": "Singapore, that’s right, of course. Singapore, she went to Singapore."
+      },
+      {
+        "q": "Why did she go to Singapore?",
+        "a": "Well, it’s obvious."
+      },
+      {
+        "q": "What kind of business did she start?",
+        "a": "A chili business, not a cold business. Chili, c-h-i-l-i, little pepers that you eat, very spicy. She started a chili business."
+      },
+      {
+        "q": "So she grew broccoli in her apartment and she sold them to restaurants?",
+        "a": "Not broccoli, chilis, not broccoli…chilis. She grew chilis in her apartment and she sold them to restaurants."
+      },
+      {
+        "q": "What did she sell?",
+        "a": "Chilis, hot chilis, she sold hot chilis to restaurants."
+      },
+      {
+        "q": "In which city?",
+        "a": "Singapore. In Singapore she sold hot chilis to restaurants."
+      },
+      {
+        "q": "Where did she grow the chilis?",
+        "a": "She grew them in her apartment. She grew them in her apartment then she sold them to restaurants."
+      },
+      {
+        "q": "What did she sell to restaurants?",
+        "a": "Hot chilis, she sold hot chilis to restaurants."
+      },
+      {
+        "q": "So, what did Vanilla want?",
+        "a": "Vanilla wanted to be rich."
+      },
+      {
+        "q": "Where did she go first?",
+        "a": "Las Vegas, she first went to Las Vegas. She played blackjack. She lost all her money."
+      },
+      {
+        "q": "Where did she go next?",
+        "a": "Alaska."
+      },
+      {
+        "q": "She went to Alaska, she dug for diamonds and she got a bad painful back?",
+        "a": "No, no, no, no, no, she didn’t dig for diamonds. She dug for gold. She went to Alaska, she dug for gold. But her posture was bad so her back hurt. No money and a painful back. And finally she went to Singapore. She grew hot chilis in her apartment and sold them to restaurants."
+      },
+      {
+        "q": "Did Vanilla become super-rich?",
+        "a": "Oh yes, she did."
+      },
+      {
+        "q": "How much money did she make? $26 billion?",
+        "a": "Oh no."
+      },
+      {
+        "q": "$27 billion?",
+        "a": "No, no, no. $28 billion, Vanilla made $28 billion. She was beautiful. She was intelligent. And finally, she was super-rich."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "good posture",
+      "pos": "phrase",
+      "uz": "toʻgʻri (tik) tana holati — yelka orqada, bel tik, iyak yuqorida",
+      "defEn": "the position of your body when you stand or sit up straight",
+      "example": "Good posture means shoulders back and chin up."
+    },
+    {
+      "en": "to grin",
+      "pos": "v",
+      "uz": "keng, katta tabassum qilmoq",
+      "defEn": "to smile in a very big way",
+      "example": "She walked in with a big grin on her face."
+    },
+    {
+      "en": "tends to be",
+      "pos": "phrase",
+      "uz": "odatda shunday boʻladi (doim emas)",
+      "defEn": "usually is; is true most of the time",
+      "example": "He tends to be an angry person."
+    },
+    {
+      "en": "to shift (your body)",
+      "pos": "v",
+      "uz": "holatini oʻzgartirmoq, siljitmoq",
+      "defEn": "to move something into a different position",
+      "example": "I feel happier just by shifting my body."
+    },
+    {
+      "en": "shallow breathing",
+      "pos": "phrase",
+      "uz": "yuza, mayda nafas olish (chuqur emas)",
+      "defEn": "small breaths that do not go deep into your body",
+      "example": "Shallow breathing gives you less energy."
+    },
+    {
+      "en": "to take a deep breath",
+      "pos": "phrase",
+      "uz": "chuqur nafas olmoq",
+      "defEn": "to breathe in a lot of air, deep into your body",
+      "example": "Take a deep breath and feel the energy."
+    },
+    {
+      "en": "to force yourself (to do something)",
+      "pos": "phrase",
+      "uz": "oʻzini majburlamoq, zoʻrlab qilmoq",
+      "defEn": "to make yourself do something difficult, using effort",
+      "example": "Force yourself to smile, even if you don't want to."
+    },
+    {
+      "en": "emotional state",
+      "pos": "phrase",
+      "uz": "hissiy holat, kayfiyat",
+      "defEn": "the general feeling you have at a certain time",
+      "example": "You can change your emotional state by moving your body."
+    },
+    {
+      "en": "depressed",
+      "pos": "adj",
+      "uz": "juda gʻamgin, tushkun (oddiy \"xafa\"dan chuqurroq)",
+      "defEn": "feeling very, very sad about everything",
+      "example": "It's hard to feel depressed when you have a big smile."
+    },
+    {
+      "en": "to master your emotions",
+      "pos": "phrase",
+      "uz": "hissiyotni puxta boshqarishni egallamoq",
+      "defEn": "to learn to manage and control your feelings",
+      "example": "You have to master your emotions to master English."
+    }
+  ],
+  "englishpod": {
+    "id": "0039",
+    "title": "Daily Life – My New Boyfriend",
+    "titleUz": "Kundalik hayot — Yangi yigitim",
+    "warmup": {
+      "uz": "Bu suhbatda Irene kechagi uchrashuvi haqida hayajon bilan gapiradi: yigit \"ajoyib\" ekan. Emotsional ustalik darsiga mos: his-hayajon bizni qanday boshqaradi. Diqqat qiling — u \"amazing\", \"good looking\", \"hot\" kabi hissiy sifatlarni ishlatadi. Sizningcha, suhbat oxirida kutilmagan burilish boʻladimi?",
+      "en": "In this dialogue Irene excitedly describes last night's date — the guy was amazing. It fits the Emotional Mastery theme: how feelings drive us. Notice the feeling words: amazing, good looking, hot. Do you think there's a surprise twist at the end?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0039/dg.mp3",
+        "durationSec": 60,
+        "bytes": 508156
+      },
+      "pr": {
+        "path": "englishpod/0039/pr.mp3",
+        "durationSec": 683,
+        "bytes": 10965913
+      },
+      "rv": {
+        "path": "englishpod/0039/rv.mp3",
+        "durationSec": 213,
+        "bytes": 3444048
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Irene! I heard you were on a date last night! So, how did it go? I want all the juicy details!"
+      },
+      {
+        "speaker": "B",
+        "en": "Um... well, actually, we had a fantastic time last night. He was...amazing!"
+      },
+      {
+        "speaker": "A",
+        "en": "Okay, now you really have to fill me in. What’s he like?"
+      },
+      {
+        "speaker": "B",
+        "en": "He’s really good looking; he’s quite tall, around 6’1”, he’s in his early thirties, and he’s got the most beautiful dark brown eyes..."
+      },
+      {
+        "speaker": "A",
+        "en": "He sounds hot! What does he do for a living?"
+      },
+      {
+        "speaker": "B",
+        "en": "You know what, this is the best part. David is a junior investment banker at Fortune Bank, so he’s got a great career path ahead of him!"
+      },
+      {
+        "speaker": "A",
+        "en": "Hold on a sec, his name is David?"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah?"
+      },
+      {
+        "speaker": "A",
+        "en": "That’s my brother!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to hear (that…)",
+        "uz": "eshitmoq, xabar topmoq",
+        "defEn": "to get information from someone"
+      },
+      {
+        "en": "juicy details",
+        "uz": "qiziqarli, mazali tafsilotlar",
+        "defEn": "exciting pieces of information"
+      },
+      {
+        "en": "fill me in",
+        "uz": "menga batafsil aytib ber",
+        "defEn": "give me more information"
+      },
+      {
+        "en": "good looking",
+        "uz": "koʻrkam, chiroyli (tashqi koʻrinishi)",
+        "defEn": "handsome; attractive to look at"
+      },
+      {
+        "en": "hot",
+        "uz": "juda jozibali, koʻzga issiq (suhbat tilida)",
+        "defEn": "very attractive (informal)"
+      },
+      {
+        "en": "career path",
+        "uz": "kasbiy yoʻl, martaba yoʻli",
+        "defEn": "a planned, logical progression of jobs through your working life"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "170608",
+    "title": "Is happiness genetic?",
+    "titleUz": "Baxt irsiymi (genlarga bogʻliqmi)?",
+    "audio": {
+      "main": {
+        "path": "sixmin/170608/audio.mp3",
+        "durationSec": 377,
+        "bytes": 15083520,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "Where did the UK place in the World Happiness Report 2017?",
+        "qUz": "2017-yilgi Jahon baxt hisobotida Buyuk Britaniya nechanchi oʻrinni egalladi?",
+        "options": [
+          "in the top 10",
+          "between 11th and 20th",
+          "after 21st"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) 11 va 20 oʻrtasida — aniqrogʻi 19-oʻrin. Neil c) dedi va xato qildi. Norvegiya birinchi oʻrinda, Shimoliy davlatlar esa doim jadval boshida turadi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "to dominate",
+        "uz": "hukmronlik qilmoq, ustunlik qilmoq",
+        "defEn": "to control something or someone"
+      },
+      {
+        "en": "subjective",
+        "uz": "subyektiv — shaxsiy tajriba va hisga asoslangan",
+        "defEn": "based on personal experience, beliefs or feelings, not facts"
+      },
+      {
+        "en": "component",
+        "uz": "tarkibiy qism, boʻlak",
+        "defEn": "a part of something that makes up a larger whole"
+      },
+      {
+        "en": "inoculation",
+        "uz": "emlash, kasallikdan himoya (vaksinaga sinonim)",
+        "defEn": "a form of disease protection; a synonym of vaccination"
+      },
+      {
+        "en": "content",
+        "uz": "mamnun, qoniqqan (hech narsa istamaydigan)",
+        "defEn": "satisfied and wanting nothing"
+      },
+      {
+        "en": "cosiness",
+        "uz": "shinamlik, iliqlik (issiq, qulay va xavfsiz muhit)",
+        "defEn": "the quality of being warm, comfortable and safe"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to Master Your Emotions",
+      "channel": "Tony Robbins"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How are you feeling right now, and how do you usually feel when you study English? What are you excited about, and what are you afraid of or worried about?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: hozirgi davomiy va oddiy zamon (I am feeling… / I usually feel…) hamda -ed/-ing sifatlari va bogʻliq predloglar (I am excited about…, I am afraid of…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/02/main.mp3",
+      "bytes": 12707115
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/02/main.pdf",
+      "bytes": 57617
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/02/vocab.mp3",
+      "bytes": 6512845
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/02/ministory.mp3",
+      "bytes": 15347270
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0039/dg.mp3",
+      "bytes": 508156
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0039/transcript.pdf",
+      "bytes": 91390
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/170608/audio.mp3",
+      "bytes": 15083520
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/170608/transcript.pdf",
+      "bytes": 215078
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 2,
+  "id": "core-08",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 8,
+  "slug": "identity",
+  "title": "Identity",
+  "titleUz": "Identity — oʻzlik",
+  "level": "B1",
+  "tags": [
+    "identity",
+    "beliefs",
+    "past-simple",
+    "change"
+  ],
+  "intro": {
+    "uz": "Identity — oʻzingiz haqingizda ishonadigan narsalaringiz, yaʼni “men kimman” degan global eʼtiqodlar. AJ Hoge ularni oʻzgartirib boʻlishini oʻrgatadi: bugungi “men” — oʻtmishdagi “men”dan boshqa. Bu haftaning ikki grammatik mavzusi shu yoʻlga mos: oʻtgan zamon hikoyasi va ketma-ketlik (then / after that / finally) hamda oʻzgarishni ifodalash (get / become + sifat).",
+    "en": "Identity is what you believe about yourself — the global beliefs that answer “who am I?”. AJ Hoge teaches that these can be changed: the person you are today is not the person you were. This week's two grammar topics fit that journey: past simple narrative and sequencing (then / after that / finally), and expressing change (get / become + adjective)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz oʻtmishingizdagi bir voqeani toʻgʻri oʻtgan zamon va ketma-ketlik soʻzlari bilan hikoya qilib bera olasiz, hamda oʻzingiz qanday oʻzgarganingizni (I became…, my English is getting…) ayta olasiz.",
+    "en": "By the end you can tell a story from your past using correct past simple and sequencing words, and describe how you have changed (I became…, my English is getting…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "past-simple-narrative",
+      "titleUz": "Oʻtgan zamon hikoyasi va ketma-ketlik (then / after that / finally; notoʻgʻri feʼllar)",
+      "titleEn": "Past simple narrative & sequencing",
+      "bandLifter": "IELTS Part 2 — tell a story about something that happened in the past",
+      "cefrCanDo": "B1: I can narrate past events in sequence using past simple",
+      "bodyHtml": "<p>Bu darsning mini-hikoyasi butunlay <strong>oʻtgan zamon</strong>da aytiladi: <em>Ken <strong>was</strong> a bored accountant. He <strong>quit</strong> his job. He <strong>became</strong> a taxi driver. Then he <strong>became</strong> a vampire killer.</em> Identity — oʻtmishdagi &quot;men&quot;dan bugungi &quot;men&quot;gacha boʻlgan yoʻl: <em>&quot;I <strong>was</strong> shy. I <strong>studied</strong> for years. I <strong>changed</strong>.&quot;</em> Shu yoʻlni aytib berish uchun sizga bitta puxta zamon kerak — <strong>past simple</strong> (oʻtgan oddiy zamon), hikoyaning umurtqa poygʻonasi.</p>\n<h3>Maʼnosi: oʻtmishda tugagan, ketma-ket ishlar</h3>\n<p>Past simple — oʻtmishda <strong>boshlangan va tugagan</strong> ish uchun. Hikoyada bir ish, keyin ikkinchisi, keyin uchinchisi — biri ortidan biri keladi:</p>\n<ul>\n<li><em>He <strong>quit</strong> his job and <strong>became</strong> a taxi driver.</em> — U ishini tashladi va taksichi boʻldi.</li>\n<li><em>Customers <strong>complained</strong> every day, so he <strong>felt</strong> bored.</em> — Mijozlar har kuni norozilik bildirdi, shuning uchun u zerikdi.</li>\n</ul>\n<p>Muhimi: ish <strong>qachon</strong> boʻlgani aniq yoki hikoya ichida — shuning uchun present perfect emas, aynan past simple.</p>\n<h3>Toʻgʻri va notoʻgʻri feʼllar</h3>\n<p>Koʻp feʼlga oxiriga <strong>-ed</strong> qoʻshiladi: <em>want → wanted, decide → decided, complain → complained</em>. Ammo eng koʻp ishlatiladigan feʼllar <strong>notoʻgʻri</strong> (irregular) — ularni yodda tutish kerak:</p>\n<table>\n<thead>\n<tr>\n<th>Asosiy</th>\n<th>Oʻtgan zamon</th>\n<th>Maʼnosi</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>be</td>\n<td><strong>was / were</strong></td>\n<td>edi</td>\n</tr>\n<tr>\n<td>have</td>\n<td><strong>had</strong></td>\n<td>bor edi</td>\n</tr>\n<tr>\n<td>become</td>\n<td><strong>became</strong></td>\n<td>boʻldi</td>\n</tr>\n<tr>\n<td>think</td>\n<td><strong>thought</strong></td>\n<td>oʻyladi</td>\n</tr>\n<tr>\n<td>feel</td>\n<td><strong>felt</strong></td>\n<td>his qildi</td>\n</tr>\n<tr>\n<td>get</td>\n<td><strong>got</strong></td>\n<td>boʻlib qoldi</td>\n</tr>\n</tbody>\n</table>\n<p>Bir hikoyada <em>was, had, became, thought, felt</em> — hammasi notoʻgʻri. Ularni bittalab emas, jumla ichida eshitib oʻrganing.</p>\n<h3>Ketma-ketlik soʻzlari (then / after that / finally)</h3>\n<p>Hikoyani ravon bogʻlash uchun ketma-ketlik soʻzlaridan foydalaning:</p>\n<ul>\n<li><strong>First</strong>, he was an accountant. — Avval u buxgalter edi.</li>\n<li><strong>Then</strong> he became a taxi driver. — Keyin u taksichi boʻldi.</li>\n<li><strong>After that</strong>, he changed his beliefs. — Shundan soʻng u eʼtiqodlarini oʻzgartirdi.</li>\n<li><strong>Finally</strong>, he became a vampire killer. — Nihoyat, u vampir ovchisi boʻldi.</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida oʻtgan zamon shaxsga qarab oʻzgaradi: <em>bordim, bording, bordi</em>. Ingliz tilida esa past simple <strong>hamma shaxs uchun bitta shakl</strong>: <em>I went, you went, he went, they went</em> — feʼl oʻzgarmaydi. Faqat <em>be</em> feʼli istisno: <em>I / he <strong>was</strong>, you / we / they <strong>were</strong></em>. Bu — oʻzbek oʻquvchi uchun yaxshi xabar: bir shaklni oʻrgansangiz, hammasiga yetadi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> oʻtgan zamonni ovoz chiqarib mustahkamlang. Har kuni bugungi kuningizni uch jumlada aytib bering: <em>&quot;This morning I <strong>woke up</strong> early. Then I <strong>studied</strong> English. After that I <strong>went</strong> to work.&quot;</em> Miya takrordan notoʻgʻri feʼllarni oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida oʻtgan zamon shaxsga qarab oʻzgaradi (bordim, bording, bordi), ingliz tilida esa past simple hamma shaxs uchun bitta shakl: I/you/he/they went. Faqat “be” feʼli istisno (I was / they were). Qiyini — koʻp ishlatiladigan feʼllar notoʻgʻri: become → became, think → thought, feel → felt, have → had.",
+      "errorFixUz": "❌ He becomed a taxi driver. He thinked it was exciting. ✅ He became a taxi driver. He thought it was exciting. Notoʻgʻri feʼllarga -ed qoʻshilmaydi — ularning maxsus oʻtgan shakli bor (became, thought, felt, got, went).",
+      "examples": [
+        {
+          "en": "Ken was a bored accountant, so he quit his job.",
+          "uz": "Ken zerikkan buxgalter edi, shuning uchun ishini tashladi."
+        },
+        {
+          "en": "First he became a taxi driver, then he changed his beliefs.",
+          "uz": "Avval u taksichi boʻldi, keyin eʼtiqodlarini oʻzgartirdi."
+        },
+        {
+          "en": "Finally, he became a vampire killer and felt happy.",
+          "uz": "Nihoyat, u vampir ovchisi boʻldi va oʻzini baxtli his qildi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Ken ___ a bored accountant.",
+          "options": [
+            "was",
+            "is",
+            "were"
+          ],
+          "answer": "was",
+          "hintUz": "bitta odam (Ken) + oʻtgan zamon → was"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He quit his job and ___ a taxi driver.",
+          "options": [
+            "became",
+            "becomed",
+            "become"
+          ],
+          "answer": "became",
+          "hintUz": "become notoʻgʻri feʼl: oʻtgan shakli — became (becomed emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ he changed his beliefs and got a new identity.",
+          "options": [
+            "After that",
+            "After that will",
+            "Then after"
+          ],
+          "answer": "After that",
+          "hintUz": "ketma-ketlik: after that = shundan soʻng (jumla boshida)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost hikoya ayting (ovoz chiqarib): oʻtmishingizdagi uchta ish, ketma-ket — “First I … Then I … Finally I …”.",
+          "answer": null,
+          "hintUz": "past simple + first/then/finally; notoʻgʻri feʼllarga eʼtibor bering"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "expressing-change",
+      "titleUz": "Oʻzgarishni ifodalash: get / become / turn + sifat",
+      "titleEn": "Expressing change — get / become / turn + adjective",
+      "bandLifter": "IELTS Part 1 — say how your English (or your life) has changed",
+      "cefrCanDo": "B1: I can describe a change of state (I got tired; I became confident)",
+      "bodyHtml": "<p>Identity — bu siz <strong>kim boʻlib ulgurganingiz</strong> haqida. Mini-hikoyada Ken oʻzgaradi: <em>He <strong>became</strong> strong and tough. He <strong>got</strong> bored as an accountant. His beliefs <strong>became</strong> stronger.</em> Va aynan shu darajaga koʻtaradigan gap IELTS Part 1 da doim uchraydi: <em>&quot;How <strong>has</strong> your English <strong>changed</strong>?&quot;</em> Javob — oʻzgarishni ifodalovchi feʼllar bilan: <strong>get / become / turn + sifat</strong>.</p>\n<h3>become — bir holatdan boshqasiga oʻtish</h3>\n<p><strong>become</strong> feʼli &quot;boshqa narsa/holatga aylandi&quot; degan maʼnoni beradi. Undan keyin <strong>sifat</strong> ham, <strong>ot</strong> ham kela oladi:</p>\n<ul>\n<li><em>He <strong>became</strong> a taxi driver.</em> — U taksichi boʻldi. (become + ot)</li>\n<li><em>He <strong>became</strong> strong and tough.</em> — U kuchli va matonatli boʻldi. (become + sifat)</li>\n<li><em>His beliefs <strong>became</strong> stronger.</em> — Uning eʼtiqodlari kuchayib bordi.</li>\n</ul>\n<p><strong>become</strong> biroz rasmiy va yozma nutqda koʻproq uchraydi.</p>\n<h3>get — kundalik nutqdagi &quot;boʻlib qolmoq&quot;</h3>\n<p><strong>get + sifat</strong> aynan shu maʼnoni beradi, lekin <strong>jonli, ogʻzaki</strong> nutqda. Native speakerlar oʻzgarish haqida gapirganda koʻpincha <em>become</em> emas, <em>get</em> ishlatadi:</p>\n<ul>\n<li><em>I <strong>got</strong> bored.</em> — Zerikib qoldim.</li>\n<li><em>My English <strong>is getting</strong> better.</em> — Inglizcham yaxshilanyapti.</li>\n<li><em>It <strong>got</strong> dark.</em> — Qorongʻi tushdi.</li>\n</ul>\n<p>Diqqat: <em>get</em> + ot boʻlsa maʼno oʻzgaradi (<em>get a job</em> = ish topmoq). Oʻzgarishni bildirish uchun <em>get</em> dan keyin <strong>sifat</strong> keladi.</p>\n<h3>turn — keskin yoki rangga oid oʻzgarish</h3>\n<p><strong>turn + sifat</strong> koʻpincha rang, ob-havo yoki toʻsatdan boʻladigan oʻzgarish uchun ishlatiladi:</p>\n<ul>\n<li><em>The sky <strong>turned</strong> grey.</em> — Osmon kulrangga oʻtdi.</li>\n<li><em>She <strong>turned</strong> pale.</em> — Uning rangi oqarib ketdi.</li>\n<li><em>It <strong>turned</strong> cold.</em> — Havo sovib ketdi.</li>\n</ul>\n<h3>Ingliz ↔ oʻzbek farqi</h3>\n<p>Oʻzbek tilida oʻzgarishni bitta feʼl bilan aytamiz: <strong>-lashmoq / -lashib bormoq / boʻlmoq</strong> — <em>kuchaydi, yaxshilandi, sovidi</em>. Ingliz tili esa <strong>feʼl + sifat</strong> juftligini talab qiladi: <em>became strong, got better, turned cold</em>. Yaʼni oʻzbekcha bitta soʻz — inglizcha ikki soʻz.</p>\n<blockquote>\n<p><strong>❌ xato:</strong> <em>He became to a taxi driver. My English becomes good.</em>\n<strong>✅ toʻgʻri:</strong> <em>He became a taxi driver. My English is getting better.</em>\n<em>become</em> dan keyin <em>to</em> qoʻyilmaydi; davom etayotgan oʻzgarish uchun esa <em>is getting</em> (get) tabiiyroq eshitiladi.</p>\n</blockquote>\n<blockquote>\n<p><strong>Eslatma:</strong> bu qolipni oʻzingiz haqingizda aytib mustahkamlang. Har kuni bir jumla: <em>&quot;A year ago I <strong>was</strong> shy, but I <strong>am becoming</strong> more confident. My English <strong>is getting</strong> better.&quot;</em> Ovoz chiqarib ayting — oʻzgarish tilingizga singib boradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida oʻzgarishni bitta feʼl bilan aytamiz: -lashmoq / -lashib bormoq / boʻlmoq (kuchaydi, zerikdi, sovidi). Ingliz tili esa “feʼl + sifat” juftligini talab qiladi: became strong, got bored, turned cold. get — ogʻzaki, jonli nutqda; become — biroz rasmiy; turn — rang/ob-havo yoki keskin oʻzgarish uchun.",
+      "errorFixUz": "❌ He became to a taxi driver. My English becomes good. ✅ He became a taxi driver. My English is getting better. become dan keyin “to” qoʻyilmaydi; davom etayotgan oʻzgarish uchun esa get (is getting) tabiiyroq eshitiladi.",
+      "examples": [
+        {
+          "en": "He became strong and tough.",
+          "uz": "U kuchli va matonatli boʻldi."
+        },
+        {
+          "en": "I got bored at my old job.",
+          "uz": "Eski ishimda zerikib qoldim."
+        },
+        {
+          "en": "My English is getting better every week.",
+          "uz": "Inglizcham har hafta yaxshilanyapti."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "After many complaints, Ken ___ bored.",
+          "options": [
+            "got",
+            "gots",
+            "getting"
+          ],
+          "answer": "got",
+          "hintUz": "oʻzgarish (holatga oʻtish) + ogʻzaki nutq → got + sifat"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "With new beliefs, he ___ a confident person.",
+          "options": [
+            "became",
+            "became to",
+            "becomed"
+          ],
+          "answer": "became",
+          "hintUz": "become + ot; “to” qoʻshilmaydi va shakli became"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The sky ___ grey before the storm.",
+          "options": [
+            "turned",
+            "became to",
+            "got a"
+          ],
+          "answer": "turned",
+          "hintUz": "rang oʻzgarishi uchun → turn + sifat: turned grey"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: bir yil oldin qanday edingiz va endi qanday oʻzgaryapsiz — “A year ago I was … , but I am becoming … / my … is getting … ”.",
+          "answer": null,
+          "hintUz": "get/become + sifat; oʻtmish uchun was, oʻzgarish uchun is getting/am becoming"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/08/main.mp3",
+      "durationSec": 1153,
+      "bytes": 13848811,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/08/vocab.mp3",
+      "durationSec": 682,
+      "bytes": 8194153,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/08/ministory.mp3",
+      "durationSec": 785,
+      "bytes": 9431129,
+      "transcriptKey": null
+    },
+    "pov": null
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ. Welcome to our next lesson. Today’s lesson is called “Identity.” Your identity is what you believe about yourself so this topic is a little bit similar to the topic of beliefs. We’ve talked a lot about beliefs before remember? Limiting beliefs and empowering beliefs.",
+      "Identity is really an important kind of belief or beliefs really, it’s a collection of beliefs, about yourself. The reason this is important, more important than just normal beliefs, is because these are global beliefs. Now by global I mean some that affects everything. It covers everything.",
+      "Global comes from globe which means all of the world. But we’re not internationally here. Here global means everything, covering everything, about everything. So global beliefs are beliefs that affect everything else. Your global beliefs affect all your other beliefs. They influence all your other beliefs.",
+      "They influence all of your other emotions. They influence everything. They’re kind of the most fundamental beliefs, the core, deepest beliefs, the central beliefs. And other beliefs come from them. So you’re already been thinking a lot about your beliefs related to English, for example.",
+      "But now I want you to think about the beliefs you have about yourself, who you are. What kind of person you are, what your abilities are. These are very, very important. You need to choose them because most of us grow up and we learn them from other people. We don’t even know its happening.",
+      "For example, we grow up thinking we are citizens of a certain country. And that’s true, of course it’s true. But if we identify too much, if that belief is too strong, we can become negative, possibly even violent towards people from other country. Say “I’m an American. I’m an American, American is number one! I’m the best.",
+      "Everyone else sucks.” Well, believe it or not, there are people in the United States who think that. There are people like that in every country. Obviously this is not a positive belief, not positive for most people. It has a lot of negative consequences.",
+      "So we’ve got to be careful about our global beliefs, about what we believe about ourself. More commonly, we have a lot of beliefs about what we can do and what we cannot do. We have beliefs about ourselves “I am this and I am not that.” I’ll give you an example of my own, my own limiting global belief.",
+      "For many, many, many years I had a belief “I’m not a good language learner.” This was a very strong belief that I had, a global belief about myself. Now, every time I tried to learn a new language, this belief was there. Do you think it helped me learn other languages? No, it did not. It had the opposite effect. It frustrated me.",
+      "It caused me to quit again and again and again. And here’s what happens. I have this idea in my head from the past “I’m not a good language learner. I’m a poor language learner.”",
+      "So when I start to try to learn Japanese, for example, what happens? Well, I start learning. And unfortunately I was trying normal, traditional methods, not effortless methods. I know better now, but in the past I didn’t know. So I was trying just these normal methods. And, of course, it was difficult. I had problems. I made mistakes.",
+      "It was difficult to understand. So what happened is this experience touched, interacted with, my global belief “I’m not a good language learner” or “I’m a poor language learner” and then these experiences which were kind of difficult.",
+      "So I looked at these experiences and I decided the meaning was “Well, see, I’m not a good language learner, of course. Of course Japanese is difficult because I’m not a good language learner.” So I quit. Now another person can have the same experience. Let’s say somebody who has the belief “I am a great language learner.",
+      "I love learning languages. I am fantastic at languages.” And they start to learn Japanese and guess what happens? They have some difficulties. They have trouble understanding, of course, they’re a beginner. They’re just starting. Now they don’t think “Oh, see, I can’t do it.”",
+      "They think “Well, this is normal but I’m a great language learner so I’m going to solve this problem and keep going. I’m going to get better and better. This will improve.” Their whole attitude is different. So when the same thing happens to them it doesn’t stop them. It doesn’t hurt their emotions, their energy doesn’t drop.",
+      "They don’t lose motivation. They get stronger and better. They decide “Well, this is a short-term problem. I’m going to solve it. We’re going to keep going.” So that’s the power of a global belief. It affects everything. Every specific experience is filtered through the global beliefs.",
+      "So every language experience I had was filtered through this belief “I’m not a good language learner.” And if I have the opposite belief “I’m a great language learner” well then every experience will be filtered through that. Okay, so we need to choose our global beliefs. It’s very important.",
+      "We need to develop empowering global beliefs as well. Not just beliefs about English or beliefs about specific things, but also beliefs about ourselves. Who we are, what we can do, what kind of person we are. These are the most important kinds of beliefs, these global identity beliefs.",
+      "So you need to look at your own right now about English and learning in general. Do you have limiting, negative global beliefs? What do you think about yourself? Do you think “Oh, I’m not good at English.” Or do you think “Oh, I am a fantastic English learner. I am a fantastic English speaker. I learn languages easily and quickly.”",
+      "Which one? It’s a big, big difference. It will have a big effect which one you choose. So let’s talk about how can you build up this identity? How can you choose your identity? Well the first thing you need to decide, just rationally, very carefully, just thinking logically, what kind of beliefs would help you?",
+      "What kind of beliefs would guarantee your success? Those are the ones you want to choose. Consciously choose the beliefs you want about yourself. So go ahead right now, pause this. Get a piece of paper and write down maybe three or four beliefs, positive, strong beliefs that will change your feeling about yourself.",
+      "Write down at least a couple that are related to",
+      "language learning and English learning, English speaking, and maybe just some very general ones about yourself. And begin every sentence with “I am…” I am a great language learner. I am a great English speaker. I am a fast learner, etc. Okay? So four or five, I want you to write them down.",
+      "Four or five positive empowering global beliefs, identity beliefs. I am…something. And then after you finish, hit play again and we’ll continue. So pause right now and do this, real quick. Okay, did you do it? Did you write down your empowering, strong global beliefs? Beliefs about yourself, the ones you want. Good.",
+      "Well, here’s what you’re going to do now. You’re going to make those strong. And if you remember, the way we make a belief stronger is we add references, we add experiences, we add evidence. We add specific examples that show that it’s true. And here’s what you’re going to do. You’re going to think back, think in your life.",
+      "Think about a time, any time, one experience where you succeeded. You did something that was difficult and you succeeded. And I want you to write that down again. Pause really quickly, write down just one example. Something you did that was difficult, you succeeded even though it was difficult. Go ahead, pause, do it. Okay.",
+      "Here’s what I want you to do now. Think again. We’re going to find another reference, another example. Think back again in your life, any time in your life, now, in the past, in the far past, as a child, last week, yesterday, doesn’t matter.",
+      "I want you to think about a time when you learned something…a time when you learned something that seemed difficult. So you learned something, it might have seemed tough at the time, but you did it. You learned it, a new skill, knowledge, anything. Just think about successful times in your past when you learned something.",
+      "And you should have more than one so I would like you to write down four or five of these. Four or five successful learning experiences, things that you learned. One example, we all have, you learned your native language. You are a master of your native language. Write that down.",
+      "And write down four or five other examples of successful learning in your past. Okay, did you do it? Good. Now I want you to think back, this one might be a little tougher for some of you, maybe not. I hope not. I want you to think back to a time in your past where you were successful with English.",
+      "Maybe a time where you read something and you understood it and you’re really happy “Wow, I understood that article. I understood that story.” Maybe a time when you listened to something in English and you understood, and you were very happy.",
+      "Maybe a time where you spoke a little bit of English and you felt proud, you felt strong “Oh, this is great. I just spoke English.” Maybe you wrote something in English. It doesn’t matter. It does not have to be big, something small is fine.",
+      "But I want you to find two, three, four, maybe five, man, maybe ten if you have them, experiences, specific examples of success with English. They can be small, it’s okay. Just little examples from your past when you did something successfully with English. Pause now and write them down. Alright, did you do it?",
+      "So now here we have, you have a list of examples. You have examples of meeting a challenge, doing something difficult in your past. You have examples of learning difficult things in your past. You have examples of succeeding",
+      "with English in your past. Review them, remember them. And the next step, with each one, one by one, you’re going to remember these and you’re going to remember them vividly. Remember that word? Vividly, colorfully, big, clear. So take the first one on your list.",
+      "A past challenge, something in the past that was difficult but you succeeded. Imagine it. See it in your head right now. See the picture of yourself succeeding. Now make that picture bigger. Bring it closer to you. Make it large. Make it brighter, like a TV set. Turn it, make it brighter, more light, more light.",
+      "More light, it’s big and it’s bright now, this success that you had in your past. Now add color. See all the colors in this picture. Make it very colorful. Remember all of the colors in this experience, in this picture. It’s big. It’s bright. It’s colorful. And finally, associate with the picture.",
+      "Associate, associate means you’re connected, you’re in the picture. In psychology we can disassociate or we can associate. Disassociate means you’re separate from something, an experience for example. It’s like you’re looking at it from the outside. But if you associate with it, it means you’re in it. You’re part of it.",
+      "So I want you to associate with this picture. Step into the picture. You are there again. There you are, in your body again in this successful challenge. You did it successfully, something that was difficult. You’re there. It’s big. It’s bright. It’s colorful. Remember every detail. Feel what you felt at that time.",
+      "Feel the feelings again. See what you saw. Hear what you heard. Live it again. Now come back. Now the next one, choose again something on your list. A time when you learned something difficult, you succeeded. It was difficult but you learned it, you mastered it. And again, see the picture. Make that picture larger and larger and larger.",
+      "Turn it up again, brighter and brighter and brighter. Add color, make it more colorful, more colorful. And finally, step into the picture. Associate with the experience. Live it again. Be there again with this second experience. Successful learning, you did it. Feel it. Feel how it felt. Live it again, breathe it again. Feels good.",
+      "One more time, let’s do it again. From your list choose a successful English experience. Anything, it can be small, it’s okay. It can be big, that’s fine, too. A time you did something with English successfully, you understood. You spoke. You read something. It doesn’t matter. But you had some kind of success with English in the past.",
+      "I know you have something. So pick one. Got it? And one more time, the same thing. See that picture. See yourself succeeding. Speaking English or understanding it. Live it again. See it. Now make that picture bigger, bigger, closer to you, closer to you, closer, bigger, larger, larger, larger. Let’s add some light. Turn it up.",
+      "Make it brighter and brighter and brighter. A nice bright, large picture in your brain, this successful experience from your past with English. Once again add color. It should be a colorful picture. Remember the colors. See them clearly, distinctly, powerfully, vividly. And the last step, step into the picture. Become part of the picture.",
+      "Associate with it. Be in that experience again. Live it again. Live it again, the success with English. Feel what you felt. Feel the happiness. Feel the pride.",
+      "Okay, and come back again. Now here’s what I want you to do. Every day this week I want you to do this. I want you to review your list. Look at this list and do this exercise every time, every day. You pick something from your list. See it. Make it bigger. Make it brighter, more colorful. And then step into it and live it again.",
+      "Feel it again. Do this every day this week. You’ll start to change your global beliefs. You’ll change your identity. And just to be sure, make sure you write down those beliefs “I am a fast learner of English. I am an excellent English speaker.” Write those down and review them also.",
+      "Through this process, by doing this just one week, maybe ten days, maybe two weeks, you will have a big change in your identity related to English. You can do this in any part of your life. I’m focused on English learning so that’s what we’re focusing on but you can actually do this with anything.",
+      "But for now, focus on English and see if it makes a difference. See how it will change your learning, your confidence, your feelings when you learn English, when you speak English. You’ll feel stronger. You’ll feel smarter. You’ll feel more successful and you’ll become more successful by doing this.",
+      "Alright, well that is the end of our main talk for “Identity.” I will see you next time."
+    ],
+    "vocab": [
+      "Hi, this is AJ and welcome to the vocabulary lesson for “Identity.” Let’s get started. Our first word is associate. In this main talk I use associate in a slightly different way than normal. It’s a psychological meaning of associate, so psychologists use this word sometimes.",
+      "To associate, when you’re talking about psychology, it means you’re connected to an experience. And the opposite is to disassociate. To disassociate means to unconnect [disconnect] yourself from an experience. It’s like you’re separate from your own body. It’s like you are separate from your own mind, separate from your experience.",
+      "So it’s a psychological term, to associate or to disassociate. Associate means you’re in the moment. You’re in the experience totally. You’re feeling everything. You’re seeing everything. You are there. To disassociate means the opposite. It means you disconnect. It’s like you’re not really there. You’re not really feeling anything.",
+      "It might be happening to you but you’re not feeling the feelings. You’re not feeling the emotion. You’re disconnecting from yourself. So associate and disassociate. When we’re talking about positive experiences, positive memories, we want to associate. We want to be there in the experience and our bodies.",
+      "Living it again makes it stronger, makes the emotions stronger. It makes it more powerful for us. And the opposite is also true. If you have some negative memories about English, for example, one way to make them weaker is to disassociate. Step out. Pretend you’re outside it looking at it.",
+      "And then, of course, you can make it smaller and darker and push it away. So that’s all we’re doing when we’re playing with these pictures in our head. We’re associating or disassociating. We’re associating more to the positive, strong, empowering memories and images and we’re disassociating more from the negative ones, the limiting ones.",
+      "Associate has other meanings, depends on the situation, but this is the psychological meaning of associate. Okay, our next word is a repeat. We’ve had it before but let’s talk about it just one more time, just review it, and that’s the word reference. A reference is an example, basically, an example, a specific example.",
+      "So when I talk about you need references for your beliefs, you need examples for your beliefs. If you just say “I’m good at English. I’m good at English. I’m good at English.” Eh, you know, that’s okay, but it’s stronger if you have examples to support it.",
+      "If you can think in your life, even something small, some small success with English, a specific example of success, if you can find one or two or more and more and more. The more examples you find, the more references you find. The stronger the belief becomes. So you want a lot of positive references.",
+      "You want to remember the good things that happened, even when they’re small. And they did happen. You’ve got to",
+      "have some positive ones, everybody does. The problem is everybody forgets them and everyone focuses on the negative references and everyone makes those stronger. That’s not what you want to do. You want to do the opposite, weaken those.",
+      "You want to focus on all the positive ones from your past, even the small ones, and remember to make them stronger, stronger, clearer, bigger. Build those references. Build those positive references to support your empowering global beliefs, your identity.",
+      "Okay, the most basic meaning of global means worldwide, about all of the world, connected to all of the world, related to all of the world. Global also has a little more specific meaning. It can mean about all of one topic or related to everything in one category or in one topic, so, for example, global beliefs about English.",
+      "It means beliefs that affect everything else in this topic, everything else in English learning. So in this case global has this idea of kind of fundamental or it’s something that affects everything else that can also be global. Okay, the next phrase is filter through, to filter through.",
+      "I said we often filter our experiences through our beliefs. Hm, interesting. Filter something through our beliefs. So we have an experience and we filter it through our beliefs fist and then we decide the meaning.",
+      "Okay, filter through, a filter is something that you put between one thing and another thing, and the filter changes what’s coming in. Let me give you a simple example to help you understand. Let’s say you have a camera. You have a camera and you take a picture. And you get some red glass, red glass. You put it in front of the camera.",
+      "Well, that’s a red filter, we call that a filter. T he red glass would be a red filter. It means the light comes through the glass first then it reaches the camera. And what happens? Only red light comes through, right? The green light, the blue light, the yellow light is blocked so the camera only sees the red light.",
+      "The filter blocks some of the information, some of the light, and it only lets through the red. So we have mental filters just like this. Our beliefs are mental filters.",
+      "It means information comes into our eyes and our ears but before it reaches our brain, deep in our brain, our beliefs block some of the information or change some of the information. So some of us have happy filters, happy beliefs. So everything that happens, we feel happy. Even if something bad happens.",
+      "We lose money, “Oh well, that means I’m going to get more money later.” Right, that’s just a belief. That’s just a filter. So it’s the experience comes in and then the belief decides the meaning. On the other hand, if you have a very negative filter, negative beliefs, then maybe you get money, you earn money.",
+      "But then your belief is “Well, I’m going to lose it. I’m never lucky. Someday I’m just going to lose all this money.” So the experience is not really the important thing, right? Losing money or gaining money are not positive or negative necessarily. We can change that meaning. It depends on our beliefs. It’s like a filter, right?",
+      "It blocks some of the information. It changes the meaning of the information. So that’s what I say, we filter everything through the beliefs we have. It means our beliefs are like a filter. So to filter, it can be a verb too, it’s the act of blocking some information and changing it.",
+      "Okay, our last word is the title of this lesson, identity. I already talked about it. It’s a common word. You probably know it already. But let’s talk a little bit about it specifically. So again, identity means the collection of global beliefs about yourself. What you think about yourself.",
+      "All of your opinions and beliefs about yourself, what kind of person you think you are. What you think you can do. What you think you can’t do. What you think you must do. What you think you shouldn’t do. All of those global beliefs together create your identity, who you are to yourself.",
+      "A lot of people think identity is permanent, like you’re born with it or something or it can’t be changed. “This is who I am. I will always be this way.” A lot of people say that, right? “This is my identity. It’s who I am. I can’t change.” And what do we say about that? We say “Bullshit!” It’s not true.",
+      "Identity can be changed because identity, it’s just a collection of beliefs and as we have seen already, beliefs can be changed. Beliefs can be changed very dramatically, in a very big way. And if you start changing these global beliefs, you change your identity. If you change a lot of them, you can totally change your identity.",
+      "You can choose your identity. You can choose a powerful, positive, enthusiastic, encouraging identity. You’re not stuck with the identity you have now. You can change it and I encourage you to change it. To choose the identity you want. Be the kind of person you want to be. Believe what you want to believe about yourself.",
+      "And change the references. Focus on the references that support the identity you want, about English learning, about who you are as a language learner. But also just in general, who you are as a person, that’s equally important. Of course, it’s more important, in fact. Well, alright. That is the vocabulary for Lesson 8, “Identity.”",
+      "Please listen to it a few times. Most importantly, do that activity in the main talk every day. Do the whole exercise with the pictures, the images, making them brighter, making them bigger, all of that. Please do that every single day this week. And you will see a very big change over time.",
+      "Okay, thank you and I’ll see you for the mini-story."
+    ],
+    "sixmin": [
+      "Alice: Hello and welcome to 6 Minute English. I'm Alice…",
+      "Neil: And I'm Neil. So, Alice, what do you see when you look at me?",
+      "Alice: Well, male, Caucasian, early 40s, short auburn hair, bushy eyebrows, thin lips...",
+      "Neil: OK. So that's how you see me? It sounds like a police report, and I'm not sure I like your observation about thin lips. Caucasian means white skinned and European, by the way.",
+      "Alice: And today the show is about identity – who or what a person is. And the way people see us forms part of our sense of identity, while another part comes from our ethnic – or racial – identity. So my question for you today, Neil, is: What percentage of the UK population described themselves as ethnically mixed? Is it … a) 0.9%? b) 5.9%? Or c) 9%?",
+      "Neil: OK… I think that it's a) 0.9%.",
+      "Alice: Well, we'll find out if you got the answer right or wrong later on in the show. Now, Neil, you are, of course, many more things than my physical description of you!",
+      "Neil: I'm glad to hear that. And it's true, that until you actually hear somebody speak, there are lots of things you can't know about them. For example, which country they're from, what language they speak…",
+      "Alice: Yes. So looking at me, what would you say, Neil?",
+      "Neil: I would say Alice that you're a typical English rose.",
+      "Alice: Thanks, Neil – and English rose describes an attractive girl with a pale delicate complexion – or skin colour – but you can't actually tell where a person is from by the way they look.",
+      "Neil: Yes, I suppose you're right. I have a friend who also looks very English like you, but she's a real ethnic mix. Her dad is German and her mum is Brazilian!",
+      "Alice: Well, let's hear from New York City actress and playwright, Sarah Jones, talking about her complicated ethnicity.",
+      "INSERT: Sarah Jones, actress and playwright, New York City My family on my dad's side, my grandparents, are from the South. There's some Caribbean in there, black Americans from the South and the Caribbean, and then on my mother's side there are people from the Caribbean, from Ireland but you know Irish American, German American. People would ask me if I was adopted when they saw my mother's white skin – she's actually mixed but she's white from a distance, and I'm black from a distance.",
+      "Neil: Sarah Jones there. Well, Sarah has family from all over the world! I suppose the United States – and New York City, especially – is a real melting pot.",
+      "Alice: That's right. And melting pot describes a society made from people of different countries who live together and create a new shared culture.",
+      "Neil: And people think Sarah is adopted – or raised by parents who aren't biologically hers – because she looks so different to her mum.",
+      "Alice: But I expect Sarah sees herself as American. New York is where she was born and raised.",
+      "Neil: That's right. But her grandparents weren't. Do you think you change when you go and live in another country with people different to you?",
+      "Alice: Yes, I do. My neighbours are Turkish but they've lived in England for 45 years so they've integrated into our culture. They enjoy English things like… our TV soap operas, cooking turkey at Christmas, and drinking tea with milk.",
+      "Neil: And to integrate means to join a group of people, and often involves changing your habits and customs.",
+      "Alice: Yes. OK. So, Neil, to what extent does the way other people see us, actually change us? Let's listen to Julian Baggini, a writer and philosopher here in the UK and find out what he thinks.",
+      "INSERT: Julian Baggini, writer and philosopher, UK It seems very evident that our sense of self isn't something that comes entirely from within. And of course we're affected by the way other people see us. And that's one of the most formative things in creating our sense of identity. I mean, I think it's kind of a two-way process that's ongoing. Our sense of who we are is always a response in part to how other people see us.",
+      "Neil: So Julian Baggini believes the way other people see us is formative in creating our sense of identity – or who we are. And formative means important for the development of something.",
+      "Alice: So if enough people see you as an English rose, you might start to see yourself as an English rose, even if you aren't ethnically English.",
+      "Neil: I'm not so sure. The friend I talked about earlier, she comes across as much more Brazilian than English in the way she behaves. She doesn't have the famous English reserve – but you'd never know it by looking at her.",
+      "Alice: And reserve means hiding what you're thinking or feeling. I think I'm guilty of English reserve. How about you, Neil?",
+      "Neil: No, I think I wear my heart on my sleeve, Alice – which means I make my feelings clear. OK, I think it's time for the answer to today's quiz question.",
+      "Alice: Okey-dokey, fair enough. I asked you: What percentage of the UK population described themselves as ethnically mixed? Is it … a) 0.9%, b) 5.9% or c) 9%?",
+      "Neil: I said a) 0.9%.",
+      "Alice: Yes. And you were on the money today, Neil! Well done! According to a survey conducted by the BBC in 2011, when asked about their own ethnic origins, 0.9% of the UK population said they were mixed race, although it's thought that the real figure is 2% or more. Now, could you remind us of the words we heard today, Neil?",
+      "Caucasian: identity ethnic English rose complexion melting pot adopted integrate formative reserve wear your heart on your sleeve",
+      "Alice: And that's the end of today's 6 Minute English. Don't forget to join us again soon!",
+      "Neil: Meanwhile, visit our website: bbclearningenglish.com, where you'll find guides to grammar, exercises, videos and articles to read and improve your English.",
+      "Both: Bye!",
+      "Caucasian: white skinned and European identity who or what a person is ethnic racial English rose an attractive girl with a pale delicate complexion complexion skin colour, especially of the face melting pot a society made of people from different countries who live together and create a new shared culture adopted (describes) a child raised by people who aren't his or her biological parents integrate become part of a group of people, often changing your habits and customs in order to fit in well formative important for the development of something reserve hiding what you're thinking or feeling wear your heart on your sleeve make your feelings clear"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Was Ken a happy accountant?",
+        "a": "No, he was a bored accountant."
+      },
+      {
+        "q": "How did Ken feel?",
+        "a": "Well, he felt bored. Ken was a bored accountant."
+      },
+      {
+        "q": "What was he?",
+        "a": "A bored accountant, Ken was a bored accountant."
+      },
+      {
+        "q": "Was he a bored salesman?",
+        "a": "Not a salesman, he was a bored accountant."
+      },
+      {
+        "q": "Did Ken want to be a bored accountant?",
+        "a": "No, he didn’t. He did not want to be a bored accountant. He wanted a new identity."
+      },
+      {
+        "q": "Did he want a new job?",
+        "a": "Yes, he wanted a new job."
+      },
+      {
+        "q": "Did he want to feel differently about himself?",
+        "a": "Yes, he wanted to feel differently about himself. He wanted a new job. He wanted his whole life to be different. He wanted a new identity."
+      },
+      {
+        "q": "Who wanted a new identity?",
+        "a": "Ken, Ken wanted a new identity."
+      },
+      {
+        "q": "Did he want an old identity or a new identity?",
+        "a": "A new one, he wanted a new identity."
+      },
+      {
+        "q": "What were his negative, limiting global beliefs?",
+        "a": "Number one, “I’m boring.” Number two, “I’m weak.” So he had two limiting global beliefs, identity beliefs about himself."
+      },
+      {
+        "q": "Who had two negative global beliefs about himself?",
+        "a": "Ken, Ken had two negative global beliefs about himself."
+      },
+      {
+        "q": "What were they?",
+        "a": "Well, they were “I’m boring” and “I’m weak.” These were his negative global beliefs."
+      },
+      {
+        "q": "What did he become?",
+        "a": "He became a taxi driver."
+      },
+      {
+        "q": "What kind of job did he get?",
+        "a": "Taxi driving job, he became a taxi driver."
+      },
+      {
+        "q": "Did he become a bus driver or a taxi driver?",
+        "a": "A taxi driver."
+      },
+      {
+        "q": "Why, why did he become a taxi driver?",
+        "a": "He thought it would be exciting."
+      },
+      {
+        "q": "What did he think about driving a taxi?",
+        "a": "He thought it would be exciting."
+      },
+      {
+        "q": "Who thought it would be exciting?",
+        "a": "Ken, Ken thought it would be exciting."
+      },
+      {
+        "q": "He thought what would be exciting?",
+        "a": "Driving a taxi, he thought driving a taxi would be exciting."
+      },
+      {
+        "q": "Was it exciting?",
+        "a": "No, it wasn’t exciting."
+      },
+      {
+        "q": "How was taxi driving?",
+        "a": "It was boring. Taxi driving was boring."
+      },
+      {
+        "q": "Was it a boring job or an exciting job?",
+        "a": "It was a boring job. Taxi driving was a boring job for Ken."
+      },
+      {
+        "q": "Why was it boring?",
+        "a": "Well, because every day customers complained to him."
+      },
+      {
+        "q": "Who complained to him?",
+        "a": "Customers, customers complained to him every day."
+      },
+      {
+        "q": "What did they do?",
+        "a": "Complained, they complained to him every day."
+      },
+      {
+        "q": "Who did the customers complain to?",
+        "a": "They complained to Ken every day."
+      },
+      {
+        "q": "Was this exciting for Ken?",
+        "a": "No, it wasn’t exciting for Ken. He was bored. He felt bored."
+      },
+      {
+        "q": "Did he feel bored as a taxi driver?",
+        "a": "Yes, he felt bored as a taxi driver."
+      },
+      {
+        "q": "Did he feel bored as an accountant?",
+        "a": "Yes, he felt bored as an accountant and then he felt bored as a taxi driver."
+      },
+      {
+        "q": "How did he feel in his two jobs?",
+        "a": "Bored, he felt bored. He was bored as an accountant. He was bored as a taxi driver."
+      },
+      {
+        "q": "What were his negative global beliefs? Remember?",
+        "a": "Well number one was “I’m boring, I’m a boring person” and number two “I’m a weak person, I’m weak.” Those were his two negative limiting global beliefs. He decided to change them."
+      },
+      {
+        "q": "What were his new, empowering global beliefs?",
+        "a": "Well, number one “I’m strong and tough.”"
+      },
+      {
+        "q": "What kind of beliefs were these?",
+        "a": "Empowering, these were empowering beliefs. Strong beliefs, positive beliefs, empowering beliefs."
+      },
+      {
+        "q": "Whose empowering beliefs were these?",
+        "a": "These were Ken’s empowering beliefs, his new empowering beliefs."
+      },
+      {
+        "q": "What’s a vampire?",
+        "a": "A vampire is a monster, like Dracula. A vampire sucks blood from people. A vampire kills people, a big monster. Ken decided I will kill vampires. That’s an exciting job, much better than accountant."
+      },
+      {
+        "q": "Which was more exciting? Vampire killing or accounting?",
+        "a": "Well, of course, vampire killing. Vampire killing was a much more exciting job than accounting."
+      },
+      {
+        "q": "Did Ken like to kill vampires?",
+        "a": "Oh, yes, he did."
+      },
+      {
+        "q": "Was vampire killing boring to Ken?",
+        "a": "No, it wasn’t boring to Ken."
+      },
+      {
+        "q": "How was it?",
+        "a": "It was exciting. Vampire killing was exciting to Ken. He loved it. It was so exciting."
+      },
+      {
+        "q": "Did Ken enjoy vampire killing?",
+        "a": "Of course, he did. He loved vampire killing."
+      },
+      {
+        "q": "Did Ken have a new identity?",
+        "a": "Yes, he did."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "identity",
+      "pos": "n",
+      "uz": "oʻzlik; oʻzi haqidagi eʼtiqodlar yigʻindisi",
+      "defEn": "the collection of global beliefs about who you are",
+      "example": "You can choose and change your identity."
+    },
+    {
+      "en": "a global belief",
+      "pos": "phrase",
+      "uz": "global (tub) eʼtiqod — hamma narsaga taʼsir qiladigan ishonch",
+      "defEn": "a fundamental belief that affects everything else",
+      "example": "Global beliefs shape all your other beliefs."
+    },
+    {
+      "en": "a limiting belief",
+      "pos": "phrase",
+      "uz": "cheklovchi eʼtiqod (rivojlanishga toʻsqinlik qiladigan)",
+      "defEn": "a negative belief that holds you back",
+      "example": "\"I'm not a good language learner\" is a limiting belief."
+    },
+    {
+      "en": "an empowering belief",
+      "pos": "phrase",
+      "uz": "kuch beruvchi, ruhlantiruvchi eʼtiqod",
+      "defEn": "a positive belief that gives you strength",
+      "example": "Choose empowering beliefs about yourself."
+    },
+    {
+      "en": "to associate with (a memory)",
+      "pos": "v",
+      "uz": "xotira ichiga kirmoq, uni toʻliq his qilmoq",
+      "defEn": "to step into an experience and feel it fully",
+      "example": "Associate with your positive memories to make them stronger."
+    },
+    {
+      "en": "to disassociate (from)",
+      "pos": "v",
+      "uz": "xotiradan uzoqlashmoq, undan ajralib turmoq",
+      "defEn": "to disconnect yourself from an experience",
+      "example": "You can disassociate from negative memories to weaken them."
+    },
+    {
+      "en": "a reference",
+      "pos": "n",
+      "uz": "aniq misol, dalil (eʼtiqodni quvvatlaydigan)",
+      "defEn": "a specific example that supports a belief",
+      "example": "The more references you find, the stronger the belief."
+    },
+    {
+      "en": "to filter through",
+      "pos": "phrase",
+      "uz": "orqali oʻtkazib idrok qilmoq (eʼtiqod orqali)",
+      "defEn": "to interpret an experience through your beliefs first",
+      "example": "We filter every experience through our beliefs."
+    },
+    {
+      "en": "to be stuck with",
+      "pos": "phrase",
+      "uz": "qutulolmay qolmoq, majburan tashib yurmoq",
+      "defEn": "to be unable to escape or change something",
+      "example": "You are not stuck with the identity you have now."
+    },
+    {
+      "en": "to build up (an identity)",
+      "pos": "phrase",
+      "uz": "asta-sekin qurmoq, mustahkamlab bormoq",
+      "defEn": "to develop and strengthen something over time",
+      "example": "You can build up a positive identity step by step."
+    }
+  ],
+  "englishpod": {
+    "id": "0195",
+    "title": "Global View – Job Hunting",
+    "titleUz": "Global koʻrinish — Ish qidirish",
+    "warmup": {
+      "uz": "Bu suhbatda Ben ish qidirishga kirishadi va oʻzini boʻlajak muvaffaqiyatli inson deb tasavvur qiladi — garchi u atigi oʻn besh yoshda boʻlsa ham. Bu darsning “identity” gʻoyasiga mos: kim boʻlishni tanlash. Sizningcha, Ben oʻzi haqidagi kuchli eʼtiqodi bilan ishga ega boʻladimi yoki bu bolalarcha xayolmi?",
+      "en": "In this dialogue Ben starts job hunting and pictures himself as a future success — even though he's only fifteen. It fits the identity theme: choosing who you want to become. Do you think Ben's strong self-belief will get him the job, or is it just a boyish dream?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0195/dg.mp3",
+        "durationSec": 69,
+        "bytes": 584831
+      },
+      "pr": {
+        "path": "englishpod/0195/pr.mp3",
+        "durationSec": 812,
+        "bytes": 13027681
+      },
+      "rv": {
+        "path": "englishpod/0195/rv.mp3",
+        "durationSec": 111,
+        "bytes": 1813129
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Woo hoo! This just might be the start of the rest of my life!"
+      },
+      {
+        "speaker": "B",
+        "en": "What happened?"
+      },
+      {
+        "speaker": "A",
+        "en": "I’m in the market for a job! I went on a website with hundreds of job listings in the area and browsed through them until I got the names of a few employers I would like to work for. I have the resume I wrote for English class last month and a cover letter will be a piece of cake to write. I’ve even done my research and found the names of the managers so I can address the letters personally. And you know I can be charming in interviews. Goodbye my penniless days! Hello salary and a career!"
+      },
+      {
+        "speaker": "B",
+        "en": "Ben, we’re fifteen. What kind of job are you looking for?"
+      },
+      {
+        "speaker": "A",
+        "en": "Oh, just for a position as a gas station attendant. You know, starting at a simple lowly job, just like all the greats before they made it big in the world."
+      },
+      {
+        "speaker": "B",
+        "en": "Uh-huh."
+      },
+      {
+        "speaker": "A",
+        "en": "But I’m just in it for the money, right? How else am I going to be able to afford to keep taking Angela to the movies? Besides, I love the smell of gasoline, don’t you?"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "in the market (for)",
+        "uz": "biror narsani olmoqchi/topmoqchi boʻlmoq",
+        "defEn": "actively looking to buy or get something"
+      },
+      {
+        "en": "a job listing",
+        "uz": "ish eʼlonlari roʻyxati (bazasi)",
+        "defEn": "a database entry advertising an available job"
+      },
+      {
+        "en": "a resume",
+        "uz": "rezyume (taʼlim va ish tajribasi qisqacha bayoni)",
+        "defEn": "a short summary of your academic and work history"
+      },
+      {
+        "en": "to address (a letter)",
+        "uz": "xatni aniq bir kishiga yoʻllamoq/nomlab yozmoq",
+        "defEn": "to direct a letter or statement to a specific person"
+      },
+      {
+        "en": "charming",
+        "uz": "yoqimtoy, kishini oʻziga tortadigan",
+        "defEn": "delightful, pleasant and attractive"
+      },
+      {
+        "en": "penniless",
+        "uz": "bir tiyinsiz, juda kambagʻal",
+        "defEn": "very poor; almost totally without money"
+      },
+      {
+        "en": "a piece of cake",
+        "uz": "juda oson ish, xamirdek",
+        "defEn": "something very easy to do"
+      },
+      {
+        "en": "to make it big",
+        "uz": "katta muvaffaqiyatga erishmoq, nom chiqarmoq",
+        "defEn": "to become very successful"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "161006",
+    "title": "Who do you think you are?",
+    "titleUz": "Oʻzingizni kim deb bilasiz?",
+    "audio": {
+      "main": {
+        "path": "sixmin/161006/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6037665,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "What percentage of the UK population described themselves as ethnically mixed?",
+        "qUz": "Buyuk Britaniya aholisining necha foizi oʻzini aralash etnik kelib chiqishga mansub deb bilgan?",
+        "options": [
+          "0.9%",
+          "5.9%",
+          "9%"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 0.9%. Neil aynan 0.9% dedi va topdi (“you were on the money”). BBC 2011-yilgi soʻrovga koʻra aholining 0.9% oʻzini aralash irqli deb bilgan, garchi haqiqiy raqam 2% yoki undan koʻproq deb taxmin qilinadi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "identity",
+        "uz": "oʻzlik; inson kim yoki nima ekani",
+        "defEn": "who or what a person is"
+      },
+      {
+        "en": "ethnic",
+        "uz": "etnik, irqiy (kelib chiqishga oid)",
+        "defEn": "relating to race or ethnic origin"
+      },
+      {
+        "en": "melting pot",
+        "uz": "turli xalqlar qorishib yangi madaniyat yaratadigan jamiyat",
+        "defEn": "a society made of people from different countries who create a new shared culture"
+      },
+      {
+        "en": "to integrate",
+        "uz": "guruhga qoʻshilib ketmoq, moslashmoq",
+        "defEn": "to become part of a group, often changing your habits and customs to fit in"
+      },
+      {
+        "en": "formative",
+        "uz": "shakllantiruvchi, rivojlanish uchun muhim",
+        "defEn": "important for the development of something"
+      },
+      {
+        "en": "to wear your heart on your sleeve",
+        "uz": "his-tuygʻusini yashirmasdan ochiq koʻrsatmoq",
+        "defEn": "to make your feelings clear and open to everyone"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Who are you, really? The puzzle of personality",
+      "channel": "TED-Ed"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell the story of how you have changed. What kind of person were you a few years ago? What happened, and who did you become? How is your English getting better now?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: oʻtgan zamon hikoyasi va ketma-ketlik (I was… First… Then… Finally…) hamda oʻzgarishni ifodalash (I became…, I got…, my English is getting better).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/08/main.mp3",
+      "bytes": 13848811
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/08/main.pdf",
+      "bytes": 48443
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/08/vocab.mp3",
+      "bytes": 8194153
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/08/ministory.mp3",
+      "bytes": 9431129
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0195/dg.mp3",
+      "bytes": 584831
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0195/transcript.pdf",
+      "bytes": 96968
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/161006/audio.mp3",
+      "bytes": 6037665
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/161006/transcript.pdf",
+      "bytes": 205984
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

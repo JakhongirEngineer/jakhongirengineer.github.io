@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 2,
+  "id": "core-18",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 18,
+  "slug": "slow-burn",
+  "title": "Slow Burn",
+  "titleUz": "Slow Burn — sekin, ammo barqaror",
+  "level": "B1",
+  "tags": [
+    "energy",
+    "endurance",
+    "present-perfect",
+    "gradual-change",
+    "habits"
+  ],
+  "intro": {
+    "uz": "Slow Burn — energiya haqida: tez yugurib charchash emas, sekin va barqaror surʼatda uzoq davom etish. Stu Mittleman asta yugurib, kun boʻyi baquvvat qoladi. Bu haftaning ikki grammatik mavzusi shu gʻoyaga mos: present perfect (so far / up to now / yet — shu paytgacha nima qilib ulgurgansiz) va jarayon ravishlari (gradually / steadily / increasingly / little by little). Tiffani haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Slow Burn is about energy — not sprinting and burning out, but going slow and steady so you can last. Stu Mittleman runs slowly and stays energetic all day. This week's two grammar topics fit that idea: the present perfect (so far / up to now / yet — what you have achieved up to now) and process adverbs (gradually / steadily / increasingly / little by little). You'll hear both in the POV story about Tiffany."
+  },
+  "canDo": {
+    "uz": "Dars oxirida “What have you achieved so far?” savoliga toʻxtamasdan javob bera olasiz (I have … so far; I haven't … yet) va bir jarayonning bosqichma-bosqich oʻzgarishini jarayon ravishlari bilan tasvirlab bera olasiz (gradually / steadily / increasingly).",
+    "en": "By the end you can answer “What have you achieved so far?” out loud without pausing (I have … so far; I haven't … yet), and describe how a process changes step by step using process adverbs (gradually / steadily / increasingly)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "present-perfect-gateway",
+      "titleUz": "Present perfect (sodda) — B1 boʻsagʻasi: so far / up to now / yet",
+      "titleEn": "Present perfect — so far / up to now / yet",
+      "bandLifter": "IELTS Part 1 & 2 — say what you have done up to now",
+      "cefrCanDo": "B1: I can say what I have and haven't done so far (so far / up to now / yet)",
+      "bodyHtml": "<p>Bu darsning POV hikoyasida Tiffani butun umri davomida bir ishni qiladi: <em>&quot;Since she was a small child she <strong>has loved</strong> cats. Every year she <strong>has bought</strong> more cats. She <strong>has set aside</strong> money every day.&quot;</em> Bu — <strong>present perfect</strong> (hozirgi tugallangan zamon). L09 da uni <em>since / for / How long</em> bilan tanishgan edingiz; endi uning ikkinchi qanotini ochamiz — <strong>shu paytgacha nima qilib ulgurgansiz</strong>. &quot;Slow Burn&quot; mavzusiga aynan mos: natija sekin, ammo barqaror — kun sayin yigʻilib boradi.</p>\n<h3>Maʼnosi: shu paytgacha yigʻilgan natija</h3>\n<p>Present perfect oʻtmishdagi ishni <strong>hozirgi natija</strong> bilan bogʻlaydi. Qachon boʻlgani muhim emas — muhimi, natija <strong>hozirgacha yetib kelgan</strong>. Shuning uchun uning tabiiy hamrohlari — <em>so far, up to now, yet</em>:</p>\n<ul>\n<li><em>So far, I <strong>have read</strong> three chapters.</em> — Shu paytgacha uch bob oʻqidim.</li>\n<li><em>Up to now, she <strong>has saved</strong> half the money.</em> — Hozirgacha pulning yarmini yigʻdi.</li>\n</ul>\n<p>Shakli oʻsha-oʻsha: <strong>have / has + V3</strong> (<em>loved, bought, done, saved, been</em>). <em>I / you / we / they</em> bilan <strong>have</strong>, <em>he / she / it</em> bilan <strong>has</strong>.</p>\n<h3><code>so far</code> va <code>up to now</code> — &quot;hozirgacha, shu vaqtga qadar&quot;</h3>\n<p>Bu iboralar &quot;boshlanishdan hozirgacha boʻlgan davr&quot;ni bildiradi va ish hali <strong>davom etishi mumkin</strong>ligini his ettiradi:</p>\n<ul>\n<li><em>We <strong>have won</strong> two races <strong>so far</strong>.</em> — Shu paytgacha ikkita poygada yutdik (yana boʻlishi mumkin).</li>\n<li><em><strong>Up to now</strong> everything <strong>has gone</strong> well.</em> — Hozirgacha hammasi yaxshi ketdi.</li>\n</ul>\n<h3><code>yet</code> — savol va inkorda &quot;hali&quot;</h3>\n<p><em>yet</em> deyarli har doim <strong>savol</strong> yoki <strong>inkor</strong> bilan keladi va jumla <strong>oxirida</strong> turadi:</p>\n<ul>\n<li><em>Have you finished <strong>yet</strong>?</em> — Hali tugatdingmi?</li>\n<li><em>She <strong>hasn't</strong> found a purple cat <strong>yet</strong>.</em> — U hali binafsha mushuk topgani yoʻq.</li>\n</ul>\n<p>Diqqat: tasdiqda &quot;hali&quot; degani — <em>yet</em> emas, <em>still</em> yoki <em>already</em>.</p>\n<h3>Ingliz↔Oʻzbek farqi</h3>\n<p>Oʻzbek tili buni koʻpincha oddiy oʻtgan zamon bilan aytadi: <em>&quot;Uch bob <strong>oʻqidim</strong>.&quot;</em> Ingliz tilida esa &quot;shu paytgacha, natija hozir ham amalda&quot; degan maʼno boʻlsa — present perfect kerak: <em>&quot;I <strong>have read</strong> three chapters so far.&quot;</em> Oʻzbekcha &quot;hali …ganim yoʻq&quot; = ingliz tilida <em>haven't … yet</em>.</p>\n<h3>Nega bu B1 boʻsagʻasi</h3>\n<p>Present perfect — oʻzbek oʻquvchilar uchun eng baland tense devori. Uni <em>so far / yet</em> bilan ravon ishlata olsangiz, IELTS Part 1 va Part 2 da darrov ajralib turasiz: <em>&quot;I <strong>have</strong> already <strong>visited</strong> three countries, but I <strong>haven't been</strong> to Europe <strong>yet</strong>.&quot;</em> Kichik <em>yet</em> — katta aniqlik belgisi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingiz haqingizda bitta jumla ayting: <em>&quot;So far today, I <strong>have</strong> …&quot;</em> va <em>&quot;I <strong>haven't</strong> … <strong>yet</strong>.&quot;</em> Ovoz chiqarib takrorlang — <em>have/has + V3</em> qolipi quloqqa oʻrnashib, nutqda oʻzi chiqadigan boʻladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tili buni koʻpincha oddiy oʻtgan zamon bilan aytadi: “Uch bob oʻqidim.” Ingliz tilida esa “shu paytgacha, natija hozir ham amalda” maʼnosi boʻlsa — present perfect kerak: “I have read three chapters so far.” Oʻzbekcha “hali …ganim yoʻq” = ingliz tilida “haven't … yet”.",
+      "errorFixUz": "❌ I didn't finish it yet. Did you eat yet? ✅ I haven't finished it yet. Have you eaten yet? “yet” (hali) savol va inkorda present perfect bilan keladi, oddiy oʻtgan zamon bilan emas.",
+      "examples": [
+        {
+          "en": "So far, I have read three chapters.",
+          "uz": "Shu paytgacha uch bob oʻqidim."
+        },
+        {
+          "en": "Up to now, she has saved half the money.",
+          "uz": "Hozirgacha u pulning yarmini yigʻdi."
+        },
+        {
+          "en": "She hasn't found a purple cat yet.",
+          "uz": "U hali binafsha mushuk topgani yoʻq."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "So far, I ___ finished two books this month.",
+          "options": [
+            "have",
+            "did",
+            "am"
+          ],
+          "answer": "have",
+          "hintUz": "so far → shu paytgacha → present perfect (have + V3)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She hasn't bought the cat ___.",
+          "options": [
+            "yet",
+            "already",
+            "since"
+          ],
+          "answer": "yet",
+          "hintUz": "inkorda “hali” → yet (jumla oxirida)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Up to now, we ___ won two races.",
+          "options": [
+            "have",
+            "has",
+            "had"
+          ],
+          "answer": "have",
+          "hintUz": "we → have; “up to now” present perfectni talab qiladi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “So far this year, I have … . But I haven't … yet.”",
+          "answer": null,
+          "hintUz": "have/has + V3; inkorda haven't … yet"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "process-adverbs",
+      "titleUz": "Jarayon ravishlari: gradually / steadily / increasingly",
+      "titleEn": "Process adverbs — gradually / steadily / increasingly",
+      "bandLifter": "IELTS Part 2 — describe how something changed over time",
+      "cefrCanDo": "B1→B2: I can describe a gradual trend (gradually / steadily / increasingly)",
+      "bodyHtml": "<p>&quot;Slow Burn&quot;ning butun sirri bitta soʻzda: <strong>sekin-asta</strong>. Stu Mittleman tez yugurmaydi — u <em>steady</em> (barqaror) energiya uchun asta yuguradi. AJ ham inglizchani bir kechada emas, kun sayin <em>little by little</em> oʻrganishni oʻrgatadi. POV hikoyada Tiffani binafsha mushuk uchun pulni <em>gradually</em> — har kuni, har hafta, har oy — yigʻib boradi. Bularning hammasi — <strong>jarayon ravishlari</strong>: oʻzgarish <strong>qanday</strong> yuz berayotganini tasvirlaydigan soʻzlar. Bu L09 dagi <em>better and better</em> (bosqichma-bosqich oʻzgarish) mavzusini davom ettiradi.</p>\n<h3>Toʻrt asosiy jarayon ravishi</h3>\n<table>\n<thead>\n<tr>\n<th>Ravish</th>\n<th>Maʼnosi</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>gradually</strong></td>\n<td>asta-sekin, bosqichma-bosqich</td>\n</tr>\n<tr>\n<td><strong>steadily</strong></td>\n<td>barqaror, bir maromda (toʻxtamay)</td>\n</tr>\n<tr>\n<td><strong>increasingly</strong></td>\n<td>tobora koʻproq, borgan sari</td>\n</tr>\n<tr>\n<td><strong>little by little</strong></td>\n<td>oz-ozdan, sekin-asta</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><em>My energy <strong>gradually</strong> improved.</em> — Energiyam asta-sekin yaxshilandi.</li>\n<li><em>He runs <strong>steadily</strong>, never too fast.</em> — U bir maromda yuguradi, hech qachon juda tez emas.</li>\n<li><em>Gyms are becoming <strong>increasingly</strong> popular.</em> — Sport zallari tobora ommalashmoqda.</li>\n<li><em><strong>Little by little</strong>, she saved the money.</em> — Oz-ozdan u pulni yigʻdi.</li>\n</ul>\n<h3>Soʻz tartibi: ravish qayerda turadi</h3>\n<p><em>gradually, steadily, increasingly</em> — odatda <strong>asosiy feʼldan oldin</strong> yoki jumla <strong>boshida</strong> keladi: <em>&quot;She <strong>gradually</strong> relaxed&quot;</em> / <em>&quot;<strong>Gradually</strong>, she relaxed.&quot;</em> <em>little by little</em> esa doim toʻliq ibora sifatida boshda yoki oxirida turadi.</p>\n<h3>Present perfect bilan birga</h3>\n<p>Bu ravishlar &quot;shu paytgacha davom etgan oʻzgarish&quot;ni tasvirlaganda present perfect (grammatika A) bilan juda tabiiy birlashadi — POVdagidek:</p>\n<ul>\n<li><em>She <strong>has gradually saved</strong> a fortune.</em> — U asta-sekin katta pul yigʻib oldi.</li>\n<li><em>My English <strong>has steadily improved</strong> so far.</em> — Inglizcham shu paytgacha bir maromda yaxshilanib keldi.</li>\n</ul>\n<p>Eʼtibor bering: ravish <em>have/has</em> bilan <em>V3</em> orasiga tushadi.</p>\n<h3>Ingliz↔Oʻzbek farqi</h3>\n<p>Oʻzbekchada &quot;asta-sekin&quot;, &quot;tobora&quot;, &quot;oz-ozdan&quot; — mustaqil soʻzlar boʻlib, jumlaning turli joyida kelaveradi. Ingliz tilida esa koʻpi <strong>sifat + -ly</strong> shaklidagi ravishga aylanadi (<em>gradual → gradually</em>, <em>steady → steadily</em>) va oʻrni ancha qatʼiy. <em>&quot;Tobora qiyin&quot;</em> ≠ <em>&quot;increasing difficult&quot;</em>; toʻgʻrisi — <em>increasingly difficult</em>.</p>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>IELTS Part 2 da tez-tez &quot;biror narsa vaqt oʻtishi bilan qanday oʻzgargani&quot;ni aytish kerak boʻladi. <em>&quot;My confidence has <strong>gradually</strong> grown and I am becoming <strong>increasingly</strong> fluent&quot;</em> kabi jumla — trendni aniq va ravon koʻrsatadigan B1→B2 belgisidir.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu ravishlarni oʻz taraqqiyotingizga tatbiq qilib mashq qiling. Har kuni ayting: <em>&quot;Little by little, my English is getting better. My energy is steadily improving.&quot;</em> Ovoz chiqarib takrorlasangiz, <em>-ly</em> qolipi va soʻz tartibi oʻzi avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada “asta-sekin”, “tobora”, “oz-ozdan” mustaqil soʻzlar boʻlib, jumlaning turli joyida kelaveradi. Ingliz tilida esa koʻpi sifat + -ly shaklidagi ravishga aylanadi (gradual → gradually, steady → steadily) va oʻrni ancha qatʼiy: odatda asosiy feʼldan oldin yoki jumla boshida.",
+      "errorFixUz": "❌ It is becoming increasing difficult. She saved money gradual. ✅ It is becoming increasingly difficult. She saved money gradually. Feʼl yoki sifatni tasvirlaganda ravish kerak: sifat + -ly (increasingly, gradually).",
+      "examples": [
+        {
+          "en": "My energy gradually improved.",
+          "uz": "Energiyam asta-sekin yaxshilandi."
+        },
+        {
+          "en": "He runs steadily, never too fast.",
+          "uz": "U bir maromda yuguradi, hech qachon juda tez emas."
+        },
+        {
+          "en": "Little by little, she saved the money.",
+          "uz": "Oz-ozdan u pulni yigʻdi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "My English has ___ improved this year.",
+          "options": [
+            "steadily",
+            "steady",
+            "steadely"
+          ],
+          "answer": "steadily",
+          "hintUz": "feʼlni tasvirlaydi → ravish: steady + -ly = steadily"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Gyms are becoming ___ popular.",
+          "options": [
+            "increasingly",
+            "increasing",
+            "increase"
+          ],
+          "answer": "increasingly",
+          "hintUz": "sifatni (popular) tasvirlaydi → ravish: increasingly"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ by little, Tiffany saved a fortune.",
+          "options": [
+            "Little",
+            "Small",
+            "Few"
+          ],
+          "answer": "Little",
+          "hintUz": "barqaror ibora: little by little (oz-ozdan)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “Little by little, my … is getting better. It has gradually … .”",
+          "answer": null,
+          "hintUz": "ravish (gradually/steadily) asosiy feʼldan oldin; present perfect bilan have/has + ravish + V3"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/18/main.mp3",
+      "durationSec": 959,
+      "bytes": 11518255,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/18/vocab.mp3",
+      "durationSec": 691,
+      "bytes": 8307501,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/18/ministory.mp3",
+      "durationSec": 810,
+      "bytes": 9727269,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/18/pov.mp3",
+      "durationSec": 424,
+      "bytes": 5099251,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hello, this is AJ. Welcome to our next lesson. This lesson is called “Slow Burn” and this is about one of my favorite topics…energy. This topic today is about energy. How can you have, how can you get more energy in your body and in your life? Slow Burn, of course, is the name of a book by a man named Stu Mittleman.",
+      "Now who is Stu Mittleman? Stu Mittleman is a maniac. He’s an amazing guy. Stu Mittleman, who I may have mentioned already before but we’re going to talk about him today in more detail, he is an ultramarathon runner. Now a marathon is 26 miles, 26. 2…well, that’s not enough for Stu, that’s boring, that’s a short distance.",
+      "Anybody can run 26 miles so Stu runs 100 mile races. He also does crazy races where he will run for 6 days without stopping. Just running and running. He doesn’t even sleep. He runs for 6 days, 6-day races. And they see who can run the longest amount the farthest in 6 days and Stu has won several of these races.",
+      "I believe it was for his 50th birthday, he ran across the United States from San Diego, California to New York City. Just to celebrate his birthday, he ran two marathons every day until he reached New York City. He did not take a break, nope. I mean he did sleep, I think, but he did not skip a day.",
+      "Every day he ran two marathons until he went from San Diego to New York City. So as you can guess, Stu Mittleman has a lot of energy. He’s an energy maniac. He’s full of energy. And he’s very, very, very healthy, obviously. You can’t keep running that amount unless you’re very healthy. So Stu’s one of my heroes. I want to be like Stu.",
+      "In fact, I have decided to run a 50 mile race to challenge myself to get healthier and stronger. So my goal now is to run a 50 mile race. And you can check on the forums and see if I’m doing it. So that’s my challenge.",
+      "So this book, Slow Burn, that Stu wrote is about energy and it’s about his system of training your body, of getting your body healthier, stronger and more energetic. And what’s interesting is that Stu has a very different approach than a lot of other fitness coaches. In fact it was a little surprising to me.",
+      "I’ve been running many years during my life. So I was a little surprised by his training method. So I’m going to read a little bit from his book and then I’ll talk more about his specific training method. Something that anybody can use because it’s actually very easy, so I love it. Here we go.",
+      "This is from his book, the book Slow Burn by Stu Mittleman. “Life is a marathon not a sprint. And you must prepare accordingly. Unlike sprinters who focus on how fast they can get to the finish line, endurance athletes have no finish line. There is only the present moment in which they must remain connected to their body, www.",
+      "in tune with their every move. In a place that feels comfortable and productive and that they are able to maintain indefinitely. People today have challenges that are comparable to an endurance event that seemingly never ends. We have to get up earlier, work longer hours, and attempt to carve out high quality family or personal time.",
+      "Then we have to wake up the next day and do it again and again and again and again. To be productive in the long run of life you have to pace yourself in order to feel strong, alert and energetic.",
+      "With the right pace, with the right mindset, with the right diet, anything is possible, constant energy, feeling as strong at the end of the day as when you started and maintaining a consistently positive attitude. For most of my life I’ve been a professional endurance athlete.",
+      "And now, like you, I am participating in the marathon of life. I still run every day. I manage a business. I raise a family with my wife. Running gives me the energy to do this. No matter what’s going on in my life, I run a couple of hours a day. Not because I think I have to, but because I am certain that when I am moving I feel great.",
+      "I also know that after I run I will have even more energy for the rest of the day. I’ll be able to think more clearly. I’ll be able to concentrate better. I’ll feel more relaxed and at ease. When I’m in this state anything and everything is possible. The experience is magical.",
+      "I consider it a gift, one that ignites my life’s mission, which is to get people to transform movement into an act that is absolutely satisfying. I recognize that in order to receive the gift that running offers me, I have to commit some of my time. Yet in this instance, the relinquishing of my time actually creates more time.",
+      "An hour set aside for generating reliable and everlasting energy frees up two to three or more hours in a day that might have otherwise have been allocated to sleep or rest. Suppose you could sleep less yet feel even more rested and alive. What would you do with the extra hours that suddenly appeared in your day?” Okay, wow.",
+      "That’s from Stu Mittleman’s book, Slow Burn. So, Stu is saying that actually the time he spends running gives him more time to do other things. So what does he mean? He means if he runs two hours it gives him so much energy that he can sleep less and still feel great. So maybe he sleeps two or three hours less every day.",
+      "Because he has so much energy he still feels fantastic. So it’s actually not costing him more time. He’s actually gaining time, productive time, by spending time for running, by running every day.",
+      "And then more generally what he’s talking about is the fact that by moving, by running, and by also eating very well, that he is giving power to everything in his life. He has more energy for his wife. He has more energy for his children. He has more energy for his business. He has more energy for everything. www. EffortlessEnglishClub.",
+      "com",
+      "That’s the gift of running. And, you know, he is a runner of course you can also swim or you could ride a bicycle if you prefer those activities. Running is a quite nice activity because it’s so simple. There’s no equipment. There’s no special place you need to go. You just need shoes. Or, you don’t even need shoes actually.",
+      "There’s a lot of professional runners in Africa who run without shoes. So you don’t need anything. So, anyway, this is a great book. Now let me talk about specifically Stu Mittleman’s running program, because he has one very important idea about running that really is the most important.",
+      "It’s the foundation of his running approach and it’s the reason his book is called Slow Burn. Stu Mittleman advocates, Stu Mittleman teaches slow running. Most people, he says, run too fast. The reason that’s bad is that when you run fast you start breathing heavy. If you’re breathing heavy it means your body is burning mostly sugar.",
+      "You’re using mostly the sugar in your blood and in your muscles. You’re burning sugar for energy. That’s what happens when you run faster. So anytime, if you’re running or exercising, any kind of exercise…if you’re breathing heavy, like that, it means you’re burning sugar.",
+      "The problem with that is sugar gives you quick energy in a short time but then soon after your energy drops suddenly. So you go up with energy very high and then suddenly it drops, right?",
+      "If you eat a lot of sugar you’ll feel very good for maybe 30 minutes or an hour and after that your energy drops a lot and then you feel very tired after that. So it’s up-down, up-down, it’s not good steady energy. So Stu trains his body to burn fat. Fat is better for steady energy.",
+      "If you burn fat then you just always have high energy, all the time. It doesn’t go up and down, up and down. It’s nice and steady, just a high level of energy all the time. To burn fat you must exercise more slowly. So when I started using Stu’s program, I was surprised. I used to run a lot. I still run some.",
+      "I’ve already run in two marathons and finished two marathons so I thought “Hey, I’m a runner.” But when I ran I was running too fast. So now I’m training with Stu’s program, it feels so slow. It’s a very, very, very slow jog. In fact, San Francisco has a lot of big hills.",
+      "When I go up the hills I walk, so I walk up the big hills and then I jog slowly if it’s flat and then I run a little faster if I’m going down the hill. But the main idea is that you want to exercise slowly. So you should never be breathing hard. If you’re breathing like that it means you’re going too fast. You should slow down.",
+      "If necessary, just walk. Walking, you know you can walk quickly. That’s still a great exercise. If you want to run, if you can run, that’s fine, too. But job very slowly. A good rule, a good idea is you should be able to have a conversation while you’re jogging.",
+      "If you’re jogging with another person you should be able to talk to them comfortably and easily. If you can’t, if you’re breathing too hard and you can’t really talk well that means you’re going too fast, slow down. So again the general idea of Stu’s program is slow exercise for a longer time.",
+      "So, of course, you can do it longer because it’s not so difficult. You’re going slow, it’s very…it feels nice. It’s very easy actually. And because it’s kind of easy you can do it for a www.",
+      "longer period of time. And that’s why he calls this Slow Burn. When you exercise in this way you teach your body to burn fat. Now one great thing about that is you will lose weight. If you’re overweight, if you have too much fat on your body, you’ll start to burn that fat. And that’s a nice side effect.",
+      "But more importantly, for me, is that you will get more energy for all of the day. Recently I’ve noticed that I have more energy. In the past I used to eat a lot of sugar and my energy would go up and down and up and down. And now I’m trying to eat less sugar and I’m also exercising more slowly and I’m feeling more steady energy.",
+      "Now sometimes I still feel tired, of course, and sometimes I still have really high energy. But in general, most of the day, I just feel better. I have a more steady high level of energy that doesn’t change as much. So I encourage you to get out and when you’re listening to these lessons, walk quickly. Or even jog very slowly.",
+      "You can do two things at the same time. You can learn English and you can make your body feel better. But when you do it just go slowly. Enjoy it. The nice thing about training in this way, exercising in this way, it feels good. You’re not killing your body, right? You can get out. You go for a nice fast walk.",
+      "You can smile, look around, enjoy the city if you live in a city. Or enjoy the trees and the sky if you live in the countryside. Look around. Look at people, smile. Or you can maybe walk with another person if you want and chat with them. Or put on your iPod and listen to me and just do a nice slow jog or a nice fast walk.",
+      "And you can do that for an hour, it’s very easy. You can do it an hour every day. You’re learning English at the same time so you’re doing two great things at one time. So please, I recommend this book very highly, Slow Burn by Stu Mittleman. And Stu’s name is spelled S-t-u, that’s his first name, Stu.",
+      "His last name is Mittleman, M-i-t-t-l-e- m-a-n. Alright, I hope you use this program. I especially hope you use it at the same time you’re listening to me. Learn English and get energy and health for your body at the same time. Alright, I will see you for the vocab and mini-story and you have a great day. www."
+    ],
+    "vocab": [
+      "Hello. This is AJ. Welcome to the vocabulary lesson for “Slow Burn.” Let’s start. First is the word sprint, to sprint. Now sprint can also be a noun, but let’s talk about the verb. To sprint means to run very, very fast, really to run as fast as you can.",
+      "So a sprint, so a noun, a sprint is a short race and you run very, very fast, maybe 50 meters, 100 meters, 400 meters is probably the longest sprint. And when people run a sprint they just go really fast, right? As fast as they can. So that action of running very, very fast is called sprinting or to sprint.",
+      "So Stu says that when you train, to give yourself energy and health you don’t want to sprint, right? If you’re a professional sprinter athlete in the Olympics, okay, you need to do it. But for most normal people they just want to feel good and have energy, you want to do the opposite. You want to run slowly. You do not want to sprint.",
+      "Okay, our next word is in tune, in tune with. So he says you want to be in tune with your body, in tune with your movements. In tune with means in harmony with. It means connected with. So if you are in tune with your body it means your mind and your body are connected, right? They’re both aware of each other. They are connected.",
+      "So awareness is another idea that in tune with means you’re aware of and connected to. I’m in tune with my body means I’m aware of my body and I’m connected, my mind and my body are connected. I know what’s happening in my body all the time. I’m in tune with it. Our next word is indefinitely.",
+      "He says you want to be able to exercise indefinitely. You want to have energy indefinitely. Indefinitely means never ending. It means there’s no definite ending. There’s no ending time. So to have energy indefinitely means to have energy forever, always, never ending. So you want to maintain your energy indefinitely.",
+      "You want to keep your energy all the time, no ending, never stops. Okay, our next phrase is to carve out, to carve out. He says that we’re all busy and we all need to carve out quality time with our families or quality time for ourselves. We want to carve out time for ourselves. To carve means to cut, to cut out.",
+      "So he’s saying you have a schedule, 24 hours in your day, you want to cut out, maybe 1 hour, maybe 3 hours, you want to cut out some time for your family. You want to cut out some time for yourself, right? So to carve out means to cut out or to take out. Our next phrase is to pace yourself.",
+      "He says in life, in the long run, you need to pace yourself. Okay, to pace yourself means to go at a speed that you can maintain. Ooh, that’s kind of a long definition. So it means you don’t go super super fast. You don’t go super super slowly. You go at a speed that you can maintain indefinitely. That you can www. EffortlessEnglishClub.",
+      "com",
+      "keep doing forever. So, for example, you want to run a very long race, a marathon. You cannot sprint a marathon, right? After one mile you’ll fall down. So for a marathon you must pace yourself, right? You have to go a little bit more slowly. You have to go at a speed that you can keep going at for a long time.",
+      "So you run a little more slowly but you can go a very, very long time. Doing that, slowing down a little bit and going a long time, we call that pacing. So to pace yourself means make yourself slow down a little bit so you can keep going forever. Alright, later he says that running gives him energy.",
+      "And that the energy ignites his life mission. His life mission means his life purpose. This energy ignites it. So to ignite means to catch on fire, it means to light a fire…to start a fire. So he’s saying the energy gives fire, gives power to his life. It starts the fire of his life. It starts the power of his life.",
+      "So to ignite means to start a fire. So this is kind of like poetry or something, it’s like a metaphor. He’s saying that running starts the fire in his life. It starts the passion in his life. It gives the energy and power to his life. It ignites his life. And he said, what is his purpose?",
+      "He says my purpose is to transform movement into something else. To transform means to change, to change something into another thing. So he says he wants to transform movement, meaning exercise, he wants to transform exercise and make exercise become something else.",
+      "So what he’s saying is he wants exercise to become power for your life, right? It’s not just exercising so you lose some weight. It actually becomes power for all of your life. It gives you power for your family. It gives you power for your business, for your career, for everything. So it transforms, it changes into personal power.",
+      "That’s what he’s saying. He wants to transform movement, he wants to change movement and exercise into personal power. To transform, to change from one thing into something else. Our next word is relinquish, to relinquish. He’s saying I have to relinquish some time for running. To relinquish means to give away.",
+      "It means you have something and you let go…you give it away. So if I have $5 in my hand, I have some money in my hand. If I open my hand I give it, it means I relinquish it, right? I am not trying to hold it anymore. I am giving it away. I am letting go. Maybe I drop it or maybe I give it to someone else. But I’m not holding it anymore.",
+      "I let go of it. That’s relinquish. So he’s talking about time. He has to relinquish time. Maybe he has two hours in his day. He’s very busy but he has to give it away. Give it to running, right? He’s not gonna hold it, he’s not gonna do something else. He’s gonna let go of that time and give it to exercise. To relinquish.",
+      "And he says I have an hour or two hours set aside for exercise every day. Set aside means saved. If you set aside money then you save money, you don’t spend it, right? So it’s to put it to the side, you’re not gonna use it right now. You’re saving it for something. So he sets aside time.",
+      "Every day he sets aside, every day he saves one or two hours just for running. He won’t go to a meeting. He won’t do something with his family. He won’t do anything else. It’s only for running. It’s saved for running. That time is saved for running. That time is set aside for running. www.",
+      "And he says running generates reliable and everlasting energy. To generate means to create. Running creates energy. Running generates energy. Exercise generates energy. Exercise creates energy or generates power, creates power. And finally the word to allocate. He’s saying he allocates time for running every day.",
+      "Well, to allocate, it’s similar to set aside. It’s a very similar meaning. To allocate means to set aside for a specific reason. For example, money, we use it for money all the time. I have $100. I am allocating this $100 to paying bills. It means I am setting aside this money. I am only going to use this money to pay bills.",
+      "It is allocated for paying bills. It means it will only be used to pay bills. I’m not going to use it for any other reason. It has been allocated. It has been saved only for this specific purpose. So he allocates time, for example, maybe in the morning from 7:00 to 9:00…he allocates that time for running.",
+      "He saves that time for a specific reason, only running nothing else. So that’s to allocate, to allocate. And that is all of the vocabulary for Slow Burn. I hope you enjoyed this lesson. Let’s go on to the mini-story. See you next time. www."
+    ],
+    "pov": [
+      "Hello, this is AJ again. Welcome to the point of view stories for “Slow Burn.” Same story…different timeframes, different time frames. Deep breath, let’s start.",
+      "Tiffany has always loved cats. Really, since she was a small child she has loved cats. And every year she has bought more cats. Or she has found more cats. But since she was a child she has wanted a purple cat. She has especially wanted to have a purple cat. But she could never afford a purple cat.",
+      "They have always been too expensive for her. And so, starting when she was young, continuing as she became an adult, she has set aside money every day to save for that special purple cat. Every day she has saved. Every week she has saved. Every month she has set aside money for a purple cat. Every year she has set aside money.",
+      "She has allocated all of that money for only one purpose, buying a purple cat. She has done this every week, every month, every year of her life. Well, finally one day she did it. She saved $12,500,000. Immediately she went to the pet store. But they were sold out of purple cats. Oh no! So she sprinted across the city to another pet shop.",
+      "But they were also sold out. She sprinted to another and another and another. She sprinted to every pet shop in the city. None of them had purple cats. They were all sold out of purple cats. Tiffany cried and cried “Oh god, no purple cats.” She cried for a long time, 27 days and 5 hours, in fact.",
+      "Until finally she relinquished her dream of getting a purple cat, she let go of it. Tiffany finally relinquished her dream of getting a purple cat. And instead she bought a nice, pretty, cute, sweet pink cat. Tiffany bought a little pink cat and she loved it very much. And so Tiffany and all of her cats were very, very happy together.",
+      "Alright, that’s the end of our first POV story. Let’s go to the next one…into the future. So you can imagine maybe I’m talking about a story idea I have. Maybe I’m talking www.",
+      "about an idea for a movie that’s going to happen in the future. I’m telling someone about this. Maybe I’m telling you. Let’s start.",
+      "So in the future there will be a woman, a girl named Tiffany. And she’ll have 29 cats already. But she’s gonna need one more cat and she’s gonna need a very special cat. She’ll want a purple cat. So every day she’ll set aside money to buy a purple cat.",
+      "In fact, she’ll allocate all of her spare money, all of her savings for the purpose of buying a purple cat. She’s gonna allocate all of her savings for that purpose. And one day, she’ll finally do it. One day she will save a total of $12,500,000. And immediately she’s gonna run to the closest pet store.",
+      "But they’ll be sold out of purple cats. They won’t have any purple cats. So then she’ll sprint across the city to another pet store. They’ll be sold out, too. So she’ll sprint to another and another and another. She’ll sprint to every pet store in the city. But none of them will have a purple cat. They won’t have a purple cat.",
+      "They’ll be sold out. Tiffany will be very sad and she’ll cry and she’ll cry. In fact, she’s gonna cry for 27 days and 5 hours. She’ll cry and she’ll cry and she’ll cry until finally, after 27 days and 5 hours, she’ll finally relinquish her dream of getting a purple cat. She’ll finally relinquish that dream.",
+      "And then she’ll buy a nice, cute, wonderful, little pink cat. And Tiffany will love her little pink cat and the little pink cat will love Tiffany. They’ll be very happy and in fact Tiffany and all her cats, all 30 cats, will be very happy together.",
+      "And that’s the end of our point of view lessons for Slow Burn. See you next time. www."
+    ],
+    "sixmin": [
+      "Neil: Hello, I’m Neil. And welcome to 6 Minute English, where we vigorously discuss a new topic and six related items of vocabulary.",
+      "Rob: And hello, I’m Rob. Today we’re discussing vigorous exercise – and whether adults take enough of it! Vigorous means using a lot of energy to do something.",
+      "Neil: So how many steps do you do in a day, Rob?",
+      "Rob: How many steps? How should I know, Neil? – It would be pretty hard to count them all.",
+      "Neil: Oh, come on! You can track steps on your phone! I do ten thousand a day – which is the magic number for keeping fit and healthy, apparently.",
+      "Rob: Not if you saunter, Neil, surely? Sauntering from the sofa to the fridge and back – Or from the house to the car.",
+      "Neil: Well I never saunter, Rob. Saunter means to walk slowly. And you’d have to make a lot of trips to the fridge to clock up ten thousand steps. To get some vigorous exercise, you need to get out and about – round the park at a brisk pace…",
+      "Rob: Brisk means quick and energetic – the opposite of sauntering. OK, well, perhaps you can you tell me, Neil, how many people aged between 40 and 60 do less than ten minutes brisk walking every month? Is it… a) 4%, b)14% or c) 40%?",
+      "Neil: I’m going to say… 4% because ten minutes is such a short amount of time!",
+      "Rob: Indeed. Now, I’ve got another question for you, Neil. Why is exercise so important? Because it sounds pretty boring – counting steps, going to the gym, running on a machine.",
+      "Neil: Well, when you exercise, you stimulate the body’s natural repair system. Your body will actually stay younger if you exercise!",
+      "Rob: That sounds good.",
+      "Neil: Exercise also lowers your risk of developing illnesses such as heart disease, cancer, and diabetes.",
+      "Rob: Hmm. I’m getting a bit worried now, Neil. But I don’t have enough time to do a thousand steps every day… I’m far too busy!",
+      "Neil: Well, Rob. Now might be a good time to listen to Julia Bradbury. She’s a TV presenter and outdoor walking enthusiast who will explain how she builds walking into her busy life.",
+      "INSERT: Julia Bradbury, TV presenter and outdoor walking enthusiast I will walk to meetings instead of catching a bus, or getting a taxi or a car – into meetings. And I will also, if I can’t build that into my working day, if it’s a day when I haven’t got meetings and I’m maybe at home with the kids, I will take the time – I will take my kids out with the buggy and I will definitely do 30-40 minutes at least everyday. Going to the park, going to the shops, picking up my things up en route, and really sort of building it into my life. Taking the stairs and not taking lifts, all of these kinds of little decisions can incrementally build up to create more walking time in your day.",
+      "Rob: So if you build something in to your day – or your life – you include it from the beginning.",
+      "Neil: And Julia Bradbury has built walking into her day. Even though she’s very busy too, Rob! You should learn from her!",
+      "Rob: So she walks instead of driving or taking the bus. And takes the stairs instead of the lift. I could do those things.",
+      "Neil: You could indeed – before you know it, you’d be doing ten thousand steps – because the amount of walking you do in a day builds incrementally.",
+      "Rob: Incrementally means gradually increasing in size. OK, well, before I think that over, perhaps I could tell you the answer to today’s quiz question?",
+      "Neil: OK. You asked me: How many people aged between 40 and 60 do less than ten minutes brisk walking every month? The options were: a) 4%, b) 14% or c) 40%?",
+      "Rob: And you said 4%. But I’m afraid it’s actually 40%. And that’s according to the Government body Public Health England here in the UK.",
+      "Neil: Oh dear, that’s a lot more people than I expected. But it isn’t that surprising – people in all age groups are leading more sedentary lifestyles these days. Our job is very sedentary – which means it involves a lot of sitting and not much exercise!",
+      "Rob: Well, I might just run on the spot while we go over the new vocabulary we’ve learned today!",
+      "Neil: Good plan. First up we heard ‘vigorous’ – which means using a lot of energy to do something.",
+      "Rob: OK. “I am running vigorously on the spot!”",
+      "Neil: Great example! And good to see you taking some vigorous exercise! Number two – ‘saunter’ – means to walk slowly in a relaxed way. “When I saw Rob, I sauntered over to say hello.”",
+      "Rob: Hi Neil. Number three – ‘brisk’ means quick and energetic.",
+      "Neil: “It’s important to take some brisk exercise every day.”",
+      "Rob: Yes! And I’m beginning to realise that might be true.",
+      "Neil: Yep! I think you've done enough jogging for today, Rob. You’ve probably done about a hundred steps.",
+      "Rob: Is that all? OK, number four – if you ‘build something in to something’ – you include it from the beginning.",
+      "Neil: “It’s important to build regular exercise into your daily routine.”",
+      "Rob: Very good advice. Number five is ‘incrementally’ which means gradually increasing in size.",
+      "Neil: Incremental is the adjective. “The company has been making incremental changes to its pay structure.”",
+      "Rob: Does that mean we’re getting a pay rise?",
+      "Neil: I doubt it! And finally, number six – ‘sedentary’ means sitting a lot and not taking much exercise. For example, “It’s bad for your health to lead such a sedentary lifestyle.”",
+      "Rob: Duly noted, Neil! Well, it’s time to go now. But if today’s show has inspired you to step out and take more exercise, please let us know by visiting our Twitter, Facebook and YouTube pages and telling us about it!",
+      "Neil: Goodbye!",
+      "Rob: Bye bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "How many cats did Tiffany have?",
+        "a": "She had 29 cats."
+      },
+      {
+        "q": "Did she have 47 cats?",
+        "a": "Of course not. She did not have 47 cats. She had 29 cats."
+      },
+      {
+        "q": "Who had 29 cats?",
+        "a": "Tiffany, Tiffany had 29 cats."
+      },
+      {
+        "q": "What did she have?",
+        "a": "Cats, she had 29 cats."
+      },
+      {
+        "q": "How many more cats did Tiffany need?",
+        "a": "Well, only one. Tiffany needed only one more cat."
+      },
+      {
+        "q": "What kind of cat did she need?",
+        "a": "A purple cat, Tiffany needed a purple cat."
+      },
+      {
+        "q": "How many cats did Tiffany want total?",
+        "a": "Well, she wanted to have 30 cats totally, right? Total, she wanted to have 30."
+      },
+      {
+        "q": "And how many did she have already?",
+        "a": "29, she already had 29. She wanted to have 30 total so she needed just one more cat."
+      },
+      {
+        "q": "Did she need one more purple cat or one more purple dog?",
+        "a": "She needed one more cat and she wanted a purple cat this time."
+      },
+      {
+        "q": "Did she already have a purple cat?",
+        "a": "No, she didn’t."
+      },
+      {
+        "q": "Are purple cats cheap or are purple cats expensive?",
+        "a": "Well, they’re expensive. In fact, they’re very, very expensive."
+      },
+      {
+        "q": "How much does a purple cat cost?",
+        "a": "Well, purple cats cost $12,500,000 each. Of course, everybody knows that."
+      },
+      {
+        "q": "What did she do?",
+        "a": "She set aside money every day. She saved money every day."
+      },
+      {
+        "q": "Who set aside money every day?",
+        "a": "Well, Tiffany. Tiffany set aside money every day."
+      },
+      {
+        "q": "Why did she set aside money every day?",
+        "a": "Well, she set aside money every day to save for a new purple cat."
+      },
+      {
+        "q": "Did she set aside a little money or a lot of money every day?",
+        "a": "Oh, she set aside a lot of money every day."
+      },
+      {
+        "q": "What did she allocate for buying a purple cat?",
+        "a": "She allocated all of her savings. All of her extra money she allocated for the purpose of buying a purple cat."
+      },
+      {
+        "q": "Who allocated all of her savings for the purpose of buying a purple cat?",
+        "a": "Of course, Tiffany. Tiffany allocated all of her savings, she allocated all of her extra money to buying a purple cat. She saved. Every day she set aside money. All that money was allocated for buying a purple cat. She would not use that money for any other reason. Not for food. Not for rent, nothing. All of her extra money was set aside just to buy the special, expensive, purple cat."
+      },
+      {
+        "q": "How much money did Tiffany save?",
+        "a": "Tiffany saved $12,500,000."
+      },
+      {
+        "q": "Where did she go?",
+        "a": "She went to the pet store to buy a purple cat."
+      },
+      {
+        "q": "Did she buy a purple cat with her $12,500,000?",
+        "a": "No, she didn’t."
+      },
+      {
+        "q": "Why didn’t she buy a purple cat?",
+        "a": "Because they were sold out. They had already sold their last purple cat."
+      },
+      {
+        "q": "Who or what was sold out?",
+        "a": "Well the store was sold out of purple cats, no more purple cats."
+      },
+      {
+        "q": "Did she run slowly?",
+        "a": "No, she sprinted across the city. She ran super fast across the city."
+      },
+      {
+        "q": "Where did she sprint?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did she sprint home?",
+        "a": "No, she didn’t run home. She sprinted across the city to another pet store."
+      },
+      {
+        "q": "Who sprinted across the city to another pet store?",
+        "a": "Tiffany, of course. Tiffany sprinted across the city to another pet store."
+      },
+      {
+        "q": "Why did she sprint to another pet store?",
+        "a": "Well, to find a purple cat and buy it. She sprinted across the city to another pet store to buy a purple cat."
+      },
+      {
+        "q": "How long did she cry?",
+        "a": "Well, she cried for 27 days and 5 hours."
+      },
+      {
+        "q": "Did she laugh for 27 days and 5 hours?",
+        "a": "No, no, no. She cried. She cried for 27 days and 5 hours."
+      },
+      {
+        "q": "Why did she cry for 27 days and 5 hours?",
+        "a": "Because she couldn’t buy a purple cat."
+      },
+      {
+        "q": "Did she hold on to her dream or did she let go of her dream?",
+        "a": "She let go of her dream. She relinquished her dream of getting a purple cat."
+      },
+      {
+        "q": "What did she relinquish? What did she let go of?",
+        "a": "She relinquished her dream of getting a purple cat. She decided “I don’t need a purple cat I guess.”"
+      },
+      {
+        "q": "Who relinquished the dream of getting a purple cat?",
+        "a": "Tiffany, of course. Tiffany relinquished her dream of getting a purple cat."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to sprint",
+      "pos": "v",
+      "uz": "bor kuch bilan juda tez yugurmoq",
+      "defEn": "to run as fast as you possibly can for a short distance",
+      "example": "You cannot sprint a marathon; you must go slowly."
+    },
+    {
+      "en": "in tune with",
+      "pos": "phrase",
+      "uz": "bilan uygʻun, hamohang; …ni his qilib turgan",
+      "defEn": "in harmony or connection with something",
+      "example": "Stay in tune with your body when you exercise."
+    },
+    {
+      "en": "indefinitely",
+      "pos": "adv",
+      "uz": "cheksiz, tugamaydigan tarzda, muddatsiz",
+      "defEn": "for a period of time with no fixed end",
+      "example": "You want energy that lasts indefinitely."
+    },
+    {
+      "en": "to carve out (time)",
+      "pos": "phrase",
+      "uz": "(band jadvaldan) vaqt ajratib olmoq",
+      "defEn": "to make or find time out of a busy schedule",
+      "example": "Try to carve out an hour for yourself every day."
+    },
+    {
+      "en": "to pace yourself",
+      "pos": "phrase",
+      "uz": "oʻzingizga bardosh beradigan surʼatda ketmoq",
+      "defEn": "to go at a speed you can maintain for a long time",
+      "example": "In a long race you have to pace yourself."
+    },
+    {
+      "en": "to ignite",
+      "pos": "v",
+      "uz": "yondirmoq; olov (ilhom, kuch) baxsh etmoq",
+      "defEn": "to set on fire; to spark or start something",
+      "example": "Running ignites his life's mission."
+    },
+    {
+      "en": "to transform (into)",
+      "pos": "v",
+      "uz": "tubdan oʻzgartirmoq, boshqa narsaga aylantirmoq",
+      "defEn": "to change something completely into another thing",
+      "example": "He wants to transform movement into personal power."
+    },
+    {
+      "en": "to relinquish",
+      "pos": "v",
+      "uz": "voz kechmoq, qoʻldan chiqarib yubormoq",
+      "defEn": "to give something up or let it go",
+      "example": "She relinquished her dream of a purple cat."
+    },
+    {
+      "en": "to set aside",
+      "pos": "phrase",
+      "uz": "(vaqt yoki pul) ajratib qoʻymoq, saqlab qoʻymoq",
+      "defEn": "to save or reserve something for later use",
+      "example": "He sets aside two hours a day for running."
+    },
+    {
+      "en": "to allocate",
+      "pos": "v",
+      "uz": "(aniq maqsadga) ajratmoq, taqsimlamoq",
+      "defEn": "to set something aside for a specific purpose",
+      "example": "She allocated all her savings to one goal."
+    }
+  ],
+  "englishpod": {
+    "id": "0244",
+    "title": "The Office – Interview Skills: Talking About Work",
+    "titleUz": "Ofis — ish suhbati: tajribangiz haqida gapirish",
+    "warmup": {
+      "uz": "Bu suhbatda Rebekka ish suhbatida karerasini bosqichma-bosqich tasvirlaydi: amaliyotchilikdan boshlab, tajribasini yillar davomida asta-sekin oshirib boradi. Slow Burn gʻoyasiga mos: katta natija sekin, ammo barqaror qadamlar bilan quriladi. Sizningcha, Rebekka bu ishga qabul qilinadimi?",
+      "en": "In this dialogue Rebecca describes her career step by step at a job interview: she started as an intern and built her experience gradually over the years. It fits the Slow Burn idea — big results are built with slow, steady steps. Do you think Rebecca will get the job?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0244/dg.mp3",
+        "durationSec": 62,
+        "bytes": 528197
+      },
+      "pr": {
+        "path": "englishpod/0244/pr.mp3",
+        "durationSec": 872,
+        "bytes": 13991913
+      },
+      "rv": {
+        "path": "englishpod/0244/rv.mp3",
+        "durationSec": 253,
+        "bytes": 4092678
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Right Rebecca. Now I see that after graduating from University your first job was......."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "For a local paper in York called the York Herald. Actually, I started with them as an intern in the beginning. I was really keen on getting some experience in the journalistic world, and this seemed like a good first step."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Certainly. And after your internship"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "They seemed impressed, and offered me a position as a junior local news reporter. I ended up staying two years there actually. I was in charge of the sports news section of the newspaper. I really enjoyed it there, and it really helped me build my skills."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Yes I see. But you decided to leave them in 2006 right"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes, that’s right. My husband and I moved to London, and so I managed to find a position with a National newspaper based in London"
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "The London Weekly right"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Yes, in some ways it was a step down from my previous job but it did offer me much better prospects for the future."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to end up",
+        "uz": "oxir-oqibat …boʻlib qolmoq, …ga aylanmoq",
+        "defEn": "to turn out or finally be in a certain situation"
+      },
+      {
+        "en": "in charge of",
+        "uz": "…ga masʼul, …ni boshqaradigan",
+        "defEn": "responsible for something or someone"
+      },
+      {
+        "en": "to manage to",
+        "uz": "(bir amallab) uddalamoq, erisha olmoq",
+        "defEn": "to succeed in doing something difficult"
+      },
+      {
+        "en": "a step down",
+        "uz": "(avvalgidan) pastroq lavozim yoki daraja",
+        "defEn": "a move to a lower or less important position"
+      },
+      {
+        "en": "prospects",
+        "uz": "kelajakdagi imkoniyatlar, istiqbol",
+        "defEn": "chances or possibilities for success in the future"
+      },
+      {
+        "en": "keen on",
+        "uz": "…ga juda qiziqqan, ishtiyoqmand",
+        "defEn": "very interested in or eager to do something"
+      },
+      {
+        "en": "an intern",
+        "uz": "amaliyotchi (tajriba orttirish uchun ishlaydigan)",
+        "defEn": "a trainee who works, often unpaid, to gain experience"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "171005",
+    "title": "Do adults exercise enough?",
+    "titleUz": "Kattalar yetarlicha sport bilan shugʻullanadimi?",
+    "audio": {
+      "main": {
+        "path": "sixmin/171005/audio.mp3",
+        "durationSec": 378,
+        "bytes": 6057870,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "How many people aged between 40 and 60 do less than ten minutes brisk walking every month?",
+        "qUz": "40 va 60 yosh orasidagi qancha odam oyiga oʻn daqiqadan kam tez yuradi?",
+        "options": [
+          "4%",
+          "14%",
+          "40%"
+        ],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) 40%. Neil 4% dedi va xato qildi — chunki oʻn daqiqa juda oz vaqtdek tuyuldi. Aslida Buyuk Britaniyada 40 dan 60 yoshgacha boʻlganlarning 40% i oyiga oʻn daqiqadan kam tez yuradi (Public Health England maʼlumoti)."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "vigorous",
+        "uz": "jadal, kuch talab qiladigan (koʻp energiya sarflaydigan)",
+        "defEn": "using a lot of energy and effort"
+      },
+      {
+        "en": "to saunter",
+        "uz": "shoshmasdan, xotirjam yurmoq",
+        "defEn": "to walk slowly in a relaxed way"
+      },
+      {
+        "en": "brisk",
+        "uz": "tez va baquvvat (yurish)",
+        "defEn": "quick and energetic"
+      },
+      {
+        "en": "to build (something) in",
+        "uz": "(biror narsani) boshidanoq kiritmoq, hayotga qoʻshib olmoq",
+        "defEn": "to include something as a regular part of a plan or routine"
+      },
+      {
+        "en": "incrementally",
+        "uz": "bosqichma-bosqich ortib boruvchi tarzda",
+        "defEn": "gradually increasing in size or amount"
+      },
+      {
+        "en": "sedentary",
+        "uz": "koʻp oʻtirib ishlaydigan, kam harakatli",
+        "defEn": "involving a lot of sitting and little physical activity"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Slow and steady: how easy running builds lasting energy",
+      "channel": "Global Triathlon Network"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about a goal you are working towards slowly — fitness, English, saving money. What have you achieved so far, and what haven't you done yet? How has your progress changed over time — gradually, steadily, increasingly?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: present perfect (I have … so far; I haven't … yet) va jarayon ravishlari (gradually / steadily / increasingly / little by little).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/18/main.mp3",
+      "bytes": 11518255
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/18/main.pdf",
+      "bytes": 56275
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/18/vocab.mp3",
+      "bytes": 8307501
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/18/ministory.mp3",
+      "bytes": 9727269
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/18/pov.mp3",
+      "bytes": 5099251
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/18/pov.pdf",
+      "bytes": 58233
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0244/dg.mp3",
+      "bytes": 528197
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0244/transcript.pdf",
+      "bytes": 90992
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/171005/audio.mp3",
+      "bytes": 6057870
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/171005/transcript.pdf",
+      "bytes": 345447
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

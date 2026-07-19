@@ -1,0 +1,169 @@
+{
+  "slug": "identity",
+  "title": "Identity",
+  "titleUz": "Identity — oʻzlik",
+  "level": "B1",
+  "tags": ["identity", "beliefs", "past-simple", "change"],
+  "intro": {
+    "uz": "Identity — oʻzingiz haqingizda ishonadigan narsalaringiz, yaʼni “men kimman” degan global eʼtiqodlar. AJ Hoge ularni oʻzgartirib boʻlishini oʻrgatadi: bugungi “men” — oʻtmishdagi “men”dan boshqa. Bu haftaning ikki grammatik mavzusi shu yoʻlga mos: oʻtgan zamon hikoyasi va ketma-ketlik (then / after that / finally) hamda oʻzgarishni ifodalash (get / become + sifat).",
+    "en": "Identity is what you believe about yourself — the global beliefs that answer “who am I?”. AJ Hoge teaches that these can be changed: the person you are today is not the person you were. This week's two grammar topics fit that journey: past simple narrative and sequencing (then / after that / finally), and expressing change (get / become + adjective)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida oʻz oʻtmishingizdagi bir voqeani toʻgʻri oʻtgan zamon va ketma-ketlik soʻzlari bilan hikoya qilib bera olasiz, hamda oʻzingiz qanday oʻzgarganingizni (I became…, my English is getting…) ayta olasiz.",
+    "en": "By the end you can tell a story from your past using correct past simple and sequencing words, and describe how you have changed (I became…, my English is getting…)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "past-simple-narrative",
+      "titleUz": "Oʻtgan zamon hikoyasi va ketma-ketlik (then / after that / finally; notoʻgʻri feʼllar)",
+      "titleEn": "Past simple narrative & sequencing",
+      "bandLifter": "IELTS Part 2 — tell a story about something that happened in the past",
+      "cefrCanDo": "B1: I can narrate past events in sequence using past simple",
+      "contrastUz": "Oʻzbek tilida oʻtgan zamon shaxsga qarab oʻzgaradi (bordim, bording, bordi), ingliz tilida esa past simple hamma shaxs uchun bitta shakl: I/you/he/they went. Faqat “be” feʼli istisno (I was / they were). Qiyini — koʻp ishlatiladigan feʼllar notoʻgʻri: become → became, think → thought, feel → felt, have → had.",
+      "errorFixUz": "❌ He becomed a taxi driver. He thinked it was exciting. ✅ He became a taxi driver. He thought it was exciting. Notoʻgʻri feʼllarga -ed qoʻshilmaydi — ularning maxsus oʻtgan shakli bor (became, thought, felt, got, went).",
+      "examples": [
+        { "en": "Ken was a bored accountant, so he quit his job.", "uz": "Ken zerikkan buxgalter edi, shuning uchun ishini tashladi." },
+        { "en": "First he became a taxi driver, then he changed his beliefs.", "uz": "Avval u taksichi boʻldi, keyin eʼtiqodlarini oʻzgartirdi." },
+        { "en": "Finally, he became a vampire killer and felt happy.", "uz": "Nihoyat, u vampir ovchisi boʻldi va oʻzini baxtli his qildi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Ken ___ a bored accountant.",
+          "options": ["was", "is", "were"],
+          "answer": "was",
+          "hintUz": "bitta odam (Ken) + oʻtgan zamon → was"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He quit his job and ___ a taxi driver.",
+          "options": ["became", "becomed", "become"],
+          "answer": "became",
+          "hintUz": "become notoʻgʻri feʼl: oʻtgan shakli — became (becomed emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ he changed his beliefs and got a new identity.",
+          "options": ["After that", "After that will", "Then after"],
+          "answer": "After that",
+          "hintUz": "ketma-ketlik: after that = shundan soʻng (jumla boshida)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost hikoya ayting (ovoz chiqarib): oʻtmishingizdagi uchta ish, ketma-ket — “First I … Then I … Finally I …”.",
+          "answer": null,
+          "hintUz": "past simple + first/then/finally; notoʻgʻri feʼllarga eʼtibor bering"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "expressing-change",
+      "titleUz": "Oʻzgarishni ifodalash: get / become / turn + sifat",
+      "titleEn": "Expressing change — get / become / turn + adjective",
+      "bandLifter": "IELTS Part 1 — say how your English (or your life) has changed",
+      "cefrCanDo": "B1: I can describe a change of state (I got tired; I became confident)",
+      "contrastUz": "Oʻzbek tilida oʻzgarishni bitta feʼl bilan aytamiz: -lashmoq / -lashib bormoq / boʻlmoq (kuchaydi, zerikdi, sovidi). Ingliz tili esa “feʼl + sifat” juftligini talab qiladi: became strong, got bored, turned cold. get — ogʻzaki, jonli nutqda; become — biroz rasmiy; turn — rang/ob-havo yoki keskin oʻzgarish uchun.",
+      "errorFixUz": "❌ He became to a taxi driver. My English becomes good. ✅ He became a taxi driver. My English is getting better. become dan keyin “to” qoʻyilmaydi; davom etayotgan oʻzgarish uchun esa get (is getting) tabiiyroq eshitiladi.",
+      "examples": [
+        { "en": "He became strong and tough.", "uz": "U kuchli va matonatli boʻldi." },
+        { "en": "I got bored at my old job.", "uz": "Eski ishimda zerikib qoldim." },
+        { "en": "My English is getting better every week.", "uz": "Inglizcham har hafta yaxshilanyapti." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "After many complaints, Ken ___ bored.",
+          "options": ["got", "gots", "getting"],
+          "answer": "got",
+          "hintUz": "oʻzgarish (holatga oʻtish) + ogʻzaki nutq → got + sifat"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "With new beliefs, he ___ a confident person.",
+          "options": ["became", "became to", "becomed"],
+          "answer": "became",
+          "hintUz": "become + ot; “to” qoʻshilmaydi va shakli became"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The sky ___ grey before the storm.",
+          "options": ["turned", "became to", "got a"],
+          "answer": "turned",
+          "hintUz": "rang oʻzgarishi uchun → turn + sifat: turned grey"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: bir yil oldin qanday edingiz va endi qanday oʻzgaryapsiz — “A year ago I was … , but I am becoming … / my … is getting … ”.",
+          "answer": null,
+          "hintUz": "get/become + sifat; oʻtmish uchun was, oʻzgarish uchun is getting/am becoming"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "identity", "pos": "n", "uz": "oʻzlik; oʻzi haqidagi eʼtiqodlar yigʻindisi", "defEn": "the collection of global beliefs about who you are", "example": "You can choose and change your identity." },
+    { "en": "a global belief", "pos": "phrase", "uz": "global (tub) eʼtiqod — hamma narsaga taʼsir qiladigan ishonch", "defEn": "a fundamental belief that affects everything else", "example": "Global beliefs shape all your other beliefs." },
+    { "en": "a limiting belief", "pos": "phrase", "uz": "cheklovchi eʼtiqod (rivojlanishga toʻsqinlik qiladigan)", "defEn": "a negative belief that holds you back", "example": "\"I'm not a good language learner\" is a limiting belief." },
+    { "en": "an empowering belief", "pos": "phrase", "uz": "kuch beruvchi, ruhlantiruvchi eʼtiqod", "defEn": "a positive belief that gives you strength", "example": "Choose empowering beliefs about yourself." },
+    { "en": "to associate with (a memory)", "pos": "v", "uz": "xotira ichiga kirmoq, uni toʻliq his qilmoq", "defEn": "to step into an experience and feel it fully", "example": "Associate with your positive memories to make them stronger." },
+    { "en": "to disassociate (from)", "pos": "v", "uz": "xotiradan uzoqlashmoq, undan ajralib turmoq", "defEn": "to disconnect yourself from an experience", "example": "You can disassociate from negative memories to weaken them." },
+    { "en": "a reference", "pos": "n", "uz": "aniq misol, dalil (eʼtiqodni quvvatlaydigan)", "defEn": "a specific example that supports a belief", "example": "The more references you find, the stronger the belief." },
+    { "en": "to filter through", "pos": "phrase", "uz": "orqali oʻtkazib idrok qilmoq (eʼtiqod orqali)", "defEn": "to interpret an experience through your beliefs first", "example": "We filter every experience through our beliefs." },
+    { "en": "to be stuck with", "pos": "phrase", "uz": "qutulolmay qolmoq, majburan tashib yurmoq", "defEn": "to be unable to escape or change something", "example": "You are not stuck with the identity you have now." },
+    { "en": "to build up (an identity)", "pos": "phrase", "uz": "asta-sekin qurmoq, mustahkamlab bormoq", "defEn": "to develop and strengthen something over time", "example": "You can build up a positive identity step by step." }
+  ],
+  "englishpod": {
+    "title": "Global View – Job Hunting",
+    "titleUz": "Global koʻrinish — Ish qidirish",
+    "warmup": {
+      "uz": "Bu suhbatda Ben ish qidirishga kirishadi va oʻzini boʻlajak muvaffaqiyatli inson deb tasavvur qiladi — garchi u atigi oʻn besh yoshda boʻlsa ham. Bu darsning “identity” gʻoyasiga mos: kim boʻlishni tanlash. Sizningcha, Ben oʻzi haqidagi kuchli eʼtiqodi bilan ishga ega boʻladimi yoki bu bolalarcha xayolmi?",
+      "en": "In this dialogue Ben starts job hunting and pictures himself as a future success — even though he's only fifteen. It fits the identity theme: choosing who you want to become. Do you think Ben's strong self-belief will get him the job, or is it just a boyish dream?"
+    },
+    "keyVocab": [
+      { "en": "in the market (for)", "uz": "biror narsani olmoqchi/topmoqchi boʻlmoq", "defEn": "actively looking to buy or get something" },
+      { "en": "a job listing", "uz": "ish eʼlonlari roʻyxati (bazasi)", "defEn": "a database entry advertising an available job" },
+      { "en": "a resume", "uz": "rezyume (taʼlim va ish tajribasi qisqacha bayoni)", "defEn": "a short summary of your academic and work history" },
+      { "en": "to address (a letter)", "uz": "xatni aniq bir kishiga yoʻllamoq/nomlab yozmoq", "defEn": "to direct a letter or statement to a specific person" },
+      { "en": "charming", "uz": "yoqimtoy, kishini oʻziga tortadigan", "defEn": "delightful, pleasant and attractive" },
+      { "en": "penniless", "uz": "bir tiyinsiz, juda kambagʻal", "defEn": "very poor; almost totally without money" },
+      { "en": "a piece of cake", "uz": "juda oson ish, xamirdek", "defEn": "something very easy to do" },
+      { "en": "to make it big", "uz": "katta muvaffaqiyatga erishmoq, nom chiqarmoq", "defEn": "to become very successful" }
+    ]
+  },
+  "sixmin": {
+    "title": "Who do you think you are?",
+    "titleUz": "Oʻzingizni kim deb bilasiz?",
+    "quiz": [
+      {
+        "q": "What percentage of the UK population described themselves as ethnically mixed?",
+        "qUz": "Buyuk Britaniya aholisining necha foizi oʻzini aralash etnik kelib chiqishga mansub deb bilgan?",
+        "options": ["0.9%", "5.9%", "9%"],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 0.9%. Neil aynan 0.9% dedi va topdi (“you were on the money”). BBC 2011-yilgi soʻrovga koʻra aholining 0.9% oʻzini aralash irqli deb bilgan, garchi haqiqiy raqam 2% yoki undan koʻproq deb taxmin qilinadi."
+      }
+    ],
+    "vocab": [
+      { "en": "identity", "uz": "oʻzlik; inson kim yoki nima ekani", "defEn": "who or what a person is" },
+      { "en": "ethnic", "uz": "etnik, irqiy (kelib chiqishga oid)", "defEn": "relating to race or ethnic origin" },
+      { "en": "melting pot", "uz": "turli xalqlar qorishib yangi madaniyat yaratadigan jamiyat", "defEn": "a society made of people from different countries who create a new shared culture" },
+      { "en": "to integrate", "uz": "guruhga qoʻshilib ketmoq, moslashmoq", "defEn": "to become part of a group, often changing your habits and customs to fit in" },
+      { "en": "formative", "uz": "shakllantiruvchi, rivojlanish uchun muhim", "defEn": "important for the development of something" },
+      { "en": "to wear your heart on your sleeve", "uz": "his-tuygʻusini yashirmasdan ochiq koʻrsatmoq", "defEn": "to make your feelings clear and open to everyone" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Who are you, really? The puzzle of personality",
+      "channel": "TED-Ed"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Tell the story of how you have changed. What kind of person were you a few years ago? What happened, and who did you become? How is your English getting better now?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: oʻtgan zamon hikoyasi va ketma-ketlik (I was… First… Then… Finally…) hamda oʻzgarishni ifodalash (I became…, I got…, my English is getting better).",
+    "targetSec": 60
+  }
+}

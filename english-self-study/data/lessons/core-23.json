@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 2,
+  "id": "core-23",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 23,
+  "slug": "excitement",
+  "title": "Excitement",
+  "titleUz": "Hayajon — ishtiyoq va maqsad",
+  "level": "B1-B2",
+  "tags": [
+    "excitement",
+    "goals",
+    "questions",
+    "verb-patterns",
+    "gerund-infinitive"
+  ],
+  "intro": {
+    "uz": "Hayajon — baxtning eng amaliy sinonimi. Tim Ferrissning “The 4-Hour Work Week” kitobidan olingan bu darsda AJ maqsad qoʻyishni oʻrgatadi: maqsad zerikarli emas, hayajonlantiradigan boʻlsin. Bu haftaning ikki grammatikasi: savollar, bilvosita savollar va soʻroq qoʻshimchasi (savol berish); hamda feʼl qoliplari — love doing / want to do / look forward to -ing. Brad haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Excitement — the most practical synonym for happiness. Built on a section of Tim Ferriss's “The 4-Hour Work Week,” this lesson teaches you to choose goals that excite you, not bore you. This week's two grammar topics: questions, indirect questions and question tags (how to ask); and verb patterns — love doing / want to do / look forward to -ing. You'll hear both in the POV story about Brad."
+  },
+  "canDo": {
+    "uz": "Dars oxirida ishtiyoq haqida muloyim, bilvosita savol bera olasiz (“Can you tell me what excites you?”) va soʻroq qoʻshimchasidan foydalana olasiz (“You love this, don't you?”), hamda feʼl qoliplarini toʻgʻri qoʻllab oʻz maqsadlaringizni tasvirlab bera olasiz (“I love learning… I want to speak… I'm looking forward to…”).",
+    "en": "By the end you can ask a polite indirect question about excitement (“Can you tell me what excites you?”) and use question tags (“You love this, don't you?”), and describe your goals with correct verb patterns (“I love learning… I want to speak… I'm looking forward to…”)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "questions-indirect-tags",
+      "titleUz": "Savollar, bilvosita savollar va soʻroq qoʻshimchasi",
+      "titleEn": "Questions, indirect questions & question tags",
+      "bandLifter": "IELTS Speaking — ask polite, well-formed questions and use natural tags",
+      "cefrCanDo": "B2: I can ask polite indirect questions and add question tags correctly",
+      "bodyHtml": "<p>Bu darsning MAIN talkida Tim Ferriss bizni bitta narsa bilan &quot;qiynaydi&quot; — <strong>savollar</strong> bilan: <em>&quot;What do you want? What are your goals? What would excite me?&quot;</em> Butun dars aynan bitta toʻgʻri savolni topishga qaratilgan. Shuning uchun bu haftaning A grammatikasi ham savol: toʻgʻridan-toʻgʻri savol, <strong>bilvosita savol</strong> (indirect question) va jumla oxiridagi kichik <strong>soʻroq qoʻshimchasi</strong> (question tag). Ishtiyoq haqida suhbat doim savol bilan boshlanadi: <em>&quot;You love this, don't you? Can you tell me what excites you?&quot;</em></p>\n<h3>1. Toʻgʻridan-toʻgʻri savol: soʻz tartibi (ogʻriq #8)</h3>\n<p>Oʻzbek tilida savolni ohang yoki <strong>-mi</strong> qoʻshimchasi bilan yasaymiz, soʻz tartibi oʻzgarmaydi: <em>&quot;Sen pul xohlaysanmi?&quot;</em> Ingliz tili esa <strong>yordamchi feʼlni</strong> (do / does / is) oldinga chiqaradi:</p>\n<ul>\n<li><em><strong>Do</strong> you want more money?</em> — Koʻproq pul xohlaysanmi?</li>\n<li><em>What <strong>does</strong> she want?</em> — U nima xohlaydi? (WH + does + ega + feʼl)</li>\n<li><em>Why <strong>are</strong> you excited?</em> — Nega hayajondasan?</li>\n</ul>\n<p>Qoida: <strong>WH-soʻz + yordamchi feʼl + ega + asosiy feʼl.</strong></p>\n<h3>2. Bilvosita savol (indirect question): xushmuomala shakl</h3>\n<p>Savolni <em>&quot;Can you tell me…&quot;, &quot;Do you know…&quot;, &quot;I wonder…&quot;</em> ichiga joylasak, u yumshoqroq, muloyimroq eshitiladi. Muhim nozik nuqta: bu ichki qismda soʻz tartibi <strong>oddiy jumlaga qaytadi</strong> — yordamchi feʼl yana ega ortiga oʻtadi, do/does esa yoʻqoladi:</p>\n<ul>\n<li>Toʻgʻridan-toʻgʻri: <em>Where <strong>is</strong> the store?</em> → Bilvosita: <em>Can you tell me where the store <strong>is</strong>?</em></li>\n<li>Toʻgʻridan-toʻgʻri: <em>What <strong>does</strong> he want?</em> → Bilvosita: <em>I don't know what he <strong>wants</strong>.</em></li>\n</ul>\n<p>Aynan shu yerda oʻzbek oʻquvchilar koʻp adashadi: ular ichki qismda ham savol tartibini saqlab qoʻyadi (<em>…where is the store</em>). Bilvosita savolda <strong>inversiya yoʻq</strong>.</p>\n<h3>3. Soʻroq qoʻshimchasi (question tag): &quot;…, don't you?&quot;</h3>\n<p>Tag — jumla oxiridagi mitti savol; &quot;shundaymi?&quot; degan maʼnoni beradi. Qoida sodda: <strong>ijobiy jumla → inkor tag; inkor jumla → ijobiy tag</strong>, va yordamchi feʼl takrorlanadi:</p>\n<ul>\n<li><em>You love this, <strong>don't you</strong>?</em> — Buni yaxshi koʻrasan, shundaymi?</li>\n<li><em>She's excited, <strong>isn't she</strong>?</em> — U hayajonda, toʻgʻrimi?</li>\n<li><em>You can't wait, <strong>can you</strong>?</em> — Sabring chidamayapti-a?</li>\n</ul>\n<p>AJ ham MAIN talkda soʻzlashuv uslubida shunday deydi: <em>&quot;That's what you want in your life right now too, don't you?&quot;</em> — bu yerda tag ichki <em>you want</em>ga bogʻlanadi. Qatʼiy qoida boʻyicha esa <em>That's</em> egasi <em>is</em>ni oladi: <em>That's exciting, <strong>isn't it</strong>?</em></p>\n<h3>Inglizcha ↔ oʻzbekcha farq</h3>\n<p>Oʻzbekchada uchala holat ham bitta <strong>-mi / shundaymi</strong> bilan hal boʻladi. Ingliz tilida esa uch xil mexanizm: (1) yordamchi feʼlni oldinga; (2) bilvosita savolda uni yana ortga; (3) tagda uni takrorlash. Xatoni koʻpincha shu tartib farqi keltiradi:</p>\n<blockquote>\n<p>❌ <em>Can you tell me where is the bank?</em> ✅ <em>Can you tell me where the bank is?</em> — bilvosita savolda oddiy jumla tartibi, do/does yoʻq.</p>\n</blockquote>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni bitta bilvosita savol va bitta tag ovoz chiqarib ayting: <em>&quot;Do you know where I can practise? You study English too, don't you?&quot;</em> Ovozdan chiqarilgan savol nutqda avtomat boʻlib qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida savolni ohang yoki “-mi” bilan yasaymiz va soʻz tartibi oʻzgarmaydi (“pul xohlaysanmi?”). Ingliz tili esa yordamchi feʼlni (do/does/is) oldinga chiqaradi: “Do you want money?”. Bilvosita savolda esa u yana ega ortiga qaytadi: “Can you tell me where the store is?”. Soʻroq qoʻshimchasi (“…, don't you?”) — oʻzbekcha “…, shundaymi?”.",
+      "errorFixUz": "❌ Can you tell me where is the bank? You love this, no? ✅ Can you tell me where the bank is? You love this, don't you? Bilvosita savolda oddiy jumla tartibi (do/does yoʻq), tag esa ijobiy jumladan keyin inkor (don't you) boʻladi.",
+      "examples": [
+        {
+          "en": "What would excite you?",
+          "uz": "Sizni nima hayajonlantiradi?"
+        },
+        {
+          "en": "Can you tell me what you really want?",
+          "uz": "Aslida nimani xohlashingizni ayta olasizmi?"
+        },
+        {
+          "en": "You love this idea, don't you?",
+          "uz": "Bu gʻoyani yaxshi koʻrasiz, shundaymi?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Can you tell me where ___?",
+          "options": [
+            "the station is",
+            "is the station",
+            "the station"
+          ],
+          "answer": "the station is",
+          "hintUz": "bilvosita savolda oddiy jumla tartibi (ega + feʼl): the station is"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You love this song, ___?",
+          "options": [
+            "don't you",
+            "do you",
+            "isn't it"
+          ],
+          "answer": "don't you",
+          "hintUz": "ijobiy jumla → inkor tag; “love” asosiy feʼl → don't you"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "What ___ she want for her birthday?",
+          "options": [
+            "does",
+            "do",
+            "is"
+          ],
+          "answer": "does",
+          "hintUz": "he/she/it uchun savol → does; keyin feʼl sof qoladi (want)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Doʻstingizdan ishtiyoqi haqida ovoz chiqarib soʻrang: bitta bilvosita savol (“Can you tell me what excites you?”) va bitta tagli jumla (“You love …, don't you?”).",
+          "answer": null,
+          "hintUz": "bilvosita savolda oddiy tartib; tag ijobiy jumladan keyin inkor boʻladi"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "verb-patterns-consolidation",
+      "titleUz": "Feʼl qoliplari: love doing / want to do / look forward to -ing",
+      "titleEn": "Verb patterns: love doing / want to do / look forward to -ing",
+      "bandLifter": "IELTS Speaking — link verbs smoothly (loving, wanting, looking forward to)",
+      "cefrCanDo": "B2: I can choose the gerund or infinitive after common verbs without error",
+      "bodyHtml": "<p>Ishtiyoq (excitement) tilda deyarli har doim <strong>feʼl qoliplari</strong> orqali yangraydi: <em>&quot;I <strong>love learning</strong>, I <strong>want to speak</strong>, I <strong>can't wait to start</strong>, I'm <strong>looking forward to</strong> this.&quot;</em> AJ ham MAIN talkda kitob haqida <em>&quot;I <strong>love</strong> this book&quot;</em> deydi, POV hikoyada esa Brad <em>&quot;needed money&quot;, &quot;wanted the clerk to be patient&quot;, &quot;started to study again&quot;</em> — bularning hammasi feʼl qoliplari. Bu — gerund va infinitiv boʻyicha butun kursning yakuniy jamlanmasi.</p>\n<h3>1. Feʼl + -ing (gerund): love / enjoy / hate + doing</h3>\n<p>Baʼzi feʼllardan keyin ikkinchi feʼl <strong>-ing</strong> shaklida keladi. Bularni his qilib yodda tuting: <em>love, like, enjoy, hate, don't mind, finish, keep</em>.</p>\n<ul>\n<li><em>I <strong>love learning</strong> English.</em> — Ingliz tili oʻrganishni yaxshi koʻraman.</li>\n<li><em>I <strong>enjoy speaking</strong> with foreigners.</em> — Chet elliklar bilan gaplashishdan zavq olaman.</li>\n</ul>\n<h3>2. Feʼl + to + infinitiv: want / need / decide / hope / start + to do</h3>\n<p>Boshqa feʼllardan keyin esa <strong>to + feʼl</strong> keladi: <em>want, need, decide, hope, would like, learn, try, begin</em>.</p>\n<ul>\n<li><em>I <strong>want to speak</strong> fluently.</em> — Ravon gapirmoqchiman.</li>\n<li>POV: <em>Brad <strong>needed</strong> money… he <strong>tried to find</strong> a way… he <strong>started to study</strong> again.</em></li>\n</ul>\n<p><em>can't wait</em> ham shu guruhda: <em>I <strong>can't wait to start</strong>.</em> — Boshlashni intiqlik bilan kutyapman.</p>\n<h3>3. look forward to + -ing (asosiy tuzoq!)</h3>\n<p><em>look forward to</em> — &quot;intiqlik bilan kutmoq&quot;. Bu yerdagi <strong>to — predlog</strong>, infinitivning &quot;to&quot;si emas. Shuning uchun undan keyin <strong>-ing</strong> keladi, sof feʼl emas:</p>\n<ul>\n<li><em>I'm <strong>looking forward to speaking</strong> with you.</em> (❗ <em>to speak</em> emas)</li>\n<li><em>We're <strong>looking forward to seeing</strong> the results.</em></li>\n</ul>\n<h3>4. Gerund ega sifatida: -ing jumla boshida</h3>\n<p>Feʼlni jumlaning <strong>egasi</strong> qilmoqchi boʻlsangiz, u <strong>-ing</strong> shaklga oʻtadi va yakka (birlik) hisoblanadi:</p>\n<ul>\n<li><em><strong>Learning</strong> English <strong>is</strong> exciting.</em> — Ingliz tili oʻrganish — hayajonli.</li>\n<li><em><strong>Speaking</strong> in public excites me.</em> — Ommaviy nutq meni hayajonlantiradi.</li>\n</ul>\n<h3>Inglizcha ↔ oʻzbekcha farq</h3>\n<p>Oʻzbekchada <em>&quot;oʻrganishni yaxshi koʻraman&quot;</em> va <em>&quot;gapirmoqchiman&quot;</em> — ikkalasida ham <strong>-ish / -moq</strong>. Ingliz tili esa ikkiga boʻladi: baʼzi feʼl <strong>-ing</strong> talab qiladi (<em>love learning</em>), baʼzisi <strong>to + feʼl</strong> (<em>want to speak</em>). Qaysi feʼl qaysinisini olishini quloq bilan sezish kerak — shuning uchun POV va mini-hikoyani koʻp tinglang.</p>\n<blockquote>\n<p>❌ <em>I want speaking. I'm looking forward to speak.</em> ✅ <em>I want to speak. I'm looking forward to speaking.</em> — <em>want</em> → to + feʼl; <em>look forward to</em> → -ing.</p>\n</blockquote>\n<blockquote>\n<p><strong>Eslatma:</strong> har kuni oʻzingiz haqingizda bitta jumla ayting: <em>&quot;I love learning English and I can't wait to speak it. Speaking is exciting.&quot;</em> Ovoz chiqarib takrorlang — qaysi feʼl qaysi qolipni olishi shu bilan avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada “oʻrganishni yaxshi koʻraman” va “gapirmoqchiman” — ikkalasi ham “-ish/-moq” bilan tugaydi. Ingliz tili esa ikkiga ajratadi: baʼzi feʼl -ing talab qiladi (love learning), baʼzisi to + feʼl (want to speak). “look forward to” dagi “to” — predlog, shuning uchun undan keyin -ing keladi (looking forward to speaking).",
+      "errorFixUz": "❌ I want speaking. I'm looking forward to speak. ✅ I want to speak. I'm looking forward to speaking. want → to + feʼl; look forward to → -ing (bu yerda “to” — predlog).",
+      "examples": [
+        {
+          "en": "I love learning English and I want to speak it well.",
+          "uz": "Ingliz tili oʻrganishni yaxshi koʻraman va uni yaxshi gapirmoqchiman."
+        },
+        {
+          "en": "I'm looking forward to starting my new goal.",
+          "uz": "Yangi maqsadimni boshlashni intiqlik bilan kutyapman."
+        },
+        {
+          "en": "Speaking in public excites me.",
+          "uz": "Ommaviy nutq meni hayajonlantiradi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I love ___ new languages.",
+          "options": [
+            "learning",
+            "to learning",
+            "learn"
+          ],
+          "answer": "learning",
+          "hintUz": "love + -ing (gerund): learning"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I want ___ English fluently.",
+          "options": [
+            "to speak",
+            "speaking",
+            "speak"
+          ],
+          "answer": "to speak",
+          "hintUz": "want + to + feʼl: to speak"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I'm looking forward to ___ you soon.",
+          "options": [
+            "meeting",
+            "meet",
+            "to meet"
+          ],
+          "answer": "meeting",
+          "hintUz": "look forward TO — bu “to” predlog, keyin -ing keladi: meeting"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz maqsadingiz haqida rost gap ayting (ovoz chiqarib): “___ing is exciting. I want to … and I can't wait to … .”",
+          "answer": null,
+          "hintUz": "jumla boshida gerund (ega); want/can't wait → to + feʼl"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/23/main.mp3",
+      "durationSec": 938,
+      "bytes": 11258811,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/23/vocab.mp3",
+      "durationSec": 649,
+      "bytes": 7792024,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/23/ministory.mp3",
+      "durationSec": 1021,
+      "bytes": 12257600,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/23/pov.mp3",
+      "durationSec": 406,
+      "bytes": 4866411,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Excitement Main Text Hi, this is AJ, welcome to our next lesson. This one is called “Excitement.” We’re going to talk about excitement and I’m going to read a little section from a book called The 4-Hour Work Week, which is a fantastic book. I love this book.",
+      "In fact, I’m going to do a few lessons based on sections of this book because I really, really love it. I think it’s just an incredible book that really has a very creative way of looking at life and work and enjoying yourself. The theme of the book, really, is enjoying your life.",
+      "I mean that is really what the book is all about and Tim Ferriss is the writer of the book. Again, the book’s title is The 4- Hour Work Week written by Tim Ferriss. Absolutely excellent book, I highly recommend it. Now the section we’re going to talk about today is about excitement.",
+      "So let me read what Tim has to say about excitement and then I’ll talk more about it. So here we go. “What do you want? Well, first let’s ask a better question. Most people will never know what they want. I don’t know what I want. If you ask me what I want to do in the next five months for language learning, on the other hand, I do know.",
+      "It’s a matter of specificity. What do you want is too imprecise to produce a meaningful and actionable answer. Forget about it. What are your goals is similarly fated for confusion and guesswork. To rephrase the question we need to take a step back and look at the bigger picture. Let’s assume we have 10 goals and we achieve them.",
+      "What is the desired outcome that makes all the effort worthwhile? The most common response is what I also would have suggested five years ago, happiness. I no longer believe this is a good answer. I no longer believe that happiness is the reason we achieve goals.",
+      "Happiness can be bought with a bottle of wine and the idea of happiness has become ambiguous through overuse. There is a more precise alternative that reflects what I believe is the actual objective for achieving goals. Bear with me. What is the opposite of happiness? Sadness? No.",
+      "Just as love and hate are two sides of the same coin, so are happiness and sadness. Crying out of happiness is a perfect illustration of this idea.",
+      "So, for example, the opposite of love is not hate. The opposite of love is indifference and the opposite of happiness is boredom. Excitement is the more practical synonym of happiness and it is precisely what you should strive to chase, it’s the cure all.",
+      "When people suggest that you follow your passion or that you follow your bliss, I believe they are, in fact, referring to the same idea, excitement. This brings us full circle. It brings us back to the beginning, to our beginning question.",
+      "The question you should be asking isn’t what do I want, it’s not what are my goals, the question you should be asking yourself all the time is what would excite me?” Okay, that’s a nice little section from Tim Ferriss from The 4-Hour Workweek. And, you know, I think he’s right. Happiness can be found right now very easily.",
+      "You don’t need to achieve a goal to be happy. You don’t need to speak perfect English to be happy. You don’t need a lot of money to be happy. You don’t need to do anything. You can just smile, make your physiology strong and be grateful for everything you have now. Be aware.",
+      "Be grateful of everything you have now in your life, your family, your friends, all the people you love and who love you. All the great opportunities you have in your life, your health. All of us have so many great things in our life. Happiness is really just a choice, an emotional choice. You choose to be happy.",
+      "You can make yourself happy right now in any situation. So we don’t need to have goals to be happy. We don’t need to achieve things and get success to be happy. But if we want passion, if we want excitement, well, that’s where goals come in. Goals make us grow.",
+      "They push us to become more, to try new things, to become bigger and better people, to live amazing lives. That’s why we have goals because, as many people have said, you’re either growing or your dying.",
+      "So we can be happy anytime, anywhere, but if we really want to be passionate, we really want to feel powerful, positive emotions and feel this incredible energy, well, we need to grow. We need to feel excited about our lives, not just happy, excited. That’s the reason to have goals.",
+      "So when you’re choosing your goals – and this is the most important point from this section – when you’re choosing your goals don’t choose small goals. Don’t choose boring goals, boring goals are useless. Why have a goal if it’s boring? Just stay the same. The only reason to choose a goal and to try to achieve a goal is if it excites you.",
+      "It will give you energy and passion and excitement, trying to get it and actually getting it. You should feel excited about both. That is the purpose of goals. They provide energy, they provide excitement. So when you choose goals you must, you absolutely must choose exciting goals.",
+      "When you write that goal down you should feel excited immediately. If you don’t it’s a bad goal, throw it away and make a new one. All of your goals, your health goals, your money goals, your job and work goals, your relationship goals, your language learning goals, they should all be super exciting to you.",
+      "Not just a little bit, “Oh, that would be nice,” no, no, no, no, you should feel passionate and excited just thinking about it. “Wow that would be great!” So let’s talk about money, for example, because it’s just such an easy, clear thing to talk about, it’s easy to measure.",
+      "So let’s say money, you decide “Oh, I’d like to have a little more money.” Well that goal sucks. There’s no excitement in getting a little more money, it doesn’t excite anybody. But let’s say you love cars and you say “I want enough money to buy a new Ferrari, a hot, red, fast, Ferrari, woo-who!”",
+      "Well, as we’ve talked about before, that’s exciting. That’s a real goal. You will now have a lot of excitement and energy trying to get more money. Because now you have something exciting, you have an exciting reason to do it. You’ll be excited trying to get the money and if you succeed you will be very excited to buy that car.",
+      "Or maybe you have a more generous goal that excites you. Maybe your goal is to help hundreds or thousands of homeless people, to give food to people who are hungry and to see the happiness on their face. That’s exciting. That’s an exciting reason to get more money. You can wakeup every day and feel fantastic about that goal.",
+      "It will give you energy every single day and when you accomplish that goal you will feel great, you will be excited when it happens. That’s a great reason to get more money, also. So, again, excitement is what we’re looking for.",
+      "That energy, that passion, that excitement, that’s the purpose of goals, so you need to evaluate every one of your goals. And, yes, we’re sort of repeating some of the ideas we’ve had in the past. It’s okay. This is a very important subject.",
+      "And I want you to think about it again from a little bit different point of view here, that your life should be exciting. You’ve got one life, you’re going to die. We all are going to die. Do you want to get to the end of your life, look back, and say well, it was kind of boring? It was okay, so-so. It wasn’t bad.”",
+      "I mean that’s a wasted life. That sucks. You might as well end right now if that’s your poor little goal. That sucks! But I know you don’t want that because you’re listening to me still. You would have quit by now if that’s what you wanted. I know you want more.",
+      "You want to get to the end of your life and look back and say “I lived an amazing life! I’m excited about all the great things I did! I’m excited about all the people I helped! I’m excited about all the things I learned!”",
+      "Well that’s what you want in your life right not too, don’t you? Don’t you want to be excited about your job or your career, about your work? If you’re not you need to change something. You need a bigger goal, a bigger more exciting goal.",
+      "You need to keep making that goal bigger and bigger and bigger until you do feel excited. That’s when you know it’s a good goal, when you start feeling excited and a little scared, as you know. And it’s the same when you talk about your body or learning English or anything.",
+      "You’ve got to find the excitement in it and that’s so much more powerful than just achieving something. If you achieve, you make a million dollars, but you’re not excited, there’s no exciting reason, you won’t be happy. In fact, probably the opposite, you’re going to feel very sad and disappointed.",
+      "So find that excitement, find your passions in life and choose goals that excite you. That is the only reason to have a goal. All right, good luck. I hope that you’ll go our Member Forums and write your goals. Tell everybody about your goals. We want to know. Make us excited.",
+      "I’m excited to read great goals that other people have and I’m really excited to hear when they’re working on them. So, please, go the Forums and write down your exciting goals. Share your exciting goals with all of us, all of your Effortless English Club members and family. Share your big, exciting goals with us.",
+      "And then, you know, every week or every month, tell us what you’re doing. How’s it going? And when you have successes, when you achieve exciting goals, when you feel great and excited, please, go to the Forums, share your excitement.",
+      "You know most other groups, most other peer groups, most other learning groups they’re always just complaining all the time. It’s so negative. It just takes all the energy out. But not our club, our club is the opposite. We share our excitement, we share our successes, we share our passion.",
+      "That is the purpose of the Forums, it’s the purpose of our Master Member Site, it is the purpose of the Effortless English Club. So I’m asking you, please, share your excitement, share your positive energy with us. Give it to other people, inspire other members.",
+      "Let’s do that for each other and build an amazing community, an amazing family of English learners. All right, I will see you next time."
+    ],
+    "vocab": [
+      "Excitement Vocabulary Text Hello, this is AJ, welcome to the vocabulary lesson for “Excitement.” Let’s start. Our first word is specificity, specificity, a little difficult to pronounce, specificity.",
+      "In fact, many native speakers have trouble pronouncing this word, especially if you say it fast in a sentence, specificity, specificity, specificity. Sometimes I have trouble pronouncing it, too, but I’m doing it correctly now, specificity. Specificity is the noun. Specificity means, um…specific-ness is what it really means, right?",
+      "It means being specific, being detailed, being very exact. It’s kind of the opposite of generality. Generality is the situation of being very general. So, for example, you say “I want a lot more money.” That statement is a generality, right? It’s not detailed. But if you say “I want $2,496”, well that statement has specificity.",
+      "It has detail. It has specific-ness, so that’s specificity. Our next word is imprecise. Imprecise is an adjective. And, in fact, it’s the opposite of specific and it’s the opposite of precise. Precise is very similar to specific, it means you’d be very exact, very detailed. So, again, “I want $2,496. 20.” That’s precise, that’s detailed.",
+      "The opposite is imprecise, meaning not detailed, not precise. Imprecise means “I’d like some more money,” right? That’s not detailed. It’s very general, it’s imprecise. So Tim Ferris is saying that the question “what do I want”, it’s an imprecise question. It’s not a specific question, it’s too general. It’s too imprecise.",
+      "Our next word is fated, to be fated. He says the question “what are your goals”, that question is fated for confusion, it’s fated to cause confusion. To be fated for means to be destined for. It means something that absolutely will happen in the future or soon.",
+      "So to be fated for confusion, it means it absolutely will create confusion in the near future or in the far future. So that question, that general question, what are your goals or what are my goals or what do I want, it’s fated to cause confusion. It absolutely will cause confusion. Next is the word worthwhile.",
+      "So he’s saying “What is the purpose of goals? Why are goals worthwhile?” Worthwhile means beneficial. So why are goals beneficial? Why are goals useful, helpful, good to do, good to have, worthwhile? So worthwhile, again, beneficial, helpful, useful, worthwhile, so worthwhile, why are goals useful? Why are goals worthwhile?",
+      "Why are they worthwhile?",
+      "Our next word is ambiguous. He says that “The idea of happiness is too ambiguous.” And, again, ambiguous has this idea of being imprecise, general. Not clear is what it really means. Ambiguous means not clear. Not easy to understand, not really clear.",
+      "It’s a little bit confusing, a little bit too general, a little bit unclear, all those ideas, ambiguous, ambiguous. So happiness is ambiguous. He means that we’re not quite sure, what exactly is happiness? What does it mean exactly? In his opinion it’s an ambiguous word. It means we’re not really sure what it means.",
+      "We’re not totally clear. We have a general idea, but we’re not exactly sure. We’re not totally clear. We’re ambiguous about it. We’re unclear about it. So, again, ambiguous means not clear, not perfectly clear. It’s the opposite of perfectly clear, ambiguous, ambiguous. Next we have the phrase bear with me. He says “Bear with me.”",
+      "Bear with me while I ask more questions. Bear with me is an idiom and it means be patient with me. It means be patient. Please be patient with me. So we say it when we need someone to be patient. Maybe we’re going to talk a lot. Maybe we’re trying to explain a difficult idea, so we want the other person to be patient.",
+      "So we say “Bear with me” and then we explain, right? He says “Bear with me while I ask more questions.” Be patient with me while I ask more questions. Please be patient with me. That’s what bear with me means. So bear with me means be patient with me. Please be patient with me. Bear with me, bear with me.",
+      "So we say it any time we’re explaining something difficult, any time we want the other person to be patient. We think they need to be patient with us. We’re doing something that requires them to be patient. Bear with me. Our next word is indifference. Tim Ferriss says “The opposite of love is not hate.",
+      "The opposite of love is indifference.” Indifference means not caring, no emotion, totally not caring about something. So let’s talk about an easy example a sports team. Let’s say Manchester United, soccer team, football team. So maybe some people love Manchester United, they love them. They’re great, they’re great!",
+      "And then some people hate them, right? I hate Manchester United, they suck! I hate ‘em! So both of those emotions, they’re very strong, right? Love is a very powerful, strong emotion. Hate is a powerful, strong emotion. Both people, both groups of people, have strong emotions. Both care a lot, right?",
+      "If someone hates Manchester United they care, they still care a lot. They want Manchester United to fail. They have a lot of emotion about Manchester United. But indifference is the opposite, it means no emotion about a subject, you don’t care. And he adjective is indifferent. So if you say “I’m indifferent about Manchester United.",
+      "I’m totally indifferent.” You don’t care. If they win you don’t care. If they lose you don’t care. You have no emotion, no interest, no caring at all. So indifference is the noun or the adjective is to be indifferent. “I’m indifferent about that topic. I’m indifferent about Manchester United.”",
+      "Don’t care, no emotion, zero caring, indifferent.",
+      "Alright, our next word is synonym. “Excitement is the real synonym for happiness”, is what he said. So synonym is just a word that means the same as another word, they’re similar words, similar meanings.",
+      "So every vocabulary lesson in these Power English Lessons, every vocabulary lesson, is really a synonym lesson because I tell you other words that have similar meanings. So he says “Happiness and excitement are synonyms.” It means they’re very close together, the meaning is very close.",
+      "Two words with very close meanings, very similar meanings, that’s a synonym. Alright, our next and final word is bliss. He says “Many people suggest that you follow your passion. Many people suggest that you follow your bliss.” Bliss is a very strong word and it means super happiness, incredible happiness.",
+      "It’s much stronger than happiness. Happiness is kind of an average word, a normal kind of emotion. Bliss is a very strong, powerful emotion, much stronger than happiness. So it’s a synonym. It means, basically, the same. It means happiness, but it means very powerful happiness, very strong happiness, a lot of happiness, that’s bliss.",
+      "So, again, bliss. Bliss is very, very powerful happiness. It’s a much stronger word, bliss, bliss. Okay, then, that is the end of our vocabulary lesson for “Excitement.” I will see you next time."
+    ],
+    "pov": [
+      "Excitement POV Text Hi, this is AJ, welcome to the point of view mini-stories for “Excitement.” Let’s get started. Since last year Brad has needed money for school. He has been very poor since last year. He lost all his money last year, so since last year he has needed money for school.",
+      "Of course, he has had a worthwhile purpose for needing money. He’s had a worthwhile reason for needing money, during this whole time from last year up until recently. So Brad has needed money for school since last year and since last year he has had a worthwhile purpose. And during this time he has thought about money every day.",
+      "He has tried to find a way to get more money, but he has failed. Since last year, up until recently, he has failed to get more money, so he has not been able to go to school. Well one day he got a great idea, he got a gun and he went to a convenience store.",
+      "He went into the store, he pointed the gun at the clerk and he said “Give me some money!” And the clerk said “Now that’s a very imprecise request, how about some specificity? Don’t be ambiguous. Tell me exactly how much you want.” Well Brad was surprised and he was silent for a while. And then finally he said “I don’t know.",
+      "Ah, bear with me while I think.” Well then Brad was silent again. He stood with the gun, thinking for a long, long time, thinking about the clerk’s question, the clerk’s request. He thought for seventeen and a half hours and then, finally, after seventeen and a half hours Brad asked for $7,298, precisely.",
+      "And because Brad’s request was precise the clerk gave it to him. The clerk gave him exactly $7,298. Brad ran home. Then he ran to school with the money. He paid for school and he started to study again. Of course, Brad was very, very happy. What a happy story. Okay, next, same story, this time from a future point of view.",
+      "This time using a future timeframe, let’s go to the future, shall we? In the future there will be a student named Brad and Brad is going to need money for school. He’ll be a poor student and he won’t have money for school. Brad’s going to think about this problem a lot. Now, of course, he’ll have a worthwhile purpose.",
+      "It’s a worthwhile purpose to need money for school.",
+      "So he’s going to have a worthwhile purpose and, finally, he’s going to think of an idea. “Aha, I know how to get money,” he’ll think. He’ll grab a gun and he’ll go to a convenience store. He’ll go into the convenience store with his gun, he’ll point his gun at the clerk and he’s going to say exactly this.",
+      "“Give me some money!” The clerk will be calm, he won’t be scared. And the clerk will say “That’s a very imprecise request, how about some specificity? Don’t be ambiguous. Tell me exactly how much you want.” Well this is going to confuse Brad and surprise him. He’ll be silent for a while and then finally he’ll say “I don’t know.",
+      "Ah, bear with me while I think.” Then Brad will think. He’ll think and he’ll think and he’ll think, he’ll think for a very, very long time. In fact, he’s going to think for seventeen and a half hours, standing in the convenience store pointing his gun at the clerk.",
+      "Finally, after seventeen and a half hours, he’ll ask the clerk for precisely $7,298. And the clerk will be happy, “Ah, great, that’s a precise request.” The clerk will give him the money. The clerk will give him exactly $7,298. Brad will take the money, he’ll run home and then he’ll run to school.",
+      "He’ll pay for his school, he will begin to study again and he will be very, very happy. And that’s the end of the point of view stories for “Excitement.”"
+    ],
+    "sixmin": [
+      "Neil: Hello and welcome to 6 Minute English. I'm Neil.",
+      "Catherine: Hello. I'm Catherine.",
+      "Neil: And if I say to you, Catherine, fortnight, what do you think of?",
+      "Catherine: Well, that’s easy, Neil. A fortnight is a period of two weeks.",
+      "Neil: Well, fortnight, spelt f-o-r-t-n-i-g-h-t, is indeed a period of two weeks. But Fortnite, spelt F- o-r-t-n-i-t-e, is an online computer game that has become incredibly popular in a very short period of time.",
+      "Catherine: As well as popular, it’s also very competitive. And you're soon going to be able to make big money playing it and you can even hire people to be your Fortnite coach.",
+      "Neil: Well, before we hear a little more about this topic, it’s time for our quiz. These days we play computer games on our phones, we can hold them in our hands. In1950 Bertie the Brain was the name of one of the very first computer games. It played a simple game of noughts and crosses, also called tic-tac-toe. But how tall was this computer? Was it… a) one metre tall; b) about four metres tall or c) about ten metres tall?",
+      "Catherine: Well, if it was the 1950s, computers were huge, so I’m going to go for ten metres.",
+      "Neil: OK. Well, we’ll find out if you’re right at the end of the programme. eSports or computer games competitions are now a thing. In some markets they are huge and they are even discussing including them in the Olympic Games. Kyle Jackson is a 13-year-old gamer who's been asked to join a team. How long does he say he's been playing video games? Kyle Jackson, gamer I’ve played video games all my life, basically. I started playing competitively when I was around nine or ten. I got into like Halo, Call of Duty, games like that. And I just… I realised that I could probably like go to a pro (professional) level, if I keep playing at the level I am.",
+      "Catherine: He said that he's been playing computer games all his life. Now that might be a little exaggeration, but he’s probably been playing them ever since he can remember. When he was nine or ten he started playing competitively, which means he started playing in competitions against other people.",
+      "Neil: He talks about a number of games that he got into. This is a good expression. If you are into something you are very interested in it and to get into something describes the process of becoming interested in that thing.",
+      "Catherine: In Kyle's case, it was computer games and he got so good that he's thinking about playing at a professional level. Doing something as a professional means that it's more than a hobby or pastime. It’s something someone pays you to do because you are really good at it.",
+      "Neil: George Yao is a former gaming champion who is now Director of Media of Team Secret. Team Secret are like a regular sports team. They have a group of players who play matches and competitions against other teams. Except these are not regular sports. These are eSports and they are big business. Here’s George Yao. George Yao, Director of Media of Team Secret It’s becoming a multi-billion-dollar industry: just games, production of games, publishing of games and the eSports scene. So it's not just one thing now, it’s a whole industry.",
+      "Catherine: So George Yao says that online gaming is becoming a multi-billion-dollar industry. We usually think of industry as factories and manufacturing. But it can also apply to other areas as well that involve a lot of different elements that come together to make a business.",
+      "Neil: Different elements that he mentions as part of this industry are creating games, publishing games and the eSports scene. The word here scene here refers to the world of eSports: the events, the competitions and the players. And many people want to be part of that scene. Right, now, let’s get the answer to our quiz question about the size of that 1950s computer game. Was it… a) one metre tall; b) four metres tall or c) ten metres tall? What did you say, Catherine?",
+      "Catherine: I went for ten metres, Neil.",
+      "Neil: Well, unfortunately it was four metres.",
+      "Catherine: Still quite big though – imagine you couldn't get those in your pocket, could you?",
+      "Neil: I'd rather not! But I would like to review today's vocabulary.",
+      "Catherine: We started off with the word for a period of two weeks - a fortnight. But with a different spelling, Fortnite is also a very popular video game.",
+      "Neil: Multi-player video game competitions which people pay to go and watch are known as eSports. Playing against other people is playing competitively. Do you like to play multi- player video games, Catherine?",
+      "Catherine: I've never really got into them even though I've tried one or two. And that was one of our other expressions, to get into something – to become really interested in something.",
+      "Neil: Same here, I enjoy playing a little bit but I could never be a professional. I couldn’t get paid to do it as a job.",
+      "Catherine: Of course not, you’re already a professional broadcaster, Neil. An area of business that is made up of different parts can be described as an industry. The video game industry is a multi-billion-dollar business. And we also talk about, for example, the fashion industry and the movie industry.",
+      "Neil: And finally there was the word scene. This noun is used to describe the world of a particular activity.",
+      "Catherine: So the eSport scene, for example, is the world of eSports. The games, the teams, the competitions, the audiences. It’s all part of the scene",
+      "Neil: Well, that’s all from the 6 Minute English scene today. Do join us again, but if you can’t wait, you can find us on Facebook, Twitter, Instagram and YouTube, and of course on our website bbclearningenglish.com. Thanks for joining us and goodbye.",
+      "Catherine: Goodbye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What was Brad?",
+        "a": "A student, Brad was a student."
+      },
+      {
+        "q": "What did he need?",
+        "a": "He needed money, Brad needed money."
+      },
+      {
+        "q": "What did he need money for?",
+        "a": "For school, Brad needed money for school."
+      },
+      {
+        "q": "What kind of student was Brad?",
+        "a": "Well, he was a poor student. Brad was a poor student and he needed money for school."
+      },
+      {
+        "q": "Was he a rich student?",
+        "a": "No, of course not, he was not a rich student. He was a poor student. Brad was a poor student who needed money for school."
+      },
+      {
+        "q": "Was his purpose worthwhile? Was it good, beneficial, useful?",
+        "a": "Well, yes, it was, it was worthwhile. It was a good, beneficial, purpose."
+      },
+      {
+        "q": "What was his purpose? Why did he need money?",
+        "a": "EffortlessEnglishClub.com 2"
+      },
+      {
+        "q": "What kind of purpose did he have for needing money?",
+        "a": "A worthwhile purpose, it was a very good reason to need money."
+      },
+      {
+        "q": "Who had a worthwhile purpose?",
+        "a": "Brad, Brad had a worthwhile purpose."
+      },
+      {
+        "q": "He had a worthwhile what?",
+        "a": "Purpose, he had a worthwhile purpose for needing money."
+      },
+      {
+        "q": "And what was his worthwhile purpose?",
+        "a": "Well, school, university. His purpose for money, his purpose for needing money, for getting money, was school. He needed money for school."
+      },
+      {
+        "q": "What did Brad get?",
+        "a": "A gun, Brad got a gun."
+      },
+      {
+        "q": "Where did he go?",
+        "a": "To a convenience store. Brad got a gun and he went to a convenience store."
+      },
+      {
+        "q": "What did he have?",
+        "a": "He had a gun."
+      },
+      {
+        "q": "Who had a gun?",
+        "a": "Brad, Brad had a gun and he went to a convenience store."
+      },
+      {
+        "q": "Why did he go to a convenience store?",
+        "a": "Well, to steal money, of course, obviously. Brad got a gun and went to a convenience store to steal money."
+      },
+      {
+        "q": "Why did he want to steal money?",
+        "a": "EffortlessEnglishClub.com 3"
+      },
+      {
+        "q": "What did he do with the gun?",
+        "a": "He pointed the gun at the clerk."
+      },
+      {
+        "q": "Where did he point the gun?",
+        "a": "At the clerk, he pointed the gun at the clerk."
+      },
+      {
+        "q": "Who did he point the gun at?",
+        "a": "He pointed the gun at the clerk."
+      },
+      {
+        "q": "Who pointed the gun at the clerk?",
+        "a": "Brad, Brad pointed the gun at the clerk."
+      },
+      {
+        "q": "What did Brad say?",
+        "a": "He said “Give me some money!”"
+      },
+      {
+        "q": "Who did he say that to?",
+        "a": "To the clerk, he said that to the clerk. He said to the clerk “Give me some money!” and he pointed the gun at the clerk."
+      },
+      {
+        "q": "Where was Brad?",
+        "a": "He was in a convenience store. Brad was in a convenience store and he said to the clerk “Give me some money!” while pointing the gun at the clerk."
+      },
+      {
+        "q": "Was the clerk scared?",
+        "a": "Actually, no, the clerk was not scared."
+      },
+      {
+        "q": "The clerk said “That’s a very imprecise request, how about some specificity?”",
+        "a": "EffortlessEnglishClub.com 4"
+      },
+      {
+        "q": "What? What did he say?",
+        "a": "The clerk said “That’s a very imprecise request, how about some specificity?” He was a very intelligent clerk and he was not scared."
+      },
+      {
+        "q": "What kind of request did the clerk want?",
+        "a": "Well, he wanted a precise request, a detailed, specific request."
+      },
+      {
+        "q": "Did he want Brad to be specific?",
+        "a": "Yes, he did. He wanted Brad to be specific."
+      },
+      {
+        "q": "Specific about what?",
+        "a": "Specific about how much money he wanted."
+      },
+      {
+        "q": "Was Brad precise? Was Brad specific?",
+        "a": "No, he wasn’t. He was very imprecise, he said some, give me some money. That’s very imprecise."
+      },
+      {
+        "q": "So the clerk wanted specificity or he wanted a general request?",
+        "a": "Well, he wanted specificity. He wanted a specific request, a precise request from Brad."
+      },
+      {
+        "q": "Did he want Brad to be ambiguous, unclear?",
+        "a": "No, no, no, no, no, no, he didn’t. He said “Don’t be ambiguous.”"
+      },
+      {
+        "q": "Who did he not want to be ambiguous?",
+        "a": "Brad. He did not want Brad to be ambiguous. He said “Don’t be ambiguous. Don’t be unclear.” He said “Tell me exactly how much you want.”"
+      },
+      {
+        "q": "Who said “Don’t be ambiguous?”",
+        "a": "The clerk. The clerk at the convenience store said “Don’t be ambiguous.”"
+      },
+      {
+        "q": "Who did he say “don’t be ambiguous” to?",
+        "a": "Well, he said it to Brad. He said to Brad “Don’t be ambiguous.”"
+      },
+      {
+        "q": "Did he want Brad to be ambiguous or did he want Brad to be specific and clear?",
+        "a": "Well, he wanted Brad to be very clear. He said “Don’t, do not be ambiguous. Do not be unclear. Do not be confusing.” He said “Tell me exactly how much you want.”"
+      },
+      {
+        "q": "How did Brad feel?",
+        "a": "He was surprised! He was surprised by the clerk’s answer and he was silent."
+      },
+      {
+        "q": "Did Brad talk?",
+        "a": "No, he didn’t. He did not talk, he was silent."
+      },
+      {
+        "q": "And how did he feel?",
+        "a": "He was surprised. Brad was surprised and he stood silent, silently with the gun."
+      },
+      {
+        "q": "Did Brad want the clerk to be patient with him?",
+        "a": "Yes, that’s right. He said “Bear with me. Bear with me while I think.” Be patient while I think."
+      },
+      {
+        "q": "Who said bear with me?",
+        "a": "Well, Brad did. Brad said “Bear with me while I think. Please be patient while I think.”"
+      },
+      {
+        "q": "Who did he want to be patient?",
+        "a": "He wanted the clerk to be patient. He said to the clerk “Bear with me while I think. Be patient while I think.”"
+      },
+      {
+        "q": "Did the clerk say bear with me?",
+        "a": "Not the clerk. He didn’t say that, Brad said that. Brad said “Bear with me.”"
+      },
+      {
+        "q": "Why did Brad want the clerk to be patient?",
+        "a": "Well, because he needed to think for a long time about his answer, about how much money he wanted exactly. Brad needed to think about that answer, he didn’t know. So he said to the clerk “Bear with me while I think about the answer.”"
+      },
+      {
+        "q": "How long did Brad think?",
+        "a": "He thought for 17.5 hours, seventeen and a half hours."
+      },
+      {
+        "q": "Who thought for seventeen and a half hours?",
+        "a": "Brad did. Brad thought for seventeen and a half hours."
+      },
+      {
+        "q": "What was he thinking about?",
+        "a": "Well, he was thinking about how much money he wanted exactly, precisely."
+      },
+      {
+        "q": "How long did he think?",
+        "a": "Seventeen and a half hours."
+      },
+      {
+        "q": "Did Brad’s answer have specificity?",
+        "a": "Yes, it did, it did have specificity. It had details, it was specific."
+      },
+      {
+        "q": "What kind of answer did Brad finally give?",
+        "a": "He finally gave a specific answer. He finally gave a precise answer."
+      },
+      {
+        "q": "How much money did he ask for?",
+        "a": "He asked for $7,298."
+      },
+      {
+        "q": "Why did he ask for $7,298?",
+        "a": "Because that’s exactly how much money he needed for school. Oh, of course."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "specificity",
+      "pos": "n",
+      "uz": "aniqlik, tafsilotlilik (juda aniq va batafsil boʻlish)",
+      "defEn": "the quality of being specific, detailed and exact",
+      "example": "It's a matter of specificity — say the exact amount."
+    },
+    {
+      "en": "imprecise",
+      "pos": "adj",
+      "uz": "noaniq, mavhum (batafsil emas)",
+      "defEn": "not exact or clear; too general",
+      "example": "“What do you want?” is too imprecise a question."
+    },
+    {
+      "en": "to be fated for",
+      "pos": "phrase",
+      "uz": "muqarrar duchor boʻlmoq, peshonasiga yozilgan",
+      "defEn": "to be destined or certain to end in something",
+      "example": "That vague question is fated for confusion."
+    },
+    {
+      "en": "worthwhile",
+      "pos": "adj",
+      "uz": "arziydigan, foydali (behuda emas)",
+      "defEn": "useful and important enough to be worth the effort",
+      "example": "He had a worthwhile purpose for needing the money."
+    },
+    {
+      "en": "ambiguous",
+      "pos": "adj",
+      "uz": "noaniq, ikki maʼnoli, tushunarsiz",
+      "defEn": "not clear; open to more than one meaning",
+      "example": "The word “happiness” has become ambiguous."
+    },
+    {
+      "en": "bear with me",
+      "pos": "phrase",
+      "uz": "sal sabr qiling, biroz kuting",
+      "defEn": "please be patient with me for a moment",
+      "example": "Bear with me while I think about the answer."
+    },
+    {
+      "en": "indifference",
+      "pos": "n",
+      "uz": "befarqlik, loqaydlik (hech qanday his yoʻqligi)",
+      "defEn": "a total lack of interest, feeling or concern",
+      "example": "The opposite of love is not hate but indifference."
+    },
+    {
+      "en": "synonym",
+      "pos": "n",
+      "uz": "sinonim, maʼnodosh soʻz",
+      "defEn": "a word with the same or a very similar meaning",
+      "example": "Excitement is a synonym for happiness."
+    },
+    {
+      "en": "bliss",
+      "pos": "n",
+      "uz": "cheksiz baxt, samimiy huzur (oddiy baxtdan kuchliroq)",
+      "defEn": "extreme, powerful happiness",
+      "example": "Many people tell you to follow your bliss."
+    },
+    {
+      "en": "to follow your passion",
+      "pos": "phrase",
+      "uz": "ishtiyoqingiz ortidan bormoq, sevgan ishingizni qilmoq",
+      "defEn": "to do what excites and inspires you most",
+      "example": "People suggest that you follow your passion."
+    }
+  ],
+  "englishpod": {
+    "id": "0154",
+    "title": "The Weekend – Rock Band",
+    "titleUz": "Dam olish kunlari — Rok guruh",
+    "warmup": {
+      "uz": "Suhbatda bir yigit hayajon bilan oʻz rok guruhini tuzayotganini aytadi — u nogʻora chalishni oʻrganib, endi qoʻshiqchi qidiryapti. Bu ham darsning mavzusiga mos: ishtiyoq odamni harakatga soladi. Sizningcha, uning rejasi jiddiymi yoki shunchaki hayajonmi?",
+      "en": "In this dialogue an excited guy says he's forming a rock band — he's learned the drums and now needs a singer. It fits the theme: excitement drives people to act. Do you think his plan is serious, or just excitement?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0154/dg.mp3",
+        "durationSec": 55,
+        "bytes": 471564
+      },
+      "pr": {
+        "path": "englishpod/0154/pr.mp3",
+        "durationSec": 823,
+        "bytes": 13196331
+      },
+      "rv": {
+        "path": "englishpod/0154/rv.mp3",
+        "durationSec": 244,
+        "bytes": 3946852
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I’m forming a music band."
+      },
+      {
+        "speaker": "B",
+        "en": "Do you already know how to play an instrument?"
+      },
+      {
+        "speaker": "A",
+        "en": "Uh... Yeah! I’ve told you a thousand times that I’m learning to play the drums. Now that I know how to play well, I would like to form a rock band."
+      },
+      {
+        "speaker": "B",
+        "en": "Aside from yourself, who are the other members of the band?"
+      },
+      {
+        "speaker": "A",
+        "en": "We have a guy who plays guitar, and another who plays bass. Although we still haven’t found anyone to be our singer. You told me that you had some musical talent, right?"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, I’m a singer."
+      },
+      {
+        "speaker": "A",
+        "en": "Perfect. So you can audition this weekend here at my house."
+      },
+      {
+        "speaker": "B",
+        "en": "Great! Wait here? You don’t have enough room for the amplifiers, microphones or even your drums! By the way where do you keep them or practice?"
+      },
+      {
+        "speaker": "A",
+        "en": "Dude? What are you talking about? It’s right here! All we need is my Nintendo Wii and we are set!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "an instrument",
+        "uz": "cholgʻu asbob",
+        "defEn": "a device that is used to make music"
+      },
+      {
+        "en": "a thousand times",
+        "uz": "ming marta (koʻp marta degan boʻrttirma)",
+        "defEn": "very many times; an exaggeration for emphasis"
+      },
+      {
+        "en": "to form (a band)",
+        "uz": "tuzmoq, tashkil qilmoq (guruh)",
+        "defEn": "to create or organize a group"
+      },
+      {
+        "en": "to audition",
+        "uz": "sinovdan oʻtmoq (tanlov uchun namoyish qilmoq)",
+        "defEn": "to take part in a trial performance to get a place"
+      },
+      {
+        "en": "an amplifier",
+        "uz": "kuchaytirgich (ovozni kuchaytiradigan qurilma)",
+        "defEn": "a device that makes sound louder"
+      },
+      {
+        "en": "bass",
+        "uz": "bas gitara (past, chuqur ovozli cholgʻu)",
+        "defEn": "the low, deep-sounding instrument in a band"
+      },
+      {
+        "en": "we are set",
+        "uz": "tayyormiz, hammasi tayyor",
+        "defEn": "we are ready; everything is prepared"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180621",
+    "title": "Is gaming a sport?",
+    "titleUz": "Oʻyin — bu sportmi?",
+    "audio": {
+      "main": {
+        "path": "sixmin/180621/audio.mp3",
+        "durationSec": 378,
+        "bytes": 6045849,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "In 1950, Bertie the Brain was one of the first computer games. How tall was this computer?",
+        "qUz": "1950-yilda Bertie the Brain birinchi kompyuter oʻyinlaridan biri edi. Bu kompyuter qanchalik baland edi?",
+        "options": [
+          "one metre tall",
+          "about four metres tall",
+          "about ten metres tall"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) taxminan toʻrt metr. Catherine oʻn metr dedi va xato qildi. Bertie the Brain taxminan toʻrt metr balandlikda edi — hozir esa oʻyinlarni kaftda ushlab oʻynaymiz!"
+      }
+    ],
+    "vocab": [
+      {
+        "en": "eSports",
+        "uz": "kibersport (koʻp oʻyinchili kompyuter oʻyinlari boʻyicha musobaqalar)",
+        "defEn": "multi-player video game competitions which people pay to watch"
+      },
+      {
+        "en": "competitively",
+        "uz": "musobaqa tarzda, raqobatlashib",
+        "defEn": "playing against other people to win"
+      },
+      {
+        "en": "to get into (something)",
+        "uz": "biror narsaga qiziqib qolmoq, berilib ketmoq",
+        "defEn": "to become really interested in something"
+      },
+      {
+        "en": "professional",
+        "uz": "professional (pul evaziga, yuqori darajada ish qiladigan)",
+        "defEn": "someone who is paid to do something because they are very good at it"
+      },
+      {
+        "en": "an industry",
+        "uz": "soha, sanoat (koʻp qismlardan iborat biznes)",
+        "defEn": "an area of business made up of many different parts"
+      },
+      {
+        "en": "a scene",
+        "uz": "muhit, olam (biror faoliyatning butun dunyosi)",
+        "defEn": "the world of a particular activity — its events, people and competitions"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How to find what excites you — and chase it",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "What excites you most in life right now — and what's one exciting goal you're working towards? Ask a friend too: “Can you tell me what excites you? You have a big goal, don't you?”",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: savollar va soʻroq qoʻshimchasi (Can you tell me…? …, don't you?) hamda feʼl qoliplari (I love …ing, I want to …, I'm looking forward to …ing).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/23/main.mp3",
+      "bytes": 11258811
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/23/main.pdf",
+      "bytes": 167607
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/23/vocab.mp3",
+      "bytes": 7792024
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/23/ministory.mp3",
+      "bytes": 12257600
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/23/pov.mp3",
+      "bytes": 4866411
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/23/pov.pdf",
+      "bytes": 145160
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0154/dg.mp3",
+      "bytes": 471564
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0154/transcript.pdf",
+      "bytes": 86544
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180621/audio.mp3",
+      "bytes": 6045849
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180621/transcript.pdf",
+      "bytes": 235281
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

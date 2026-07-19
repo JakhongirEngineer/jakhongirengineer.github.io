@@ -1,0 +1,167 @@
+{
+  "slug": "healthy-at-100",
+  "title": "Healthy at 100",
+  "titleUz": "100 yoshda ham sogʻlom",
+  "level": "B1",
+  "tags": ["health", "lifestyle", "obligation", "phrasal-verbs", "diet"],
+  "intro": {
+    "uz": "John Robbinsning \"Healthy at 100\" kitobi asosida: nega baʼzi odamlar 90-100 yoshda ham baquvvat va sogʻlom yashaydi? AJ ovqatlanish va harakatni asosiy sabab deb koʻrsatadi. Bu haftaning ikki grammatikasi shu mavzuga mos: majburiyat va taqiq (must / have to / mustn't / don't have to) hamda hayotiy frazaviy feʼllar (give up / cut down on / take up / work out / get over). Joe haqidagi POV hikoyada ikkalasini ham eshitasiz.",
+    "en": "Based on John Robbins' book \"Healthy at 100\": why do some people stay strong and healthy at 90 or 100? AJ points to diet and movement as the main reasons. This week's two grammar topics fit the theme: obligation and prohibition (must / have to / mustn't / don't have to) and lifestyle phrasal verbs (give up / cut down on / take up / work out / get over). You'll hear both in the POV story about Joe."
+  },
+  "canDo": {
+    "uz": "Dars oxirida sogʻlom hayot qoidalarini toʻxtamasdan ayta olasiz — nima shart (have to), nima mumkin emas (mustn't), nima ixtiyoriy (don't have to) — va oʻz odatlaringizni frazaviy feʼllar bilan tasvirlab bera olasiz (give up, cut down on, take up).",
+    "en": "By the end you can state rules for a healthy life out loud — what you have to do, what you mustn't do, and what you don't have to do — and describe your own habits with phrasal verbs (give up, cut down on, take up)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "obligation-prohibition",
+      "titleUz": "Majburiyat va taqiq: must / have to / mustn't / don't have to",
+      "titleEn": "Obligation & prohibition",
+      "bandLifter": "IELTS Part 3 — talk about rules, health advice and what people should or shouldn't do",
+      "cefrCanDo": "B1: I can express obligation, prohibition and lack of obligation correctly",
+      "contrastUz": "Oʻzbek tilida \"kerak / shart\" bitta soʻz bilan majburiyatni ham, uning yoʻqligini ham qamrab oladi, shuning uchun \"don't have to\" (shart emas) ni \"mumkin emas\" deb tarjima qilib yuborish oson. Ingliz tili aniq ajratadi: mustn't = taqiq (mumkin emas), don't have to = tanlov (shart emas). must ham kelasi/oʻtgan zamonda ishlamaydi — oʻrniga have to / had to keladi.",
+      "errorFixUz": "❌ You don't have to smoke here (taqiqni nazarda tutib). ✅ You mustn't smoke here. \"don't have to\" majburiyat yoʻqligini bildiradi (ixtiyoriy), taqiqni emas. Taqiq uchun mustn't ishlating.",
+      "examples": [
+        { "en": "You have to exercise if you want to be healthy.", "uz": "Sogʻlom boʻlishni istasang, mashq qilishing shart." },
+        { "en": "You mustn't eat a lot of sugar and fat.", "uz": "Koʻp shakar va yogʻ yeyish mumkin emas." },
+        { "en": "You don't have to be a vegetarian to be healthy.", "uz": "Sogʻlom boʻlish uchun vegetarian boʻlishing shart emas." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "To be a movie star, Joe thought he ___ have big teeth.",
+          "options": ["must", "mustn't", "doesn't have to"],
+          "answer": "must",
+          "hintUz": "kuchli majburiyat (shart) → must"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The doctor says you ___ smoke — it's very dangerous.",
+          "options": ["mustn't", "don't have to", "have to"],
+          "answer": "mustn't",
+          "hintUz": "taqiq (mumkin emas) → mustn't"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "You ___ eat meat every day; vegetables are enough.",
+          "options": ["don't have to", "mustn't", "must"],
+          "answer": "don't have to",
+          "hintUz": "majburiyat yoʻq (shart emas) → don't have to"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz sogʻligʻingiz haqida uchta rost gap ayting (ovoz chiqarib): \"I have to … . I mustn't … . I don't have to … .\"",
+          "answer": null,
+          "hintUz": "have to = shart; mustn't = mumkin emas; don't have to = shart emas"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "lifestyle-phrasal-verbs",
+      "titleUz": "Hayotiy frazaviy feʼllar: give up / cut down on / take up / work out / get over",
+      "titleEn": "Lifestyle phrasal verbs",
+      "bandLifter": "IELTS Part 1 & 2 — describe habits, sports and lifestyle changes naturally",
+      "cefrCanDo": "B1→B2: I can describe lifestyle changes with phrasal verbs and place the object correctly",
+      "contrastUz": "Oʻzbek tilida \"tashlamoq, kamaytirmoq, boshlamoq\" bitta feʼl bilan aytiladi. Ingliz tili feʼlga kichik soʻz (up / down on / over) qoʻshib maʼnoni oʻzgartiradi — va oʻsha kichik soʻz tushib qolsa, gap notoʻgʻri boʻladi. Ayniqsa \"cut down\" emas, \"cut down ON sugar\": on unutilmasin.",
+      "errorFixUz": "❌ I want to cut down sugar. I gave up it. ✅ I want to cut down on sugar. I gave it up. \"cut down\" dan keyin ON kerak; \"give up\" da esa olmosh (it/them) majburan oʻrtada turadi: give it up.",
+      "examples": [
+        { "en": "Joe gave up dairy products to get thin.", "uz": "Joe ozish uchun sut mahsulotlarini butunlay tashladi." },
+        { "en": "You should cut down on coffee, not stop it completely.", "uz": "Kofeni butunlay tashlamay, kamaytirishing kerak." },
+        { "en": "I took up running and now I work out every morning.", "uz": "Yugurishni boshladim va endi har tong mashq qilaman." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The doctor told him to ___ on salt and sugar.",
+          "options": ["cut down", "give up", "take up"],
+          "answer": "cut down",
+          "hintUz": "kamaytirmoq (butunlay emas) → cut down on"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Joe decided to ___ dairy products completely.",
+          "options": ["give up", "cut down on", "get over"],
+          "answer": "give up",
+          "hintUz": "butunlay tashlamoq → give up"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She wants to ___ swimming this summer.",
+          "options": ["take up", "give up", "cut down on"],
+          "answer": "take up",
+          "hintUz": "yangi mashgʻulotni boshlamoq → take up"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻz \"sogʻliq qarorlaringiz\"ni ayting: \"I'm going to give up … , cut down on … and take up … .\"",
+          "answer": null,
+          "hintUz": "give up = tashlamoq; cut down on = kamaytirmoq; take up = boshlamoq"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "a correlation between", "pos": "phrase", "uz": "(ikki narsa) oʻrtasidagi bogʻliqlik, aloqadorlik", "defEn": "a connection or association between two things", "example": "There is a correlation between cancer and animal food." },
+    { "en": "animal food consumption", "pos": "phrase", "uz": "hayvon mahsulotlarini isteʼmol qilish", "defEn": "the eating of meat and dairy; consumption means eating or using up", "example": "High animal food consumption raises the risk of disease." },
+    { "en": "colon cancer", "pos": "phrase", "uz": "yoʻgʻon ichak saratoni", "defEn": "cancer of the colon, the lower intestine or bowel", "example": "Women who ate a lot of meat had high rates of colon cancer." },
+    { "en": "dairy products", "pos": "phrase", "uz": "sut mahsulotlari (sut, pishloq)", "defEn": "foods made from milk, such as milk and cheese", "example": "He stopped eating dairy products to get thin." },
+    { "en": "prostate cancer", "pos": "phrase", "uz": "prostata (bez) saratoni", "defEn": "a type of cancer of the prostate, a small gland in men", "example": "Dairy products are linked to a higher rate of prostate cancer." },
+    { "en": "advanced cancer", "pos": "phrase", "uz": "kuchaygan, rivojlangan saraton", "defEn": "cancer that has already grown a lot; high-level, serious cancer", "example": "Fruit and vegetables lower the risk of advanced cancer." },
+    { "en": "on the other hand", "pos": "phrase", "uz": "boshqa tomondan, biroq", "defEn": "however; used to introduce a contrasting idea", "example": "On the other hand, vegetarians have very low rates of cancer." },
+    { "en": "associated with", "pos": "phrase", "uz": "(bir narsa) bilan bogʻliq", "defEn": "connected to; happening together with", "example": "High meat consumption is associated with cancer." },
+    { "en": "a whopping (70%) reduction", "pos": "phrase", "uz": "juda katta (70%) kamayish", "defEn": "a very big or huge reduction; whopping means enormous", "example": "Soy milk gave a whopping 70% reduction in risk." },
+    { "en": "genetic counterparts", "pos": "phrase", "uz": "genetik jihatdan teng, oʻxshash kishilar (masalan aka-uka)", "defEn": "people who are a genetic match or equal but live differently", "example": "Chinese Americans get more cancer than their genetic counterparts in China." }
+  ],
+  "englishpod": {
+    "title": "Daily Life – Junk Food",
+    "titleUz": "Kundalik hayot — Zararli ovqat",
+    "warmup": {
+      "uz": "Suhbatda bir doʻst ikkinchisini burger va gazlangan ichimlik oʻrniga sogʻlomroq ovqatlanishga undaydi: \"You have to start eating better. You should cut down on sugar.\" Bu \"Healthy at 100\" mavzusiga mos — AJ ham aynan shuni aytadi. Sizningcha, u vaʼdasida turadimi (stick to his promise)?",
+      "en": "In this dialogue one friend pushes the other to eat healthier instead of burgers and soda: \"You have to start eating better. You should cut down on sugar.\" It fits the \"Healthy at 100\" theme — exactly what AJ argues. Do you think he'll stick to his promise?"
+    },
+    "keyVocab": [
+      { "en": "grab a bite (to eat)", "uz": "shosha-pisha bir narsa yemoq, gazak qilmoq", "defEn": "to get food that can be eaten quickly" },
+      { "en": "all you ever do (is …)", "uz": "sen faqat … qilasan, xolos (odatni tanqid qilish)", "defEn": "an expression criticising something a person does very frequently" },
+      { "en": "how about (…?)", "uz": "… boʻlsa-chi? nima deysan?", "defEn": "a phrase used to make a suggestion or ask an opinion" },
+      { "en": "cut down on (something)", "uz": "(bir narsani) kamaytirmoq", "defEn": "to reduce the amount of something you take or use" },
+      { "en": "sugar intake", "uz": "isteʼmol qilinadigan shakar miqdori", "defEn": "the amount of sugar you eat or drink" },
+      { "en": "stick to (a promise)", "uz": "vaʼdada turmoq, tashlab qoʻymay davom ettirmoq", "defEn": "to keep doing something you decided or promised to do" }
+    ]
+  },
+  "sixmin": {
+    "title": "Life expectancy",
+    "titleUz": "Umr davomiyligi",
+    "quiz": [
+      {
+        "q": "By the year 2030, will the USA's life expectancy be in the top, middle or bottom third compared to the rest of the world?",
+        "qUz": "2030-yilga borib, AQSHning umr davomiyligi dunyoning qolgan qismiga nisbatan yuqori, oʻrta yoki quyi uchdan birdami?",
+        "options": ["the top third", "the middle third", "the bottom third"],
+        "answerIndex": 2,
+        "explanationUz": "Toʻgʻri javob: c) the bottom third (quyi uchdan bir). Dan boy davlat deb \"top third\" dedi, lekin adashdi — AQSH dunyodagi eng kam adolatli (least equitable) joylardan biri, shuning uchun umr davomiyligi past. Prognozga koʻra 2030-yilda eng yuqori koʻrsatkich Janubiy Koreyada boʻladi (taxminan 90 yosh)."
+      }
+    ],
+    "vocab": [
+      { "en": "dead on your feet", "uz": "oyoqda turolmas darajada charchagan, holdan toygan", "defEn": "extremely tired" },
+      { "en": "a motto", "uz": "shior, hayotiy aqida (qisqa gap)", "defEn": "a short phrase reflecting the beliefs of a person or organisation" },
+      { "en": "life expectancy", "uz": "umr davomiyligi (odam necha yil yashashi ehtimoli)", "defEn": "how many years a person is likely to live" },
+      { "en": "equitable", "uz": "adolatli, tenglikka asoslangan", "defEn": "fair and impartial; from the word 'equal'" },
+      { "en": "obesity", "uz": "semizlik (haddan tashqari ortiqcha vazn)", "defEn": "the state of being very overweight" },
+      { "en": "to binge", "uz": "meʼyorsiz koʻp isteʼmol qilmoq (qisqa vaqtda haddan ortiq)", "defEn": "to consume a large amount of something in a short time, especially food or alcohol" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "How the world's longest-living people stay healthy at 100",
+      "channel": "BBC Learning English"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "What do you have to do to live a long, healthy life — and what mustn't you do? Talk about a habit you want to give up, something you'd like to cut down on, and a new activity you'd like to take up.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: majburiyat va taqiq (I have to … , I mustn't … , I don't have to …) hamda hayotiy frazaviy feʼllar (give up … , cut down on … , take up …).",
+    "targetSec": 60
+  }
+}

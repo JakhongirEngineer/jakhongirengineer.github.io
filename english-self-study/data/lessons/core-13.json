@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 2,
+  "id": "core-13",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 13,
+  "slug": "walden",
+  "title": "Walden",
+  "titleUz": "Walden — soddaroq yashash",
+  "level": "B1",
+  "tags": [
+    "simplicity",
+    "minimalism",
+    "comparatives",
+    "zero-article",
+    "thoreau"
+  ],
+  "intro": {
+    "uz": "Walden — Henry David Thoreauning oʻrmonda soddaroq yashab oʻtkazgan tajribasi haqidagi kitob. Asosiy gʻoya: kamroq narsa bilan yashang, koʻp narsaga quvmang, hayotni soddalashtiring. Bu haftaning ikki grammatik mavzusi shu gʻoyaning tili: kamayish qiyoslari (less / fewer / more simply) va umumiy maʼnodagi nol artikl (Nature, life, simplicity — artiklsiz).",
+    "en": "Walden is Henry David Thoreau's book about his experiment living simply in the woods. The core idea: need less, own fewer things, live more simply. This week's two grammar topics are the language of that idea: comparatives of reduction (less / fewer / more simply) and the zero / generic article (Nature, life, simplicity — with no article)."
+  },
+  "canDo": {
+    "uz": "Dars oxirida narsalarni kamaytirish haqida toʻgʻri gapira olasiz (fewer things, less stress, live more simply) va mavhum, umumiy tushunchalarni artiklsiz toʻgʻri ayta olasiz (Freedom is important; Nature teaches us).",
+    "en": "By the end you can talk correctly about having less (fewer things, less stress, live more simply) and speak about abstract, general ideas with the correct zero article (Freedom is important; Nature teaches us)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "comparatives-of-reduction",
+      "titleUz": "Kamayish qiyoslari: less / fewer / more simply / the least",
+      "titleEn": "Comparatives of reduction — less / fewer / more simply",
+      "bandLifter": "IELTS Part 2 — describe having or needing less over time",
+      "cefrCanDo": "B1: I can use less vs fewer correctly with countable and uncountable nouns",
+      "bodyHtml": "<p>Walden darsining butun gʻoyasi bitta jumlada: <em>&quot;Live <strong>more simply</strong> and you will have a lot of time. You'll work much <strong>less</strong>.&quot;</em> Thoreau oʻrmonda <strong>kamroq</strong> narsa bilan yashab, <strong>soddaroq</strong> hayotni tanladi. Ingliz tili bu &quot;kamayish&quot; gʻoyasini uch xil soʻz bilan ifodalaydi — va aynan shu yerda oʻzbek oʻquvchilar bitta xatoga yoʻl qoʻyadi: <em>less</em> va <em>fewer</em> ni adashtirib yuboradi.</p>\n<h3>Maʼnosi: &quot;kamroq&quot; gʻoyasi</h3>\n<p>Bu haftaning kaliti — <strong>kamaytirish</strong>: kamroq narsa, kamroq tashvish, soddaroq turmush. Ingliz tilida &quot;kamroq&quot; degani doim bitta soʻz emas — nimani kamaytirayotganingizga qarab tanlanadi.</p>\n<h3><code>less</code> va <code>fewer</code> — eng muhim farq</h3>\n<p>Bu ikkalasi ham &quot;kamroq&quot; degani, ammo:</p>\n<ul>\n<li><strong>less + sanab boʻlmaydigan ot</strong> (uncountable): <em>less money, less time, less stress, less noise.</em></li>\n<li><strong>fewer + sanaladigan koʻplik ot</strong> (countable plural): <em>fewer things, fewer clothes, fewer cars, fewer problems.</em></li>\n</ul>\n<p>Oddiy sinov: otni &quot;bir, ikki, uch…&quot; deb sanay olasizmi? Sanalsa — <strong>fewer</strong>. Sanalmasa — <strong>less</strong>.</p>\n<ul>\n<li><em>Thoreau owned <strong>fewer</strong> things than his neighbours.</em> — narsalar sanaladi → fewer.</li>\n<li><em>When you simplify your life, you have <strong>less</strong> stress.</em> — stress sanalmaydi → less.</li>\n</ul>\n<h3><code>more simply</code> — feʼlni &quot;soddaroq&quot; qilish</h3>\n<p>Sifat emas, <strong>feʼlni</strong> (ish-harakatni) tasvirlaganda ravishning qiyosiy shakli kerak: <em>simply → more simply</em> (&quot;soddaroq&quot;). Xuddi shunday <em>carefully → more carefully.</em></p>\n<ul>\n<li><em>He decided to live <strong>more simply</strong>.</em> — U soddaroq yashashga qaror qildi.</li>\n<li><em>Speak <strong>more slowly</strong>, please.</em> — Sekinroq gapiring.</li>\n</ul>\n<p>❗ <em>live more simple</em> emas — bu yerda &quot;qanday yashash&quot; deyilmoqda, shuning uchun ravish (<em>simply</em>), sifat (<em>simple</em>) emas.</p>\n<h3><code>the least</code> — &quot;eng kam&quot;</h3>\n<p>Eng yuqori (superlative) darajasi: <em>little → less → <strong>the least</strong></em> (&quot;eng kam&quot;). <em>He wanted <strong>the least</strong> possible — just a small, simple house.</em></p>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida hammasi bir soʻz — <strong>&quot;kam&quot; / &quot;kamroq&quot;</strong>: &quot;kamroq pul&quot;, &quot;kamroq narsa&quot;. Shuning uchun quloq <em>less</em> bilan <em>fewer</em> orasidagi farqni sezmaydi va koʻpincha hamma joyda <em>less</em> deb yuboriladi. Yodda tuting: sanaladigan koʻplik boʻlsa — <strong>fewer</strong>, aks holda — <strong>less</strong>.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> buni ovoz chiqarib mustahkamlang. Har kuni oʻz hayotingizdan uchta jumla ayting: <em>&quot;I want <strong>fewer</strong> things. I need <strong>less</strong> money. I will live <strong>more simply</strong>.&quot;</em> Uch soʻz bir jumlada — miya farqni shu tariqa oʻzlashtiradi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida hammasi bitta soʻz — “kam” yoki “kamroq”: “kamroq pul”, “kamroq narsa”. Ingliz tili esa nimani kamaytirayotganingizga qarab ikkiga ajratadi: sanaladigan koʻplik ot bilan “fewer” (fewer things), sanab boʻlmaydigan ot bilan “less” (less money). Feʼlni soddalashtirsangiz esa ravish keladi: “live more simply”.",
+      "errorFixUz": "❌ less things / less problems. ✅ fewer things / fewer problems. Sanaladigan koʻplik ot bilan “fewer”; “less” faqat sanab boʻlmaydigan ot bilan (less time, less stress). Sinov: otni sanay olsangiz — fewer, aks holda — less.",
+      "examples": [
+        {
+          "en": "Thoreau owned fewer things than his neighbours.",
+          "uz": "Thoreau qoʻshnilariga qaraganda kamroq narsaga ega edi."
+        },
+        {
+          "en": "When you simplify your life, you have less stress.",
+          "uz": "Hayotingizni soddalashtirsangiz, tashvishingiz kamayadi."
+        },
+        {
+          "en": "He decided to live more simply.",
+          "uz": "U soddaroq yashashga qaror qildi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Thoreau wanted to own ___ things.",
+          "options": [
+            "fewer",
+            "less",
+            "lesser"
+          ],
+          "answer": "fewer",
+          "hintUz": "things sanaladi (koʻplik) → fewer"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "A simple life means ___ stress.",
+          "options": [
+            "less",
+            "fewer",
+            "least"
+          ],
+          "answer": "less",
+          "hintUz": "stress sanab boʻlmaydi → less"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He decided to live ___.",
+          "options": [
+            "more simply",
+            "more simple",
+            "simplier"
+          ],
+          "answer": "more simply",
+          "hintUz": "feʼlni tasvirlaydi → ravish: more simply (more simple emas)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): “I want fewer … , I need less … , and I will live more simply.”",
+          "answer": null,
+          "hintUz": "sanaladigan → fewer; sanalmaydigan → less; feʼl → more simply"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "articles-2-zero-generic",
+      "titleUz": "Artikllar 2: umumiy maʼnoda artiklsiz (nature, life, simplicity)",
+      "titleEn": "Articles 2 — the zero / generic article",
+      "bandLifter": "IELTS Part 3 — discuss abstract ideas fluently and accurately",
+      "cefrCanDo": "B1→B2: I can use the zero article for abstract and uncountable nouns used in a general sense",
+      "bodyHtml": "<p>Thoreau Waldenda katta, mavhum soʻzlar bilan gapiradi — masalan <em>Simplicity is freedom</em> yoki <em>Nature teaches us</em> kabi jumlalarda. Kitobning oʻzidan bir haqiqiy satr: <em>&quot;solitude will not be solitude, nor poverty poverty&quot;</em>. Diqqat qiling — bu soʻzlarning oldida <em>the</em> ham, <em>a</em> ham yoʻq. Bu tasodif emas: ingliz tilida <strong>umumiy, mavhum maʼnoda</strong> gapirganda artikl <strong>umuman qoʻyilmaydi</strong>. Buni &quot;nol artikl&quot; (zero article) deymiz.</p>\n<h3>Maʼnosi: umuman, umumiy maʼnoda</h3>\n<p>Artikl otni <strong>aniq</strong> qiladi (<em>the house</em> — aynan oʻsha uy). Ammo mavhum tushuncha yoki butun bir toifa haqida <strong>umuman</strong> gapirsangiz, hech qanday artikl kerak emas.</p>\n<ul>\n<li><strong>Mavhum otlar</strong> (his-tuygʻu, gʻoya): <em>freedom, happiness, simplicity, nature, life, love, poverty, silence.</em></li>\n<li><strong>Sanab boʻlmaydigan otlar</strong> (umumiy maʼnoda): <em>money, time, stress, water, furniture.</em></li>\n</ul>\n<p>Misollar (barchasi nol artikl bilan):</p>\n<ul>\n<li><em><strong>Simplicity</strong> is freedom.</em> — Soddalik — bu erkinlik.</li>\n<li><em><strong>Nature</strong> teaches us to live simply.</em> — Tabiat bizni soddaroq yashashga oʻrgatadi.</li>\n<li><em>We don't need so much <strong>money</strong> to be happy.</em> — Baxtli boʻlish uchun bizga koʻp pul kerak emas.</li>\n<li><em>Thoreau valued <strong>solitude</strong> and <strong>silence</strong>.</em> — Thoreau yolgʻizlik va sukunatni qadrlardi.</li>\n</ul>\n<h3>Umumiy ↔ aniq: shu yerda hammasi hal boʻladi</h3>\n<p>Xuddi shu ot <strong>aniq</strong>, konkret narsani bildirsa, <em>the</em> qaytadi:</p>\n<ul>\n<li><em>I love <strong>nature</strong>.</em> (umuman tabiat) — lekin <em>I love <strong>the nature</strong> of this forest.</em> (aynan shu oʻrmonning tabiati)</li>\n<li><em><strong>Money</strong> isn't everything.</em> (umuman pul) — lekin <em>Where is <strong>the money</strong> I gave you?</em> (aynan oʻsha pul)</li>\n</ul>\n<p>Demak savol bitta: mavhum/umumiymi yoki aniqmi? Umumiy boʻlsa — artiklsiz.</p>\n<h3>Inglizcha ↔ oʻzbekcha</h3>\n<p>Oʻzbek tilida artikl <strong>umuman yoʻq</strong> — &quot;erkinlik&quot;, &quot;tabiat&quot;, &quot;pul&quot; hamisha yalangʻoch keladi. Shuning uchun oʻzbek oʻquvchilar ikki xil xato qiladi: yo hamma joyga <em>the</em> qoʻshib yuboradi (<em>the freedom is important</em> ❌), yo aniq narsaga <em>the</em> qoʻyishni unutadi. Yaxshi xabar: mavhum va umumiy maʼnoda oʻzbekchadagidek — hech narsa qoʻshmaysiz.</p>\n<h3>POVdagi bogʻlanish</h3>\n<p>POV hikoyada Inka <em>since she was 16 has wanted to build a castle</em> deydi — bu yerda asosan present perfect (<em>since/for</em>) eshitiladi. Artikl tomonidan esa faqat aniq narsalar quloqqa tashlanadi: <em>the castle</em>, <em>the foundation</em> — konkret narsa boʻlgani uchun <em>the</em> bilan keladi. Nol artiklni esa yuqoridagi mavhum misollarda mashq qiling.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> mavhum soʻzlar bilan ovoz chiqarib mashq qiling: <em>&quot;<strong>Freedom</strong> is important. <strong>Happiness</strong> is a choice. <strong>Simplicity</strong> is beautiful.&quot;</em> Artiklsiz — xuddi shior kabi. Har kuni bir mavhum jumla ayting, quloq nol artiklga oʻrganadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tilida artikl umuman yoʻq — “erkinlik”, “tabiat”, “pul” hamisha yalangʻoch keladi. Ingliz tili esa mavhum yoki umumiy maʼnodagi otni artiklsiz qoldiradi (Freedom is important), aynan aniq narsani esa “the” bilan beradi (the freedom of this country). Umumiy boʻlsa — hech narsa qoʻshmang.",
+      "errorFixUz": "❌ The freedom is important. The nature teaches us. ✅ Freedom is important. Nature teaches us. Mavhum/umumiy tushunchaga artikl qoʻyilmaydi; “the” faqat aniq, konkret narsa uchun (the nature of this forest).",
+      "examples": [
+        {
+          "en": "Simplicity is freedom.",
+          "uz": "Soddalik — bu erkinlik."
+        },
+        {
+          "en": "Nature teaches us to live simply.",
+          "uz": "Tabiat bizni soddaroq yashashga oʻrgatadi."
+        },
+        {
+          "en": "We don't need so much money to be happy.",
+          "uz": "Baxtli boʻlish uchun bizga koʻp pul kerak emas."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "___ teaches us to live simply, wrote Thoreau.",
+          "options": [
+            "Nature",
+            "The nature",
+            "A nature"
+          ],
+          "answer": "Nature",
+          "hintUz": "umumiy, mavhum maʼno → artiklsiz: Nature"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Thoreau believed ___ is more important than money.",
+          "options": [
+            "happiness",
+            "the happiness",
+            "a happiness"
+          ],
+          "answer": "happiness",
+          "hintUz": "mavhum ot, umuman → artiklsiz: happiness"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "We don't need so much ___ to be happy.",
+          "options": [
+            "money",
+            "a money",
+            "the money"
+          ],
+          "answer": "money",
+          "hintUz": "sanab boʻlmaydigan ot, umumiy maʼno → artiklsiz: money"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: “… is important to me.” (masalan Freedom / Simplicity / Silence — mavhum soʻz bilan, artiklsiz)",
+          "answer": null,
+          "hintUz": "mavhum/umumiy tushuncha → artiklsiz boshlang"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/13/main.mp3",
+      "durationSec": 628,
+      "bytes": 7549728,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/13/vocab.mp3",
+      "durationSec": 575,
+      "bytes": 6914025,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/13/ministory.mp3",
+      "durationSec": 642,
+      "bytes": 7716244,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/13/pov.mp3",
+      "durationSec": 401,
+      "bytes": 4826941,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Hi, this is AJ again. Welcome to the next lesson. This week’s lesson is called “Walden.” And we’re going to talk about a book with the same name, Walden, by a writer named Henry David Thoreau. Now Thoreau is probably my favorite American writer, I guess maybe my favorite writer in general.",
+      "He wrote back during the American Civil War, prior to the American Civil War, and his book Walden is his most famous book. Now it’s quite difficult. There’s a lot of big vocabulary in this book. And also the writing style is kind of old, very, very, very formal English and a little bit of an old style of English.",
+      "So I’m going to read one paragraph from the book and then I’ll talk about it more. And that paragraph may be quite difficult for you, but don’t worry. I’ll explain it after. Now, Walden, the book, is about an experiment, an experience that Henry David Thoreau had. He decided to go and live in the woods.",
+      "Go away from the town where he was into the woods, into the forest, and then build a very small little simple house and live in it by himself. And just think and relax and live a very simple life. And then he wrote a book about this experience.",
+      "Now, of course, this is something that people have done for centuries and centuries, holy people, religious people, spiritual people, philosophers. In many different periods of history, in many different locations in the world, they’ve gone off by themselves to some small remote place away from other people to think, to live simply.",
+      "And of course we have a lot of great intellectual breakthroughs from these people. So it’s a long tradition to do this and Henry David Thoreau was following the same tradition. And it’s not a usual thing for Americans, I would say. He was maybe one of the first Americans to do this and write about it.",
+      "I’m sure many did it but he wrote about his experience. And this book is a book about his experience, his experiment, but more so it’s a book about his philosophy, a philosophy of life that he developed while living in the woods alone. And the main part of this philosophy is to live simply.",
+      "That in fact we don’t need so much in terms of things, buying things, getting lots of things. So even at that time in the United States people were always trying to get more, more, more…bigger, bigger, bigger house…more, more, more money…more, more, more nice furniture.",
+      "Just always buying things and of course today we have more, more, more computers and iPods and phones and bigger cars and nicer stuff. All the time people want more, more, more. And he was saying this is a source of unhappiness if you’re always trying to get more and more and more you will never be happy.",
+      "And so his idea was actually to be happy with what you need and then focus on doing other things. Instead of always trying to get more, more, more, live more simply and you will have a lot of time for yourself. You’ll work much less. You’ll enjoy your life. So that is the basic philosophy of",
+      "Henry David Thoreau. It’s also a very Buddhist or Taoist philosophy. A lot of different religions and spiritual practices have this similar philosophy. So anyway, let me read this paragraph about his experiment and then we’ll talk about it a little more. Here we go.",
+      "I learned this, at least, by my experiment: that if one advances confidently in the direction of his dreams, and endeavors to live the life which he has imagined, he will meet with a success unexpected in common hours.",
+      "He will put some things behind, will pass an invisible boundary; new, universal, and more liberal laws will begin to establish themselves around and within him; or the old laws will be expanded, and interpreted in his favor in a more liberal sense.",
+      "In proportion as he simplifies his life, the laws of the universe will appear less complex, and solitude will not be solitude, nor poverty poverty, nor weakness weakness. If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them. Okay, that is the paragraph.",
+      "What does it mean? Let’s talk about it. I’ll go from the beginning and discuss the meaning of this.",
+      "Now the beginning part he says if one (it means someone) advances confidently (strongly) in the direction of his dream (of their dream), and endeavors (and tries) to live the life they have imagined, they will meet with a success unexpected in common hours. What that means is if you try to live your dream you will be successful.",
+      "You’ll be surprised that if you really are confident and strong, you say “I will do this,” whatever your dream is, whatever your big goal is, if you just start working towards it and trying to get it that you’ll be surprised at your success. You will succeed. It will be less difficult than you imagined.",
+      "And then he talks about, y’know, new laws will open around this person…what he’s saying is that the universe or God or the Tao, whatever your belief is, that it will help you. That in fact, that the more confident you are, the more strongly you try to get your dreams, you will get help. Things will happen to help you.",
+      "Y’know, if you’re religious, y’know, maybe you think God is going to help you. But God’s going to wait until you are confident, until you actually try to live your biggest dream. And if you do that and you keep trying and you’re strong and you believe, then God will give you help.",
+      "And if you’re not religious and you don’t believe in God, maybe it’s, y’know, the Tao, or the force of the universe or, y’know, maybe it’s your unconscious mind that’s going to give you that help. Whatever it is, some force or forces will help you. You won’t be alone. That’s what he’s saying.",
+      "So he’s basically saying to have faith, believe. Believe in your dream. Try to get your dream and if you do it you’re going to succeed. It’s going to be easier. Things will happen to help you. So that’s the first part of the paragraph.",
+      "In the second part of the paragraph he says that the more you simplify your life, the easier life becomes, that’s what that means. In proportion as you simplify your life the laws of the universe will appear less complex. What that means is the more you make",
+      "your life simple, the easier your life becomes. Everything becomes easier. It’s easier to succeed. It’s easier to do everything. You have less stress in your life. Everything becomes much, much easier the more your life is simplified. And then finally he says if you have built castles in the air, your work is not lost.",
+      "That’s where they should be. Put the foundations under them. Castles in the air, I’ll talk about this in vocabulary, but castles in the air just means dreaming big. It’s a slang phrase, an idiom actually, and it just means if you build castles in the air, to build castles in the air, means to dream big, right?",
+      "You’re not building a house on the ground. You’re building your house up in the air. You’re dreaming a big dream. He’s saying that that is great. That’s fantastic. You should dream very, very big. Don’t have small dreams. Have really big dreams. He says but the next step is you must do something. Don’t just dream.",
+      "Just dreaming is not enough. If you dream only, nothing will happen. He says you have to put the foundations under the castle, under the house. That means you have to take action. You have to take action. You have to dream a really big dream, that’s the first step. But the second step, you have to take action.",
+      "You actually have to work to get that dream. So he’s saying yes, dream big, but also take action. Alright, so that is the end of the Walden main story here. I hope you enjoyed it. Walden is a fantastic book but I warn you, it is quite difficult so reading the whole thing might be very difficult for most non-native speakers.",
+      "In fact, it can be a difficult book even for native speakers. But I hope you get a little bit of the idea of Walden and of Thoreau’s philosophy just from this paragraph alone. Okay, see you in the vocabulary lesson."
+    ],
+    "vocab": [
+      "Hi, this is AJ. Welcome to the vocabulary lesson for “Walden.” Let’s get started. Our first word is advance, to advance. So this is a verb. Now you probably know advanced in another meaning, meaning high level. But this is a different meaning. This is a verb. It’s an action. To advance means to move forward, to move forward.",
+      "So advance towards your dreams means move towards your dreams. Go forward towards your dreams. Alright, our next word is to endeavor. This is a noun also but in this paragraph it’s a verb, to endeavor to do something. To endeavor to live the life you have imagined. To endeavor to live your dreams and endeavor means to try, to attempt.",
+      "So, to attempt to live your dreams, to try to live your dreams, to endeavor to live your dreams. So Thoreau is saying you should endeavor to live your biggest dreams. You should try to live your biggest dreams.",
+      "Okay, and then a little later he says if you do this, if you try to live your biggest dreams and you try hard then you will have success unexpected in common hours. Unexpected is kind of like a surprise, right? But in common hours means during normal times, like in your normal life.",
+      "So maybe right now, during your normal life you imagine your big, big dream and you can’t imagine success. It seems so difficult. It’s like “Oh my god.” So this is sort of your normal time, your common hour. But if you take a big chance, if you really try, your success will be huge. It will be bigger than you can imagine normally.",
+      "So in common hours means normally, during normal times, usually. It has that idea. Little bit later he uses the word liberal. Liberal has a lot of different meanings and uses. It can be used in a political way, but here it’s used in a much more general way.",
+      "He says if you try to reach your dreams, then liberal laws will begin to happen around you. So liberal here means flexible, free, open, tolerant. Okay, so it’s this idea of more flexible, more free, more tolerant and open.",
+      "So what he’s saying is that liberal laws, laws as in like religious laws, spiritual laws, scientific laws, physical laws. He’s just saying that the universe or God or whatever will make things easier for you. That the more you try for your big, big dream that things will become more liberal. Your life situation will become more flexible.",
+      "Your life situation will become more easy and free. Your life situation will become more open. So he’s saying that your experiences, your situation, your environment will become more liberal because you have this strong belief for your big, big dream.",
+      "Because of that your environment will become liberal, liberal meaning flexible, liberal meaning free and open. www.",
+      "Alright, next we have the verb, the word to establish. To establish. So he says this liberal environment will establish itself around you. The liberal laws, the liberal environment, the liberal situation, the free open situation will establish itself around you. To establish means to create, basically.",
+      "So this situation will be created around you. It will be established around you, so to establish means to create, to start and create, to make. Okay, so again establish means to create, to make.",
+      "Alright, our next phrase “in proportion as,” we also say “in proportion to,” so in proportion as or in proportion to means equal to or in the same amount, in the same amount or equal to. So it’s in proportion, in proportion to, in proportion as. So when he says in proportion as you simplify your life, life will be easier.",
+      "It means those two things are equal. If you make your life a little simple, your life becomes a little easier. If you make your life a lot simpler, your life becomes a lot easier, equal amounts. These amounts equal each other. So if one is less, the other is less. If one is more the other is more. Right, they’re in proportion.",
+      "They’re equal amounts, or similar amounts. I already talked about this next one in the main article but let me talk about it again, to build castles in the air. He says if you have built castles in the air your work is not lost. It’s not bad is what he’s saying. Building castles in the air is not bad.",
+      "So to build castles in the air, it’s an idiom and it means to dream something big, to have a big, big, big, big dream. Some people think this is negative, right? Oh you’re a dreamer. You’re not realistic. You’re a dreamer. You are always building castles in the air. You’re always dreaming. Dreaming something big, dreaming something big.",
+      "Building castles in the air, to build castles in the air, to dream something big and wonderful. Of course, he’s saying that’s great, that’s what you must do. If your dreams are small you won’t have any energy. You won’t have any passion. Nothing happens. So he’s saying you should build castles in the air. You should dream big.",
+      "Then he says but the next step is you must put the foundations under them. So this is a metaphor, it’s kind of like poetry a little bit. He’s saying put the foundations under the castle in the air. What does that mean? It’s a little complicated. Well, a foundation is the bottom of a building.",
+      "It has different meanings, this word foundation. But here we’re talking about the bottom of a building, kind of the floor and under the floor. The whole building is on top of the foundations, it’s the bottom. So the foundation must be strong, right?",
+      "You have to have a strong foundation, a strong bottom so you can build a big building on top. So that’s the direct meaning, it’s the bottom of a building. But what he’s really saying here is that you have to have actions to support your dreams. So if your dreams are in the air, they will fall unless you put actions under them, right?",
+      "He’s comparing dreams and a building. He’s comparing dreams and a castle. He’s saying if you have a castle, if you have a big building in the air, you must put something under it. You must support it, right, a foundation. So if a castle is a dream, the building is a dream, what’s the foundation? The foundation is action.",
+      "You have to put action or actions under your dreams. That’s how your dreams become real. You must support your dreams with actions. That’s what he’s saying. That’s what he www.",
+      "means by foundation. Put the foundation under your dreams. Put the actions under your dreams. Alright, that is all for our vocabulary lesson for Walden. See you next time for the mini-story. www."
+    ],
+    "pov": [
+      "Okay, welcome to the POV, point of view, lessons/stories for “Walden.” Same story, different points of view. The first point of view starts with “Since she was 16…” Since she was 16 years old.",
+      "Since she was 16 years old Inka has wanted to build a beautiful castle. She has wanted to build a beautiful castle starting when she was 16 until recently. Since she was 16 Inka has wanted to build a big, wonderful, beautiful castle. She has dreamed of living in the castle like a princess by herself.",
+      "Who has dreamed of living in a castle by herself like a princess? Inka, Inka has dreamed of living in a castle by herself like a princess. What has she dreamed? Well, since she was 16 she has dreamed of living in a castle like a princess by herself. She has dreamed about this every day.",
+      "Since she was 16 she has dreamed about being in a beautiful castle. She has dreamed about living like a princess. Every day she has dreamed about this. When she was 17 she dreamed about it. When she was 18, 19, 20, 21, continuing…starting when she was 16 and continuing. She has dreamed and dreamed and dreamed.",
+      "Well one day she decided to advance towards her dream. She decided to take action. And so she did, she advanced towards her dream. In fact she endeavored to build a castle out of diamonds. She tried to build the diamond castle but it was too difficult. Diamonds are very expensive and big diamonds are very heavy. And so she stopped.",
+      "Next, she asked her friends for help. She established a team of builders to help her build the castle. Every day they worked on the castle. But they didn’t build a diamond castle. They built a huge castle out of gum. But that’s not all. The foundation of the castle was made of spaghetti.",
+      "They built a gum castle with a spaghetti foundation. Eventually they finished the castle. And they all lived together in the castle, Inka and her friends. In fact, they lived happily ever after.",
+      "www.",
+      "Okay, that’s the end of our first point of view story. Let’s next go to the future, back to the future. Are you ready? So now I have this idea, a story that will happen in the future. Hasn’t happened yet, it’s going to happen in the future.",
+      "So there will be a woman named Inka. Inka’s gonna want to build a castle, a huge beautiful castle. She’ll want to live in this castle like a princess. In fact, her dream will be to live in a castle like a princess by herself. That’s gonna be her dream. One day she’ll advance towards her dream. She will take action.",
+      "First, she’s gonna endeavor to build a castle out of diamonds. She’ll try to build a castle out of diamonds. But there will be a problem. Diamonds will be too expensive, of course. Diamonds are too expensive. They’re very expensive. And diamonds, big diamonds, are very heavy. So she’ll stop trying to build a diamond castle.",
+      "Next she’ll ask her friends for help. She’ll establish a team of builders. They’re gonna work every day building the castle. Every day they’ll go to work. Every day they’ll work and work and work to build the castle. But they won’t build a normal castle. They won’t build a diamond castle. They’ll build a castle out of gum.",
+      "They’re gonna build a huge, giant, super-big gum castle. But that’s not all. They’ll build a spaghetti foundation under the castle. The castle will have a spaghetti foundation. It’ll be a gum castle with a spaghetti foundation. Now when they finish, Inka won’t live along in the castle, no, no, no.",
+      "She’s gonna invite all her friends to live with her and they will. They’ll all live happily ever after in the gum castle with the spaghetti foundation.",
+      "Alright, that is the end of the point of view story. I hope you’re smiling. I hope you’re moving and breathing and standing tall. I will see you next time. This is AJ, bye bye. www."
+    ],
+    "sixmin": [
+      "Rob: Hello. This is 6 Minute English. I'm Rob.",
+      "Rob: Now, Neil, are you a tidy person?",
+      "Neil: Me? Oh dear no! You should see my floordrobe!",
+      "Rob: Your floordrobe?",
+      "Neil: Yes. Tidy people keep their clothes in a wardrobe. I just dump a lot of my clothes on the floor, so – a floordrobe.",
+      "Rob: Ah yes, well it sounds as if you could use a bit of decluttering. Clutter is the word for general mess and untidiness when you have too many things, too much stuff. These days the idea of decluttering is very popular.",
+      "Neil: Oh, I love a good declutter - trouble is, I hate throwing things away.",
+      "Rob: Well, we might have some advice for you in today’s programme. But first, a question. It’s about cleaning up. The vacuum cleaner is a machine we use to clean our houses. When were the first mechanical floor cleaners, which later became vacuum cleaners, invented? Was it: A) the 1860s? B) the 1890s? Or C) the 1920s?",
+      "Neil: Well, you know what? I have no idea! So, I’ll say the 1890s.",
+      "Rob: OK, well, I’ll have the answer later in the programme. The decluttering techniques of Marie Kondo are very popular these days. A UK decluttering expert, Lesley Spellman, appeared on the BBC radio programme You and Yours to discuss the topic. She was asked to describe the basics of the Marie Kondo method. What’s the first thing she recommends people start with?",
+      "Lesley Spellman: She basically says you have to do things in a certain order. You have to start with your clothes. Then you move on to your books. Then you move on to paperwork. Then you go on to something called 'komono', which is kind of everything else: kitchens, bathrooms, garages, lofts etc. And then finally you tackle sentimental things.",
+      "Rob: She says that you have to start with your clothes before moving on through different categories of clutter.",
+      "Neil: The verb she uses for dealing with these things is to tackle. To tackle something means 'to deal with it, to sort it out'.",
+      "Rob: And the last things she says you need to tackle are sentimental things. These are things that you have an emotional connection to, such as old letters and photographs. I have to say those are the things I find most difficult to get rid of! I’m very sentimental like that.",
+      "Neil: I think you just have to be ruthless, Rob! Either that or buy a bigger house. Right, let’s listen to Lesley Spellman again.",
+      "Lesley Spellman: She basically says you have to do things in a certain order. You have to start with your clothes. Then you move on to your books. Then you move on to paperwork. Then you go on to something called 'komono', which is kind of everything else: kitchens, bathrooms, garages, lofts etc. And then finally you tackle sentimental things.",
+      "Rob: So why is it that decluttering is such big business these days, and there are many people and companies offering advice and services? Here’s Lesley Spellman again with her thoughts on this.",
+      "Lesley Spellman: I think there's been a big shift really. So my generation, my parents, you know, definitely came from that 'make do and mend' era post war in the sort of 20th century. And then all of a sudden people started to get a little bit more money. Things became more affordable. You can buy five tops for five pounds each and people have done that. And that's allowed the consumerism to kind of go crazy in the 21st century.",
+      "Rob: So what does she put our need for decluttering down to?",
+      "Neil: Well, first she says that there has been a shift in our behaviour. This is a way of saying that there has been a change in the way we behave. We used to make do and mend much more. This phrase means that we made full use of what we had and if something broke, we tried to fix it.",
+      "Rob: And these days, we seem to have more money and many goods have got cheaper, and we just like buying stuff – or as she says, consumerism has gone crazy. Let’s listen to her again.",
+      "Lesley Spellman: I think there's been a big shift really. So my generation, my parents, you know, definitely came from that 'make do and mend' era post war in the sort of 20th century. And then all of a sudden people started to get a little bit more money. Things became more affordable. You can buy five tops for five pounds each and people have done that. And that's allowed the consumerism to kind of go crazy in the 21st century.",
+      "Rob: Time to tidy up today’s vocabulary, but first, let’s have the answer to the question. Earlier I asked you: When were the first mechanical floor cleaners invented? Was it in: A) the 1860s? B) the 1890s? Or C) the 1920s? And Neil, you said?",
+      "Neil: I guessed at the 1890s.",
+      "Rob: Sadly not! The correct answer is the 1860s. So, well done anyone who got that right. Now on with today’s vocabulary . The first word we had was floordrobe.",
+      "Neil: Yes, this is a word to describe a pile of clothes that someone keeps on the floor rather than in a wardrobe.",
+      "Rob: Well I don’t have a floordrobe, but I do have a chairdrobe – I guess you can work out what that means! Anyway, it seems we both have too much clutter, which is the untidiness caused by having too many things.",
+      "Neil: And this leads us to the popular pastime of decluttering, which is throwing away things to make our homes neat and tidy.",
+      "Rob: Clutter, in my life, is an issue I haven’t tackled yet. I haven’t tried to fix it or sort it out.",
+      "Neil: One area that the experts say you need to tackle is sentimental things. These are things which you have an emotional connection to – maybe old letters and photographs for example.",
+      "Rob: We then looked at the word shift, which was a way of saying 'change'. There has been a shift or a change in the way we think about things.",
+      "Neil: Yes, rather than an attitude of make do and mend, which means an attitude of 'being content with what you’ve got and fixing things if they break', we have become part of a consumerist culture where we like to buy more and more stuff.",
+      "Rob: But we still find it hard to throw things away!",
+      "Neil: Yes, indeed, we do. Well it’s time for us to collect our scripts and declutter the studio. We look forward to your company next time and until then you can find us in all the usual places online and on social media, just look for BBC Learning English. Bye for now.",
+      "Rob: Bye-bye!",
+      "VOCABULARY: floordrobe collection of clothes untidily kept on the floor rather than in a wardrobe. clutter untidiness caused by having too many things – to declutter is the process of getting rid of things to tackle (a problem) to deal with a problem and try to fix it sentimental with an emotional and/or nostalgic connection shift change make do and mend an expression that means to use what you’ve got and fix something if it breaks rather than buying new things"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What did Inka want to build?",
+        "a": "Well, Inka wanted to build a huge beautiful house."
+      },
+      {
+        "q": "What kind of house did Inka want to build?",
+        "a": "A huge beautiful house, she wanted to build a huge beautiful house."
+      },
+      {
+        "q": "Who wanted to build a huge beautiful house?",
+        "a": "Inka, Inka wanted to build a huge beautiful house."
+      },
+      {
+        "q": "Did she want to build a huge beautiful car?",
+        "a": "Not a car, no she didn’t. She didn’t want to build a huge beautiful car. She wanted to build a huge beautiful house."
+      },
+      {
+        "q": "What did she want to live like?",
+        "a": "Like a princess, she wanted to live like a princess."
+      },
+      {
+        "q": "Where did she want to live?",
+        "a": "In a castle, she wanted to live in a castle."
+      },
+      {
+        "q": "How did she want to live?",
+        "a": "Like a princess, she wanted to live like a princess in a castle."
+      },
+      {
+        "q": "Where?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did she want to live with other people?",
+        "a": "No, she didn’t. She did not want to live with other people. She wanted to live by herself. Her dream was to live in a castle like a princess by herself."
+      },
+      {
+        "q": "And who, who wanted to live in a castle like a princess by herself?",
+        "a": "Inka, Inka wanted to live in a castle like a princess by herself."
+      },
+      {
+        "q": "Did she wait?",
+        "a": "No, she did not wait. She advanced towards her dream. She moved immediately towards her dream."
+      },
+      {
+        "q": "Did she advance away from her dream?",
+        "a": "No, no, no, she advanced towards her dream. She moved towards her dream."
+      },
+      {
+        "q": "Who advanced towards her dream?",
+        "a": "Inka, of course, Inka advanced towards her dream."
+      },
+      {
+        "q": "And what was her dream?",
+        "a": "To live in a castle like a princess by herself. She advanced towards her dream. She went towards her dream."
+      },
+      {
+        "q": "What did she try to do?",
+        "a": "She tried to build a castle out of diamonds."
+      },
+      {
+        "q": "Did she try to build a castle out of stone?",
+        "a": "No, not out of stone, she didn’t try to build a castle out of stone. She endeavored to build a castle out of diamonds."
+      },
+      {
+        "q": "Did she endeavor to build a castle out of water?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "What kind of castle did she endeavor to build?",
+        "a": "Well, she endeavored to build a castle of diamonds, a diamond castle."
+      },
+      {
+        "q": "Are diamonds too expensive or too cheap?",
+        "a": "Well, of course, they’re too expensive. Diamonds aren’t too cheap. Diamonds are very, very expensive."
+      },
+      {
+        "q": "Are diamonds heavy or light?",
+        "a": "Of course, they’re very heavy if you have big ones. If they’re big diamonds, if you’re trying to build a castle with very big diamonds, they’re heavy. So she endeavored to build her castle out of diamonds but she had to stop. It was too expensive."
+      },
+      {
+        "q": "What did she create?",
+        "a": "Well, she created a team. A team of builders, a building team."
+      },
+      {
+        "q": "What did she make?",
+        "a": "She made a team of builders. She established a team of builders, herself and her friends. They made a team. They established a team."
+      },
+      {
+        "q": "Who established a team of builders?",
+        "a": "Well, Inka, Inka established a team of builders."
+      },
+      {
+        "q": "Why did she establish a team?",
+        "a": "Well, because it was too difficult to do alone. She couldn’t build a castle alone. It was too expensive. It was too difficult. And so she established a team. She created a team to help her."
+      },
+      {
+        "q": "What kind of castle did they build?",
+        "a": "www.EffortlessEnglishClub.com"
+      },
+      {
+        "q": "Did they build a rock castle?",
+        "a": "No, they didn’t."
+      },
+      {
+        "q": "Did they build a diamond castle?",
+        "a": "No, they didn’t."
+      },
+      {
+        "q": "Who built a chewing gum castle?",
+        "a": "Well, Inka and her friends. Inka and her friends built a chewing gum castle."
+      },
+      {
+        "q": "Was it a small chewing gum castle?",
+        "a": "No, no, no, it was a huge gum castle. Inka and her friends built a huge gum castle."
+      },
+      {
+        "q": "What kind of foundation did the castle have, the bottom of the castle, the floor and under the floor? What kind of foundation did the castle have? Was it a gum foundation? Was the foundation made of gum?",
+        "a": "No, it was not. The foundation was not made of gum."
+      },
+      {
+        "q": "Was it made of rock?",
+        "a": "No, no, no, it wasn’t made of rock. It wasn’t made of gum."
+      },
+      {
+        "q": "What was the foundation made of?",
+        "a": "Well, obviously the foundation was made of spaghetti."
+      },
+      {
+        "q": "Who built a spaghetti foundation for the castle?",
+        "a": "Well, Inka and her friends. Inka and her friends built a spaghetti foundation for her castle."
+      },
+      {
+        "q": "What kind of foundation was it?",
+        "a": "A spaghetti foundation, they built a spaghetti foundation. It was very soft."
+      },
+      {
+        "q": "So what kind of castle did they build?",
+        "a": "Well, they built a gum castle with a spaghetti foundation."
+      },
+      {
+        "q": "Did Inka live in the castle alone?",
+        "a": "No, no, she invited all her friends."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "to advance (towards something)",
+      "pos": "v",
+      "uz": "oldinga intilmoq, (orzu sari) harakat qilmoq",
+      "defEn": "to move forward, especially towards a goal",
+      "example": "Advance confidently in the direction of your dreams."
+    },
+    {
+      "en": "to endeavor (to do something)",
+      "pos": "v",
+      "uz": "urinmoq, saʼy-harakat qilmoq",
+      "defEn": "to try or attempt to do something",
+      "example": "Endeavor to live the life you have imagined."
+    },
+    {
+      "en": "in common hours",
+      "pos": "phrase",
+      "uz": "oddiy kunlarda, kundalik hayotda",
+      "defEn": "during normal, everyday times",
+      "example": "You will meet with success unexpected in common hours."
+    },
+    {
+      "en": "liberal",
+      "pos": "adj",
+      "uz": "moslashuvchan, erkin, keng (bu yerda: siyosiy emas)",
+      "defEn": "flexible, free, open and tolerant",
+      "example": "New, more liberal laws will begin to appear around you."
+    },
+    {
+      "en": "to establish (something)",
+      "pos": "v",
+      "uz": "barpo qilmoq, tashkil etmoq, yaratmoq",
+      "defEn": "to create or set something up",
+      "example": "She established a team of builders."
+    },
+    {
+      "en": "in proportion as",
+      "pos": "phrase",
+      "uz": "...ga yarasha, teng ravishda, bir xil miqdorda",
+      "defEn": "in the same amount as; equally with",
+      "example": "In proportion as you simplify your life, it becomes easier."
+    },
+    {
+      "en": "to build castles in the air",
+      "pos": "phrase",
+      "uz": "katta orzu qilmoq, xayolan qasr qurmoq",
+      "defEn": "to have big dreams or ambitions",
+      "example": "Don't be afraid to build castles in the air."
+    },
+    {
+      "en": "to put the foundations under (a dream)",
+      "pos": "phrase",
+      "uz": "orzu ostiga poydevor qoʻymoq (amaliy qadam tashlamoq)",
+      "defEn": "to support a dream with real action",
+      "example": "Dream big, then put the foundations under it."
+    },
+    {
+      "en": "to simplify (your life)",
+      "pos": "v",
+      "uz": "soddalashtirmoq, oddiy qilmoq",
+      "defEn": "to make something less complex",
+      "example": "Thoreau chose to simplify his life."
+    },
+    {
+      "en": "to live simply",
+      "pos": "phrase",
+      "uz": "soddaroq yashamoq, kam narsa bilan yashamoq",
+      "defEn": "to live with fewer needs and possessions",
+      "example": "He learned to live simply in the woods."
+    }
+  ],
+  "englishpod": {
+    "id": "0176",
+    "title": "Daily Life – Heating",
+    "titleUz": "Kundalik hayot — Isitish",
+    "warmup": {
+      "uz": "Bu suhbatda ota farzandiga uyni koʻp isitmaslikni, sovuqqa chidashni va bor narsaga shukr qilishni aytadi — u yoshligida faqat bitta pechka bilan yashagan. Walden gʻoyasiga mos: baxt uchun kamroq narsa yetarli. Sizningcha, kamroq qulaylik bilan yashash odamni baxtsiz qiladimi?",
+      "en": "In this dialogue a father tells his child not to overheat the house, to bear the cold, and to be grateful — he grew up with just one furnace. It fits the Walden theme: less can be enough for happiness. Do you think living with fewer comforts makes people unhappy?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0176/dg.mp3",
+        "durationSec": 46,
+        "bytes": 400949
+      },
+      "pr": {
+        "path": "englishpod/0176/pr.mp3",
+        "durationSec": 576,
+        "bytes": 9246217
+      },
+      "rv": {
+        "path": "englishpod/0176/rv.mp3",
+        "durationSec": 336,
+        "bytes": 5409710
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "It’s freezing in here! Can I turn up the heat?"
+      },
+      {
+        "speaker": "B",
+        "en": "Don’t touch that thermostat! You don’t paythe bills around here!"
+      },
+      {
+        "speaker": "A",
+        "en": "Dad! Are you serious? What’s the point of having central heating if we can’t use it! Look, I can see my breath!"
+      },
+      {
+        "speaker": "B",
+        "en": "Put on a sweater! I’m not gonna let you run up my heating bill just because it’s a bit chilly."
+      },
+      {
+        "speaker": "A",
+        "en": "Dad! I’m gonna catch a cold!"
+      },
+      {
+        "speaker": "B",
+        "en": "When I was your age, my parents didn’t have central heating like you do! We had a furnace inthe center ofthe living room and that was it. We used it to cook, heat the house and even dry our clothes! We never caught a cold. You should be grateful!"
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "to turn up (the heat)",
+        "uz": "kuchaytirmoq, balandlatmoq (isitgichni)",
+        "defEn": "to increase the intensity or level of something"
+      },
+      {
+        "en": "to run up (a bill)",
+        "uz": "hisobni oshirib yubormoq, qarz orttirmoq",
+        "defEn": "to acquire a large bill or debt"
+      },
+      {
+        "en": "thermostat",
+        "uz": "termostat (haroratni boshqaruvchi asbob)",
+        "defEn": "a device that controls the temperature"
+      },
+      {
+        "en": "central heating",
+        "uz": "markaziy isitish tizimi",
+        "defEn": "a system that heats a whole building from one source"
+      },
+      {
+        "en": "chilly",
+        "uz": "sovuqroq, salqin",
+        "defEn": "unpleasantly cold"
+      },
+      {
+        "en": "to catch a cold",
+        "uz": "shamollab qolmoq",
+        "defEn": "to become infected with a cold"
+      },
+      {
+        "en": "a furnace",
+        "uz": "pechka, oʻchoq (issiqlik beruvchi)",
+        "defEn": "an enclosed structure that produces strong heat"
+      },
+      {
+        "en": "grateful",
+        "uz": "minnatdor, shukr qiluvchi",
+        "defEn": "thankful; feeling or showing thanks"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "190411",
+    "title": "The decluttering trend",
+    "titleUz": "Ortiqcha narsalardan qutulish oqimi",
+    "audio": {
+      "main": {
+        "path": "sixmin/190411/audio.mp3",
+        "durationSec": 378,
+        "bytes": 15105600,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "When were the first mechanical floor cleaners (later vacuum cleaners) invented?",
+        "qUz": "Ilk mexanik pol tozalagichlar (keyinchalik changyutgichlar) qachon ixtiro qilingan?",
+        "options": [
+          "the 1860s",
+          "the 1890s",
+          "the 1920s"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 1860-yillar. Neil 1890-yillar dedi va xato qildi — Rob toʻgʻri javob 1860-yillar ekanini aytdi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "floordrobe",
+        "uz": "polga tashlab qoʻyilgan kiyimlar uyumi (hazil soʻz)",
+        "defEn": "a collection of clothes kept untidily on the floor instead of a wardrobe"
+      },
+      {
+        "en": "clutter",
+        "uz": "tartibsizlik, ortiqcha narsalar uyumi",
+        "defEn": "untidiness caused by having too many things"
+      },
+      {
+        "en": "to tackle (a problem)",
+        "uz": "hal qilishga kirishmoq, bartaraf etmoq",
+        "defEn": "to deal with a problem and try to fix it"
+      },
+      {
+        "en": "sentimental",
+        "uz": "hissiy, xotira bogʻliq (aziz)",
+        "defEn": "having an emotional or nostalgic connection"
+      },
+      {
+        "en": "shift",
+        "uz": "oʻzgarish, siljish",
+        "defEn": "a change in behaviour or attitude"
+      },
+      {
+        "en": "make do and mend",
+        "uz": "bor narsa bilan kifoyalanmoq va tuzatib ishlatmoq",
+        "defEn": "to use what you have and fix things rather than buying new ones"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Henry David Thoreau and the wisdom of Walden",
+      "channel": "The School of Life"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Imagine you decided to simplify your life like Thoreau. What would you keep and what would you give up? Talk about owning fewer things and needing less, and say what really matters to you (freedom, simplicity, nature).",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: kamayish qiyoslari (fewer things, less stress, live more simply) va umumiy maʼnodagi nol artikl (Freedom is important, Nature teaches us).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/13/main.mp3",
+      "bytes": 7549728
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/13/main.pdf",
+      "bytes": 48276
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/13/vocab.mp3",
+      "bytes": 6914025
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/13/ministory.mp3",
+      "bytes": 7716244
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/13/pov.mp3",
+      "bytes": 4826941
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/13/pov.pdf",
+      "bytes": 69175
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0176/dg.mp3",
+      "bytes": 400949
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0176/transcript.pdf",
+      "bytes": 90839
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/190411/audio.mp3",
+      "bytes": 15105600
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/190411/transcript.pdf",
+      "bytes": 134954
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

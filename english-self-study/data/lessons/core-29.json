@@ -1,0 +1,793 @@
+{
+  "schemaVersion": 2,
+  "id": "core-29",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 29,
+  "slug": "break-rules",
+  "title": "Break Rules",
+  "titleUz": "Qoidalarni buzing",
+  "level": "B1-B2",
+  "tags": [
+    "mindset",
+    "career",
+    "concession",
+    "inversion",
+    "slang"
+  ],
+  "intro": {
+    "uz": "\"Break Rules\" — qoidalarni buzish. AJ Hoge (Seth Godin kitobidan) aytadiki, eski, anʼanaviy usullarni buzgan kishigina ajralib turadi va tez oʻrganadi. Bu haftaning ikki grammatik mavzusi ayni shu ruhda: zidlik ergash gaplari (although / even though / despite / whereas) — bir faktni tan olib, unga qarshi chiqish; va urgʻu uchun inversiya (Never have I…; Not only… but also…) — SVO qoidasini ataylab buzib, kuchli taʼkid berish.",
+    "en": "\"Break Rules\" — AJ Hoge (from Seth Godin's book) says only the person who breaks the old, traditional methods stands out and learns fast. This week's two grammar topics match that spirit: concession clauses (although / even though / despite / whereas) — conceding one fact and pushing against it; and inversion for emphasis (Never have I…; Not only… but also…) — deliberately breaking the SVO rule for effect."
+  },
+  "canDo": {
+    "uz": "Dars oxirida although / despite / whereas yordamida ikki qarama-qarshi fikrni bitta jumlada bogʻlay olasiz va urgʻu berish uchun \"Never have I…\", \"Not only… but also…\" kabi inversiya jumlalarini toʻgʻri qura olasiz.",
+    "en": "By the end you can join two contrasting ideas in one sentence with although / despite / whereas, and correctly form emphatic inversions like \"Never have I…\" and \"Not only… but also…\"."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "concession-clauses",
+      "titleUz": "Zidlik ergash gaplari: although / even though / despite / whereas",
+      "titleEn": "Concession clauses — although / despite / whereas",
+      "bandLifter": "IELTS Writing Task 2 — concede a counter-argument, then push back on it",
+      "cefrCanDo": "B2: I can concede a point and contrast it inside one complex sentence",
+      "bodyHtml": "<p>&quot;Break Rules&quot; darsida AJ bir haqiqatni tan oladi, keyin unga qarshi chiqadi: <em>&quot;<strong>Although</strong> you learned grammar in school, you did not learn to speak.&quot;</em> — Maktabda grammatika oʻrgangan boʻlsangiz-da, gapirishni oʻrganmadingiz. Bu — <strong>zidlik (concession) ergash gapi</strong>: avval bir faktni tan olamiz, soʻng kutilmagan, qarama-qarshi natijani aytamiz. Aynan shu darsning ruhi: eski qoidani tan ol — soʻng uni buz.</p>\n<h3>Maʼnosi: &quot;tan olaman, lekin baribir…&quot;</h3>\n<p>Concession bogʻlovchilari ikkita qarama-qarshi fikrni bir jumlaga bogʻlaydi. Birinchisi rost, ammo u ikkinchisiga toʻsqinlik qilmaydi:</p>\n<ul>\n<li><em><strong>Although</strong> it was raining, we went out.</em> — Yomgʻir yogʻayotgan boʻlsa-da, biz chiqdik.</li>\n<li><em><strong>Even though</strong> he studied hard, he failed.</em> — Qattiq oʻqigan boʻlsa ham, yiqildi.</li>\n</ul>\n<p><code>even though</code> — <code>although</code>ning kuchliroq, taʼkidli shakli. <code>though</code> xuddi shu maʼnoni beradi, lekin norasmiy nutqda gapning <strong>oxirida</strong> ham kela oladi: <em>It was hard. I enjoyed it, <strong>though</strong>.</em></p>\n<h3>Eng muhim farq: <code>although + gap</code> va <code>despite + ot</code></h3>\n<p>Bu — oʻzbek oʻquvchilar eng koʻp adashadigan joy. Ikkalasi ham &quot;…ga qaramay&quot; deb tarjima qilinadi, lekin grammatikasi butunlay boshqa:</p>\n<ul>\n<li><strong>although / even though + toʻliq gap</strong> (ega + feʼl): <em><strong>Although</strong> the job was boring, …</em></li>\n<li><strong>despite / in spite of + ot yoki -ing</strong> (feʼl EMAS): <em><strong>Despite</strong> the boring job, …</em> / <em><strong>Despite</strong> being bored, …</em></li>\n</ul>\n<p>❌ <em>Despite it was boring…</em>   ❌ <em>Although the boring job…</em>\n✅ <em>Although it was boring…</em>   ✅ <em>Despite the boring job…</em></p>\n<p><code>in spite of</code> = <code>despite</code>, faqat u uch soʻzdan iborat (<code>of</code>ni unutmang; ❌ <em>despite of</em>).</p>\n<h3><code>whereas</code> — ikki narsani yonma-yon qoʻyish</h3>\n<p><code>whereas</code> (yoki <code>while</code>) qarshilikni emas, <strong>taqqoslashni</strong> bildiradi: ikki narsa bir-biridan qanday farq qilishini koʻrsatadi.</p>\n<ul>\n<li><em>A blue-collar job needs obedience, <strong>whereas</strong> a white-collar job needs ideas.</em> — Ishchi ishi itoatni talab qiladi, ofis ishi esa gʻoyani.</li>\n</ul>\n<h3>Oʻzbekcha bilan solishtiring</h3>\n<p>Oʻzbek tili zidlikni feʼlga qoʻshiladigan <em>&quot;-sa ham / -ga qaramay&quot;</em> bilan beradi: <em>&quot;charchagan boʻlsam ham&quot;</em>. Ingliz tilida esa alohida bogʻlovchi soʻz jumla boshida turadi va vergul bilan ajratiladi. <code>although + gap</code> va <code>despite + ot</code> degan farqni oʻzbekcha bitta qoʻshimcha yashiradi — shuning uchun ingliz tilida ikkisini adashtirish oson.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bitta fikrni ikki xil aytib mashq qiling — bir marta <code>although + gap</code>, bir marta <code>despite + ot</code>: <em>&quot;Although I was tired, I studied.&quot; → &quot;Despite my tiredness, I studied.&quot;</em> Ovoz chiqarib ayting; farqni tilingiz oʻzi eslab qoladi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tili zidlikni feʼlga qoʻshiladigan \"-sa ham / -ga qaramay\" bilan beradi: \"charchagan boʻlsam ham\". Ingliz tilida esa alohida bogʻlovchi jumla boshida turadi: although / even though + toʻliq gap (ega + feʼl), despite / in spite of + ot yoki -ing. Bu farqni oʻzbekcha bitta qoʻshimcha yashiradi — shuning uchun ikkisini adashtirish oson.",
+      "errorFixUz": "❌ Despite it was late, we stayed. ❌ Although the late hour, we stayed. ✅ Although it was late, we stayed. ✅ Despite the late hour, we stayed. although/even though — toʻliq gap bilan; despite/in spite of — ot yoki -ing bilan (❌ despite of).",
+      "examples": [
+        {
+          "en": "Although school taught us grammar, we learned to speak by listening.",
+          "uz": "Maktab bizga grammatika oʻrgatgan boʻlsa-da, biz gapirishni tinglab oʻrgandik."
+        },
+        {
+          "en": "Despite his fear, he broke the rules.",
+          "uz": "Qoʻrqqaniga qaramay, u qoidalarni buzdi."
+        },
+        {
+          "en": "A factory needs obedience, whereas an office needs ideas.",
+          "uz": "Zavod itoatni talab qiladi, ofis esa gʻoyani."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "___ it was raining, we went outside.",
+          "options": [
+            "Although",
+            "Despite",
+            "In spite"
+          ],
+          "answer": "Although",
+          "hintUz": "keyin toʻliq gap (it was raining) → although"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ the rain, we went outside.",
+          "options": [
+            "Despite",
+            "Although",
+            "Even though"
+          ],
+          "answer": "Despite",
+          "hintUz": "keyin ot (the rain) → despite / in spite of"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He loves risk, ___ his brother avoids it.",
+          "options": [
+            "whereas",
+            "despite",
+            "because"
+          ],
+          "answer": "whereas",
+          "hintUz": "ikki narsani yonma-yon solishtirish → whereas"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda bir fikrni ikki xil ayting (ovoz chiqarib): avval \"Although I …, I …\", keyin \"Despite …, I …\".",
+          "answer": null,
+          "hintUz": "although + toʻliq gap; despite + ot yoki -ing"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "inversion-for-emphasis",
+      "titleUz": "Inversiya (urgʻu): Never have I…; Not only… but also…",
+      "titleEn": "Inversion for emphasis — Never have I…; Not only…",
+      "bandLifter": "IELTS Speaking — a B2+ flourish that makes one point stand out",
+      "cefrCanDo": "B2+: I can front a negative adverbial and invert the auxiliary for emphasis",
+      "bodyHtml": "<p>&quot;Break Rules&quot; darsida AJ soʻz tartibi qoidasini ham ataylab buzadi: <em>&quot;…but <strong>never do we</strong> worry about mistakes.&quot;</em> Oddiy tartib <em>&quot;we never worry&quot;</em> boʻlardi, lekin u urgʻu berish uchun uni agʻdaradi. Mana bu — <strong>inversiya (inversion)</strong>: taʼsir uchun ingliz tilining qatʼiy SVO (ega–feʼl–toʻldiruvchi) qoidasini teskari qilish. Soʻz tartibini buzishning oʻzi — mavzuga mos.</p>\n<h3>Maʼnosi: urgʻu uchun tartibni agʻdarish</h3>\n<p>Odatda ingliz tili qatʼiy SVO tartibiga amal qiladi. Ammo dramatik taʼkid berish uchun inkor yoki cheklov soʻzini gap <strong>boshiga</strong> chiqaramiz, va undan keyin yordamchi feʼlni egadan <strong>oldin</strong> qoʻyamiz — xuddi savoldagidek, lekin bu savol emas, kuchli taʼkid.</p>\n<h3>1-qolip: <code>Never have I… / Never do we…</code></h3>\n<p>Inkor soʻz (never, rarely, seldom, little) gap boshiga chiqsa, yordamchi feʼl egadan oldinga oʻtadi:</p>\n<ul>\n<li>Oddiy: <em>I have never learned so fast.</em></li>\n<li>Inversiya: <em><strong>Never have I</strong> learned so fast.</em> — Hech qachon bunchalik tez oʻrganmaganman.</li>\n<li>AJ: <em><strong>Never do we</strong> worry about mistakes.</em> — Biz xatolardan hech qachon qoʻrqmaymiz.</li>\n</ul>\n<h3>2-qolip: <code>Not only… but also…</code></h3>\n<p>&quot;Nafaqat… balki… ham&quot; degani. Agar <code>not only</code> gap boshida kelsa, undan keyin ham inversiya boʻladi:</p>\n<ul>\n<li><em><strong>Not only did</strong> he break the rules, <strong>but</strong> he <strong>also</strong> succeeded.</em> — U nafaqat qoidalarni buzdi, balki muvaffaqiyatga ham erishdi.</li>\n</ul>\n<h3>3-qolip: <code>Little did I know</code></h3>\n<p>Tayyor, kuchli ibora — &quot;sira bilmasdim / xayolimga ham kelmagan&quot;:</p>\n<ul>\n<li><em><strong>Little did I know</strong> that breaking rules would change my life.</em> — Qoidalarni buzish hayotimni oʻzgartirishini sira bilmasdim.</li>\n</ul>\n<h3>Oʻzbekcha bilan solishtiring</h3>\n<p>Oʻzbek tili urgʻuni soʻz tartibini biroz oʻzgartirib yoki <em>&quot;hech qachon&quot;, &quot;nafaqat&quot;</em> soʻzlari bilan beradi, lekin feʼlning oʻrni oʻzgarmaydi. Ingliz tilida esa inkor soʻz oldinga chiqsa, yordamchi feʼl (have / do / did) egadan oldinga oʻtishi <strong>shart</strong>.</p>\n<p>❌ <em>Never I have seen this.</em>   ❌ <em>Not only he broke the rule.</em>\n✅ <em>Never have I seen this.</em>   ✅ <em>Not only did he break the rule.</em></p>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>Bu qolip nutqingizga darhol B2+ tovlanish beradi. IELTS Speakingda bitta shunday jumla — <em>&quot;Never have I felt so motivated&quot;</em> — imtihon oluvchiga sizning tuzilmalar ustidan erkin hukmronligingizni koʻrsatadi. Sirri: undan <strong>kam</strong> foydalaning. Butun bir hikoyani inversiyada aytmang; faqat eng muhim, eng kuchli fikringizga urgʻu berish uchun bittasini tanlab ishlating — shunda u haqiqatan yaltiraydi.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu — B2+ bezak; uni har jumlada emas, faqat kuchli daqiqada ishlating. Bittasini yodlab, tilingizga oʻrnating: <em>&quot;Never have I felt so confident.&quot;</em> Ovoz chiqarib bir necha marta takrorlang — shakli oʻzi avtomatlashadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbek tili urgʻuni soʻz tartibini biroz oʻzgartirib yoki \"hech qachon / nafaqat\" soʻzlari bilan beradi, lekin feʼlning oʻrni oʻzgarmaydi. Ingliz tilida esa inkor soʻz gap boshiga chiqsa, yordamchi feʼl (have / do / did) egadan OLDIN keladi — xuddi savoldek, lekin bu savol emas, kuchli taʼkid.",
+      "errorFixUz": "❌ Never I have seen this. ❌ Not only he broke the rule. ✅ Never have I seen this. ✅ Not only did he break the rule (but he also won). Inkor soʻz oldinga chiqsa — yordamchi feʼl egadan oldin turadi, asosiy feʼl esa sof qoladi.",
+      "examples": [
+        {
+          "en": "Never have I learned English so fast.",
+          "uz": "Hech qachon ingliz tilini bunchalik tez oʻrganmaganman."
+        },
+        {
+          "en": "Not only did he break the rules, but he also succeeded.",
+          "uz": "U nafaqat qoidalarni buzdi, balki muvaffaqiyatga ham erishdi."
+        },
+        {
+          "en": "Little did I know that breaking rules would change my life.",
+          "uz": "Qoidalarni buzish hayotimni oʻzgartirishini sira bilmasdim."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Never ___ I seen such energy in a class.",
+          "options": [
+            "have",
+            "did",
+            "was"
+          ],
+          "answer": "have",
+          "hintUz": "never + present perfect → have + ega (I have seen)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Not only ___ she break the rule, but she also won.",
+          "options": [
+            "did",
+            "she",
+            "was"
+          ],
+          "answer": "did",
+          "hintUz": "Not only oldinga chiqsa → did + ega + sof feʼl (break)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Little did I ___ how much it would help.",
+          "options": [
+            "know",
+            "knew",
+            "known"
+          ],
+          "answer": "know",
+          "hintUz": "Little did I + sof feʼl (know) — did allaqachon oʻtmishni bildiradi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda kuchli bir jumla ayting (ovoz chiqarib): \"Never have I …\" yoki \"Not only … but also …\".",
+          "answer": null,
+          "hintUz": "yordamchi feʼlni (have / did) egadan oldin qoʻying"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/29/main.mp3",
+      "durationSec": 817,
+      "bytes": 9798355,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/29/vocab.mp3",
+      "durationSec": 778,
+      "bytes": 9330734,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/29/ministory.mp3",
+      "durationSec": 706,
+      "bytes": 8468111,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/29/pov.mp3",
+      "durationSec": 350,
+      "bytes": 4195967,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Break Rules Main Text Hello, this is AJ, welcome to our next lesson. I like this lesson a lot. This topic is one of my favorites it’s called “Break Rules.” Break Rules…it’s kind of my motto in life. Let’s begin. Now this comes from Seth Godin again; another section of Seth Godin’s book.",
+      "And, if you remember, Seth Godin is an Internet Marketing expert. He started his own Internet Marketing Company. He became very, very successful, super rich and famous and all that. And then he sold his company and now he writes books about Internet Marketing.",
+      "More importantly, he writes books about success, especially success in business, success in your career. And I absolutely love his books, I love his attitude and I follow his same approach. I have his same values and this is one of the big ones, break rules! I like to break rules.",
+      "In fact, a lot of the members on our Effortless English Club Forum call me “Rebel Number One”. It’s kind of my nickname on the Forums. Maybe I should make that my official title, not Director of Effortless English, but Rebel Number One. I like it because, in fact, our Effortless English Club is a club of rebels.",
+      "We don’t like to follow the rules. We don’t like to do things the normal way. We don’t continue doing stupid things again and again. We don’t follow the old, boring, traditional methods of learning, we break the rules. We follow a new method, a new way. We succeed because we are rebels and now it’s your turn to join us.",
+      "It is your turn to become a rebel, just like us, a rebel English learner, a rebel in your job, a rebel in your life. All right, I’m going to read from Seth Godin’s book and then I’ll come back and talk a little more about this idea of being a rebel. Here we go. “Obedience works fine on the well-organized, standardized, factory floor.",
+      "But what happens when we start using our heads not our hands? What happens when our colors change from blue to white? White-collar workers don’t get paid to follow the rules.",
+      "“The big difference between today and the old factory economy is that instead of working with a drill or a machine we work with laptops and telephones. What’s neat about this work is that it’s different every day.",
+      "We actually get a lot of freedom to decide what to do next and our skill in making that decision has a lot to do with our productivity and our success. “That’s why your boss allows you the time to read this book, to shop online or to go to lunch meetings because she’s waiting for you to break the rules.",
+      "She’s waiting for you to create big gains in productivity by using your head. “Yes, there are exceptions. There are clerks who have every keystroke measured, but that’s not really a white-collar job that’s a factory job where you don’t get dirty, instead you get carpel tunnel syndrome.",
+      "“I’m talking about the vast majority of jobs in our organizations, schools, governments and corporations. You don’t have to wear a factory uniform and you’re expected to contribute more than what’s being asked. The thing is white-collar workers, deep down, are petrified to do exactly what it is they actually got hired to do.",
+      "They are petrified to be different. “We all know that we could get replaced tomorrow by someone else, almost as good as us, who is willing to work for half as much money. We don’t want to blow it. We want to be given instructions, not to invent them. After all, we know how to follow instructions. That’s what we learned in school.",
+      "“We invented the myth that doing what your boss says is the best way to keep your job, but in a white-collar setting this isn’t the right answer. Nine times out of ten a white-collar worker’s reflex is to ask ‘What do you think I should do?",
+      "’ The easiest way to avoid pain, it seems, is to follow someone else’s instructions, but that is a recipe for failure. To succeed in your career, to really succeed, you have to break the rules.” Okay, that’s a nice little section from Seth Godin’s book. And I love it because the Effortless English Club is all about breaking the rules.",
+      "We break every traditional English learning rule. We don’t do anything normally. Traditional schools teach grammar, grammar, grammar, grammar, grammar. You memorize grammar, terms, the past progressive, possessives blah- blah- blah. We break that rule. We don’t do that, absolutely never.",
+      "In traditional schools with the traditional rules they always use textbooks. You’ve got to have a textbook. You must have a textbook and we have to have tests and grades and scores. Well, we break those rules, too. We never give you a test and we never use textbooks.",
+      "We use only real English, the real spontaneous English that I’m speaking right now. Real English books that were",
+      "written for native speakers, they weren’t written for English students. We never use textbooks. We never memorize and study hard with a lot of effort, not vocabulary, not grammar. No, we listen easily and relax. We listen repeatedly again and again and we learn intuitively, subconsciously, effortlessly.",
+      "We don’t do boring drills and exercises, right? You get in a pair with another student and you practice saying some speech or some sentence or some dialogue. Hell, no, we never do that.",
+      "No, we listen and we listen and we listen and then we get on the Forums and we write to each other and communicate – real communication – and then you get on Skype and you talk to each other. Real communication focused on meaning. In regular schools they always follow the rules. They tell you your mistakes all the time.",
+      "They’re very worried about mistakes in normal schools. We never worry about mistakes, never! We worry about communication. We want to be understood. We want to communicate clearly. We worry about meaning, but never do we worry about mistakes. We know mistakes are necessary. We love mistakes. That’s how we learn. We love ‘em.",
+      "So I never correct your mistakes, never, never, never. We’re always breaking the rules. I, as a teacher, always break these rules. You, as an English learner -- and especially as a new member of the Effortless English Club -- you must break the rules. And you’re already doing it by listening to these lessons, you rebel.",
+      "You’re a rebel, too. You need to accept it. I may be Rebel Number One, but you’re one of our rebels, too. You’re an Effortless English Club rebel. Accept it! Celebrate it! Be happy about it!",
+      "Because you’re going to speak excellent English and all the people following the rules, all the people going to the normal schools, memorizing grammar, taking tests, they’re never going to do it. Or maybe they will, but it’s going to take them years and years and years, much longer than you.",
+      "And they’re going to suffer and they’re going to hate it. They’re going to be bored and tired and upset and frustrated and you’re going to be smiling and moving and jumping around and laughing while you learn English.",
+      "You’re going to speak better than they do, your vocabulary is going to be better, your fluency will be better, your pronunciation will be better, because you break the rules. It’s time for you to do this in other parts of your life, too, especially your job or career. In tough economic times the people who break the rules do the best.",
+      "They get noticed, they have something special. If you follow the rules you’re like everybody else. That means it’s easy to cut your job. It’s easy to say goodbye to you, it’s easy to fire you, because you’re not special. Why should they keep you?",
+      "But if you break the rules, you do something great, you do something different and you are different because most people are afraid to do that.",
+      "So you want to be remarkable, outstanding, you want to have a great career, you want to do anything well, more than well, you want to do it fantastically well, you want to be great at it, you have to break the rules. What are the rules? The rules in any area of life are what most people do. It’s the normal, acceptable thing to do.",
+      "So if you follow the rules you will be normal and acceptable, just like everyone else. Which means you will get the same results as everyone else. You’ll be paid an average amount of money. You’ll be kind of bored at your job because most people are kind of bored at their job. You’ll improve, slowly, because that’s what most people do.",
+      "If you want more you’ve got to break the rules. You have to do what other people don’t do. You have to do what other people are afraid to do. That’s how you improve faster and succeed more, in your job, in your career, in your business, in English learning, in anything. Don’t be a cow. Don’t follow the herd.",
+      "Don’t do what everyone else is doing. Break the rules. Be a rebel. Join us. Join the rebellion at Effortless English. All right, I hope I have convinced you, at least for English learning. I hope you will join us at the Effortless English Club and proudly be a rebel in your English learning.",
+      "I hope you’ll do it in other parts of your life, too, but you can start with English learning. All right, I will see you on the Forums and I will see you next time."
+    ],
+    "vocab": [
+      "Break Rules Vocabulary Text Hello, welcome to the vocabulary lesson for “Break Rules.” Let’s begin. First is the word obedience. Obedience means following the rules, right? The verb is obey. To obey means to follow rules; to do what you are told to do. So obedience is the noun. It’s the action; it’s the situation of following rules.",
+      "So he says “Obedience works fine, if you work in a factory.” So following the rules works fine, if you work in a factory. If you work in a factory you need to have obedience. You need to follow the rules because you have to do an exact little job, again, again, again, again. If you change it then it can destroy everything.",
+      "So obedience, following the rules, doing what you’re told is good, if you work in a factory. He says “Obedience works fine in a standardized factory.” Stan-dar-dized, standardized means organized. It means everything is the same. So standardized means everything is standard, everything is the same. For example, we have standardized tests.",
+      "A standardized test means a test that is always the same. It always is the same. It means if I take it or you take it or someone else takes it, it’s the same result, the same test. It measures the same thing. It’s always a very similar test or always exactly the same test, a standardized test. Next he talks about collars.",
+      "He talks about blue collars and white collars, blue-collar and white-collar. And this is in idiom in English and it describes a kind of work. It describes a kind of job. So we have blue-collar jobs and white-collar jobs. A blue- collar job is a factory job, okay, so blue collar means factory. Why do we say blue collar?",
+      "Well, it’s because in the past a lot of factory workers they wore blue uniforms, all right, so we say a blue-collar job. It’s a factory job. You’re using your hands, your using your body in the job, a blue-collar job. Then we have white-collar jobs. White-collar jobs are office jobs.",
+      "They’re intellectual jobs, mental jobs, you’re using your head, mostly, your mind. And, again, of course, it’s because, you know, most businesspeople who work in an office they have white shirts, right? They wear white shirts.",
+      "The collar – the part around the neck – is white, so a white-collar job is an office job or a business job. It’s a job where you use your brain, mostly, not your hands. You’re not building stuff, you’re not in a factory, you’re thinking. It’s your brain that’s most important, that’s a white-collar job.",
+      "Okay, so he’s talking about white-collar jobs. For a white-collar job you need to break the rules, it’s the opposite of a blue-collar job. A blue-collar job, you must follow the rules because factories need everything to be the same.",
+      "But a white-collar job, usually the company wants you to do something new, something great, to make improvements, to do better and better and better, to be more productive, which is our next word, productive or productivity. Productivity is the noun, productive is the adjective. Productive means efficient.",
+      "It means doing more work with less effort or less time, so doing more with less effort. That’s productive. So, for example, let’s say you’re building a car or building cars and we have two teams. One team builds five cars in one day. Another team builds 10 cars in one day. The second team is more productive, right?",
+      "Same time, but they did more work, so that’s productivity. Productivity is the amount of work you do in a certain time or with a certain amount of effort. So more productivity means you do more in less time or with fewer people or with less effort. So more for less, that’s productivity.",
+      "And that’s what most companies what for white-collar workers, they want more productivity. More results for less effort or less time. Next he talks about examples of “clerks who have every keystroke measured.” What he’s saying is that in some white-collar jobs, in some offices, it’s like a factory, right? They measure every keystroke.",
+      "It means you’re typing on your computer and the computer has keys, right? Keystroke means every time you hit a key on your computer. He’s exaggerating, but he’s saying that some jobs, even office jobs, it’s like a factory. The company is measuring everything you do. They’re watching you all the time.",
+      "He said “That’s not really a white-collar job, that’s just a factory job where you stay clean.” It’s just a factory job where you’re in an office, but the mentality is still like a factory. They’re watching you. They’re measuring everything you do. You don’t have freedom. You don’t have creativity. You’re not really using your brain.",
+      "White-collar jobs require you to use your brain, require you to be creative, require you to make decisions. So he’s saying “These jobs they’re just factory jobs in an office and you can get carpel tunnel syndrome” at that job. Carpel tunnel is a problem with your wrist, right, in your hand.",
+      "It means you get pain, a lot of pain in your wrist and your hand because you’re typing too much on a computer.",
+      "So people who just type, type, type on the computer a lot, sometimes they have this problem where they get terrible pain in their hands because they never rest, they’re just typing, typing, typing all day, every day. So that pain is called carpel tunnel syndrome or just carpel tunnel.",
+      "It’s that pain it’s that problem that people get from typing too much. Our next word is petrified, petrified. He said “Most workers are petrified to break the rules.” To be petrified means to be very scared, to be super scared. They’re scared to break the rules.",
+      "They’re super scared, they are petrified, so to be petrified means to be very, very scared, to be very, very, very afraid. To be petrified, petrified, very afraid, very scared, petrified. He said “Most workers are afraid to blow it.” They’re afraid to blow it. To blow it means to fail or make a big mistake.",
+      "So if we’re talking about the past you say “Man, I blew it! I really blew it.” It means I really made a mistake. I made a big mistake. I made a big mistake, I blew it. So “to blow it”, that phrase, that whole phrase means to make a mistake and really to make a big mistake. So he says most workers are afraid to blow it.",
+      "They’re afraid to make a big mistake. Most people, in general, are afraid to blow it, they’re afraid to make mistakes. So they’re careful, so they follow the rules because they’re afraid, because they’re petrified. He said “Most workers want to be given instructions. They don’t want to invent instructions.”",
+      "And, of course, invent means to create something new. So to invent means to create something new, to make something that’s totally new. So if you invent instructions you make new instructions, so he says that’s what you need to do. Don’t follow the old rules make new rules. Invent new ways of doing things.",
+      "Invent, create something new, to invent. So, again, to invent is to create something new, to invent. Next we have the word myth, myth. He said “We, we workers, we invented the myth. We created the myth that doing what your boss says is the best way to keep your job.” A myth is a story that’s not true.",
+      "That’s one meaning, it actually has several meanings. It has other meanings, also, but in this situation it means an untrue story. It’s not real, it’s a story or a belief that’s not true, that’s not real. So he says “We believe that we should follow the rules. We should follow our boss to keep our job.",
+      "We believe that that’s the best way to keep a job, but it’s a myth.” It’s an untrue story. It’s an untrue idea. It’s not true. It’s not the best way to keep your job. It’s not the best way to improve in your career. It’s a myth, a myth. It’s an untrue story, it is a myth. So, again, a myth is an untrue story or an untrue belief, a myth.",
+      "Our next word is reflex. He said “Nine times out of ten,” so 90% of the time, “a white- collar worker’s reflex is to ask ‘What do you think I should do? ’” A reflex is an automatic reaction. It’s a fast, automatic reaction. No thinking about it, it’s automatic. It happens automatically.",
+      "So it’s a reaction, right? Something happens and then you react, you do something. It’s a reaction that’s automatic, a reflex, a reflex. So he’s saying most workers’ reflex is just to ask “What do you think? Tell me what to do.” That’s their natural reflex. It’s their first automatic reaction.",
+      "So, for example, their boss says “Well, what should we do?” Most workers’ reflex, most of them will react and they’ll say “Ah, I don’t know. What do you think we should do?” They ask the boss. That’s their reflex, it’s their first reaction. It’s their first action that they do automatically. They’re afraid to give their opinion.",
+      "They’re afraid to just do something without asking. So that’s a reflex, an automatic reaction; your first automatic reaction, reflex. And that’s all. That is all of our vocabulary for “Break Rules.” Next is the mini-story. I will see you next time, bye-bye."
+    ],
+    "pov": [
+      "Break Rules POV Text Hello, this is AJ, welcome to the point of view stories for “Break Rules.” Let’s begin.",
+      "Andre has been an obedient white-collar worker for most of his life. What has he been? He has been an obedient white-collar worker. Has he been a rebel most of his life? No, he has not been a rebel most of his life, he has been an obedient white-collar worker. In fact, he has been petrified to try anything new. Has he been scared?",
+      "Yes, he has. He has been petrified. He has been petrified most of his life. He’s been very scared most of his life. He has been petrified to try anything new. And, in fact, his productivity has been very low. He has not been productive most of his life. His productivity has been very, very low. And so, as a result, one day he was fired.",
+      "He was fired from his job and he felt terrible. In fact, he beat himself up about it. He said to himself “Damn it! I blew it! I blew it! I was so stupid! I really blew it.” But he decided to change. He decided to become a rebel. He totally changed. He decided to constantly try new things.",
+      "And he did, he constantly tried new things in every part of his life. He became a super rebel. And one day he invented an amazing new toothbrush. He invented a nuclear- powered toothbrush and then he sold that amazing nuclear-powered toothbrush to millions of people. He became super rich. In fact, he became the richest man in the world.",
+      "Why? All became he became a rebel.",
+      "All right, our next story happens in the future. Imagine this will happen in the future. We’re going to think about the future and imagine it. Here it goes. In the future there’ll be a guy named Andre. He’ll be an obedient white-collar worker, a normal guy.",
+      "In fact, he’s going to be petrified to try anything new. He’ll always be afraid, all the time. And, ah, his productivity will be very low. He’ll have very low productivity. And so, one day, he’s going to be fired. He’ll be fired from his job because he’s boring and because his productivity is so low.",
+      "And, at first, of course, he’s going to beat himself up about it. He’s going to feel terrible. He’ll say to himself “Damn it! I blew it! I blew it! I blew it! I was so stupid, I really blew it!” But, then, he’ll stop beating himself up and he’ll decide to change. He’ll decide to become a rebel. He’ll become a super rebel!",
+      "He’s going to constantly try new things every day in every part of his life, all the time, breaking the rules, trying new things. And one day he’ll invent something amazing, he’ll invent an amazing new toothbrush. He’s going to invent a nuclear-powered toothbrush and then he’ll sell that toothbrush to millions of people.",
+      "He’ll become super rich. In fact, he’s going to become the richest man in the world. And why, why will he be the richest man in the world? All because he became a rebel.",
+      "And that is the end of our point of view stories for “Break Rules.” I hope you will start breaking rules in your life. Break those old rules of learning English. Break them! Destroy them! You’re a new person now. You’re a rebel in the Effortless English Club. Welcome, we’re happy to have you here. See you next time, bye-bye."
+    ],
+    "sixmin": [
+      "Alice: Hello and welcome to 6 Minute English. I'm Alice…",
+      "Alice: Could you lend me some dosh, Neil?",
+      "Neil: Sure. How much do you need?",
+      "Alice: A couple of smackers.",
+      "Neil: You're sounding a bit strange today, Alice.",
+      "Alice: Yes, I know, Neil. Slang – or informal language used by a particular group – is the subject of today's show, and I was just demonstrating a couple of slang words that mean 'money'. Dosh is a general term for 'money' and a smacker is a British pound or US dollar.",
+      "Neil: OK, so Cockney Rhyming Slang is a type of slang. It's a coded language invented in the 19th Century by Cockneys so they could speak in front of the police without being understood. And still on the subject of money, I have a question for you, Alice.",
+      "Alice: OK.",
+      "Neil: What's Cockney Rhyming Slang for 'money'? Is it… a) bread? b) honey? Or c) dough?",
+      "Alice: I think it's a) bread. I bet you didn't know, Neil, that I'm a Cockney.",
+      "Neil: I don't Adam and Eve it, Alice! That's a pork pie!",
+      "Alice: 'Adam and Eve' means 'believe' and 'pork pie' means… 'lie'! Actually, you're right. I'm not a Cockney.",
+      "Neil: To be considered a Cockney, you need to be born within hearing distance of the bells of St Mary-le-Bow church in what is now the City of London.",
+      "Alice: Indeed. Now, slang, as we've said, is colloquial – or informal – language. And it's characteristic of specific social groups. We usually use it in informal conversation rather than in writing or more formal situations, like a job interview.",
+      "Neil: We change the way we speak so that what we say is appropriate for a particular situation. So you surprised me, earlier, Alice, by talking about 'dosh' and 'smackers' because it didn't seem appropriate for presenting the show.",
+      "Alice: Slang use is often frowned upon – or disapproved of. Let's listen to Jonathan Green, a lexicographer of slang, talking about who uses slang and how this has changed. Here he is on the Radio 4 programme Word of Mouth.",
+      "INSERT: Jonathan Green, lexicographer of slang Slang does have a bad reputation and I would say this comes from its earliest collection, which was of criminal slang in the 1500s in the 16th Century, and it was associated with bad people, and inevitably that has lingered. But now in the last 40 or 50 years it's changed. The definitions tend to stress 'different' and 'jocular', 'funny', 'humorous', 'inventive', that kind of thing.",
+      "Neil: So we have records of 16th Century slang in collections – or dictionaries. Words used by criminals as a code so they could talk without being understood. And this bad reputation has lingered – or been slow to disappear.",
+      "Alice: But for the last 50 years we've been using slang to be funny and creative as well as to show belonging to a particular group. And apparently we're very creative when talking about drinking and being drunk. The slang word booze – meaning 'alcohol' – comes from the 13th Century Dutch word, 'būsen'.",
+      "Neil: And there are hundreds of slang expressions to talk about drink and being drunk: 'on the sauce', 'in your cups', 'half cut', 'hammered', 'squiffy', 'tipsy', 'wasted', 'legless', and many many more that are far too rude to mention in this programme.",
+      "Alice: Yes. So, while these terms might not be 'strictly acceptable' – or appropriate in formal contexts they aren't offensive, they are often amusing and help people bond in social groups.",
+      "Neil: By contrast, swear words or profanity – means 'rude language that offends or upsets people'. And I'm not going to give any examples because that would be inappropriate and impolite, Alice.",
+      "Alice: OK, let's listen now to Jonathan Green and presenter Michael Rosen talking about jargon – another type of in-group language.",
+      "INSERT: Jonathan Green, lexicographer of slang, and Michael Rosen, Presenter, Word of Mouth, Radio 4 JG: Jargon is what I would call is small 'o' occupational, small 'p' professional. It's closed off environments. You get legal jargon, you get naval jargon, I've been reading Patrick O'Brien recently and that's awash with futtock plates and fiddying the decks. MR: This is radio 4 Jonathan, be careful!",
+      "Neil: Jonathan Green in another segment of the BBC Radio 4 programme Word of Mouth. So he says jargon is occupational and professional, meaning people speak it at work, for example, lawyers and sailors. A futtock plate is, I believe, an iron plate attached to the top of a ship's mast. But I don't know much about this subject.",
+      "Alice: That's the idea, though – jargon is the technical language belonging to a specific group. And to outsiders this jargon is often hard to understand.",
+      "Neil: Yes and here in the studio I can use all the radio jargon that I like. Look at my faders here, Alice. Going down and up and up and I'm just testing our levels…",
+      "Alice: Come on, live the fader alone. It controls the level of sound on a studio deck. Now it's time for the answer to today's quiz question, Neil.",
+      "Neil: I asked you: What's Cockney Rhyming Slang for 'money'? Is it… a) bread, b) honey or c) dough?",
+      "Alice: And I said a) bread.",
+      "Neil: And you were right, Alice! Cockney Rhyming Slang uses just the first word of a phrase that rhymes with a word we're trying to disguise. So 'money' becomes 'bread and honey' but we just say 'bread'.",
+      "Alice: OK, so let's recap on the words we've learned today. They are: slang dosh smacker",
+      "Cockney Rhyming Slang: colloquial frowned upon lingered booze swear profanity jargon",
+      "Neil: Well, that's the end of today's 6 Minute English. Please join us again soon!",
+      "Both: Bye!",
+      "Vocabulary: slang informal language spoken by a particular group dosh money smacker British pound or US dollar",
+      "Cockney Rhyming Slang: a coded language invented in the 19th century by Cockneys so they could speak in front of the police without being understood colloquial informal spoken language frowned upon disapproved of lingered slow to disappear booze alcohol swear words / profanity rude language that offends or upsets people jargon the technical language belonging to a specific group"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "What kind of worker was he?",
+        "a": "He was an obedient white-collar worker."
+      },
+      {
+        "q": "Did Andre work in an office?",
+        "a": "Yes, he was a white-collar worker. He was an office worker."
+      },
+      {
+        "q": "Was Andre a blue-collar worker or a white-collar worker?",
+        "a": "Well, he was a white-collar worker. He worked in an office."
+      },
+      {
+        "q": "Who was a white-collar worker?",
+        "a": "Andre, Andre was a white-collar worker."
+      },
+      {
+        "q": "Did Andre break the rules?",
+        "a": "No, no, no, no, no, no, no, he never broke the rules. He was an obedient worker."
+      },
+      {
+        "q": "So did he follow the rules or did he break the rules?",
+        "a": "He followed the rules. He was obedient."
+      },
+      {
+        "q": "What kind of white-collar worker was he?",
+        "a": "An obedient white-collar worker."
+      },
+      {
+        "q": "So he was obedient or he broke the rules?",
+        "a": "He was obedient. Andre was an obedient white-collar worker."
+      },
+      {
+        "q": "Who was obedient?",
+        "a": "Andre, Andre was obedient. He always, always followed the rules. He was an obedient white-collar worker."
+      },
+      {
+        "q": "How did he feel about trying new things?",
+        "a": "He was scared. He was afraid. He was petrified."
+      },
+      {
+        "q": "He was petrified of what?",
+        "a": "Of trying new things. He was petrified of trying new things. He was petrified to try anything new. He was very afraid, very scared to try anything new."
+      },
+      {
+        "q": "Who was petrified?",
+        "a": "Andre, Andre was petrified."
+      },
+      {
+        "q": "Petrified of doing what?",
+        "a": "Of trying something new. He was petrified of trying anything new. He would never try anything new. He was scared. He was petrified."
+      },
+      {
+        "q": "So was he brave or was he petrified?",
+        "a": "He was petrified, of course. Andre was petrified to try anything new."
+      },
+      {
+        "q": "Did Andre do a lot of work in a short time?",
+        "a": "No, he did not. No, his productivity was low. He did very little work."
+      },
+      {
+        "q": "Did he get great results in his job?",
+        "a": "No, no, his productivity was low. He did not get great results. He got poor results, he had poor productivity."
+      },
+      {
+        "q": "What was low?",
+        "a": "Andre’s productivity. Andre’s productivity was very low. His results, the amount of work he did, they were both very low. His productivity was low."
+      },
+      {
+        "q": "Was his productivity high or low?",
+        "a": "His productivity was very low."
+      },
+      {
+        "q": "Whose productivity was very low?",
+        "a": "Andre’s, Andre’s productivity was very, very low. He followed the rules. He did the normal thing, nothing special. His productivity was mediocre. His productivity was low."
+      },
+      {
+        "q": "Why was he fired?",
+        "a": "Well, because his productivity was low and because he was a boring worker."
+      },
+      {
+        "q": "Who was fired?",
+        "a": "Andre, Andre was fired. Andre lost his job."
+      },
+      {
+        "q": "Did he keep his job or was he fired?",
+        "a": "He was fired."
+      },
+      {
+        "q": "Who?",
+        "a": "Andre, Andre was fired because his productivity was low and because he was a boring worker."
+      },
+      {
+        "q": "How did Andre feel after he was fired?",
+        "a": "Well, he felt terrible."
+      },
+      {
+        "q": "Did he make a big mistake?",
+        "a": "Yes. He said he blew it. He said “I blew it! I made a big mistake.”"
+      },
+      {
+        "q": "Did Andre blow it?",
+        "a": "Yes, he did. He blew it. He made a big mistake."
+      },
+      {
+        "q": "Who blew it?",
+        "a": "Andre, Andre blew it. Andre made a big mistake."
+      },
+      {
+        "q": "Did he blow it or was he successful?",
+        "a": "He blew it. He made a big mistake. He blew it."
+      },
+      {
+        "q": "He blew what?",
+        "a": "Well, he blew his job, all right. He made a big mistake at his job."
+      },
+      {
+        "q": "So he blew it or he was successful?",
+        "a": "He blew it. Andrew blew it. He said “Damn it! I blew it! I was stupid!”"
+      },
+      {
+        "q": "How did he blow it?",
+        "a": "Well, he blew it; he made a big mistake, by following the rules. He blew it by following the rules. He made a mistake by following the rules."
+      },
+      {
+        "q": "What did he become?",
+        "a": "A rebel!"
+      },
+      {
+        "q": "Who became a rebel?",
+        "a": "Andre, Andre became a rebel! He became a rebel, he constantly tried new things. He decided to do everything new, everything differently. He decided to break all the rules."
+      },
+      {
+        "q": "What did Andre become?",
+        "a": "He became a rebel. He became a rebel in his work. He became a rebel in his home life. He became a rebel in every part of his life. He constantly tried new things."
+      },
+      {
+        "q": "What did he do?",
+        "a": "He invented an amazing new toothbrush."
+      },
+      {
+        "q": "Did he create a new toothbrush?",
+        "a": "Yes, he did. He invented…he invented, he created…an amazing new toothbrush."
+      },
+      {
+        "q": "Who created an amazing new toothbrush?",
+        "a": "Andre, Andre created an amazing new toothbrush."
+      },
+      {
+        "q": "He invented what?",
+        "a": "He invented an amazing new toothbrush."
+      },
+      {
+        "q": "What kind of an amazing new toothbrush did he invent?",
+        "a": "Well, he invented a nuclear-powered toothbrush."
+      },
+      {
+        "q": "What kind of toothbrush did he invent?",
+        "a": "He invented a nuclear-powered toothbrush. It was a nuclear toothbrush, super powerful."
+      },
+      {
+        "q": "Who invented a nuclear-powered toothbrush?",
+        "a": "Andre, Andre invented a nuclear-powered toothbrush. It was an amazing invention."
+      },
+      {
+        "q": "Why did he become the richest man in the world?",
+        "a": "Because he invented an amazing new toothbrush and he sold it millions of people. He became super rich. He became the richest man in the world because he became a rebel!"
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "obedience",
+      "pos": "n",
+      "uz": "itoat, qoidaga boʻysunish",
+      "defEn": "the act of following the rules or doing what you are told",
+      "example": "Obedience works fine in a standardized factory."
+    },
+    {
+      "en": "a standardized test",
+      "pos": "phrase",
+      "uz": "bir xil andozadagi test (hamma uchun bir xil)",
+      "defEn": "a test that is always exactly the same for everyone",
+      "example": "A standardized test measures everyone the same way."
+    },
+    {
+      "en": "a blue-collar job",
+      "pos": "phrase",
+      "uz": "jismoniy mehnat ishi (zavod ishi)",
+      "defEn": "a factory or manual job where you use your hands",
+      "example": "A blue-collar job usually means working in a factory."
+    },
+    {
+      "en": "a white-collar job",
+      "pos": "phrase",
+      "uz": "aqliy mehnat ishi (ofis ishi)",
+      "defEn": "an office or mental job where you use your brain",
+      "example": "White-collar workers are paid to use their heads."
+    },
+    {
+      "en": "productivity",
+      "pos": "n",
+      "uz": "unumdorlik, samaradorlik (kam kuch bilan koʻp ish)",
+      "defEn": "how much work you do in a certain time or with a certain effort",
+      "example": "Companies want to increase productivity."
+    },
+    {
+      "en": "to be petrified",
+      "pos": "phrase",
+      "uz": "qattiq qoʻrqmoq, dahshatga tushmoq",
+      "defEn": "to be extremely scared or afraid",
+      "example": "Most workers are petrified to break the rules."
+    },
+    {
+      "en": "to blow it",
+      "pos": "phrase",
+      "uz": "puturidan chiqarmoq, katta xato qilmoq",
+      "defEn": "to fail or make a big mistake",
+      "example": "We don't want to blow it at work."
+    },
+    {
+      "en": "to invent (something)",
+      "pos": "v",
+      "uz": "yangi narsa yaratmoq, ixtiro qilmoq",
+      "defEn": "to create something completely new",
+      "example": "You need to invent new instructions, not just follow old ones."
+    },
+    {
+      "en": "a myth",
+      "pos": "n",
+      "uz": "asossiz ishonch, yolgʻon tasavvur",
+      "defEn": "a story or belief that is not true",
+      "example": "It's a myth that following orders keeps your job safe."
+    },
+    {
+      "en": "a reflex",
+      "pos": "n",
+      "uz": "refleks, avtomatik javob (oʻylamasdan)",
+      "defEn": "a fast, automatic reaction with no thinking",
+      "example": "His reflex was to ask the boss what to do."
+    }
+  ],
+  "englishpod": {
+    "id": "0259",
+    "title": "The Office – Asking About the Position",
+    "titleUz": "Ofis — Ish oʻrni haqida soʻrash",
+    "warmup": {
+      "uz": "Bu suhbatda Rebecca jurnalistlik ishiga suhbatga keladi va xodimlar soni, ish vaqti hamda boʻsh oʻrin haqida dadil savollar beradi. AJ aytadiki, ofis xodimi qoidalarni buzib, oʻzi mustaqil fikrlashi kerak — hatto suhbatda ham botir savol bergan kishi ajralib turadi. Sizningcha, Rebecca ishga qabul qilinadimi?",
+      "en": "In this dialogue Rebecca interviews for a journalism job and asks bold questions about the workforce, the hours and the vacancy. AJ says white-collar workers should break the rules and think for themselves — even in an interview, the person who asks confident questions stands out. Do you think Rebecca will get the job?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0259/dg.mp3",
+        "durationSec": 57,
+        "bytes": 487028
+      },
+      "pr": {
+        "path": "englishpod/0259/pr.mp3",
+        "durationSec": 772,
+        "bytes": 12379009
+      },
+      "rv": {
+        "path": "englishpod/0259/rv.mp3",
+        "durationSec": 420,
+        "bytes": 6763667
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Rebecca",
+        "en": "Could you tell me a little about the organization? For example, how big is your workforce here?"
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Well in total we have around 150 employees based in Hong Kong with another 400 in our head office in Beijing. The newsdesk staff in Hong Kong comprises around 80 staff."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "I see. And how about the working hours?"
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Well, as you know Rebecca, in journalism work hours are not exactly 9-5. You could be on call at any time. We do have to work very unsociable hours at times."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well I am used to that Mr. Parsons, so that’s not really a shock for me."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Good, as long as you understand that."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "And when do you need to fill the vacancy, Mr. Parsons?"
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Yesterday! But no, we are hoping to start from the beginning of next month."
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "That sounds ideal."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "how about…?",
+        "uz": "… haqida nima deysiz? (yangi mavzuni koʻtarish)",
+        "defEn": "a way to introduce or ask about a new topic"
+      },
+      {
+        "en": "workforce",
+        "uz": "ishchi kuchi, barcha xodimlar",
+        "defEn": "all the people who work for a company"
+      },
+      {
+        "en": "staff",
+        "uz": "xodimlar (jamoasi)",
+        "defEn": "the group of people who work for an organization"
+      },
+      {
+        "en": "used to (something)",
+        "uz": "biror narsaga oʻrganib qolgan, koʻnikkan",
+        "defEn": "accustomed or habituated to something"
+      },
+      {
+        "en": "on call",
+        "uz": "chaqirilsa ishga tayyor (istalgan vaqtda)",
+        "defEn": "available to work at any time when needed"
+      },
+      {
+        "en": "nine to five",
+        "uz": "9dan 5gacha (odatiy ish vaqti)",
+        "defEn": "normal office working hours, 9AM–5PM"
+      },
+      {
+        "en": "to fill a vacancy",
+        "uz": "boʻsh ish oʻrnini toʻldirmoq (odam olmoq)",
+        "defEn": "to hire someone for an empty position"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "160901",
+    "title": "Slang",
+    "titleUz": "Sleng (norasmiy til)",
+    "audio": {
+      "main": {
+        "path": "sixmin/160901/audio.mp3",
+        "durationSec": 377,
+        "bytes": 6026496,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "What's Cockney Rhyming Slang for 'money'?",
+        "qUz": "Kokni qofiyali slengida 'pul' qanday ataladi?",
+        "options": [
+          "bread",
+          "honey",
+          "dough"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) bread. 'Money' iborasi 'bread and honey' bilan qofiyalanadi, ammo kokni slengida faqat birinchi soʻz — 'bread' — ishlatiladi. Neil uch variant berdi (bread, honey, dough), Alice 'bread' dedi va haqli chiqdi."
+      }
+    ],
+    "vocab": [
+      {
+        "en": "slang",
+        "uz": "sleng, norasmiy til (maʼlum guruh ishlatadigan)",
+        "defEn": "informal language spoken by a particular group"
+      },
+      {
+        "en": "colloquial",
+        "uz": "soʻzlashuv tiliga oid, norasmiy",
+        "defEn": "informal, everyday spoken language"
+      },
+      {
+        "en": "frowned upon",
+        "uz": "maʼqullanmaydigan, qoralanadigan",
+        "defEn": "disapproved of"
+      },
+      {
+        "en": "lingered",
+        "uz": "uzoq saqlanib qoldi, sekin yoʻqoldi",
+        "defEn": "was slow to disappear"
+      },
+      {
+        "en": "profanity / swear words",
+        "uz": "haqoratli, qoʻpol soʻzlar (soʻkinish)",
+        "defEn": "rude language that offends or upsets people"
+      },
+      {
+        "en": "jargon",
+        "uz": "kasbiy atamalar, jargon (maʼlum guruh tili)",
+        "defEn": "the technical language belonging to a specific group"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Why Breaking the Rules Can Make You Successful",
+      "channel": "TEDx Talks"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think about a time you broke a rule — at school, at work, or in learning English. Although following rules feels safe, why did breaking this one help you? Not only say what you did, but also what you learned.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: zidlik ergash gaplari (although / even though / despite / whereas) va urgʻu uchun inversiya (Never have I…; Not only… but also…).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/29/main.mp3",
+      "bytes": 9798355
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/29/main.pdf",
+      "bytes": 160184
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/29/vocab.mp3",
+      "bytes": 9330734
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/29/ministory.mp3",
+      "bytes": 8468111
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/29/pov.mp3",
+      "bytes": 4195967
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/29/pov.pdf",
+      "bytes": 161725
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0259/dg.mp3",
+      "bytes": 487028
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0259/transcript.pdf",
+      "bytes": 92123
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/160901/audio.mp3",
+      "bytes": 6026496
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/160901/transcript.pdf",
+      "bytes": 248463
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}

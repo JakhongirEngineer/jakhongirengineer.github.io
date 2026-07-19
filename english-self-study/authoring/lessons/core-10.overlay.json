@@ -1,0 +1,173 @@
+{
+  "slug": "reading-power",
+  "title": "Reading Power",
+  "titleUz": "Oʻqishning kuchi",
+  "level": "B1",
+  "tags": ["reading", "input", "quantifiers", "comparatives", "krashen"],
+  "intro": {
+    "uz": "Dr. Stephen Krashenning gʻoyasi: til koʻnikmalari qoidalarni yodlashdan emas, koʻp va zavq bilan oʻqishdan oʻsadi. Oson romanlarni koʻp oʻqisangiz, grammatika, imlo va soʻz boyligi oʻz-oʻzidan yaxshilanadi. Oʻqish esa hajm bilan oʻlchanadi — shuning uchun bu haftaning ikki grammatikasi: miqdor va sanaladigan/sanalmaydigan otlar (much / many / a lot of) hamda mutanosiblik qolipi (the more…, the more…). Filbert maymun haqidagi POV hikoyada oʻqishning kuchini eshitasiz.",
+    "en": "Dr. Stephen Krashen's idea: language skills grow not from memorising rules but from reading a lot, for pleasure. Read many easy novels and your grammar, spelling and vocabulary improve on their own. And reading is measured in volume — so this week's two grammar topics are quantity with countable/uncountable nouns (much / many / a lot of) and the proportional pattern (the more…, the more…). You'll hear the power of reading in the POV story about Filbert the monkey."
+  },
+  "canDo": {
+    "uz": "Dars oxirida qancha oʻqishingiz haqida toʻgʻri gapira olasiz (much / many / a lot of) va \"qancha koʻp … shuncha koʻp …\" qolipi bilan ikki narsaning birga oʻzgarishini ravon tasvirlab bera olasiz.",
+    "en": "By the end you can talk correctly about how much you read (much / many / a lot of) and fluently describe two things changing together with the \"the more…, the more…\" pattern."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "quantifiers-countability",
+      "titleUz": "Miqdor va sanaladigan/sanalmaydigan otlar: much / many / a lot of",
+      "titleEn": "Quantifiers & countability — much / many / a lot of",
+      "bandLifter": "IELTS Part 1 — talk about how much you read and study",
+      "cefrCanDo": "B1: I can use much/many/a lot of correctly with count and uncount nouns",
+      "contrastUz": "Oʻzbekchada \"koʻp\" hamma narsaga yetadi: koʻp kitob, koʻp vaqt, koʻp maʼlumot. Ingliz tili esa otga qarab tanlashga majbur qiladi: sanaladigan koʻplik bilan many (many books), sanalmaydigan bilan much (much time). Yana bir farq: oʻzbekcha \"koʻp kitob\" birlikda, ingliz tilida esa sanaladigan ot koʻplik boʻlishi shart — many books.",
+      "errorFixUz": "❌ I learned many informations. She reads much books. ✅ I learned much information. She reads a lot of books. information sanalmaydi → much; books sanaladi → many yoki a lot of.",
+      "examples": [
+        { "en": "I read a lot of novels every month.", "uz": "Men har oy koʻp roman oʻqiyman." },
+        { "en": "You don't need much grammar to enjoy a story.", "uz": "Hikoyadan zavq olish uchun koʻp grammatika kerak emas." },
+        { "en": "How many books did you finish this year?", "uz": "Bu yil nechta kitob tugatdingiz?" }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "I don't have ___ time to read today.",
+          "options": ["much", "many", "a lot"],
+          "answer": "much",
+          "hintUz": "time sanalmaydi → much (inkorda)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "How ___ novels do you read in a month?",
+          "options": ["many", "much", "a lot"],
+          "answer": "many",
+          "hintUz": "novels sanaladigan koʻplik → many"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Good readers get ___ input every day.",
+          "options": ["a lot of", "many", "much of"],
+          "answer": "a lot of",
+          "hintUz": "a lot of ham sanaladigan, ham sanalmaydigan ot bilan ishlaydi"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"I read a lot of … . I don't have much … . I know many … .\"",
+          "answer": null,
+          "hintUz": "sanaladigan → many/a lot of; sanalmaydigan → much/a lot of"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "the-more-the-more",
+      "titleUz": "Mutanosiblik: the more…, the more…",
+      "titleEn": "The more…, the more… (proportional)",
+      "bandLifter": "IELTS Part 2/3 — describe how one thing changes as another does",
+      "cefrCanDo": "B2: I can link two changes with the more…, the more…",
+      "contrastUz": "Oʻzbekchadagi \"qancha … shuncha …\" qolipi tanish, ammo ingliz tilida ikki nozik nuqta bor: har ikki boʻlak the bilan boshlanadi va darrov qiyosiy daraja keladi. Oʻzbekcha oddiy sifat ishlatadi (qancha koʻp — shuncha yaxshi), ingliz tili esa good emas, better talab qiladi.",
+      "errorFixUz": "❌ More you read, more you know. The much you read, the good your grammar. ✅ The more you read, the more you know. The more you read, the better your grammar. Har ikki boʻlak the bilan boshlanadi va qiyosiy shakl oladi (more, better).",
+      "examples": [
+        { "en": "The more you read, the better your grammar gets.", "uz": "Qancha koʻp oʻqisangiz, grammatikangiz shuncha yaxshilanadi." },
+        { "en": "The more Filbert read, the more peaceful he became.", "uz": "Filbert qancha koʻp oʻqigan sari, shuncha tinch boʻlib bordi." },
+        { "en": "The more input you get, the faster you improve.", "uz": "Qancha koʻp \"input\" olsangiz, shuncha tez oʻsasiz." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The more you read, ___ your vocabulary grows.",
+          "options": ["the more", "more", "the most"],
+          "answer": "the more",
+          "hintUz": "juft qolip: the more…, the more…"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "The more novels you finish, the ___ your English gets.",
+          "options": ["better", "best", "gooder"],
+          "answer": "better",
+          "hintUz": "good ning qiyosiy shakli — better"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "___ you practise, the easier it becomes.",
+          "options": ["The more", "More", "Much more"],
+          "answer": "The more",
+          "hintUz": "qolip \"the\" bilan boshlanadi: The more…"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting: \"The more I …, the more/better I … .\"",
+          "answer": null,
+          "hintUz": "har ikki boʻlak the + qiyosiy daraja"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "competence", "pos": "n", "uz": "koʻnikma, malaka; qobiliyat", "defEn": "the skill or ability to do something well", "example": "Readers develop competence in the language." },
+    { "en": "demanding", "pos": "adj", "uz": "qiyin, koʻp kuch talab qiladigan", "defEn": "difficult; needing a lot of effort or skill", "example": "A business meeting is a demanding purpose for your English." },
+    { "en": "literacy", "pos": "n", "uz": "savodxonlik, yaxshi oʻqiy olish qobiliyati", "defEn": "the ability to read and write well", "example": "When we read, we develop literacy." },
+    { "en": "well read", "pos": "adj", "uz": "koʻp kitob oʻqigan, mutolaali", "defEn": "having read many books", "example": "Well-read people rarely have grammar problems." },
+    { "en": "subconsciously", "pos": "adv", "uz": "ong osti bilan, oʻzi sezmagan holda; intuitiv", "defEn": "without realising it; intuitively", "example": "You subconsciously learn good grammar by reading." },
+    { "en": "conventions (of writing)", "pos": "n", "uz": "yozuv qoidalari va odatlari", "defEn": "the usual rules or habits of writing", "example": "Readers pick up the conventions of writing naturally." },
+    { "en": "to assume", "pos": "v", "uz": "deb oʻylab qoʻymoq, dalilsiz ishonmoq", "defEn": "to believe or guess something without proof", "example": "We wrongly assume that skills come before reading." },
+    { "en": "reading for pleasure", "pos": "phrase", "uz": "zavq uchun oʻqish, mazza qilib oʻqish", "defEn": "reading for fun and enjoyment, not for study", "example": "Reading for pleasure is the fastest way to improve." },
+    { "en": "to acquire (a skill)", "pos": "v", "uz": "tabiiy ravishda egallamoq, oʻz-oʻzidan oʻrganmoq", "defEn": "to get or learn something naturally over time", "example": "You acquire vocabulary just by reading a lot." },
+    { "en": "meaningful input", "pos": "phrase", "uz": "maʼnoli material (tushunarli oʻqish va tinglash)", "defEn": "language you read or hear that you understand and enjoy", "example": "It's the meaningful input that matters most." }
+  ],
+  "englishpod": {
+    "title": "Daily Life – Buying a Computer",
+    "titleUz": "Kundalik hayot — Kompyuter sotib olish",
+    "warmup": {
+      "uz": "Suhbatda xaridorning 3 yillik kompyuteri sekin ishlayapti, sotuvchi esa \"texnologiya tobora tez eskiradi (faster and faster)\" deydi — bu haftaning B grammatikasiga mos! Filbert darsi esa boshqa haqiqatni koʻrsatadi: kompyuter eskiradi, ammo oʻqish koʻnikmasi va kitoblar hech qachon eskirmaydi. Sizningcha, xaridor yangi kompyuter sotib oladimi?",
+      "en": "In this dialogue a customer's 3-year-old computer runs slowly, and the clerk says technology becomes obsolete faster and faster — a link to this week's grammar B! Filbert's lesson shows the opposite truth: computers get old, but reading skill and books never do. Do you think the customer will buy the new computer?"
+    },
+    "keyVocab": [
+      { "en": "I have no idea", "uz": "tushunmayapman, mutlaqo bilmayman", "defEn": "to be completely unaware of something" },
+      { "en": "where this is going", "uz": "gap nimaga borayotgani, ishning yoʻnalishi", "defEn": "the direction an event or conversation is taking" },
+      { "en": "ever changing", "uz": "doim oʻzgarib turadigan", "defEn": "always becoming different" },
+      { "en": "obsolete", "uz": "eskirgan, ishdan chiqqan (endi keraksiz)", "defEn": "no longer useful or up to date" },
+      { "en": "to freeze", "uz": "muzlab qolmoq, qotib qolmoq (kompyuter)", "defEn": "to suddenly stop functioning" },
+      { "en": "to crash", "uz": "ishdan chiqmoq, birdan oʻchib qolmoq", "defEn": "to suddenly stop functioning" },
+      { "en": "top of the line", "uz": "eng zoʻr, eng yuqori darajadagi model", "defEn": "the best and most advanced model available" },
+      { "en": "to guarantee", "uz": "kafolat bermoq", "defEn": "to make a firm promise, often in writing" }
+    ]
+  },
+  "sixmin": {
+    "title": "How to cure writer's block",
+    "titleUz": "Yozuvchilik tiqilinchini qanday yengish mumkin",
+    "quiz": [
+      {
+        "q": "How does the author of the Da Vinci Code, Dan Brown, deal with writer's block?",
+        "qUz": "\"Da Vinchi kodi\" muallifi Dan Braun yozuvchilik tiqilinchini qanday yengadi?",
+        "options": [
+          "He hangs upside down from the ceiling in gravity boots",
+          "He cleans his 6-bedroom house with a toothbrush",
+          "He runs a half-marathon listening to Wagner"
+        ],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) shiftga teskari osilib turadi (gravity boots yordamida). Alice c) deb xato qildi. Miyaga qon koʻproq oqib borgani ijodiy tiqilinchni bartaraf etishga yordam beradi — yaʼni qancha koʻp qon oqsa, fikr shuncha ravon boʻladi (grammatika B!)."
+      }
+    ],
+    "vocab": [
+      { "en": "creative juices", "uz": "ijodiy ilhom, gʻoyalar oqimi", "defEn": "a flow of ideas" },
+      { "en": "writer's block", "uz": "yozuvchilik tiqilinchi (yoza olmay qolish)", "defEn": "not being able to write because of a psychological problem" },
+      { "en": "coined", "uz": "(soʻz yoki atama) oʻylab topilgan, yaratilgan", "defEn": "invented (a new word or phrase)" },
+      { "en": "impediment", "uz": "toʻsiq, gʻov", "defEn": "an obstacle that gets in the way" },
+      { "en": "Muses", "uz": "ilhom parilari (ijod maʼbudalari)", "defEn": "the goddesses of creativity in Greek myth" },
+      { "en": "invoked", "uz": "chorlangan, yordamga chaqirilgan", "defEn": "called upon (for help or inspiration)" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Learn English through a short story: the power of reading",
+      "channel": "Learn English Through Story"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "How much do you read in English, and what do you read? Talk about how many books or articles you get through, and finish with this idea: the more you read, the more your English improves.",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: miqdor (I read a lot of…; I don't have much…; How many…?) va mutanosiblik qolipi (The more I read, the better/more … .).",
+    "targetSec": 60
+  }
+}

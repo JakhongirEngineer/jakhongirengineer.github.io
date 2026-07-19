@@ -1,0 +1,167 @@
+{
+  "slug": "big-picture",
+  "title": "The Big Picture",
+  "titleUz": "Katta manzara",
+  "level": "B1",
+  "tags": ["education", "learning", "future-perfect", "future-continuous", "time-clauses"],
+  "intro": {
+    "uz": "\"The Big Picture\" — Dennis Littky kitobidan: haqiqiy oʻrganish yod olish emas, bilimni ishlatish va bogʻlashdir. AJ bugungi kichik dars emas, butun umr yoʻlini koʻrishga chaqiradi. Bu haftaning ikki grammatikasi aynan shu \"katta manzara\" tili: kelasi mukammal va davomiy zamon (will have done; will be doing) hamda payt ergash gaplari (when / as soon as / until + hozirgi zamon). Athena haqidagi POV hikoyada uzoq rejani eshitasiz.",
+    "en": "\"The Big Picture\" comes from Dennis Littky's book: real learning is not memorizing but using and connecting knowledge. AJ asks you to see not today's small lesson but the whole arc of your life. This week's two grammar topics are the language of that big picture: the future perfect and future continuous (will have done; will be doing) and future time clauses (when / as soon as / until + present). You'll hear a long plan in the POV story about Athena."
+  },
+  "canDo": {
+    "uz": "Dars oxirida kelajakning bir nuqtasidan turib rejangizni tasvirlab bera olasiz (\"By 2030 I will have reached B2; this time next year I will be speaking freely\") va uzoq rejaning bosqichlarini when/as soon as/until bilan toʻgʻri bogʻlay olasiz (when dan keyin will ishlatmasdan).",
+    "en": "By the end you can describe your plan from a point in the future (\"By 2030 I will have reached B2; this time next year I will be speaking freely\") and link the stages of a long plan with when/as soon as/until correctly (no will after when)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "future-perfect-continuous",
+      "titleUz": "Kelasi mukammal va davomiy: will have done; will be doing",
+      "titleEn": "Future perfect & future continuous",
+      "bandLifter": "IELTS Part 2 — describe future plans and where you'll be by a certain time",
+      "cefrCanDo": "B1→B2: I can say what I will have finished and what I will be doing at a future time",
+      "contrastUz": "Oʻzbek tili ikki maʼnoni koʻpincha oddiy kelasi zamon bilan beradi (\"tugataman\", \"gaplashayotgan boʻlaman\"). Ingliz tili esa aniq ajratadi: kelajakka borib tugagan ish — will have + V3; kelajakda davom etayotgan ish — will be + V-ing. \"by + vaqt\" koʻpincha future perfect bilan keladi.",
+      "errorFixUz": "❌ By 2030 I will reach B2. ✅ By 2030 I will have reached B2. \"by + kelajak vaqti\" bilan ish oʻsha vaqtga borib tugagan boʻladi, shuning uchun will have + V3 (oddiy will do emas).",
+      "examples": [
+        { "en": "By next summer I will have finished this course.", "uz": "Kelasi yozga borib bu kursni tugatgan boʻlaman." },
+        { "en": "This time next year I will be speaking English at work.", "uz": "Kelasi yili shu payt men ishda inglizcha gaplashayotgan boʻlaman." },
+        { "en": "In ten years Athena will have learned 55 languages.", "uz": "Oʻn yildan keyin Athena 55 tilni oʻrgangan boʻladi." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "By 2030 I ___ B2 level.",
+          "options": ["will have reached", "will reach", "reach"],
+          "answer": "will have reached",
+          "hintUz": "\"by + kelajak vaqti\" → oʻsha vaqtga borib tugagan ish: will have + V3"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "This time tomorrow we ___ on the plane.",
+          "options": ["will be sitting", "will have sat", "sit"],
+          "answer": "will be sitting",
+          "hintUz": "kelajakning bir onida davom etayotgan ish → will be + V-ing"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "Don't call at noon — I ___.",
+          "options": ["will be sleeping", "will have slept", "sleep"],
+          "answer": "will be sleeping",
+          "hintUz": "oʻsha payt ish davom etayotgan boʻladi → will be sleeping"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz haqingizda rost gap ayting (ovoz chiqarib): \"By this time next year, I will have … . And I will be … -ing.\"",
+          "answer": null,
+          "hintUz": "will have + V3 (tugagan) va will be + V-ing (davom etayotgan)"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "future-time-clauses",
+      "titleUz": "Payt ergash gaplari: when / as soon as / until + hozirgi zamon",
+      "titleEn": "Future time clauses (when / as soon as / until)",
+      "bandLifter": "IELTS Part 2 — sequence the stages of a long-term plan smoothly",
+      "cefrCanDo": "B1→B2: I can link future stages with when/as soon as/until using the present (no will after when)",
+      "contrastUz": "Oʻzbekchada ikkala qism ham kelasi zamonda boʻlaveradi: \"Tugatganimda topshiraman\". Ingliz tilida esa when / as soon as / until / before dan keyin feʼl hozirgi zamonda qoladi (will yoʻq), will faqat asosiy qismda turadi. \"until\" koʻpincha \"…maguncha / …gacha\" ga toʻgʻri keladi.",
+      "errorFixUz": "❌ When I will finish the course, I will take IELTS. ✅ When I finish the course, I will take IELTS. \"when\" soʻzining oʻzi kelajakni bildiradi, shuning uchun undan keyin will qoʻshilmaydi — \"when dan keyin will yoʻq\".",
+      "examples": [
+        { "en": "When I finish this course, I will take IELTS.", "uz": "Bu kursni tugatganimda, IELTS topshiraman." },
+        { "en": "As soon as I am fluent, I will apply for the job.", "uz": "Ravon gapira boshlashim bilan, ishga ariza beraman." },
+        { "en": "I won't stop until I reach B2.", "uz": "B2ga yetmagunimcha toʻxtamayman." }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "When I ___ the course, I will take the exam.",
+          "options": ["finish", "will finish", "finished"],
+          "answer": "finish",
+          "hintUz": "when dan keyin will yoʻq → hozirgi zamon: finish"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "As soon as she ___ home, she will call you.",
+          "options": ["gets", "will get", "get"],
+          "answer": "gets",
+          "hintUz": "as soon as + he/she/it → hozirgi zamon + -s: gets"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "I will keep practising ___ it becomes easy.",
+          "options": ["until", "when will", "since"],
+          "answer": "until",
+          "hintUz": "\"…gacha / …maguncha\" → until (+ hozirgi zamon: becomes)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Kelajak rejangizni bogʻlab ayting: \"When I …, I will … . As soon as I …, I will … . I won't stop until I … .\"",
+          "answer": null,
+          "hintUz": "payt qismi hozirgi zamonda, asosiy qism will bilan"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    { "en": "the big picture", "pos": "idiom", "uz": "katta manzara, umumiy koʻrinish (mayda tafsilotlar emas)", "defEn": "the whole situation, not just small details", "example": "Don't focus on the test — look at the big picture." },
+    { "en": "to memorize (knowledge)", "pos": "v", "uz": "yod olmoq (oʻzini majburlab eslab qolmoq)", "defEn": "to force yourself to remember something", "example": "Real learning is not memorizing facts." },
+    { "en": "to integrate (knowledge)", "pos": "v", "uz": "bogʻlamoq, qorishtirmoq, birlashtirmoq", "defEn": "to mix or combine things together in a useful way", "example": "You have to integrate new words with what you already know." },
+    { "en": "a noted expert", "pos": "phrase", "uz": "taniqli, obroʻli mutaxassis (ishida usta boʻlgani uchun)", "defEn": "a well-known and skilful expert", "example": "Seymour Sarason was a noted psychology expert." },
+    { "en": "therapy", "pos": "n", "uz": "davolash, muolaja (ruhiy yoki jismoniy)", "defEn": "a healing treatment for the body or mind", "example": "Patients often improve between therapy sessions." },
+    { "en": "primarily", "pos": "adv", "uz": "asosan, koʻproq, birinchi navbatda", "defEn": "mostly or firstly", "example": "Schools primarily teach kids how to take tests." },
+    { "en": "a contestant", "pos": "n", "uz": "musobaqa ishtirokchisi, oʻyinchi", "defEn": "a player or participant in a competition or show", "example": "You only need that skill if you're a contestant on a quiz show." },
+    { "en": "project-based learning", "pos": "phrase", "uz": "loyihaga asoslangan taʼlim (test emas, amaliy ish orqali)", "defEn": "learning by creating real projects instead of taking tests", "example": "His classes were project-based, not textbook-based." },
+    { "en": "to give a presentation", "pos": "phrase", "uz": "taqdimot qilmoq, ish natijasini koʻrsatmoq", "defEn": "to show and explain your work to a group", "example": "At the end, the students gave a presentation instead of a test." },
+    { "en": "passion for learning", "pos": "phrase", "uz": "oʻrganishga boʻlgan ishtiyoq, qiziqish", "defEn": "a strong love of learning", "example": "AJ wants to awaken your passion for learning." }
+  ],
+  "englishpod": {
+    "title": "The Weekend – Farm Animals",
+    "titleUz": "Dam olish kuni — ferma hayvonlari",
+    "warmup": {
+      "uz": "Bu suhbatda er-xotin fermaga koʻchib oʻtishni orzu qiladi, lekin ferma hayotini umuman bilmaydi. \"Katta manzara\" mavzusiga mos: orzu chiroyli, biroq uni amalda qilish butunlay boshqa narsa — xuddi maktab bilan haqiqiy hayot orasidagi farq kabi. Sizningcha, qahramon fermada qola oladimi yoki shaharga qaytadimi?",
+      "en": "In this dialogue a couple dream of moving to a farm, but they know nothing about farm life. It fits the Big Picture theme: the dream is lovely, yet actually doing it is a different thing entirely — like the gap between school and real life. Do you think the character will stay on the farm or go back to the city?"
+    },
+    "keyVocab": [
+      { "en": "the country", "uz": "qishloq, shahardan tashqari joy", "defEn": "rural areas, away from the city" },
+      { "en": "to graze", "uz": "oʻtlamoq (mol-qoʻy oʻt yeyishi)", "defEn": "to feed on grass in a meadow or pasture" },
+      { "en": "to milk (a cow)", "uz": "sogʻmoq (sut olmoq)", "defEn": "to get the milk from a cow" },
+      { "en": "not know the first thing about", "uz": "biror narsani mutlaqo bilmaslik", "defEn": "to know little or nothing about something" },
+      { "en": "a stable", "uz": "otxona, mol saqlanadigan bino", "defEn": "a building where horses and cattle are kept and fed" },
+      { "en": "to hack it", "uz": "uddasidan chiqmoq, dosh bermoq", "defEn": "to be able to manage or cope with something successfully" }
+    ]
+  },
+  "sixmin": {
+    "title": "Global warming",
+    "titleUz": "Global isish",
+    "quiz": [
+      {
+        "q": "How much has the average temperature of the Earth's surface increased in the last hundred years?",
+        "qUz": "Soʻnggi yuz yilda Yer yuzasining oʻrtacha harorati qanchaga koʻtarildi?",
+        "options": ["0.85°C", "1.85°C", "8.5°C"],
+        "answerIndex": 0,
+        "explanationUz": "Toʻgʻri javob: a) 0.85°C. Neil c) 8.5°C dedi va xato qildi. Oxirida Alice haqiqiy raqam 0.85°C ekanini aytadi va eng issiq 14 yildan 13 tasi 21-asrga toʻgʻri kelishini qoʻshimcha qiladi."
+      }
+    ],
+    "vocab": [
+      { "en": "unseasonably", "uz": "yil fasliga xos boʻlmagan holda (masalan, yozda sovuq)", "defEn": "in a way that is not normal for the time of year" },
+      { "en": "to mitigate", "uz": "yumshatmoq, zararini kamaytirmoq", "defEn": "to make something less harmful or less severe" },
+      { "en": "to pledge", "uz": "vaʼda bermoq, ahd qilmoq", "defEn": "to promise something formally" },
+      { "en": "desalination", "uz": "shoʻr suvdan tuzni ajratish (chuchuklashtirish)", "defEn": "removing the salt and other minerals from sea water" },
+      { "en": "homegrown", "uz": "mahalliy ishlab chiqarilgan, oʻz yurtida yetishtirilgan", "defEn": "produced or developed locally" },
+      { "en": "cost-efficient", "uz": "pulga arziydigan, tejamli", "defEn": "good value for the money you paid" }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Changing Education Paradigms — seeing the big picture of learning",
+      "channel": "RSA"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Look at the big picture of your English journey. Where will you be in a few years — what will you have achieved, and what will you be doing? And how will you get there: when you finish this course, what will you do next, and what won't you stop doing until you succeed?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: kelasi mukammal va davomiy zamon (By … I will have …; This time next year I will be … -ing) hamda payt ergash gaplari (When I …, as soon as I …, until I … — bularda will ishlatmang).",
+    "targetSec": 60
+  }
+}

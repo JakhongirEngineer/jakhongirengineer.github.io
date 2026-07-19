@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 2,
+  "id": "core-27",
+  "track": "core",
+  "source": "aj-hoge",
+  "order": 27,
+  "slug": "be-a-champion",
+  "title": "Be a Champion",
+  "titleUz": "Chempion boʻl",
+  "level": "B1-B2",
+  "tags": [
+    "mindset",
+    "comparatives",
+    "superlatives",
+    "past-deduction",
+    "motivation"
+  ],
+  "intro": {
+    "uz": "Chempion — gʻalaba qozongan emas, balki toʻgʻri va yaxshi narsa uchun kurashadigan inson. Seth Godin aytadi: oddiy boʻlma, ajralib tur. Bu haftaning ikki grammatikasi shu gʻoyaga xizmat qiladi: qiyoslashning yuqori shakllari (by far / one of the most / the best … ever) va oʻtmish xulosasi (must have / can't have + V3). Inca haqidagi POV hikoyada ularni his qilasiz.",
+    "en": "A champion is not just a winner — it's someone who fights for what is right and good. Seth Godin says: don't be normal, be remarkable. This week's two grammar topics serve that idea: advanced comparatives and superlatives (by far / one of the most / the best … ever) and past deduction (must have / can't have + V3). You'll feel both in the POV story about Inca."
+  },
+  "canDo": {
+    "uz": "Dars oxirida chempionni taʼriflab, uni kuchli tildagi qiyoslash bilan ustun qoʻya olasiz (by far the best; one of the most … ; the best … ever) va oʻtmishdagi voqeaga mantiqiy xulosa chiqara olasiz (She must have …; They can't have …).",
+    "en": "By the end you can describe a champion and rank them with strong comparisons (by far the best; one of the most …; the best … ever), and make logical deductions about the past (She must have …; They can't have …)."
+  },
+  "grammar": [
+    {
+      "slot": "A",
+      "unit": "advanced-comparatives",
+      "titleUz": "Qiyoslashning yuqori shakllari: by far / one of the most / the best … ever",
+      "titleEn": "Advanced comparatives & superlatives",
+      "bandLifter": "IELTS Speaking — emphasise and rank with by far / one of the most / the best … ever",
+      "cefrCanDo": "B2: I can intensify comparisons (by far, one of the most, the best … ever)",
+      "bodyHtml": "<p>Bu darsda AJ chempionlar haqida gapiradi va ularni tasvirlashda oddiy sifat yetmaydi: <em>&quot;The people with the <strong>best</strong> careers are champions. They make <strong>more and more</strong> money. Being a champion is <strong>by far</strong> the smartest choice.&quot;</em> Champion — oddiygina &quot;yaxshi&quot; emas, u <em>eng zoʻr, ancha kuchli, hozirgacha koʻrilgan eng ajoyib</em>. Aynan shu — qiyoslashning yuqori shakllari: <strong>by far / one of the most / the best … ever</strong>. Qiyoslashning &quot;choʻqqisi&quot; — shuning uchun bu mavzu butun qiyoslash boʻlimimizga yakun yasaydi.</p>\n<h3><code>by far</code> — farqni kuchaytiradi</h3>\n<p>Oddiy superlativ <em>&quot;She is the best&quot;</em> deydi. Agar farq <strong>juda katta</strong> boʻlsa, oldiga <strong>by far</strong> qoʻshamiz — &quot;ancha, beqiyos darajada&quot;:</p>\n<ul>\n<li><em>Inca was <strong>by far the most</strong> determined person in the city.</em> — Inca shaharda beqiyos qatʼiyatli inson edi.</li>\n<li><em>This is <strong>by far the best</strong> decision of my career.</em> — Bu karyeramdagi ancha zoʻr qaror.</li>\n</ul>\n<p><code>by far</code> odatda superlativdan <strong>oldin</strong> turadi (<em>by far the best</em>), yoki jumla oxirida: <em>&quot;She is the best by far.&quot;</em></p>\n<h3><code>one of the most … </code> — &quot;eng … laridan biri&quot;</h3>\n<p>Superlativ bitta narsani ajratadi (<em>the best</em>). Lekin koʻpincha &quot;eng zoʻrlar qatoridan biri&quot; deymiz — bunda <strong>one of the + superlativ + koʻplik ot</strong> ishlatiladi. Diqqat: ot <strong>koʻplikda</strong> boʻlishi shart:</p>\n<ul>\n<li><em>Seth Godin is <strong>one of the most</strong> famous marketing writer<strong>s</strong>.</em> — U eng mashhur marketing yozuvchilaridan biri.</li>\n<li><em>Being a champion is <strong>one of the best</strong> thing<strong>s</strong> you can do.</em> — Bu — qila oladigan eng zoʻr ishlaringizdan biri.</li>\n</ul>\n<h3><code>the best … ever</code> / <code>the greatest … I have ever …</code> — hozirgacha koʻrgan eng zoʻri</h3>\n<p>Tajribangizdagi eng yuqori nuqtani belgilash uchun superlativ + <strong>ever</strong> (yoki <em>I have ever + V3</em>) ishlatiladi:</p>\n<ul>\n<li><em>It was <strong>the best</strong> book I have <strong>ever</strong> read.</em> — Bu — hozirgacha oʻqigan eng zoʻr kitobim.</li>\n<li><em>That was <strong>the greatest</strong> risk she had <strong>ever</strong> taken.</em> — Bu — u qilgan eng katta tavakkal edi.</li>\n</ul>\n<h3>Ingliz↔oʻzbek farqi</h3>\n<p>Oʻzbekcha superlativni bitta soʻz — <strong>eng</strong> bilan yasaydi (<em>eng zoʻr, eng katta</em>), qiyosiyni esa <strong>-roq</strong> bilan (<em>zoʻrroq</em>). Ingliz tilida esa qisqa sifatga <strong>-est</strong> (<em>great → greatest</em>), uzun sifatga <strong>most</strong> (<em>most famous</em>) qoʻshiladi va oldiga majburiy <strong>the</strong> keladi (<em>the greatest</em>). Oʻzbekcha &quot;eng … laridan biri&quot; konstruksiyasi inglizchada aynan <strong>one of the most + koʻplik</strong> boʻlib chiqadi — bu yerda koʻplik &quot;-s&quot; ni tushirib qoldirish eng koʻp uchraydigan xato.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> bu shakllarni ovoz chiqarib mashq qiling. Oʻzingiz sevgan uch narsani ayting: <em>&quot;… is by far the best … . It is one of the most … . It is the best … I have ever … .&quot;</em> Har kuni bitta jumla — til shu takrordan silliqlanadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekcha superlativ bitta soʻz — “eng” bilan yasaladi (eng zoʻr), qiyosiy esa “-roq” bilan (zoʻrroq). Ingliz tili qisqa sifatga -est, uzun sifatga most qoʻshadi va oldiga majburiy “the” qoʻyadi (the greatest). “eng … laridan biri” aynan “one of the most + koʻplik ot” boʻladi, va “ancha, beqiyos” = by far.",
+      "errorFixUz": "❌ She is one of the best writer. He is the most great. ✅ She is one of the best writers. He is the greatest. “one of the …” dan keyin ot KOʻPLIKda; qisqa sifatda “most” emas, -est (great → greatest).",
+      "examples": [
+        {
+          "en": "Being a champion is by far the best choice for your career.",
+          "uz": "Chempion boʻlish — karyerangiz uchun ancha zoʻr tanlov."
+        },
+        {
+          "en": "Seth Godin is one of the most respected writers in marketing.",
+          "uz": "Seth Godin — marketingdagi eng hurmatli yozuvchilardan biri."
+        },
+        {
+          "en": "That was the greatest risk Inca had ever taken.",
+          "uz": "Bu — Inca qilgan eng katta tavakkal edi."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "Champions are ___ the most valuable people in any company.",
+          "options": [
+            "by far",
+            "by long",
+            "by most"
+          ],
+          "answer": "by far",
+          "hintUz": "farqni kuchaytirish (ancha, beqiyos) → by far + superlativ"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She is one of the most creative ___ I know.",
+          "options": [
+            "people",
+            "person",
+            "peoples"
+          ],
+          "answer": "people",
+          "hintUz": "one of the most … dan keyin ot KOʻPLIKda: people (person emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "It was the best decision I have ___ made.",
+          "options": [
+            "ever",
+            "never",
+            "always"
+          ],
+          "answer": "ever",
+          "hintUz": "the best … ever / the best … I have ever + V3 — tajribadagi eng yuqori nuqta"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "Oʻzingiz sevgan narsa haqida uchta jumla ayting (ovoz chiqarib): “… is by far the best … . It is one of the most … . It is the best … I have ever … .”",
+          "answer": null,
+          "hintUz": "by far the best; one of the most + koʻplik; the best … ever"
+        }
+      ]
+    },
+    {
+      "slot": "B",
+      "unit": "modals-past-deduction",
+      "titleUz": "Oʻtmish xulosasi: must have / can't have + V3",
+      "titleEn": "Modals of past deduction",
+      "bandLifter": "IELTS Speaking & Writing — explain past events with logical deduction",
+      "cefrCanDo": "B2: I can make deductions about the past (must / might / can't have + V3)",
+      "bodyHtml": "<p>Bu darsning POV hikoyasida Inca uysizlar uchun kurashadi va oxir-oqibat gʻalaba qozonadi. Endi orqaga qarab, uning yoʻlini tahlil qilaylik: <em>&quot;She <strong>must have</strong> believed in her idea. Rich people <strong>can't have</strong> understood it at first. She <strong>might have</strong> felt alone many times.&quot;</em> Bu — <strong>oʻtmish xulosasi</strong>: dalilga qarab oʻtmish haqida taxmin qilish. L05'da biz <em>hozir</em> haqida xulosa chiqargan edik (<em>She must be tired</em>); endi shu fikrni <strong>oʻtmishga</strong> olib chiqamiz: <strong>must have / might have / can't have + V3</strong>.</p>\n<h3>Uch daraja: qanchalik ishonasiz?</h3>\n<p>Bularning hammasi feʼlning <strong>uchinchi shakli</strong> (V3) bilan keladi, faqat ishonch darajasi bilan farq qiladi:</p>\n<ul>\n<li><strong>must have + V3</strong> — deyarli aminman (mantiqan shunday boʻlgan): <em>She <strong>must have</strong> worked very hard.</em> — U juda qattiq ishlagan boʻlsa kerak.</li>\n<li><strong>might have / may have / could have + V3</strong> — ehtimol, boʻlishi mumkin: <em>She <strong>might have</strong> doubted herself sometimes.</em> — U baʼzan oʻziga shubha qilgan boʻlishi mumkin.</li>\n<li><strong>can't have / couldn't have + V3</strong> — bunday boʻlishi mumkin emas: <em>The rich <strong>can't have</strong> liked the idea at first.</em> — Boylar bu gʻoyani boshida yoqtirgan boʻlishi mumkin emas.</li>\n</ul>\n<h3>Muhim nuqta: xulosa, isbot emas</h3>\n<p>Bu shakllar <strong>haqiqatni bilmasangiz</strong>, faqat dalildan mantiqiy taxmin qilsangiz ishlatiladi. Stol ustida boʻsh idish koʻrsangiz: <em>&quot;He <strong>must have</strong> eaten&quot;</em> — koʻrmadingiz, lekin dalil shunday deydi. Diqqat: inkorda <strong>mustn't have</strong> EMAS, balki <strong>can't have</strong> ishlatiladi — bu oʻzbek oʻquvchilar uchun asosiy tuzoq.</p>\n<h3>Ingliz↔oʻzbek farqi</h3>\n<p>Oʻzbek tili buni feʼl qoʻshimchasi bilan beradi: <strong>must have done</strong> = &quot;<em>qilgan boʻlsa kerak</em>&quot;, <strong>can't have done</strong> = &quot;<em>qilgan boʻlishi mumkin emas</em>&quot;, <strong>might have done</strong> = &quot;<em>qilgan boʻlishi mumkin</em>&quot;. Yaʼni oʻzbekcha bitta &quot;<em>-gan boʻlsa kerak / boʻlishi mumkin</em>&quot; iborasi inglizchada <strong>modal + have + V3</strong> boʻlib uch soʻzga yoyiladi. Eng koʻp xato — <code>have</code> ni tushirib qoldirish: <em>❌ She must worked hard.</em></p>\n<h3>Nega bu darajani koʻtaradi</h3>\n<p>IELTS Speaking va Writingʼda voqeani sabab bilan izohlash kerak boʻladi: <em>&quot;The team lost, so the coach <strong>must have been</strong> disappointed.&quot;</em> Oʻtmishni shunday tahlil qila olish — B2 belgisidir.</p>\n<blockquote>\n<p><strong>Eslatma:</strong> POVni tinglayotib, Inca haqida uchta xulosa ayting: <em>&quot;She must have … . She might have … . People can't have … .&quot;</em> Ovoz chiqarib takrorlang — <code>have + V3</code> shu bilan tabiiy tovushga aylanadi.</p>\n</blockquote>",
+      "contrastUz": "Oʻzbekchada bitta ibora — “-gan boʻlsa kerak / boʻlishi mumkin” — barcha darajani beradi. Ingliz tili esa ishonch darajasiga qarab uch xil modalni V3 bilan ishlatadi: must have (aminman), might/may have (ehtimol), can't have (mumkin emas). L05'dagi hozirgi xulosa (must be) endi oʻtmishga koʻchadi (must have been).",
+      "errorFixUz": "❌ She must worked hard. He mustn't have known. ✅ She must have worked hard. He can't have known. “have” tushib qolmasin (modal + have + V3); inkor xulosa uchun mustn't have EMAS, can't have.",
+      "examples": [
+        {
+          "en": "Inca must have believed in her idea.",
+          "uz": "Inca oʻz gʻoyasiga ishongan boʻlsa kerak."
+        },
+        {
+          "en": "The rich people can't have liked the plan at first.",
+          "uz": "Boylar rejani boshida yoqtirgan boʻlishi mumkin emas."
+        },
+        {
+          "en": "She might have felt alone at times.",
+          "uz": "U baʼzida oʻzini yolgʻiz his qilgan boʻlishi mumkin."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "gap-fill",
+          "prompt": "The room is empty — everyone ___ home already.",
+          "options": [
+            "must have gone",
+            "must go",
+            "must going"
+          ],
+          "answer": "must have gone",
+          "hintUz": "dalilga qarab aniq xulosa → must have + V3 (gone)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "She trained every single day, so she ___ lazy.",
+          "options": [
+            "can't have been",
+            "mustn't have been",
+            "can't be been"
+          ],
+          "answer": "can't have been",
+          "hintUz": "inkor xulosa (mumkin emas) → can't have + V3 (mustn't have emas)"
+        },
+        {
+          "type": "gap-fill",
+          "prompt": "He didn't answer the phone — he ___ asleep.",
+          "options": [
+            "might have been",
+            "might been",
+            "might be been"
+          ],
+          "answer": "might have been",
+          "hintUz": "ehtimol (aniq emas) → might have + V3 (been)"
+        },
+        {
+          "type": "say-true",
+          "promptUz": "POVdagi Inca haqida uchta xulosa ayting: “She must have … . She might have … . People can't have … .”",
+          "answer": null,
+          "hintUz": "modal (must/might/can't) + have + V3"
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "main": {
+      "path": "aj-hoge/27/main.mp3",
+      "durationSec": 856,
+      "bytes": 10277247,
+      "transcriptKey": "main"
+    },
+    "vocab": {
+      "path": "aj-hoge/27/vocab.mp3",
+      "durationSec": 464,
+      "bytes": 5562846,
+      "transcriptKey": "vocab"
+    },
+    "ministory": {
+      "path": "aj-hoge/27/ministory.mp3",
+      "durationSec": 848,
+      "bytes": 10178971,
+      "transcriptKey": null
+    },
+    "pov": {
+      "path": "aj-hoge/27/pov.mp3",
+      "durationSec": 296,
+      "bytes": 3558075,
+      "transcriptKey": "pov"
+    }
+  },
+  "transcripts": {
+    "main": [
+      "Be a Champion Main Text Hello, this is AJ, welcome to the next lesson. Here we go. This one is called “Be a Champion.” Now champion has a couple different meanings. One meaning of champion is winner, a winner. So a champion is someone who wins a game or wins a fight or is number one, number one.",
+      "So we talk about a champion team, so they’re the number one team. But we’re not using that meaning in this lesson; we’re using a different meaning. Another meaning of champion is somebody that fights for a good cause; someone who fights for something good, someone who defends something good.",
+      "And that’s what we’re talking about here, be a champion. Be somebody that fights for good things, that’s not afraid, that you will fight for what is right, you will fight for what is good. That’s the idea here, be a champion. And I’m going to read a small section from a book called Free Prize Inside and it’s by Seth Godin.",
+      "Seth Godin is an Internet Marketing expert. He was a member of Yahoo, the Internet Company. Back in the beginning, when Yahoo was first starting, he helped their marketing. And then, later, he sold his own company, he made a lot of money and now he just writes about Internet Marketing and he’s got a lot of great books about business.",
+      "But, you know he also talks about just life in general. A lot of his advice about careers, about business, is just good advice, in general. It’s good advice for life, in general. And this is one of the nicest sections of his book, where he talks about being a champion in your career, in your job.",
+      "And what he means is that in your job you should fight for what is right, what is good, what is interesting, what will help the company most and, usually, you have to break rules to do that. Usually you have to be different. Usually you have to be kind of strong to do that. You can’t just be the same as everybody else.",
+      "So let me read this section and then we’ll talk about it more. Here we go, be a champion.",
+      "“Go ahead, do something great! Champion an innovation, I dare you! Because the choice is between following the rules or doing the right thing. Everyone’s got great ideas. You have great ideas. The difference between success and failure, most definitely, is not about a shortage of ideas that are good.",
+      "Instead, success is about overcoming the status quo and inertia and working within your organization to make things happen. “The good news is that this is exactly what your company wants you to do, it’s fun, it’s rewarding and once you learn how to do it you are guaranteed a good job for the rest of your life.",
+      "The bad news is that it’s difficult and it’s sometimes lonely. “Whoever you wish to be you have to make a choice, a conscious decision to be that person. Will you be a champion? Will you be remarkable? Will you be outstanding in your career, in your life or will you be careful and normal and mediocre? Choose.",
+      "And by embracing this choice, by announcing your choice to yourself and, eventually, to other people, you will make this process far more likely to succeed.” Okay, interesting, interesting. Nice section from Seth Godin. I really like him.",
+      "And, of course, again, this advice is great for all of your life, not just your career, but he specifically writes about business and career. So here’s what he’s saying, he says you have a choice. You have two choices, really, in your career.",
+      "You can decide to be normal, follow the rules, be mediocre, do the same thing that everyone else is doing or you can decide to be a champion, to fight for new things, to fight for innovations, to fight for improvement, to fight for what is right, to fight for creative, interesting projects, to go against what is normal and boring.",
+      "That’s your choice. And he’s right; it’s scary in the beginning because we all went through normal schools. And in normal schools, in almost every country in the world, you’re taught to be normal, average, follow the rules. That’s what you learned in school. Follow the rules. Do what you are told.",
+      "That is great advice for succeeding in school. It’s terrible advice for succeeding in your career or life. Seth Godin is correct, the people with the best careers, with the best jobs, with the most money, are champions. They don’t just follow the rules, they do new interesting things. They innovate in their companies.",
+      "They find new ideas that will benefit the company. If they find something that’s wrong they fix it. They don’t wait to ask permission. These are the people who have the best careers. Now I went through this process myself.",
+      "So, you know, I’m not yelling at you because I also, one time in the past, I was just, ah, following the rules, doing what everyone else was doing as a teacher.",
+      "So in my first few jobs I just did the same thing as every other teacher. I used the textbooks that the school required and I used the same drills, the same activities. And I thought, well, this is the smart way to improve my career. Right? Follow the rules.",
+      "Do what you’re told to do, what everyone else is doing. It didn’t work. I continued to get paid very badly, made very little money…ha-ha…and I didn’t enjoy my job. And the worse thing, for me, was that my students didn’t improve and this bothered me a lot.",
+      "And, in fact, I focused a lot more on my students and the more I focused on my students the less I cared about my boss or my school. And I became a champion for my students. I decided I’m going to fight for my students. I will do anything and everything to help them. I will break the rules. I will use different methods.",
+      "I will throw away the textbooks. I don’t care. My job is to be a champion for my students, my customers, my real customers, right? And so that’s what I did. I stopped using the normal textbooks. I started to find different methods.",
+      "I went back to school and got a Masters Degree and I learned a lot of incredibly cool, interesting teaching methods and I began to use those. And every job I got I was always a champion for my students. As a result, I became more and more popular with my students, with the real customers. They really started to like my class.",
+      "I got more attention. I started to get more money and better positions. My career improved. Now sometimes I got in trouble because I broke the rules, right? I was a champion, not a rule follower.",
+      "I got fired from one job because I didn’t use the required textbooks and I didn’t follow the required procedures and rules and I refused to use the same grading system that every other teacher used, so I got fired. And many people think, “Oh, that’s terrible. It was terrible.” I was not terrible! It was fantastic!",
+      "Because the next job I got was even better. And as a result of getting fired I began to think about starting my own company. I began to realize if I really want to be a champion and do what is right then I need to be in control. I need to be the boss.",
+      "Because I’m always going to have problems if I am just fighting against traditional schools all the time. And so I started my own company and my company has grown and I’m making more money than I ever did as a teacher and I’m happier than I ever was as an employee.",
+      "And so my career has gotten better and better and better because I have been a champion for my customers, for my students. By focusing on being a champion I have made much, much more money, I have improved my position, I am now the owner of my own company, everything is better.",
+      "I’m a better teacher, my students are even happier, everything improved because of that. That has been the key.",
+      "Even if I decided to close my business and just look for jobs I could get a job very fast, very easily. Why? Because now I am a much, much, much better teacher. I’m very confident. I have a lot of experience now as the owner of my own business.",
+      "So as Seth Godin says, “You’re guaranteed a good job for the rest of your life if you learn how to be a champion.” Because there are always companies who are looking for champions, even when the economy is bad, even when times are tough, there’s always a job for a true champion.",
+      "The people who lose their jobs are the people who are normal and average. They can be replaced easily. You can cut their job and hire a new person and pay them less or just cut their job because they’re not doing anything interesting or new or different, they’re replaceable. Normal people are replaceable.",
+      "People who follow the rules are replaceable. They’re easy to cut. Champions are unique. Champions are special. They’re remarkable, they’re outstanding. Companies don’t usually cut them. And if you do get fired, if you do get cut, another company will hire you very quickly.",
+      "When I got fired from my job in Thailand I easily found a job in San Francisco. I could have gotten another job in Thailand very easily, no problem, because at that point I was a champion. I had a passion. I had a mission. I had my own unique methods. I was not the same as every other teacher. I made myself a champion.",
+      "I made myself different, special and because of that it was very easy for me to get another job, very, very, easy. It’s the same with you in your career.",
+      "It doesn’t matter what you do in life, if you become a champion, if you fight for what is good, what is interesting, what is new, if you’re always trying to innovate, you’re going to have a much better career then if you just follow the rules and do what everyone else does. So that’s my mission to you, be a champion. Try new things.",
+      "Fight for new ideas. Fight for creative, cool, interesting projects at your job and in your life. Do this, you’re guaranteed to always have a good job, with your same company or with a new company. All right, well I will see you next time."
+    ],
+    "vocab": [
+      "Be a Champion Vocabulary Text Hello, this is AJ, welcome to the vocabulary lesson for “Be a Champion.” We’ve already talked about the word champion and, of course, in this article, in this lesson, champion means a person who fights for what is good, a person who fights for what is right, a person who defends what is good.",
+      "That is a champion, a champion. Our next word is innovation and Seth Godin says “Champion an innovation.” Here he’s using champion as a verb, as an action. To champion means to fight for something good or to defend something good. So you can use that as a verb, too. So he’s saying fight for an innovation. Do something great at your job.",
+      "Do something great. Not good, not so-so, great! Champion an innovation. Fight for an inn-o-va-tion. Innovation means a sudden, big improvement…a new, sudden, big improvement. That’s innovation, innovation. He says “Fight for innovations at your job. Fight for innovations at your company. Don’t do something boring, do something great!",
+      "Fight for innovations.” And he says “I dare you!” I dare you to do something great. To dare means to challenge. It means do it. Come on. I’m telling you to do it. I’m challenging you. So he says “I dare you”, I challenge you to do something great. I encourage you to do something great. Dare; to dare. Our next word…phrase…is “status quo.”",
+      "He says “Being a champion is about overcoming the status quo.” It’s about fighting against the status quo. Status quo is a very common word…words…and status quo means the traditional system, the traditional situation. It’s the current normal situation, status quo. So it’s kind of the opposite of new.",
+      "It’s the old way, the traditional way, the average mediocre way, status quo. So he says “Fight against the status quo.” It means fight against what is normal. Fight against the normal old way. Fight against the traditional way. Status quo means the traditional way, the normal way, the old way, status quo.",
+      "So if you’re a champion you have to fight against the status quo. You’re trying to make improvements, you’re trying to do something better. To do something better you have to destroy the old system. To create a new system you must destroy the old one; the status quo, the old way.",
+      "He says “You also have to fight against inertia.” Inertia. Fight against inertia. Inertia means resistance to change or resistance to moving. Now it actually has a scientific meaning from physics, which is more specific than that, which is different. But I’m not talking about the scientific meaning.",
+      "I’m not talking about the physics meaning here. I’m talking about a more general, conversational meaning. And in general conversation inertia means resistance to change. It means that people are used to doing the same thing again and again and again. So if you want them to change it’s hard, right? They sort of resist it.",
+      "Or if there’s a big, heavy object…let’s say there’s a big rock. You want to move the rock. Well, in the beginning, you start to push. It’s hard to move it in the beginning, right? It’s very hard. That’s inertia. It’s that initial resistance to movement, the initial resistance to change. Now, eventually, you start pushing that rock.",
+      "It starts to move. Then it becomes easier and easier. You get momentum, right? So once it starts moving then you keep going move, move, move and then it moves more easily, but in the very beginning there’s a lot of inertia. It’s kind of stuck, right? It’s hard to move it in the beginning. It resists change, it resists movement.",
+      "And people have this same inertia, right? People generally resist change in the beginning. If you try to change them, you try to do something new, in the beginning they will fight against your change. They will resist your change. They have inertia.",
+      "Now, later, if you can make them change, the change becomes easier, easier, faster, faster, you have momentum. But, in the beginning there’s this strong inertia. Remember, if you’re talking about science inertia has a somewhat different meaning, a similar meaning, but there’s more.",
+      "But for our meaning here in this article it means resistance to change. Okay, finally, we have the word to embrace or embracing. To embrace has two meanings, one is a very direct meaning, which means to hug or hold somebody. It means you put your arms around them. I embraced my friend. It means I hugged my friend. I held my friend.",
+      "I put my arms around my friend. But there’s a more general meaning for the word embrace. To embrace means to accept something happily; to accept it and to be happy about accepting it. So, for example, we can embrace ideas. If we embrace an idea then we accept the idea and we accept it very happily. We’re happy to accept it. We like it.",
+      "We’re saying “Yes, this idea is great! I embrace it.” So Seth Godin is saying “You must embrace being a champion.” You must embrace that choice. You must embrace that role. Embrace being a champion. Accept it for yourself. Be happy to be a champion. Be happy to be different. Be happy to be great and remarkable.",
+      "Embrace this idea, embrace this choice. Accept it and be happy about it.",
+      "And that is all for our vocabulary for “Be a Champion”, a short, easy vocabulary lesson this time. So, as always, listen to the vocabulary a few times and then go to the mini- story and listen, listen, listen to the mini-story, answer the questions, be strong, be happy, be smiling. See you next time, bye-bye."
+    ],
+    "pov": [
+      "Be a Champion POV Text Hello, welcome to the POV stories for “Be a Champion.” Let’s begin. Inca has always wanted to help homeless people. In fact, she has always been a champion for the poor starting in the far past and then up until now. During this entire time she has been a champion for poor people.",
+      "She has been a champion for homeless people. She has always wanted to help them during this entire time. In fact, she has wanted to build houses for every homeless person in San Francisco, every one. That has been her dream. Now most people have thought that she was crazy.",
+      "Every time she talked to someone about it they have thought she was crazy. They have said “The status quo is fine. Homeless people deserve to be poor. They deserve to be homeless and they deserve to be hungry.” This is what they said. They have always said this. Well, luckily, Inca has always dared to be different.",
+      "Since she was young, until now, the entire time, she has always dared to be different. And a few years ago she started to build small cheap houses out of plastic bottles. So about two years ago she started to build small cheap houses out of plastic bottles. She started two years ago and she has continued until recently.",
+      "So starting two years ago she started to build houses out of plastic bottles and she has continued building them for two years. Now this was a great innovation. In fact, soon, every rich person in San Francisco embraced her idea. And after two years all the poor people in San Francisco had a home.",
+      "Every homeless person had a new house made of plastic bottles. The homeless people were happy, the rich people were happy and Inca was very, very happy. That is the end of our first story. Next we’ll go to the future, so imagine this story happening in the future.",
+      "There will be a woman named Inca and she’ll want to help all the homeless people. She’s going to be a champion for poor people. She’s going to be a champion for homeless people. She’ll want to build houses for all the homeless people in San Francisco.",
+      "Of course most people will think she’s crazy, especially the rich people. They’ll say “The status quo is fine. Homeless people deserve to be hungry, poor and homeless.” But Inca will dare to be different. She’ll dare to be different. She’ll build small cheap houses from used plastic bottles.",
+      "This is going to be a great innovation. And, in fact, soon, every rich person in San Francisco will embrace her idea. They’ll give her more and more money and she’ll build more and more and more plastic bottle houses. Until finally, eventually, after two years, all the poor people in San Francisco will have a home.",
+      "They’ll all have a house made of plastic bottles. The rich people will be happy, the poor people will be happy, Inca will be happy, too. And that is the end of our point of view stories and the end of our “Be a Champion” lessons. Listen carefully, notice the changes. Listen, listen, listen, relax, relax, relax, that’s all you need to do.",
+      "See you next time, bye-bye."
+    ],
+    "sixmin": [
+      "Rob: Hello and welcome to 6 Minute English, I'm Rob…",
+      "Neil: And hello, I'm Neil. And Rob, I have to say, I am very very excited!",
+      "Rob: Why's that, Neil? Are you going on holiday?",
+      "Neil: Come on, Rob. You know why. The 2018 World Cup is about to start in Russia. Four weeks of world-class football to watch. By world-class I mean 'some of the best in the world'.",
+      "Rob: Yes, yes, I know that. But to be honest, I'll just be taking a passing interest – I've got better things to do!",
+      "Neil: Better things to do? Well, I'm going to be glued to my TV to watch the 32 countries compete for the title of World Cup Champions. And if you love football…",
+      "Rob: …or not…",
+      "Neil: … we've got some useful vocabulary to learn.",
+      "Rob: But let's start with a question for you to answer, Neil, to see how much you really know. Now, the mascot for Russia 2018 is a wolf called Zabivaka. What does his name mean in English? Is it… a) The winner b) The one who scores c) Fair play",
+      "Neil: Well, my Russian is a little rusty – so I'll go for a) The winner.",
+      "Rob: OK. I'll reveal the answer later.",
+      "Neil: OK, but now I have a question for you, Rob. Who won the last World Cup in Brazil in 2014?",
+      "Rob: Come on! It was Germany, Neil. And they beat Lionel Messi's Argentina in the final. Both teams are among the favourites again this time, but there'll be lots of countries who fancy their chances of lifting the World Cup trophy. That means they think they are likely to succeed, even though they might not.",
+      "Neil: So you do know your football, Rob! Anyway, the final will take place in the revamped – or much improved - Luzhniki Stadium in Moscow on July 15th 2018. Did I say I was very excited? Well, I'm not the only one. We asked some people what they think about the World Cup. And here are Keith and Jane describing their feelings…",
+      "Keith: It's a four-week festival of football, isn't it? And everyone kind of gets behind their country. You also get to know about football teams in parts of the world you don't really think about very often, so it's that double-sided thing of the actual football itself - which is exciting - but also the stories that happen off the pitch as well.",
+      "Jane: I'm really excited. I can't wait for it to start. One thing – there's going to be great telly every night. It's great to see the underdogs that are going to come through and have a really sensational tournament. I think it's the enthusiasm of the crowds and the love of football that people have.",
+      "Neil: So two football fans there. Keith used some good alliteration – that's words beginning with the same letter – four-week festival of fun. He talked about people getting behind their country – not literally going behind their team, but supporting them. Who are you supporting, Rob?",
+      "Rob: Well, my home team is England – but I'm not confident they'll do well. That doesn't matter to Jane though – she said it's fun to see the underdogs do well. The underdog here means the team considered to be the weakest and the least likely to win. You could say Iceland are the underdogs in this tournament.",
+      "Neil: Maybe, Rob. So you can see why everyone is excited by the World Cup!",
+      "Rob: Not everyone, Neil. For many people, they're not bothered by the tournament. We could say 'it's not their thing' and there are different reasons for it. Let's hear from some other people - Jeff and Inga…",
+      "Jeff: There's not a lot of sportsmanship in it now. I find that it's very corporate and there's a lot of what I would call cheating going on – people taking dives, people falling over because somebody looked at them the wrong way on the pitch.",
+      "Inga: Not really that excited. It's just too much hype about nothing really. The World Cup is a great event if you are into football, but I'm not so I can't be really bothered.",
+      "Rob: There you go, Neil. Some sensible people there! Jeff thinks football has changed and now lacks real sportsmanship – that's fair and honest behaviour – he even claims some players cheat.",
+      "Neil: I'm not sure about that, Rob. But maybe he's right about the tournament becoming very corporate, which means it's sponsored by big companies who like to decide how the tournament is run.",
+      "Rob: And Inga thinks there is too much hype. This means there is a lot of talk and publicity to make people interested in something. Well, there is certainly a lot of talk about the World Cup, but we have to remember it's not everybody's cup of tea!",
+      "Neil: Well, it is my cup of tea, Rob. Now, can we have the answer to that question, please?",
+      "Rob: Yes. Earlier I said the mascot for Russia 2018 is a wolf called Zabivaka. What does his name mean in English? Was it… a) The winner b) The one who scores c) Fair play",
+      "Neil: And I said a) The winner – because football is all about winning, isn't it?",
+      "Rob: It's the taking part that is important, Neil. And you took part in my quiz and got it wrong. The answer is b) The one who scores. Now let's have a brief reminder of the vocabulary we've discussed today, starting with world-class.",
+      "Neil: That means 'some of the best in the world'. We should see some world-class football in Russia.",
+      "Rob: If we're watching it, Neil. Next we had fancy their chances. If someone 'fancies their chances' they think they are likely to succeed, but they might not.",
+      "Neil: Let's move on to get behind. If we get behind someone – like our national football team – we support them.",
+      "Rob: Are you getting behind our national team, Neil?",
+      "Neil: Nope, I'm supporting the underdog Iceland, Rob. That's a word to describe the team or person least likely to win. Next we discussed sportsmanship – that describes fair and honest behaviour.",
+      "Rob: And finally we talked about hype which means 'lots of talking and publicity to make people interested in something'. Well, we've had enough hype about the World Cup today and we're out of time.",
+      "Neil: Yes, but don't forget to join us on Facebook, Twitter, Instagram and YouTube for more Learning English fun. Thanks for joining us and goodbye.",
+      "Rob: Bye bye!"
+    ]
+  },
+  "ministory": {
+    "audioKey": "ministory",
+    "pairs": [
+      {
+        "q": "Did she help poor people? Did she fight for poor people? Did she defend poor people?",
+        "a": "Yes, that’s right. She was a champion for poor people."
+      },
+      {
+        "q": "What was she?",
+        "a": "She was a champion."
+      },
+      {
+        "q": "She was a champion for whom?",
+        "a": "For poor people, Inca was a champion for poor people."
+      },
+      {
+        "q": "Who did she help?",
+        "a": "Poor people, she helped poor people. She fought for and helped poor people."
+      },
+      {
+        "q": "Who was a champion for poor people?",
+        "a": "Inca, Inca was a champion for poor people."
+      },
+      {
+        "q": "Was she a champion for the rich and powerful?",
+        "a": "No, no, no, no, no, she was not a champion for the rich and powerful. She was a champion for poor people."
+      },
+      {
+        "q": "Who was she a champion for?",
+        "a": "Poor people, she was a champion for poor people."
+      },
+      {
+        "q": "What did she want to do?",
+        "a": "She wanted to build houses for all the homeless people in San Francisco."
+      },
+      {
+        "q": "Which homeless people did she want to help?",
+        "a": "The homeless people in San Francisco. The homeless people in San Francisco, that’s who she wanted to help."
+      },
+      {
+        "q": "What did she want to do for them?",
+        "a": "She wanted to build houses for them, right? She was a champion for homeless people, she was a champion for poor people and she wanted to build houses for all the homeless people in San Francisco."
+      },
+      {
+        "q": "Where? Where did she want to build houses for homeless people?",
+        "a": "In San Francisco. She wanted to build houses for homeless people in San Francisco."
+      },
+      {
+        "q": "Inca, Inca was a champion for the poor. Inca wanted to build houses for all the homeless people. Where?",
+        "a": "In San Francisco."
+      },
+      {
+        "q": "What was her idea?",
+        "a": "Her idea was to build small cheap houses for every homeless person in San Francisco."
+      },
+      {
+        "q": "What kind of houses did she want to build?",
+        "a": "Small cheap houses. She wanted to build small cheap houses."
+      },
+      {
+        "q": "For whom?",
+        "a": "EffortlessEnglishClub.com 3"
+      },
+      {
+        "q": "What did most people think about her idea?",
+        "a": "They thought she was crazy. Most people thought that Inca was crazy."
+      },
+      {
+        "q": "What did most people say?",
+        "a": "Most people said “The status quo is fine.”"
+      },
+      {
+        "q": "What was fine?",
+        "a": "The status quo, the current situation. The normal, traditional situation was fine. They said “The status quo is fine.”"
+      },
+      {
+        "q": "Where most people happy with the status quo?",
+        "a": "Yes. Most people – most rich people, most middleclass people – were happy with the status quo. They were happy with the current situation. They were happy with the normal, traditional situation."
+      },
+      {
+        "q": "Who was happy with the status quo?",
+        "a": "Rich people and middleclass people were happy with the status quo. They were happy with the existing situation."
+      },
+      {
+        "q": "Were homeless people happy with the status quo?",
+        "a": "No, no, of course not. They weren’t happy with the status quo, they didn’t like the situation. They didn’t like to be poor. They didn’t like to be hungry. But most people were happy with the status quo."
+      },
+      {
+        "q": "So did they like Inca’s idea?",
+        "a": "No, they didn’t. They didn’t like her idea. They thought she was crazy and they said “The status quo is fine. Homeless people deserve to be homeless. Homeless people deserve to be poor and hungry.”"
+      },
+      {
+        "q": "Was she courageous? Was she brave? Was she strong?",
+        "a": "Yes. She dared to be different."
+      },
+      {
+        "q": "What did she dare to do?",
+        "a": "To be different. She dared to be different."
+      },
+      {
+        "q": "Who dared to be different?",
+        "a": "Inca, Inca dared to be different."
+      },
+      {
+        "q": "Did she dare to be different or was she safe and normal?",
+        "a": "She wasn’t safe and normal, she dated to be different."
+      },
+      {
+        "q": "What did she build houses out of?",
+        "a": "Out of plastic bottles. She built houses out of plastic bottles."
+      },
+      {
+        "q": "Did she build big houses out of plastic bottles or did she build small houses out of plastic bottles?",
+        "a": "Well, they were small. She built small houses out of plastic bottles."
+      },
+      {
+        "q": "What were the houses made of?",
+        "a": "They were made of plastic bottles. She built them out of plastic bottles."
+      },
+      {
+        "q": "What kind of bottles did she use to build the houses?",
+        "a": "Plastic, plastic bottles. She used plastic bottles to build the houses."
+      },
+      {
+        "q": "Were they expensive houses?",
+        "a": "No, no, no, very cheap. They were very cheap, small houses built from plastic bottles; built out of plastic bottles."
+      },
+      {
+        "q": "Who built small cheap houses out of plastic bottles?",
+        "a": "Inca, Inca built small cheap houses out of plastic bottles. She dared to be different."
+      },
+      {
+        "q": "Was this a small improvement and change?",
+        "a": "No, it wasn’t small. It was a big, sudden improvement. It was a big change, a big improvement, it was an innovation. It was a great innovation, a great idea."
+      },
+      {
+        "q": "What kind of change was this?",
+        "a": "It was an innovation, a big change, a sudden change, a great improvement. It was an innovation."
+      },
+      {
+        "q": "What was an innovation?",
+        "a": "Well, building houses out of plastic bottles. Building houses out of plastic bottles was a great innovation."
+      },
+      {
+        "q": "Why was it a great innovation?",
+        "a": "Because it was very cheap and easy to do. It was cheap and easy to build houses out of plastic bottles. It was a great change, a great innovation."
+      },
+      {
+        "q": "Whose innovation was it?",
+        "a": "It was Inca’s innovation. It was her great idea, her great improvement. It was Inca’s innovation."
+      },
+      {
+        "q": "What was Inca’s innovation?",
+        "a": "Well, her innovation was to build small cheap houses out of plastic bottles."
+      },
+      {
+        "q": "Did they finally accept her idea?",
+        "a": "Yes, they did. They finally embraced her idea. They accepted it. They were happy about it."
+      },
+      {
+        "q": "Who embraced Inca’s idea, Inca’s innovation?",
+        "a": "The rich people."
+      },
+      {
+        "q": "The rich people where?",
+        "a": "EffortlessEnglishClub.com 6"
+      },
+      {
+        "q": "Did they accept it a little bit?",
+        "a": "No, not a little bit. They embraced it. They loved the idea. They accept it and they loved it. They embraced her idea."
+      },
+      {
+        "q": "Which idea did they embrace?",
+        "a": "They embraced her idea of building small cheap houses out of plastic bottles. They embraced her great innovation. They accepted it and they loved it."
+      },
+      {
+        "q": "Was her innovation eventually embraced?",
+        "a": "Yes, it was. Her innovation was eventually embraced by all the rich people in San Francisco."
+      }
+    ]
+  },
+  "vocab": [
+    {
+      "en": "a champion (for someone)",
+      "pos": "n",
+      "uz": "himoyachi, kurashchi (yaxshilik uchun kurashadigan inson)",
+      "defEn": "a person who fights for or defends what is good",
+      "example": "Inca was a champion for poor people."
+    },
+    {
+      "en": "to champion (something)",
+      "pos": "v",
+      "uz": "kurashmoq, yoqlab chiqmoq, himoya qilmoq",
+      "defEn": "to fight for or defend something good",
+      "example": "Champion an innovation at your job."
+    },
+    {
+      "en": "an innovation",
+      "pos": "n",
+      "uz": "yangilik, katta va tez yaxshilanish",
+      "defEn": "a sudden, big improvement or new idea",
+      "example": "Building houses from plastic bottles was a great innovation."
+    },
+    {
+      "en": "to dare (someone)",
+      "pos": "v",
+      "uz": "chorlamoq, chaqiriq tashlamoq, jurʼat qilishga undamoq",
+      "defEn": "to challenge or encourage someone to do something bold",
+      "example": "I dare you to do something great."
+    },
+    {
+      "en": "the status quo",
+      "pos": "phrase",
+      "uz": "hozirgi holat, anʼanaviy tartib, eski yoʻl",
+      "defEn": "the current, traditional situation; the normal old way",
+      "example": "Being a champion is about overcoming the status quo."
+    },
+    {
+      "en": "to overcome the status quo",
+      "pos": "phrase",
+      "uz": "eski tartibni yengib oʻtmoq",
+      "defEn": "to fight against and move past the traditional way",
+      "example": "Success means overcoming the status quo and inertia."
+    },
+    {
+      "en": "inertia",
+      "pos": "n",
+      "uz": "oʻzgarishga qarshilik, joyidan siljimaslik (harakatsizlik)",
+      "defEn": "resistance to change or to starting to move",
+      "example": "People have inertia; they resist change at first."
+    },
+    {
+      "en": "to embrace (an idea)",
+      "pos": "v",
+      "uz": "quvonch bilan qabul qilmoq, quchoq ochib kutmoq",
+      "defEn": "to accept something happily and fully",
+      "example": "The rich people finally embraced her idea."
+    },
+    {
+      "en": "remarkable / outstanding",
+      "pos": "adj",
+      "uz": "ajoyib, eʼtiborga loyiq, ajralib turadigan",
+      "defEn": "special and impressive; not ordinary",
+      "example": "Will you be remarkable, or careful and normal?"
+    },
+    {
+      "en": "mediocre",
+      "pos": "adj",
+      "uz": "oʻrtacha, oddiy, hech nimasi yoʻq",
+      "defEn": "only average; not good and not bad",
+      "example": "Don't be careful, normal and mediocre."
+    }
+  ],
+  "englishpod": {
+    "id": "0250",
+    "title": "The Office — Interview Skills: Describing Yourself",
+    "titleUz": "Ish suhbati — oʻzingizni taʼriflash",
+    "warmup": {
+      "uz": "Bu suhbatda Rebecca ish intervyusida oʻz kuchli tomonlarini sanaydi: “fokuslangan, mehnatkash, ishtiyoqli.” Chempion boʻlish shu yerdan boshlanadi — oddiy emas, ajralib turadigan qilib oʻzingni tanitish. Sizningcha, Rebecca ishga olinadimi? Oʻzingizni bitta jumla bilan qanday taʼriflaysiz?",
+      "en": "In this dialogue Rebecca describes her strengths in a job interview: focused, hardworking, passionate. Being a champion starts here — presenting yourself as remarkable, not ordinary. Do you think Rebecca will get the job? How would you describe yourself in one sentence?"
+    },
+    "audio": {
+      "dg": {
+        "path": "englishpod/0250/dg.mp3",
+        "durationSec": 57,
+        "bytes": 486401
+      },
+      "pr": {
+        "path": "englishpod/0250/pr.mp3",
+        "durationSec": 638,
+        "bytes": 10241148
+      },
+      "rv": {
+        "path": "englishpod/0250/rv.mp3",
+        "durationSec": 292,
+        "bytes": 4711676
+      }
+    },
+    "dialogue": [
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Okay Rebecca. Now youyou’ve given me a good idea of your work and academic background, but what about you as a person? How would you describe your key strengths?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well Mr. Parsons, as I mentioned before I’m someone who needs new challenges. I’m really focused and hard hard-working. I think my academic results prove this."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "Yes, true, but how about other personal qualities?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Well I believe I’m a good team-player, but I can also work well independently. I’m very enthusiastic and , well I hope my colleagues would agree, I’m fun to work with."
+      },
+      {
+        "speaker": "Mr. Parsons",
+        "en": "What would you say is your most positive quality?"
+      },
+      {
+        "speaker": "Rebecca",
+        "en": "Hmmmmm, that’s a tough question. But I would have to say my passion. I’m really passionate about journalism and passionate about my career."
+      }
+    ],
+    "keyVocab": [
+      {
+        "en": "strengths",
+        "uz": "kuchli tomonlar, ustunliklar",
+        "defEn": "the qualities that make someone effective or useful"
+      },
+      {
+        "en": "focused",
+        "uz": "diqqati jamlangan, ishga berilgan",
+        "defEn": "giving full attention and effort to a specific task"
+      },
+      {
+        "en": "hardworking",
+        "uz": "mehnatkash, tirishqoq",
+        "defEn": "putting a lot of effort into your work"
+      },
+      {
+        "en": "to prove (something)",
+        "uz": "isbotlamoq, dalil bilan koʻrsatmoq",
+        "defEn": "to show the truth of something with evidence"
+      },
+      {
+        "en": "a team-player",
+        "uz": "jamoada yaxshi ishlaydigan inson",
+        "defEn": "a person who works well together with a group"
+      },
+      {
+        "en": "passionate (about)",
+        "uz": "ishtiyoqli, qattiq qiziqadigan",
+        "defEn": "having a lot of interest in or passion for something"
+      },
+      {
+        "en": "passion",
+        "uz": "ishtiyoq, kuchli qiziqish",
+        "defEn": "the strong enthusiasm you feel when doing something"
+      }
+    ]
+  },
+  "sixmin": {
+    "date": "180614",
+    "title": "How excited are you about the World Cup?",
+    "titleUz": "Jahon chempionatidan qanchalik hayajondasiz?",
+    "audio": {
+      "main": {
+        "path": "sixmin/180614/audio.mp3",
+        "durationSec": 380,
+        "bytes": 15190080,
+        "transcriptKey": "sixmin"
+      }
+    },
+    "quiz": [
+      {
+        "q": "The Russia 2018 mascot is a wolf called Zabivaka. What does his name mean in English?",
+        "qUz": "Rossiya-2018 timsoli — Zabivaka ismli boʻri. Uning ismi inglizchada nimani anglatadi?",
+        "options": [
+          "The winner",
+          "The one who scores",
+          "Fair play"
+        ],
+        "answerIndex": 1,
+        "explanationUz": "Toʻgʻri javob: b) The one who scores (gol uradigan). Neil a) The winner dedi va xato qildi — Rob oxirida javobni ochdi: “The answer is b) The one who scores.”"
+      }
+    ],
+    "vocab": [
+      {
+        "en": "world-class",
+        "uz": "jahon darajasidagi, eng zoʻrlaridan",
+        "defEn": "among the best in the world"
+      },
+      {
+        "en": "fancy their chances",
+        "uz": "gʻalabaga umid qilmoq, imkoni bor deb hisoblamoq",
+        "defEn": "to think you are likely to succeed, though you might not"
+      },
+      {
+        "en": "get behind (someone)",
+        "uz": "qoʻllab-quvvatlamoq, tarafida turmoq",
+        "defEn": "to support someone, e.g. a team"
+      },
+      {
+        "en": "the underdog",
+        "uz": "gʻalaba ehtimoli kam tomon, kuchsizroq raqib",
+        "defEn": "the team or person considered least likely to win"
+      },
+      {
+        "en": "sportsmanship",
+        "uz": "sportchilik axloqi, halol va adolatli xatti-harakat",
+        "defEn": "fair and honest behaviour in a game or sport"
+      },
+      {
+        "en": "hype",
+        "uz": "shov-shuv, oshirib maqtash (qiziqish uygʻotish uchun)",
+        "defEn": "a lot of talk and publicity to make people interested in something"
+      }
+    ]
+  },
+  "funEnglish": [
+    {
+      "provider": "youtube",
+      "id": null,
+      "title": "Be remarkable: how champions stand out at work",
+      "channel": "TED"
+    }
+  ],
+  "speakingPrompt": {
+    "en": "Think of a real champion you admire — someone who fought for what is right. Why are they by far the best, or one of the most remarkable people you know? Looking back, what must they have done, and what challenges can't have been easy for them?",
+    "uz": "Taxminan 60 soniya gapiring. Bu haftaning ikki grammatikasidan foydalaning: qiyoslashning yuqori shakllari (by far the best; one of the most …; the best … ever) va oʻtmish xulosasi (She must have …; It can't have been easy …).",
+    "targetSec": 60
+  },
+  "downloads": [
+    {
+      "labelUz": "Asosiy audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/27/main.mp3",
+      "bytes": 10277247
+    },
+    {
+      "labelUz": "Asosiy matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/27/main.pdf",
+      "bytes": 167666
+    },
+    {
+      "labelUz": "Soʻzlar audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/27/vocab.mp3",
+      "bytes": 5562846
+    },
+    {
+      "labelUz": "Mini-hikoya audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/27/ministory.mp3",
+      "bytes": 10178971
+    },
+    {
+      "labelUz": "POV audio (MP3)",
+      "kind": "audio",
+      "path": "aj-hoge/27/pov.mp3",
+      "bytes": 3558075
+    },
+    {
+      "labelUz": "POV matn (PDF)",
+      "kind": "pdf",
+      "path": "aj-hoge/27/pov.pdf",
+      "bytes": 143965
+    },
+    {
+      "labelUz": "EnglishPod dialog (MP3)",
+      "kind": "audio",
+      "path": "englishpod/0250/dg.mp3",
+      "bytes": 486401
+    },
+    {
+      "labelUz": "EnglishPod matn (PDF)",
+      "kind": "pdf",
+      "path": "englishpod/0250/transcript.pdf",
+      "bytes": 91500
+    },
+    {
+      "labelUz": "6 Minute English (MP3)",
+      "kind": "audio",
+      "path": "sixmin/180614/audio.mp3",
+      "bytes": 15190080
+    },
+    {
+      "labelUz": "6 Minute English matn (PDF)",
+      "kind": "pdf",
+      "path": "sixmin/180614/transcript.pdf",
+      "bytes": 238358
+    },
+    {
+      "labelUz": "Grammatika kitobi — Murphy (PDF)",
+      "kind": "pdf",
+      "path": "grammar/essential-grammar-in-use.pdf",
+      "bytes": 16245181
+    }
+  ]
+}
