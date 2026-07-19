@@ -218,10 +218,13 @@ body.yp-has-dock .main { padding-bottom: calc(var(--bottomnav-h) + 92px + env(sa
 /* ---- Vocab flip-cards (04 §5.4) ---- */
 .vocab { margin-top: 4px; }
 .vocab__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-.vcard { height: 128px; cursor: pointer; perspective: 900px; border-radius: 12px; }
-.vcard__inner { position: relative; width: 100%; height: 100%; transition: transform 300ms ease; transform-style: preserve-3d; }
+.vcard { position: relative; cursor: pointer; perspective: 900px; border-radius: 12px; }
+.vcard__inner { position: relative; display: grid; width: 100%; transition: transform 300ms ease; transform-style: preserve-3d; }
 .vcard.is-flipped .vcard__inner { transform: rotateY(180deg); }
-.vcard__face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 12px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow-sm); backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: auto; }
+/* Both faces share ONE grid cell so the card sizes to the taller face (the back's gloss +
+   example) — never clipping its first line. min-height keeps the compact resting look;
+   flex-centring stays pretty for short cards and simply lets tall ones grow. */
+.vcard__face { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 12px; min-height: 128px; border-radius: 12px; border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow-sm); backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden; }
 .vcard__back { transform: rotateY(180deg); background: color-mix(in srgb, var(--indigo) 7%, var(--surface)); }
 .vcard.is-seen .vcard__front { border-color: var(--green); }
 .vcard__chunk { font: 600 17px/1.3 var(--font); color: var(--ink); }
