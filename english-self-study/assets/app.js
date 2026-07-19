@@ -37,10 +37,9 @@ const ROUTES = {
   progress: { title: "route.progress.title" },
   ielts:    { title: "route.ielts.title" },
   grammar:  { title: "route.grammar.title" },
-  about:    { title: "route.about.title" },
   settings: { title: "route.settings.title" },
 };
-const MENU_ORDER = ["home", "lessons", "method", "progress", "ielts", "grammar", "about", "settings"];
+const MENU_ORDER = ["home", "lessons", "method", "progress", "ielts", "grammar", "settings"];
 const PRIMARY = [
   { name: "home", icon: "home", label: "nav.home" },
   { name: "lessons", icon: "lessons", label: "nav.lessons" },
@@ -166,7 +165,6 @@ function parseRoute() {
     case "progress": return segs.length === 1 ? { route: "progress", params: {} } : null;
     case "ielts":    return segs.length === 1 ? { route: "ielts", params: {} } : null;
     case "grammar":  return segs.length <= 2 ? { route: "grammar", params: { unit: tail || null } } : null;
-    case "about":    return segs.length === 1 ? { route: "about", params: {} } : null;
     case "settings": return segs.length === 1 ? { route: "settings", params: {} } : null;
     default:         return null;
   }
@@ -281,16 +279,6 @@ async function render() {
     } catch (err) {
       console.error("grammar module failed to load", err);
       if (alive()) main.replaceChildren(buildScreen("grammar", params));
-    }
-  } else if (route === "about") {
-    main.replaceChildren(screenSkeleton());
-    try {
-      const mod = await import("./about.js");           // code-split (S10)
-      if (!alive()) return;
-      await mod.renderAbout(main, seq, alive);
-    } catch (err) {
-      console.error("about module failed to load", err);
-      if (alive()) main.replaceChildren(buildScreen("about", params));
     }
   } else if (route === "settings") {
     main.replaceChildren(screenSkeleton());

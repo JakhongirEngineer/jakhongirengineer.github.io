@@ -50,7 +50,7 @@ This file is the single running checklist — **update it every session** (tick 
 | S7 | EnglishPod + 6 Minute English in-lesson sections (+ quiz / role-play) | **DONE** (section flows + quiz/role-play + step wiring + pipeline emission mechanism; 30-lesson authoring in S13) |
 | S8 | Fun English embeds (YouTube facade + curation) | **DONE** (facade in `lesson-fun.js` + CSS-gradient poster = 0 YouTube bytes pre-tap + id:null/blocked fallbacks + verified `core-09` exemplar; 30-lesson curation = owner data in S13) |
 | S9 | How to Study (methodology) page | **DONE** |
-| S10 | Secondary pages — IELTS/CEFR · Grammar · About · Settings | **DONE** |
+| S10 | Secondary pages — IELTS/CEFR · Grammar · Settings *(About page removed post-launch)* | **DONE** |
 | S11 | Polish, accessibility & performance pass | **DONE** |
 | S12 | PWA / offline (phase 2) | DEFERRED |
 | S13 | Content authoring completion + launch checklist | **DONE & LAUNCHED** (all 30 lessons authored+validated+audited; media published to R2 & streaming; all 30 Fun-English videos live & oEmbed-verified; only owner item left = real-device pass) |
@@ -64,7 +64,7 @@ This file is the single running checklist — **update it every session** (tick 
 
 - [x] Repo layout per `03 §3`: `index.html` (shell + inlined critical CSS), `config.js` (`MEDIA_BASE` + `mediaUrl()`), `assets/app.js` (ES module), `assets/styles.css`, empty `data/` dirs; optional root `.nojekyll`.
 - [x] Persistent shell **outside** `<main>`: sticky top bar (menu/back · context · **UZ|EN toggle** · **theme `◐`**), mobile bottom nav (Bosh / Darslar / Natija / Ko'proq), docked-player mount (hidden), skip-to-content link first (`04 §3`).
-- [x] Hash router (`#/`, `#/lessons`, `#/lesson/:id`, `#/method`, `#/progress`, `#/ielts`, `#/grammar`, `#/about`, `#/settings`); unknown hash → redirect `#/` (`04 §2.1`). Renders placeholder screens.
+- [x] Hash router (`#/`, `#/lessons`, `#/lesson/:id`, `#/method`, `#/progress`, `#/ielts`, `#/grammar`, `#/settings`); unknown hash → redirect `#/` (`04 §2.1`). Renders placeholder screens. *(`#/about` was part of the original router but the About page was removed post-launch — the hash now redirects to `#/`.)*
 - [x] `t(key)` i18n over `ui.uz.json` / `ui.en.json`, **Uzbek default**; `<html lang>` follows the toggle; proper `oʻ`/`gʻ` (U+02BB) (`03 §8`, `04 §8`).
 - [x] **0 KB fonts** (system stack), theme = `auto` via `prefers-color-scheme` + `[data-theme]` override, no flash (`04 §7.5`).
 - [x] Committed + pushed; loads under the `/english-self-study/` subpath beside the sibling apps.
@@ -199,17 +199,17 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 
 **Done when:** `#/method` renders all 13 blocks bilingually, the UZ/EN toggle swaps the mirror, and every mistake link jumps to the right lesson.
 
-## S10 — Secondary pages: IELTS/CEFR · Grammar Reference · About · Settings
+## S10 — Secondary pages: IELTS/CEFR · Grammar Reference · Settings *(About removed post-launch)*
 
 **Goal:** the remaining routed surfaces that complete the app.
-**Specs:** `04 §4.7` (ielts/grammar/about), `02 §7` (IELTS/CEFR alignment), `04 §2.1` (settings sheet), `03 §9` + `00 §6` (licensing note), `02 §10` (grammar appendices).
+**Specs:** `04 §4.7` (ielts/grammar), `02 §7` (IELTS/CEFR alignment), `04 §2.1` (settings sheet), `03 §9` + `00 §6` (licensing note), `02 §10` (grammar appendices).
 
 - [x] `#/ielts`: honest "builds the competence IELTS measures, *not* a cram course" framing up front + Phase→CEFR→IELTS table + criterion→feature map + "Am I ready for a mock?" checklist + **Interview-Skills bridge note** (`02 §7`).
 - [x] `#/grammar`: read-only index of all Grammar Sparks (**by phase** — Poydevor / Surʼat / Ravonlik; see spec amendment, index.json exposes only `phase`) linking to lessons + **original re-authored** irregular-verb / spelling reference cards (`04 §4.7`, `02 §10`).
-- [x] `#/about`: what it is · Effortless-English credit · honest free/no-login promise · **licensing note (media = owner's responsibility, swappable bucket) + attributed sources** · contact `principiaforge@gmail.com` (`04 §4.7`, `03 §9`).
+- [x] ~~`#/about`: what it is · Effortless-English credit · honest free/no-login promise · **licensing note (media = owner's responsibility, swappable bucket) + attributed sources** · contact `principiaforge@gmail.com`~~ **— shipped in S10, then removed post-launch at the owner's request** (route + module + i18n keys + CSS deleted; `#/about` now redirects to `#/`).
 - [x] Settings **screen (routed, styled as a panel — not a bottom sheet; see spec amendment)** consolidating language · pace track · theme · playback rate · export/import · reset (persists to `settings.*` via the `yp:setting` shell hook) (`04 §2.1`).
 
-**Done when:** all four routes render correctly, the IELTS framing is unmistakably honest, and settings changes persist across reload.
+**Done when:** all routes render correctly, the IELTS framing is unmistakably honest, and settings changes persist across reload.
 
 ## S11 — Polish, accessibility & performance pass
 
@@ -246,7 +246,7 @@ S3 still **records what those later gates will read** — `lessons.<id>.listens.
 - [x] **S1 exemplar already migrated to v2** — `data/lessons/core-09.json` + its `data/index.json` entry were rebuilt to the `03 §6.2` v2 shape (grammar[] of 2, `englishpod{}`, `sixmin{}`) ahead of this slice as the design-review artifact (see the top-of-file "Exemplar rebuild" note); the retired `was/were` + Murphy-U10 ref are gone. `data/index.json` is regenerated by `build-index.mjs` over all 30 lessons.
 - [x] Stage + **upload** the **full** media payload; `scripts/manifest.mjs` passes with **zero missing keys** (`03 §2.5`, `03 §5.1`). *(All 30 lessons staged — 535 keys, manifest GREEN — then **published to R2 on owner go-ahead**: `scripts/upload-media.mjs --go` uploaded 381 objects / 1673 MB at $0 egress; verified streaming (GET 200 + Range 206) with the immutable Cache-Control. All 30 lessons' audio streams + downloads live from `media.principiaforge.com`. Licensing responsibility is the owner's per `00 §6` / `03 §9`.)*
 - [x] Privacy/analytics: **no PII / no identifying analytics** (`00 §4`). *(Verified: no analytics/trackers/beacons in served code; no runtime fetch beyond `MEDIA_BASE` + the tap-gated YouTube facade; no transcript baked into crawlable HTML — the SPA fetches JSON at runtime; `.nojekyll` present, `03 §9`.)*
-- [x] Launch QA: export/import smoke (S6-verified); licensing note live on About (S10); final browser render check + budget re-check. *(Render verified across every structural state — no-POV L01–08, EP-null L15/L22, POV-text-only L19, full POV+EP, capstone — h1=1, all sections, zero console errors. **A full run-through on a real budget Android stays an owner step** — emulated throttling is close but physical mic-permission + touch targets deserve a real device.)*
+- [x] Launch QA: export/import smoke (S6-verified); ~~licensing note live on About (S10)~~ *(About page removed post-launch — the in-app licensing note is gone with it)*; final browser render check + budget re-check. *(Render verified across every structural state — no-POV L01–08, EP-null L15/L22, POV-text-only L19, full POV+EP, capstone — h1=1, all sections, zero console errors. **A full run-through on a real budget Android stays an owner step** — emulated throttling is close but physical mic-permission + touch targets deserve a real device.)*
 
 **Done when:** all 30 weekly lessons are complete (incl. the 60 grammar topics + folded EnglishPod/6ME) and manifest-validated, all lesson JSON + `data/index.json` are in the v2 shape, media resolves 1:1 in staging and is one command from R2 at $0, no analytics identifies a person, and the site renders cleanly across all lesson states. ✅ *(Met 2026-07-19: all 30 validate; 0 critical / 30-minor-all-fixed audit; manifest GREEN 535 keys; render + privacy + budgets pass. **Then launched on owner go-ahead: media published to R2 (381 objects, streaming live) + all 30 Fun-English videos populated & oEmbed-verified.** The only remaining owner item is a real budget-Android run-through.)*
 
