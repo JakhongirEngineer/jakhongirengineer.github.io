@@ -142,12 +142,9 @@ footer.site { margin-top: 96px; background: var(--paper-deep); padding-block: 40
 .legal strong { color: var(--ink); }
 
 @media (max-width: 960px) {
-  .hero-grid { grid-template-columns: 1fr; padding-bottom: 110px; }
-  /* Narrow screens: the two screenshots sit side by side, upright and fully visible (no overlap or tilt). */
-  .hero-shots { height: auto; display: flex; justify-content: center; align-items: flex-start; gap: 16px; max-width: 520px; width: 100%; margin: 0 auto; }
-  .hero-shots img { position: static; width: calc(50% - 8px); max-width: 240px; height: auto; transform: none; }
-  .hero-shots .front { order: 1; transform: none; }
-  .hero-shots .back { order: 2; margin-top: 40px; transform: none; }
+  .hero-grid { grid-template-columns: 1fr; padding-bottom: 104px; }
+  /* Narrow screens: no hero screenshots. The gallery just below shows all ten at a readable size. */
+  .hero-shots { display: none; }
   .features { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .two, .support-grid { grid-template-columns: 1fr; }
 }
@@ -158,9 +155,6 @@ footer.site { margin-top: 96px; background: var(--paper-deep); padding-block: 40
   .nav .hide-sm { display: none; }
   .hero .lede { font-size: 17px; }
   .badges img { height: 46px; }
-  .hero-shots { gap: 12px; }
-  .hero-shots img { border-radius: 20px; }
-  .hero-shots .back { margin-top: 28px; }
   .stats-card { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stat { padding: 20px 18px; }
   .stat b { font-size: 32px; }
