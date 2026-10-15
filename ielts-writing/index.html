@@ -2,283 +2,234 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouWrite — Train the skills. Let your AI grade.</title>
-    <meta name="description" content="YouWrite is an all-in-one, offline-first IELTS Writing trainer: structured lessons, spaced repetition, interactive games, and challenges — with one-tap handoff to your own AI for grading.">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
-
-        :root {
-            --bg: #0f1310;
-            --surface: #161c17;
-            --surface-light: #1d251e;
-            --text: #e8ebe6;
-            --muted: #9aa69a;
-            --accent: #b9e096;
-            --accent-strong: #cdeeb0;
-            --border: rgba(185,224,150,0.10);
-            --mark: #b9e096;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* Hero */
-        .hero {
-            text-align: center;
-            padding: 72px 24px 48px;
-            border-bottom: 1px solid var(--border);
-        }
-        .logo {
-            width: 84px;
-            height: 84px;
-            margin: 0 auto 20px;
-            border-radius: 20px;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 2px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.35);
-        }
-        .logo .mark {
-            font-family: 'IBM Plex Mono', monospace;
-            font-weight: 700;
-            font-size: 18px;
-            letter-spacing: 1px;
-            color: #11160f;
-            background: var(--mark);
-            padding: 1px 8px;
-            border-radius: 4px;
-            line-height: 1.3;
-        }
-        .logo .sub {
-            font-family: 'Source Serif 4', Georgia, serif;
-            font-size: 16px;
-            font-style: italic;
-            color: var(--text);
-        }
-        .hero h1 {
-            font-family: 'Source Serif 4', Georgia, serif;
-            font-size: 38px;
-            font-weight: 600;
-            letter-spacing: -0.5px;
-            margin-bottom: 12px;
-        }
-        .hero h1 .hl {
-            background: linear-gradient(transparent 62%, var(--mark) 62%, var(--mark) 92%, transparent 92%);
-            padding: 0 4px;
-        }
-        .hero .tagline {
-            font-size: 18px;
-            color: var(--muted);
-            max-width: 520px;
-            margin: 0 auto 16px;
-        }
-        .positioning {
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 13px;
-            letter-spacing: 0.5px;
-            color: var(--accent);
-            margin-bottom: 32px;
-            text-transform: uppercase;
-        }
-        .badge-link { display: inline-block; }
-        .badge-link img { height: 56px; }
-
-        /* Content */
-        .content {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 48px 24px;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 600;
-            color: var(--text);
-            margin-top: 40px;
-            margin-bottom: 16px;
-        }
-        h2:first-child { margin-top: 0; }
-        p {
-            color: var(--muted);
-            margin-bottom: 12px;
-            font-size: 15px;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-            margin: 24px 0;
-        }
-        @media (max-width: 520px) {
-            .features { grid-template-columns: 1fr; }
-        }
-        .feature {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-        }
-        .feature-icon { font-size: 28px; margin-bottom: 8px; }
-        .feature-title {
-            font-size: 15px;
-            font-weight: 600;
-            color: var(--text);
-            margin-bottom: 4px;
-        }
-        .feature-desc {
-            font-size: 13px;
-            color: var(--muted);
-            line-height: 1.5;
-        }
-
-        /* Data section */
-        .data-section {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 24px;
-            margin: 32px 0;
-        }
-        .data-section h3 {
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .data-section p { font-size: 14px; margin-bottom: 8px; }
-        .data-section ul {
-            color: var(--muted);
-            font-size: 14px;
-            padding-left: 20px;
-            margin-bottom: 8px;
-        }
-        .data-section ul li { margin-bottom: 4px; }
-
-        a { color: var(--accent); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-
-        .legal-links {
-            display: flex;
-            gap: 24px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 16px;
-        }
-        .legal-links a { font-size: 14px; color: var(--accent); }
-
-        .disclaimer {
-            font-size: 12px;
-            color: var(--muted);
-            text-align: center;
-            max-width: 600px;
-            margin: 32px auto 0;
-            line-height: 1.6;
-        }
-
-        .footer {
-            text-align: center;
-            padding: 32px 24px;
-            border-top: 1px solid var(--border);
-            color: var(--muted);
-            font-size: 13px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>YouWrite — IELTS Writing Prep for Task 1 &amp; Task 2</title>
+    <meta name="description" content="YouWrite is a complete IELTS Writing course for Task 1 and Task 2: lessons read aloud, 3,000+ drills that explain every answer, 300 exam questions, Band 9 sample essays and a red-pen essay check. For iPhone and Android.">
+    <meta name="theme-color" content="#BCD2F2">
+    <meta name="apple-itunes-app" content="app-id=6822849987">
+    <link rel="canonical" href="https://principiaforge.com/ielts-writing/">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="YouWrite — IELTS Writing Prep">
+    <meta property="og:description" content="Train the skills that raise your band: lessons, drills that teach, Band 9 sample essays and an exam-style writing studio.">
+    <meta property="og:image" content="https://principiaforge.com/ielts-writing/assets/og-image.jpg">
+    <meta property="og:url" content="https://principiaforge.com/ielts-writing/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500;1,6..72,600&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<div class="hero">
-    <div class="logo">
-        <span class="mark">You</span>
-        <span class="sub">Write</span>
+<header class="hero">
+    <div class="wrap">
+        <nav class="topbar" aria-label="Main">
+            <a class="brand" href="./"><img src="assets/youwrite-icon-128.png" alt="" width="38" height="38"><span>YouWrite</span></a>
+            <div class="nav">
+                <a class="hide-sm" href="#features">Features</a>
+                <a class="hide-sm" href="#grading">How grading works</a>
+                <a href="#support">Support</a>
+            </div>
+        </nav>
+
+        <div class="hero-grid">
+            <div class="hero-copy">
+                <div class="eyebrow">IELTS Writing · Task 1 &amp; Task 2</div>
+                <h1>Train the skills that <em>raise your band.</em></h1>
+                <p class="lede">A complete IELTS Writing course in your pocket: lessons read aloud, drills that explain every answer, Band 9 sample essays and an exam-style writing studio. When you want a grade, YouWrite hands your essay to the AI you already use.</p>
+                <div class="badges">
+                    <a href="https://apps.apple.com/app/id6822849987" target="_blank" rel="noopener"><img src="assets/badge-app-store.svg" alt="Download on the App Store" width="156" height="52"></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltswriting" target="_blank" rel="noopener"><img src="assets/badge-google-play.png" alt="Get it on Google Play" width="175" height="52"></a>
+                </div>
+                <p class="hero-note">For Academic and General Training. Explore everything free for 24 hours.</p>
+            </div>
+            <div class="hero-shots" aria-hidden="true">
+                <img class="back" src="assets/shot-02.jpg" alt="" width="540" height="1174">
+                <img class="front" src="assets/shot-01.jpg" alt="" width="540" height="1174">
+            </div>
+        </div>
     </div>
-    <h1><span class="hl">YouWrite</span></h1>
-    <p class="tagline">The all-in-one IELTS Writing trainer — structured lessons, spaced repetition, interactive games, and challenges, with one-tap handoff to your own AI for grading.</p>
-    <p class="positioning">AI grades your essays. We train the skills.</p>
-    <a class="badge-link" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltswriting" target="_blank" rel="noopener">
-        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
-    </a>
-</div>
+</header>
 
-<div class="content">
-
-    <h2>What is YouWrite?</h2>
-    <p>YouWrite is an offline-first practice app for IELTS Writing Task 1 and Task 2. It does the things AI does badly — a structured curriculum, spaced repetition, forced deliberate practice, and offline reliability — and hands grading off to the AI you already use. Write in a distraction-free studio, then send your essay to ChatGPT, Claude, or Gemini in one tap; the app turns the feedback into drills you actually remember.</p>
-
-    <div class="features">
-        <div class="feature">
-            <div class="feature-icon">📚</div>
-            <div class="feature-title">Structured Curriculum</div>
-            <div class="feature-desc">A guided path from Band 5 to Band 7+, with lessons, model essays, and an idea bank for every common topic.</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">🔁</div>
-            <div class="feature-title">Spaced Repetition</div>
-            <div class="feature-desc">Collocations, sentence patterns, and corrections resurface at the right moment so they stick for exam day.</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">🎮</div>
-            <div class="feature-title">Interactive Games</div>
-            <div class="feature-desc">Bite-size drills with adaptive difficulty turn grammar, vocabulary, and cohesion into quick, repeatable practice.</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">✍️</div>
-            <div class="feature-title">Writing Studio</div>
-            <div class="feature-desc">A focused editor with an on-device linter, word targets, and undo history — everything stays on your phone.</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">🤖</div>
-            <div class="feature-title">One-Tap AI Handoff</div>
-            <div class="feature-desc">Send your essay to your own AI for grading, then log the band score and turn the feedback into review cards.</div>
-        </div>
-        <div class="feature">
-            <div class="feature-icon">🔥</div>
-            <div class="feature-title">Challenges & Streaks</div>
-            <div class="feature-desc">Daily prompts, streaks, and themed challenges keep the deliberate practice going day after day.</div>
+<main>
+    <div class="wrap stats">
+        <div class="stats-card">
+            <div class="stat"><b>300</b><span>exam questions: 210 Task 2, 60 charts, 30 letters</span></div>
+            <div class="stat"><b>133</b><span>sample essays, 103 of them Band 9</span></div>
+            <div class="stat"><b>3,000+</b><span>drill exercises across 16 drill types</span></div>
+            <div class="stat"><b>76</b><span>lessons, including 39 on grammar</span></div>
         </div>
     </div>
 
-    <h2>How YouWrite uses your data</h2>
+    <section class="wrap" aria-labelledby="inside">
+        <div class="section-head">
+            <div class="eyebrow">Inside the app</div>
+            <h2 class="section-title" id="inside">See it before you download</h2>
+        </div>
+        <div class="gallery">
+            <figure><img src="assets/shot-01.jpg" alt="Your plan to Band 7+: a study plan built around your target band and test date" width="540" height="1174" loading="lazy"><figcaption>A plan built around your test date</figcaption></figure>
+            <figure><img src="assets/shot-02.jpg" alt="Write like it's exam day: the writing studio with a timer, live feedback and a word count" width="540" height="1174" loading="lazy"><figcaption>An exam-style writing studio</figcaption></figure>
+            <figure><img src="assets/shot-03.jpg" alt="Graded by your own AI: copy the examiner prompt, paste the grade back" width="540" height="1174" loading="lazy"><figcaption>Graded by the AI you already use</figcaption></figure>
+            <figure><img src="assets/shot-04.jpg" alt="Catch the slips that cost marks: a red-pen check of your essay" width="540" height="1174" loading="lazy"><figcaption>A red-pen check after every essay</figcaption></figure>
+            <figure><img src="assets/shot-05.jpg" alt="See why it's Band 9: a model essay explained paragraph by paragraph" width="540" height="1174" loading="lazy"><figcaption>Band 9 essays, explained</figcaption></figure>
+            <figure><img src="assets/shot-06.jpg" alt="Drills that teach: the fix, the rule and the lesson behind an answer" width="540" height="1174" loading="lazy"><figcaption>Drills that explain the answer</figcaption></figure>
+            <figure><img src="assets/shot-07.jpg" alt="Every lesson, read aloud: words light up as you listen" width="540" height="1174" loading="lazy"><figcaption>Lessons read aloud</figcaption></figure>
+            <figure><img src="assets/shot-08.jpg" alt="Task 1 charts, explained: a narrated tour of a chart" width="540" height="1174" loading="lazy"><figcaption>Narrated Task 1 chart tours</figcaption></figure>
+            <figure><img src="assets/shot-09.jpg" alt="Ideas for every Task 2 topic: both sides of each debate and topic vocabulary" width="540" height="1174" loading="lazy"><figcaption>Ideas for every Task 2 topic</figcaption></figure>
+            <figure><img src="assets/shot-10.jpg" alt="Vocabulary that sticks: spaced review flashcards" width="540" height="1174" loading="lazy"><figcaption>Vocabulary that sticks</figcaption></figure>
+        </div>
+    </section>
 
-    <div class="data-section">
-        <h3>Offline-first by design</h3>
-        <p>Your essays, review history, decks, progress, and settings are stored locally on your device. There is no account, sign-in, or sign-up — the app has no backend and does not upload your writing. You can export and import your data as a file at any time, entirely under your control.</p>
+    <section class="wrap" id="features" aria-labelledby="features-title">
+        <div class="section-head">
+            <div class="eyebrow">What you get</div>
+            <h2 class="section-title" id="features-title">Everything Task 1 and Task 2 ask of you</h2>
+            <p class="section-lede">Your AI can grade an essay. It can't run a course, drill you every day or make new words stick. That's what YouWrite does.</p>
+        </div>
+        <div class="features">
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                <h3>A full Writing course</h3>
+                <p>Every Task 2 question type, Academic charts, maps and processes, General Training letters, and 39 grammar lessons with self-check quizzes.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                <h3>Exam-day writing studio</h3>
+                <p>300 exam-style questions, a timer, live feedback and a word count. Mock mode adds an exam-length timer and an invigilator voice.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                <h3>Drills that teach</h3>
+                <p>16 drill types for paraphrasing, linking words, error spotting and Task 1 trends. Missed questions come back, and the level adapts to you.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+                <h3>Red-pen essay check</h3>
+                <p>After each essay, 200+ checks for common grammar and vocabulary slips. Every slip you make comes back later as a flashcard.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+                <h3>Band 9 sample essays</h3>
+                <p>133 sample answers with examiner-style notes, an X-ray of each paragraph's job, and Band 9 and Band 6 side by side.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
+                <h3>Read aloud</h3>
+                <p>Lessons, model essays and chart tours are narrated, with words lighting up as you listen. Audio for 1,600+ words and phrases.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+                <h3>Spaced repetition</h3>
+                <p>2,500+ flashcards for academic words, collocations and linking language, timed to your memory, with typed answers.</p>
+            </article>
+            <article class="feature">
+                <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+                <h3>A plan for your test date</h3>
+                <p>Set your target band, test date and weak spots, and get a daily plan with reminders, streaks and weekly progress reviews.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="wrap" id="grading" aria-labelledby="grading-title">
+        <div class="section-head">
+            <div class="eyebrow">Bring your own AI</div>
+            <h2 class="section-title" id="grading-title">How grading works</h2>
+            <p class="section-lede">YouWrite has no AI inside. It prepares the prompt; the AI assistant you already use (ChatGPT, Claude, Gemini or another) does the grading.</p>
+        </div>
+        <div class="steps">
+            <div class="step"><span class="n">1</span><h3>Write your essay</h3><p>Answer a Task 1 or Task 2 question in the studio, timed like the real exam.</p></div>
+            <div class="step"><span class="n">2</span><h3>Copy the examiner prompt</h3><p>One tap copies an examiner-style prompt with the band descriptors and your essay. Paste it into your AI.</p></div>
+            <div class="step"><span class="n">3</span><h3>Paste the grade back</h3><p>YouWrite reads the band scores, compares them with your own assessment and turns the fixes into flashcards.</p></div>
+        </div>
+        <p class="callout"><b>Your writing stays yours.</b> YouWrite never sends your essays anywhere. You decide what to paste into your AI.</p>
+    </section>
+
+    <section class="wrap" aria-labelledby="data-title">
+        <div class="section-head">
+            <div class="eyebrow">Privacy and pricing</div>
+            <h2 class="section-title" id="data-title">No account. Your data stays on your phone.</h2>
+        </div>
+        <div class="two">
+            <div class="privacy-list">
+                <div>
+                    <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+                    <div><h3>On your device</h3><p>Essays, review history, progress and settings are stored on your phone. There is no account, sign-in or server of ours. Lessons, drills and the writing studio work offline.</p></div>
+                </div>
+                <div>
+                    <div class="chip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+                    <div><h3>Third-party services</h3><p>RevenueCat manages subscriptions on both platforms. The Android app also uses Firebase Crashlytics and Analytics; the iPhone app uses neither. No essays or writing are shared with them. Read the <a href="privacy.html">Privacy Policy</a>.</p></div>
+                </div>
+            </div>
+            <aside class="pro" aria-labelledby="pro-title">
+                <div class="eyebrow">YouWrite Pro</div>
+                <h3 id="pro-title">Every feature, one subscription</h3>
+                <ul>
+                    <li>Explore everything free for 24 hours after setup.</li>
+                    <li>Then choose a monthly or yearly plan. Where offered, the yearly plan starts with a free trial.</li>
+                    <li>Prices are shown in the app before you buy and vary by country.</li>
+                    <li>Cancel anytime in your App Store or Google Play account.</li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <section class="wrap" id="support" aria-labelledby="support-title">
+        <div class="section-head">
+            <div class="eyebrow">Support</div>
+            <h2 class="section-title" id="support-title">Questions? Write to us.</h2>
+        </div>
+        <div class="support-grid">
+            <div class="contact">
+                <h3>Contact us</h3>
+                <a class="mail" href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a>
+                <p>For a question about your subscription, include your Support ID. You'll find it in the app under Settings → Membership.</p>
+            </div>
+            <div class="faq">
+                <details>
+                    <summary>How do I cancel my subscription?</summary>
+                    <ul>
+                        <li><strong>iPhone:</strong> open Settings → your name → Subscriptions → YouWrite → Cancel Subscription.</li>
+                        <li><strong>Android:</strong> open Google Play → your profile picture → Payments &amp; subscriptions → Subscriptions → YouWrite → Cancel.</li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>I paid, but the app doesn't show Pro</summary>
+                    <p>Open Settings → Membership in the app and tap Restore purchases. Make sure you're signed in to the same Apple Account or Google account you subscribed with. If that doesn't help, email us your Support ID.</p>
+                </details>
+                <details>
+                    <summary>How do I move my progress to a new phone?</summary>
+                    <p>On the old phone, go to Settings → Data → Export all data and save the file. On the new phone, go to Settings → Data → Import all data. Your subscription comes back with Restore purchases.</p>
+                </details>
+                <details>
+                    <summary>How do I delete my data?</summary>
+                    <p>Settings → Data → Factory reset erases your essays, decks, settings and streak on this phone. Uninstalling the app deletes everything too. We hold no copy, because nothing is stored on our side.</p>
+                </details>
+                <details>
+                    <summary>Why doesn't the Listen button play right away?</summary>
+                    <p>The read-aloud voice is a one-time download of about 560 MB. Tap Download on the Voice pack card in Learn, ideally on Wi-Fi.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site">
+    <div class="wrap foot">
+        <div class="foot-top">
+            <a class="brand" href="./"><img src="assets/youwrite-icon-128.png" alt="" width="38" height="38"><span>YouWrite</span></a>
+            <div class="foot-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="#support">Support</a>
+                <a href="/">PrincipiaForge</a>
+            </div>
+        </div>
+        <p class="disclaimer">IELTS is a registered trademark of the British Council, IDP: IELTS Australia and Cambridge University Press &amp; Assessment. YouWrite is an independent study app and is not affiliated with, endorsed by, or connected to these organizations. Band scores shown in the app are practice estimates and do not predict or guarantee official IELTS results.</p>
+        <p class="copyright">&copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC.</p>
     </div>
-
-    <div class="data-section">
-        <h3>Bring your own AI</h3>
-        <p>The app contains no AI and never sends your essays anywhere on its own. When you use the grading handoff, the app simply copies your essay so you can paste it into the AI tool you choose (ChatGPT, Claude, Gemini, or another). Anything you share with that tool is handled under that provider's own privacy policy.</p>
-    </div>
-
-    <div class="data-section">
-        <h3>Third-party services</h3>
-        <p>The app uses Firebase Crashlytics and Firebase Analytics to fix bugs and understand which features help learners, and RevenueCat to manage Pro subscriptions. No essays or personal writing are shared with these services. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
-    </div>
-
-    <h2>Available on Android</h2>
-    <p>YouWrite is built for Android, with iOS planned. Free to use, with an optional Pro upgrade that unlocks premium features and content.</p>
-
-    <div class="legal-links">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Service</a>
-        <a href="mailto:principiaforge@gmail.com">Contact Us</a>
-    </div>
-
-    <p class="disclaimer">IELTS is a registered trademark of the British Council, IDP: IELTS Australia, and Cambridge University Press &amp; Assessment. YouWrite is an independent study app and is not affiliated with, endorsed by, or connected to these organizations. Band scores shown in the app are practice estimates and do not predict or guarantee official IELTS results.</p>
-
-</div>
-
-<div class="footer">
-    &copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.
-</div>
+</footer>
 
 </body>
 </html>

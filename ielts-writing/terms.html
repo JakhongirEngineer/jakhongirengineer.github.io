@@ -2,99 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Terms of Service — YouWrite</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
-
-        :root {
-            --bg: #0f1310;
-            --surface: #161c17;
-            --text: #e8ebe6;
-            --muted: #9aa69a;
-            --accent: #b9e096;
-            --border: rgba(185,224,150,0.10);
-            --mark: #b9e096;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-        .header {
-            padding: 48px 24px 32px;
-            text-align: center;
-            border-bottom: 1px solid var(--border);
-        }
-        .header h1 {
-            font-family: 'Source Serif 4', Georgia, serif;
-            font-size: 28px;
-            font-weight: 600;
-            letter-spacing: -0.5px;
-        }
-        .header h1 .hl {
-            background: linear-gradient(transparent 62%, var(--mark) 62%, var(--mark) 92%, transparent 92%);
-            padding: 0 4px;
-        }
-        .header .app-name {
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 13px;
-            color: var(--muted);
-            margin-top: 8px;
-            letter-spacing: 0.5px;
-        }
-        .header .date {
-            font-size: 13px;
-            color: var(--muted);
-            margin-top: 6px;
-        }
-        .content {
-            max-width: 680px;
-            margin: 0 auto;
-            padding: 32px 24px 64px;
-        }
-        h2 {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--text);
-            margin-top: 32px;
-            margin-bottom: 12px;
-        }
-        p {
-            color: var(--muted);
-            margin-bottom: 12px;
-            font-size: 15px;
-        }
-        ul {
-            color: var(--muted);
-            font-size: 15px;
-            padding-left: 20px;
-            margin-bottom: 12px;
-        }
-        ul li { margin-bottom: 6px; }
-        a { color: var(--accent); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .footer {
-            text-align: center;
-            padding: 32px 24px;
-            border-top: 1px solid var(--border);
-            color: var(--muted);
-            font-size: 13px;
-        }
-    </style>
+    <meta name="theme-color" content="#BCD2F2">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500;1,6..72,600&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap">
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
-<div class="header">
-    <h1><span class="hl">Terms of Service</span></h1>
-    <div class="app-name">YouWrite</div>
-    <div class="date">Effective date: October 6, 2026</div>
-</div>
+<header class="legal-hero">
+    <div class="wrap">
+        <nav class="topbar" aria-label="Main">
+            <a class="brand" href="./"><img src="assets/youwrite-icon-128.png" alt="" width="38" height="38"><span>YouWrite</span></a>
+            <div class="nav">
+                <a href="./#features">Features</a>
+                <a href="./#support">Support</a>
+            </div>
+        </nav>
+        <div class="eyebrow">YouWrite</div>
+        <h1>Terms of Service</h1>
+        <div class="date">Effective date: October 15, 2026</div>
+    </div>
+</header>
 
-<div class="content">
+<main class="legal">
 
     <h2>1. Acceptance of Terms</h2>
     <p>By downloading, installing, or using YouWrite ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App. The App is published by PrincipiaForge ("we," "us," or "our").</p>
@@ -146,7 +81,7 @@
     <p>To the maximum extent permitted by applicable law, PrincipiaForge shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of study progress, or loss of profits, arising out of or related to your use of the App.</p>
 
     <h2>12. Third-Party Services</h2>
-    <p>The App integrates with third-party services including Google Play and the Apple App Store (for distribution and purchases), Firebase (for crash reporting and analytics), RevenueCat (for subscription management), and any external AI tool you choose to use. Your use of these services is subject to their respective terms and privacy policies. We are not responsible for the availability or conduct of third-party services.</p>
+    <p>The App integrates with third-party services including Google Play and the Apple App Store (for distribution and purchases), Firebase (for crash reporting and analytics in the Android app), RevenueCat (for subscription management), and any external AI tool you choose to use. Your use of these services is subject to their respective terms and privacy policies. We are not responsible for the availability or conduct of third-party services.</p>
 
     <h2>13. Changes to the App</h2>
     <p>We may update, modify, or discontinue features of the App at any time. We will make reasonable efforts to preserve your data when making changes, but cannot guarantee uninterrupted access to any specific feature.</p>
@@ -179,11 +114,22 @@
     <p>If you have questions about these Terms, please contact us at:</p>
     <p><a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a></p>
 
-</div>
+</main>
 
-<div class="footer">
-    &copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.
-</div>
+<footer class="site">
+    <div class="wrap foot">
+        <div class="foot-top">
+            <a class="brand" href="./"><img src="assets/youwrite-icon-128.png" alt="" width="38" height="38"><span>YouWrite</span></a>
+            <div class="foot-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="./#support">Support</a>
+                <a href="/">PrincipiaForge</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 PrincipiaForge. Tashkent, Uzbekistan. All rights reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>
