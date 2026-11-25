@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PYLTM6H5H7.com.principiaforge.ieltsspeaking"],
+        "components": [
+          {
+            "/": "/youspeak/",
+            "?": { "daily": "?*" },
+            "comment": "YouSpeak: a shared Daily card's link, /youspeak/?daily=<date>&idiom=<id>. Never /youspeak/*: the privacy policy and terms live there."
+          },
+          {
+            "/": "/youspeak",
+            "?": { "daily": "?*" },
+            "comment": "The same link without its trailing slash."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+# GitHub Pages builds this site with Jekyll, which skips dot-folders: include /.well-known/ so the apps' link files are served
+# (YouSpeak's apple-app-site-association and assetlinks.json). Nothing else changes.
+include:
+  - .well-known

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.principiaforge.ieltsspeaking",
+      "sha256_cert_fingerprints": [
+        "A1:21:8B:E6:2D:96:D0:27:0C:CD:4E:97:A1:D5:17:FA:73:32:1E:5A:60:A6:BC:6C:65:70:A0:1C:8C:92:C4:2B"
+      ]
+    }
+  }
+]

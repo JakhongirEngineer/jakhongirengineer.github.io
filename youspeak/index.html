@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>YouSpeak — IELTS Speaking practice</title>
+    <meta name="description" content="YouSpeak is an IELTS Speaking practice app. We don't guess your band. We train the four criteria. Band 9 answers you can hear, shadow and make your own.">
+    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#16122A" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="YouSpeak">
+    <meta property="og:title" content="YouSpeak — IELTS Speaking practice">
+    <meta property="og:description" content="We don't guess your band. We train the four criteria.">
+    <meta property="og:image" content="https://principiaforge.com/youspeak/assets/youspeak-icon-512.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:alt" content="The YouSpeak app icon">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="top">
+    <div class="wrap">
+        <a class="brand" href="./"><img src="assets/youspeak-icon-128.png" alt="" width="40" height="40"><span>YouSpeak</span></a>
+        <nav aria-label="YouSpeak">
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="#support">Support</a>
+        </nav>
+    </div>
+</header>
+
+<main class="wrap">
+    <h1>YouSpeak</h1>
+    <!-- a shared Daily card's link (P10 › The link) lands here when the app isn't installed, or the link opened in a browser -->
+    <section id="shared" class="panel hidden" aria-labelledby="shared-title">
+        <h2 id="shared-title" style="margin-top:0">Someone shared a YouSpeak Daily with you</h2>
+        <p>Get YouSpeak to play today's Daily. If you already have it, open the app.</p>
+        <div class="keys">
+            <a id="open-app" class="key primary hidden" href="#">Open in YouSpeak</a>
+        </div>
+        <p class="small soft">Opened inside another app? Use its menu to open this page in your browser.</p>
+    </section>
+
+    <p class="lede"><strong>We don't guess your band. We train the four criteria.</strong> Band 9 answers you can hear, shadow and
+        make your own: an IELTS Speaking practice app.</p>
+
+    <div class="badges" id="stores">
+        <a id="play" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltsspeaking"><img src="assets/badge-google-play.png" alt="Get it on Google Play" width="175" height="52"></a>
+        <span id="apple" class="coming">Coming soon to the App Store, for iPhone, iPad and Mac</span>
+    </div>
+    <p class="small soft">For Android phones and tablets, iPhone, iPad and Mac with Apple silicon.<span id="desktop" class="hidden">
+        On a computer? Open this page on your phone to get the app.</span></p>
+
+    <ul class="points">
+        <li><b>Band 9 answers</b>Hear a Band 9 answer to every question you practice.</li>
+        <li><b>Your own takes</b>See how your speaking time and pauses change from one take to the next.</li>
+        <li><b>Your ear</b>Train your ear on the English sounds you mix up, then practice saying them.</li>
+        <li><b>Your plan</b>Know what to practice each day, from a plan built on your answers.</li>
+    </ul>
+
+    <div class="panel">
+        <p><strong>Your recordings stay on your device.</strong> No account, no AI in the app, no ads and no tracking. Read the
+            <a href="privacy.html">Privacy Policy</a>.</p>
+    </div>
+
+    <h2 id="support">Support</h2>
+    <p>Questions, problems or ideas: email <!--email_off--><a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a><!--/email_off-->. In the app,
+        Settings › About › Contact support writes the email for you, with your app version filled in.</p>
+    <p>To delete your recordings or everything, go to Settings › Recordings and privacy in the app. To cancel a subscription, use
+        your store's Subscriptions page. More in the <a href="terms.html">Terms of Use</a>.</p>
+</main>
+
+<footer>
+    <div class="wrap">
+        <nav aria-label="Legal">
+            <a href="./">YouSpeak</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
+            <!--email_off--><a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a><!--/email_off-->
+            <a href="/">Principia Forge</a>
+        </nav>
+        <p>IELTS is a trademark owned by the British Council, IDP IELTS and Cambridge University Press &amp; Assessment. YouSpeak is not affiliated with, approved or endorsed by them.</p>
+        <p>Google Play and the Google Play logo are trademarks of Google LLC. App Store is a service mark of Apple Inc.</p>
+        <p>&copy; 2026 PrincipiaForge. Tashkent, Uzbekistan.</p>
+    </div>
+</footer>
+
+<script>
+// The store for this visitor's device first; a shared Daily's link shows who sent it and, on Android, a key that opens the
+// app when it's installed (Chrome's intent link), or Google Play when it isn't. Nothing is stored and nothing is sent.
+(function () {
+    var ua = navigator.userAgent;
+    var android = /Android/i.test(ua);
+    // an iPad's Safari sends a Mac's user agent: both get the App Store first, as a Mac with Apple silicon runs the iPad app
+    var apple = /iPhone|iPad|iPod|Macintosh/.test(ua);
+    var stores = document.getElementById('stores');
+    if (apple) stores.insertBefore(document.getElementById('apple'), stores.firstChild);
+    if (!apple && !android && !/Mobi/.test(ua)) document.getElementById('desktop').classList.remove('hidden');
+    // the app's own rules for a share link (ShareLink.kt): a yyyy-mm-dd date, and an idiom id or nothing
+    var query = new URLSearchParams(location.search);
+    var daily = query.get('daily') || '';
+    var idiom = query.get('idiom') || '';
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(daily)) return;
+    var day = new Date(daily + 'T00:00:00Z');
+    if (isNaN(day) || day.toISOString().slice(0, 10) !== daily) return;
+    if (!/^idm-[a-z0-9]+(-[a-z0-9]+)*$/.test(idiom)) idiom = '';
+    document.getElementById('shared').classList.remove('hidden');
+    if (android) {
+        var link = 'principiaforge.com/youspeak/?daily=' + daily + (idiom ? '&idiom=' + idiom : '');
+        var play = document.getElementById('play').href;
+        var open = document.getElementById('open-app');
+        open.href = 'intent://' + link + '#Intent;scheme=https;package=com.principiaforge.ieltsspeaking;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
+        open.classList.remove('hidden');
+    }
+})();
+</script>
+</body>
+</html>
