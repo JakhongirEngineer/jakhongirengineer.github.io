@@ -1,10 +1,13 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.principiaforge.ieltsspeaking",
       "sha256_cert_fingerprints": [
+        "E8:D6:2F:25:0F:0C:A9:19:F7:61:82:46:F7:30:DC:22:A7:43:76:55:72:3A:F1:8D:94:10:C3:0D:B0:5D:4A:CB",
         "A1:21:8B:E6:2D:96:D0:27:0C:CD:4E:97:A1:D5:17:FA:73:32:1E:5A:60:A6:BC:6C:65:70:A0:1C:8C:92:C4:2B"
       ]
     }
