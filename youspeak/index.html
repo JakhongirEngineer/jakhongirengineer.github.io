@@ -3,74 +3,408 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>YouSpeak — IELTS Speaking practice</title>
-    <meta name="description" content="YouSpeak is an IELTS Speaking practice app. We don't guess your band. We train the four criteria. Band 9 answers you can hear, shadow and make your own.">
-    <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#16122A" media="(prefers-color-scheme: dark)">
+    <title>YouSpeak — IELTS Speaking practice with Band 9 answers and shadowing</title>
+    <meta name="description" content="Practice every part of the IELTS Speaking test: 856 Part 1 and Part 3 questions and 100 Part 2 cue cards, each with its own Band 9 sample answer. Hear it, then shadow it. For iPhone, iPad, Mac with Apple silicon, and Android.">
+    <link rel="canonical" href="https://principiaforge.com/youspeak/">
+    <meta name="apple-itunes-app" content="app-id=6839665768">
+    <meta name="theme-color" content="#16874D">
     <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="YouSpeak">
+    <meta property="og:url" content="https://principiaforge.com/youspeak/">
     <meta property="og:title" content="YouSpeak — IELTS Speaking practice">
-    <meta property="og:description" content="We don't guess your band. We train the four criteria.">
-    <meta property="og:image" content="https://principiaforge.com/youspeak/assets/youspeak-icon-512.png">
-    <meta property="og:image:width" content="512">
-    <meta property="og:image:height" content="512">
-    <meta property="og:image:alt" content="The YouSpeak app icon">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:description" content="Know what to say and how to say it. Band 9 sample answers for every practice question, shadowing, pronunciation, vocabulary and full mock tests.">
+    <meta property="og:image" content="https://principiaforge.com/youspeak/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Know what to say and how to say it: YouSpeak's capybara and otter on a green background, between cards from the app.">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" href="assets/fonts/gabarito-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
+<body class="landing">
+<a class="skip" href="#main">Skip to content</a>
 <header class="top">
     <div class="wrap">
         <a class="brand" href="./"><img src="assets/youspeak-icon-128.png" alt="" width="40" height="40"><span>YouSpeak</span></a>
         <nav aria-label="YouSpeak">
-            <a href="privacy.html">Privacy</a>
-            <a href="terms.html">Terms</a>
+            <a href="#try">Try it</a>
+            <a class="hide-sm" href="#features">Features</a>
+            <a class="hide-sm" href="#pricing">Subscription</a>
             <a href="#support">Support</a>
         </nav>
     </div>
 </header>
 
-<main class="wrap">
-    <h1>YouSpeak</h1>
+<main id="main">
     <!-- a shared Daily card's link (P10 › The link) lands here when the app isn't installed, or the link opened in a browser -->
-    <section id="shared" class="panel hidden" aria-labelledby="shared-title">
-        <h2 id="shared-title" style="margin-top:0">Someone shared a YouSpeak Daily with you</h2>
-        <p>Get YouSpeak to play today's Daily. If you already have it, open the app.</p>
-        <div class="keys">
-            <a id="open-app" class="key primary hidden" href="#">Open in YouSpeak</a>
+    <section id="shared" class="shared hidden" aria-labelledby="shared-title">
+        <div class="wrap">
+            <h2 id="shared-title">Someone shared a YouSpeak Daily with you</h2>
+            <p>Get YouSpeak to play today's Daily. If you already have it, open the app.</p>
+            <div class="keys">
+                <a id="open-app" class="key primary hidden" href="#">Open in YouSpeak</a>
+            </div>
+            <p class="small">Opened inside another app? Use its menu to open this page in your browser.</p>
         </div>
-        <p class="small soft">Opened inside another app? Use its menu to open this page in your browser.</p>
     </section>
 
-    <p class="lede"><strong>We don't guess your band. We train the four criteria.</strong> Band 9 answers you can hear, shadow and
-        make your own: an IELTS Speaking practice app.</p>
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap hero-grid">
+            <div class="hero-copy">
+                <p class="kicker">IELTS Speaking practice</p>
+                <h1 id="hero-title">Know what to say and <mark>how to say it</mark></h1>
+                <p class="lede">Practice every part of the IELTS Speaking test: <span data-fact="p1p3">856</span> Part 1 and Part 3 questions and <span data-fact="cuecards">100</span> Part 2 cue cards. Each
+                    has its own Band 9 sample answer. Hear it, then shadow it.</p>
+                <div class="badges" id="download">
+                    <a id="badge-apple" href="https://apps.apple.com/app/id6839665768"><img src="assets/badge-app-store.svg" alt="Download on the App Store" width="156" height="52"></a>
+                    <a id="badge-play" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltsspeaking"><img src="assets/badge-google-play.png" alt="Get it on Google Play" width="175" height="52"></a>
+                </div>
+                <p class="platforms">For iPhone, iPad and Mac with Apple silicon, and Android™ phones and tablets.
+                    <span id="also-apple" class="hidden">Also available on the <a href="https://apps.apple.com/app/id6839665768">App Store</a> for iPhone, iPad and Mac with Apple silicon.</span>
+                    <span id="also-play" class="hidden">Also available on <a href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltsspeaking">Google Play</a> for Android phones and tablets.</span>
+                    <span id="desktop" class="hidden">On a computer? Open this page on your phone to get the app.</span></p>
+            </div>
+            <figure class="hero-video">
+                <div class="frame">
+                    <video id="preview" muted loop playsinline preload="metadata" poster="assets/video/preview-poster.webp" width="592" height="1202"
+                           aria-describedby="preview-caption">
+                        <source src="assets/video/preview.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <button type="button" class="video-toggle" id="preview-toggle"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5.5v13l10.5-6.5z"/><path class="i-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg><span>Play the preview</span></button>
+                <figcaption id="preview-caption" class="sr-only">A 30-second look at the app, without sound: a Band 9 answer playing with its words lit,
+                    shadowing with two pitch lines, the Part 2 talk timer, the idiom film for "wear many hats", the sheep and ship sound pair,
+                    and Today's plan.</figcaption>
+            </figure>
+        </div>
+        <svg class="pitch" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 92 C 160 92 210 40 330 52 S 520 104 640 86 S 800 22 930 34 S 1120 100 1240 78 S 1380 46 1440 54"/></svg>
+    </section>
 
-    <div class="badges" id="stores">
-        <a id="play" href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltsspeaking"><img src="assets/badge-google-play.png" alt="Get it on Google Play" width="175" height="52"></a>
-        <span id="apple" class="coming">Coming soon to the App Store, for iPhone, iPad and Mac</span>
-    </div>
-    <p class="small soft">For Android phones and tablets, iPhone, iPad and Mac with Apple silicon.<span id="desktop" class="hidden">
-        On a computer? Open this page on your phone to get the app.</span></p>
+    <section class="counts" aria-label="What's in the app">
+        <div class="wrap">
+            <ul class="count-list"><!--gen:counts-->
+<li><b>856</b><span>Part 1 and Part 3 questions</span></li>
+<li><b>100</b><span>Part 2 cue cards</span></li>
+<li><b>1,351</b><span>words, phrases and idioms in spaced review</span></li>
+<li><b>40</b><span>lessons, for every part of the test</span></li>
+<li><b>12</b><span>full mock tests, timed like the real one</span></li>
+<!--/gen:counts--></ul>
+            <p class="small soft">Counted from the app's content. All questions and cue cards are YouSpeak's own, written in the style of the test.
+                None is taken from an exam.</p>
+        </div>
+    </section>
 
-    <ul class="points">
-        <li><b>Band 9 answers</b>Hear a Band 9 answer to every question you practice.</li>
-        <li><b>Your own takes</b>See how your speaking time and pauses change from one take to the next.</li>
-        <li><b>Your ear</b>Train your ear on the English sounds you mix up, then practice saying them.</li>
-        <li><b>Your plan</b>Know what to practice each day, from a plan built on your answers.</li>
-    </ul>
+    <section id="try" class="band" aria-labelledby="try-title">
+        <div class="wrap">
+            <div class="section-head">
+                <h2 id="try-title">Hear what makes a <mark>Band 9</mark> answer</h2>
+                <p>Every practice question has its own Band 9 sample answer, and the app shows why it's a 9. Try two of them.</p>
+            </div>
+            <div class="demo answer-demo" data-demo="answers"><!--gen:answers-->
+<div class="tabs" role="tablist" aria-label="Pick a question"><button type="button" role="tab" id="tab-0" aria-controls="answer-0" aria-selected="true">Did you go on many vacations as a kid?<small>Female voice, 27 s</small></button><button type="button" role="tab" id="tab-1" aria-controls="answer-1" aria-selected="false" tabindex="-1">What&#x27;s your idea of a perfect vacation?<small>Male voice, 25 s</small></button></div>
+<div class="answer" id="answer-0" role="tabpanel" aria-labelledby="tab-0" data-src="assets/demo/b9-p1q-travel-03-direct.m4a" data-ms="27265">
+<p class="answer-q"><span class="chip part1">Part 1</span> Female voice</p>
+<div class="player"><button type="button" class="key primary play" aria-label="Play the Band 9 answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5.5v13l10.5-6.5z"/><path class="i-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg><span>Play</span></button><div class="track" aria-hidden="true"><div class="fill"></div></div><span class="time"><span class="now">0:00</span> / 0:27</span></div>
+<p class="answer-text"><span class="sent"><span class="w" data-s="90">Hardly</span> <span class="w" data-s="630">any,</span> <span class="w" data-s="1470">at</span> <span class="w" data-s="1710">least</span> <span class="w" data-s="1910">not</span> <span class="w" data-s="2070">with</span> <span class="w" data-s="2270">hotels</span> <span class="w" data-s="2670">and</span> <span class="w" data-s="2790">suitcases,</span> <span class="w" data-s="4105">so</span> <span class="w" data-s="4550">I&#x27;ve</span> <span class="w" data-s="4710">already</span> <span class="w" data-s="5030">traveled</span> <span class="w" data-s="5430">more</span> <span class="w" data-s="5670">as</span> <span class="w" data-s="5790">an</span> <span class="w" data-s="6070">adult</span> <span class="w" data-s="6390">than</span> <span class="w" data-s="6510">in</span> <span class="w" data-s="6630">my</span> <span class="w" data-s="6990">whole</span> <span class="w" data-s="7270">childhood.</span></span> <span class="sent"><span class="w" data-s="8555">Our</span> <span class="w" data-s="8910">one</span> <span class="w" data-s="9110">big</span> <span class="w" data-s="9350">outing</span> <span class="w" data-s="9830">was</span> <span class="w" data-s="9990">a</span> <span class="w" data-s="10150">beach</span> <span class="w" data-s="10470">day</span> <span class="w" data-s="10790">every</span> <span class="w" data-s="11190">August,</span> <span class="w" data-s="11955">with</span> <span class="w" data-s="12150">homemade</span> <span class="w" data-s="12550">sandwiches</span> <span class="w" data-s="13310">and</span> <span class="w" data-s="13430">a</span> <span class="w" data-s="13590">cooler</span> <span class="w" data-s="13950">of</span> <span class="w" data-s="14070">lemonade,</span> <span class="w" data-s="15125">and</span> <span class="w" data-s="15270">it</span> <span class="w" data-s="15510">felt</span> <span class="w" data-s="15750">bigger</span> <span class="w" data-s="16070">than</span> <span class="w" data-s="16350">most</span> <span class="w" data-s="16510">trips</span> <span class="w" data-s="16790">I&#x27;ve</span> <span class="w" data-s="16950">taken</span> <span class="w" data-s="17350">since.</span></span> <span class="sent"><span class="w" data-s="18450">My</span> <span class="w" data-s="18830">parents</span> <span class="w" data-s="19110">ran</span> <span class="w" data-s="19270">a</span> <span class="w" data-s="19470">small</span> <span class="w" data-s="19670">bakery,</span> <span class="w" data-s="20455">and</span> <span class="w" data-s="20590">they</span> <span class="w" data-s="20710">could</span> <span class="w" data-s="20950">never</span> <span class="w" data-s="21270">get</span> <span class="w" data-s="21550">away,</span> <span class="w" data-s="22210">since</span> <span class="w" data-s="22430">a</span> <span class="w" data-s="22590">bakery</span> <span class="w" data-s="22950">that</span> <span class="w" data-s="23110">closes</span> <span class="w" data-s="23590">for</span> <span class="w" data-s="23750">a</span> <span class="w" data-s="24070">week</span> <span class="w" data-s="24390">loses</span> <span class="w" data-s="24790">its</span> <span class="w" data-s="25130">regulars</span> <span class="w" data-s="25590">to</span> <span class="w" data-s="25710">the</span> <span class="w" data-s="25830">place</span> <span class="w" data-s="26150">across</span> <span class="w" data-s="26470">the</span> <span class="w" data-s="26630">street.</span></span></p>
+<p class="label-small">YouSpeak's own answer, written to match the public IELTS description of Band 9 speaking.</p>
+<h3 class="why-title">Why it's a 9</h3>
+<ol class="stages"><li><button type="button" class="stage" data-from="90" data-to="7940"><span class="stage-name">Then vs now</span><span class="stage-why"><b class="for9">For a 9:</b> Answers &quot;hardly any,&quot; then turns it around: she travels more now than then.</span></button></li><li><button type="button" class="stage" data-from="8555" data-to="17830"><span class="stage-name">Add a real detail</span><span class="stage-why"><b class="for9">For a 9:</b> One beach day with sandwiches and lemonade makes the childhood trips easy to see.</span></button></li><li><button type="button" class="stage" data-from="18450" data-to="27045"><span class="stage-name">Give the reason</span><span class="stage-why"><b class="for9">For a 9:</b> The family bakery explains it: closing for a week would cost them customers.</span></button></li></ol>
+</div>
+<div class="answer" id="answer-1" role="tabpanel" aria-labelledby="tab-1" hidden data-src="assets/demo/b9-p1q-travel-01-direct.m4a" data-ms="25310">
+<p class="answer-q"><span class="chip part1">Part 1</span> Male voice</p>
+<div class="player"><button type="button" class="key primary play" aria-label="Play the Band 9 answer"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5.5v13l10.5-6.5z"/><path class="i-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg><span>Play</span></button><div class="track" aria-hidden="true"><div class="fill"></div></div><span class="time"><span class="now">0:00</span> / 0:25</span></div>
+<p class="answer-text"><span class="sent"><span class="w" data-s="90">Something</span> <span class="w" data-s="625">small</span> <span class="w" data-s="1185">and</span> <span class="w" data-s="1425">slow,</span> <span class="w" data-s="2195">with</span> <span class="w" data-s="2465">no</span> <span class="w" data-s="2625">itinerary</span> <span class="w" data-s="3425">and</span> <span class="w" data-s="3745">nothing</span> <span class="w" data-s="4225">famous</span> <span class="w" data-s="4585">I&#x27;m</span> <span class="w" data-s="4785">supposed</span> <span class="w" data-s="5065">to</span> <span class="w" data-s="5265">see.</span></span> <span class="sent"><span class="w" data-s="6155">Last</span> <span class="w" data-s="6545">summer,</span> <span class="w" data-s="7000">two</span> <span class="w" data-s="7185">friends</span> <span class="w" data-s="7465">and</span> <span class="w" data-s="7585">I</span> <span class="w" data-s="7845">packed</span> <span class="w" data-s="8145">light</span> <span class="w" data-s="8505">and</span> <span class="w" data-s="8625">rented</span> <span class="w" data-s="8945">a</span> <span class="w" data-s="9025">lakeside</span> <span class="w" data-s="9585">cabin</span> <span class="w" data-s="9985">for</span> <span class="w" data-s="10225">four</span> <span class="w" data-s="10465">days,</span> <span class="w" data-s="11285">and</span> <span class="w" data-s="11385">the</span> <span class="w" data-s="11505">most</span> <span class="w" data-s="11665">ambitious</span> <span class="w" data-s="12305">thing</span> <span class="w" data-s="12465">we</span> <span class="w" data-s="12745">did</span> <span class="w" data-s="13025">was</span> <span class="w" data-s="13305">paddle</span> <span class="w" data-s="13665">a</span> <span class="w" data-s="13865">borrowed</span> <span class="w" data-s="14145">canoe</span> <span class="w" data-s="14545">to</span> <span class="w" data-s="14625">the</span> <span class="w" data-s="14865">far</span> <span class="w" data-s="15105">shore</span> <span class="w" data-s="15425">and</span> <span class="w" data-s="15665">back.</span></span> <span class="sent"><span class="w" data-s="16385">I&#x27;d</span> <span class="w" data-s="16665">pick</span> <span class="w" data-s="16945">that</span> <span class="w" data-s="17265">over</span> <span class="w" data-s="17505">any</span> <span class="w" data-s="17825">big</span> <span class="w" data-s="18065">city,</span> <span class="w" data-s="18685">because</span> <span class="w" data-s="19025">after</span> <span class="w" data-s="19345">a</span> <span class="w" data-s="19505">whole</span> <span class="w" data-s="19745">semester</span> <span class="w" data-s="20225">of</span> <span class="w" data-s="20425">lab</span> <span class="w" data-s="20785">reports,</span> <span class="w" data-s="21395">a</span> <span class="w" data-s="21585">few</span> <span class="w" data-s="21785">days</span> <span class="w" data-s="21985">of</span> <span class="w" data-s="22185">doing</span> <span class="w" data-s="22465">nothing</span> <span class="w" data-s="23025">feels</span> <span class="w" data-s="23265">like</span> <span class="w" data-s="23425">the</span> <span class="w" data-s="23745">biggest</span> <span class="w" data-s="24065">luxury</span> <span class="w" data-s="24585">there</span> <span class="w" data-s="24785">is.</span></span></p>
+<p class="label-small">YouSpeak's own answer, written to match the public IELTS description of Band 9 speaking.</p>
+<h3 class="why-title">Why it's a 9</h3>
+<ol class="stages"><li><button type="button" class="stage" data-from="90" data-to="5515"><span class="stage-name">Answer straight, with nuance</span><span class="stage-why">Answers at once with a clear picture: small, slow and unplanned.</span></button></li><li><button type="button" class="stage" data-from="6155" data-to="15835"><span class="stage-name">Add a real detail</span><span class="stage-why"><b class="for9">For a 9:</b> A borrowed canoe as the &quot;most ambitious&quot; plan shows how relaxed the trip was.</span></button></li><li><button type="button" class="stage" data-from="16385" data-to="25090"><span class="stage-name">Say how much you like it</span><span class="stage-why">Ranks the lake above any big city and gives the reason: a tiring semester.</span></button></li></ol>
+</div>
+<!--/gen:answers--></div>
+        </div>
+    </section>
 
-    <div class="panel">
-        <p><strong>Your recordings stay on your device.</strong> No account, no AI in the app, no ads and no tracking. Read the
-            <a href="privacy.html">Privacy Policy</a>.</p>
-    </div>
+    <section id="features" class="feature" aria-labelledby="parts-title">
+        <div class="wrap">
+            <div class="parts-top">
+            <div class="section-head">
+                <h2 id="parts-title">Practice for <mark>every part</mark></h2>
+                <p><span data-fact="p1">356</span> Part 1 questions in <span data-fact="p1topics">45</span> topics, <span data-fact="cuecards">100</span> Part 2 cue cards and
+                    <span data-fact="p3">500</span> Part 3 discussion questions, all written for YouSpeak. The test is the same for Academic
+                    and General Training.</p>
+            </div>
+            <div class="cast" aria-hidden="true">
+                <img class="moka" src="assets/cast/moka-kibo.svg" alt="" width="573" height="466">
+                <img class="tilo" src="assets/cast/tilo-showtime.svg" alt="" width="411" height="582">
+            </div>
+            </div>
+            <ol class="parts">
+                <li class="part part-1">
+                    <p class="part-head"><b>Part 1</b> <span>Short questions on familiar topics · 4–5&nbsp;min</span></p>
+                    <p class="part-q">Where do you see the most ads during a normal day?</p>
+                </li>
+                <li class="part part-2">
+                    <p class="part-head"><b>Part 2</b> <span>A cue card: 1&nbsp;min to plan, up to 2&nbsp;min to talk</span></p>
+                    <div class="cue">
+                        <p class="part-q">Describe a day trip that turned out better than you expected.</p>
+                        <p class="cue-say">You should say:</p>
+                        <ul><li>where you went</li><li>who you went with</li><li>what you did there</li></ul>
+                        <p class="cue-say">and explain what made it so good.</p>
+                    </div>
+                </li>
+                <li class="part part-3">
+                    <p class="part-head"><b>Part 3</b> <span>Deeper questions linked to the Part&nbsp;2 topic · 4–5&nbsp;min</span></p>
+                    <p class="part-q">Is a day trip as good as a real vacation?</p>
+                </li>
+            </ol>
+        </div>
+    </section>
 
-    <h2 id="support">Support</h2>
-    <p>Questions, problems or ideas: email <!--email_off--><a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a><!--/email_off-->. In the app,
-        Settings › About › Contact support writes the email for you, with your app version filled in.</p>
-    <p>To delete your recordings or everything, go to Settings › Recordings and privacy in the app. To cancel a subscription, use
-        your store's Subscriptions page. More in the <a href="terms.html">Terms of Use</a>.</p>
+    <section class="feature" aria-labelledby="talk-title">
+        <div class="wrap split">
+            <div class="copy">
+                <h2 id="talk-title">Talk for the whole <mark>two minutes</mark></h2>
+                <ul class="ticks">
+                    <li>Part 2 the exam way: 1 minute to plan on a keyword pad, then 2 minutes to speak.</li>
+                    <li>Again 4/3/2: three rounds on one card, each shorter than the last.</li>
+                    <li>Story Bank: <span data-fact="stories">12</span> stories from your own life, kept as notes and bent to fit each card.</li>
+                    <li><span data-fact="lessons">40</span> lessons for every part of the test, <span data-fact="p2lessons">8</span> of them for Part 2.</li>
+                    <li>The Mirror after every take: speech and silence, pauses, runs between pauses, your pitch line, and your speaking
+                        rate and pitch range beside the Band 9 voice's.</li>
+                </ul>
+            </div>
+            <div class="shots">
+                <img class="shot" src="assets/screens/talk-400.webp" srcset="assets/screens/talk-400.webp 400w, assets/screens/talk-800.webp 800w" sizes="(min-width: 900px) 340px, 78vw" width="1320" height="1645" loading="lazy"
+                     alt="The Part 2 talk, 28 seconds in: the day-trip cue card, a timer showing 1:32 left and the live level.">
+                <img class="shot callout" src="assets/screens/howto2-400.webp" srcset="assets/screens/howto2-400.webp 400w, assets/screens/howto2-800.webp 800w" sizes="(min-width: 900px) 300px, 70vw" width="1260" height="1100" loading="lazy"
+                     alt="How to answer Part 2: the lessons The Five Beats; The minute: pick, pad, first line; Hooks: three ways in; and Linkers and pauses.">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature" aria-labelledby="shadow-title">
+        <div class="wrap split reverse">
+            <div class="copy">
+                <h2 id="shadow-title"><mark>Shadow</mark> Band 9 answers</h2>
+                <p class="lead">Speak along, line by line, and match its intonation.</p>
+                <ul class="ticks">
+                    <li>Any Band 9 sample answer in Parts 1 to 3 opens shadowing: speak with it, or just after it.</li>
+                    <li>Your pitch line is drawn live beside the Band 9 answer's, line by line.</li>
+                    <li><span data-fact="scripts">38</span> shadowing scripts for rhythm, stress and tune.</li>
+                    <li>While you speak along, the microphone listens and nothing is saved. The last step, On your own, keeps your take.</li>
+                </ul>
+            </div>
+            <div class="shots">
+                <img class="shot" src="assets/screens/shadow-400.webp" srcset="assets/screens/shadow-400.webp 400w, assets/screens/shadow-800.webp 800w" sizes="(min-width: 900px) 360px, 82vw" width="1320" height="2040" loading="lazy"
+                     alt="Shadowing, with text: three lines of a Band 9 answer, each with the Band 9 pitch line in teal and the learner's pitch line in purple, and speed keys of 0.75×, 0.9× and 1×.">
+            </div>
+        </div>
+    </section>
+
+    <section id="sounds" class="band" aria-labelledby="sounds-title">
+        <div class="wrap">
+            <div class="section-head">
+                <h2 id="sounds-title">Pronunciation practice: <mark>sheep or ship?</mark></h2>
+                <p>IELTS doesn't grade your accent. It grades whether you're easy to follow from start to finish. That's what we train.</p>
+            </div>
+            <div class="split sounds">
+                <div class="demo lab" id="lab" role="group" aria-labelledby="lab-title">
+                    <p class="lab-kicker">Try the Sound Lab: 10 words</p>
+                    <h3 id="lab-title">Which word did you hear?</h3>
+                    <div class="lab-play">
+                        <button type="button" class="key model" id="lab-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9.5v5h4l5 4.5v-14L7 9.5zM15.5 8.2a5 5 0 0 1 0 7.6M18.2 5.5a8.8 8.8 0 0 1 0 13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>Play the word</span></button>
+                    </div>
+                    <div class="lab-tiles">
+                        <button type="button" class="tile" data-word="sheep" disabled>sheep</button>
+                        <button type="button" class="tile" data-word="ship" disabled>ship</button>
+                    </div>
+                    <p class="lab-status" id="lab-status" role="status" aria-live="polite"><span data-fact="talkers">Six</span> voices, one word at a time. Headphones help.</p>
+                    <div class="lab-reveal hidden" id="lab-reveal">
+                        <button type="button" class="key small-key" data-hear="sheep">Hear sheep</button>
+                        <button type="button" class="key small-key" data-hear="ship">Hear ship</button>
+                        <button type="button" class="key primary small-key" id="lab-next">Next</button>
+                    </div>
+                    <p class="lab-count" id="lab-count" aria-hidden="true"></p>
+                    <noscript><p class="small">Turn on JavaScript to try the Sound Lab.</p></noscript>
+                </div>
+                <div class="copy">
+                    <ul class="ticks">
+                        <li>Sound Lab: train your ear on the sound pairs that matter for your first language, with <span data-fact="talkers">six</span> voices:
+                            <span data-fact="sets">24</span> tricky pairs like this one.</li>
+                        <li><span data-fact="explainers">24</span> animated explainers that show how each sound is made.</li>
+                        <li>Drills for chunking, focus, tone, word stress, rhythm and connected speech.</li>
+                        <li>Mirror mode: watch your lips with the front camera, with nothing recorded or saved.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature" aria-labelledby="words-title">
+        <div class="wrap split">
+            <div class="copy">
+                <h2 id="words-title">Words come back <mark>before you forget</mark></h2>
+                <ul class="ticks">
+                    <li>Spaced repetition for <span data-fact="vocab">1,351</span> words, phrases and idioms: each one comes back on the day it's due, and you say it aloud.</li>
+                    <li><span data-fact="chunks">1,074</span> topic words, collocations, phrasal verbs and expressions for IELTS Speaking topics.</li>
+                    <li><span data-fact="moves">37</span> speaking moves with <span data-fact="phrasings">117</span> ways to say them.</li>
+                    <li><span data-fact="grammar">23</span> grammar units, learned by ear, aloud and in your own answers.</li>
+                </ul>
+            </div>
+            <div class="shots">
+                <img class="shot" src="assets/screens/review-400.webp" srcset="assets/screens/review-400.webp 400w, assets/screens/review-800.webp 800w" sizes="(min-width: 900px) 360px, 82vw" width="1320" height="745" loading="lazy"
+                     alt="Review: 12 cards due, about 2 minutes today, with a Start review key.">
+                <img class="shot callout" src="assets/screens/card-400.webp" srcset="assets/screens/card-400.webp 400w, assets/screens/card-800.webp 800w" sizes="(min-width: 900px) 300px, 70vw" width="1260" height="1040" loading="lazy"
+                     alt="A review card: New word, take a wrong turn.">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature" aria-labelledby="idioms-title">
+        <div class="wrap split reverse">
+            <div class="copy">
+                <h2 id="idioms-title">What does <mark>wear many hats</mark> mean?</h2>
+                <p class="lead">Have several different jobs or roles at the same time.</p>
+                <ul class="ticks">
+                    <li><span data-fact="idioms">100</span> American idioms: <span data-fact="films">65</span> as short animated films and
+                        <span data-fact="cards">35</span> as illustrated cards.</li>
+                    <li>Most show what the words look like literally. Each shows what it really means, and when it fits an IELTS answer and when it doesn't.</li>
+                </ul>
+            </div>
+            <div class="shots">
+                <img class="shot" src="assets/screens/hatsend-400.webp" srcset="assets/screens/hatsend-400.webp 400w, assets/screens/hatsend-800.webp 800w" sizes="(min-width: 900px) 380px, 86vw" width="1320" height="1155" loading="lazy"
+                     alt="The end of the film for wear many hats: Literally, the otter with a stack of hats on his head; Really, the otter in a food truck. Below, its meaning: have several different jobs or roles at the same time.">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature" aria-labelledby="plan-title">
+        <div class="wrap split">
+            <div class="copy">
+                <h2 id="plan-title">A daily plan to your <mark>test day</mark></h2>
+                <ul class="ticks">
+                    <li>Enter your test date and the plan counts down to it, about 15 to 25 minutes a day.</li>
+                    <li><span data-fact="mocks">12</span> full mock tests in the test's format and timing, 11 to 14 minutes.</li>
+                    <li>A review that shows what happened in each part and turns it into next week's plan.</li>
+                    <li><span data-fact="games">Seven</span> short games and the Daily, each training one thing the Speaking test grades, hosted by Tilo, an otter who never judges.</li>
+                    <li>Progress you can check: minutes spoken, days in a row, and your average run and pauses a minute beside your first take's.</li>
+                </ul>
+            </div>
+            <div class="shots">
+                <img class="shot" src="assets/screens/today-400.webp" srcset="assets/screens/today-400.webp 400w, assets/screens/today-800.webp 800w" sizes="(min-width: 900px) 360px, 82vw" width="1320" height="1640" loading="lazy"
+                     alt="Today: 7 weeks to your test, and Your plan for 16 minutes in three steps, Review, Sound Lab and Speak along with a sample answer, with a Continue key.">
+                <img class="shot callout" src="assets/screens/mocks-400.webp" srcset="assets/screens/mocks-400.webp 400w, assets/screens/mocks-800.webp 800w" sizes="(min-width: 900px) 290px, 66vw" width="1260" height="1370" loading="lazy"
+                     alt="Full mock tests: all three parts, 11 to 14 minutes, as on test day, with Exam and Practice modes and a Start Test 2 key.">
+            </div>
+        </div>
+    </section>
+
+    <section id="privacy" class="band" aria-labelledby="privacy-title">
+        <div class="wrap">
+            <div class="section-head">
+                <h2 id="privacy-title">Private by design</h2>
+            </div>
+            <ul class="trio">
+                <li><h3>Your recordings stay on your device</h3><p>So do your progress and your plan. Delete a take, or all of them, whenever you like.</p></li>
+                <li><h3>No account, no ads and no tracking</h3><p>On its own, the app sends only what purchases need: the subscription check to RevenueCat and, on Android, Google Play billing's own technical logs.</p></li>
+                <li><h3>No AI in the app</h3><p>Nothing turns your speech into text. Every measure is plain signal processing, made on your device.</p></li>
+            </ul>
+            <p class="more">Everything that leaves your device is listed in the <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+    </section>
+
+    <section id="pricing" class="feature" aria-labelledby="pricing-title">
+        <div class="wrap pricing">
+            <div class="section-head">
+                <h2 id="pricing-title">YouSpeak Pro</h2>
+                <p>A subscription is required to use YouSpeak after a short setup and your first practice answers: 1, 3 or 12 months, renewing
+                    automatically until you cancel. The app shows each plan's price and terms before you subscribe.</p>
+            </div>
+            <ul class="plans">
+                <li><b>1 month</b><span>Renews monthly</span></li>
+                <li><b>3 months</b><span>Renews quarterly</span></li>
+                <li><b>12 months</b><span>Renews yearly</span></li>
+            </ul>
+            <ul class="ticks narrow">
+                <li>Every feature in every plan: the questions, the Band 9 answers, shadowing, pronunciation, vocabulary, idioms, mock tests and games.</li>
+                <li>On Apple devices, one subscription works with the same Apple Account. On Android, with the same Google account.</li>
+                <li>Cancel any time in your App Store or Google Play subscriptions. Your recordings and progress stay on your device.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="faq" class="band" aria-labelledby="faq-title">
+        <div class="wrap faq">
+            <h2 id="faq-title">Questions</h2>
+            <details>
+                <summary>Does YouSpeak give me a band score?</summary>
+                <p>No. YouSpeak doesn't guess your band. It trains the four things the test grades: fluency and coherence, vocabulary,
+                    grammar and pronunciation. After each take it shows plain measures of your own speaking, such as your pauses and your
+                    runs between them, so you can see them change from one take to the next.</p>
+            </details>
+            <details>
+                <summary>Where do the questions come from?</summary>
+                <p>They are YouSpeak's own, written in the style of the test. None is taken from an exam. Each Band 9
+                    answer is written to match the public IELTS description of Band 9 speaking.</p>
+            </details>
+            <details>
+                <summary>Is it for Academic or General Training?</summary>
+                <p>Both. The IELTS Speaking test is the same for Academic and General Training.</p>
+            </details>
+            <details>
+                <summary>Which devices does it run on?</summary>
+                <p>iPhone, iPad and Mac with Apple silicon, from the App Store, and Android phones and tablets, from Google Play. A purchase
+                    on one store doesn't carry over to the other.</p>
+            </details>
+            <details>
+                <summary>Does it work offline?</summary>
+                <p>Yes, once the audio has arrived: a download of about 1.2 GB from the App Store, or about 1 GB from Google Play, that you
+                    start in the app (Wi-Fi recommended). Subscribing needs the internet, as does the first start after each renewal date.</p>
+            </details>
+            <details>
+                <summary>How do I cancel my subscription?</summary>
+                <ul>
+                    <li><strong>iPhone and iPad:</strong> in Settings, under your name, then Subscriptions.</li>
+                    <li><strong>Mac:</strong> in the App Store, under your name, then Subscriptions.</li>
+                    <li><strong>Android:</strong> on your Subscriptions page in Google Play.</li>
+                </ul>
+                <p>In the app, Settings › Access › Manage subscription takes you there. Your access lasts to the end of the period you paid for.</p>
+            </details>
+            <details>
+                <summary>I subscribed, but the app doesn't show it</summary>
+                <p>Tap Restore purchases on the subscription screen, or in Settings › Access, signed in with the same Apple Account or Google
+                    account you subscribed with. If that doesn't help, email us the Support ID shown there.</p>
+            </details>
+            <details>
+                <summary>How do I move to a new phone?</summary>
+                <p>Your recordings and progress live only on your device and aren't backed up, so a new phone starts fresh. Your
+                    subscription comes back with Restore purchases, using the same store account.</p>
+            </details>
+            <details>
+                <summary>How do I delete my recordings?</summary>
+                <p>In the app, go to Settings › Recordings and privacy (on the subscription screen, Recordings and privacy). You can delete
+                    recordings older than 30 days, 90 days or a year, delete all of them, or reset everything. One take at a time: Me › My recordings.</p>
+            </details>
+        </div>
+    </section>
+
+    <section id="support" class="feature" aria-labelledby="support-title">
+        <div class="wrap support">
+            <h2 id="support-title">Support</h2>
+            <p>Questions, problems or ideas: email <!--email_off--><a href="mailto:principiaforge@gmail.com">principiaforge@gmail.com</a><!--/email_off-->. In the app,
+                Settings › About › Contact support writes the email for you, with your app version filled in.</p>
+            <p>To delete your recordings or everything, go to Settings › Recordings and privacy in the app. To cancel a subscription, use
+                your store's Subscriptions page. More in the <a href="terms.html">Terms of Use</a>.</p>
+        </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+        <div class="wrap">
+            <h2 id="closing-title">Walk in ready on <mark>test day</mark></h2>
+            <p>YouSpeak is available on the <a href="https://apps.apple.com/app/id6839665768">App Store</a> for iPhone, iPad and Mac with Apple silicon, and on
+                <a href="https://play.google.com/store/apps/details?id=com.principiaforge.ieltsspeaking">Google Play</a> for Android phones and tablets.</p>
+        </div>
+    </section>
 </main>
 
 <footer>
@@ -83,39 +417,12 @@
             <a href="/">Principia Forge</a>
         </nav>
         <p>IELTS is a trademark owned by the British Council, IDP IELTS and Cambridge University Press &amp; Assessment. YouSpeak is not affiliated with, approved or endorsed by them.</p>
-        <p>Google Play and the Google Play logo are trademarks of Google LLC. App Store is a service mark of Apple Inc.</p>
+        <p>Apple, the Apple logo, iPhone, iPad and Mac are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.
+            Google Play and the Google Play logo are trademarks of Google LLC. Android is a trademark of Google LLC.</p>
         <p>&copy; 2026 PrincipiaForge. Tashkent, Uzbekistan.</p>
     </div>
 </footer>
 
-<script>
-// The store for this visitor's device first; a shared Daily's link shows who sent it and, on Android, a key that opens the
-// app when it's installed (Chrome's intent link), or Google Play when it isn't. Nothing is stored and nothing is sent.
-(function () {
-    var ua = navigator.userAgent;
-    var android = /Android/i.test(ua);
-    // an iPad's Safari sends a Mac's user agent: both get the App Store first, as a Mac with Apple silicon runs the iPad app
-    var apple = /iPhone|iPad|iPod|Macintosh/.test(ua);
-    var stores = document.getElementById('stores');
-    if (apple) stores.insertBefore(document.getElementById('apple'), stores.firstChild);
-    if (!apple && !android && !/Mobi/.test(ua)) document.getElementById('desktop').classList.remove('hidden');
-    // the app's own rules for a share link (ShareLink.kt): a yyyy-mm-dd date, and an idiom id or nothing
-    var query = new URLSearchParams(location.search);
-    var daily = query.get('daily') || '';
-    var idiom = query.get('idiom') || '';
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(daily)) return;
-    var day = new Date(daily + 'T00:00:00Z');
-    if (isNaN(day) || day.toISOString().slice(0, 10) !== daily) return;
-    if (!/^idm-[a-z0-9]+(-[a-z0-9]+)*$/.test(idiom)) idiom = '';
-    document.getElementById('shared').classList.remove('hidden');
-    if (android) {
-        var link = 'principiaforge.com/youspeak/?daily=' + daily + (idiom ? '&idiom=' + idiom : '');
-        var play = document.getElementById('play').href;
-        var open = document.getElementById('open-app');
-        open.href = 'intent://' + link + '#Intent;scheme=https;package=com.principiaforge.ieltsspeaking;S.browser_fallback_url=' + encodeURIComponent(play) + ';end';
-        open.classList.remove('hidden');
-    }
-})();
-</script>
+<script src="assets/landing.js" defer></script>
 </body>
 </html>
